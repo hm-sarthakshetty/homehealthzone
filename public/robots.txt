@@ -1,5 +1,11 @@
 # HHZ Respiratory Review — robots.txt
 # Crawlers explicitly allowed. Sitemap at bottom.
+#
+# Content Signals (contentsignals.org, draft-romm-aipref-contentsignals):
+# Declared in the catch-all User-agent: * block below. HHZ content is
+# published for: search indexing (yes), use as grounding/RAG context for
+# AI answer surfaces (yes), and inclusion in AI training corpora (yes) —
+# consistent with the explicit allowlist of training crawlers below.
 
 # --- AI / LLM training + retrieval crawlers (allowed) ---
 User-agent: GPTBot
@@ -85,5 +91,6 @@ Disallow: /admin/
 Disallow: /staging/
 Disallow: /drafts/
 Disallow: /.well-known/traffic-advice
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 
 Sitemap: https://homehealthzone.com/sitemap-index.xml
