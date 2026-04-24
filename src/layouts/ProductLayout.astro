@@ -80,6 +80,21 @@ const ogImage = primaryImage
 const keyFeatureEntries = Object.entries(product.key_features ?? {});
 const specTables = product.spec_tables ?? {};
 const faqs = product.faqs ?? [];
+
+// Map product category -> Top 5 pillar URL so every product review shows a
+// "See also: Top 5 in this category" cross-link. Null = no top-5 page for this
+// niche category (e.g. Dual Flow, Adjustable Purity, 8 LPM, 9 LPM).
+function topFivePillar(cat: string | undefined): { href: string; label: string } | null {
+  if (!cat) return null;
+  const c = cat.trim();
+  if (c === '5 LPM') return { href: '/top-5/5-lpm-oxygen-concentrators/', label: 'Top 5 5 LPM concentrators in India (2026)' };
+  if (c === '10 LPM') return { href: '/top-5/10-lpm-oxygen-concentrators/', label: 'Top 5 10 LPM concentrators in India (2026)' };
+  if (/portable/i.test(c)) return { href: '/top-5/portable-oxygen-concentrators/', label: 'Top 5 portable concentrators in India (2026)' };
+  if (c === 'CPAP') return { href: '/top-5/cpap-machines/', label: 'Top 5 CPAP machines in India (2026)' };
+  if (c === 'BiPAP') return { href: '/top-5/bipap-machines/', label: 'Top 5 BiPAP machines in India (2026)' };
+  return null;
+}
+const topFive = topFivePillar(product.category);
 ---
 <BaseLayout
   title={title}
@@ -96,14 +111,15 @@ const faqs = product.faqs ?? [];
       <p class="meta-line">
         {product.brand && <span>{product.brand}</span>}
         {product.category && <span>{product.category}</span>}
-        {product.rating_value && (
-          <span>
-            Rated {product.rating_value}
-            {product.rating_count && <> ({product.rating_count} ratings)</>}
-          </span>
-        )}
       </p>
     </header>
+
+    {topFive && (
+      <aside class="product__topfive" aria-label="Category ranking">
+        <span class="product__topfive-kicker">HHZ ranking</span>
+        <a href={topFive.href}>{topFive.label} →</a>
+      </aside>
+    )}
 
     <div class="product__top">
       <div class="product__gallery">
@@ -220,6 +236,36 @@ const faqs = product.faqs ?? [];
 </BaseLayout>
 
 <style>
+  .product__topfive {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-block: var(--space-5);
+    padding: var(--space-3) var(--space-4);
+    border-left: 3px solid var(--color-accent);
+    background: var(--color-data-bg);
+  }
+  .product__topfive-kicker {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+  }
+  .product__topfive a {
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-accent);
+  }
+  .product__topfive a:hover {
+    color: var(--color-accent);
+  }
+
   .product__top {
     display: grid;
     grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);

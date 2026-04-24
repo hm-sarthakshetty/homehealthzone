@@ -3,6 +3,7 @@ import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
 import { join } from 'node:path';
+import remarkResolveCitations from './scripts/remark-resolve-citations.mjs';
 
 const SITE_URL = 'https://homehealthzone.com';
 
@@ -116,8 +117,13 @@ export default defineConfig({
         return item;
       },
     }),
-    mdx(),
+    mdx({
+      remarkPlugins: [remarkResolveCitations],
+    }),
   ],
+  markdown: {
+    remarkPlugins: [remarkResolveCitations],
+  },
   build: { inlineStylesheets: 'always' },
   trailingSlash: 'always',
 });

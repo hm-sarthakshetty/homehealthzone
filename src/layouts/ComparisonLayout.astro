@@ -104,6 +104,20 @@ const winnerLabel = winner === 'A'
   : winner === 'tie'
   ? 'Tie'
   : null;
+
+// Both compared products share the same category (category-lock rule in CompareBuilder);
+// prefer productA's category for the Top-5 link.
+function topFivePillar(cat: string | undefined): { href: string; label: string } | null {
+  if (!cat) return null;
+  const c = cat.trim();
+  if (c === '5 LPM') return { href: '/top-5/5-lpm-oxygen-concentrators/', label: 'Top 5 5 LPM concentrators in India (2026)' };
+  if (c === '10 LPM') return { href: '/top-5/10-lpm-oxygen-concentrators/', label: 'Top 5 10 LPM concentrators in India (2026)' };
+  if (/portable/i.test(c)) return { href: '/top-5/portable-oxygen-concentrators/', label: 'Top 5 portable concentrators in India (2026)' };
+  if (c === 'CPAP') return { href: '/top-5/cpap-machines/', label: 'Top 5 CPAP machines in India (2026)' };
+  if (c === 'BiPAP') return { href: '/top-5/bipap-machines/', label: 'Top 5 BiPAP machines in India (2026)' };
+  return null;
+}
+const topFive = topFivePillar(productA.category);
 ---
 <BaseLayout
   title={title}
@@ -123,6 +137,13 @@ const winnerLabel = winner === 'A'
         )}
       </p>
     </header>
+
+    {topFive && (
+      <aside class="compare__topfive" aria-label="Category ranking">
+        <span class="compare__topfive-kicker">HHZ ranking</span>
+        <a href={topFive.href}>{topFive.label} →</a>
+      </aside>
+    )}
 
     {writeupFrontmatter?.verdict && (
       <aside class="compare__verdict-box">
@@ -233,6 +254,36 @@ const winnerLabel = winner === 'A'
     font-weight: 500;
     font-style: italic;
   }
+  .compare__topfive {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin-block: var(--space-5);
+    padding: var(--space-3) var(--space-4);
+    border-left: 3px solid var(--color-accent);
+    background: var(--color-data-bg);
+  }
+  .compare__topfive-kicker {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+  }
+  .compare__topfive a {
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-text);
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-accent);
+  }
+  .compare__topfive a:hover {
+    color: var(--color-accent);
+  }
+
   .compare__verdict-box {
     border: 1px solid var(--color-rule);
     padding: var(--space-5);

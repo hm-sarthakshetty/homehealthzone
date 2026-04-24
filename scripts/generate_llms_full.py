@@ -72,11 +72,30 @@ def extract_astro_text(astro_src: str) -> str:
     return astro_src.strip()
 
 
+_CITATION_RE = re.compile(r"\s*\[CITATION:[^\]]*\]")
+
+
+def strip_citations(body: str) -> str:
+    """Remove [CITATION: ...] editorial markers from the body text.
+
+    Source MDX files keep markers for future editorial backfill; the rendered
+    site already resolves credible sources to real links via the
+    remark-resolve-citations plugin. The llms-full.txt corpus gets markers
+    stripped wholesale — LLM retrievers can follow real links on the rendered
+    HTML; the placeholder markers would just be noise in the corpus.
+    """
+    # Collapse backtick-wrapped citations: `[CITATION: ...]` → ''
+    body = re.sub(r"`\s*\[CITATION:[^\]]*\]\s*`", "", body)
+    # Bare citations: [CITATION: ...] with any preceding whitespace
+    body = _CITATION_RE.sub("", body)
+    return body
+
+
 def section(url: str, title: str, body: str) -> str:
     return (
         f"# {title}\n\n"
         f"Source: {url}\n\n"
-        f"{body.strip()}\n\n"
+        f"{strip_citations(body).strip()}\n\n"
         "---\n\n"
     )
 
