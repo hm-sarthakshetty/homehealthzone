@@ -1,9 +1,9 @@
 {
   "slug": "oxyflow-5-lpm",
-  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/oxyflow-5-lpm",
+  "source_url": "",
   "product_name": "Oxypure 5L Oxygen Concentrator",
   "brand": "Sanrai",
-  "brand_href": "https://www.oxygentimes.com/brand/Sanrai/oxygen-concentrator",
+  "brand_href": "",
   "category": "5 LPM",
   "price_current": "57,600.00",
   "price_mrp": "52,800.00",
@@ -15,12 +15,12 @@
     {
       "src": "/images/products/oxypure-5l-oxygen-concentrator-70cb7ff1f3.jpg",
       "alt": "Oxypure 5L Oxygen Concentrator",
-      "original": "https://www.oxygentimes.com/storage/productlargeimages/Concentrador_de_oxigeno_1_700x7001685622179.jpg"
+      "original": ""
     },
     {
       "src": "/images/products/oxypure-5l-oxygen-concentrator-eabe1bd750.jpg",
       "alt": "Oxypure 5L Oxygen Concentrator",
-      "original": "https://www.oxygentimes.com/storage/productlargeimages/concentrador-ZY-5-AC-1_(1)1685622256.jpg"
+      "original": ""
     }
   ],
   "key_features": {

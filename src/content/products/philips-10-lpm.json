@@ -1,9 +1,9 @@
 {
   "slug": "philips-10-lpm",
-  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Philips-10-LPM",
+  "source_url": "",
   "product_name": "Philips 10 LPM",
   "brand": "Philips Respironics",
-  "brand_href": "https://www.oxygentimes.com/brand/Philips-Respironics/oxygen-concentrator",
+  "brand_href": "",
   "category": "10 LPM",
   "price_current": "129,600.00",
   "price_mrp": "177,600.00",
@@ -15,12 +15,12 @@
     {
       "src": "/images/products/philips-10-lpm-556784b7a9.jpg",
       "alt": "Philips 10 LPM",
-      "original": "https://www.oxygentimes.com/storage/productlargeimages/philips1662714166.jpg"
+      "original": ""
     },
     {
       "src": "/images/products/philips-10-lpm-f7f6944d2c.jpg",
       "alt": "Philips 10 LPM",
-      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-07 at 111638858655.jpg"
+      "original": ""
     }
   ],
   "key_features": {

@@ -32,7 +32,7 @@ const STRIP_PATTERNS = [
   /dealer\s+(?:list|data|directory|network|coverage|footprint)/i,
   /published\s+spec(?:ification)?\s*sheet/i,
   /publicly\s+published\s+specification/i,
-  /scraped|surveyed|data\s+from\s+(?:oxygentimes|e-commerce)/i,
+  /scraped|surveyed|data\s+from\s+e-commerce/i,
   /placeholder/i,
   /industry\s+(?:lore|convention|tracking|state)/i,
   /recall[- ]remediation\s+timeline/i,

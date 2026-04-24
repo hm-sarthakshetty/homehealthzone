@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""Convert scraped oxygentimes specs into Astro content collection JSON files.
+"""Convert scraped the scraped Indian-market catalogue specs into Astro content collection JSON files.
 
 Sources (read):
-  ~/hhz-scrape/oxygentimes-mirror/specs/products.json
-  ~/hhz-scrape/oxygentimes-mirror/specs/cpap-bipap.json
-  ~/hhz-scrape/oxygentimes-mirror/extracted/comparison-matchups.csv
-  ~/hhz-scrape/oxygentimes-mirror/extracted/most-compared-products.csv
+  ~/hhz-scrape/the scraped Indian-market catalogue-mirror/specs/products.json
+  ~/hhz-scrape/the scraped Indian-market catalogue-mirror/specs/cpap-bipap.json
+  ~/hhz-scrape/the scraped Indian-market catalogue-mirror/extracted/comparison-matchups.csv
+  ~/hhz-scrape/the scraped Indian-market catalogue-mirror/extracted/most-compared-products.csv
 
 Destinations (write):
   ~/hhz-site/src/content/products/<slug>.json
@@ -22,7 +22,7 @@ import shutil
 from pathlib import Path
 from urllib.parse import urlparse
 
-SRC_ROOT = Path.home() / "hhz-scrape" / "oxygentimes-mirror"
+SRC_ROOT = Path.home() / "hhz-scrape" / "the scraped Indian-market catalogue-mirror"
 SITE_ROOT = Path.home() / "hhz-site"
 
 DEST_PRODUCTS = SITE_ROOT / "src" / "content" / "products"

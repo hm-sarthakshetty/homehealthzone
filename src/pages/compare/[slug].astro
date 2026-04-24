@@ -22,7 +22,7 @@ const { entry } = Astro.props;
 const { data } = entry;
 
 // Look up each side across both product collections. Comparisons scraped from
-// oxygentimes may reference products we haven't ingested specs for yet.
+// the scraped Indian-market catalogue may reference products we haven't ingested specs for yet.
 type ReviewEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
 
 async function resolveProduct(slug: string): Promise<ReviewEntry | undefined> {

@@ -1,13 +1,13 @@
 {
   "slug": "s-cure-5-lpm",
-  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/S.Cure-5-LPM",
+  "source_url": "",
   "product_name": "S.Cure 5 LPM",
   "brand": "S. Cure",
-  "brand_href": "https://www.oxygentimes.com/brand/S.-Cure/oxygen-concentrator",
+  "brand_href": "",
   "category": "5 LPM",
   "price_current": "44,160.00",
   "price_mrp": null,
-  "price_symbol": "\u20b9",
+  "price_symbol": "₹",
   "rating_value": null,
   "rating_count": null,
   "stock": "Out of stock",
@@ -15,7 +15,7 @@
     {
       "src": "/images/products/s-cure-5-lpm-1f0d486bb9.jpg",
       "alt": "S.Cure 5 LPM",
-      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-03 at 41638528786.jpg"
+      "original": ""
     }
   ],
   "key_features": {
