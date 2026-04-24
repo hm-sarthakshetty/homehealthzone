@@ -1,0 +1,73 @@
+{
+  "slug": "haier-5l",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Haier-5L",
+  "product_name": "Haier 5L",
+  "brand": "Haier",
+  "brand_href": "https://www.oxygentimes.com/brand/Haier/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "62,400.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/haier-5l-2712f536a2.jpg",
+      "alt": "Haier 5L",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot_2021-12-19_at_101639934717.jpg"
+    },
+    {
+      "src": "/images/products/haier-5l-ecb3e6f386.jpg",
+      "alt": "Haier 5L",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot_2021-12-19_at_101639934718.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "1-5LPM",
+    "Weight": "19kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "400watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "1-5LPM",
+      "Weight": "19kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "400watts",
+      "Sound level": "40db",
+      "Dimensions": "14.88H x 11.41W x 22.99Dinch",
+      "Oxygen Purity % Analyzer": ""
+    },
+    "Additional details": {
+      "Loss of Power Alarm": "",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 19.0,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 40.0,
+    "power_w": 400,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true
+  }
+}

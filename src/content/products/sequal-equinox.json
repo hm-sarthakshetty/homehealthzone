@@ -1,0 +1,74 @@
+{
+  "slug": "sequal-equinox",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/SeQual-Equinox",
+  "product_name": "SeQual Equinox",
+  "brand": "Caire",
+  "brand_href": "https://www.oxygentimes.com/brand/Caire/oxygen-concentrator",
+  "category": "Portable (Battery-powered)",
+  "price_current": "336,000.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Discontinued",
+  "images": [
+    {
+      "src": "/images/products/sequal-equinox-f354dd369f.jpg",
+      "alt": "SeQual Equinox",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-07 at 101638853735.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Portable (Battery-powered)",
+    "Continuous Flow": "0.5-3LPM",
+    "Pulse Flow": "1-9Pulse setting",
+    "mL dose": "16mL",
+    "Weight": "6.34kg"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Portable (Battery-powered)",
+      "Continuous Flow": "0.5-3LPM",
+      "Pulse Flow": "1-9Pulse setting",
+      "mL dose": "16mL",
+      "Weight": "6.34kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Battery backup (at 2 pulse setting)": "2.7hours",
+      "Recharge time": "4hours",
+      "Backup with external battery pack": "5.9hours",
+      "Sound level": "40db"
+    },
+    "Additional details": {
+      "Dimensions": "13.6H x 10.6W x 7.4Dinch",
+      "Operating altitude": "13123feet",
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "Yes",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 6.34,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 3.0,
+    "has_pulse_flow": true,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 40.0,
+    "has_opi": false,
+    "faa_approved": true,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 13123
+  }
+}

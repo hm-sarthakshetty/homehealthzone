@@ -1,0 +1,70 @@
+{
+  "slug": "olex-5-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Olex-5-LPM",
+  "product_name": "Olex 5 LPM",
+  "brand": "Olex",
+  "brand_href": "https://www.oxygentimes.com/brand/Olex/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "37,440.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/olex-5-lpm-c84555d7e3.jpg",
+      "alt": "Olex 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-03 at 51638532482.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "1-5LPM",
+    "Weight": "15.9kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "320watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "1-5LPM",
+      "Weight": "15.9kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "320watts",
+      "Sound level": "45db",
+      "Outlet pressure": "8.5psi",
+      "Oxygen Purity % Analyzer": ""
+    },
+    "Additional details": {
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": "",
+      "Waterless Humidification": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "What's in the Box?\n\n1 Main unit\n\n1 Bottle\n\n1 Cannula\n\n1 Power cable\n\n1 User Manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 15.9,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 45.0,
+    "power_w": 320,
+    "has_humidifier": false,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

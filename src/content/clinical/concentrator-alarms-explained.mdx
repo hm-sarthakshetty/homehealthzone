@@ -1,0 +1,160 @@
+---
+title: "Concentrator alarms explained: taxonomy, root causes, first-response"
+description: "Every concentrator alarm category — low purity, low pressure, high temp, no flow, power fail, system malfunction — what triggers it, and what to try before calling service."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["concentrator", "alarms", "troubleshooting", "india", "operations"]
+---
+
+The concentrator beeps at 2 AM. The patient is asleep, or trying to be. The caregiver is standing in front of a machine with four LEDs, a buzzer, and no immediately obvious explanation. This is the most common single caregiver-distress event in home oxygen therapy. It is also the most common moment where the wrong response — pulling the plug, silencing the alarm, waiting until morning — converts a minor fault into equipment damage or a clinical desaturation.
+
+This article walks the full alarm taxonomy used by home stationary concentrators sold in India: low oxygen purity, low pressure, high temperature, no flow / flow failure, power failure, and system malfunction. For each, the discussion covers what the alarm actually signals, the typical root causes, the caregiver's first-line check, and the decision point at which a service call is the right next step.
+
+## The alarm taxonomy
+
+Every home stationary concentrator sold in India — Philips, DeVilbiss, Inogen, AirSep, BPL, Oxymed, Nidek, Longfian, Yuwell, Home Medix, and the various rebadged OEMs — uses some subset of six alarm categories. Labels differ, audio patterns differ, LED colours differ, but the physics underlying each alarm is the same across brands because the PSA cycle that all these units run is the same.
+
+The six categories:
+
+- **Low oxygen purity** — sometimes labelled OCSI (Oxygen Concentration Status Indicator), OPI (Oxygen Purity Indicator), or "low O₂." Delivered oxygen concentration has fallen below threshold.
+- **Low pressure** — compressor output pressure below the threshold required to drive the PSA cycle.
+- **High temperature** — internal temperature sensor above cutoff, typically on the compressor head or exhaust path.
+- **No flow / flow failure** — patient-side flow below the set value; sometimes combined with low-pressure, sometimes a separate sensor.
+- **Power fail** — mains lost; unit running on an internal backup cell that drives only the alarm, not the compressor.
+- **System malfunction** — ECU / control-board fault; catch-all for sensor failures, solenoid faults, and self-test failures.
+
+On simple units (most 5 LPM home stationary), these are exposed as coloured LEDs with standard audio patterns: a slow pulsing yellow for purity, a steady red for pressure, a double-tone for temperature, a continuous tone for power. On units with an LCD display (Philips 10 LPM, BPL Oxy-10 Neo, Nidek Nuvo 10, Inogen At Home), the display shows a text code and sometimes a fault number. Writing down the exact code before silencing matters — the code is the first thing any service engineer asks for.
+
+The first thing any new concentrator owner should do, before the patient uses the unit, is read the alarm section of the manual sitting next to the device, identify each LED and audio pattern, and simulate the power-fail alarm (briefly disconnect mains). Knowing what each alarm sounds like in a quiet room in advance is worth more than the user manual in a midnight panic.
+
+## Low oxygen purity
+
+**What it sounds like.** Slow pulsing beep, one beep every 2–4 seconds, paired with a yellow/amber indicator. Some units display "Low O2," "OCSI fail," or "Purity." The first-stage warning at the 82% threshold is typically repeatable and non-escalating — the unit keeps running, the beep continues, the LED stays lit. A hard-fault threshold at 73–75% on some models forces protective shutdown with a louder alarm.
+
+**What it actually signals.** Delivered purity at the outlet has dropped below spec. The FDA and CDSCO medical oxygen concentrator standards both require 93% ±3% under rated flow [CITATION: ISO 80601-2-69 medical oxygen concentrator performance standard]. Readings sustained in the 80s warrant investigation; readings below 82% on any flow setting are a clinical problem.
+
+**Root causes, in order of likelihood:**
+
+- **Sieve degradation.** The zeolite has picked up water over time and can no longer hold nitrogen during the adsorption phase. On a unit 30–48 months old, this is the modal cause. The failure is gradual — purity trends downward over months rather than dropping off a cliff.
+- **Inlet filter blockage.** A gross inlet filter cake restricts intake airflow. The compressor cannot pull enough air, the sieve bed is under-supplied, and output purity drops. This is reversible in ten minutes with a filter wash.
+- **Ambient air intake contamination.** A concentrator placed next to a kitchen exhaust, a smoking area, a dusty storage room, or (in winter Delhi) an open window on a high-PM day is ingesting air whose oxygen partial pressure is already depleted and whose particulate load accelerates sieve damage. Move the unit.
+- **Internal pneumatic leak.** Less common. A solenoid valve that fails to seal during a PSA phase shortcircuits the cycle. Usually accompanied by subtle changes in the cycle's audible rhythm.
+- **Flowmeter fault.** Rare — usually the flowmeter reads flow that is not there rather than triggering a purity alarm.
+
+**First-line check:**
+
+1. Inspect the gross inlet filter visually. If visibly loaded, wash it, dry it, wait 24 hours, reinstall, and observe.
+2. Confirm 30 cm clearance on all sides of the cabinet. Move the unit if placement is poor.
+3. Run the unit at its lowest flow setting for 30 minutes. If purity alarm clears on low flow but reappears at higher flow, the sieve is fatigued — the unit is still useful at low flow but will need service before the patient moves to higher flow settings.
+4. If the alarm persists at low flow with a clean filter and good placement, call service.
+
+A single low-purity alarm in six months of runtime is noise. Repeated alarms within a month are signal. Keep a log of when alarms occur and under what flow setting — the pattern tells the service engineer more than the reading at the visit moment.
+
+## Low pressure
+
+**What it sounds like.** Steady, continuous tone on most units; paired with a red "fault" LED. Some units label this "low output" or "compressor pressure."
+
+**What it actually signals.** Compressor output pressure has fallen below the threshold required to drive the PSA cycle — typically 15–25 psi depending on the design. The unit cannot complete a normal adsorption phase; some units shut down the flow output entirely, others keep delivering at reduced purity.
+
+**Root causes:**
+
+- **Compressor wear.** The rocking-piston or scroll compressor has worn piston rings or valves, and output pressure has declined to the fault threshold. This is an age-and-hours failure, usually after 15,000+ hours of runtime.
+- **External tubing leak.** The most common cause on a unit under two years old. Somewhere between the compressor and the patient, there is a disconnected or cracked tube, an un-seated humidifier bottle, a cracked humidifier lid, or a split cannula connector. The pressure drops because air is escaping before it reaches the flowmeter.
+- **Solenoid fault.** A valve that is supposed to close during a specific PSA phase is partially open, venting pressure. Often detected by the characteristic change in the cycle's audible pattern.
+- **Internal tubing leak.** Less common. A cracked internal tube, usually in the connection between the compressor and the first sieve bed.
+
+**First-line check:**
+
+1. Walk the entire external circuit — humidifier bottle seal, patient tubing, extension tubing, cannula. Re-seat the humidifier firmly. Replace any obviously damaged segment.
+2. Listen to the compressor audio cycle. Normal is a rhythmic cycle with clean transitions every 2–8 seconds depending on flow. A wet or rattly cycle points to valve or solenoid.
+3. If external-circuit repair clears the alarm, the case is closed. If not, call service.
+
+The temptation to ignore a low-pressure alarm because flow at the cannula "still feels fine" is dangerous. A unit running below pressure threshold is delivering reduced purity silently. The purity alarm may not trigger immediately because the sieve bed has surge capacity, but the patient is being under-dosed in the meantime.
+
+## High temperature
+
+**What it sounds like.** Double-tone or triple-tone beep pattern; red indicator. Often labelled "Temp" or "High Temp." On most units, this alarm is followed by protective shutdown within 30–120 seconds if not resolved.
+
+**What it actually signals.** An internal temperature sensor has exceeded its cutoff. The sensor is typically on the compressor head (which runs hottest) or in the exhaust airflow path.
+
+**Root causes:**
+
+- **Ventilation blocked.** The cabinet has been pushed against a wall, curtains have drifted over the intake, or something has fallen onto the top panel blocking the exhaust. This is the modal cause and the easiest fix.
+- **Ambient temperature above spec.** Most concentrators are rated for 5–40°C operation; a few lower-end models cap at 35°C. Peak Indian summers in Rajasthan, Gujarat, Madhya Pradesh, inland Maharashtra, and Andhra Pradesh routinely exceed these limits in bedrooms without active cooling. Move the unit to the coolest room, add a ceiling fan or AC, or shift heaviest use to cooler hours.
+- **Compressor wear.** A worn compressor runs hotter because internal friction is higher. Often accompanies the end of compressor life.
+- **Cooling-fan failure.** Most units have an internal cooling fan; a fan that has stopped spinning means the cabinet cannot dissipate heat. User-detectable by the absence of the fan's airflow at the exhaust.
+
+**First-line check:**
+
+1. Immediately check clearance — 30 cm on all sides. Move obstacles, pull the unit away from the wall.
+2. Check the room temperature. If above 35°C, move the unit to a cooler room or start an AC.
+3. Feel for airflow at the exhaust grille. No airflow means the fan is stopped — call service.
+4. If the unit shuts down before you can act, let it cool for 20 minutes with the cabinet open to airflow, then restart. Repeated shutdowns in one day indicate a persistent problem and warrant a service call.
+
+## No flow / flow failure
+
+**What it sounds like.** Continuous tone or rapid beeping; sometimes labelled "Flow fail" or "No flow." On units with both pressure and flow sensors, this alarm is distinct from low pressure — the compressor may be producing rated pressure, but the flow delivered to the patient is below setpoint.
+
+**Root causes:**
+
+- **Kinked tubing.** The single most common cause. The patient rolls over in bed, the extension tubing folds under a piece of furniture, the cannula line gets trapped under the caster of a wheelchair. Visual inspection finds this in under a minute.
+- **Flowmeter blockage.** The small ball in the flowmeter tube gets stuck, or debris in the flowmeter restricts the orifice. Tapping the flowmeter gently often frees the ball.
+- **Flowmeter fault.** Electronic flowmeters on higher-end units can fail; the sensor reports zero flow when flow is actually present. Requires dealer diagnosis.
+- **Humidifier blockage.** A scaled humidifier diffuser stone raises resistance to the point where flow at the patient side falls below threshold.
+
+**First-line check:**
+
+1. Walk the line from concentrator outlet to cannula. Fix any visible kink.
+2. Disconnect the humidifier and connect the patient tubing directly to the concentrator outlet. If flow recovers, the humidifier is the problem — replace the bottle or clean the diffuser.
+3. Tap the flowmeter gently with a fingernail. If the flow ball rises normally after tapping, debris was the cause.
+4. If none of the above, call service.
+
+## Power fail
+
+**What it sounds like.** Continuous high-pitched tone. Always accompanied by the unit going dark — no compressor sound, no other LEDs.
+
+**What it actually signals.** Mains power is gone. The unit has an internal battery or capacitor-backed alarm that drives only the audible warning — not the compressor. Duration of alarm continuation varies by unit: 5 minutes on most units, up to 20 minutes on a few higher-end models.
+
+**Root causes:**
+
+- **Mains outage / load shedding.** The Indian reality for most patients.
+- **Circuit breaker tripped.** A shared circuit drawing too much current has popped the breaker.
+- **Plug or cord fault.** Less common.
+- **Stabiliser / UPS shutdown.** If the unit is on a servo stabiliser that has its own shutdown conditions (e.g., input voltage outside working range), the stabiliser may be dropping power to the concentrator even while mains is present.
+
+**First-line check:**
+
+1. Silence the alarm per the manual (usually holding a specific button for 3–5 seconds).
+2. If the patient is on continuous oxygen, switch immediately to the backup — a portable O₂ cylinder if one is on hand, a portable concentrator if available, or move the patient to a facility if the outage will be extended.
+3. Check the stabiliser/UPS/inverter first: is its input LED on? Is its output LED on? A failed stabiliser is more common than people expect.
+4. Check the building's main mains: other electrical loads working?
+5. If the cord is suspect, do not attempt repair — call the dealer.
+
+Any patient on long-term oxygen therapy should have a defined backup plan written down: cylinder size, location, connector type, hours of runtime, contact number for refill. The power-fail alarm is not the time to discover the backup plan.
+
+## System malfunction
+
+**What it sounds like.** Highly variable. Typically a distinct tone pattern from the other alarms, often accompanied by a specific fault code on LCD-equipped units. On non-LCD units, may present as a combination of LEDs that doesn't match any single alarm description.
+
+**What it actually signals.** The control board has detected an internal fault that doesn't fit into any of the other categories. Possibilities include sensor failures, solenoid faults, self-test failures during startup, memory errors, or firmware hangs.
+
+**Root causes, per published service bulletins across brands:**
+
+- **Sensor failure.** Temperature, pressure, flow, or purity sensor has failed electrically — the reading is implausible (out of range) and the control board flags it.
+- **Solenoid fault.** A solenoid valve is not responding to the control board's command, either mechanically stuck or electrically open-circuit.
+- **Compressor thermal cutoff activated internally.** Separate from the high-temp alarm, some units have an independent compressor-internal cutoff that reports back to the control board as a system fault.
+- **Self-test failure.** On startup, the control board runs a sequence of internal checks. Any failure aborts startup and logs a system fault.
+- **Power supply irregularity.** Frequent on units running off poor-quality inverters or under significant voltage sag — the control board's internal rail is itself unstable and throws errors.
+
+**First-line check:**
+
+1. Record the exact fault code or LED pattern. Power off, wait 5 minutes, power back on. A transient fault will clear.
+2. If the fault repeats on restart, and the unit has been on an inverter or non-ideal power source, switch to a servo stabiliser with clean mains and retest.
+3. If the fault still repeats, call the dealer and quote the exact fault code. Do not open the cabinet — opening voids most Indian warranties immediately.
+
+## Practical takeaway
+
+Alarms are information, not enemies. Every alarm has a specific physical cause, and for most of them, the caregiver's first-line checks resolve 60–80% of cases without a service call. Keep the manual within arm's reach of the unit. Keep a written log of every alarm that occurs — date, time, flow setting, duration before it cleared, what fixed it. The log is the first thing any service engineer will ask for, and the pattern in the log often tells them more than the live reading at the visit.
+
+If an alarm persists after first-line checks, stop troubleshooting and call service. Running a concentrator through an unresolved alarm is how transient problems become catastrophic failures, and how warranties get voided. A service call is ₹500–1,500 in most Indian cities; a sieve replacement after an unresolved purity fault is ₹15,000–30,000. Consult your prescribing physician if alarm patterns correlate with changes in the patient's clinical condition — an alarm pattern can be an early signal of a clinical deterioration independent of device fault.

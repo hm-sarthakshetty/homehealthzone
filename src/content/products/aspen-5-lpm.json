@@ -1,0 +1,74 @@
+{
+  "slug": "aspen-5-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Aspen-5-LPM",
+  "product_name": "Aspen 5 LPM",
+  "brand": "Aspen",
+  "brand_href": "https://www.oxygentimes.com/brand/Aspen/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "40,320.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/aspen-5-lpm-fe74607275.jpg",
+      "alt": "Aspen 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 41638182902.jpg"
+    },
+    {
+      "src": "/images/products/aspen-5-lpm-782ae97c54.jpg",
+      "alt": "Aspen 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 41638182903.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5-5LPM",
+    "Weight": "21kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "350watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5-5LPM",
+      "Weight": "21kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "350watts",
+      "Sound level": "40db",
+      "Dimensions": "24.4H x 15.3W x 13.26Dinch",
+      "Outlet pressure": "5.5psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 21.0,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 40.0,
+    "power_w": 350,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

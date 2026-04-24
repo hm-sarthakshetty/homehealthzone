@@ -1,0 +1,145 @@
+---
+import type { GetStaticPaths } from 'astro';
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ComparisonLayout from '../../layouts/ComparisonLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection, getEntry, render } from 'astro:content';
+
+export const getStaticPaths = (async () => {
+  const comparisons = await getCollection('comparisons');
+  return comparisons.map((entry) => ({
+    params: { slug: entry.data.slug },
+    props: { entry },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  entry: CollectionEntry<'comparisons'>;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+
+// Look up each side across both product collections. Comparisons scraped from
+// oxygentimes may reference products we haven't ingested specs for yet.
+type ReviewEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
+
+async function resolveProduct(slug: string): Promise<ReviewEntry | undefined> {
+  const fromProducts = await getEntry('products', slug);
+  if (fromProducts) return fromProducts;
+  const fromCpapBipap = await getEntry('cpap-bipap', slug);
+  if (fromCpapBipap) return fromCpapBipap;
+  return undefined;
+}
+
+function reviewHref(e: ReviewEntry): string {
+  if (e.collection === 'products') {
+    return `/oxygen-concentrators/${e.data.slug}/`;
+  }
+  const deviceType = e.data.device_type;
+  return `/${deviceType}/${e.data.slug}/`;
+}
+
+const productA = await resolveProduct(data.productA_slug);
+const productB = await resolveProduct(data.productB_slug);
+
+const bothResolved = Boolean(productA && productB);
+
+const writeup = await getEntry('comparison-writeups', data.slug);
+const WriteupContent = writeup ? (await render(writeup)).Content : null;
+const writeupFrontmatter = writeup?.data ?? undefined;
+
+const title = data.title;
+const description = bothResolved
+  ? `${data.title} — specs, price, and verdict. Independent side-by-side comparison by HHZ Respiratory Review.`
+  : `${data.title} — full comparison in progress. Here's what we know about each device from public specs.`;
+
+const canonicalURL = new URL(`/compare/${data.slug}/`, Astro.site).toString();
+
+const crumbs = [
+  { href: '/', label: 'Home' },
+  { href: '/compare/', label: 'Compare' },
+  { href: `/compare/${data.slug}/`, label: data.title },
+];
+---
+{bothResolved && productA && productB ? (
+  <ComparisonLayout
+    productA={productA.data}
+    productB={productB.data}
+    productAHref={reviewHref(productA)}
+    productBHref={reviewHref(productB)}
+    title={writeupFrontmatter?.title ?? title}
+    description={description}
+    canonicalURL={canonicalURL}
+    comparison={data}
+    writeupFrontmatter={writeupFrontmatter}
+  >
+    {WriteupContent && <WriteupContent />}
+  </ComparisonLayout>
+) : (
+  <BaseLayout title={title} description={description} canonicalURL={canonicalURL}>
+    <Breadcrumbs items={crumbs} />
+
+    <article class="placeholder">
+      <header>
+        <h1>{title}</h1>
+        <p class="lead">
+          Full side-by-side comparison coming soon. Here's what we know about each product
+          based on public specs.
+        </p>
+      </header>
+
+      <div class="placeholder-grid">
+        <section>
+          <h2>{data.productA_name}</h2>
+          {productA ? (
+            <p>
+              Full review available at
+              {' '}<a href={reviewHref(productA)}>{productA.data.product_name}</a>.
+            </p>
+          ) : (
+            <p>
+              We haven't published a full review of {data.productA_name} yet. We'll update this
+              page once the review is ready.
+            </p>
+          )}
+        </section>
+
+        <section>
+          <h2>{data.productB_name}</h2>
+          {productB ? (
+            <p>
+              Full review available at
+              {' '}<a href={reviewHref(productB)}>{productB.data.product_name}</a>.
+            </p>
+          ) : (
+            <p>
+              We haven't published a full review of {data.productB_name} yet. We'll update this
+              page once the review is ready.
+            </p>
+          )}
+        </section>
+      </div>
+    </article>
+  </BaseLayout>
+)}
+
+<style>
+  .placeholder header {
+    margin-bottom: var(--space-8);
+  }
+  .placeholder-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--space-6);
+  }
+  .placeholder-grid section {
+    padding: var(--space-5);
+    background: var(--color-surface, #f6f2ec);
+    border-radius: 4px;
+  }
+  .placeholder-grid h2 {
+    margin-top: 0;
+  }
+</style>

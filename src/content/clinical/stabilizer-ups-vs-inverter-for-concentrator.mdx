@@ -1,0 +1,139 @@
+---
+title: "Stabiliser vs UPS vs inverter for a concentrator: VA-rating decision matrix"
+description: "Sizing rules for servo stabiliser, online UPS, and pure-sine inverter against a concentrator's published 320–610 W draw — with Indian pricing and warranty implications."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["stabiliser", "ups", "inverter", "concentrator", "india", "va-rating", "power", "warranty"]
+---
+
+A home oxygen concentrator spends most of its life running a compressor motor continuously. Everything else in the box — control board, zeolite sieve columns, flowmeter, purity sensor — lives or dies with how cleanly that compressor's power is delivered. In the Indian domestic context, clean is not the default. The decision a buyer has to make is which combination of protection devices to install: a voltage stabiliser alone, a stabiliser plus an online UPS, or a stabiliser plus a pure-sine-wave inverter with a battery bank. The right answer depends on four inputs — the concentrator's published power draw, the utility's voltage behaviour on the feeder, the outage pattern, and whether the patient's therapy can tolerate 30-second gaps.
+
+This piece is a companion to our article on <a href="/clinical/voltage-fluctuations-and-concentrator-warranty/">voltage fluctuations and concentrator warranty language</a>, which covers the utility-side voltage-band picture in detail.
+
+## Step one: read the concentrator's power-draw spec
+
+Before any protection device is sized, the number that matters is the concentrator's rated AC power draw — usually printed on the nameplate as watts (W) or volt-amperes (VA), and repeated in the manufacturer brochure.
+
+Representative published figures across Indian-market stationary concentrators (from manufacturer brochures and e-commerce product listings):
+
+| Concentrator class | Typical published draw | VA equivalent (PF ≈ 0.7) |
+| --- | --- | --- |
+| 5 LPM entry-level (Philips Everflo, BPL Oxy 5 Neo, Oxymed Eco 5, Yuwell 7F) | 330–390 W | ~470–560 VA |
+| 5 LPM mid-tier (Invacare Perfect O2, Devilbiss 5 LPM) | 350–450 W | ~500–640 VA |
+| 8 LPM (Home Medix 8 LPM, Airsep Intensity 8) | 480–550 W | ~680–790 VA |
+| 10 LPM stationary (Oxymed 10, Home Medix 10 LPM, Devilbiss 10 LPM, Philips 10 LPM, Nidek Nuvo 10) | 550–650 W | ~825–930 VA |
+| 10 LPM heavy-duty (Airsep Intensity 10, Invacare Platinum 10) | 650–700 W | ~930–1,000 VA |
+
+The power-factor conversion from watts to VA matters because protection devices are sized in VA, not watts. A compressor load at a real-world power factor of 0.7 draws 1.43× its watt-rating as apparent VA. Some spec sheets print watts at steady-state running; the actual inrush current at compressor startup spikes 3–5× the steady-state for 100–300 ms. This inrush is why the sizing rule carries a margin.
+
+Two anchoring examples: a 5 LPM concentrator at ~350 W (Philips Everflo published draw) ≈ 500 VA steady-state, up to 2,500 VA peak at startup — any stabiliser or UPS below 750 VA is cutting it close. A 10 LPM at 610 W (Home Medix or Oxymed 10 LPM published draw) ≈ 870 VA, inrush to 3,500 VA — 1 kVA minimum, 1.5 kVA comfortable. Default assumption without a spec sheet: 400 W steady-state for 5 LPM, 650 W for 10 LPM, 1.5× on top.
+
+## Step two: utility-side variance and patient therapy mode
+
+The Indian domestic feeder does not deliver a flat 230 V. Across the large state discoms — MSEDCL, BESCOM, TANGEDCO, WBSEDCL, the three Delhi discoms — daytime voltage typically sits within a 210–245 V band, with evening-peak softening to 195–225 V and rural-feeder tail-ends routinely as low as 170–210 V in Vidarbha, North Bengal, North Karnataka, and interior Tamil Nadu. Hill-station feeders (Shimla, Darjeeling, Gangtok, Ooty) carry a weather-induced imbalance risk that produces transient over-voltage events of 280–330 V during storms.
+
+A 2026 servo stabiliser priced at ₹4,000–6,000 with 140–280 V input range covers most urban Indian installations. A 90–300 V wide-range unit priced at ₹6,000–9,000 covers rural feeders and hill-station installations. Below the 140 V floor, even a wide-range stabiliser runs out of correction range.
+
+## Step three: is the patient on continuous therapy?
+
+The question that decides whether a UPS or inverter is required, versus a stabiliser alone:
+
+- **Patient on continuous flow LTOT with no cylinder backup on-site.** The concentrator must never stop. Any outage — a 30-second load-shed transfer, a 15-minute storm-triggered trip, a 3-hour scheduled load shedding window — is a gap in therapy. A stabiliser alone is not sufficient because it has no battery. The minimum configuration is stabiliser + online UPS sized for the concentrator load.
+- **Patient on nocturnal-only therapy or exertion-triggered therapy, with cylinder on-site.** A short outage is not acute; the cylinder bridges the first few minutes and the patient can either switch to cylinder or ride out the outage. A stabiliser alone is acceptable if voltage-range correction is the only problem. If outages are frequent (more than once a week) or long (more than 30 minutes), a UPS is still the cleaner answer even with cylinder backup, because the cylinder depletes and needs refilling each time it is used.
+- **Patient on pulse-flow therapy for pulmonary rehabilitation or occasional hypoxia.** Therapy can tolerate interruption. A stabiliser protects the equipment; a UPS is discretionary.
+
+The common failure mode we see is a patient on continuous LTOT who trusts the cylinder as primary backup, runs the concentrator off a stabiliser alone, and is caught in a 2-hour summer outage with no remaining cylinder because the last two outages emptied it. Cylinder-as-backup works when there is refill discipline and the outages are rare. For most Tier-2 and Tier-3 Indian cities, the outages are not rare.
+
+## When a servo stabiliser alone is sufficient
+
+A servo stabiliser — an auto-correcting voltage regulator that uses a tap-changing transformer to hold output in a narrow band (200–240 V typical) even as input swings across 140–280 V — is the baseline protection. Every Indian concentrator installation should have one. The question is whether it needs anything else added.
+
+The servo stabiliser is sufficient when:
+
+1. The household has a predictable, short, infrequent outage pattern (less than one outage per week, with outages typically under 5 minutes). Lutyens' Delhi, south Mumbai, inner Bengaluru, and cantonment areas in most Tier-1 cities fit this.
+2. The patient is not on continuous LTOT; therapy can be interrupted briefly without clinical consequence.
+3. Cylinder backup is on-site, monitored, and refilled before depletion.
+4. The feeder voltage, measured with a plug-in voltmeter over a few weeks, stays within the stabiliser's correction band. If the voltage drops below the stabiliser's input floor (typically 140 V for standard units, 90 V for wide-range units), the stabiliser output also drops out of spec and the compressor sees undervoltage.
+
+Sizing rule for the stabiliser (applied across Indian dealer practice):
+
+```
+Stabiliser VA rating ≥ 1.5 × concentrator VA rating,
+                        rounded up to the next available size.
+```
+
+Worked examples against the published specs above:
+
+- **Philips Everflo 5 LPM (350 W ≈ 500 VA):** required stabiliser ≥ 750 VA. Buy a 1 kVA servo stabiliser. Indian retail ₹4,500–6,500 in 2026 for a V-Guard, Microtek, or Servokon unit. [CITATION: product brochures and Indian e-commerce listings for Philips Everflo and mainstream servo stabilisers]
+- **BPL Oxy 5 Neo (5 LPM, ~390 W ≈ 560 VA):** required stabiliser ≥ 840 VA. Buy a 1 kVA unit; same price band.
+- **Home Medix 10 LPM (610 W ≈ 870 VA):** required stabiliser ≥ 1,300 VA. Buy a 1.5 kVA unit. Indian retail ₹6,500–9,000.
+- **Oxymed 10 LPM (610 W ≈ 870 VA):** same as above.
+- **Home ventilator or BiPAP on a shared line:** size for the combined load, then apply 1.5×. A BiPAP at 65 W plus a 5 LPM concentrator at 350 W is a combined 415 W ≈ 590 VA; required stabiliser ≥ 890 VA; buy a 1 kVA.
+
+Servo is preferred over relay-switched stabilisers for compressor loads because the relay stabiliser's step correction produces brief voltage transients at each tap change, which compressor motors tolerate poorly over time. The price delta is roughly ₹500–1,000 and it is non-negotiable for medical equipment.
+
+## When an online UPS is mandatory
+
+An online (double-conversion) UPS continuously converts AC to DC, charges a battery off the DC bus, and drives output through an inverter running permanently off the battery. There is no transfer time — the output is always running from battery. Switching transients that offline UPS units produce on outage (4–10 ms) are absent.
+
+An online UPS is mandatory when the patient cannot tolerate a 30-second gap in therapy: continuous LTOT without on-site cylinder backup; nocturnal-desaturation patients (an outage at 2 am triggers a desaturation event and waking); home-ventilator patients on continuous NIV where interruption stops mechanical ventilation.
+
+UPS sizing uses the same 1.5× rule. Runtime depends on the battery bank:
+
+- **Internal battery (12V/26Ah or 24V/9Ah sealed):** 8–15 minutes at concentrator load. Covers grid-switching transfers, not 15-minute-plus outages.
+- **External 12V/100Ah tubular:** 45–90 minutes at 5 LPM; 30–45 minutes at 10 LPM.
+- **Two or more 12V/150Ah tubular (24V UPS):** 2–4 hours at 5 LPM; 1.5–2.5 hours at 10 LPM.
+
+Indian retail in 2026: ₹15,000–25,000 for a 1 kVA online UPS, ₹22,000–35,000 for a 2 kVA unit, before batteries. Tubular batteries add ₹12,000–20,000 each. Reputable brands: APC Schneider, Microtek, Luminous, Vertiv (Liebert), Numeric. Offline or line-interactive UPS units — the standard desktop-computer UPS — are *not* suitable; the transfer glitch destabilises the compressor and damages it over months.
+
+## When a pure-sine-wave inverter becomes the correct answer
+
+Pure-sine-wave domestic inverters — the kind installed in Indian homes for scheduled load-shedding bridging, with two 150 Ah tubular batteries and 2–6 hours of runtime on domestic load — become the economical choice when outage durations routinely exceed 60 minutes. The break-even logic: a UPS with enough battery bank to bridge 3 hours of load shedding costs as much as a standalone inverter installation and does not also power the household lights and fans, which the inverter does.
+
+Pure-sine-wave is the non-negotiable specification for an inverter that runs a concentrator. The output waveform matters because a compressor motor is sensitive to harmonic content in the AC supply:
+
+- **Square-wave inverters** produce a waveform with infinite harmonic content. The motor windings heat rapidly, the torque delivery is erratic, and the compressor life collapses from years to months. Square-wave inverters — typically the cheapest 600 VA domestic units sold at small-appliance shops — should never be in a concentrator power path. The compressor may appear to run at first; the damage is cumulative.
+- **Modified sine-wave (quasi-sine, stepped-sine) inverters** produce a waveform with significant third- and fifth-harmonic content. The motor heats less catastrophically than on square-wave but still faster than on pure-sine, and the compressor's efficiency falls because some of the input energy is dissipated as heat rather than mechanical work. Compressor life shortens proportionally. Modified-sine units are widespread in the Indian domestic inverter market because they are cheaper than pure-sine; they are inappropriate for medical equipment.
+- **Pure sine-wave inverters** produce a waveform chemically identical to the grid sine-wave, with total harmonic distortion typically below 3%. The compressor sees no difference between the inverter output and clean mains. Concentrator manufacturers that approve inverter operation at all approve only pure-sine-wave inverters, typically specifying a VA rating ≥ 2× the concentrator VA (a more conservative margin than the 1.5× used for stabilisers, to accommodate the inverter's own losses).
+
+Sizing rule for a pure-sine inverter running a concentrator:
+
+```
+Inverter VA rating ≥ 2 × concentrator VA rating.
+Battery bank sized for desired runtime at the concentrator load.
+```
+
+Worked example: a 5 LPM concentrator at 500 VA requires a pure-sine inverter rated ≥ 1,000 VA. Two 150 Ah tubular batteries at 12V provide roughly 3,600 Wh of storage. At a 500 W load (the concentrator alone), minus inverter efficiency losses of roughly 15%, the usable runtime is approximately (3,600 × 0.85) / 500 ≈ 6 hours. A 10 LPM concentrator at 870 VA requires a 1.5–2 kVA inverter; the same two-battery bank provides approximately 4 hours of runtime at its 650 W draw.
+
+Indian retail in 2026: ₹8,000–14,000 for a 1 kVA pure-sine unit; ₹12,000–20,000 for a 1.5–2 kVA unit. Two 150 Ah C10 tubular batteries add ₹25,000–35,000. Total installed cost ₹35,000–55,000 is only worth it when outage duration routinely exceeds 60 minutes per day. Hill-station installations (Manali, Shimla, Gangtok, Darjeeling, Ooty, Srinagar) are an exception: monsoon and winter storm outages here run 4–12 hours with unreliable restoration estimates, and a 2-battery pure-sine installation bridges the storm.
+
+## Why square-wave inverters damage compressor motors
+
+A compressor motor is an inductive load. Under pure-sine-wave supply, the current is a sine wave lagging by the motor's power-factor angle; energy flows into mechanical work with small ohmic dissipation. Under square-wave supply, Fourier decomposition shows infinite odd harmonics (1st, 3rd, 5th, 7th…) riding on the fundamental. Each harmonic drives current in the windings that does no useful mechanical work but dissipates resistive heat. Over time, the insulation degrades. Modified-sine is a partial fix — fewer harmonics than square, more than sine — so the damage is slower but still progressive.
+
+The failure mode is silent. The compressor runs normally for weeks or months, the motor gradually heats above design temperature, and eventually an inter-turn short produces cascade winding failure. The technician's diagnosis is "compressor failure due to power conditions outside spec" and the warranty claim is denied.
+
+## Warranty-claim implications
+
+Concentrator warranty documents in the Indian market carry a consistent clause pattern (paraphrased across brands; specifics vary):
+
+> "This warranty does not cover damage resulting from use outside the rated input voltage, from operation on an inverter, generator, or UPS not approved in writing by the manufacturer, or from failure to use an appropriately sized voltage stabiliser."
+
+The exclusion ring means the burden of proof sits on the user to demonstrate that the protection equipment was correctly sized and installed. In a post-failure inspection, the service technician examines the compressor start capacitor, the motor windings, the control board, and the power-path fusing. Characteristic failure patterns distinguish voltage damage (blackened capacitor, heat-darkened windings, specific transistor failure modes on the control board) from manufacturing defect. If the failure pattern is consistent with voltage damage and the user cannot produce matching invoices for appropriate protection equipment, the claim is denied.
+
+Practical protection of the warranty position: purchase stabiliser, UPS, or inverter from a reputable Indian brand on or shortly after the concentrator purchase and keep all invoices together; photograph the installation with nameplates visible; write down make and model of every item in the power path; for high-value installations (10 LPM, BiPAP AVAPS, home ventilator) install a ₹3,000–5,000 domestic-grade voltage logger; and never substitute a modified-sine inverter because "it runs the household fan fine" — the damage is silent and decisive two years later.
+
+## Decision summary
+
+Applied to a patient's installation, the decision reduces to three questions:
+
+1. **What does the concentrator's spec sheet say about power draw?** Read the watts number, multiply by 1.43 for VA, apply the 1.5× sizing rule for stabiliser and UPS (or 2× for inverter).
+2. **Can the patient tolerate a 30-second gap in therapy?** If not, online UPS is mandatory. Offline or line-interactive UPS is not a substitute.
+3. **How long is the typical outage?** Under 30 minutes: UPS is sufficient. Over 60 minutes: pure-sine inverter with tubular battery bank is the economical choice.
+
+## Practical takeaway
+
+A servo stabiliser sized at 1.5× the concentrator's VA rating is non-optional for any Indian installation; budget ₹4,500–9,000. If the patient is on continuous LTOT without on-site cylinder backup, add an online UPS sized on the same 1.5× rule with enough external battery to bridge the local outage pattern — budget ₹25,000–50,000 including batteries. If outages routinely exceed 60 minutes, a pure-sine-wave inverter with two tubular batteries is the more economical full-power-path solution — budget ₹35,000–55,000 including batteries. Never place a modified-sine or square-wave inverter in a concentrator's power path; the compressor damage is silent, progressive, and voids the warranty. The prescribing clinician and the installing dealer should together specify the full power path at installation and preserve the invoices; an undocumented installation that fails at month 13 is an expensive claim to win. Consult the treating pulmonologist before changing flow or starting therapy; consult a qualified electrician for the site survey.
+
+*Background references: Bureau of Indian Standards IS 12360 for distribution voltage tolerances; Central Electricity Authority Regulations 2023; manufacturer user manuals for the concentrators referenced above [CITATION: BIS IS 12360; CEA 2023; Philips Everflo user manual; Oxymed 10 LPM user manual; Home Medix 10 LPM product sheet].*

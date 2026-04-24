@@ -1,0 +1,98 @@
+{
+  "slug": "wellel-ix-auto-cpap-machine",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/wellel-ix-auto-cpap-machine",
+  "product_name": "Wellel iX Auto CPAP Machine",
+  "brand": "Wellell",
+  "brand_href": "https://www.oxygentimes.com/brand/Wellell/cpap-bipap",
+  "category": "CPAP",
+  "price_current": "65,280.00",
+  "price_mrp": "86,400.00",
+  "price_symbol": "₹",
+  "rating_value": "4.9 (564)",
+  "rating_count": "564",
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/wellel-ix-auto-cpap-machine-bf6d6cdefa.jpeg",
+      "alt": "Wellel iX Auto CPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Wellell-CPAP-IX-Auto-41728387808.jpeg"
+    },
+    {
+      "src": "/images/products/wellel-ix-auto-cpap-machine-80d9c634b8.jpg",
+      "alt": "Wellel iX Auto CPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/wellell_ix_series_auto_cpap_with_humidifier1728387880.jpg"
+    },
+    {
+      "src": "/images/products/wellel-ix-auto-cpap-machine-3305bb697c.jpg",
+      "alt": "Wellel iX Auto CPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/ix_series6_69571728387907.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "Auto CPAP",
+    "Modes": "CPAP, APAP",
+    "Algorithm": "Advanced",
+    "Turbine": "Made in Taiwan",
+    "Pressure Range": "4-20cmH₂O",
+    "Ergonomic Tilted Display": "No"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "Auto CPAP",
+      "Modes": "CPAP, APAP",
+      "Algorithm": "Advanced",
+      "Turbine": "Made in Taiwan",
+      "Pressure Range": "4-20cmH₂O",
+      "Ergonomic Tilted Display": "",
+      "Detachable Design": "Yes",
+      "Sound level": "28dB",
+      "Weight": "1.49Kg",
+      "Dimensions": "235 x 145 x 147mm",
+      "Company Headquaters": "Taiwan",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0-45min.",
+      "Auto Ramp": "",
+      "EPR": "Yes",
+      "Humidifier": "Heated",
+      "Heated Tube Compatibility": "",
+      "Climate control": "",
+      "Preheat": "",
+      "Adaptive Humidification": "Yes",
+      "Mask Fit": ""
+    },
+    "Additional details": {
+      "Central Apnea Detection": "Yes",
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "Yes",
+      "VAPS": "",
+      "Trigger & Cycle sensitivity": "",
+      "Ti Control": "",
+      "Rise Time": "",
+      "Ti(inspiration time)": "",
+      "Pressure Support": "",
+      "Back up rate": "",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "",
+      "Waterless Humidification": "",
+      "Leakage Compensation": "Yes",
+      "SD card": "Yes",
+      "Cloud connectivity/Wifi": "Yes",
+      "Bluetoooth": "",
+      "QR code": "",
+      "FAA": "",
+      "FDA": "",
+      "CE": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "device_type": "cpap",
+  "normalized_specs": {
+    "weight_kg": 1.49,
+    "noise_db": 28.0,
+    "pressure_min_cmh2o": 4.0,
+    "pressure_max_cmh2o": 20.0,
+    "has_humidifier": true
+  }
+}

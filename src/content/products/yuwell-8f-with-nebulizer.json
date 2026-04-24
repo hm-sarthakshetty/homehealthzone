@@ -1,0 +1,69 @@
+{
+  "slug": "yuwell-8f-with-nebulizer",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Yuwell-8F-with-Nebulizer",
+  "product_name": "Yuwell 8F",
+  "brand": "Yuwell",
+  "brand_href": "https://www.oxygentimes.com/brand/Yuwell/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "20,000.00",
+  "price_mrp": "43,200.00",
+  "price_symbol": "₹",
+  "rating_value": "4.3 (22)",
+  "rating_count": "22",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/yuwell-8f-907f35ec7f.jpg",
+      "alt": "Yuwell 8F",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-03 at 21638522621.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5-5LPM",
+    "Weight": "15.5kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "400watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5-5LPM",
+      "Weight": "15.5kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "400watts",
+      "Sound level": "52db",
+      "Dimensions": "24.5H x 19.6W x 15.3Dinch",
+      "Outlet pressure": "10psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "What's in the Box?\n\n\n\tOxygen concentrator\n\tFilter\n\tUser manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 15.5,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 52.0,
+    "power_w": 400,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

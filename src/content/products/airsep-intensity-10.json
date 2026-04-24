@@ -1,0 +1,86 @@
+{
+  "slug": "airsep-intensity-10",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Airsep-Intensity-10",
+  "product_name": "AirSep Newlife Intensity 10",
+  "brand": "AirSep",
+  "brand_href": "https://www.oxygentimes.com/brand/AirSep/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "167,999.04",
+  "price_mrp": "211,200.00",
+  "price_symbol": "₹",
+  "rating_value": "5 (47)",
+  "rating_count": "47",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/airsep-newlife-intensity-10-b09b5d6790.jpg",
+      "alt": "AirSep Newlife Intensity 10",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/air1662714254.jpg"
+    },
+    {
+      "src": "/images/products/airsep-newlife-intensity-10-11a6603517.jpg",
+      "alt": "AirSep Newlife Intensity 10",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/in11664563883.jpg"
+    },
+    {
+      "src": "/images/products/airsep-newlife-intensity-10-64ca9f71d0.jpg",
+      "alt": "AirSep Newlife Intensity 10",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/in21664563909.jpg"
+    },
+    {
+      "src": "/images/products/airsep-newlife-intensity-10-426cff3de1.jpg",
+      "alt": "AirSep Newlife Intensity 10",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/in31664563909.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "2-10LPM",
+    "Weight": "26.3kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "590watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "2-10LPM",
+      "Weight": "26.3kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "590watts",
+      "Sound level": "55db",
+      "Dimensions": "27.5H x 16.5W x 14.5Dinch",
+      "Operating altitude": "10000feet",
+      "Outlet pressure": "20psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Airsep Intensity 10 Oxygen Concentrator\n\nMarking its presence in the industry for a very long time, AirSep Newlife Intensity 10 litres oxygen concentrator, commonly known as AirSep Intensity 10 supplies oxygen at the flow rate of 2-10 LPM at the oxygen purity of above 90% (+/- 3%) across all flow rates.\n\nWeight: Airsep 10 LPM weighs 26.30 kgs.\n\nSound: AirSep Intensity 10 produces a sound at 55 dB.\n\nLow Power Consumption Technology: The machine consumes just 590 watts of power, making it the most energy-efficient high-flow oxygen concentrator.\n\nOperating Altitude: AirSep Newlife Intensity 10 litres oxygen concentrator can function up to an altitude of 10,000 feet.\n\nOutlet Pressure: The device has an outlet pressure of 20 PSI, higher than most of the oxygen concentrators in the 10-litre range.\n\nFlowmeter: AirSep Intensity 10 comes with a ball-type flow meter. The flow rate can be adjusted between 2-10 LPM\n\nOxygen Purity Indicator: It comes with an Oxygen Purity Indicator which constantly monitors the oxygen concentration rate that is being delivered to the patient. In case the purity level of the oxygen falls below 86%, an automatic alarm turns on. \n\nAlarms: Loss of power, system malfunction and no flow alarm.\n\nCertifications and Approvals: Airsep Intensity 10 is approved by US FDA and is CE certified.\n\nWarranty: Airsep 10 LPM oxygen concentrator has a warranty period of 2 years.\n\nWhat's in the Box?\n\nOxygen Concentrator\n\nPower Cord\n\nFilter\n\nUser Manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 26.3,
+    "flow_min_lpm": 2.0,
+    "flow_max_lpm": 10.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 55.0,
+    "power_w": 590,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 10000
+  }
+}

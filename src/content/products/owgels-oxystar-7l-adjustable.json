@@ -1,0 +1,66 @@
+{
+  "slug": "owgels-oxystar-7l-adjustable",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Owgels-Oxystar-7L-Adjustable",
+  "product_name": "Owgels Oxystar 7L Adjustable",
+  "brand": "Owgels",
+  "brand_href": "https://www.oxygentimes.com/brand/Owgels/oxygen-concentrator",
+  "category": "Adjustable Purity",
+  "price_current": "30,720.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/owgels-oxystar-7l-adjustable-92491a2549.jpg",
+      "alt": "Owgels Oxystar 7L Adjustable",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot_2021-12-19_at_61639920451.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "30-90%",
+    "Type": "Adjustable Purity",
+    "Continuous Flow": "1-7LPM",
+    "Weight": "6.1kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "110watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "30-90%",
+      "Type": "Adjustable Purity",
+      "Continuous Flow": "1-7LPM",
+      "Weight": "6.1kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "110watts",
+      "Sound level": "40db",
+      "Dimensions": "13.77H x 9.25W x 11.02Dinch",
+      "Oxygen Purity % Analyzer": ""
+    },
+    "Additional details": {
+      "Loss of Power Alarm": "",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "India",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 6.1,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 7.0,
+    "noise_db": 40.0,
+    "power_w": 110,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

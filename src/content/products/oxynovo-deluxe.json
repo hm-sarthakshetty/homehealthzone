@@ -1,0 +1,73 @@
+{
+  "slug": "oxynovo-deluxe",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Oxynovo-Deluxe",
+  "product_name": "Oxynovo Deluxe",
+  "brand": "Oxynovo",
+  "brand_href": "https://www.oxygentimes.com/brand/Oxynovo/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "72,000.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/oxynovo-deluxe-cd382a5c38.jpg",
+      "alt": "Oxynovo Deluxe",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot_2021-12-19_at_101639935243.jpg"
+    },
+    {
+      "src": "/images/products/oxynovo-deluxe-73dcd0ae6a.jpg",
+      "alt": "Oxynovo Deluxe",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot_2021-12-19_at_111639935243.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5-5LPM",
+    "Weight": "13kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "280watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5-5LPM",
+      "Weight": "13kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "280watts",
+      "Sound level": "40db",
+      "Dimensions": "20.3H x 11.8W x 11.4Dinch",
+      "Oxygen Purity % Analyzer": ""
+    },
+    "Additional details": {
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 13.0,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 40.0,
+    "power_w": 280,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "slug": "home-medix-cv-20",
+  "source_url": "https://www.homemedix.in/",
+  "product_name": "Home Medix HM-CV-20 Auto CPAP",
+  "brand": "Home Medix",
+  "brand_href": "/brand/home-medix/",
+  "category": "CPAP",
+  "price_current": "23,000",
+  "price_mrp": "35,000",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/hm-cv-20-hero.png",
+      "alt": "Home Medix HM-CV-20 auto CPAP machine — compact white chassis with integrated heated humidifier",
+      "original": "HM_PAP.pdf brochure"
+    }
+  ],
+  "key_features": {
+    "Type": "Auto CPAP",
+    "Modes": "CPAP, APAP",
+    "Pressure Range": "4-20cmH₂O",
+    "Sound level": "<30dB",
+    "Weight": "1.45kg",
+    "Humidifier": "Heated (0–5 levels)"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "Auto CPAP",
+      "Modes": "CPAP, APAP",
+      "Algorithm": "Patented SAF (Synchronized Auto-Flow) — leak-compensated auto-adjustment",
+      "Pressure Range": "4-20cmH₂O",
+      "Sound level": "<30dB",
+      "Weight": "1.45kg",
+      "Dimensions": "253 × 168 × 121 mm",
+      "EPR": "Yes (EPFlex expiratory pressure relief)",
+      "Humidifier": "Heated (0–5 levels, integrated)",
+      "Ramp": "Yes",
+      "Auto On/Off": "Yes",
+      "Central Apnea Detection": "Yes (OSA / CSA)"
+    },
+    "Additional details": {
+      "Leak Alert": "Yes",
+      "Leakage Compensation": "Yes (SAF algorithm)",
+      "Flow Limitation Detection": "Yes",
+      "Hypopnea Detection": "Yes (multi-severity)",
+      "Snoring Detection": "Yes (multi-frequency)",
+      "Altitude Compensation": "",
+      "Heated Tube Compatibility": "",
+      "Climate control": "",
+      "Adaptive Humidification": "",
+      "SD card": "",
+      "Cloud connectivity/Wifi": "",
+      "Bluetooth": "",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "",
+      "Company Headquarters": "India",
+      "Indian Voltage Model": "Yes",
+      "CDSCO": "Approved",
+      "ISO 9001": "Yes",
+      "ISO 13485": "Yes",
+      "CE": "",
+      "FDA": "",
+      "FAA": ""
+    }
+  },
+  "faqs": [
+    {
+      "q": "What modes does the HM-CV-20 support?",
+      "a": "CPAP (fixed-pressure) and APAP (auto-adjusting). Pressure range is 4–20 cmH₂O per the published technical specification."
+    },
+    {
+      "q": "How loud is the HM-CV-20 at bedside?",
+      "a": "The published specification is <30 dB. That is at the quiet end of the CPAP class — below typical library-ambient noise (40 dB) and competitive with premium imports like the ResMed AirSense 11 (27 dB) and Philips DreamStation 2 (25 dB)."
+    },
+    {
+      "q": "Is there an integrated humidifier?",
+      "a": "Yes. Heated humidifier with 0–5 adjustable levels is built in; the overall 1.45 kg weight is with the humidifier chamber attached. Heated-tube compatibility is not stated in the published spec."
+    },
+    {
+      "q": "What is EPFlex?",
+      "a": "EPFlex is Home Medix's expiratory pressure relief feature — the machine reduces pressure during exhalation to reduce the patient's sense of pressurised-exhale resistance. Functionally equivalent to ResMed's EPR or Philips' C-Flex."
+    }
+  ],
+  "description_text": "The HM-CV-20 is Home Medix's auto CPAP, built around a patented SAF algorithm that combines advanced flow-sensing with leak-compensated auto-adjustment. Published specs: CPAP + APAP modes, 4–20 cmH₂O pressure range, <30 dB sound, 1.45 kg with integrated heated humidifier, 253 × 168 × 121 mm footprint. EPFlex expiratory pressure relief, multi-level respiratory event detection (flow limitation, snoring, hypopnea, and apnea including OSA and CSA), and ISO 9001 + ISO 13485 + CDSCO approval. Positioned against the ResMed AirSense, Philips DreamStation, and BMC GII auto CPAP tier.",
+  "related_links": [
+    "/cpap/resmed-airsense-11-autoset-cpap-machine/",
+    "/cpap/bmc-gll-auto-cpap-with-humidifier/",
+    "/bipap/home-medix-bv-30/",
+    "/oxygen-concentrators/home-medix-5-lpm/"
+  ],
+  "device_type": "cpap",
+  "normalized_specs": {
+    "weight_kg": 1.45,
+    "noise_db": 30,
+    "pressure_min_cmh2o": 4,
+    "pressure_max_cmh2o": 20,
+    "has_humidifier": true,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

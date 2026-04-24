@@ -1,0 +1,127 @@
+---
+title: "ResMed Lumis 150 VPAP ST review: the iVAPS-capable clinical BiPAP for India"
+description: "A technical review of the ResMed Lumis 150 VPAP ST with iVAPS for Indian buyers: 2-25 cmH2O, volume-assured PS, cloud connectivity, OHS and NMD indication."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+verdict: "The Lumis 150 VPAP ST is the correct buy for any Indian home-NIV patient with documented nocturnal hypoventilation — severe OHS, advanced NMD, progressive respiratory insufficiency — and its iVAPS mode plus native cloud connectivity justify the ₹15,590 premium over the Lumis 100."
+pros:
+  - "iVAPS mode (Intelligent Volume-Assured Pressure Support) targets alveolar ventilation rather than fixed pressure, clinically appropriate for hypoventilation"
+  - "Full six-mode therapy set (iVAPS, CPAP, S, ST, T, PAC) covers essentially every home-NIV clinical scenario on a single chassis"
+  - "Cloud connectivity/Wifi published as Yes — native AirView integration for remote titration, which hypoventilation management genuinely needs"
+  - "iBR (Intelligent Backup Rate), Ti Control, Trigger and Cycle Sensitivity, Rise Time all configurable — complete clinical tuning envelope"
+cons:
+  - "₹63,490 price sits at the top of the home-BiPAP bracket and is only justified when iVAPS is clinically indicated"
+  - "iVAPS commissioning requires clinician setup with target alveolar ventilation and baseline spirometry — not a plug-and-play device"
+  - "Weight at 1.26 kg and footprint matches the Lumis 100 — no portability advantage despite the price premium"
+score: 8.5
+tags: ["bipap", "resmed", "lumis", "st", "ivaps", "vpap"]
+---
+
+The ResMed Lumis 150 VPAP ST is the top-of-lineup home non-invasive ventilator in the ResMed Indian market — the iVAPS-capable sibling of the Lumis 100 VPAP ST, targeted at patients with documented nocturnal hypoventilation, severe obesity hypoventilation syndrome, advanced neuromuscular disease, and progressive respiratory insufficiency where pressure-targeted therapy is no longer adequate and ventilation-targeted therapy is clinically required. The device delivers six therapy modes — iVAPS, CPAP, S, ST, T, and PAC — across a 2-25 cmH2O pressure range. Weight is 1.26 kg, published sound level is 25 dB, and the indicative retail is ₹63,490 (varies by region/dealer) with HumidAir heated humidifier and ClimateLineAir heated tube. The device carries US FDA, CE, and FAA approval per the manufacturer brochure and e-commerce product listings, and ships In Stock on the Indian market.
+
+## What the specs actually mean
+
+The 2-25 cmH2O pressure envelope matches the Lumis 100. The clinical work happens in the IPAP 14-22 cmH2O, EPAP 5-10 cmH2O, pressure-support 8-14 cmH2O window for severe hypoventilation indications. The 25 cmH2O ceiling is genuinely needed — some OHS patients with BMI above 50 require IPAP in the 22-24 cmH2O range to achieve adequate tidal-volume augmentation, and the 2 cmH2O floor supports gentle therapy ramp onset.
+
+Six therapy modes published on the spec sheet. iVAPS, CPAP, S, ST, T, PAC.
+
+**iVAPS** is the clinically distinctive mode. Intelligent Volume-Assured Pressure Support measures the patient's tidal volume and respiratory rate continuously, calculates a rolling alveolar ventilation estimate, and compares it to a clinician-set target. If delivered alveolar ventilation falls below target, the device automatically increases pressure support within the prescribed IPAP maximum; if ventilation is above target (patient is hyperventilating), pressure support drops within the prescribed minimum. The algorithm learns the patient's specific baseline over the first several nights and adjusts to the individual.
+
+The clinical advantage of iVAPS over plain ST-mode therapy is that iVAPS targets what actually matters for hypoventilation — delivered minute ventilation and alveolar CO2 clearance — rather than targeting a fixed pressure that may be appropriate on a normal night and inadequate on a REM-heavy or supine-position night when the patient's airway resistance is higher. For severe OHS and progressive NMD, iVAPS is the published standard-of-care mode in international guidelines [CITATION: BTS/ATS Statement on NIV for Chronic Respiratory Failure].
+
+**ST mode** is available as a fallback or for clinicians who prefer fixed-pressure bilevel with backup rate. Same configuration as the Lumis 100.
+
+**S, T, and CPAP modes** cover the edge cases — spontaneous bilevel without backup (stable patients, step-down workflow), fully timed ventilation, and single-pressure CPAP.
+
+**PAC mode** — Pressure Assist Control — is the fixed-Ti, time-cycled mode for patients with unreliable cycle-sensitivity detection.
+
+iBR (Intelligent Backup Rate) is published as Yes, same logic as the Lumis 100. iBR delivers backup breaths only during real apnoeas or effort failures, not on benign sighs or coughs. Particularly important on iVAPS mode where the pressure-support adjustment logic needs clean patient-effort signals to set the target correctly.
+
+Ti Control, Trigger and Cycle Sensitivity, and Rise Time are all published as Yes. Adjustable across the full clinical range.
+
+Pressure Support is published as Yes on the Lumis 150 spec sheet — distinct from the Lumis 100 and AirCurve 10 ST, where PS is exposed implicitly as the IPAP-minus-EPAP calculation. On the Lumis 150, particularly in iVAPS mode, Pressure Support is the primary algorithm-set parameter, and the device exposes it as a directly-readable clinical value. This is not just a spec-sheet distinction; it changes the clinician's titration workflow.
+
+Backup Rate is published as Yes.
+
+Central Apnea Detection is published as Yes. In iVAPS mode, centrals are effectively pre-empted by backup-rate-plus-ventilation-targeting logic.
+
+Leakage Compensation is published as Yes. Critical — iVAPS's ventilation estimate depends on clean tidal-volume detection, and unmanaged leaks would produce spurious ventilation measurements that degrade the algorithm.
+
+VAPS is explicitly published as Yes. This is the unambiguous feature flag confirming volume-assured pressure support on this device — the single specification that most distinguishes the Lumis 150 from every other home-NIV device in the ResMed Indian lineup.
+
+RERA Reporting is blank on the spec sheet. Acceptable for the hypoventilation-focused use case.
+
+Altitude Compensation is published as Yes. The device auto-compensates across its rated operating altitude range.
+
+Auto Ramp is published as Yes on the Lumis 150 (distinct from the AirCurve 10 VAuto and Lumis 100, which have standard Ramp only). Ramp Down is also published as Yes. These are comfort features — gentle pressure ramp onset on falling asleep, and a mirroring pressure decrease on detected awakening or therapy-end.
+
+Humidification path is the full ResMed clinical stack: HumidAir heated humidifier, ClimateLineAir heated tube, Climate Control, Preheat, Adaptive Humidification. All Yes.
+
+Connectivity: SD card Yes. Cloud connectivity/Wifi published as Yes — this is the operational differentiator over the Lumis 100. Native cellular upload to AirView is standard on the Lumis 150 SKU, which matters for clinical workflow because iVAPS titration is a multi-visit, multi-parameter adjustment process that genuinely needs the AirView remote-review capability. Bluetooth is blank. VSync — ResMed's proprietary leak-compensated ventilator-patient synchrony algorithm — is specifically called out in the manufacturer description; this is what keeps iVAPS estimates clean through mask leak.
+
+Published sound level is 25 dB. Weight is 1.26 kg — 60 g heavier than the Lumis 100, negligible. Footprint 116 × 255 × 150 mm.
+
+## Who should buy it
+
+The Lumis 150 VPAP ST is the right machine for an adult patient with severe Obesity Hypoventilation Syndrome — BMI >45, daytime PaCO2 >55 mmHg, or documented nocturnal hypoventilation with falling tidal volumes or rising transcutaneous CO2 on overnight monitoring. iVAPS mode is specifically designed for this population, and the clinical evidence supports it as the preferred ventilation mode over fixed-pressure ST in this indication [CITATION: AASM and ATS Clinical Practice Guideline on NIV for Chronic Hypoventilation].
+
+It is the right machine for an adult patient with advanced neuromuscular disease — ALS in moderately progressed stages with declining forced vital capacity (FVC &lt;50% predicted), Duchenne muscular dystrophy transitioning to nocturnal NIV, advanced spinal muscular atrophy, high cervical spinal cord injury, late-stage myotonic dystrophy — where the ventilation target varies night-to-night as the disease progresses and plain ST-mode pressure settings become progressively inadequate. iVAPS learns and adjusts, which is the correct clinical behaviour for progressive disease.
+
+It is the right machine for an adult patient with COPD-OSA overlap who has developed chronic daytime hypercapnia — PaCO2 >50 mmHg — and established nocturnal hypoventilation. High-intensity NIV with IPAP 18-24 cmH2O and pressure support 10-14 cmH2O delivered via iVAPS has published mortality and quality-of-life benefit over moderate-intensity ST-mode therapy in this population [CITATION: published evidence on high-intensity NIV for hypercapnic COPD].
+
+It is the right machine for any patient transitioning from hospital NIV to home NIV after an acute hypercapnic respiratory failure admission. Indian tertiary-care hospitals routinely prescribe Lumis 150 VPAP ST as the step-down device because the iVAPS mode maintains the ventilation targets the ICU established, and AirView data upload lets the outpatient pulmonologist review the first several weeks of home therapy closely.
+
+And it is the right machine for any Indian sleep or pulmonology practice stocking clinical home-NIV inventory. The Lumis 150 covers essentially every home-NIV indication a clinic will encounter on a single chassis — from plain CPAP up to iVAPS — which simplifies inventory management and clinician training.
+
+## Who shouldn't
+
+An uncomplicated OSA patient should not be on a Lumis 150. The device is over-specified for obstructive sleep apnoea, the iVAPS mode will not run usefully on a patient without a hypoventilation phenotype, and the ₹63,490 price is not justifiable for OSA therapy where an AirSense 10 at ₹45,999 delivers clinically equivalent therapy.
+
+A CPAP-failure OSA patient without documented hypoventilation should be on the AirCurve 10 VAuto, not the Lumis 150. VAuto's auto-adjusting IPAP with flow-limitation responsiveness is the correct algorithm for complex OSA; iVAPS is not. iVAPS's ventilation-targeting logic does not produce better OSA therapy than VAuto's flow-limitation logic — it is simply a different tool for a different indication.
+
+A patient with central apnoea without hypoventilation — pure central sleep apnoea, or cheap cardiac-failure-pattern CSA — should be evaluated for ASV first and, failing that, placed on the Lumis 100 VPAP ST in ST mode with iBR. The Lumis 150's iVAPS mode does not treat central apnoea more effectively than plain ST-mode therapy does, and the iVAPS premium is wasted spend in this indication.
+
+A patient with acute respiratory failure requiring in-hospital mechanical ventilation should not be on the Lumis 150 (or any home-NIV device). This is a home-therapy platform, not an ICU ventilator. Patients transitioning out of acute-care ventilation need inpatient NIV titration first, then home-device prescription.
+
+A patient with poor cognitive or physical capacity to manage NIV equipment — or without a caregiver who can manage it — should not be on a Lumis 150. iVAPS commissioning requires accurate spirometry data at setup, and ongoing therapy requires the patient or caregiver to place the mask correctly, maintain the humidifier, and respond to machine alerts. Patients who cannot reliably do this are not good home-NIV candidates regardless of device.
+
+## How it compares to real alternatives
+
+**ResMed Lumis 100 VPAP ST (₹47,900).** The direct lower-tier sibling. Same chassis, same five ST/S/T/PAC/CPAP modes, same iBR backup-rate intelligence, same pressure range. What the Lumis 100 lacks is iVAPS mode and native Cloud connectivity — and those are precisely the two features that the hypoventilation-indication patient needs. For moderate ST-mode patients without hypoventilation, the Lumis 100 delivers clinically equivalent therapy at ₹15,590 less. For hypoventilation patients, the Lumis 150 is worth the upgrade and is not substitutable. Our call: Lumis 100 for moderate ST-mode indications, Lumis 150 for iVAPS-indicated patients.
+
+**Philips DreamStation BiPAP AVAPS.** AVAPS (Average Volume-Assured Pressure Support) is Philips' direct competitor to iVAPS. Clinical algorithms differ in detail — iVAPS targets alveolar ventilation and responds faster to breath-level variations, while AVAPS targets tidal volume averaged over several breaths. Both are published as effective for hypoventilation indications. The Indian service-network confidence gap post the 2021 Respironics recall still applies to the Philips BiPAP line, and Indian pulmonologists have moved to ResMed for most NIV prescriptions. Our call: Lumis 150 over DreamStation AVAPS for Indian buyers on service-network grounds.
+
+**ResMed AirCurve 10 ASV.** ASV (Adaptive Servo-Ventilation) is a different clinical indication — severe complex sleep apnoea, treatment-emergent central apnoea, periodic breathing in heart failure. ASV is not a substitute for iVAPS; iVAPS is not a substitute for ASV. For hypoventilation, iVAPS is correct; for CSA in heart failure, ASV is correct. Patients should be on whichever device matches their indication, and in rare cases patients with both hypoventilation and CSA need specialist evaluation.
+
+**Legacy ResMed VPAP ST-A with iVAPS.** An older iVAPS-capable platform from ResMed, predating the Lumis line. Still in limited circulation in Indian tertiary centres. Lumis 150 is the current successor, and there is no scenario where the VPAP ST-A is the correct new buy today.
+
+**Lumis 100 VPAP ST used off-label for hypoventilation.** Some cost-constrained patients attempt to manage moderate hypoventilation on the Lumis 100 in ST mode with high IPAP settings, avoiding the Lumis 150's iVAPS premium. This is defensible for mild-to-moderate hypoventilation but falls short for severe or progressive disease. If the clinical picture justifies iVAPS, the iVAPS device is worth buying; attempting to substitute ST-mode therapy leaves the patient undertreated as the disease progresses.
+
+## Indian-market considerations
+
+AirView integration on the Lumis 150 is native — Cloud connectivity/Wifi is published as Yes on the base SKU. This is genuinely important for home-NIV management: iVAPS commissioning is a multi-visit clinical workflow, and the first 2-4 weeks of therapy typically involve serial adjustments to target alveolar ventilation, IPAP maximum, EPAP, rise time, trigger sensitivity. AirView lets the prescribing pulmonologist review each night's data and adjust parameters remotely without a clinic visit for every tweak. For Indian tier-2 cities where the specialist may be 200-500 km from the patient, this is the operational workflow that makes home NIV feasible.
+
+Voltage handling on the external 90 W power brick is universal 100-240 V AC input. Indian grid fluctuations handled within spec. For Lumis 150 patients specifically — many of whom are ventilator-dependent — a backup battery (ResMed Power Station II) is worth considering for power-cut resilience, especially in tier-2 cities with unstable grid supply.
+
+Altitude compensation published as Yes. For patients using the Lumis 150 in mid-altitude Indian destinations (Shimla, Manali, Gangtok), no manual adjustment required.
+
+Prescription portability for iVAPS-mode home NIV requires specialist prescription with full parameters — target alveolar ventilation, IPAP maximum, EPAP minimum, backup rate (or iBR), rise time, Ti min/max, trigger and cycle sensitivity. Indian authorised dealers require this documentation; baseline spirometry (FEV1, FVC) is often requested as well.
+
+Dealer-vs-online-vs-hospital channel pricing: online retail around ₹63,490; authorised dealer 5-12% higher with in-home setup and local service; hospital channel bundled with titration-study stays at ₹1,00,000-1,40,000. The hospital bundle is often the correct path for first-time iVAPS patients because the overnight titration plus device prescription as a single event is clinically appropriate. Patients who already have an iVAPS-titrated prescription from a separate study can self-purchase on the retail channel and save meaningfully.
+
+Humidity management identical to the rest of the AirCurve/Lumis family. Adaptive humidification handles Mumbai-Chennai monsoon RH well; Climate Control with ClimateLineAir heated tube prevents rainout in AC-cooled bedrooms. For iVAPS patients specifically, consistent delivered humidity matters because mucous-membrane dryness affects airway resistance, which feeds back into the iVAPS ventilation estimate.
+
+Service network for the Lumis 150 is strong in India — ResMed authorised service centres handle the Lumis platform in all major metros and most tier-2 cities. Blower, humidifier tub, power supply, and SD-card reader are stocked-part repairs. Turnaround on warranty work is 7-14 days in metros, longer in tier-2 cities. For Lumis 150 patients who are ventilator-dependent, loaner-device availability during service windows is a critical purchase-time question to confirm with the dealer.
+
+Warranty is 2 years manufacturer on the device, sometimes 3 years via dealer promotion per the manufacturer brochure and e-commerce product listings. The 3-year warranty extension is particularly valuable on a home-NIV device because the patient's reliance on the machine is continuous, and out-of-warranty repair on a clinical BiPAP can be ₹15,000-25,000 for a blower replacement.
+
+## Verdict
+
+The Lumis 150 VPAP ST earns an 8.5 — the highest score we assign in the ResMed BiPAP lineup for Indian-market home NIV, and the correct buy for any patient whose clinical picture genuinely warrants iVAPS therapy. The combination of six therapy modes (iVAPS, CPAP, S, ST, T, PAC), native AirView cellular connectivity, iBR backup-rate intelligence, full patient-ventilator synchronisation controls (Ti Control, Trigger/Cycle Sensitivity, Rise Time), and ResMed's mature Indian service network makes it the most capable home-NIV device sold in the country.
+
+What keeps it at 8.5 rather than 9.0-plus is that the device is not universally indicated — iVAPS is a specific therapy for specific indications, and patients without hypoventilation do not benefit from the feature and should not pay for it. The ₹63,490 price is justified when the clinical picture requires volume-assured pressure support; it is poor value in any other scenario.
+
+Buy the Lumis 150 VPAP ST if the patient has severe OHS, advanced NMD, chronic hypercapnic COPD, or documented nocturnal hypoventilation that requires ventilation-targeted therapy. Step down to the Lumis 100 VPAP ST if the clinical picture is ST-mode backup-rate therapy without hypoventilation. Step across to the AirCurve 10 VAuto if the picture is CPAP-failure OSA without central or hypoventilation indication. And step down further to the AirSense 10 or 11 if the picture is uncomplicated obstructive OSA.
+
+For the right patient, the Lumis 150 is the best home-NIV device sold in India in 2026. The question is always whether the patient's indication matches the device's capabilities — when it does, this is a clear, defensible buy.

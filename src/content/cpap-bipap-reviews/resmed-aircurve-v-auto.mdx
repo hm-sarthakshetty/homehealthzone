@@ -1,0 +1,111 @@
+---
+title: "ResMed AirCurve 10 VAuto review: the default auto BiPAP in India"
+description: "A technical review of the ResMed AirCurve 10 VAuto Auto BiPAP for Indian buyers: 3-25 cmH2O, 25 dB, VAuto mode, AirView integration."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+verdict: "The AirCurve 10 VAuto is the right BiPAP for the majority of Indian patients who have failed CPAP or whose sleep study shows complex sleep apnoea without overt hypoventilation, and it is the default auto-BiPAP prescription in most Indian sleep practices for good reason."
+pros:
+  - "3-25 cmH2O pressure envelope and adjustable pressure support cover the full adult-OSA, CPAP-failure, and mixed-apnoea therapeutic range"
+  - "VAuto mode delivers auto-adjusting IPAP with configurable minimum pressure support, a clinically mature and Indian-ICU-familiar algorithm"
+  - "25 dB published sound level and full HumidAir plus ClimateLineAir climate control match the AirSense 10 comfort envelope"
+  - "Built-in cellular connectivity and AirView compatibility enable the clinic-led remote titration that BiPAP therapy actually needs"
+cons:
+  - "₹66,800 retail sits roughly ₹20,000 above an equivalently-specced APAP, and many OSA patients never clinically require BiPAP"
+  - "Spec-sheet blanks on RERA reporting and Backup Rate mean this is not the right machine for patients with central-apnoea or hypoventilation components"
+  - "No iVAPS, no true volume-assurance — OHS and NMD patients need a Lumis 150, not this device"
+score: 8.2
+tags: ["bipap", "resmed", "aircurve", "vauto"]
+---
+
+The ResMed AirCurve 10 VAuto is the auto-adjusting BiPAP in the ResMed AirCurve 10 family, and it is the device Indian sleep physicians prescribe when a CPAP-naive or CPAP-intolerant adult OSA patient needs bilevel pressure with auto-titration but does not have a central-apnoea, hypoventilation, or neuromuscular indication severe enough to warrant an ST or iVAPS platform. It delivers three clinical modes: CPAP (fixed single-pressure), S (fixed-IPAP/EPAP), and VAuto (auto-adjusting IPAP with fixed-minimum EPAP and pressure-support), across a 3-25 cmH2O pressure envelope. Weight is 1.24 kg, published sound level is 25 dB, and the indicative retail is ₹66,800 (varies by region/dealer) shipped with HumidAir heated humidifier and ClimateLineAir heated tube in the Indian-market tripack SKU. The device carries US FDA, CE, and FAA approvals per the manufacturer brochure and e-commerce product listings.
+
+## What the specs actually mean
+
+The 3-25 cmH2O pressure range is load-bearing. Adult BiPAP therapy for complex OSA or CPAP failure operates comfortably in the EPAP 6-12 cmH2O, IPAP 10-20 cmH2O window, and severe patients occasionally push to IPAP 22-24 cmH2O for tidal-volume augmentation [CITATION: AASM Clinical Practice Guideline for NIV]. The 25 cmH2O ceiling delivers full headroom. The 3 cmH2O floor is low enough to provide a comfortable ramp start for patients who find bilevel-pressure onset harsh.
+
+The three therapy modes matter differently for different patients.
+
+**CPAP mode** is a fixed-pressure single-level mode and exists on the AirCurve 10 because some patients initially prescribed BiPAP are later re-titrated to plain CPAP when their apnoea profile simplifies. It lets a clinic use a single inventory device across both therapies.
+
+**S mode** is Spontaneous bilevel — fixed IPAP, fixed EPAP, patient-triggered breath cycling. This is the mode used when the clinic has titrated a specific IPAP/EPAP pair and wants that pair delivered every night with no auto-adjustment. Indian ICU step-down and post-extubation wards often run S-mode BiPAP through AirCurve devices.
+
+**VAuto mode** is the clinically distinctive mode. VAuto delivers an auto-adjusting IPAP within a prescribed window, with EPAP either fixed or also auto-adjusting, and a minimum pressure-support (PS) value that the clinician sets. The published behaviour is that the VAuto algorithm uses the same AutoSet-family event detection as the AirSense — apnoeas, hypopnoeas, flow limitation — and responds by raising EPAP (to open the upper airway) and IPAP (to augment tidal volume) as events warrant. "VAuto" is distinct from "AutoSet" because VAuto has a second degree of freedom (the IPAP-EPAP gap, which is the pressure support) that a CPAP or APAP does not have. Pressure Support is explicitly published as Yes on the spec sheet.
+
+EPR is published as Yes. This is slightly confusing on a BiPAP, because EPR is a CPAP-comfort feature and bilevel-pressure delivery already provides an inspiratory-expiratory pressure differential by design. On the AirCurve 10 VAuto, EPR is available when the device is used in CPAP mode — it is an inheritance from the AirSense codebase.
+
+Rise Time is published as Yes. This is the parameter that controls how quickly the device transitions from EPAP to IPAP at inspiration onset — a short rise time feels "punchier" (more like being breathed for), a long rise time feels softer. For patients with restrictive lung physiology, a shorter rise time is often preferred; for anxious or air-hunger-prone patients, a longer rise time improves tolerance. The spec sheet does not publish the rise-time range in numerical terms, but in the ResMed clinical interface the typical range is 150-900 ms.
+
+Ti Control — which is the minimum and maximum allowed inspiration time — is not explicitly published on the AirCurve 10 VAuto spec sheet (it is published on the AirCurve 10 ST and Lumis VPAP ST). The absence is clinically coherent because VAuto is a patient-triggered mode without a backup rate; Ti control matters most when the device is delivering machine-triggered breaths.
+
+Backup Rate is blank on the VAuto spec sheet. This is deliberate. VAuto is not a patient-ventilation mode; it is an auto-BiPAP for spontaneous-breathing patients. If a patient requires backup rate — central-apnoea patients, neuromuscular patients, OHS patients with obstructive-central overlap — the correct device is the AirCurve 10 ST or the Lumis VPAP ST, not the VAuto. A patient with a central-apnoea-index above 5 per hour should not be on a VAuto.
+
+Central Apnea Detection is published as Yes (flagging only — the device detects and logs central events, but VAuto mode does not specifically treat them). This is important because VAuto will escalate IPAP and EPAP in response to any scored apnoea, and raising pressure during a central apnoea is the wrong therapy. The detection flag lets the clinician review AirView data and move the patient to a different mode or device if the central pattern is significant.
+
+RERA Reporting is blank on the AirCurve 10 VAuto spec sheet — this is a feature that appeared in the AirSense 11 generation and is present on the Lumis 150 and some newer BiPAPs but not published on the AirCurve 10 V Auto's published feature set. Clinicians who specifically want RERA tracking in the overnight data should note this.
+
+Leak Alert, Altitude Compensation, Leakage Compensation, and Mask Fit are all published as Yes. Mask-fit verification runs through the standard ResMed AirFit line — N20, N30i, F20, F30, AirTouch variants. Leakage Compensation is the critical BiPAP feature — the device detects mask leak and adjusts fan output to maintain delivered IPAP-EPAP targets through the leak. Without it, a patient who loosens the mask overnight gets degraded therapy; with it, the device compensates up to the published leak tolerance.
+
+The humidification path is identical to the AirSense 10: integrated HumidAir heated humidifier, ClimateLineAir heated tube compatibility, Climate Control for auto temperature/humidity regulation. Preheat and Adaptive Humidification are both published as Yes.
+
+Connectivity: SD card and Cloud connectivity/Wifi are both Yes. Bluetooth is blank. This means the device has a native cellular modem for AirView upload and an SD card for clinician-side data retrieval, but no patient-facing myAir Bluetooth pairing. For a BiPAP patient this is fine — BiPAP therapy is clinician-managed, and the patient-facing compliance dashboard is less central than it is for OSA.
+
+Sound level is published at 25 dB. Quieter than the AirSense 11 at 27 dB, matching the AirSense 10. In a small Indian bedroom at 60-100 cm pillow distance, this is below bedside-disruption threshold.
+
+## Who should buy it
+
+The AirCurve 10 VAuto is the right machine for an adult OSA patient who has failed CPAP — defined as documented AHI >5 on the AirSense 10/11 despite proper titration, or documented intolerance (mask leak, air hunger, claustrophobia, pressure-swing wake-up) on CPAP for 30-plus nights. That is a genuine Indian clinical pattern — perhaps 10-20% of adult OSA patients on CPAP trial are not achieving therapeutic control or comfort, and the VAuto is the defensible next-line.
+
+It is the right machine for a patient with complex sleep apnoea (CompSA) whose central-apnoea-index is between 2 and 5 per hour — below the threshold that would mandate an ASV, but high enough that the flow-limitation-responsive AutoSet algorithm is inappropriate. VAuto's bilevel-with-pressure-support lets the clinician tune IPAP and PS separately from EPAP, which is the clinical handle for CompSA management short of ASV.
+
+It is the right machine for a patient with mild to moderate OHS — Obesity Hypoventilation Syndrome — where the BMI is in the 35-45 range, daytime PaCO2 is 45-50 mmHg, and the patient does not yet need iVAPS-level tidal-volume assurance. VAuto with adequate IPAP (say, 16-20 cmH2O) and pressure support of 6-10 cmH2O delivers meaningful tidal-volume augmentation without the complexity of a Lumis 150.
+
+And it is the right machine for a patient with COPD-OSA overlap whose primary apnoea burden is obstructive but who has mild hypercapnia not yet needing volume-assured support. The bilevel pressure lets the clinician titrate IPAP high enough to augment ventilation without forcing the patient to a CPAP-only EPAP level that would be uncomfortably high.
+
+## Who shouldn't
+
+An uncomplicated adult OSA patient with AHI 15-40, no central component, no hypoventilation, no CPAP trial history should not be on the AirCurve 10 VAuto. The correct first-line device is an AirSense 10 or AirSense 11, and those are ₹20,000 cheaper. Prescribing BiPAP first-line to a CPAP-naive patient is clinically wasteful and there is no outcome evidence supporting it for the uncomplicated OSA profile. The VAuto is a second-line device or a specific-indication first-line device, not a default APAP upgrade.
+
+A patient with significant central apnoea — CAI >5 per hour, or a Cheyne-Stokes pattern associated with heart failure — should not be on a VAuto. The correct devices are the AirCurve 10 ASV (adaptive servo-ventilation) or a VPAP ST depending on the specific clinical picture. VAuto will raise pressure against centrals, which is the wrong therapy, and the device does not have a backup rate to stabilise breathing during prolonged central events.
+
+A patient with severe OHS — BMI >45, daytime PaCO2 >55 mmHg, or evidence of nocturnal hypoventilation with falling tidal volumes — needs volume-assured pressure support. The Lumis 150 VPAP ST with iVAPS is the correct platform. VAuto's pressure-support value is fixed at a minimum and ramped up based on flow-limitation events; it does not adjust to achieve a target tidal volume or minute ventilation, which is what iVAPS does.
+
+A patient with neuromuscular disease requiring backup-rate ventilation — ALS, Duchenne muscular dystrophy, post-polio syndrome — should not be on a VAuto. Backup rate is the clinical feature these patients need, and VAuto does not publish one. The AirCurve 10 ST or Lumis 100 VPAP ST are the correct options.
+
+And a patient who has been comfortably therapeutic on CPAP for years and is buying a replacement should not be upgraded to a VAuto by default. The ₹20,000 premium buys a feature set the patient will not use. Replace like-for-like unless there is a documented clinical reason to escalate.
+
+## How it compares to real alternatives
+
+**ResMed AirCurve 10 ST (₹67,188, discontinued).** The AirCurve 10 ST is the same chassis and generation as the VAuto but delivers ST mode instead of VAuto. ST mode has a configurable backup rate — the device delivers machine-triggered breaths if the patient's spontaneous rate falls below the prescribed backup rate. This is the clinical feature for patients with central-apnoea or neuromuscular indications. The AirCurve 10 ST is listed as discontinued, with the Lumis 100 VPAP ST as its successor per the manufacturer's product-end-of-life notice. For buyers today, the decision is VAuto (spontaneous-breathing bilevel for CPAP-failure OSA) vs Lumis 100 VPAP ST (backup-rate-capable bilevel for central or NMD patients). Our call: do not force-fit one; they serve different indications.
+
+**Philips DreamStation BiPAP Auto.** Philips' auto-BiPAP is the cross-brand equivalent. The clinical performance is broadly similar — comparable pressure ranges, comparable algorithm sophistication. The Philips service-network hit post-2021 recall continues to affect Indian BiPAP prescribing, and most Indian sleep physicians have moved strongly to ResMed on the imported-BiPAP side. Our call: ResMed AirCurve 10 VAuto for Indian buyers over the DreamStation BiPAP for service-network reasons.
+
+**BMC RESmart BPAP 25A.** BMC's auto-BiPAP is the Chinese-brand alternative, at a street price around ₹45,000-55,000. The RESmart delivers 4-25 cmH2O with an auto-adjust bilevel algorithm, heated humidification, and app connectivity. The algorithm is less clinically validated than VAuto in the published sleep-medicine literature, and the Indian dealer network is narrower. For a price-sensitive buyer with a clean obstructive apnoea profile (not central, not hypoventilation), the RESmart is defensible. For any patient where the clinical picture is complex, the VAuto's algorithm maturity and AirView integration are worth the ₹15,000-20,000 delta.
+
+**ResMed Lumis 100 VPAP ST (₹47,900).** The Lumis 100 is interesting as a comparison because it is priced meaningfully below the AirCurve 10 VAuto (₹47,900 vs ₹66,800), delivers 2-25 cmH2O pressure range, and has ST and S modes (not VAuto). The Lumis 100 is the correct pick when the patient's indication specifically needs backup-rate capability — central apnoea, NMD, complex CompSA. It is not a substitute for the VAuto in the CPAP-failure-OSA indication because it does not offer auto-adjusting IPAP. Our call: VAuto for CPAP-failure OSA where the patient is spontaneously breathing; Lumis 100 for backup-rate-required patients.
+
+## Indian-market considerations
+
+AirView integration on the AirCurve 10 VAuto is native — the device has a cellular modem built-in and uploads nightly to AirView through public Indian mobile networks. For BiPAP therapy, AirView is genuinely important — unlike OSA on CPAP where titration stabilises within a few weeks, BiPAP patients often need serial adjustments to IPAP, EPAP, pressure support, and rise time over the first 3-6 months of therapy. AirView lets the prescribing clinician review the previous night's data and adjust pressure targets remotely without requiring the patient to travel to the clinic for every tweak. This is the workflow reason to prefer the AirCurve 10 over cheaper BiPAPs in the Indian market.
+
+Voltage tolerance on the external power supply (90 W brick per the published ResMed spec) is universal 100-240 V AC input. Indian grid fluctuations in the 210-250 V range are inside spec. Spike protection at the wall outlet is recommended in tier-2 cities but the device is not exposed directly to mains.
+
+Altitude compensation is published as Yes. The device auto-compensates for reduced atmospheric pressure up to the published 2,591 m operating ceiling. For patients using the VAuto in Shimla, Gangtok, Nainital, Munsiyari — all within range — no setting change is required. Above 2,591 m the device goes out of spec; patients in Leh or Spiti should confirm delivered-pressure stability with an Indian ResMed service centre.
+
+Prescription portability is tighter on BiPAP than on CPAP. Indian authorised-dealer channels require a specialist prescription (pulmonologist, sleep physician, or neurologist) with the full bilevel-pressure parameters — IPAP max, EPAP min, pressure support, rise time, trigger and cycle sensitivity — not just a generic "BiPAP" note. A CPAP-trial failure documented in the prescription reduces friction at the point of sale.
+
+Dealer vs online vs hospital channel pricing: authorised-dealer retail on the VAuto runs ₹66,800-72,000 depending on bundled tubing and humidifier options. Hospital channels often bundle the device with a 2-3 night titration stay at ₹90,000-1,10,000 total — this is a legitimate workflow for patients who need overnight titration, but buyers who have already been titrated in a separate study can save meaningfully by self-purchasing.
+
+Humidity management in coastal Indian climates matters specifically on BiPAP because the higher IPAP delivers more air per breath, with more potential for upper-airway dryness. Adaptive Humidification and ClimateLineAir heated tube together handle this well in both Mumbai-monsoon (80-85% RH) and Delhi-winter (20-30% RH) extremes.
+
+Service network for AirCurve 10 is mature in India. ResMed's Indian dealers have been handling the AirCurve 10 chassis since 2014 and the common failure modes — blower seal wear, tub O-ring degradation, SD-card corruption — are all stocked-part repairs in metros. Turnaround on warranty work is 7-14 days typically. Loaner BiPAPs are available through some dealers during extended service windows, which matters for BiPAP-dependent patients who cannot lose a night of therapy.
+
+Warranty is 2 years manufacturer, sometimes 3 years via dealer promotion per the manufacturer brochure and e-commerce product listings.
+
+## Verdict
+
+The AirCurve 10 VAuto earns a solid 8.2 — the default auto-BiPAP prescription in most Indian sleep practices for defensible reasons. The 3-25 cmH2O pressure envelope covers the full adult-OSA and CPAP-failure therapeutic range, the VAuto algorithm is clinically mature and has a decade of published behaviour, EPR in CPAP mode and the full HumidAir/ClimateLineAir climate control match the AirSense 10 comfort envelope, and the built-in cellular modem makes AirView-based remote titration workable.
+
+What constrains the score to 8.2 rather than higher is that the VAuto is frequently over-prescribed to patients who do not actually need bilevel therapy — uncomplicated OSA buyers often end up on an AirCurve when an AirSense would have served identically. The ₹20,000 premium over the AirSense 11 and ₹21,000 over the AirSense 10 should be justified by a documented CPAP failure or complex-apnoea indication, not by "my doctor said BiPAP is better."
+
+Buy the AirCurve 10 VAuto if the patient has a documented CPAP failure, a complex-sleep-apnoea picture, mild-to-moderate OHS without iVAPS-level hypoventilation, or COPD-OSA overlap. Step down to an AirSense 10 or 11 if the clinical picture is straightforward obstructive OSA. Step up to an AirCurve 10 ST (where available) or Lumis 100 VPAP ST if backup-rate capability is clinically required. And step all the way up to a Lumis 150 VPAP ST with iVAPS if the patient has severe OHS, neuromuscular disease, or documented nocturnal hypoventilation.

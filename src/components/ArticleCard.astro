@@ -1,0 +1,34 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+type ArticleEntry = CollectionEntry<'guides'> | CollectionEntry<'clinical'>;
+
+export interface Props {
+  entry: ArticleEntry;
+  href?: string;
+}
+
+const { entry, href: hrefOverride } = Astro.props;
+const data = entry.data;
+
+const basePath = entry.collection === 'clinical' ? '/clinical' : '/guides';
+const fallbackHref = `${basePath}/${entry.id.replace(/\.(md|mdx)$/, '')}/`;
+const href = hrefOverride ?? fallbackHref;
+
+const formattedDate = data.lastReviewed
+  ? new Date(data.lastReviewed).toLocaleDateString('en-IN', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+    })
+  : null;
+---
+<a class="card" href={href}>
+  <h3>{data.title}</h3>
+  {data.description && <p>{data.description}</p>}
+  {data.lastReviewed && formattedDate && (
+    <p class="meta-line">
+      <time datetime={data.lastReviewed}>Reviewed {formattedDate}</time>
+    </p>
+  )}
+</a>

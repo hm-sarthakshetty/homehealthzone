@@ -1,0 +1,71 @@
+{
+  "slug": "nidek-nuvo-standard-5-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Nidek-Nuvo-Standard-5-LPM",
+  "product_name": "Nidek Nuvo Standard 5 LPM",
+  "brand": "Nidek Medical",
+  "brand_href": "https://www.oxygentimes.com/brand/Nidek-Medical/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "94,080.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/nidek-nuvo-standard-5-lpm-41342a9e6c.jpg",
+      "alt": "Nidek Nuvo Standard 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-01 at 11638348279.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "1-5LPM",
+    "Weight": "22.7kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "420watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "1-5LPM",
+      "Weight": "22.7kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "420watts",
+      "Sound level": "48db",
+      "Dimensions": "27.8H x 15.6W x 15.5Dinch",
+      "Operating altitude": "8000feet",
+      "Outlet pressure": "7psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "What's in the Box?\n\nNuvo Oxygen Concentrator\n\nHumidifier bottle\n\nNasal cannula \n\nUser Manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 22.7,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 48.0,
+    "power_w": 420,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 8000
+  }
+}

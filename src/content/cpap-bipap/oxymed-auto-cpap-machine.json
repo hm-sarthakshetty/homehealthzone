@@ -1,0 +1,103 @@
+{
+  "slug": "oxymed-auto-cpap-machine",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/oxymed-auto-cpap-machine",
+  "product_name": "Oxymed SleepEasy (German Turbine) AutoCPAP",
+  "brand": "Oxymed",
+  "brand_href": "https://www.oxygentimes.com/brand/Oxymed/cpap-bipap",
+  "category": "CPAP",
+  "price_current": "28,499.00",
+  "price_mrp": "52,000.00",
+  "price_symbol": "₹",
+  "rating_value": "4.9 (1623)",
+  "rating_count": "1623",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/oxymed-sleepeasy-german-turbine-autocpap-409d8aeb16.jpg",
+      "alt": "Oxymed SleepEasy (German Turbine) AutoCPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/slepeasy_(1)1747725537.jpg"
+    },
+    {
+      "src": "/images/products/oxymed-sleepeasy-german-turbine-autocpap-284887941e.jpg",
+      "alt": "Oxymed SleepEasy (German Turbine) AutoCPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/21691515444.jpg"
+    },
+    {
+      "src": "/images/products/oxymed-sleepeasy-german-turbine-autocpap-040b54ddf2.jpg",
+      "alt": "Oxymed SleepEasy (German Turbine) AutoCPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/31691515444.jpg"
+    },
+    {
+      "src": "/images/products/oxymed-sleepeasy-german-turbine-autocpap-342ca760fd.jpeg",
+      "alt": "Oxymed SleepEasy (German Turbine) AutoCPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/WhatsApp_Image_2024-08-02_at_131722588956.jpeg"
+    }
+  ],
+  "key_features": {
+    "Type": "Auto CPAP",
+    "Modes": "CPAP, Auto CPAP",
+    "Algorithm": "Advanced",
+    "Turbine": "Made in Germany",
+    "Pressure Range": "4-20cmH₂O",
+    "Ergonomic Tilted Display": "Yes"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "Auto CPAP",
+      "Modes": "CPAP, Auto CPAP",
+      "Algorithm": "Advanced",
+      "Turbine": "Made in Germany",
+      "Pressure Range": "4-20cmH₂O",
+      "Ergonomic Tilted Display": "Yes",
+      "Detachable Design": "Yes",
+      "Sound level": "30dB",
+      "Weight": "2.0Kg",
+      "Company Headquaters": "India",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0-45min.",
+      "Auto Ramp": "",
+      "EPR": "Yes",
+      "Humidifier": "Heated",
+      "Heated Tube Compatibility": "",
+      "Climate control": "",
+      "Preheat": "Yes",
+      "Adaptive Humidification": "",
+      "Mask Fit": "",
+      "Central Apnea Detection": "Yes"
+    },
+    "Additional details": {
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "Yes",
+      "VAPS": "",
+      "Trigger & Cycle sensitivity": "",
+      "Ti Control": "",
+      "Rise Time": "",
+      "Ti(inspiration time)": "",
+      "Pressure Support": "",
+      "Central Apnea Treatment": "",
+      "Back up rate": "",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "Yes",
+      "Waterless Humidification": "",
+      "Leakage Compensation": "Yes",
+      "SD card": "Yes",
+      "Cloud connectivity/Wifi": "Yes",
+      "Bluetoooth": "",
+      "QR code": "",
+      "FAA": "",
+      "FDA": "",
+      "CE": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Oxymed SleepEasy Auto CPAP Machine \n\n\n\tOxymed SleepEasy has an advanced AutoCPAP algorithm with FlowSens™ technology that detects Central Sleep Apnea (CSA) events and protects you from inappropriate pressure responses\n\tOxymed's new turbine is made in Germany and offer robust, efficient, and stable respiratory power at a speed of 43,000 BPM\n\tLeakage Compensation is designed to adjust the pressure up to 60 L/min, based on mask leak, to make sure that the prescribed pressure is delivered to the patient.\n\tCOMF Pressure Relief: Advanced pressure relief function allows to exhale against the continuous air pressure by dropping the pressure upto 3cmH20.\n\tMobile App Connectivity: Monitor the therapy remotely and access the data anytime, anywhere. \n\tAuto On-Off: Automatic activation when wearing the mask, graceful shutdown upon removal, for an enhanced sleep therapy experience.\n\tWarranty: Oxymed SleepEasy comes with 3 years warranty with Home Service PAN India\n\n\nWhat's in the Box?\n\n\n\tAutoCPAP Device\n\tHumidifier\n\tPower adapter \n\tFilter\n\tUser Manual\n\tPen Drive\n\tTravel Bag",
+  "related_links": [],
+  "device_type": "cpap",
+  "normalized_specs": {
+    "weight_kg": 2.0,
+    "noise_db": 30.0,
+    "pressure_min_cmh2o": 4.0,
+    "pressure_max_cmh2o": 20.0,
+    "has_humidifier": true
+  }
+}

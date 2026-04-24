@@ -1,0 +1,74 @@
+{
+  "slug": "dr-diaz-10-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Dr-Diaz-10-LPM",
+  "product_name": "Dr Diaz 10 LPM",
+  "brand": "Hemodiaz",
+  "brand_href": "https://www.oxygentimes.com/brand/Hemodiaz/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "42,240.00",
+  "price_mrp": "81,600.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/dr-diaz-10-lpm-96ff163db1.jpg",
+      "alt": "Dr Diaz 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/diaz1662714069.jpg"
+    },
+    {
+      "src": "/images/products/dr-diaz-10-lpm-12e89abbd4.jpg",
+      "alt": "Dr Diaz 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 51638188692.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "1-10LPM",
+    "Weight": "27kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "550watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "1-10LPM",
+      "Weight": "27kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "550watts",
+      "Sound level": "50db",
+      "Dimensions": "23.6H x 14.7W x 14.3Dinch",
+      "Outlet pressure": "20psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 27.0,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 10.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 50.0,
+    "power_w": 550,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

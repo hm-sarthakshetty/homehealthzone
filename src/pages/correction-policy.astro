@@ -1,0 +1,115 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Corrections"
+  description="HHZ Respiratory Review correction policy: every correction is timestamped, the original wording is preserved in a visible changelog on the affected article, and we aim to respond within 48 hours."
+>
+  <article class="prose">
+    <h1>Corrections</h1>
+
+    <p class="lead">
+      We get things wrong sometimes. When we do, we fix them quickly, we timestamp the fix,
+      and we preserve the original wording in a visible changelog on the article so readers
+      can see what was changed and when.
+    </p>
+
+    <h2>How to submit a correction</h2>
+    <p>
+      Send corrections to
+      <a href="mailto:corrections@homehealthzone.com">corrections@homehealthzone.com</a>. The
+      email is monitored by the correction desk, not by the authoring editor, so escalations
+      cannot be quietly absorbed by the writer whose work is in question.
+    </p>
+    <p>
+      A useful correction request includes:
+    </p>
+    <ul>
+      <li>The URL of the article in question.</li>
+      <li>A direct quote of the sentence or table entry that is incorrect.</li>
+      <li>What the correct information is.</li>
+      <li>
+        A source we can verify it against — a manufacturer spec sheet, a service manual, a
+        regulatory filing, a peer-reviewed paper, a primary-source clinical guideline.
+      </li>
+    </ul>
+    <p>
+      We will accept corrections without a cited source if the error is self-evident (a typo,
+      a broken link, a misspelled model number), but for clinical or performance claims we
+      need something we can check.
+    </p>
+
+    <h2>Typical response time</h2>
+    <p>
+      We target a response to every correction request within 48 hours. "Response" means one
+      of:
+    </p>
+    <ul>
+      <li>Confirmation that the correction is being made and a timeline for the update.</li>
+      <li>
+        An explanation of why we are not making the change — for example, because the source
+        we cited differs from the one you cited, and our source is primary where yours is
+        secondary. In that case we will also flag the disagreement in a footnote on the
+        article if it is material.
+      </li>
+      <li>A request for additional information if the evidence is unclear.</li>
+    </ul>
+
+    <h2>What a correction looks like on the page</h2>
+    <p>
+      When we make a correction, the affected article gains (or updates) a changelog entry at
+      the bottom of the page. Each entry includes:
+    </p>
+    <ul>
+      <li>The date and time of the correction, in IST.</li>
+      <li>The sentence or claim that was changed, quoted verbatim as it originally stood.</li>
+      <li>The corrected wording.</li>
+      <li>
+        A short reason for the change (e.g. "manufacturer spec sheet updated", "reader flagged
+        arithmetic error in the total-cost-of-ownership table", "retraction of a claim we
+        could no longer support").
+      </li>
+    </ul>
+    <p>
+      We do not silently edit articles. If a change is significant enough to affect a verdict,
+      a score, or a ranking in a comparison, the changelog says so explicitly.
+    </p>
+
+    <h2>Severity levels</h2>
+    <p>
+      We distinguish three severity bands internally:
+    </p>
+    <ul>
+      <li>
+        <strong>Minor:</strong> typo, formatting, image caption, broken link. Fixed silently
+        with a changelog line.
+      </li>
+      <li>
+        <strong>Material:</strong> a factual error that changes a spec value, a price, a
+        warranty term, or a clinical claim. Fixed with a visible correction notice at the top
+        of the article for 30 days, plus the changelog entry.
+      </li>
+      <li>
+        <strong>Verdict-affecting:</strong> a correction that changes a device's score or a
+        comparison outcome. Fixed with a permanent correction notice at the top of the
+        article, the score recalculated publicly, and a brief editorial note explaining what
+        we got wrong and why.
+      </li>
+    </ul>
+
+    <h2>Retractions</h2>
+    <p>
+      A retraction is reserved for the cases where an article's underlying premise is wrong —
+      not just a claim inside it. Retracted articles remain online with a banner indicating
+      retraction and a pointer to any superseding article. We do not delete retracted URLs,
+      to preserve link integrity and the public record.
+    </p>
+
+    <h2>Questions about a correction</h2>
+    <p>
+      If you have submitted a correction and have not heard back within 48 hours, or you
+      disagree with how a correction was handled, escalate to
+      <a href="mailto:editor@homehealthzone.com">editor@homehealthzone.com</a>.
+    </p>
+  </article>
+</BaseLayout>

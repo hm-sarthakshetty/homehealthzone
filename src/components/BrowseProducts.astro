@@ -1,0 +1,1214 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import ProductCard from './ProductCard.astro';
+
+type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
+
+export interface Props {
+  entries: ProductEntry[];
+  /** Base path prefix when ProductCard has no explicit href. */
+  basePath?: string;
+  /** Product kind drives which spec filters appear. Defaults to 'concentrator'. */
+  kind?: 'concentrator' | 'cpap-bipap';
+  showCategoryFilter?: boolean;
+  categoryOrder?: string[];
+  /** Map of product slug → HHZ editorial score (0–10). Drives "HHZ score" sort. */
+  scoreMap?: Record<string, number>;
+}
+
+const {
+  entries,
+  basePath,
+  kind = 'concentrator',
+  showCategoryFilter = true,
+  categoryOrder,
+  scoreMap = {},
+} = Astro.props;
+
+function hrefFor(entry: ProductEntry): string {
+  if (basePath) return `${basePath}${entry.data.slug}/`;
+  if (entry.collection === 'cpap-bipap') {
+    const dt = (entry.data as CollectionEntry<'cpap-bipap'>['data']).device_type;
+    return `/${dt}/${entry.data.slug}/`;
+  }
+  return `/oxygen-concentrators/${entry.data.slug}/`;
+}
+
+function priceNum(p?: string | null): number {
+  if (!p) return 0;
+  const n = parseFloat(p.replace(/,/g, ''));
+  return Number.isFinite(n) ? n : 0;
+}
+
+function ratingNum(r?: string | null): number {
+  if (!r) return 0;
+  const n = parseFloat(r);
+  return Number.isFinite(n) ? n : 0;
+}
+
+// --- Facets ---
+// Brand order: by each brand's best-performing product HHZ score (descending),
+// tiebreak alphabetical. Brands with no reviewed product fall to the bottom.
+const brandBestScore = new Map<string, number>();
+for (const e of entries) {
+  const brand = e.data.brand;
+  if (!brand) continue;
+  const s = scoreMap[e.data.slug];
+  if (typeof s !== 'number') continue;
+  const prev = brandBestScore.get(brand) ?? -1;
+  if (s > prev) brandBestScore.set(brand, s);
+}
+const brands = [...new Set(entries.map((e) => e.data.brand).filter(Boolean))]
+  .sort((a, b) => {
+    const sa = brandBestScore.get(a) ?? -1;
+    const sb = brandBestScore.get(b) ?? -1;
+    if (sb !== sa) return sb - sa;
+    return a.localeCompare(b);
+  });
+const rawCategories = [...new Set(entries.map((e) => e.data.category).filter(Boolean))].sort();
+const categories =
+  categoryOrder && categoryOrder.length
+    ? categoryOrder.filter((c) => rawCategories.includes(c))
+    : rawCategories;
+
+const prices = entries.map((e) => priceNum(e.data.price_current)).filter((n) => n > 0);
+const minPriceRaw = prices.length ? Math.min(...prices) : 0;
+const maxPriceRaw = prices.length ? Math.max(...prices) : 0;
+// Round outward to nice increments so slider bounds feel natural.
+const minPrice = minPriceRaw ? Math.floor(minPriceRaw / 1000) * 1000 : 0;
+const maxPrice = maxPriceRaw ? Math.ceil(maxPriceRaw / 5000) * 5000 : 0;
+
+// --- Spec ranges from normalized_specs ---
+type SpecRange = { min: number; max: number; count: number };
+function specRange(field: string): SpecRange {
+  const vals: number[] = [];
+  for (const e of entries) {
+    const ns = (e.data as any).normalized_specs ?? {};
+    const v = ns[field];
+    if (typeof v === 'number' && Number.isFinite(v)) vals.push(v);
+  }
+  if (!vals.length) return { min: 0, max: 0, count: 0 };
+  return { min: Math.floor(Math.min(...vals)), max: Math.ceil(Math.max(...vals)), count: vals.length };
+}
+
+function countBool(field: string): number {
+  let n = 0;
+  for (const e of entries) {
+    const ns = (e.data as any).normalized_specs ?? {};
+    if (ns[field] === true) n++;
+  }
+  return n;
+}
+
+const flowRange = specRange('flow_max_lpm');
+const weightRange = specRange('weight_kg');
+const noiseRange = specRange('noise_db');
+const purityMinRange = specRange('purity_min');
+const pressureMaxRange = specRange('pressure_max_cmh2o');
+
+const hasOpiCount = countBool('has_opi');
+const hasPulseCount = countBool('has_pulse_flow');
+const faaApprovedCount = countBool('faa_approved');
+const ceCertifiedCount = countBool('ce_certified');
+const hasHumidifierCount = countBool('has_humidifier');
+
+const showFlow = kind === 'concentrator' && flowRange.count >= 3 && flowRange.min < flowRange.max;
+const showPurity = kind === 'concentrator' && purityMinRange.count >= 3 && purityMinRange.min < purityMinRange.max;
+const showPressure = kind === 'cpap-bipap' && pressureMaxRange.count >= 3 && pressureMaxRange.min < pressureMaxRange.max;
+const showWeight = weightRange.count >= 3 && weightRange.min < weightRange.max;
+const showNoise = noiseRange.count >= 3 && noiseRange.min < noiseRange.max;
+const showPrice = maxPrice > 0 && minPrice < maxPrice;
+
+const showOpi = kind === 'concentrator' && hasOpiCount > 0;
+const showPulse = kind === 'concentrator' && hasPulseCount > 0;
+const showFaa = kind === 'concentrator' && faaApprovedCount > 0;
+const showCe = kind === 'concentrator' && ceCertifiedCount > 0;
+const showHumidifier = kind === 'cpap-bipap' && hasHumidifierCount > 0;
+
+const NUMERIC_SPEC_KEYS = [
+  'weight_kg',
+  'flow_min_lpm',
+  'flow_max_lpm',
+  'purity_min',
+  'purity_max',
+  'noise_db',
+  'power_w',
+  'pressure_min_cmh2o',
+  'pressure_max_cmh2o',
+  'warranty_years',
+] as const;
+
+const BOOL_SPEC_KEYS = [
+  'has_humidifier',
+  'has_pulse_flow',
+  'has_opi',
+  'faa_approved',
+  'ce_certified',
+  'indian_voltage',
+] as const;
+
+function datasetFor(entry: ProductEntry): Record<string, string> {
+  const price = priceNum(entry.data.price_current);
+  const hhzScore = scoreMap[entry.data.slug];
+  // Fall back to scraped user rating only when no HHZ score exists for this product yet.
+  const rating = typeof hhzScore === 'number' ? hhzScore : ratingNum(entry.data.rating_value);
+  const stock = (entry.data.stock || '').toLowerCase();
+  const name = entry.data.product_name.toLowerCase();
+  const ns: any = (entry.data as any).normalized_specs ?? {};
+
+  const ds: Record<string, string> = {
+    'data-brand': entry.data.brand || '',
+    'data-category': entry.data.category || '',
+    'data-price': String(price),
+    'data-stock': stock,
+    'data-name': name,
+    'data-rating': String(rating),
+  };
+  for (const key of NUMERIC_SPEC_KEYS) {
+    const v = ns[key];
+    if (typeof v === 'number' && Number.isFinite(v)) {
+      ds['data-spec-' + key.replace(/_/g, '-')] = String(v);
+    }
+  }
+  for (const key of BOOL_SPEC_KEYS) {
+    if (ns[key] === true) {
+      ds['data-spec-' + key.replace(/_/g, '-')] = '1';
+    }
+  }
+  return ds;
+}
+
+function fmtINR(n: number): string {
+  return n.toLocaleString('en-IN');
+}
+---
+<section class="browse" aria-labelledby="browse-heading">
+  <h2 id="browse-heading" class="visually-hidden">Browse products</h2>
+
+  <div class="browse__layout">
+    <aside class="browse__sidebar" aria-label="Filters">
+      <header class="browse__sidebar-head">
+        <span class="browse__sidebar-title">Filters</span>
+        <button type="button" id="browse-reset" class="link-button">Reset all</button>
+      </header>
+
+      <div class="browse__facet">
+        <label for="browse-search" class="filter-inline-label">Search</label>
+        <input
+          type="search"
+          id="browse-search"
+          placeholder="Model or brand…"
+          class="filter-search"
+          autocomplete="off"
+          spellcheck="false"
+        />
+      </div>
+
+      {showCategoryFilter && categories.length > 1 && (
+        <div class="browse__facet">
+          <span class="filter-inline-label">Category</span>
+          <div class="filter-chips" role="group" aria-label="Filter by category">
+            {categories.map((cat) => (
+              <label class="chip">
+                <input type="checkbox" name="category" value={cat} class="filter-category" />
+                <span>{cat}</span>
+              </label>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {brands.length > 1 && (
+        <div class="browse__facet">
+          <div class="browse__facet-head">
+            <span class="filter-inline-label">Brand</span>
+            <span class="browse__facet-hint" id="brand-summary">All brands</span>
+          </div>
+          <div class="filter-chips filter-chips--scroll" role="group" aria-label="Filter by brand">
+            {brands.map((brand) => (
+              <label class="chip">
+                <input type="checkbox" name="brand" value={brand} class="filter-brand" />
+                <span>{brand}</span>
+              </label>
+            ))}
+          </div>
+        </div>
+      )}
+
+      <div class="browse__facet">
+        <span class="filter-inline-label">Stock &amp; Sort</span>
+        <label class="chip chip--toggle">
+          <input type="checkbox" id="filter-in-stock" />
+          <span>In stock only</span>
+        </label>
+        <select id="browse-sort" class="filter-select" aria-label="Sort">
+          <option value="rating" selected>HHZ score (high → low)</option>
+          <option value="name">Name (A–Z)</option>
+          <option value="price-asc">Price (low → high)</option>
+          <option value="price-desc">Price (high → low)</option>
+        </select>
+      </div>
+
+      {showPrice && (
+        <div class="browse__facet browse__facet--range">
+          <div class="browse__facet-head">
+            <span class="filter-inline-label">Price (₹)</span>
+            <span class="range-values">
+              ₹<span id="price-min-value">{fmtINR(minPrice)}</span>
+              <span class="range-dash">–</span>
+              ₹<span id="price-max-value">{fmtINR(maxPrice)}</span>
+            </span>
+          </div>
+          <div class="range-pair" data-range-pair="price">
+            <input
+              type="range"
+              id="filter-price-min"
+              class="filter-range range-pair__min"
+              min={minPrice}
+              max={maxPrice}
+              value={minPrice}
+              step="1000"
+              aria-label="Minimum price"
+            />
+            <input
+              type="range"
+              id="filter-price-max"
+              class="filter-range range-pair__max"
+              min={minPrice}
+              max={maxPrice}
+              value={maxPrice}
+              step="1000"
+              aria-label="Maximum price"
+            />
+          </div>
+          <div class="range-bounds">
+            <span>₹{fmtINR(minPrice)}</span>
+            <span>₹{fmtINR(maxPrice)}</span>
+          </div>
+        </div>
+      )}
+
+      {showFlow && (
+        <div class="browse__facet browse__facet--range">
+          <div class="browse__facet-head">
+            <span class="filter-inline-label">Flow (LPM)</span>
+            <span class="range-values">
+              <span id="flow-min-value">{flowRange.min}</span>
+              <span class="range-dash">–</span>
+              <span id="flow-max-value">{flowRange.max}</span>
+            </span>
+          </div>
+          <div class="range-pair" data-range-pair="flow">
+            <input
+              type="range"
+              id="filter-flow-min"
+              class="filter-range range-pair__min spec-range"
+              data-field="flow_max_lpm"
+              data-direction="min"
+              min={flowRange.min}
+              max={flowRange.max}
+              value={flowRange.min}
+              step="0.5"
+              aria-label="Minimum flow"
+            />
+            <input
+              type="range"
+              id="filter-flow-max"
+              class="filter-range range-pair__max spec-range"
+              data-field="flow_max_lpm"
+              data-direction="max"
+              min={flowRange.min}
+              max={flowRange.max}
+              value={flowRange.max}
+              step="0.5"
+              aria-label="Maximum flow"
+            />
+          </div>
+          <div class="range-bounds">
+            <span>{flowRange.min} LPM</span>
+            <span>{flowRange.max} LPM</span>
+          </div>
+        </div>
+      )}
+
+      {showPressure && (
+        <div class="browse__facet browse__facet--range">
+          <div class="browse__facet-head">
+            <span class="filter-inline-label">Pressure (cmH₂O)</span>
+            <span class="range-values">
+              <span id="pressure-min-value">{pressureMaxRange.min}</span>
+              <span class="range-dash">–</span>
+              <span id="pressure-max-value">{pressureMaxRange.max}</span>
+            </span>
+          </div>
+          <div class="range-pair" data-range-pair="pressure">
+            <input
+              type="range"
+              id="filter-pressure-min"
+              class="filter-range range-pair__min spec-range"
+              data-field="pressure_max_cmh2o"
+              data-direction="min"
+              min={pressureMaxRange.min}
+              max={pressureMaxRange.max}
+              value={pressureMaxRange.min}
+              step="1"
+              aria-label="Minimum pressure"
+            />
+            <input
+              type="range"
+              id="filter-pressure-max"
+              class="filter-range range-pair__max spec-range"
+              data-field="pressure_max_cmh2o"
+              data-direction="max"
+              min={pressureMaxRange.min}
+              max={pressureMaxRange.max}
+              value={pressureMaxRange.max}
+              step="1"
+              aria-label="Maximum pressure"
+            />
+          </div>
+          <div class="range-bounds">
+            <span>{pressureMaxRange.min} cmH₂O</span>
+            <span>{pressureMaxRange.max} cmH₂O</span>
+          </div>
+        </div>
+      )}
+
+      {showPurity && (
+        <div class="browse__facet browse__facet--range">
+          <div class="browse__facet-head">
+            <span class="filter-inline-label">Purity floor (%)</span>
+            <span class="range-values">
+              <span id="purity-min-value">{purityMinRange.min}</span>
+              <span class="range-dash">–</span>
+              <span id="purity-max-value">{purityMinRange.max}</span>
+            </span>
+          </div>
+          <div class="range-pair" data-range-pair="purity">
+            <input
+              type="range"
+              id="filter-purity-min"
+              class="filter-range range-pair__min spec-range"
+              data-field="purity_min"
+              data-direction="min"
+              min={purityMinRange.min}
+              max={purityMinRange.max}
+              value={purityMinRange.min}
+              step="1"
+              aria-label="Minimum purity floor"
+            />
+            <input
+              type="range"
+              id="filter-purity-max"
+              class="filter-range range-pair__max spec-range"
+              data-field="purity_min"
+              data-direction="max"
+              min={purityMinRange.min}
+              max={purityMinRange.max}
+              value={purityMinRange.max}
+              step="1"
+              aria-label="Maximum purity floor"
+            />
+          </div>
+          <div class="range-bounds">
+            <span>{purityMinRange.min}%</span>
+            <span>{purityMinRange.max}%</span>
+          </div>
+        </div>
+      )}
+
+      {showWeight && (
+        <div class="browse__facet browse__facet--range">
+          <div class="browse__facet-head">
+            <span class="filter-inline-label">Weight (kg)</span>
+            <span class="range-values">
+              <span id="weight-min-value">{weightRange.min}</span>
+              <span class="range-dash">–</span>
+              <span id="weight-max-value">{weightRange.max}</span>
+            </span>
+          </div>
+          <div class="range-pair" data-range-pair="weight">
+            <input
+              type="range"
+              id="filter-weight-min"
+              class="filter-range range-pair__min spec-range"
+              data-field="weight_kg"
+              data-direction="min"
+              min={weightRange.min}
+              max={weightRange.max}
+              value={weightRange.min}
+              step="0.5"
+              aria-label="Minimum weight"
+            />
+            <input
+              type="range"
+              id="filter-weight-max"
+              class="filter-range range-pair__max spec-range"
+              data-field="weight_kg"
+              data-direction="max"
+              min={weightRange.min}
+              max={weightRange.max}
+              value={weightRange.max}
+              step="0.5"
+              aria-label="Maximum weight"
+            />
+          </div>
+          <div class="range-bounds">
+            <span>{weightRange.min} kg</span>
+            <span>{weightRange.max} kg</span>
+          </div>
+        </div>
+      )}
+
+      {showNoise && (
+        <div class="browse__facet browse__facet--range">
+          <div class="browse__facet-head">
+            <span class="filter-inline-label">Noise (dB)</span>
+            <span class="range-values">
+              <span id="noise-min-value">{noiseRange.min}</span>
+              <span class="range-dash">–</span>
+              <span id="noise-max-value">{noiseRange.max}</span>
+            </span>
+          </div>
+          <div class="range-pair" data-range-pair="noise">
+            <input
+              type="range"
+              id="filter-noise-min"
+              class="filter-range range-pair__min spec-range"
+              data-field="noise_db"
+              data-direction="min"
+              min={noiseRange.min}
+              max={noiseRange.max}
+              value={noiseRange.min}
+              step="1"
+              aria-label="Minimum noise"
+            />
+            <input
+              type="range"
+              id="filter-noise-max"
+              class="filter-range range-pair__max spec-range"
+              data-field="noise_db"
+              data-direction="max"
+              min={noiseRange.min}
+              max={noiseRange.max}
+              value={noiseRange.max}
+              step="1"
+              aria-label="Maximum noise"
+            />
+          </div>
+          <div class="range-bounds">
+            <span>{noiseRange.min} dB</span>
+            <span>{noiseRange.max} dB</span>
+          </div>
+        </div>
+      )}
+
+      {(showOpi || showPulse || showFaa || showCe || showHumidifier) && (
+        <div class="browse__facet">
+          <span class="filter-inline-label">Features</span>
+          <div class="spec-toggles">
+            {showOpi && (
+              <label class="chip chip--toggle">
+                <input type="checkbox" class="spec-bool" data-field="has_opi" />
+                <span>OPI</span>
+              </label>
+            )}
+            {showPulse && (
+              <label class="chip chip--toggle">
+                <input type="checkbox" class="spec-bool" data-field="has_pulse_flow" />
+                <span>Pulse flow</span>
+              </label>
+            )}
+            {showFaa && (
+              <label class="chip chip--toggle">
+                <input type="checkbox" class="spec-bool" data-field="faa_approved" />
+                <span>FAA approved</span>
+              </label>
+            )}
+            {showCe && (
+              <label class="chip chip--toggle">
+                <input type="checkbox" class="spec-bool" data-field="ce_certified" />
+                <span>CE certified</span>
+              </label>
+            )}
+            {showHumidifier && (
+              <label class="chip chip--toggle">
+                <input type="checkbox" class="spec-bool" data-field="has_humidifier" />
+                <span>Has humidifier</span>
+              </label>
+            )}
+          </div>
+        </div>
+      )}
+
+      <p class="spec-note">
+        Products without a published value for a numeric spec are not excluded by that range filter.
+      </p>
+    </aside>
+
+    <div class="browse__main">
+      <div class="browse__topbar">
+        <p class="browse__count" aria-live="polite">
+          <strong id="browse-count">{entries.length}</strong> of {entries.length} products
+        </p>
+        <div class="browse__active" id="browse-active" hidden></div>
+      </div>
+
+      <div class="product-grid" id="browse-grid">
+        {entries.map((entry) => (
+          <div class="browse-item" {...datasetFor(entry)}>
+            <ProductCard entry={entry} href={hrefFor(entry)} />
+          </div>
+        ))}
+      </div>
+
+      <p class="browse__empty" id="browse-empty" hidden>
+        No products match these filters.{' '}
+        <button type="button" id="browse-empty-reset" class="link-button">Reset filters</button>
+      </p>
+    </div>
+  </div>
+</section>
+
+<script is:inline>
+  (() => {
+    const grid = document.getElementById('browse-grid');
+    if (!grid) return;
+    const items = Array.from(grid.querySelectorAll('.browse-item'));
+    const searchInput = document.getElementById('browse-search');
+    const brandBoxes = Array.from(document.querySelectorAll('input.filter-brand'));
+    const catBoxes = Array.from(document.querySelectorAll('input.filter-category'));
+    const inStock = document.getElementById('filter-in-stock');
+    const sortSelect = document.getElementById('browse-sort');
+    const countEl = document.getElementById('browse-count');
+    const emptyEl = document.getElementById('browse-empty');
+    const resetBtn = document.getElementById('browse-reset');
+    const emptyReset = document.getElementById('browse-empty-reset');
+    const brandSummary = document.getElementById('brand-summary');
+    const activeStrip = document.getElementById('browse-active');
+    const specBools = Array.from(document.querySelectorAll('input.spec-bool'));
+
+    const priceMinInput = document.getElementById('filter-price-min');
+    const priceMaxInput = document.getElementById('filter-price-max');
+    const priceMinLabel = document.getElementById('price-min-value');
+    const priceMaxLabel = document.getElementById('price-max-value');
+
+    // Pairs: [minInput, maxInput, minLabel, maxLabel, field, units]
+    const rangePairs = [];
+    const findPair = (slug, field, units) => {
+      const minI = document.getElementById('filter-' + slug + '-min');
+      const maxI = document.getElementById('filter-' + slug + '-max');
+      const minL = document.getElementById(slug + '-min-value');
+      const maxL = document.getElementById(slug + '-max-value');
+      if (minI && maxI) rangePairs.push({ minI, maxI, minL, maxL, field, units, slug });
+    };
+    findPair('flow', 'flow_max_lpm', 'LPM');
+    findPair('pressure', 'pressure_max_cmh2o', 'cmH₂O');
+    findPair('purity', 'purity_min', '%');
+    findPair('weight', 'weight_kg', 'kg');
+    findPair('noise', 'noise_db', 'dB');
+
+    const formatINR = (n) => {
+      try { return Number(n).toLocaleString('en-IN'); } catch { return String(n); }
+    };
+    const fmtNum = (n) => {
+      const v = Number(n);
+      if (!Number.isFinite(v)) return String(n);
+      return Number.isInteger(v) ? String(v) : v.toFixed(1);
+    };
+
+    const checkedValues = (list) => {
+      const out = new Set();
+      for (const el of list) if (el.checked) out.add(el.value);
+      return out;
+    };
+
+    function updateBrandSummary(selectedBrands) {
+      if (!brandSummary) return;
+      if (!selectedBrands.size) brandSummary.textContent = 'All brands';
+      else if (selectedBrands.size === 1) brandSummary.textContent = [...selectedBrands][0];
+      else brandSummary.textContent = selectedBrands.size + ' selected';
+    }
+
+    // Keep min ≤ max on each pair.
+    function clampPair(pair) {
+      const mn = Number(pair.minI.value);
+      const mx = Number(pair.maxI.value);
+      if (mn > mx) {
+        // If the user dragged min past max (or vice versa) collapse one side to the other.
+        if (document.activeElement === pair.minI) pair.maxI.value = String(mn);
+        else pair.minI.value = String(mx);
+      }
+      if (pair.minL) pair.minL.textContent = fmtNum(pair.minI.value);
+      if (pair.maxL) pair.maxL.textContent = fmtNum(pair.maxI.value);
+    }
+
+    function clampPrice() {
+      if (!priceMinInput || !priceMaxInput) return;
+      const mn = Number(priceMinInput.value);
+      const mx = Number(priceMaxInput.value);
+      if (mn > mx) {
+        if (document.activeElement === priceMinInput) priceMaxInput.value = String(mn);
+        else priceMinInput.value = String(mx);
+      }
+      if (priceMinLabel) priceMinLabel.textContent = formatINR(priceMinInput.value);
+      if (priceMaxLabel) priceMaxLabel.textContent = formatINR(priceMaxInput.value);
+    }
+
+    function rangePairIsActive(pair) {
+      return Number(pair.minI.value) > Number(pair.minI.min) ||
+             Number(pair.maxI.value) < Number(pair.maxI.max);
+    }
+
+    function priceIsActive() {
+      if (!priceMinInput || !priceMaxInput) return false;
+      return Number(priceMinInput.value) > Number(priceMinInput.min) ||
+             Number(priceMaxInput.value) < Number(priceMaxInput.max);
+    }
+
+    function renderActiveChips() {
+      if (!activeStrip) return;
+      const chips = [];
+
+      const q = (searchInput && searchInput.value || '').trim();
+      if (q) chips.push({ label: 'Search: "' + q + '"', clear: () => { searchInput.value = ''; } });
+
+      const selectedCats = checkedValues(catBoxes);
+      selectedCats.forEach((c) => chips.push({ label: c, clear: () => {
+        catBoxes.forEach((b) => { if (b.value === c) b.checked = false; });
+      }}));
+
+      const selectedBrands = checkedValues(brandBoxes);
+      selectedBrands.forEach((b) => chips.push({ label: b, clear: () => {
+        brandBoxes.forEach((x) => { if (x.value === b) x.checked = false; });
+      }}));
+
+      if (priceIsActive()) {
+        chips.push({
+          label: '₹' + formatINR(priceMinInput.value) + '–₹' + formatINR(priceMaxInput.value),
+          clear: () => {
+            priceMinInput.value = priceMinInput.min;
+            priceMaxInput.value = priceMaxInput.max;
+            clampPrice();
+          },
+        });
+      }
+
+      rangePairs.forEach((p) => {
+        if (rangePairIsActive(p)) {
+          chips.push({
+            label: p.slug.charAt(0).toUpperCase() + p.slug.slice(1) + ': ' +
+                   fmtNum(p.minI.value) + '–' + fmtNum(p.maxI.value) + ' ' + p.units,
+            clear: () => {
+              p.minI.value = p.minI.min;
+              p.maxI.value = p.maxI.max;
+              clampPair(p);
+            },
+          });
+        }
+      });
+
+      specBools.forEach((inp) => {
+        if (inp.checked) {
+          const labelSpan = inp.parentElement && inp.parentElement.querySelector('span');
+          const label = labelSpan ? labelSpan.textContent : inp.dataset.field;
+          chips.push({ label: label, clear: () => { inp.checked = false; } });
+        }
+      });
+
+      if (inStock && inStock.checked) {
+        chips.push({ label: 'In stock', clear: () => { inStock.checked = false; } });
+      }
+
+      activeStrip.innerHTML = '';
+      if (!chips.length) {
+        activeStrip.hidden = true;
+        return;
+      }
+      activeStrip.hidden = false;
+
+      chips.forEach((c) => {
+        const btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'active-chip';
+        btn.setAttribute('aria-label', 'Remove filter ' + c.label);
+        btn.innerHTML = '<span>' + c.label + '</span><span class="active-chip__x" aria-hidden="true">×</span>';
+        btn.addEventListener('click', () => {
+          c.clear();
+          applyFilters();
+        });
+        activeStrip.appendChild(btn);
+      });
+
+      const clearAll = document.createElement('button');
+      clearAll.type = 'button';
+      clearAll.className = 'active-chip active-chip--clear';
+      clearAll.textContent = 'Clear all';
+      clearAll.addEventListener('click', resetAll);
+      activeStrip.appendChild(clearAll);
+    }
+
+    function applyFilters() {
+      rangePairs.forEach(clampPair);
+      clampPrice();
+
+      const q = (searchInput && searchInput.value || '').trim().toLowerCase();
+      const selectedBrands = checkedValues(brandBoxes);
+      const selectedCats = checkedValues(catBoxes);
+      const pMin = priceMinInput ? Number(priceMinInput.value) : 0;
+      const pMax = priceMaxInput ? Number(priceMaxInput.value) : Infinity;
+      const stockOnly = inStock && inStock.checked;
+
+      const specConstraints = [];
+      rangePairs.forEach((p) => {
+        if (!rangePairIsActive(p)) return;
+        const attr = 'data-spec-' + p.field.replace(/_/g, '-');
+        specConstraints.push({
+          attr,
+          min: Number(p.minI.value),
+          max: Number(p.maxI.value),
+        });
+      });
+
+      const specBoolNeeds = [];
+      for (const inp of specBools) {
+        if (!inp.checked) continue;
+        specBoolNeeds.push('data-spec-' + inp.dataset.field.replace(/_/g, '-'));
+      }
+
+      updateBrandSummary(selectedBrands);
+
+      let shown = 0;
+      for (const item of items) {
+        const brand = item.dataset.brand || '';
+        const category = item.dataset.category || '';
+        const price = Number(item.dataset.price) || 0;
+        const stock = item.dataset.stock || '';
+        const name = item.dataset.name || '';
+
+        const mSearch = !q || name.includes(q) || brand.toLowerCase().includes(q);
+        const mBrand = !selectedBrands.size || selectedBrands.has(brand);
+        const mCat = !selectedCats.size || selectedCats.has(category);
+        // Price 0 means unpriced — always visible (lenient on missing data).
+        const mPrice = price === 0 || (price >= pMin && price <= pMax);
+        const mStock = !stockOnly || stock.includes('in stock') || stock.includes('available');
+
+        let mSpecs = true;
+        for (const { attr, min, max } of specConstraints) {
+          const raw = item.getAttribute(attr);
+          if (raw === null) continue; // lenient on missing numeric data
+          const v = Number(raw);
+          if (!Number.isFinite(v)) continue;
+          if (v < min || v > max) {
+            mSpecs = false;
+            break;
+          }
+        }
+        if (mSpecs) {
+          for (const attr of specBoolNeeds) {
+            if (item.getAttribute(attr) !== '1') {
+              mSpecs = false;
+              break;
+            }
+          }
+        }
+
+        const visible = mSearch && mBrand && mCat && mPrice && mStock && mSpecs;
+        item.hidden = !visible;
+        if (visible) shown++;
+      }
+
+      if (countEl) countEl.textContent = String(shown);
+      if (emptyEl) emptyEl.hidden = shown > 0;
+      renderActiveChips();
+    }
+
+    function applySort() {
+      const mode = sortSelect ? sortSelect.value : 'name';
+      const sorted = items.slice();
+      sorted.sort((a, b) => {
+        const ap = Number(a.dataset.price) || 0;
+        const bp = Number(b.dataset.price) || 0;
+        const ar = Number(a.dataset.rating) || 0;
+        const br = Number(b.dataset.rating) || 0;
+        const an = a.dataset.name || '';
+        const bn = b.dataset.name || '';
+        switch (mode) {
+          case 'price-asc':
+            return (ap || Infinity) - (bp || Infinity) || an.localeCompare(bn);
+          case 'price-desc':
+            return bp - ap || an.localeCompare(bn);
+          case 'rating':
+            return br - ar || an.localeCompare(bn);
+          case 'name':
+          default:
+            return an.localeCompare(bn);
+        }
+      });
+      for (const el of sorted) grid.appendChild(el);
+    }
+
+    function resetAll() {
+      if (searchInput) searchInput.value = '';
+      brandBoxes.forEach((b) => { b.checked = false; });
+      catBoxes.forEach((b) => { b.checked = false; });
+      if (priceMinInput) priceMinInput.value = priceMinInput.min;
+      if (priceMaxInput) priceMaxInput.value = priceMaxInput.max;
+      if (inStock) inStock.checked = false;
+      if (sortSelect) sortSelect.value = 'rating';
+      rangePairs.forEach((p) => {
+        p.minI.value = p.minI.min;
+        p.maxI.value = p.maxI.max;
+        clampPair(p);
+      });
+      clampPrice();
+      specBools.forEach((inp) => { inp.checked = false; });
+      applySort();
+      applyFilters();
+    }
+
+    if (searchInput) searchInput.addEventListener('input', applyFilters);
+    brandBoxes.forEach((b) => b.addEventListener('change', applyFilters));
+    catBoxes.forEach((b) => b.addEventListener('change', applyFilters));
+    if (priceMinInput) priceMinInput.addEventListener('input', applyFilters);
+    if (priceMaxInput) priceMaxInput.addEventListener('input', applyFilters);
+    if (inStock) inStock.addEventListener('change', applyFilters);
+    if (sortSelect) sortSelect.addEventListener('change', () => { applySort(); applyFilters(); });
+    if (resetBtn) resetBtn.addEventListener('click', resetAll);
+    if (emptyReset) emptyReset.addEventListener('click', resetAll);
+    rangePairs.forEach((p) => {
+      p.minI.addEventListener('input', applyFilters);
+      p.maxI.addEventListener('input', applyFilters);
+    });
+    specBools.forEach((inp) => inp.addEventListener('change', applyFilters));
+
+    applySort();
+    renderActiveChips();
+  })();
+</script>
+
+<style>
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+
+  .browse__layout {
+    display: grid;
+    grid-template-columns: minmax(240px, 280px) minmax(0, 1fr);
+    gap: var(--space-6);
+    align-items: start;
+  }
+
+  .browse__sidebar {
+    position: sticky;
+    top: var(--space-4);
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    padding: var(--space-5) var(--space-5) var(--space-6);
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+    max-height: calc(100vh - var(--space-8));
+    overflow-y: auto;
+  }
+
+  .browse__sidebar-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: var(--space-4);
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .browse__sidebar-title {
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .browse__facet {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+
+  .browse__facet-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: var(--space-2);
+    margin-bottom: 2px;
+  }
+
+  .filter-inline-label {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+  }
+
+  .browse__facet-hint {
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+  }
+
+  .filter-search {
+    width: 100%;
+    padding: var(--space-2) var(--space-3);
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    border: 1px solid var(--color-border-strong);
+    border-radius: 0;
+    background: var(--color-bg);
+  }
+  .filter-search:focus {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 1px;
+  }
+
+  .filter-select {
+    width: 100%;
+    padding: var(--space-2) var(--space-3);
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    border: 1px solid var(--color-border-strong);
+    border-radius: 0;
+    background: var(--color-bg);
+    cursor: pointer;
+  }
+
+  .filter-chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .filter-chips--scroll {
+    max-height: 200px;
+    overflow-y: auto;
+    padding-bottom: 4px;
+    padding-right: 2px;
+  }
+
+  .chip {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    padding: 5px 10px;
+    min-height: 26px;
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    line-height: 1.2;
+    border: 1px solid var(--color-border);
+    background: var(--color-bg);
+    color: var(--color-text-muted);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+    transition: border-color 0.12s ease, background 0.12s ease, color 0.12s ease;
+  }
+  /* Hide the OS checkbox — the chip itself is the visual toggle. Kept in DOM for a11y. */
+  .chip input[type="checkbox"] {
+    position: absolute;
+    width: 1px; height: 1px;
+    margin: -1px; padding: 0;
+    border: 0; overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+  .chip:hover {
+    border-color: var(--color-border-strong);
+    color: var(--color-text);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-accent);
+    outline-offset: 1px;
+  }
+  .chip:has(input:checked) {
+    background: var(--color-accent);
+    color: #fff;
+    border-color: var(--color-accent);
+  }
+  .chip--toggle { background: transparent; }
+
+  .spec-toggles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .spec-note {
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+  }
+
+  /* Dual range slider pair. */
+  .range-pair {
+    position: relative;
+    height: 22px;
+  }
+  .range-pair input[type='range'] {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0;
+    pointer-events: none;
+    background: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 2px;
+  }
+  .range-pair input[type='range']::-webkit-slider-runnable-track {
+    height: 2px;
+    background: var(--color-border-strong);
+  }
+  .range-pair input[type='range']::-moz-range-track {
+    height: 2px;
+    background: var(--color-border-strong);
+  }
+  .range-pair input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    pointer-events: auto;
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--color-border-strong);
+    background: var(--color-accent);
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: -6px;
+  }
+  .range-pair input[type='range']::-moz-range-thumb {
+    pointer-events: auto;
+    width: 14px;
+    height: 14px;
+    border: 1px solid var(--color-border-strong);
+    background: var(--color-accent);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  /* Max slider sits on top, so its thumb is always grabbable at the top end. */
+  .range-pair__max { z-index: 2; }
+  .range-pair__min { z-index: 1; }
+
+  .range-values {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    font-variant-numeric: tabular-nums;
+    color: var(--color-text);
+  }
+  .range-dash { color: var(--color-text-muted); margin: 0 0.2em; }
+
+  .range-bounds {
+    display: flex;
+    justify-content: space-between;
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+    font-variant-numeric: tabular-nums;
+    margin-top: 2px;
+  }
+
+  .link-button {
+    appearance: none;
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    color: var(--color-accent);
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .link-button:hover { color: var(--color-accent-hover); }
+
+  .browse__main {
+    min-width: 0;
+  }
+
+  .browse__topbar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    margin-bottom: var(--space-4);
+  }
+
+  .browse__count {
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+  .browse__count strong { color: var(--color-text); font-variant-numeric: tabular-nums; }
+
+  .browse__active {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-1);
+    padding: var(--space-2);
+    border: 1px solid var(--color-border);
+    background: var(--color-surface);
+  }
+
+  .active-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 3px 8px;
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    border: 1px solid var(--color-border-strong);
+    background: var(--color-bg);
+    cursor: pointer;
+  }
+  .active-chip:hover { border-color: var(--color-accent); color: var(--color-accent); }
+  .active-chip__x {
+    font-size: 14px;
+    line-height: 1;
+    color: var(--color-text-muted);
+  }
+  .active-chip:hover .active-chip__x { color: var(--color-accent); }
+  .active-chip--clear {
+    border-style: dashed;
+    color: var(--color-text-muted);
+  }
+
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: var(--space-5);
+  }
+  .browse-item[hidden] { display: none; }
+
+  .browse__empty {
+    text-align: center;
+    padding: var(--space-12) var(--space-6);
+    color: var(--color-text-muted);
+    font-family: var(--font-sans);
+  }
+
+  @media (max-width: 840px) {
+    .browse__layout {
+      grid-template-columns: 1fr;
+    }
+    .browse__sidebar {
+      position: static;
+      max-height: none;
+    }
+  }
+</style>

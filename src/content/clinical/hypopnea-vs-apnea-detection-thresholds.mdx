@@ -1,0 +1,122 @@
+---
+title: "Hypopnea vs apnea detection thresholds — scoring rules and why home AHI differs"
+description: "AASM Rule 1A vs 1B definitions, the 3% vs 4% desaturation split, and how ResMed, Philips, and BMC algorithms approximate the rules at home."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["apnea", "hypopnea", "aasm-scoring", "rule-1a", "rule-1b", "resmed", "philips", "bmc", "ahi"]
+---
+
+The single most common question a sleep clinician gets — from patients, from referring GPs, from insurers — is "why is the AHI on the home CPAP different from the AHI on the diagnostic sleep study?" The answer sits in a small number of scoring-rule definitions that haven't changed much in a decade but are under-explained everywhere they appear. This article is the definitional tour: what an apnea actually means, what a hypopnea actually means (two competing definitions), which definition each major device uses, and why the resulting AHI numbers can differ by a factor of two on the same physiological night.
+
+## Apnea — the clean definition
+
+Under AASM scoring rules (Manual for the Scoring of Sleep and Associated Events, version 3, with ongoing annual updates), an **apnea** in adults is:
+
+- A drop of **≥ 90% from the pre-event baseline airflow amplitude**,
+- Sustained for **≥ 10 seconds**,
+- With the drop occupying **≥ 90% of the event duration**.
+
+No desaturation required. No arousal required. An apnea is scored purely on the flow channel, with the duration and magnitude criteria. It is classified as obstructive (effort preserved), central (effort absent), or mixed (central transitioning to obstructive) by reference to the thoracic and abdominal effort belts. [CITATION: AASM Manual for the Scoring of Sleep and Associated Events v3.]
+
+This is the stable, agreed-upon definition across labs and across devices. Apnea scoring rarely differs between centres; the magnitude threshold (90% flow drop) is high enough that detection is unambiguous. Disagreement on apnea counts between experienced technologists is typically small (κ > 0.85).
+
+## Hypopnea — two competing definitions
+
+The hypopnea definition is the source of most cross-lab and cross-device AHI disagreement. AASM provides two rules:
+
+**Rule 1A (recommended).** A hypopnea is a drop of **≥ 30% from the pre-event baseline airflow amplitude**, sustained for **≥ 10 seconds**, **accompanied by** either:
+- A **≥ 3% oxygen desaturation from pre-event baseline**, OR
+- An **EEG-defined cortical arousal**.
+
+**Rule 1B (acceptable).** A hypopnea is a drop of **≥ 30% from baseline airflow**, sustained for **≥ 10 seconds**, accompanied by a **≥ 4% oxygen desaturation** only. Arousal alone does not count.
+
+Both rules are endorsed by AASM. Rule 1A is the "recommended" rule and is the rule most academic centres follow. Rule 1B is the "acceptable" rule and is the rule historically required by CMS in the United States for coverage decisions (a legacy that persisted after the clinical rules moved to 1A). Many private Indian labs run rule 1B by default, often without clearly documenting the choice, because the 1B number is lower and produces fewer positive diagnoses.
+
+On the same raw data, rule 1A produces an AHI roughly 15–35% higher than rule 1B on average, with larger gaps in patients whose desaturation events cluster in the 3–4% range. A patient scored AHI 22 under 1A may read AHI 14 under 1B. The physiology is unchanged; the threshold is changed. [CITATION: Berry RB et al, Sleep Breath 2013 — rule comparison; BaHammam AS et al regional variation in scoring.]
+
+## The older rules that still appear in Indian lab software
+
+Before the AASM-unified definitions, several older scoring rules were in common use:
+
+- **Chicago criteria (AASM 1999).** Hypopnea = ≥ 50% flow reduction, no desat or arousal requirement. Still seen in some older Indian lab software defaults.
+- **"4% only" CMS rule, pre-2012.** Hypopnea = ≥ 30% flow drop + ≥ 4% desat, no arousal option. This rule is mechanistically equivalent to modern Rule 1B.
+- **Various intermediate national-body rules.**
+
+A report from an Indian lab without an explicit rule label may be running any of these. The AHI number on such a report should be interpreted with caution until the rule is confirmed. The clinician should ask — the lab's scoring software should be able to print the rule used.
+
+## RERA and its relationship to AHI
+
+A **RERA (respiratory effort-related arousal)** is a sequence of breaths with increasing respiratory effort or progressive flow limitation, lasting ≥ 10 seconds, terminated by an EEG-defined cortical arousal, that **does not meet apnea or hypopnea criteria**. RERAs are scored but are counted in **RDI (respiratory disturbance index)**, not in AHI.
+
+A patient with many RERAs and few hypopneas / apneas may have AHI &lt; 5 (technically below the OSA diagnostic threshold) while having RDI > 15. The clinical picture — daytime sleepiness, morning headache, snoring — fits OSA. The diagnosis may instead be UARS (upper airway resistance syndrome). A Type III HSAT, which lacks EEG, cannot score RERAs at all, meaning UARS phenotype patients can produce entirely normal-looking Type III reports and be falsely reassured.
+
+## How home CPAPs approximate the AASM definitions
+
+A CPAP / APAP has less data than a Type III HSAT: flow at the blower, commanded and measured pressure, derived flow-limitation signal. No EEG, no effort belts, no pulse oximeter (absent an optional SpO₂ accessory). Every manufacturer's hypopnea algorithm must approximate the AASM definition using flow alone.
+
+**ResMed (AirSense 10/11, S9, AirCurve).** Hypopnea detection uses a proportional flow reduction against a rolling baseline (typical published threshold ~50%, above AASM's 30%), sustained > 10 seconds, with additional flow-shape analysis to discriminate real events from transient flow perturbations. The stricter threshold is a deliberate choice to reduce false positives. [CITATION: ResMed AutoSet algorithm white paper.]
+
+**Philips (DreamStation, DreamStation 2, System One).** Uses a similar flow-reduction-plus-shape approach. The specific threshold values are not fully public. In practice, Philips AHI tends to run slightly higher than ResMed AHI on equivalent patients — suggesting the Philips threshold is less conservative.
+
+**BMC (RESmart, G3, OEM variants).** Algorithm details less transparent. Firmware variations produce meaningfully different AHI values on the same patient across BMC generations.
+
+None of the three devices can score EEG arousals (no EEG) or oxygen-desaturation (no SpO₂ unless accessory attached). The home-device hypopneas therefore most closely match the "severe" subset of AASM hypopneas — the events large enough to cross both an airflow threshold and (implicitly, via algorithm design) a signal-to-noise threshold that filters out borderline events. They correspond roughly to Rule 1B hypopneas, not Rule 1A.
+
+This matters for the lab-vs-home comparison: a patient whose lab AHI was 22 under rule 1A may show a home CPAP pre-therapy AHI of 14 if they ever ran the device without therapy (rare in practice), and an on-therapy AHI of 1–3 once CPAP is working. The rule-1A-to-device-algorithm gap explains roughly half the lab-vs-home AHI difference, with CPAP therapy itself explaining the rest.
+
+## Why home AHI numbers differ from lab scoring
+
+Three cumulative effects produce the home-vs-lab AHI gap:
+
+1. **Rule differences.** Lab often uses rule 1A (higher AHI); home device approximates rule 1B or stricter (lower AHI). Alone this is a 15–35% gap.
+2. **CPAP therapy.** The home CPAP is delivering pressure, which suppresses most obstructive events. The lab diagnostic AHI was unassisted. A patient with lab AHI 30 on diagnostic PSG should have home AHI 1–3 on therapy. The drop is the therapy effect.
+3. **Algorithmic thresholds.** Device-specific detection settings differ. ResMed tends to produce lower on-therapy AHI than Philips for the same physiology, both tending lower than a lab rule-1A score.
+
+A patient asking "my lab said AHI 30, my home CPAP says AHI 1.5 — is one wrong?" is asking the right numerical question but the wrong framing question. Both are correct within their respective definitions and contexts. The diagnostic AHI 30 described severity pre-therapy; the home AHI 1.5 describes residual event rate on therapy. The 30 → 1.5 drop means therapy is working.
+
+## What this means for clinical decisions
+
+Several practical rules follow:
+
+**1. Always ask which rule was used.** When a lab report arrives with "AHI 18," the immediate follow-up is "rule 1A or 1B?" If the report doesn't say, phone the lab. A clinician prescribing CPAP on an AHI of 18 under rule 1A is making a different decision from one prescribing on AHI 18 under rule 1B (the 1B event count corresponds to a higher underlying severity).
+
+**2. Don't cross-compare labs without knowing their rules.** Two Indian labs reporting "AHI 12" and "AHI 18" on a patient eight weeks apart may be scoring identical nights under different rules. Repeat studies at the same centre reduce this noise.
+
+**3. Home CPAP AHI is a trend indicator, not a diagnostic measurement.** A stable on-therapy AHI of 2 for months means the therapy is doing its job. An AHI that drifts upward over months means something is changing — investigate, don't just re-title.
+
+**4. AHI &lt; 5 on home CPAP does not prove UARS is absent.** Flow limitation events and RERAs don't enter the AHI calculation on home devices. A patient who remains symptomatic despite a nominally good AHI number may have residual flow limitation driving sleep fragmentation.
+
+**5. The BMC-vs-ResMed-vs-Philips AHI is not interchangeable.** A patient switching brands should expect a 20–40% AHI shift in either direction from the algorithm change alone, independent of any physiological change. Don't attribute the shift to disease progression or therapy change without investigating.
+
+## Indian-context specifics
+
+**Scoring rule variation is wide.** Metropolitan academic centres (AIIMS, PGI, CMC Vellore, major Mumbai and Bengaluru university hospitals) generally run rule 1A. Private labs are a mix — rule 1A, rule 1B, or older Chicago-era rules depending on software defaults. Dealer-operated home-sleep-test providers are more likely to use rule 1B (produces lower AHI, possibly driving fewer positive diagnoses, possibly just reflecting software defaults).
+
+**HSAT vs PSG prevalence.** Type III home tests have grown rapidly in India because they are cheaper (₹3,000–₹6,000 vs ₹8,000–₹20,000 for Type I). The HSAT's AHI is systematically lower than a Type I PSG's AHI on the same patient because HSAT can't score arousals and denominator is recording-time not sleep-time. Don't treat an HSAT AHI as equivalent to a lab Type I AHI.
+
+**Report documentation quality is uneven.** A well-run Indian lab report explicitly states the scoring rule, the software used, the technologist's ID, and the sensor set. A poorly-documented report has just a number and a sleep-stage summary. The former is defensible, the latter is not.
+
+## The pediatric distinction — briefly
+
+Pediatric scoring rules differ from adult rules. A pediatric apnea requires only 2 missed breaths (shorter than the adult 10-second criterion), and the hypopnea definition uses a ≥ 50% flow reduction with ≥ 3% desat or arousal. The different thresholds reflect that children have faster respiratory rates and shorter events.
+
+When a pediatric patient's AHI is reported, confirm the lab used pediatric rules rather than applying adult rules to a child's recording. Applying adult rules to a child produces systematically low AHI counts and misses pathology. Most Indian labs with dedicated pediatric-PSG capability use the pediatric rules correctly; generalist labs without pediatric expertise may not.
+
+## Re-scoring and second opinions
+
+When a report is ambiguous, a re-score on the same raw data under a different rule is the appropriate next step. The raw PSG file contains the flow, effort, SpO₂, and EEG signals; re-scoring under rule 1A when the original was rule 1B (or vice versa) simply re-applies the scoring criteria to the existing data. No repeat study needed.
+
+In practice, Indian labs vary in their willingness to re-score. Academic centres usually will. Private labs sometimes charge a nominal fee (₹500–₹2,000) for re-scoring; some refuse on grounds that "the report is the report." Patients and referring physicians with a legitimate clinical reason to see rule-1A vs rule-1B comparison should press for the re-score — the data exists, the question is well-defined, and the extra work is minutes of technologist time.
+
+A second-opinion PSG at a different lab, run on a different night, is a different matter. Night-to-night variability in AHI (position, alcohol, REM duration) adds noise independent of the scoring rule. If the goal is to resolve rule-disagreement, re-score the same recording; if the goal is to confirm a borderline diagnosis, a fresh study at a centre known to run rule 1A is cleaner.
+
+## Clinical takeaway
+
+The AASM scoring rules are two, and they matter. Rule 1A (3% or arousal) is the clinical reference; rule 1B (4% only) is the stricter, legacy-CMS standard. Home CPAPs approximate rule 1B or tighter, and their AHI numbers are not directly interchangeable with lab Rule 1A scores. A patient's "my CPAP AHI vs my lab AHI" question is answered by reference to these definitions, not by declaring one number wrong.
+
+HHZ's editorial view: every sleep-lab report sold in India should explicitly label the scoring rule — rule 1A, rule 1B, or older — in its header. Centres that don't, should. Patients and referring physicians should ask before accepting a report as the basis for a treatment decision.
+
+Consult your sleep physician when the AHI numbers across sources — lab, HSAT, home device — don't agree, before adjusting therapy based on the discrepancy. The answer is usually "different rule" rather than "different disease."
+
+*References: AASM Manual for the Scoring of Sleep and Associated Events v3 [CITATION]; Berry RB et al, Sleep Breath 2013 [CITATION]; BaHammam AS et al — regional scoring variation [CITATION]; ResMed AutoSet algorithm white paper [CITATION]; manufacturer firmware release notes [CITATION].*

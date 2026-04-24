@@ -1,0 +1,104 @@
+{
+  "slug": "nidek-nuvo-lite-5-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Nidek-Nuvo-Lite-5-LPM",
+  "product_name": "Nidek Nuvo Lite 5 LPM",
+  "brand": "Nidek Medical",
+  "brand_href": "https://www.oxygentimes.com/brand/Nidek-Medical/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "57,599.04",
+  "price_mrp": "66,240.00",
+  "price_symbol": "₹",
+  "rating_value": "4.5 (12)",
+  "rating_count": "12",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/nidek-nuvo-lite-5-lpm-ff98a52cf2.jpg",
+      "alt": "Nidek Nuvo Lite 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/cover1636446631.jpg"
+    },
+    {
+      "src": "/images/products/nidek-nuvo-lite-5-lpm-1dc46467b8.jpg",
+      "alt": "Nidek Nuvo Lite 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/nn1'1664471132.jpg"
+    },
+    {
+      "src": "/images/products/nidek-nuvo-lite-5-lpm-2ee89f64a8.jpg",
+      "alt": "Nidek Nuvo Lite 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/nidek-11636446700.jpg"
+    },
+    {
+      "src": "/images/products/nidek-nuvo-lite-5-lpm-b6cce5178c.jpg",
+      "alt": "Nidek Nuvo Lite 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/nidek-21636446700.jpg"
+    },
+    {
+      "src": "/images/products/nidek-nuvo-lite-5-lpm-e2e02bc6dc.jpg",
+      "alt": "Nidek Nuvo Lite 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/nidek-31636446700.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "1-5LPM",
+    "Weight": "13.6kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "290watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "1-5LPM",
+      "Weight": "13.6kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "290watts",
+      "Sound level": "40db",
+      "Dimensions": "23H x 14W x 9Dinch",
+      "Operating altitude": "7500feet",
+      "Outlet pressure": "5.5psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [
+    {
+      "q": "1. How much does  Nidek Nuvo Lite Oxygen Concentrator cost in India in 2023?",
+      "a": "The price of Nidek Nuvo Lite ranges from INR 55,000 to 60,000 in India."
+    },
+    {
+      "q": "2. Where can I buy an oxygen concentrator in India?",
+      "a": "You can buy an oxygen concentrator from Oxygen Times at the lowest online price. On average, it takes approx 48 hours to deliver the product PAN India."
+    },
+    {
+      "q": "3. What is the warranty on Nidek Nuvo Lite in India?",
+      "a": "Nidek Nuvo Lite comes with 3 years of warranty in India."
+    }
+  ],
+  "description_text": "Nidek Nuvo Lite Oxygen Concentrator\n\nThe American-origin oxygen concentrator, Nidek Nuvo Lite 5 LPM is one of the most reputed products manufactured by the Nidek brand. The machine provides flow rate from 0.125-5 LPM with high oxygen purity of 90% ( +6.5/ -3%) at all flow rates.\n\nLight and Compact: Nidek Nuvo 5 litre weighs only 13.60 Kgs and is the lightest home oxygen concentrator in the current market.\n\nPower Consumption: Nidek 5 LPM utilizes solely 290 W of power, making it highly energy-efficient.\n\nSound Level: This oxygen concentrator produces sound at just 40 dB, assuring it is as quiet as a library. \n\nLockable Flowmeter:  Nidek Nuvo Lite comes with a lockable flow meter that has to be rotated to set the desired flow rate. This flow meter gets tightly locked at each flow setting and you will hear a “tuck” sound as soon as you set it.\n\nWarranty: Nidek Nuvo 5 LPM comes with 3 years warranty.\n\nCertifications: The product is FDA approved and CE certified. \n\nAdditional Features:\n\n\n\tThe machine comes with locks on all four wheels that keep it secure in one place. The wheels are super smooth and appear to be of top-notch quality\n\tIt is the only 5 LPM machine that comes with 12 flow ranges from 0.125-5 LPM\n\n\nWhat's in the Box?\n\n\n\tNidek Nuvo Lite Device\n\tHumidifier Bottle\n\tNasal Cannula\n\tConnecting Tube\n\tWarranty Card\n\tUser manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 13.6,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 40.0,
+    "power_w": 290,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 7500
+  }
+}

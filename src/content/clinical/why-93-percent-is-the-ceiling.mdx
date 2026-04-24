@@ -1,0 +1,156 @@
+---
+title: "Why 93% is the ceiling: argon, nitrogen breakthrough, and the PSA purity asymptote"
+description: "Home PSA oxygen concentrators cap at ~93–96% purity. The argon problem, why breaking 96% requires membrane or cryogenic separation, and how to evaluate 'ultra-high-purity' marketing claims."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["psa", "oxygen-purity", "argon", "cryogenic", "medical-grade"]
+---
+
+Look at the spec sheet of any home oxygen concentrator sold in India, or anywhere else, and you will see a purity specification clustered remarkably tightly around one value: 93% ± 3%. Philips Everflo specifies 90–96%. Nidek Nuvo Lite specifies 90–96%. BPL Oxy 5 Neo specifies 90–96%. Home Medix 5 LPM specifies 90–95%. Inogen One G5 pulse-flow portable specifies 90–93%. Across tiers, manufacturers, continents, and technology generations, the number barely moves. Meanwhile, the oxygen piped to a hospital operating theatre reads 99.0% or higher. Cylinders filled for home use show 99.5% on the label. What gives?
+
+The answer involves one stubborn atom: argon. The ~93% ceiling on PSA (pressure-swing-adsorption) output is not an engineering shortcoming that better design could fix. It is a direct consequence of the fact that zeolites can separate O₂ from N₂ efficiently but cannot separate O₂ from argon at all. To break the ~96% wall requires a fundamentally different separation technology — membrane separation, cryogenic distillation, or chemical scavenging — none of which are compatible with a domestic appliance form factor.
+
+This article explains the argon problem in detail, why nitrogen breakthrough sets a secondary lower limit below the argon-imposed ceiling, what technologies do produce >99% oxygen and why they aren't bedside devices, and how to read "ultra-high-purity" concentrator marketing claims with appropriate skepticism. It is aimed at clinicians who want to confidently rebut the "home concentrator produces inferior oxygen" talking point, and at patients who have seen a 93% number on their device and been alarmed.
+
+## The air you breathe: what PSA starts with
+
+Atmospheric air at sea level is, by volume (dry basis):
+
+- **Nitrogen (N₂):** 78.084%
+- **Oxygen (O₂):** 20.946%
+- **Argon (Ar):** 0.934%
+- **Carbon dioxide (CO₂):** 0.042% (2026 value; rising slowly)
+- **Neon (Ne):** 0.0018%
+- **Helium (He):** 0.0005%
+- **Methane (CH₄):** ~0.0002%
+- **Krypton (Kr):** 0.00011%
+- **Hydrogen (H₂):** 0.00005%
+- **Xenon (Xe):** 0.000009%
+
+Plus water vapour (0.1–4% depending on temperature and humidity) and trace reactive species (ozone, NOx, SOx) at parts-per-billion levels. [CITATION: NIST reference tables on atmospheric composition; Schlesinger WH, Bernhardt ES — Biogeochemistry: An Analysis of Global Change, Academic Press 2020.]
+
+A PSA concentrator must produce an oxygen-enriched stream from this mixture. CO₂ and water are removed in upstream pre-treatment (water by the pre-dry stage, CO₂ largely by the same adsorbent at modest levels). The trace gases (Ne, He, Kr, Xe, H₂, CH₄) are present at concentrations low enough that they have no meaningful effect on the output composition.
+
+The bulk separation problem reduces to three components: O₂, N₂, and Ar. On a zeolite, the first separation (N₂ from O₂) works beautifully. The second separation (Ar from O₂) does not work at all.
+
+## Why zeolite cannot separate argon from oxygen
+
+The physics of gas adsorption on a zeolite is dominated by three contributions to the binding energy:
+
+1. **Dispersive (van der Waals) forces** — present for every adsorbate, scaling roughly with molecular polarisability and size. Similar for N₂, O₂, and Ar.
+2. **Field-dipole interactions** — for adsorbates with permanent electric dipole moments. Zero for N₂, O₂, and Ar (all are non-polar).
+3. **Field-quadrupole interactions** — for adsorbates with non-zero electric quadrupole moments. This is the selective mechanism for N₂/O₂ separation on cation-exchanged zeolites.
+
+N₂ has a quadrupole moment of ~4.7 × 10⁻²⁶ esu·cm². O₂ has a quadrupole moment of ~1.3 × 10⁻²⁶ esu·cm². The ratio of ~3.5× produces the ~3–10× N₂/O₂ selectivity that makes PSA work. [CITATION: Yang RT — Gas Separation by Adsorption Processes, Butterworths 1987.]
+
+Argon is a **monatomic noble gas**. Argon has:
+
+- No dipole moment (atoms cannot have one).
+- No quadrupole moment (spherical symmetry forbids it).
+- Only dispersive binding.
+
+The dispersive binding of Ar on a zeolite cation site is determined by Ar's polarisability (1.64 × 10⁻²⁴ cm³) and its kinetic diameter (3.40 Å). These are essentially identical to O₂'s polarisability (1.57 × 10⁻²⁴ cm³) and kinetic diameter (3.46 Å). The dispersive binding energies differ by less than 10%, and the Henry's-law selectivity α_Ar/O₂ on 13X, LiX, or LiLSX is between 0.95 and 1.05 — indistinguishable from 1.0 within experimental scatter.
+
+In practice this means argon and oxygen travel through a PSA bed together. Whatever fraction of O₂ survives the adsorption cycle and exits as product gas, an essentially identical fraction of the feed argon also survives and exits as product gas. The 0.934% Ar in the feed concentrates in the product stream in proportion to the oxygen enrichment.
+
+## The arithmetic of the argon ceiling
+
+Consider the mass balance. A feed stream contains 20.946% O₂, 0.934% Ar, and 78.084% N₂ (ignoring water and CO₂ for simplicity). A PSA bed achieves some fractional removal of N₂ — call it R_N (where R_N = 0.99 would mean 99% of the feed N₂ is adsorbed and only 1% passes through to product). O₂ and Ar pass through with negligible adsorption (call their removal fractions R_O ≈ R_Ar ≈ 0).
+
+The product stream composition (before the gas-phase volume shrinkage that results from removing N₂) is:
+
+- O₂: 20.946 × (1 − 0) = 20.946 parts
+- Ar: 0.934 × (1 − 0) = 0.934 parts
+- N₂: 78.084 × (1 − R_N) parts
+
+Renormalising to 100%:
+
+- Total = 20.946 + 0.934 + 78.084 × (1 − R_N)
+- O₂ fraction = 20.946 / Total
+- Ar fraction = 0.934 / Total
+
+For R_N = 0.99 (99% N₂ removal):
+
+- Total = 20.946 + 0.934 + 0.78084 = 22.66
+- O₂ = 20.946 / 22.66 = 92.4%
+- Ar = 0.934 / 22.66 = 4.12%
+- N₂ = 0.78 / 22.66 = 3.44%
+
+For R_N = 1.0 (perfect N₂ removal):
+
+- Total = 20.946 + 0.934 = 21.88
+- O₂ = 20.946 / 21.88 = 95.73%
+- Ar = 0.934 / 21.88 = 4.27%
+- N₂ = 0
+
+**That ~95.7% is the theoretical argon-limited ceiling** for zeolite PSA at atmospheric feed. No amount of cycle tuning, bed design, or compressor power can exceed it. It is the mathematical consequence of 4.27% argon being present in every parcel of gas the O₂ travels in.
+
+In practice, no real PSA unit achieves 100% N₂ removal. The actual N₂ breakthrough leaves 1–3% residual N₂ in the product, which combined with the ~4.3% Ar puts the practical ceiling at 93–95%. This is why the 93% ± 3% specification is so consistent across manufacturers: it is what the physics allows.
+
+[DIAGRAM: A bar chart showing three feed and product compositions: (1) ambient air (78% N₂, 21% O₂, 1% Ar), (2) ideal PSA output (0% N₂, 96% O₂, 4% Ar), (3) typical real PSA output (2% N₂, 93% O₂, 4% Ar, 1% other). Emphasises how the argon fraction stays constant in absolute terms but dominates the residual.]
+
+## Why argon is clinically a non-issue
+
+Given the attention it draws on spec sheets, it's worth being explicit: **argon is biologically inert at the concentrations present in PSA output.** Argon does not participate in respiratory gas exchange. It does not bind to haemoglobin (Hb has no affinity for noble gases at physiological partial pressures). It is exhaled unchanged in the next breath. A patient breathing 93% O₂ / 4% Ar / 3% N₂ experiences the same arterial oxygen delivery as a patient breathing 93% O₂ / 7% N₂ — the Ar is a harmless carrier gas, chemically indistinguishable from a second nitrogen in its physiological role.
+
+The clinical relevance of PSA output purity is not the argon fraction but the oxygen fraction. A patient prescribed 3 LPM of O₂ via nasal cannula receives approximately the same alveolar FiO₂ whether the source gas is 93% O₂ / 4% Ar / 3% N₂ (PSA output) or 95% O₂ / 5% N₂ (a hypothetically argon-free PSA output). The difference is within the measurement noise of pulse oximetry.
+
+The Indian Chest Society, GOLD, and BTS/ATS guidelines on long-term oxygen therapy all treat 90%+ purity as clinically adequate for LTOT in COPD, ILD, and similar indications. [CITATION: GOLD 2024 guidelines, section on LTOT; Indian Chest Society COPD consensus; BTS guideline on home oxygen for adults, 2015.] The 93% median delivered by PSA is comfortably above this threshold.
+
+## What it takes to break 96%: the alternative technologies
+
+If a clinical or industrial application requires >96% O₂ — and most medical applications do not — zeolite PSA is the wrong technology. The alternatives:
+
+**Membrane separation.** Polymeric or ceramic membranes with preferential permeability for oxygen (and argon, which permeates similarly) can produce 98%+ oxygen streams, but the process is typically 30–40% oxygen recovery at the highest-purity outputs and requires significant feed compression. Practical for very-small-flow portable devices (niche aviation, some specialty medical applications) and for specific industrial uses; not economical at the 5–10 LPM home-therapy scale.
+
+**Cryogenic air distillation (Linde process).** The industrial standard for high-purity oxygen. Air is compressed, cooled to cryogenic temperatures (−196 °C and below), and the resulting liquid air is fractionally distilled based on boiling points (N₂ at 77 K, Ar at 87 K, O₂ at 90 K). A well-run cryogenic plant delivers 99.5–99.8% O₂ routinely, and 99.99% with additional rectification. This is the source of hospital-grade medical oxygen, liquid-oxygen (LOX) storage, and all cylinder-filled gas. [CITATION: Haering HW — Industrial Gases Processing, Wiley-VCH 2008.]
+
+Cryogenic plants have footprints measured in acres and capital costs in tens of crores. They are not scalable to a domestic appliance. The oxygen they produce is trucked to hospitals as LOX, then vaporised for piped distribution, or filled into cylinders. Every molecule of "99.5% medical oxygen" in India — at hospitals, in ambulances, in rental cylinders — started its life in a cryogenic plant, not a PSA concentrator.
+
+**Chemical oxygen generation.** Self-contained oxygen sources using chemical reactions (sodium chlorate in aviation emergency masks, for example) produce high-purity O₂ on the timescale of minutes but are single-use and not practical for chronic therapy.
+
+**Hybrid two-stage PSA.** A secondary PSA or getter stage using a different adsorbent to remove argon after a primary zeolite stage. These systems exist in niche industrial applications but require complex cycles, multiple compressors, and argon-selective adsorbents (certain modified carbons, or silver-exchanged zeolites that show some Ar selectivity through charge-transfer interactions). None are commercial in the home concentrator market.
+
+## The "ultra-high-purity" marketing claim and how to verify it
+
+Periodically a manufacturer or a reseller advertises an oxygen concentrator claiming 99% or 99.5% output purity at domestic-appliance specifications. These claims are almost always false, and the physics tells you why:
+
+1. A single-stage zeolite PSA process **physically cannot** exceed ~95.7% at atmospheric feed because of the argon arithmetic. A claim above 96% from a single-stage PSA unit is, without exception, incorrect.
+2. A two-stage PSA with argon removal is technically possible but requires visible additional hardware (second bed stage, second compressor, additional pre-treatment) that would more than double the device footprint. Units matching normal home-concentrator size and power draw are not doing two-stage separation.
+3. A unit producing truly 99% oxygen would require a cryogenic or membrane stage; again, not feasible in a sub-50 kg, &lt;1 kW device.
+
+The most common explanation for a "99%" claim is measurement or calibration error. Some low-end oxygen analysers over-read at high O₂ concentrations or are calibrated against PSA output (so the 93% nominal reads as 99% on the bad analyser). Other claims are translation errors in imported datasheets where "99% nitrogen removal" becomes "99% oxygen output" through imprecise localisation. A small number are outright misrepresentation.
+
+**How to verify a high-purity claim:**
+
+- Ask for ISO 80601-2-69 compliance documentation. The standard specifies purity testing methodology and a 93% ± 3% typical spec for home concentrators.
+- Ask for independent third-party purity testing by a NABL-accredited laboratory or equivalent. The test should measure gas composition by gas chromatography or calibrated paramagnetic oxygen analyser, not by the device's internal OPI.
+- Check for CDSCO medical-device registration. Units represented for home medical use must be registered; the registration documentation implicitly aligns to the standard purity spec.
+- Look for the argon reading. If a datasheet reports 99% O₂ but doesn't specify argon content, the datasheet is not credible — argon must be accounted for in any honest spec.
+
+The vast majority of home concentrators on the Indian market — Philips, Nidek, Invacare, Caire/AirSep, Inogen, BPL, and the credible Chinese-OEM brands — specify 90–96% or 90–95% purity honestly. Units claiming materially higher purity without visible additional hardware should be treated with skepticism.
+
+## The "industrial 99% oxygen concentrator" category
+
+A separate and legitimate category confuses this further: **industrial oxygen generators** producing 90–95% purity (same as medical PSA) but marketed for ozone generation, glass blowing, welding, fish farming, or metallurgical applications. These often use larger beds, higher pressures, and less-refined compressor and filter stages, and they may be advertised with purity figures like "up to 95%" — essentially the same ceiling.
+
+Claims of "99% industrial oxygen" almost universally refer to cryogenically-produced bulk gas delivered by truck, not to a PSA generator. A cylinder-fill industrial PSA plant (ocupying a container-sized footprint) can produce ~95%; above that requires cryogenic feed.
+
+**Industrial oxygen is not medical-grade** and is not licensed for human inhalation therapy in India. The difference is not the O₂ fraction but the trace contaminants: medical oxygen is tested and certified free of hydrocarbons, CO, and volatile organics to IP (Indian Pharmacopoeia) standards; industrial oxygen is not. A patient using industrial oxygen long-term may inhale trace contaminants from the compressor oil or feed-air pathway that are absent from medical-grade PSA output. This is the distinction the regulatory framework is drawing, not a purity distinction.
+
+## Practical takeaway for Indian buyers and clinicians
+
+For prescribing clinicians: **90–96% PSA output is medical-grade by definition and clinically adequate for essentially every LTOT indication.** A patient on home oxygen therapy getting a nominal 93% from their concentrator is receiving the same clinical benefit as one fed 99% from a cylinder bank at 2× the cost and 10× the logistics. The ceiling is not a limitation for the overwhelming majority of respiratory-therapy indications.
+
+For patients alarmed by their device's "only 93%" specification: **this is normal and clinically fine.** The 6–7% "missing" oxygen is not missing — it's argon, which is biologically inert and functionally indistinguishable from a second nitrogen in breath. Your lungs do not care whether the diluent in your inspired gas is N₂ or Ar.
+
+For hospital procurement, ICU use, or clinical applications requiring >96% O₂: **do not use a PSA concentrator. Use cryogenically-produced medical oxygen delivered as LOX or cylinder bank.** The argon-limited PSA ceiling is real and unfixable at that technology tier.
+
+For any unit marketed as delivering 99% or higher on PSA hardware at domestic-appliance size: **the claim is not physically supportable and the unit should not be purchased on that basis.** Real purity is 90–96%, and that's the honest spec to look for. Certified products from credible manufacturers will say so plainly.
+
+For patients at high altitude (Leh, Manali, Shimla, Gangtok, Darjeeling, Ooty, Munnar, Mussoorie, Srinagar, and anywhere above ~2,000 m): the argon ceiling still applies, but the practical delivered purity is additionally reduced by altitude derating. A unit spec'd to 93% at sea level may deliver 86% at 3,000 m. Combine the argon ceiling with altitude derating before interpreting actual-delivered-purity at elevation.
+
+Consult your treating physician for oxygen-therapy decisions; this article is educational and does not replace a clinical prescription.
+
+*Further reading: [how PSA oxygen concentration works](/clinical/how-psa-oxygen-concentration-works/) for the separation-cycle fundamentals, and [oxygen therapy at altitude in India](/clinical/oxygen-therapy-at-altitude-india/) for altitude-specific derating. [CITATION: Yang RT — Adsorbents: Fundamentals and Applications, Wiley 2003; Haering HW — Industrial Gases Processing, Wiley-VCH 2008; ISO 80601-2-69:2020; Indian Pharmacopoeia medical oxygen monograph.]*

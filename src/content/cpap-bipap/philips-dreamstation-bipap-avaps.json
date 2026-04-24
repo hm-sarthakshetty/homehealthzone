@@ -1,0 +1,88 @@
+{
+  "slug": "philips-dreamstation-bipap-avaps",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/philips-dreamstation-bipap-avaps",
+  "product_name": "Philips Dreamstation BiPAP AVAPS Machine",
+  "brand": "Philips Respironics",
+  "brand_href": "https://www.oxygentimes.com/brand/Philips-Respironics/cpap-bipap",
+  "category": "BiPAP",
+  "price_current": "77,952.00",
+  "price_mrp": "142,080.00",
+  "price_symbol": "₹",
+  "rating_value": "4.8 (47)",
+  "rating_count": "47",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/philips-dreamstation-bipap-avaps-machine-e8408a8865.jpg",
+      "alt": "Philips Dreamstation BiPAP AVAPS Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Philips-Respironics-DreamStation-BiPAP-AVAPS1650424818.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "BiPAP with AVAPS",
+    "Modes": "CPAP, S, S/T, PC, T, AVAPS",
+    "Turbine": "Made in USA",
+    "Pressure Range": "4 - 30cmH₂O",
+    "Ergonomic Tilted Display": "Yes",
+    "Detachable Design": "Yes"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "BiPAP with AVAPS",
+      "Modes": "CPAP, S, S/T, PC, T, AVAPS",
+      "Turbine": "Made in USA",
+      "Pressure Range": "4 - 30cmH₂O",
+      "Ergonomic Tilted Display": "Yes",
+      "Detachable Design": "Yes",
+      "Sound level": "26.1dB",
+      "Weight": "1.98Kg",
+      "Dimensions": "157 x 193 x 84mm",
+      "Company Headquaters": "United States",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0 to 45 minmin.",
+      "Auto Ramp": "Yes",
+      "Ramp Down": "No",
+      "EPR": "Yes",
+      "Humidifier": "Heated",
+      "Heated Tube Compatibility": "Yes",
+      "Climate control": "Yes",
+      "Preheat": "Yes",
+      "Adaptive Humidification": "Yes",
+      "Mask Fit": "Yes"
+    },
+    "Additional details": {
+      "Central Apnea Detection": "Yes",
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "Yes",
+      "VAPS": "Yes",
+      "Trigger & Cycle sensitivity": "Yes",
+      "Ti Control": "Yes",
+      "Rise Time": "Yes",
+      "Ti(inspiration time)": "Yes",
+      "Pressure Support": "Yes",
+      "Back up rate": "Yes",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "",
+      "Waterless Humidification": "",
+      "Leakage Compensation": "Yes",
+      "SD card": "Yes",
+      "Cloud connectivity/Wifi": "Yes",
+      "Bluetoooth": "Yes",
+      "QR code": "",
+      "FAA": "Yes",
+      "FDA": "",
+      "CE": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Philips DreamStation BiPAP AVAPS\n\nThe Philips DreamStation BiPAP AVAPS is designed to cater the tidal volume support as per indiviadual needs. The machine has advanced features \n\n\n\t\n\tAverage Volume Assured Pressure Support (AVAPS)\n\t\n\n\nThis mode is generally recommended for COPD, Respiratory insufficiency, and Hypoventilation patients. This feature includes Digital Auto-Trak technology, which fine-tunes ventilation based on natural breathing patterns while compensating for any leaks, and AVAPS-AE, an auto-titrating mode that maintains a patent airway with an automatic back-up rate.\n\n\n\t\n\tLightweight and Compact\n\t\n\n\n\n\n\n\nThe DreamStation BiPAP AVAPS is compact in design and ideal for travelling. It weighs just 1.33 kg without the humidifier and 1.98 kg with the humidifier attached. \n\n\n\n\n\n\n\t\n\tAdvanced Comfort Features\n\n\tThe DreamStation BiPAP AVAPS comes with Smart Ramp, Auto On/Off, preheat and leakage compensation, ensuring smooth, personalized therapy with minimal adjustments. These features enhance comfort by aligning therapy with the patient’s natural breathing cycle.\n\t\n\t\n\tHeated Humidification\n\n\tThis device includes an optional heated humidifier, with settings that help prevention from dryness, providing consistent moisture levels throughout the night for added comfort.\n\t\n\t\n\tBluetooth Connectivity\n\n\tIntegrated Bluetooth and cloud connectivity allow seamless remote monitoring, enabling healthcare providers to track therapy data and make necessary adjustments for optimal outcomes.\n\t\n\t\n\tWarranty \n\n\tPhilips DreamStation BiPAP AVAPS comes with 2 years warranty.\n\t\n\n\n What's in the box\n\n\n\tDreamStation BiPAP AVAPS Machine \n\t6 ft, 15 mm Patient Tubing\n\t80W Power Supply with AC Cord\n\tDreamStation ASV Power Cord Clamp\n\tOne each: reusable and disposable Filter\n\tTravel Bag \n\tUser Manual",
+  "related_links": [],
+  "device_type": "bipap",
+  "normalized_specs": {
+    "weight_kg": 1.98,
+    "noise_db": 26.1,
+    "pressure_min_cmh2o": 4.0,
+    "pressure_max_cmh2o": 30.0,
+    "has_humidifier": true
+  }
+}

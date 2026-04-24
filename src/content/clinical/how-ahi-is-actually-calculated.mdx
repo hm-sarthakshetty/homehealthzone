@@ -1,0 +1,129 @@
+---
+title: "How AHI is calculated — and why home numbers differ from sleep lab"
+description: "AASM 2023 scoring criteria for apnea vs hypopnea, why labs using different desat rules report different AHIs, and what a home CPAP number actually measures."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["ahi", "cpap", "sleep-study", "osa", "polysomnography", "algorithm", "aasm"]
+---
+
+Patients on CPAP therapy routinely compare two AHI numbers that ought to tell the same story but don't: the AHI from the diagnostic polysomnography (PSG), and the AHI the home CPAP reports every morning. The home number is usually lower. Sometimes the lab number itself doesn't match a second opinion from another lab. Neither number is "wrong" — both are the output of a specific scoring rule applied to a specific set of signals, and the gap between them is predictable once the rules are clear.
+
+This article is the long-form walk-through: what the AASM 2023 scoring manual actually says, the 3% vs 4% desaturation difference that silently halves or doubles AHI across centres, how a Type III home sleep apnea test differs from a Type I in-lab PSG, and why the "AHI" on your CPAP report is a fundamentally different quantity from either. We take firm positions where the literature permits it — and where it doesn't, we say so.
+
+## What apnea and hypopnea mean clinically — AASM 2023
+
+The American Academy of Sleep Medicine scoring manual (current major revision: version 3 with ongoing annual updates, commonly referenced as "AASM 2023") defines respiratory events by quantitative criteria applied to the nasal pressure / thermistor flow signal. For adults:
+
+- **Apnea** — a drop of ≥ 90% from the pre-event baseline airflow amplitude, sustained for ≥ 10 seconds, with the drop occupying ≥ 90% of the event duration. No desaturation or arousal is required. Apneas are classified by effort signals as obstructive (thoracoabdominal effort preserved or increased), central (effort absent), or mixed (central followed by obstructive).
+- **Hypopnea** — a drop of ≥ 30% from baseline airflow, sustained for ≥ 10 seconds, **accompanied by** either (a) a ≥ 3% oxygen desaturation, or (b) an EEG-defined cortical arousal. This is "recommended rule 1A." The "acceptable rule 1B" permits only a ≥ 4% desaturation, without counting arousals. [CITATION: AASM Manual for the Scoring of Sleep and Associated Events, v3.]
+
+Two things matter in that definition for anyone reading a report:
+
+1. **Rule 1A and rule 1B produce different AHI numbers on the same recording.** Rule 1A (3% or arousal) is more permissive and catches more events. Rule 1B (4% only) is stricter. Across published cohorts, AHI under rule 1B runs roughly 10–30% lower than under rule 1A on the same raw data, and the gap widens in patients whose events cluster in the 3–4% desat range. A patient scored at AHI 22 under rule 1A may read AHI 14 under rule 1B — the same physiology, a different threshold.
+2. **The "arousal or 3% desat" disjunction in rule 1A means you cannot score hypopneas faithfully without an EEG.** A Type III home sleep apnea test (HSAT) does not record EEG. Events that would have been scored as arousal-hypopneas in a lab simply aren't captured. This is the single biggest driver of AHI disagreement between home tests and lab tests, and it is discussed further below.
+
+A third definition matters:
+
+- **RERA (respiratory-effort-related arousal)** — a sequence of breaths with increasing respiratory effort or progressive flow limitation, lasting ≥ 10 seconds, terminated by an arousal, that does not meet apnea or hypopnea criteria. RERAs are included in RDI (respiratory disturbance index) but not in AHI. Symptomatic patients with AHI &lt; 5 but RDI > 10 — the UARS phenotype — are common in Indian practice and systematically under-diagnosed when only the AHI is reported.
+
+## How a sleep-lab PSG measures AHI
+
+A Type I polysomnogram records, at minimum:
+
+- **EEG** — frontal, central, and occipital channels, for sleep staging and arousal scoring.
+- **EOG** — left and right electro-oculogram, for REM detection.
+- **EMG** — submental (chin) for arousal and tone, bilateral tibialis anterior for periodic limb movements.
+- **Nasal pressure transducer** — the primary flow channel. Also an oronasal thermistor, for apnea detection when pressure signal is lost.
+- **RIP belts** — respiratory inductance plethysmography at thorax and abdomen, for effort.
+- **SpO₂** — finger pulse oximeter with short averaging time (≤ 3 s for accurate desat scoring).
+- **Snore microphone, body position sensor, ECG, video** — supporting channels.
+
+A trained polysomnography technologist reviews the recording in 30-second epochs, scores sleep vs wake and sleep stages using the AASM rules, and then scores each respiratory event against the criteria above. The denominator in AHI is **total sleep time (TST)**, not total recording time. A patient who lay awake for 90 minutes of an 8-hour recording has AHI calculated over roughly 6.5 hours of sleep — and the 90 minutes of wake is excluded from both numerator and denominator.
+
+Inter-rater reliability between experienced technologists on the same recording is good (κ typically > 0.8 for apneas, lower for hypopneas, lowest for RERAs). [CITATION: Collop et al, J Clin Sleep Med 2007; Magalang et al, Sleep 2013.] The residual disagreement across labs, holding the scoring rule constant, is a few AHI points — small compared to the 3%-vs-4% rule shift.
+
+## Why different labs report different AHI on the same patient
+
+If you obtain two sleep studies at two Indian labs within a month of each other, and the AHI readings differ by 30–50%, the most likely explanations, roughly in order:
+
+1. **Different scoring rule.** One lab uses AASM rule 1A (3% or arousal), the other uses 1B (4% only). This alone explains the majority of the gap in most cases. Ask each lab which rule their software is configured for — the answer should be in the report.
+2. **Different hypopnea definition from an older manual.** Some Indian labs (and older software) still use pre-2012 rules that required a 4% desat with no arousal option, or the older "Chicago criteria" at 50% flow reduction. These produce systematically different numbers.
+3. **Night-to-night variability.** A patient's actual AHI varies across nights — driven by sleep position (supine vs lateral), alcohol, nasal patency, REM duration. Published test-retest variability on consecutive nights can be 20–40% even in severe OSA. [CITATION: Stepnowsky et al, Sleep 2005.]
+4. **Different technologist judgement on marginal events.** Consistent across labs at ± a few AHI points.
+5. **Split-night vs full-night study.** A split-night study (diagnostic in the first half, titration in the second) samples a shorter diagnostic window and can overstate or understate AHI relative to a full diagnostic night.
+
+The practical consequence: an AHI number should always be read alongside the desat rule and the study type. A report that just says "AHI 18" without specifying either is clinically under-documented, and the clinician ordering the study should push back on the lab to fix this.
+
+## Type III home sleep apnea testing — what it does and does not measure
+
+A Type III HSAT records:
+
+- **Nasal pressure flow.**
+- **Thoracic and abdominal effort belts.**
+- **SpO₂ via pulse oximeter.**
+- **Heart rate from the oximeter or an ECG/PPG channel.**
+- **Body position.**
+
+It does **not** record EEG, EOG, or EMG. The consequences flow directly from that absence:
+
+- **No sleep staging.** The device cannot tell wake from sleep. The denominator is total recording time (TRT), not total sleep time. A patient who spends 90 minutes awake-in-bed during a 7-hour recording has all 7 hours counted. The AHI denominator is inflated, and the AHI is under-estimated.
+- **No arousal scoring.** Hypopneas that terminated in an arousal but did not cause a 3% or 4% desaturation cannot be captured. Under AASM rule 1A, those events should have been scored. Under rule 1B they would not have been — so a Type III test applied with rule 1B produces an AHI that is closer to the lab's 1B number than to the lab's 1A number.
+- **No RERA scoring.** UARS phenotypes are invisible to Type III.
+- **Higher false-negative rate in mild OSA.** AASM's own practice guidance supports Type III for patients with high pre-test probability of moderate-to-severe OSA. It is explicitly cautioned against as a sole diagnostic tool in patients with suspected mild OSA, significant insomnia, or significant comorbidity (heart failure, COPD, stroke). [CITATION: AASM Clinical Practice Guideline 2017 — Diagnostic testing for adult obstructive sleep apnea.]
+
+A reasonable summary for clinicians: a positive Type III (clearly elevated AHI in a symptomatic patient with high pre-test probability) is clinically actionable. A negative or borderline Type III in a symptomatic patient is not reassurance — it is an indication for a Type I study.
+
+## How a home CPAP calculates AHI — and why it's a different quantity
+
+A CPAP or APAP device has dramatically less data than even a Type III HSAT. It has:
+
+- **Blower flow signal** — measured at the sensor inside the blower housing, not at the mask.
+- **Pressure signal** — commanded and measured mask pressure.
+- **Derived flow-limitation signal** — a shape-analysis on the inspiratory flow waveform to detect partial obstruction.
+
+There is no EEG, no effort belt, no finger-oximetry, no sleep-stage scoring. The device cannot distinguish wake from sleep. Its reported "AHI" is calculated over total **machine-on time**, not total sleep time.
+
+Given that data, the algorithm approximates AASM definitions:
+
+- **Apnea detection.** A drop in airflow (at the mask) below a threshold for more than 10 seconds. Most devices use a proportional threshold against a moving baseline rather than the AASM's ≥ 90% reduction, because the baseline under positive airway pressure is not directly comparable to an unassisted diagnostic baseline.
+- **Hypopnea detection.** A proportional drop in airflow, typically to less than 50% of a recent moving baseline (note: above the AASM's 30% threshold — home devices are more conservative to avoid false positives), for more than 10 seconds. Desaturation cannot be scored. Arousal cannot be scored. Therefore home-device hypopneas correspond roughly to severe AASM-1B hypopneas and miss the 1A-specific events.
+- **Central vs obstructive distinction.** ResMed's AirSense family periodically emits a forced oscillation technique (FOT) pulse during a suspected apnea. If the pulse echoes back unattenuated, the airway is open and the event is scored as a central ("ClearAirway"). If attenuated, obstructive. Philips DreamStation uses a proprietary "cardiac pulse through the airway" signal to infer patency. BMC's algorithm is less transparent and varies across firmware versions. [CITATION: ResMed AutoSet algorithm white paper; Philips DreamStation technical manual.]
+
+The qualitative pattern across devices: entry-level APAPs are optimistic (under-report AHI compared to PSG), premium units are closer to lab-1B numbers but still typically lower than lab-1A numbers. A device's AHI is a useful **trend** indicator — it tells you whether your therapy is stable night-over-night — but it is not interchangeable with a diagnostic AHI for titration decisions.
+
+## Clinical and operational guidance
+
+Given the above, a few firm positions:
+
+**1. Always ask which hypopnea rule was used.** When a patient shows a PSG report, the first question is "rule 1A or 1B?" If the report does not specify, treat the AHI with caution and, if treatment decisions hinge on it, request a re-score under the rule your practice standardises on. Most Indian academic centres use 1A; many private labs default to 1B because it produces lower AHI numbers (and therefore fewer positive diagnoses, which, depending on the centre's incentives, can be either appropriate or problematic).
+
+**2. Don't compare home CPAP AHI to diagnostic PSG AHI as if they were the same quantity.** They aren't. The home AHI is a residual-on-therapy measure; the PSG AHI is a no-therapy measure. The clinical question is whether residual home AHI is &lt; 5 on stable therapy, not whether it matches the pre-treatment lab number.
+
+**3. Treat a Type III HSAT as rule-out-severe, not rule-out-disease.** A patient with an ESS of 15, loud snoring, witnessed apneas, and a Type III AHI of 3 still needs a Type I study. The Type III missed events.
+
+**4. Re-titration triggers are trend-based.** A patient who ran at home AHI 2 for three months and is now at AHI 7 for two weeks needs investigation. Check the data download for leak trend, 95th-percentile pressure, event type (are the new events central, suggesting treatment-emergent CSA, or obstructive, suggesting airway change?). If the trend persists after addressing mask fit and verifying the report, a physician review is warranted.
+
+**5. AHI is not the only number.** A patient with AHI 4 and ODI (oxygen desaturation index) 20 has a different disease than a patient with AHI 15 and ODI 5. Cardiovascular consequences correlate more tightly with hypoxic burden than with event count per se. [CITATION: Azarbarzin A et al, Eur Heart J 2019 — sleep apnea-specific hypoxic burden.]
+
+## Indian-context specifics
+
+Indian sleep-medicine practice has four characteristics that shape how AHI is actually used on the ground:
+
+**1. OSA prevalence is high but diagnosis rate is very low.** Community prevalence estimates for moderate-to-severe OSA in Indian urban adults run approximately 13–14% overall, with higher figures in older men and those with central obesity. Published screening studies from Delhi, Chennai, Mumbai, and Bengaluru consistently place the figure in this range. [CITATION: Sharma SK et al, Chest 2006; Reddy EV et al, Sleep Med 2009.] Diagnosis rates remain in low single digits. A treating physician is therefore usually seeing self-selected high-probability patients.
+
+**2. Full PSG is expensive and concentrated in metros.** A Type I study in India typically costs ₹8,000–₹20,000 at private labs, higher at major academic centres, and is concentrated in metropolitan and tier-1 cities. Wait times at public hospitals for PSG can be months. Type III HSAT has filled the gap and is now widely available at ₹3,000–₹6,000 through home-service providers. This affordability shift is real progress, but it has also produced a pattern where Type III is used as a final diagnostic tool in cases where it should be a screen — with the false-negative consequences described above.
+
+**3. Scoring software and rules vary widely.** Indian labs run a mix of software (Philips Somnologica, Compumedics ProFusion, ResMed's scoring tools, and BMC-family bundled software in some budget labs). Default scoring rules vary across installations. A report should always be read with the rule visible, and when it is not, ask.
+
+**4. Follow-up titration is operationally difficult outside metros.** A patient diagnosed at a metro lab and sent home with an APAP often has no available specialist within driving distance for a titration review. This makes the home device's AHI report — imperfect as it is — the only data point the treating physician has for months. Using it carefully, with awareness of its limitations, is the realistic standard of care.
+
+## Closing
+
+Three numbers, three different denominators, three different event-scoring systems. The lab-PSG AHI under rule 1A is the reference for diagnosis. The home-CPAP AHI is a trend-and-adherence tool, not a diagnosis. A Type III HSAT sits in between, useful for high-probability patients and misleading when applied beyond that indication.
+
+A patient whose home AHI is consistently &lt; 5 on good adherence and low leak is almost certainly well-treated. A patient whose home AHI is consistently elevated — or whose trend has deteriorated — needs a review, and possibly a repeat in-lab titration, not a reassurance that "the machine is working fine."
+
+Consult your sleep physician for interpretation of your specific results and any titration decisions.
+
+*References: AASM Manual for the Scoring of Sleep and Associated Events v3; AASM Clinical Practice Guidelines 2017 for diagnostic testing; Sleep Heart Health Study; Sharma SK et al, Chest 2006; Berry RB et al, Sleep Breath 2013 [CITATION].*

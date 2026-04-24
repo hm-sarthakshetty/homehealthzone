@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const guides = await getCollection('guides');
+
+// Sort by lastReviewed desc when present, then by title.
+const sorted = guides.slice().sort((a, b) => {
+  const aDate = a.data.lastReviewed ?? '';
+  const bDate = b.data.lastReviewed ?? '';
+  if (aDate && bDate && aDate !== bDate) return bDate.localeCompare(aDate);
+  return a.data.title.localeCompare(b.data.title, 'en');
+});
+
+const pageTitle = "Buyer's guides";
+const description =
+  'How to choose the right oxygen concentrator, CPAP, or BiPAP — how to read a spec sheet, what to ignore, what actually matters in Indian conditions.';
+
+const crumbs = [
+  { href: '/', label: 'Home' },
+  { href: '/guides/', label: 'Guides' },
+];
+---
+<BaseLayout title={pageTitle} description={description}>
+  <Breadcrumbs items={crumbs} />
+
+  <header class="hub-header">
+    <h1>{pageTitle}</h1>
+    <p class="lead">
+      Plain-English guides to buying respiratory equipment in India — how to read a spec sheet,
+      which features matter, which are marketing fluff, and how to avoid the most common
+      mistakes. Reviewed periodically and timestamped.
+    </p>
+  </header>
+
+  {sorted.length === 0 ? (
+    <p class="empty">No guides published yet.</p>
+  ) : (
+    <div class="article-grid">
+      {sorted.map((entry) => (
+        <ArticleCard entry={entry} href={`/guides/${entry.id}/`} />
+      ))}
+    </div>
+  )}
+</BaseLayout>
+
+<style>
+  .hub-header {
+    margin-bottom: var(--space-8);
+  }
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-5);
+  }
+  .empty {
+    color: var(--color-text-muted);
+  }
+</style>

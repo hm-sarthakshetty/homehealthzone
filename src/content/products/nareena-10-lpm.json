@@ -1,0 +1,69 @@
+{
+  "slug": "nareena-10-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Nareena-10-LPM",
+  "product_name": "Nareena 10 LPM Dual Flow",
+  "brand": "Nareena Lifesciences",
+  "brand_href": "https://www.oxygentimes.com/brand/Nareena-Lifesciences/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "59,040.00",
+  "price_mrp": "76,800.00",
+  "price_symbol": "₹",
+  "rating_value": "3.2 (2)",
+  "rating_count": "2",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/nareena-10-lpm-dual-flow-87761f2018.jpg",
+      "alt": "Nareena 10 LPM Dual Flow",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/HTB1xL9OBZyYBuNkSnfoq6AWgVXaf1636533457.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "1-10LPM",
+    "Weight": "22.6kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "720watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "1-10LPM",
+      "Weight": "22.6kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "720watts",
+      "Sound level": "50db",
+      "Dimensions": "24.4H x 16.9W x 12.6Dinch",
+      "Outlet pressure": "8psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "India",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "Nareena 10 LPM Oxygen Concentrator \n\nWeight: Nareena 10 LPM weighs 22.6 kg.\n\nSound: The machine emits sound at 50 dB. \n\nOutlet Pressure: The machine gives outlet pressure at 8 psi.\n\nPower Consumption:  Nareena 10 Liter uses 720 watts of power.\n\nOxygen Purity Indicator: The machine comes with an Oxygen Purity Indicator or OPI that lights up if the oxygen purity level of the machine falls below the therapeutic level.\n\nAlarms: Loss of power\n\nWarranty: This machine has a warranty period of 1 year.\n\nWhat's in the Box?\n\n2 Humidifier Bottle\n\nCannula\n\nNebulizer Kit",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 22.6,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 10.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 50.0,
+    "power_w": 720,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "slug": "invacare-platinum-9",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/invacare-platinum-9",
+  "product_name": "Invacare Platinum 9",
+  "brand": "Invacare",
+  "brand_href": "https://www.oxygentimes.com/brand/Invacare/oxygen-concentrator",
+  "category": "9 LPM",
+  "price_current": "110,400.00",
+  "price_mrp": "168,000.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/invacare-platinum-9-05d7364c16.jpg",
+      "alt": "Invacare Platinum 9",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-10 at 11636530055.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "1-9LPM",
+    "Weight": "24.4kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "475watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "1-9LPM",
+      "Weight": "24.4kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "475watts",
+      "Sound level": "58db",
+      "Outlet pressure": "9psi",
+      "Oxygen Purity % Analyzer": ""
+    },
+    "Additional details": {
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Invacare Platinum 9 Oxygen Concentrator\n\nInvacare Platinum 9 is a high-flow home oxygen concentrator that delivers an oxygen flow rate of 1-9 LPM at an oxygen purity level of 90-96% across all flow rates.\n\nWeight: Invacare Platinum 9 weighs 24.4 kgs. \n\nSound: The machine producers sound at 58 decibels.\n\nPower: Invacare Platinum 9 consumes 585 watts of power and has one of the lowest power consumption rates among high flow oxygen concentrators.\n\nOutlet Pressure: This device gives an outlet pressure of 28.5 psi, once again beating all the high-flow oxygen concentrators.\n\nAlarms: Loss of power, system malfunction and low flow oxygen alarm\n\nWarranty: Invacare Platinum 9 has a warranty period of 1 year.",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 24.4,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 9.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 58.0,
+    "power_w": 475,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": false
+  }
+}

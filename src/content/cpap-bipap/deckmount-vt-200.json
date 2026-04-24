@@ -1,0 +1,107 @@
+{
+  "slug": "deckmount-vt-200",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/deckmount-vt-200",
+  "product_name": "Deckmount VT 200 (VAPS) BiPAP Machine",
+  "brand": "Deckmount",
+  "brand_href": "https://www.oxygentimes.com/brand/Deckmount/cpap-bipap",
+  "category": "BiPAP",
+  "price_current": "27,552.00",
+  "price_mrp": "72,000.00",
+  "price_symbol": "₹",
+  "rating_value": "4.8 (44)",
+  "rating_count": "44",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/deckmount-vt-200-vaps-bipap-machine-24f18b0c6c.jpg",
+      "alt": "Deckmount VT 200 (VAPS) BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/bipap_vt2001658133756.jpg"
+    },
+    {
+      "src": "/images/products/deckmount-vt-200-vaps-bipap-machine-c0e0541daa.jpg",
+      "alt": "Deckmount VT 200 (VAPS) BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/20220428_1727441658133758.jpg"
+    },
+    {
+      "src": "/images/products/deckmount-vt-200-vaps-bipap-machine-6ad14b66e8.jpg",
+      "alt": "Deckmount VT 200 (VAPS) BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/20220428_1728031658133759.jpg"
+    },
+    {
+      "src": "/images/products/deckmount-vt-200-vaps-bipap-machine-ab8bca37e6.jpg",
+      "alt": "Deckmount VT 200 (VAPS) BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/IMG_23841658133760.JPG"
+    },
+    {
+      "src": "/images/products/deckmount-vt-200-vaps-bipap-machine-16f6990669.jpg",
+      "alt": "Deckmount VT 200 (VAPS) BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/IMG_23851658133762.JPG"
+    }
+  ],
+  "key_features": {
+    "Type": "BiPAP",
+    "Modes": "CPAP , S, ST, T , PC, VAPS, Auto CPAP",
+    "Turbine": "Made in India",
+    "Pressure Range": "4-30cmH₂O",
+    "Ergonomic Tilted Display": "Yes",
+    "Detachable Design": "No"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "BiPAP",
+      "Modes": "CPAP , S, ST, T , PC, VAPS, Auto CPAP",
+      "Turbine": "Made in India",
+      "Pressure Range": "4-30cmH₂O",
+      "Ergonomic Tilted Display": "Yes",
+      "Detachable Design": "",
+      "Sound level": "28dB",
+      "Weight": "1.8Kg",
+      "Dimensions": "290x160x110mm",
+      "Company Headquaters": "India",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0-45min.",
+      "Auto Ramp": "Yes",
+      "Ramp Down": "No",
+      "EPR": "Yes",
+      "Humidifier": "Heated",
+      "Heated Tube Compatibility": "",
+      "Climate control": "",
+      "Preheat": "",
+      "Adaptive Humidification": "",
+      "Mask Fit": ""
+    },
+    "Additional details": {
+      "Central Apnea Detection": "Yes",
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "Yes",
+      "VAPS": "Yes",
+      "Trigger & Cycle sensitivity": "Yes",
+      "Ti Control": "Yes",
+      "Rise Time": "Yes",
+      "Ti(inspiration time)": "Yes",
+      "Pressure Support": "Yes",
+      "Back up rate": "",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "Yes",
+      "Waterless Humidification": "",
+      "Leakage Compensation": "No",
+      "SD card": "Yes",
+      "Bluetoooth": "",
+      "QR code": "Yes",
+      "FAA": "",
+      "FDA": "",
+      "CE": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "Deckmount VT 200 BiPAP Machine Features:\n\n\n\tIt comes with more than 2 modes.\n\tYou can select the gender.\n\tYou will get the auto on and off feature.\n\tThere is a leak compensation function.\n\tYou will get up to 20 alerts.\n\tIt has breath event detection.\n\tIt has adjustable levels of humidity. \n\n\nWhat's in the Box?\n\n\n\tDeckmount VT 200 Machine\n\tHumidifier\n\tTubes\n\tCarry Bag\n\tPower Adaptor\n\tSD Card\n\tFull Face Mask\n\tManuals",
+  "related_links": [],
+  "device_type": "bipap",
+  "normalized_specs": {
+    "weight_kg": 1.8,
+    "noise_db": 28.0,
+    "pressure_min_cmh2o": 4.0,
+    "pressure_max_cmh2o": 30.0,
+    "has_humidifier": true
+  }
+}

@@ -1,0 +1,136 @@
+---
+title: "How PSA oxygen concentration actually works: a technical walkthrough"
+description: "Pressure swing adsorption explained in depth: zeolite chemistry, Skarstrom cycle timing, the purge half-cycle, compressor design, and why 93% is the ceiling."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["psa", "oxygen-concentrator", "zeolite", "chemistry", "technical"]
+---
+
+An oxygen concentrator is not a refinery. It does not manufacture oxygen from other elements and it does not store gas from a prior fill. It separates the oxygen already present in room air from the much larger volume of nitrogen, argon, carbon dioxide, and water vapour that surrounds it. The mechanism — pressure swing adsorption, or PSA — is a fifty-year-old piece of chemical engineering that found its way into bedside medical devices because the underlying materials and compressors have become cheap enough to run in a living-room footprint.
+
+Understanding the mechanism does real work for clinicians and engaged patients. It clarifies why manufacturer purity claims look the way they do (93% ± 3%, not 99%), why purity falls at altitude, why Indian monsoon humidity is a sieve-bed killer, and why a well-maintained concentrator eventually needs a sieve replacement that costs a meaningful fraction of the whole device. None of that is marketing — it is direct consequence of the adsorption isotherms and cycle timing described below.
+
+## The starting material
+
+Atmospheric air at sea level is, by volume, approximately 78.09% nitrogen (N₂), 20.95% oxygen (O₂), 0.93% argon (Ar), 0.04% carbon dioxide (CO₂), and a varying 0.1–4% water vapour depending on temperature and relative humidity. For PSA, the problem reduces to: remove N₂ from the air stream as efficiently as possible. CO₂ and H₂O are removed by upstream scrubbing and drying; argon is the troublesome residual that sets the purity ceiling.
+
+The volumetric ratio that matters: to produce one litre of 93% O₂ per minute, the concentrator processes roughly five litres of ambient air, discards about four of mostly-N₂, and retains one as O₂-enriched product. That 5:1 air-to-product ratio is why the compressor and beds inside a 5 LPM unit are as large as they are.
+
+## The PSA cycle in detail (Skarstrom cycle)
+
+The classical two-bed cycle that every home concentrator implements in some variation was patented by Charles Skarstrom at Esso in 1960. A home concentrator contains two sieve beds, a compressor, a product tank, an inlet filter stack, and a solenoid or rotary valve manifold that sequences the beds through a repeating cycle at a rate of roughly 4–12 full cycles per minute (5–15 seconds per half-cycle).
+
+The four phases of the Skarstrom cycle, in order:
+
+1. **Pressurisation of bed A.** Compressed air (typically 1.4–2.1 bar gauge, depending on manufacturer) enters bed A through an inlet valve. Pressure rises in the bed from near-atmospheric to the full feed pressure over 1–3 seconds.
+2. **Adsorption on bed A.** Compressed air continues to flow through bed A while the outlet valve opens to the product tank. N₂ binds to the zeolite; O₂ and Ar pass through. The O₂-enriched stream exits the bed.
+3. **Depressurisation and purge of bed B.** Simultaneously with steps 1 and 2, bed B is vented to atmosphere. Pressure in bed B falls from feed pressure to near-atmospheric. As pressure drops, the equilibrium shifts and N₂ desorbs from the zeolite back into the gas phase. A small counterflow of product O₂ from the product tank passes backward through bed B, sweeping the desorbed N₂ out the vent — this is the "purge" and it is what actually regenerates the bed for the next adsorption half-cycle.
+4. **Pressure equalisation and switch.** Before the next half-cycle begins, a brief equalisation valve opens between the two beds, partially pre-pressurising the freshly-purged bed from the high-pressure one. This conserves compressor work and smooths the pressure profile. Then the manifold swaps: bed B adsorbs, bed A purges.
+
+Modern home concentrators use variations on this pattern — Skarstrom-with-equalisation, vacuum swing adsorption (VSA) in some industrial units, rapid-cycle PSA in portable devices — but the core physics is identical. One bed loads while the other unloads. The compressor runs continuously. Product flow at the meter is the time-averaged output of whichever bed is currently adsorbing.
+
+## Why nitrogen adsorbs preferentially to oxygen on zeolite 13X
+
+This is the load-bearing chemistry. A zeolite is a crystalline aluminosilicate — specifically, a three-dimensional framework of (SiO₄)⁴⁻ and (AlO₄)⁵⁻ tetrahedra that defines a regular array of cages connected by pore windows. The framework charge from the Al substitution is balanced by extra-framework cations (Na⁺, Li⁺, Ca²⁺, K⁺, depending on the zeolite type). Zeolite 13X is specifically the sodium-exchanged form of the X-type faujasite framework, with a roughly 13 Å pore aperture that admits both N₂ and O₂ without molecular exclusion.
+
+Inside the cage, the adsorption physics is governed by three contributions to the binding energy [CITATION: Ruthven DM, Principles of Adsorption and Adsorption Processes, Wiley 1984; Breck DW, Zeolite Molecular Sieves, 1974]:
+
+- **Dispersive (van der Waals) interactions** — similar for both N₂ and O₂, small difference.
+- **Field-quadrupole interactions** between the extra-framework cation's electric field and the adsorbate's electric quadrupole moment. This is where N₂ and O₂ diverge. The N₂ quadrupole moment is approximately 4.7 × 10⁻²⁶ esu·cm², roughly 3.5 times the O₂ moment (1.3 × 10⁻²⁶ esu·cm²). In the strong electric field around a Na⁺ cation, N₂ binds more tightly than O₂ by a factor of 2–3 in equilibrium loading at typical PSA operating pressures.
+- **Molecular size effects** — N₂ kinetic diameter is 3.64 Å vs O₂ at 3.46 Å. This matters less for 13X (the pore is much larger than either molecule) but becomes relevant for kinetic separations on smaller-pore sieves like 4A or 5A, where molecular sieving dominates over thermodynamic selectivity.
+
+The Henry's-law selectivity α = K_N₂ / K_O₂ on 13X at typical operating conditions is about 3–4. In plain English: at equal partial pressure, about three to four times as much N₂ dissolves into the zeolite as O₂. Over a few-second cycle at 1.5 bar, this is enough to strip roughly 95% of the N₂ from the feed stream before the adsorption wave breaks through to the bed outlet.
+
+The adsorption isotherm is well-fit by the Langmuir model for both species:
+
+  q = q_m × (b × P) / (1 + b × P)
+
+where q is the adsorbed amount, q_m is the monolayer capacity, b is the Langmuir equilibrium constant, and P is the partial pressure. The key design variable for PSA is the difference in b between N₂ and O₂, because b × P roughly sets the filling of adsorption sites at feed pressure and the emptying of sites at vent pressure. A large b ratio means a clean pressure swing. [CITATION: Yang RT, Adsorbents: Fundamentals and Applications, Wiley 2003.]
+
+Argon is the frustrating exception. Its quadrupole moment is effectively zero (spherically symmetric atom), so its binding is dominated by dispersive forces that are nearly identical to O₂. The α_Ar/O₂ selectivity on 13X is close to 1.0. Any argon in the feed passes through the bed at the same rate as oxygen, and the 0.93% argon in atmospheric air ends up concentrated in the product stream to approximately 4.5% — fixing the thermodynamic ceiling on 13X PSA output at 95–96% O₂ with the balance as Ar.
+
+## LiLSX: why lithium-exchanged low-silica X outperforms 13X
+
+Replacing the Na⁺ cations in the X framework with Li⁺ produces lithium low-silica X zeolite, LiLSX (sometimes labelled LiX). Two things change [CITATION: Chao CC, US Patent 4,859,217, 1989; Rege SU, Yang RT, Chem Eng Sci 1997].
+
+First, Li⁺ is smaller and has a higher charge-to-radius ratio than Na⁺. The electric field at the cation site is stronger, and the field-quadrupole interaction with N₂ is correspondingly stronger. The Henry's-law N₂/O₂ selectivity on LiLSX rises to roughly 6–10, depending on the exchange completeness, at room temperature — roughly double that of 13X.
+
+Second, the "low-silica" qualifier matters. The Si/Al ratio in LSX is at or near the theoretical minimum of 1.0 (Loewenstein's rule), meaning the maximum possible density of framework-charge-balancing cations. A fully Li-exchanged LSX has roughly 50% more Li⁺ sites per unit volume than a typical NaX, multiplying the adsorption capacity.
+
+The practical consequence is a steeper breakthrough front and a smaller required bed size for the same product flow at the same purity. A 5 LPM concentrator using LiLSX can achieve 93–95% purity with a bed mass roughly 30–50% smaller than an equivalent 13X design, which translates directly to a smaller, lighter, quieter unit running a smaller compressor. Portable POC-class concentrators rely on LiLSX essentially universally, because the bed size reduction is what makes 2.5 kg portable oxygen technically possible.
+
+The trade-off is cost. LiLSX costs several times more per kilogram than 13X and is more water-sensitive — one bulk-water exposure can destroy capacity irrecoverably. See <a href="/clinical/sieve-bed-lifespan-and-degradation/">sieve-bed lifespan and degradation</a>.
+
+## The compressor: why it matters
+
+The PSA cycle is only as clean as the feed it receives. Home concentrators overwhelmingly use **oil-free, dry-running compressors** — either rocking-piston or rotary-vane designs — specifically because any oil in the feed air would coat the sieve pellets and destroy their gas-transport capacity. The choice of oil-free compression is therefore not a design preference; it is a hard requirement for a long-life sieve bed.
+
+Typical 5 LPM compressor specs: 1.4–2.0 bar gauge output, 50–80 LPM air flow at feed, 200–400 W motor. 10 LPM roughly doubles these. Published power figures — [Philips Everflo 5 LPM](/oxygen-concentrators/philips-everflo-5-lpm/) at 350 W, [Nidek Nuvo Lite 5 LPM](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/) at 290 W — mostly reflect compressor motor draw.
+
+The compressor runs at essentially 100% duty cycle. Lifetime-limiting components in rough order: compressor head (20,000–40,000 hours before rebuild), sieve beds (10,000–20,000 hours), solenoid valves (10⁶–10⁷ cycles, 3–7 years), cooling fan (2–5 years).
+
+## Why 93% ± 3% is the delivered-purity spec
+
+Putting the pieces together explains why essentially every home concentrator in the Indian market — regardless of manufacturer or price tier — publishes a purity spec of 93% ± 3% or very close to it.
+
+- The **argon ceiling** is ~95.5% on any 13X-based or LiLSX-based PSA process at atmospheric feed.
+- **Adsorption is never 100% complete.** Each cycle leaves residual N₂ in the bed at end-of-adsorption (the front has not yet fully broken through) and each purge leaves some N₂ behind (the bed is not fully regenerated). Typical cycle design accepts ~1–2% additional N₂ contamination of the product.
+- **Compressor ripple and tank smoothing** allow some low-purity gas from the end-of-adsorption phase to enter the product stream.
+- **Flow-dependent breakthrough.** At higher product flows, the adsorption front moves faster through the bed and breaks through sooner, further reducing purity. This is covered in detail in <a href="/clinical/why-oxygen-purity-drops-at-high-flow/">why oxygen purity drops at high flow</a>.
+
+The net effect is a published spec of 93% ± 3% (i.e. 90% to 96%) across the rated flow range. Delivered purity above 96% at full flow on a pure PSA process is physically unusual and should be treated with skepticism absent a third-party certificate. Hospital-grade oxygen at ~99.5% is produced by cryogenic air distillation (the Linde process), a completely different technology that is not practical in a bedside device. We cover this in detail in <a href="/clinical/why-93-percent-is-the-ceiling/">why 93% is the ceiling</a>.
+
+## Cycle tuning: throughput vs purity
+
+The cycle designer has three primary knobs: feed pressure, cycle time, and purge ratio (the fraction of product gas sent back through the regenerating bed).
+
+- **Higher feed pressure** → more N₂ adsorbed per cycle → cleaner product, but higher compressor power and noise. Most home concentrators sit at 1.4–2.0 bar gauge; industrial PSA units run 4–8 bar.
+- **Shorter cycle time** → more switches per minute → the bed never saturates with N₂ → cleaner product, but more valve wear and more pressure-ripple in the product tank.
+- **Higher purge ratio** → bed more completely regenerated → better next-cycle capacity → cleaner product, but lower net product yield (more of the O₂ produced is consumed in the purge).
+
+Every home concentrator sits at an empirically tuned compromise among these. A well-designed unit at 5 LPM with a LiLSX bed might run at 1.5 bar, 8-second half-cycles, 30% purge ratio, delivering 93 ± 2% at the full rated flow. The same bed geometry with different cycle timing could deliver 95% at 3 LPM or 88% at 7 LPM — and that exact curve is what the flow-vs-purity graph in a factory test looks like.
+
+## Clinical and practical implications
+
+The mechanism has several consequences that matter to prescribing clinicians and patients.
+
+**Purity at the prescribed flow matters more than peak-rated purity.** A 5 LPM unit that reads 93% at 2 LPM and 86% at 5 LPM is operating normally. A 5 LPM unit that reads 90% at 2 LPM and 78% at 5 LPM is failing — either early sieve degradation, a valve issue, or a compressor losing pressure. The shape of the flow-vs-purity curve tells a service technician more than any single-point reading.
+
+**Ambient conditions affect output.** Hot, humid, dust-heavy environments stress every component. In the Indian context: Delhi-NCR summer (40–45 °C ambient, PM2.5 regularly over 150 µg/m³) is harder on a concentrator than Bengaluru year-round. Service intervals for inlet filters should be shortened during monsoon and summer in the heavy-use states.
+
+**Altitude derating is real.** A concentrator rated to 2,500 m (most mainstream 5 LPM units; the Everflo and Nuvo Lite both specify 7,500 ft ≈ 2,286 m) will run above that altitude but with progressively falling purity. See our article on <a href="/clinical/oxygen-therapy-at-altitude-india/">oxygen therapy at altitude in India</a> for the clinical adjustment framework.
+
+**Power loss is recoverable.** A PSA concentrator resumes full output within a few minutes of power restoration; the sieve cycle re-stabilises quickly. There is no permanent damage from ordinary power interruption — though voltage transients and low-voltage operation are separate risks covered in <a href="/clinical/voltage-fluctuations-and-concentrator-warranty/">voltage fluctuations and concentrator warranty</a>.
+
+**Sieve replacement is a scheduled event, not a failure.** A concentrator at 2–4 years of continuous use is approaching the end of sieve life regardless of how well it has been maintained. Budget for sieve service at roughly 20–30% of the original unit cost somewhere in the 3–5 year window.
+
+## Common myths and misconceptions
+
+**"100% oxygen machine"** — no such thing in this product class. A PSA concentrator claiming 99%+ is either miscalibrated, marketing hyperbole, or has a second-stage purification (vanishingly rare bedside). The zeolite-PSA ceiling is ~95–96% with argon as the balance.
+
+**"Oxygen generator"** — the device concentrates O₂ from ambient air; it does not generate it. In a sealed room the total oxygen is unchanged.
+
+**"The OPI is broken because it reads yellow/red."** OPIs fire at ~82% and below. They are detecting what they were designed to detect — most often a flow above the clinically useful range, a clogged inlet filter, or early sieve degradation.
+
+**"Argon is dangerous."** Argon is biologically inert. The ~4–5% argon in PSA output is clinically a non-issue.
+
+**"Humidifier bottles improve purity."** They do not; they are for patient comfort. Running one without distilled water can damage the unit via back-pressure or mineral ingress.
+
+## What this tells you when shopping
+
+A few takeaways from the mechanism that shape buying decisions:
+
+- **Published purity specs of 93% ± 3% are a feature, not a limitation.** A unit claiming materially higher purity at full flow is either using a non-PSA process (rare and expensive), quoting a best-case number, or overstating its capability.
+- **LiLSX-based units tend to be smaller, lighter, and more expensive than 13X units at equivalent specs.** If the form factor is tight (portable, travel, small flat in a hill station), the LiLSX premium is buying real engineering. For a stationary 5 LPM unit that lives in a corner of a room, 13X is often equally good and cheaper.
+- **The compressor is the real lifetime-limiting component.** Published service-interval data and the manufacturer's authorised service presence in your state matter more than a small spec-sheet advantage in purity or noise.
+- **Altitude rating is a hard number.** If you live above 2,500 m or travel there frequently, confirm the unit's rated altitude before purchase — the [Philips Everflo](/oxygen-concentrators/philips-everflo-5-lpm/) and [Nidek Nuvo Lite](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/) are both specified to 7,500 ft and above that you are out of warranty territory.
+- **Power consumption tracks compressor size, not efficiency per se.** A 290 W unit is not necessarily better-engineered than a 350 W unit; it may just have a smaller bed and a smaller compressor producing slightly less output headroom. Compare the flow-vs-purity curve if the manufacturer publishes one.
+
+Consult your treating physician for therapy decisions; this article is educational and does not replace a clinical prescription.
+
+## Closing
+
+The PSA oxygen concentrator is a remarkably durable piece of commodity chemical engineering. The underlying adsorption science — Na⁺ and Li⁺ cations in zeolite cages producing a quadrupole-moment-driven selectivity for N₂ over O₂ — has not materially changed in 40 years; what has changed is the cost of the zeolite, the availability of reliable oil-free compressors, and the maturity of the solenoid valves. The output spec of 93% ± 3% is not a shortcoming; it is what argon-limited zeolite PSA fundamentally produces, and it has been clinically adequate for the overwhelming majority of long-term oxygen therapy prescriptions written in the last three decades. A concentrator that delivers rated purity at rated flow, reliably, for three to five years, with a serviceable sieve bed and a factory-authorised service network in the owner's city, is doing everything it is asked to do.
+
+*Further reading for practitioners and biomedical engineers: the reference chapters on PSA chemistry in the adsorption literature, and the ISO 80601-2-69 standard for home oxygen concentrators. [CITATION: Ruthven DM, Farooq S, Knaebel KS — Pressure Swing Adsorption, Wiley-VCH 1994; Ackley MW — Adsorption 2019; ISO 80601-2-69:2020.]*

@@ -1,0 +1,95 @@
+{
+  "slug": "bmc-m1-mini-travel-auto-cpap-machine",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/bmc-m1-mini-travel-auto-cpap-machine",
+  "product_name": "BMC M1 Mini Travel Auto CPAP Machine",
+  "brand": "BMC",
+  "brand_href": "https://www.oxygentimes.com/brand/BMC/cpap-bipap",
+  "category": "CPAP",
+  "price_current": "42,230.40",
+  "price_mrp": "72,000.00",
+  "price_symbol": "₹",
+  "rating_value": "4.9 (39)",
+  "rating_count": "39",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/bmc-m1-mini-travel-auto-cpap-machine-d31a58e401.jpg",
+      "alt": "BMC M1 Mini Travel Auto CPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/BMC-M1-Mini-Travel-Auto-CPAP11648108001.jpg"
+    },
+    {
+      "src": "/images/products/bmc-m1-mini-travel-auto-cpap-machine-693b78f77b.jpg",
+      "alt": "BMC M1 Mini Travel Auto CPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/BMC-M1-Mini-Travel-Auto-CPAP11646474477.jpg"
+    },
+    {
+      "src": "/images/products/bmc-m1-mini-travel-auto-cpap-machine-7a4ccc0c3b.jpg",
+      "alt": "BMC M1 Mini Travel Auto CPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/BMC-M1-Mini-Travel-Auto-CPAP21646474477.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "Travel CPAP",
+    "Modes": "CPAP,  AUTO CPAP",
+    "Pressure Range": "4 to 20cmH₂O",
+    "Ergonomic Tilted Display": "No",
+    "Detachable Design": "No",
+    "Sound level": "30dB"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "Travel CPAP",
+      "Modes": "CPAP,  AUTO CPAP",
+      "Pressure Range": "4 to 20cmH₂O",
+      "Ergonomic Tilted Display": "",
+      "Detachable Design": "",
+      "Sound level": "30dB",
+      "Weight": "0.4Kg",
+      "Dimensions": "159×66×72mm",
+      "Company Headquaters": "China",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0 - 60min.",
+      "Auto Ramp": "Yes",
+      "Ramp Down": "No",
+      "EPR": "Yes",
+      "Humidifier": "No",
+      "Heated Tube Compatibility": "",
+      "Climate control": "",
+      "Preheat": "",
+      "Adaptive Humidification": "",
+      "Mask Fit": "Yes"
+    },
+    "Additional details": {
+      "Central Apnea Detection": "",
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "",
+      "VAPS": "",
+      "Trigger & Cycle sensitivity": "",
+      "Ti Control": "",
+      "Rise Time": "",
+      "Ti(inspiration time)": "",
+      "Pressure Support": "",
+      "Back up rate": "",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "",
+      "Waterless Humidification": "",
+      "SD card": "",
+      "Bluetoooth": "Yes",
+      "QR code": "",
+      "FAA": "",
+      "FDA": "",
+      "CE": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "BMC M1 Mini Travel CPAP Features\n\n\n\tIt comes with a weight of 400 grams.\n\tAt the bottom, there is an anti-slip strip that reduces the motion of the device while you are availing of its therapy.\n\tIt has an EPR.\n\tYou will get Bluetooth connectivity with the BMC M1 Mini light trip app.\n\tAuto CPAP adjustable sensitivity has three levels that include female, standard, and soft based on your needs.\n\tWaterless Humidification is available on this device.\n\tIt is compatible with any CPAP mask.\n\n\nWhat's in the Box?\n\n\n\tBMC M1 Mini Auto CPAP Device\n\tCPAP Tubing\n\t2 CPAP filter\n\tPower Adapter\n\t2 Drawstring soft pouch\n\tUser Manual",
+  "related_links": [],
+  "device_type": "cpap",
+  "normalized_specs": {
+    "weight_kg": 0.4,
+    "noise_db": 30.0,
+    "pressure_min_cmh2o": 4.0,
+    "pressure_max_cmh2o": 4.0,
+    "has_humidifier": false
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "slug": "oxymed-mini-3-litres",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Oxymed-Mini-3-Litres",
+  "product_name": "Oxymed Mini 3 Litres",
+  "brand": "Oxymed",
+  "brand_href": "https://www.oxygentimes.com/brand/Oxymed/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "60,000.00",
+  "price_mrp": "57,600.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Discontinued",
+  "images": [
+    {
+      "src": "/images/products/oxymed-mini-3-litres-6edb356eda.jpg",
+      "alt": "Oxymed Mini 3 Litres",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-01 at 41638356411.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "1-3LPM",
+    "Weight": "13.9kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "390watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "1-3LPM",
+      "Weight": "13.9kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "390watts",
+      "Sound level": "45db",
+      "Dimensions": "20.27H x 12.36W x 9.44Dinch",
+      "Operating altitude": "7500feet",
+      "Outlet pressure": "10psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "What's in the Box?\n\nOxymed mini oxygen Machine\n\nNasal cannula\n\nNebulizer kit\n\nAdditional Filter set\n\nHumidifier Bottle\n\nPower Cable\n\nUser manual and other documents",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 13.9,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 3.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 45.0,
+    "power_w": 390,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true,
+    "altitude_ft": 7500
+  }
+}

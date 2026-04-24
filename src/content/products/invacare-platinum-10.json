@@ -1,0 +1,73 @@
+{
+  "slug": "invacare-platinum-10",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Invacare-Platinum-10",
+  "product_name": "Invacare Platinum 10",
+  "brand": "Invacare",
+  "brand_href": "https://www.oxygentimes.com/brand/Invacare/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "91,200.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/invacare-platinum-10-17a7861e42.jpg",
+      "alt": "Invacare Platinum 10",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/IRC10LX02-4001662713937.jpg"
+    },
+    {
+      "src": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-01 at 121638300768.jpg",
+      "alt": "Invacare Platinum 10",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-01 at 121638300768.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "2-10LPM",
+    "Weight": "24.4kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "585watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "2-10LPM",
+      "Weight": "24.4kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "585watts",
+      "Sound level": "58db",
+      "Dimensions": "26.3H x 18.3W x 14.3Dinch",
+      "Oxygen Purity % Analyzer": ""
+    },
+    "Additional details": {
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 24.4,
+    "flow_min_lpm": 2.0,
+    "flow_max_lpm": 10.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 58.0,
+    "power_w": 585,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

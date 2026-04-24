@@ -1,0 +1,70 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Page not found"
+  description="The page you requested doesn't exist. Browse HHZ's reviews, guides, and clinical articles instead."
+  noindex
+>
+  <section class="error">
+    <p class="error__code">404</p>
+    <h1>This page isn't here.</h1>
+    <p class="lead">
+      The URL you requested doesn't exist on HHZ. It may have moved, been renamed, or never existed.
+    </p>
+    <p>Try one of these:</p>
+    <ul class="error__links">
+      <li><a href="/">Homepage</a></li>
+      <li><a href="/oxygen-concentrators/">All oxygen concentrators</a></li>
+      <li><a href="/cpap/">CPAP machines</a></li>
+      <li><a href="/bipap/">BiPAP machines</a></li>
+      <li><a href="/compare/">Head-to-head comparisons</a></li>
+      <li><a href="/guides/">Buyer's guides</a></li>
+      <li><a href="/clinical/">Clinical articles</a></li>
+    </ul>
+    <p class="meta-line">
+      If you arrived via a link on another site, tell us about the broken URL at
+      {' '}<a href="/contact/">corrections@homehealthzone.com</a> — we'll track it down.
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .error {
+    max-width: var(--content-width);
+    margin: var(--space-12) auto;
+    text-align: center;
+  }
+  .error__code {
+    font-family: var(--font-sans);
+    font-size: 5rem;
+    font-weight: 800;
+    color: var(--color-accent);
+    line-height: 1;
+    margin: 0 0 var(--space-6);
+  }
+  .error__links {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-6) 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: var(--space-3);
+    font-family: var(--font-sans);
+  }
+  .error__links li { margin: 0; }
+  .error__links a {
+    display: inline-block;
+    padding: var(--space-2) var(--space-4);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    text-decoration: none;
+    color: var(--color-text);
+    background: var(--color-surface);
+  }
+  .error__links a:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+</style>

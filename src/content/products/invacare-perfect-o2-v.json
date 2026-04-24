@@ -1,0 +1,76 @@
+{
+  "slug": "invacare-perfect-o2-v",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Invacare-Perfect-O2-V",
+  "product_name": "Invacare Perfect O2 V",
+  "brand": "Invacare",
+  "brand_href": "https://www.oxygentimes.com/brand/Invacare/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "59,520.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/invacare-perfect-o2-v-d66e880ee3.jpg",
+      "alt": "Invacare Perfect O2 V",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-01 at 121638300302.jpg"
+    },
+    {
+      "src": "/images/products/invacare-perfect-o2-v-e31ea41756.jpg",
+      "alt": "Invacare Perfect O2 V",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-01 at 121638300303.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5-5LPM",
+    "Weight": "17.6kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "325watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5-5LPM",
+      "Weight": "17.6kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "325watts",
+      "Sound level": "43db",
+      "Dimensions": "23H x 13W x 11.5Dinch",
+      "Operating altitude": "8000feet",
+      "Outlet pressure": "5psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 17.6,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 43.0,
+    "power_w": 325,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true,
+    "altitude_ft": 8000
+  }
+}

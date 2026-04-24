@@ -1,0 +1,45 @@
+---
+import type { GetStaticPaths } from 'astro';
+import type { CollectionEntry } from 'astro:content';
+import ArticleLayout from '../../layouts/ArticleLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export const getStaticPaths = (async () => {
+  const guides = await getCollection('guides');
+  return guides.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  entry: CollectionEntry<'guides'>;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const { Content, headings } = await render(entry);
+
+function clampDescription(d: string): string {
+  const raw = d.replace(/\s+/g, ' ').trim();
+  if (raw.length <= 160) return raw;
+  const truncated = raw.slice(0, 157);
+  const lastSpace = truncated.lastIndexOf(' ');
+  return `${truncated.slice(0, lastSpace > 120 ? lastSpace : 157)}…`;
+}
+
+const title = data.title;
+const description = clampDescription(data.description);
+const canonicalURL = new URL(`/guides/${entry.id}/`, Astro.site).toString();
+---
+<ArticleLayout
+  entry={entry}
+  section="guides"
+  sectionLabel="Guides"
+  title={title}
+  description={description}
+  canonicalURL={canonicalURL}
+  headings={headings}
+>
+  <Content />
+</ArticleLayout>

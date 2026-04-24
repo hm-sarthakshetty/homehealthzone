@@ -1,0 +1,125 @@
+---
+title: "Zeolite 13X vs LiX vs LiLSX: oxygen-adsorbent chemistry compared"
+description: "Three zeolites dominate home PSA: Na-exchanged 13X, LiX, and low-silica LiLSX. Selectivity, pore chemistry, cycle-time behaviour, and cost-per-performance compared."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["psa", "zeolite", "oxygen-concentrator", "chemistry"]
+---
+
+Every pressure-swing-adsorption (PSA) oxygen concentrator on the Indian market runs on one of three zeolite adsorbents — sodium-form 13X, lithium-exchanged LiX, or the fully Li-exchanged low-silica variant LiLSX. On a spec sheet the three look interchangeable: the manufacturer writes "molecular sieve" and leaves it there. In the device they are not interchangeable at all. The choice sets the bed mass required for a given flow, the compressor power, the cycle time the control board has to run, the weight the patient carries, and a meaningful fraction of the retail price. A 2.5 kg portable delivering 1 LPM pulse and a 14 kg stationary delivering 5 LPM continuous are separated as much by the cation inside their zeolite cages as by their compressor and case design.
+
+This article compares the three materials at the level of pore-window geometry, cation-field strength, N₂/O₂ equilibrium selectivity, breakthrough-front slope, regeneration behaviour, moisture tolerance, and the commercial tiering of which zeolite lives in which concentrator class. It is written for clinicians who want to know why the stationary unit in the ward weighs three times what the travel unit on the next trolley weighs, and for engaged buyers who want to know what their money is actually buying.
+
+## Framework, cations, Si/Al: the three variables
+
+All three materials are members of the **faujasite** zeolite family. They share the same fundamental framework topology — a three-dimensional network of SiO₄ and AlO₄ tetrahedra linked at shared oxygen corners, arranged into large "supercages" accessed by 12-membered ring windows of approximately 7.4 Å diameter. Neither N₂ (3.64 Å kinetic diameter) nor O₂ (3.46 Å) is molecular-sieved by the window: both walk in. Selectivity has to come from what happens inside the cage, not from what gets to the door.
+
+What distinguishes the three materials are two framework-level variables.
+
+**The Si/Al ratio.** The framework carries one negative charge for every Al atom it contains. A framework with Si/Al = 2.5 has fewer Al atoms per unit volume than one with Si/Al = 1.2, and therefore fewer negative-charge sites per unit volume, and therefore fewer extra-framework cations to do the N₂ binding. Loewenstein's rule sets the theoretical floor at Si/Al = 1.0 — below that, Al-O-Al linkages would have to form, and they do not. Commercial 13X typically sits at Si/Al ≈ 1.2–1.5; commercial LSX sits at Si/Al ≈ 1.0, at or near the theoretical maximum cation density. [CITATION: Breck DW — Zeolite Molecular Sieves, Wiley 1974; Chao CC — US Patent 4,859,217, 1989.]
+
+**The extra-framework cation.** The charge-balancing cations sit inside the cage and the sodalite windows. They are the primary binding sites for N₂. Replacing Na⁺ with Li⁺ changes everything about how the cage interacts with adsorbed gas. Li⁺ has a smaller ionic radius (0.76 Å vs 1.02 Å for Na⁺) but the same +1 charge, which means a much higher charge-to-radius ratio. The electric field at the cation's surface scales inversely with radius squared — Li⁺ produces a field roughly 1.8× stronger than Na⁺ at the nearest-neighbour adsorbate distance.
+
+These combine multiplicatively. 13X has moderate Si/Al and Na⁺. LiX has moderate Si/Al but Li⁺ — stronger field per site, same number of sites. LiLSX has minimum Si/Al and Li⁺ — stronger field per site, more sites per unit volume. PSA performance follows.
+
+[DIAGRAM: Schematic cutaway of a faujasite supercage showing the 7.4 Å window, an N₂ molecule entering the cage, and a cation sitting at the SII site inside the cage with a dashed arrow indicating the electric-field interaction between the cation and the N₂ quadrupole.]
+
+## Why N₂ binds: field-quadrupole interactions
+
+The physics that drives PSA on a zeolite is not acid-base chemistry and not sieving by size. It is the electrostatic interaction between the extra-framework cation's strong, localised electric field and the adsorbate molecule's electric quadrupole moment.
+
+N₂ and O₂ are both diatomic homonuclear molecules with zero dipole moment — symmetry forbids a dipole in either. Both have non-zero quadrupole moments, because the charge distribution along the molecular axis is not spherically symmetric. But the magnitudes differ substantially:
+
+- Q(N₂) ≈ 4.7 × 10⁻²⁶ esu·cm²
+- Q(O₂) ≈ 1.3 × 10⁻²⁶ esu·cm²
+
+N₂ has roughly 3.5× the quadrupole moment of O₂. The interaction energy between a quadrupole and an external field gradient is proportional to the quadrupole moment times the field gradient. In the strong, localised field of a cation, this difference in quadrupole moment translates into a factor-of-2 to factor-of-3 difference in binding energy, depending on geometry. [CITATION: Yang RT — Adsorbents: Fundamentals and Applications, Wiley 2003; Rege SU, Yang RT — Chem Eng Sci, 1997.]
+
+The Henry's-law selectivity α = K_N₂ / K_O₂ follows:
+
+- **13X (NaX):** α ≈ 3–4 at room temperature, 1 bar
+- **LiX:** α ≈ 5–7 at room temperature, 1 bar
+- **LiLSX:** α ≈ 6–10 at room temperature, 1 bar, depending on exchange completeness
+
+Full Li-exchange of a low-silica X can roughly triple the equilibrium selectivity of a Na-form 13X. This is the headline reason lithium-exchanged materials dominate the premium end of the concentrator market.
+
+## What this does to the adsorption isotherm
+
+The Langmuir isotherm for each gas on each material gives the equilibrium loading q at partial pressure P:
+
+  q = q_m × b × P / (1 + b × P)
+
+where q_m is the monolayer capacity and b is the Langmuir constant (proportional to exp(ΔH_ads / RT)). For N₂ on LiLSX at typical PSA feed pressure (1.5 bar absolute, 295 K), q_N₂ is approximately 1.5–2× the value on 13X; for O₂ the values are similar within ~20% across all three materials. The result: the N₂ working capacity (loading at feed pressure minus loading at vent pressure) is 1.5–2× larger on LiLSX than on 13X for the same bed volume and the same cycle.
+
+A second consequence is less obvious from the isotherm alone: the **slope** of the N₂ breakthrough front through the bed is steeper on LiLSX. A steep front means a narrow mass-transfer zone, which means the designer can push the cycle closer to the breakthrough point without contaminating the product stream. A flat front (NaX) requires conservative cycle timing with a safety margin; a steep front (LiLSX) tolerates aggressive cycling. This is why LiLSX units can run short cycle times (4–8 seconds per half-cycle) and still deliver spec purity at high flow, while NaX units typically run longer cycles (8–15 seconds) and trade cycle-time headroom for margin.
+
+## Regeneration: what happens in the vent phase
+
+PSA is not single-pass adsorption. Every adsorption phase on bed A is paired with a regeneration phase on bed B, and the efficiency of regeneration sets the working capacity that bed B will have when it is its turn to adsorb again.
+
+Regeneration in home concentrators is pure pressure swing. Feed pressure on bed A is ~1.5 bar absolute; bed B is vented to atmospheric (~1.0 bar absolute), and a small purge flow of product O₂ from the product tank is sent backward through bed B to sweep the desorbed N₂ out the vent port. No thermal regeneration happens in service — the bed never heats above ambient.
+
+Three things change across the three materials.
+
+**Desorption isotherm shape.** A steeper isotherm (LiLSX) has a larger fraction of its loading in the working range (1.5 bar → 1.0 bar) and a smaller fraction held tightly at low pressure. More of the adsorbed N₂ comes off in the vent phase, which means less residual N₂ going into the next cycle.
+
+**Purge efficiency.** The purge gas is product O₂ at the vent pressure. For a given purge mass, the LiLSX bed is cleaner after purge than the 13X bed, because the desorbed N₂ comes off faster and the purge sweep is more effective. Designers quantify this as the "purge-to-feed ratio" — the fraction of product gas consumed in regenerating the off bed. For the same delivered purity, LiLSX designs can run at 20–25% purge ratio while 13X designs typically need 30–40%.
+
+**Cycle time.** A steeper breakthrough front and more efficient regeneration together mean the LiLSX bed can handle a faster cycle. A well-tuned LiLSX 5 LPM unit runs 4–6 second half-cycles; a typical 13X 5 LPM unit runs 8–12 seconds. Faster cycles mean smaller product tanks (less averaging needed), which in turn means smaller overall device footprint.
+
+[DIAGRAM: Two Langmuir isotherms overlaid on the same axes — N₂ loading vs partial pressure — for 13X (shallower) and LiLSX (steeper). Shaded regions indicate the working capacity between vent pressure and feed pressure on each curve.]
+
+## Water sensitivity: the hidden cost of Li-exchange
+
+Every benefit of lithium exchange comes with a cost: dramatically increased water sensitivity. Water's dipole moment (1.85 D) interacts with the cation field orders of magnitude more strongly than N₂'s quadrupole moment does. On any of these zeolites, water binds at the cation sites roughly 20–100× more strongly than N₂, and it does not desorb during the ordinary pressure-swing cycle.
+
+Li⁺ is worse in this respect than Na⁺. The smaller, higher-field cation binds water more tightly, and the water-adsorption enthalpy on LiLSX is roughly 15–25 kJ/mol higher than on 13X. Once water reaches a LiLSX bed, the sites it occupies are effectively lost for the service life of the bed.
+
+This has two practical consequences. First, LiLSX beds require a more robust upstream drying stage — thicker pre-dry layer, sometimes a dedicated silica-gel or activated-alumina cartridge, with tighter inspection intervals. Second, LiLSX beds degrade faster in humid climates if any element of the pre-dry chain is marginal. The Indian coastal monsoon is a known stressor for exactly this reason.
+
+## Which concentrator tier uses which zeolite
+
+There is no authoritative public database of adsorbent selection by model. But the commercial logic is straightforward, and the catalogue breaks into three broad tiers.
+
+**Tier 1 — Large stationary, traditional 13X.** Heavy units (14–25 kg) in the 5 LPM class, running long cycles with generous safety margins. The Philips Everflo 5 LPM at 14 kg and 350 W, the BPL Oxy 5 Neo at 25 kg and 400 W, and many of the budget Chinese-OEM 5 LPM units (Oxymed Eco 5 LPM at 13.5 kg, Home Medix 5 LPM at 21.5 kg) fit this pattern: mature, cost-optimised PSA on 13X with purity specified at 90–95% or 90–96% across the rated flow range. 13X is cheap, readily available in commercial quantities in India, and forgiving of manufacturing tolerances. These units do not need premium adsorbent because their form factor can absorb the size penalty of a larger 13X bed.
+
+**Tier 2 — Compact stationary and high-flow units, LiX or mixed beds.** Mid-tier concentrators at 10–13 kg for 5 LPM, and the 10 LPM class. The Nidek Nuvo Lite 5 LPM at 13.6 kg and 290 W is an example of where LiX or a layered 13X+LiX bed makes sense: the lower Li-exchange cost allows a smaller, lighter unit without the full cost premium of LiLSX. 10 LPM class units commonly use layered beds to combine 13X bulk capacity with LiX or LiLSX finishing for the high-flow purity requirement. [CITATION: manufacturer brochures and e-commerce product listings cross-referenced against service-manual extracts.]
+
+**Tier 3 — Portable and POC class, LiLSX almost exclusively.** Everything at 2–5 kg carry weight — Inogen One G5 at 2.2 kg, the Airsep FreeStyle 3 at ~2 kg class, Philips SimplyGo and SimplyGo Mini in the portable segment — depends on LiLSX to achieve useful flow in a bed small enough to hand-carry. You cannot build a 2 kg 1-LPM-pulse portable on 13X: the bed would need to be three times the volume of the whole device. LiLSX is the enabling material for this product class.
+
+This tiering is not a conspiracy; it is a cost-and-physics calculation. LiLSX pellets cost roughly 3–5× per kilogram what commodity 13X does. For a stationary unit sitting in a corner, the LiLSX premium buys nothing a bigger 13X bed cannot provide more cheaply. For a portable carried for an eight-hour hospital visit, LiLSX is the only material that makes the form factor possible.
+
+## Cost per litre of delivered oxygen
+
+A more useful comparison than cost-per-kilogram of adsorbent is cost per litre-per-minute of delivered oxygen at spec purity.
+
+For a 5 LPM stationary with 13X, the bed mass required is roughly 2.5–4 kg of zeolite. At commodity 13X pricing (indicative ₹800–₹1,500 per kg ex-works India in 2026), the adsorbent cost is ₹2,000–₹6,000 — a small fraction of an end-user retail price of ₹40,000–₹70,000.
+
+For a 5 LPM portable on LiLSX, the bed mass drops to around 600–900 g of zeolite, but at LiLSX pricing (indicative ₹4,000–₹8,000 per kg), the adsorbent cost rises to ₹2,500–₹7,000 — nearly the same absolute number, in a device selling for ₹2,00,000–₹3,50,000. The adsorbent is not where the cost of a portable sits; the cost sits in the miniaturised compressor, the battery, the control electronics, and the lightweight case.
+
+The operational implication: retail price differences between tiers are not explained by adsorbent cost alone. The adsorbent is enabling; the rest of the device is where the engineering bill of materials balloons.
+
+## Service life by adsorbent
+
+All three adsorbents have comparable intrinsic service lives in protected conditions — 10,000–20,000 hours is the usual published range for home concentrator PSA beds. The difference is in how rapidly each degrades under real-world stressors.
+
+- **13X:** the most forgiving. Tolerates minor humidity excursions and a marginal compressor reasonably well. Typical Indian-climate service lives in the 8,000–12,000 hour range for mid-tier units.
+- **LiX:** intermediate. Benefits from the Li-exchange performance lift but slightly more water-sensitive than 13X.
+- **LiLSX:** least forgiving. One serious water exposure — a humidifier back-flow, a failed check valve, a flood of condensate through a failed pre-dry stage — can drop LiLSX capacity by 30–60% in a single event. In protected coastal-Indian service, LiLSX can still reach 10,000+ hours, but the service discipline required to get there is tighter than for 13X.
+
+For more on failure modes and service-life determinants see [sieve bed lifespan](/clinical/sieve-bed-lifespan/) and [molecular sieve contamination](/clinical/molecular-sieve-contamination/).
+
+## Practical takeaway for Indian buyers and clinicians
+
+For a stationary 5 LPM unit that will live in one corner of a room in Mumbai, Delhi, Chennai, or anywhere at sea-level altitude, **13X is the right adsorbent and not a limitation.** The Philips Everflo and BPL Oxy Neo class units deliver clinically adequate 93% purity at a price point and weight that their physics allows; paying the LiLSX premium on a stationary adds no patient-side benefit. The service network, authorised spare-parts pipeline, and compressor quality matter far more than the zeolite choice in this tier.
+
+For travel, portability, or clinical contexts where a patient is routinely moving — **LiLSX is not optional**, it is what makes the portable-oxygen concept exist. Accept the adsorbent-cost premium, budget for a more protective pre-dry and stricter humidifier discipline, and recognise that the device is engineered on a tighter margin of sieve working capacity than a 13X stationary.
+
+For hill-station use or altitude-sensitive contexts (Leh, Manali, Shimla, Darjeeling, Ooty above ~2,000 m), **the derating happens at the feed-air side of the physics, not the adsorbent.** All three materials lose working capacity at reduced feed-air density. A LiLSX portable and a 13X stationary lose spec purity at roughly the same altitude for roughly the same reason: less N₂ partial pressure at the feed means less adsorption driving force. Published altitude ratings (typically 2,286 m / 7,500 ft for mainstream 5 LPM units, lower for some budget concentrators — the BPL Oxy 5 Neo is rated to only 6,000 ft) are the right number to check, not the adsorbent.
+
+The marketing noise around "premium sieve material" should be read carefully. A stationary-class unit claiming LiLSX at a 13X price is either using a very small amount of LiLSX as a finishing layer on a larger 13X bed (a real engineering choice and fine), or is misrepresenting the adsorbent (not fine). A portable claiming 13X at a LiLSX price point is almost certainly misrepresenting something — either the weight, the delivered flow, or the purity. The physics does not let you build a 2.5 kg 3-LPM-pulse portable on 13X, full stop.
+
+Consult your treating physician for therapy decisions; this article is educational and does not replace a clinical prescription.
+
+*Further reading: the chapter on cation-exchanged faujasites in the adsorption literature, and the PSA process references cited above. [CITATION: Ruthven DM, Farooq S, Knaebel KS — Pressure Swing Adsorption, Wiley-VCH 1994; ISO 80601-2-69:2020; Coe CG et al — Air Products patents on Li-exchanged adsorbents.]*

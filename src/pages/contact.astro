@@ -1,0 +1,87 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Contact HHZ"
+  description="Contact points for editorial inquiries, corrections, press, methodology questions, and the grievance officer at HHZ Respiratory Review."
+>
+  <article class="prose">
+    <h1>Contact HHZ</h1>
+
+    <p class="lead">
+      Use the addresses below to reach the right desk. Each inbox is monitored by the team
+      that owns that workflow, which means a correction doesn't land with the writer whose
+      work is in question, and a press enquiry doesn't get buried in the editorial queue.
+    </p>
+
+    <h2>Editorial inquiries</h2>
+    <p>
+      Story pitches, reader questions you'd like us to cover, feedback on an article, or
+      anything else that does not fit one of the specialised desks below.
+    </p>
+    <p><a href="mailto:editor@homehealthzone.com">editor@homehealthzone.com</a></p>
+
+    <h2>Corrections</h2>
+    <p>
+      If you've spotted a factual error — a wrong spec, an outdated price, a mis-cited
+      clinical claim — this is the fastest way to get it fixed. Please include the article
+      URL, a direct quote of the incorrect passage, and a verifiable source for the correct
+      information. See our full <a href="/correction-policy/">correction policy</a>.
+    </p>
+    <p><a href="mailto:corrections@homehealthzone.com">corrections@homehealthzone.com</a></p>
+
+    <h2>Press and media</h2>
+    <p>
+      Interview requests, commentary for your publication, and permission queries for
+      republishing excerpts.
+    </p>
+    <p><a href="mailto:press@homehealthzone.com">press@homehealthzone.com</a></p>
+
+    <h2>Methodology questions</h2>
+    <p>
+      Questions about how a particular measurement was taken, what equipment we used, or how
+      our scoring rubric is weighted. Researchers and clinical reviewers reach out here most
+      often.
+    </p>
+    <p><a href="mailto:methodology@homehealthzone.com">methodology@homehealthzone.com</a></p>
+
+    <h2>Grievance officer (India IT Rules 2021)</h2>
+    <p>
+      For grievances relating to data handling, content you believe has been published in
+      violation of the Intermediary Guidelines, or takedown requests backed by a legal basis.
+      Acknowledged within 24 hours, resolved within 15 days as the Rules require.
+    </p>
+    <address>
+      Grievance Officer, HHZ Respiratory Review<br />
+      <a href="mailto:grievance@homehealthzone.com">grievance@homehealthzone.com</a>
+    </address>
+
+    <h2>Send us a note</h2>
+    <p>
+      The form below opens your email client pre-filled. If your client doesn't open, email
+      us directly at one of the addresses above.
+    </p>
+
+    <form action="mailto:editor@homehealthzone.com" method="post" enctype="text/plain" class="contact-form">
+      <p>
+        <label for="name">Your name</label><br />
+        <input type="text" id="name" name="name" required />
+      </p>
+      <p>
+        <label for="email">Your email</label><br />
+        <input type="email" id="email" name="email" required />
+      </p>
+      <p>
+        <label for="subject">Subject</label><br />
+        <input type="text" id="subject" name="subject" required />
+      </p>
+      <p>
+        <label for="message">Message</label><br />
+        <textarea id="message" name="message" rows="6" required></textarea>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
+  </article>
+</BaseLayout>

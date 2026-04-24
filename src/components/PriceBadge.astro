@@ -1,0 +1,31 @@
+---
+export interface Props {
+  current?: string | null;
+  mrp?: string | null;
+  symbol?: string;
+}
+
+const { current, mrp, symbol = '₹' } = Astro.props;
+
+const hasCurrent = current !== null && current !== undefined && String(current).trim() !== '';
+const hasMrp = mrp !== null && mrp !== undefined && String(mrp).trim() !== '';
+
+const formatPrice = (value: string) => {
+  let trimmed = String(value).trim();
+  // Strip trailing .00 / .0 — INR whole-rupee convention, no paise on medical-device pricing.
+  trimmed = trimmed.replace(/\.0+$/, '');
+  // If the string already contains a currency symbol, pass through.
+  if (/[₹$€£]/.test(trimmed)) return trimmed;
+  return `${symbol}${trimmed}`;
+};
+---
+{hasCurrent ? (
+  <p class="price-badge">
+    <span class="price-badge__current">{formatPrice(current!)}</span>
+    {hasMrp && <span class="price-badge__mrp">{formatPrice(mrp!)}</span>}
+  </p>
+) : (
+  <p class="price-badge">
+    <span class="price-badge__current" aria-label="Price on request">Price on request</span>
+  </p>
+)}

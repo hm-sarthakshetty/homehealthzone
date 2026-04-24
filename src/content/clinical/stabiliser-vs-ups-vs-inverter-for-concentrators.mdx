@@ -1,0 +1,122 @@
+---
+title: "Stabiliser vs UPS vs inverter for oxygen concentrators: Indian decision matrix"
+description: "Servo stabiliser (₹3–8k), online UPS (₹15–30k), or pure-sine inverter (₹8–15k) — which does what, when each is mandatory, and the backup duration arithmetic."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["stabiliser", "ups", "inverter", "concentrator", "india", "electrical", "backup-power"]
+---
+
+The Indian home oxygen installation has three possible power-protection layers — a voltage stabiliser, an uninterruptible power supply (UPS), and a battery inverter. Each solves a specific problem. None of them substitutes for the others. The combination that is right for a given household depends on four variables: the state utility's voltage behaviour on that feeder, the outage pattern (frequency and duration of load shedding), whether the patient is on continuous or intermittent oxygen therapy, and whether cylinder backup is available on-site.
+
+The consequence of getting the combination wrong is twofold. The patient loses therapy during an outage the installed equipment was never sized to bridge — that is the acute failure mode. The concentrator itself degrades or fails prematurely because the power it receives is out of specification — that is the slow failure mode. The acute mode shows up in the first outage; the slow mode shows up at month 13, three months before the manufacturer warranty expires. Both are preventable by sizing the combination correctly up front. This article is the decision matrix we walk buyers through.
+
+## What each device does
+
+### Servo-stabiliser
+
+A servo-controlled voltage stabiliser holds its output in a narrow band (typically 200–240 V) even as its input swings over a wider band (typically 140–280 V, or 90–300 V on wide-range units). The correction mechanism is a tap-changing transformer driven by a small servo motor, which takes 30–100 ms to respond to a voltage change. The servo type is preferred over the cheaper relay-switched stabiliser for compressor loads because the output is smoother and the step changes during correction do not disturb a running motor.
+
+A stabiliser does nothing during a power outage. It has no battery. If mains is absent, stabiliser output is absent.
+
+**Price band:** ₹3,500–8,000 for a 600 VA to 1.5 kVA unit from a mainstream Indian brand.
+
+### Online UPS (double-conversion)
+
+An online UPS continuously converts incoming AC to DC (charging a battery bus), then reconverts DC to AC for the output. The output is always driven from the battery bus; mains failure simply stops the charging, and the inverter continues running off the battery. There is no transfer time and no switching transient. The output waveform is pure sine, and output voltage and frequency are held to within a percent or two of nominal regardless of input.
+
+An online UPS with a 12V/26Ah internal battery typically provides 8–15 minutes of backup at 300 VA load. External battery expansion to 100 Ah or higher extends backup to 45–90 minutes. Beyond that, the economics tip toward inverter-plus-tubular-battery architecture.
+
+**Price band:** ₹15,000–30,000 for a 1–2 kVA online UPS, before external batteries.
+
+Note the distinction from a standby (offline) UPS. A standby UPS runs the load from mains during normal operation and switches to battery only when mains fails. The 4–10 ms transfer time is adequate for desktop computers but can stall a concentrator compressor at the moment of transfer. Indian-market offline UPS units at ₹5,000–8,000 are not suitable for oxygen concentrators. When we say "UPS" in the context of concentrator installation, we mean online / double-conversion.
+
+### Pure-sine home inverter
+
+A pure-sine home inverter is, in Indian domestic usage, a 12V or 24V DC-input device with an external battery bank (typically one or two 150 Ah tubular lead-acid batteries) and a pure sine-wave AC output. It is designed for household load shedding — 2–6 hours of outage per day — and pairs well with a large battery bank that a UPS cannot economically carry.
+
+The critical specification on a home inverter for concentrator use is the output waveform. A pure sine-wave inverter with total harmonic distortion (THD) below 3% can, with explicit manufacturer approval, run a concentrator compressor. A modified-sine or quasi-sine inverter will run the compressor initially but degrade the motor windings over weeks to months through harmonic heating. The price premium for the pure-sine model is typically ₹3,000–5,000 over the modified-sine model at the same VA rating.
+
+**Price band:** ₹8,000–15,000 for a 800–1,500 VA pure-sine inverter, before battery (batteries add ₹12,000–20,000 per 150 Ah tubular, depending on brand and warranty).
+
+Mainstream Indian brands in this category include V-Guard, Luminous, Microtek, APC Schneider, Su-Kam (where still active), and Exide. The engineering requirement for concentrator use — pure-sine output, THD &lt; 3%, VA rating ≥ 2× concentrator VA — can be met by a mid-range model from any of these brands. Specific model recommendations are not within this article's scope because the approved-model lists are what manufacturers publish and update; the approved list from the concentrator manufacturer is what the warranty turns on.
+
+## Backup-duration arithmetic
+
+The equation a buyer needs is straightforward:
+
+```
+Backup time (minutes) = (battery_Ah × battery_V × DoD × η_inv) / (load_W / 60)
+```
+
+Where:
+
+- `battery_Ah` is the battery bank's amp-hour capacity
+- `battery_V` is the nominal bank voltage (12V, 24V, 48V)
+- `DoD` is the depth-of-discharge limit — use 0.5 for tubular lead-acid to preserve lifespan, 0.8 for lithium iron phosphate
+- `η_inv` is inverter efficiency, typically 0.85–0.9 at moderate load
+- `load_W` is the concentrator's steady-state power draw in watts
+
+Worked examples for a 5 LPM concentrator drawing 350 W (the mid-range for Indian-market stationary 5 LPM units):
+
+- **Online UPS with 12V/26Ah internal battery, no external expansion:** (26 × 12 × 0.5 × 0.9) / (350/60) = 140 / 5.83 ≈ 24 minutes. Adequate for short outages (10–15 minutes of evening-peak load shedding) but not for scheduled 2-hour outages.
+- **Online UPS with external 12V/100Ah tubular bank:** (100 × 12 × 0.5 × 0.9) / 5.83 ≈ 93 minutes — approximately 1.5 hours.
+- **Pure-sine inverter with 24V system and two 150 Ah tubular batteries:** (150 × 24 × 0.5 × 0.9) / 5.83 ≈ 278 minutes — approximately 4.5 hours. This is the correct sizing for a household with daily scheduled 3–4 hour load shedding.
+- **Pure-sine inverter with 48V system and four 150 Ah tubular batteries:** doubles the previous, to approximately 9 hours.
+
+For a 10 LPM concentrator (typical draw 580–700 W), all the durations above halve. A 10 LPM patient who needs overnight bridging (8 hours of scheduled outage) should plan for a 48V inverter with four 150 Ah batteries at minimum.
+
+The arithmetic assumes steady-state load. In practice, compressor inrush at startup draws 3–5× the rated wattage for 100–300 ms, which the inverter must handle but which does not materially affect backup duration. It does, however, matter for inverter sizing — the inverter VA rating must accommodate the inrush peak, which is why the 2× rule is standard even though steady-state load is lower.
+
+## Which combination for which household
+
+The decision matrix below maps feeder and outage patterns to the recommended power-protection stack. "Stable" means voltage stays within ±10% of nominal most of the time and outages are rare (&lt; 2 hours per month). "Variable" means voltage excursions outside ±10% are routine (typically 3+ episodes per week) or daily scheduled outages are short (&lt; 60 minutes). "Unstable" means both — voltage excursions are routine and outages exceed 60 minutes on typical days.
+
+| Feeder quality | Outage pattern | Patient therapy | Recommended stack | Indicative cost |
+| --- | --- | --- | --- | --- |
+| Stable | &lt; 2 hours/month | Intermittent, cylinder on-site | Servo stabiliser only | ₹3,500–6,000 |
+| Stable | &lt; 2 hours/month | Continuous or nocturnal, no cylinder | Servo stabiliser + small online UPS (20–30 min backup) | ₹18,000–30,000 |
+| Variable | 30–60 min/day scheduled | Intermittent, cylinder on-site | Servo stabiliser only; cylinder bridges outage | ₹3,500–6,000 |
+| Variable | 30–60 min/day scheduled | Continuous or nocturnal | Servo stabiliser + online UPS with external battery (60–90 min backup) | ₹25,000–40,000 |
+| Unstable | > 90 min/day scheduled | Any | Servo stabiliser + pure-sine inverter + adequate battery bank | ₹25,000–50,000 (ex batteries) |
+
+The combinations above treat the stabiliser as mandatory. It is. There is no Indian installation short of a tightly regulated industrial feeder where the stabiliser is omissible.
+
+### The grid-tie case
+
+Households with rooftop solar and a grid-tied inverter represent a distinct configuration. The grid-tied solar inverter does not, by design, supply load during a grid outage — it shuts down per CEA interconnection standards to prevent islanded operation that would endanger utility linesmen. Households wanting solar backup for concentrator therapy need a hybrid solar inverter (solar-charged battery bank, islandable during grid outage) rather than a pure grid-tied system. The incremental cost of the hybrid over the grid-tied is roughly ₹25,000–40,000 for a 1–2 kVA hybrid inverter, plus battery bank. The economics make sense for households with routine long outages or where the solar system is being installed anyway.
+
+### The diesel-generator case
+
+Some households, particularly in Tier-3 cities and rural areas, run a diesel generator for whole-house backup during long outages. A concentrator can run off generator power, but two caveats apply:
+
+1. **Generator output regulation is often poor.** A 2 kVA portable genset may produce 210–255 V output depending on load, and frequency may drift 48–52 Hz. The stabiliser downstream must be rated to handle this input range and the frequency drift; not all servo stabilisers are rated for non-grid-frequency input.
+2. **Transition between grid and generator introduces switching transients.** The automatic transfer switch (ATS) typically takes 1–10 seconds to crank the generator and transfer the load. The concentrator sees a complete outage during this window. An online UPS in the chain bridges the transfer and prevents the compressor stall.
+
+## The common-mode errors we see
+
+1. **Modified-sine inverter assumed to be sufficient.** The inverter runs the fan and the tube light during load shedding, so the buyer assumes it will run the concentrator. It will — for weeks. Then the motor windings overheat and the compressor starts drawing excessive current, the compressor fails, the warranty claim is filed, the service technician examines the windings, and the claim is denied.
+2. **Offline UPS substituted for online UPS.** The offline UPS is cheaper and looks identical from the outside. The 4–10 ms transfer glitch stalls the concentrator during the exact moment it was supposed to be protected. The patient desaturates during the scheduled outage; the UPS switched correctly but did not protect the load.
+3. **Stabiliser undersized.** A 600 VA stabiliser on a 5 LPM concentrator at 350 VA steady-state works on paper (1.7× ratio) but struggles with the 3–5× inrush at compressor start. Over months, the stabiliser's internal relays and servo motor wear faster than expected. A 1 kVA stabiliser at the same cost-plus-a-few-hundred-rupees tier is the more robust choice.
+4. **Cylinder backup assumed as functional but not tested.** A household keeping a 47L oxygen cylinder "in case" often finds the regulator fitted incorrectly, the cylinder half-empty from an earlier leak, or the patient unable to change the regulator in the dark. A bi-monthly cylinder drill — switch off the concentrator, connect the cylinder, confirm flow at the prescribed setting — is the practice that makes the cylinder an actual backup rather than a reassurance object.
+
+## Decision frame for the buyer
+
+Four questions produce the right configuration in most Indian households:
+
+1. **What does my electricity meter's voltage indicator read at 19:30 on a weekday?** If it is below 210 V, the feeder is variable; if below 190 V, unstable. The stabiliser sizing decision follows from this.
+2. **How long is the longest outage in a typical week?** Short (&lt; 30 min) supports UPS bridging; medium (30–90 min) supports UPS with external battery; long (> 90 min) requires inverter architecture.
+3. **Is the patient on continuous oxygen, or only during sleep or exercise?** Continuous therapy without cylinder backup makes the UPS/inverter mandatory, not optional. Intermittent therapy with cylinder backup allows the UPS/inverter to be a convenience rather than a necessity.
+4. **What is the approved-backup-device list in the concentrator's warranty document?** The manufacturer's approved list constrains which UPS or inverter models can be used without voiding the warranty. The approved list is the first constraint, not the last.
+
+Answer those four questions and the decision matrix above reduces to a single recommended stack. The buyer can then shop for specific brands and models within the stack, on price-and-service-footprint criteria; the architecture is already decided.
+
+## Closing
+
+The three devices on offer in the Indian domestic market — servo stabiliser, online UPS, pure-sine inverter — are not competitors. They are a layered protection stack. The servo stabiliser corrects the routine voltage excursions that Indian feeders produce every evening. The online UPS bridges the minute-scale outages that occur several times a month. The pure-sine inverter bridges the hour-scale scheduled load shedding that is still the norm in many Tier-2 and Tier-3 cities.
+
+A household on a stable feeder with cylinder backup and intermittent therapy may need only the first layer. A household on an unstable feeder with a patient on continuous nocturnal oxygen needs all three. Most households fall somewhere in the middle. The cost of the correct stack — somewhere between ₹5,000 and ₹50,000 — is small against the cost of the concentrator itself, the cost of a compressor replacement, and the cost to the patient of an unscheduled therapy outage. Price-wise, the protection layer is the cheapest insurance in the installation. The error is not paying too much for it; the error is paying too little and discovering what you saved on when the compressor is in the workshop.
+
+A site-specific consultation with a qualified electrician and the concentrator supplier's service engineer is the right input before purchase for any patient on long-term therapy.
+
+*Background references: Central Electricity Authority (Technical Standards for Connectivity of the Distributed Generation Resources) Regulations 2013 and subsequent amendments; Bureau of Indian Standards IS 12360 voltage tolerances; ISO 80601-2-69 requirements on concentrator power supply [CITATION: CEA 2013 grid-connection regs; BIS IS 12360; ISO 80601-2-69].*

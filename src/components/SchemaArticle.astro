@@ -1,0 +1,61 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  lastReviewed?: string;
+  author?: string;
+  url?: string;
+  wordCount?: number;
+  inLanguage?: string;
+}
+
+const { title, description, lastReviewed, author, url, wordCount, inLanguage = 'en-IN' } = Astro.props;
+
+const siteOrigin = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
+const canonicalUrl = url ?? new URL(Astro.url.pathname, Astro.site ?? 'https://example.com').toString();
+
+const ld: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: title,
+  description,
+  inLanguage,
+  mainEntityOfPage: {
+    '@type': 'WebPage',
+    '@id': canonicalUrl,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: 'HHZ Respiratory Review',
+    url: siteOrigin || undefined,
+    logo: siteOrigin
+      ? {
+          '@type': 'ImageObject',
+          url: `${siteOrigin}/favicon.svg`,
+        }
+      : undefined,
+  },
+  // Speakable hints for voice assistants: first paragraph + H1 on article pages.
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', '.article__body > p:first-of-type'],
+  },
+};
+
+if (lastReviewed) {
+  ld.datePublished = lastReviewed;
+  ld.dateModified = lastReviewed;
+}
+
+if (author) {
+  ld.author = {
+    '@type': 'Person',
+    name: author,
+  };
+}
+
+if (typeof wordCount === 'number' && wordCount > 0) {
+  ld.wordCount = wordCount;
+}
+---
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />

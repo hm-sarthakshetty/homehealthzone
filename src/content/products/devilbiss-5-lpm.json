@@ -1,0 +1,101 @@
+{
+  "slug": "devilbiss-5-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/devilbiss-5-lpm",
+  "product_name": "DeVilbiss 5 LPM",
+  "brand": "Drive DeVilbiss",
+  "brand_href": "https://www.oxygentimes.com/brand/Drive-DeVilbiss/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "45,984.00",
+  "price_mrp": "86,400.00",
+  "price_symbol": "₹",
+  "rating_value": "4.6 (24)",
+  "rating_count": "24",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/devilbiss-5-lpm-732e98efe4.jpg",
+      "alt": "DeVilbiss 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/cover1636553424.jpg"
+    },
+    {
+      "src": "/images/products/devilbiss-5-lpm-a01cd5d1b6.jpg",
+      "alt": "DeVilbiss 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/devilbiss-11636553424.jpg"
+    },
+    {
+      "src": "/images/products/devilbiss-5-lpm-ac5e6e3955.jpg",
+      "alt": "DeVilbiss 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/devilbiss-21636553424.jpg"
+    },
+    {
+      "src": "/images/products/devilbiss-5-lpm-fe8716d7e6.jpg",
+      "alt": "DeVilbiss 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/devilbiss-31636553424.jpg"
+    },
+    {
+      "src": "/images/products/devilbiss-5-lpm-4ab24ab2b4.jpg",
+      "alt": "DeVilbiss 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/devilbiss-41636553424.jpg"
+    },
+    {
+      "src": "/images/products/devilbiss-5-lpm-41ed5fb09b.jpg",
+      "alt": "DeVilbiss 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/devilbiss-191636553424.jpg"
+    },
+    {
+      "src": "/images/products/devilbiss-5-lpm-83d1ce8d3f.jpg",
+      "alt": "DeVilbiss 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/devilbiss-301636553424.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "1-5LPM",
+    "Weight": "16.3kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "310watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "1-5LPM",
+      "Weight": "16.3kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "310watts",
+      "Sound level": "48db",
+      "Dimensions": "24.4H x 13.4W x 12Dinch",
+      "Operating altitude": "13123feet",
+      "Outlet pressure": "8.5psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "DeVilbiss 5 LPM Oxygen Concentrator\n\nDrive DeVilbiss Compact 525, commonly known as Devilbiss 5 litre oxygen concentrator is one of the most established names of the industry that supplies oxygen at the flow rate of 0.5-5 LPM with 93 + 3% oxygen purity across all flow rates.\n\nWeight: The machine weighs 16.30 kgs and comes with smooth wheels so that it could be easily shifted within the house. \n\nSound Level: The machine emits sound at 48 dB.\n\nEnergy-Efficient Turn-Down Technology: Devilbiss 5 LPM consumes 310W of electricity, making it highly power-efficient. Adding to this, the machine uses turn-down technology, implying that it consumes less power at lower flow rates.\n\nOxygen Purity Indicator: Drive Devilbiss 5 LPM comes with an Oxygen Purity Indicator. While monitoring the oxygen purity level, it emits yellow light if the purity level falls below 86%.\n\nOperating altitude: Drive Devilbiss 5 LPM has the highest operating altitude of 13,123 feet, making it an ideal choice for people residing in hilly regions. \n\nOutlet Pressure: The device has an outlet pressure of 8.5 psi.\n\nCertifications and Approvals: Devilbiss 5 LPM is FDA approved and CE certified.\n\nWarranty: Drive Devilbiss 5 LPM oxygen concentrator comes with a warranty period of 3 years.\n\nAdditional Features:\n\n\n\tComes in 2 part case design, making it easier to service\n\tComes with a circuit breaker that resets the unit automatically whenever there is an electrical overload \n\tComes with an inbuilt auxiliary oxygen port that could be used to fill oxygen cylinders with an FDA-cleared cylinder filling device\n\n\nWhat's in the box?\n\nDevilbiss 525 Oxygen Concentrator\n\nHumidifier Bottle\n\nNasal cannula\n\nFilter Set\n\nPower cable\n\nUser manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 16.3,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 48.0,
+    "power_w": 310,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 13123
+  }
+}

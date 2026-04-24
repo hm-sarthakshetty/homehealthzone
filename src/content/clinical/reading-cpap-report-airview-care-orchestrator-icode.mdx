@@ -1,0 +1,134 @@
+---
+title: "Reading a CPAP report — AirView, Care Orchestrator, and BMC iCode"
+description: "How to read the cloud and SD-card reports from ResMed AirView, Philips Care Orchestrator, and BMC iCode — leak thresholds, compliance hours, event types."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["cpap-report", "airview", "care-orchestrator", "icode", "compliance", "leak", "data-download"]
+---
+
+Every modern CPAP and BiPAP sold in India writes data to an SD card, and most premium units also sync to a cloud dashboard overnight. The reports these systems produce — ResMed's AirView, Philips' Care Orchestrator (with Encore reports), BMC's iCode — look superficially similar but differ in event-detection methodology, leak thresholds, and the graphs they foreground. A clinician or patient who reads these fluently can answer most "is my therapy working?" questions in 90 seconds. One who cannot will reach wrong conclusions from the same data.
+
+This article is a field guide to the three platforms: what each number means, what to watch for, and where the platforms genuinely differ.
+
+## What every CPAP report contains
+
+All three platforms report a common core of data per night and as rolling averages:
+
+- **Usage hours** — minutes of machine-on time. The denominator for almost everything else.
+- **AHI** — events per hour of machine-on time, using that manufacturer's algorithm (see below).
+- **Leak** — the rate of unintentional air escape beyond the mask's exhaust port, usually reported as 95th-percentile value in L/min over the night.
+- **95th-percentile pressure** — the pressure the APAP ran at for 5% of the night or less. A key titration surrogate.
+- **Event breakdown** — counts or rate for obstructive apneas, central apneas, hypopneas, and (on some platforms) RERAs or flow-limitation events.
+
+The important thing to know before reading any of these: all three platforms compute AHI over **machine-on time, not sleep time**. None of them scores arousals. None of them scores desaturations (unless an optional SpO₂ module is connected). The AHI they report is a device-algorithm AHI, not an AASM AHI, as discussed in detail in our AHI calculation article.
+
+## ResMed AirView
+
+AirView is the browser-based platform ResMed clinicians access to view data from AirSense and AirCurve units. The patient-facing equivalent is the myAir app, which shows a simplified version of the same data.
+
+**Key fields as ResMed reports them:**
+
+- **Usage (h:min).** Per night and rolling 30-day average.
+- **AHI.** Under ResMed's algorithm — hypopneas are scored at ≥ 50% flow reduction sustained ≥ 10 s; apneas at > 75% reduction. Central apneas are separated from obstructive using the FOT (forced oscillation technique) pulse during suspected apneas.
+- **Mask Leak (L/min).** Reported as 95th-percentile total leak minus the mask's intentional exhaust leak. ResMed's threshold for compromised therapy is **95th-percentile unintentional leak > 24 L/min**. Above this, event detection accuracy degrades meaningfully and the AHI reported should be read with caution.
+- **95th-percentile pressure.** The headline titration number.
+- **Event breakdown** — Obstructive Apneas (OA), Central Apneas (CA), Hypopneas (Hyp), and on AirSense 11 the RERA index is also reported.
+- **Cheyne-Stokes percentage.** Time spent in Cheyne-Stokes respiration pattern, if detected.
+
+AirView shows a 30-day trend graph by default, with colour bands for AHI (green &lt; 5, amber 5–10, red > 10) and leak (green &lt; 24 L/min, red > 24 L/min). The "Therapy Compliance" section shows usage against a 4 h/night threshold, typically displayed as days-compliant out of the last 30 or 90.
+
+A common mis-read on AirView: a patient with AHI 0 every night for six months. This nearly always means the device is under-scoring (often due to leak below the threshold but above the optimal range) rather than true zero disease. A patient with PSG AHI 30 does not become AHI 0 on therapy — AHI 1–3 with occasional 4–5 is normal. A persistent flat-zero reading warrants a closer look at leak trend and at whether the device is actually collecting valid data.
+
+## Philips Care Orchestrator (with Encore reports)
+
+Care Orchestrator is the clinician platform for DreamStation and Respironics units. The reports it generates are called Encore reports, and their layout is slightly denser than AirView's.
+
+**Key fields:**
+
+- **Patient Hours of Use** — similar to ResMed's usage. Shown as total hours, % nights with ≥ 4 hours, and % nights with any use.
+- **AHI.** Under Philips' algorithm — historically more conservative hypopnea threshold and slightly different central-detection logic than ResMed. Philips reports AHI slightly lower than ResMed on the same patient, in the ranges discussed in our algorithm-comparison article.
+- **Large Leak (L/min).** Philips reports leak in the same L/min units as ResMed but uses a different threshold vocabulary. The headline metric is "% time in large leak." A threshold above 10% indicates compromised therapy.
+- **90% Pressure** (note: Philips reports 90th-percentile, not 95th-percentile, on many report formats — a subtle difference that matters when comparing across platforms). Philips' 90% pressure typically runs ~1 cmH₂O lower than ResMed's 95% pressure on the same patient.
+- **Apneas per Hour / Hypopneas per Hour** — shown separately, unlike AirView which defaults to a combined AHI with a drill-down.
+- **Periodic Breathing %** — Philips' analogue to ResMed's Cheyne-Stokes %.
+- **Mask Off events** — count of times the mask was removed mid-session.
+
+The Encore report format is available as PDF for email/print, which is the standard way Indian Philips distributors send reports to referring physicians who aren't on Care Orchestrator themselves. These PDFs foreground the same headline numbers but lose the interactive drill-down that the web dashboard offers.
+
+## BMC iCode
+
+BMC devices (RESMART, G3 series, GII) in the Indian market write data to SD card and, on newer models, sync via WiFi to the iCode cloud. BMC's data platform has historically been less feature-rich than ResMed's or Philips's, and clinicians working with BMC units often rely on the SD card directly in conjunction with open-source tools (OSCAR, SleepyHead) for detailed review.
+
+**Key fields on iCode and BMC SD card reports:**
+
+- **Usage Hours** — similar denominator to the above.
+- **AHI.** Under BMC's algorithm, which has evolved across firmware versions. Older BMC firmware under-counted hypopneas materially; more recent versions (2023+) align better with ResMed/Philips numbers but independent validation in Indian patient cohorts remains thinner than for the two major brands.
+- **Leak (L/min).** BMC reports total leak rather than unintentional leak on some report formats, which requires subtracting the mask's intentional leak (documented in the mask's data sheet) to derive the meaningful number. Threshold for concern is approximately 40 L/min total leak on a typical full-face mask (equivalent to ~24 L/min unintentional given typical vent rates).
+- **Event log** — detailed event-by-event log accessible via SD card + OEM software, showing timestamp, type (CA/OA/H), and duration. This granular data is actually more accessible on BMC SD cards than on ResMed's encrypted format, if you have the tooling.
+- **Pressure data** — commanded pressure over time, with 95th-percentile typically visible in the summary.
+
+A practical note for Indian clinicians: BMC's cloud-sync requires the patient's home WiFi and the iCode app setup. Many Indian BMC patients, particularly older patients who bought a unit for affordability reasons, never complete this setup. The SD card remains the primary data channel for these patients, and the physician needs either the BMC OEM software or an OSCAR install to read it.
+
+## What "leak above 24 L/min" means practically
+
+The 24 L/min unintentional leak threshold cited by ResMed (and approximated by the others) is not arbitrary. Above this rate:
+
+- **Event-detection algorithms become unreliable.** The device's flow measurement no longer accurately represents patient airflow — air is venting past the seal rather than into the airways. Apneas can be under-scored because the leak flow masks the true signal.
+- **The delivered pressure at the airway is lower than the commanded pressure.** Mask pressure drops as leak rate increases; for a commanded 10 cmH₂O at the blower, delivered pressure at the nares may be 8–9 cmH₂O with a 30 L/min leak.
+- **Patient arousal increases.** Leak jets produce noise and airflow onto the face (eyes, forehead) that fragment sleep even when the patient doesn't consciously notice.
+- **The partner notices.** A spouse complaining about CPAP noise increasing is a frequent first clinical signal of leak drift.
+
+A patient with consistent 95th-percentile leak > 24 L/min needs intervention before any pressure or mode discussion. Mask resize, chin strap, reposition, or mask-type change, depending on the leak pattern — see our mask and leak articles.
+
+## Compliance: the 4 h/night ≥ 70% of nights standard
+
+Most reimbursement schemes — US Medicare is the reference, and private Indian insurance increasingly follows similar logic — define therapy compliance as:
+
+- **≥ 4 hours of machine-on time per night** on
+- **≥ 21 of any consecutive 30 nights (70%)** within
+- **the first 90 days of therapy**.
+
+Cloud platforms report compliance against this threshold by default. AirView shows a "Compliance" panel in a clinician-configurable 30-day window; Care Orchestrator shows "% nights ≥ 4 hours." The BMC iCode view is simpler, typically just showing average hours.
+
+A patient below the threshold may lose insurance coverage for the device rental or ongoing support in reimbursement markets. In India, this matters primarily for:
+
+- **Corporate-insurance-covered CPAP provisions**, which are expanding but still limited.
+- **ESIS (Employee State Insurance Scheme) claims**, which require documented therapy benefit.
+- **Clinical follow-up decisions** — a patient at 3.2 h/night average is not getting the therapy dose their OSA requires, and the conversation should move to usage barriers (mask discomfort, pressure intolerance, psychological) rather than algorithm tweaks.
+
+The 4 h/night threshold is a compliance minimum, not a clinical target. The literature supports a dose-response relationship where 6+ hours per night produces materially better cardiovascular and neurocognitive outcomes than 4 hours. [CITATION: Weaver TE et al, Sleep 2007; Kribbs NB et al, Am Rev Respir Dis 1993.] A patient running at 4.5 hours and barely compliant is not fully treated, and treating the compliance number as a goal rather than a floor misleads the clinical conversation.
+
+## Central events in the data: what they mean
+
+All three platforms report central apneas (CA or ClearAirway) separately from obstructive. Common patterns and their clinical meaning:
+
+**Low central rate (&lt; 1 CA/hour, &lt; 5% of total events).** Normal. Sporadic centrals during sleep onset and REM transitions are physiological in many patients.
+
+**Moderate central rate (1–5 CA/hour), new onset on CPAP initiation.** This is treatment-emergent central sleep apnea (TECSA). It occurs in ~5–15% of patients starting CPAP and is typically transient — resolving over 2–8 weeks as the patient acclimatises. Stable therapy can usually continue, with a data review at 4–6 weeks to confirm resolution. See our OSA-vs-central-vs-complex article for detail.
+
+**High central rate (> 5 CA/hour), persistent beyond 8 weeks.** Complex sleep apnea or an underlying central disorder (heart failure, opioid use, brainstem pathology). This is an indication for specialist review and possibly ASV (adaptive servo-ventilation) therapy.
+
+**Cheyne-Stokes / periodic breathing > 10%.** Typically indicates heart failure or stroke. Warrants a cardiac evaluation if not already done.
+
+A CPAP report that shows persistent centrals at > 5/hour, regardless of obstructive AHI being controlled, is not a success and should not be read as one.
+
+## Indian-context specifics
+
+**1. Cloud connectivity coverage is inconsistent.** ResMed AirSense 11 ships with cellular modem connectivity in many Indian distributor channels, eliminating the WiFi setup step; this is a meaningful operational advantage. Philips DreamStation requires WiFi configuration. BMC's iCode cloud requires both WiFi and a slightly clunky app setup. A significant fraction of Indian CPAP patients — particularly older and tier-2 city patients — never complete the cloud setup, and the physician relies on the SD card.
+
+**2. SD card download infrastructure.** Most Indian CPAP distributors can read SD cards at the retail point, but the skill varies. For BMC units, OSCAR (an open-source tool) gives more detailed analysis than the OEM software and is worth learning for clinicians serving larger CPAP patient populations. ResMed SD cards are encrypted for full-fidelity data; the AirView download is typically the easier route.
+
+**3. Compliance reporting requirements from Indian insurers are still maturing.** Unlike US Medicare's strict 4 h / 21 nights / 30 days rule, Indian insurance schemes covering CPAP are inconsistent about whether they require usage documentation post-purchase. For patients on corporate insurance that does require it, a cloud-enabled device simplifies the paperwork.
+
+**4. A surprising number of Indian CPAP users do not know their AHI.** This reflects a service-delivery gap. Patients should be taught to check their device's morning display (all three brand families show the previous night's AHI on the machine's screen at wake) and to flag rising trends. A patient who has never checked the number and doesn't know what "normal" is cannot self-advocate when something drifts.
+
+## Closing
+
+A CPAP report is readable in 90 seconds once you know the layout. Usage hours tell you whether the therapy is being taken. AHI tells you whether the algorithm is suppressing events. 95th-percentile pressure tells you where the patient's actual pressure requirement sits. Leak tells you whether any of the above numbers should be trusted.
+
+The standard 90-day review should check all four. A patient with ≥ 6 hours usage, AHI &lt; 5, leak well below 24 L/min, and a stable 95th-percentile pressure is fully treated and needs only an annual data review. Anyone outside that envelope has a specific, identifiable problem — and the report tells you which one.
+
+Consult your sleep physician if any of these numbers are persistently off-target, before making equipment changes on your own.
+
+*References: ResMed AirView clinician guide; Philips Care Orchestrator technical documentation; BMC iCode user manual; Weaver TE et al, Sleep 2007; AASM clinical practice guidance on PAP therapy [CITATION].*

@@ -1,0 +1,13 @@
+---
+const siteOrigin = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
+
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'HHZ Respiratory Review',
+  url: siteOrigin || undefined,
+  logo: siteOrigin ? `${siteOrigin}/favicon.svg` : undefined,
+  sameAs: [] as string[],
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />

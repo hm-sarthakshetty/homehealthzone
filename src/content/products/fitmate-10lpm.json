@@ -1,0 +1,69 @@
+{
+  "slug": "fitmate-10lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Fitmate-10LPM",
+  "product_name": "Fitmate 10LPM",
+  "brand": "Fitmate",
+  "brand_href": "https://www.oxygentimes.com/brand/Fitmate/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "134,400.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/fitmate-10lpm-02592465c5.jpg",
+      "alt": "Fitmate 10LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot_2021-12-19_at_111639938069.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "0.5-10LPM",
+    "Weight": "25.5kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "600watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "0.5-10LPM",
+      "Weight": "25.5kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "600watts",
+      "Sound level": "55db",
+      "Dimensions": "23.6H x 14.9W x 12.9Dinch",
+      "Outlet pressure": "5.25psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 25.5,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 10.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 55.0,
+    "power_w": 600,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true
+  }
+}

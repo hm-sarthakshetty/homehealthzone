@@ -1,0 +1,75 @@
+{
+  "slug": "inogen-one-g4",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Inogen-One-G4",
+  "product_name": "Inogen One G4",
+  "brand": "Inogen",
+  "brand_href": "https://www.oxygentimes.com/brand/Inogen/oxygen-concentrator",
+  "category": "Portable (Battery-powered)",
+  "price_current": "211,200.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Discontinued",
+  "images": [
+    {
+      "src": "/images/products/inogen-one-g4-008b68342b.jpg",
+      "alt": "Inogen One G4",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot_2021-12-07_at_1116388582991673433231.jpg"
+    },
+    {
+      "src": "/images/products/inogen-one-g4-58978e899f.jpg",
+      "alt": "Inogen One G4",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-07 at 111638858299.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Portable (Battery-powered)",
+    "Pulse Flow": "1-3Pulse setting",
+    "Weight": "1.27kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Battery backup (at 2 pulse setting)": "2.7hours"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Portable (Battery-powered)",
+      "Pulse Flow": "1-3Pulse setting",
+      "Weight": "1.27kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Battery backup (at 2 pulse setting)": "2.7hours",
+      "Recharge time": "3hours",
+      "Backup with external battery pack": "5hours",
+      "Sound level": "40db",
+      "Dimensions": "6.5H x 5.91W x 2.68Dinch"
+    },
+    "Additional details": {
+      "Operating altitude": "10000feet",
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "Yes",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 1.27,
+    "has_pulse_flow": true,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 40.0,
+    "has_opi": false,
+    "faa_approved": true,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 10000
+  }
+}

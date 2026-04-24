@@ -1,0 +1,71 @@
+{
+  "slug": "nidek-nuvo-8-litre",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Nidek-Nuvo-8-Litre",
+  "product_name": "Nidek Nuvo 8",
+  "brand": "Nidek Medical",
+  "brand_href": "https://www.oxygentimes.com/brand/Nidek-Medical/oxygen-concentrator",
+  "category": "8 LPM",
+  "price_current": "97,920.00",
+  "price_mrp": "144,000.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/nidek-nuvo-8-f6101bd3c3.jpg",
+      "alt": "Nidek Nuvo 8",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/cover1636554813.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "1-8LPM",
+    "Weight": "25.2kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "500watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "1-8LPM",
+      "Weight": "25.2kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "500watts",
+      "Sound level": "47db",
+      "Dimensions": "27.8H x 15.6W x 15.5Dinch",
+      "Operating altitude": "7500feet",
+      "Outlet pressure": "15psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Nidek Medical Nuvo 8 LPM Oxygen Concentrator\n\nNidek Medical Nuvo 8, popularly known as Nidek Nuvo 8 Liter is a popular American origin high-flow oxygen concentrator that supplies oxygen at the flow rate of 1-8 LPM with oxygen purity of 90% (+5%/-3%) across all flow rates.\n\nWeight: Nidek Nuvo 8 Liter weighs 25.2 kgs. It comes with smooth wheels and a top handle with an excellent grip for its easy transportation.\n\nPower Consumption: The machine uses 500 watts of power.\n\nSound: This oxygen concentrator emits sound at 47 dB. \n\nOutlet Pressure: Outlet Pressure of Nidek Nuvo 8 Liter is 15 psi.\n\nOperating Altitude: The operating altitude of the machine is 5000 feet\n\nOxygen Purity Indicator: An automatic alarm would turn on if the oxygen purity level falls below 86%, indicating that the patient needs to be shifted to the emergency backup.\n\nCertifications and Approvals: Nidek Nuvo 8 is FDA Approved and CE Certified.\n\nWarranty: The warranty period of Nidek Nuvo 8 Liter is 1 year.",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 25.2,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 8.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 47.0,
+    "power_w": 500,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 7500
+  }
+}

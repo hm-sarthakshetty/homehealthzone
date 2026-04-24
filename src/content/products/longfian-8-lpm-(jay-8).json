@@ -1,0 +1,74 @@
+{
+  "slug": "longfian-8-lpm-(jay-8)",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Longfian-8-LPM-(Jay-8)",
+  "product_name": "Longfian 8 LPM (Jay 8)",
+  "brand": "Longfian",
+  "brand_href": "https://www.oxygentimes.com/brand/Longfian/oxygen-concentrator",
+  "category": "8 LPM",
+  "price_current": "59,520.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/longfian-8-lpm-jay-8-802014f5e7.jpg",
+      "alt": "Longfian 8 LPM (Jay 8)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-01 at 121638345580.jpg"
+    },
+    {
+      "src": "/images/products/longfian-8-lpm-jay-8-40c504006e.jpg",
+      "alt": "Longfian 8 LPM (Jay 8)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-01 at 121638345581.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "1-8LPM",
+    "Weight": "26kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "530watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "1-8LPM",
+      "Weight": "26kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "530watts",
+      "Sound level": "50db",
+      "Dimensions": "23.6H x 14.7W x 14.3Dinch",
+      "Outlet pressure": "10psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 26.0,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 8.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 50.0,
+    "power_w": 530,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true
+  }
+}

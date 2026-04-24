@@ -1,0 +1,92 @@
+{
+  "slug": "oxymed-bipap-i-series-p1",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/oxymed-bipap-i-series-p1",
+  "product_name": "Oxymed AirSmart BPAP ST (with VAPS)",
+  "brand": "Oxymed",
+  "brand_href": "https://www.oxygentimes.com/brand/Oxymed/cpap-bipap",
+  "category": "BiPAP",
+  "price_current": "37,490.00",
+  "price_mrp": "59,999.00",
+  "price_symbol": "₹",
+  "rating_value": "4.8 (183)",
+  "rating_count": "183",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/oxymed-airsmart-bpap-st-with-vaps-75a4aee675.jpeg",
+      "alt": "Oxymed AirSmart BPAP ST (with VAPS)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/WhatsApp_Image_2025-05-31_at_21748686367.jpeg"
+    },
+    {
+      "src": "/images/products/oxymed-airsmart-bpap-st-with-vaps-4654b261ad.jpg",
+      "alt": "Oxymed AirSmart BPAP ST (with VAPS)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/1_(1)1691586433.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "BiPAP",
+    "Modes": "S, S/T, CPAP, PC, T, VAT (VAPS)",
+    "Turbine": "Made in Germany",
+    "Pressure Range": "4-30cmH₂O",
+    "Ergonomic Tilted Display": "Yes",
+    "Detachable Design": "Yes"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "BiPAP",
+      "Modes": "S, S/T, CPAP, PC, T, VAT (VAPS)",
+      "Turbine": "Made in Germany",
+      "Pressure Range": "4-30cmH₂O",
+      "Ergonomic Tilted Display": "Yes",
+      "Detachable Design": "Yes",
+      "Sound level": "30dB",
+      "Weight": "2.0Kg",
+      "Company Headquaters": "India",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0- 45min.",
+      "Auto Ramp": "",
+      "EPR": "Yes",
+      "Humidifier": "Heated",
+      "Heated Tube Compatibility": "",
+      "Climate control": "",
+      "Preheat": "Yes",
+      "Adaptive Humidification": "",
+      "Mask Fit": "",
+      "Central Apnea Detection": "",
+      "Leak Alert": "Yes"
+    },
+    "Additional details": {
+      "Altitude Compensation": "Yes",
+      "VAPS": "Yes",
+      "Trigger & Cycle sensitivity": "Yes",
+      "Ti Control": "",
+      "Rise Time": "Yes",
+      "Ti(inspiration time)": "Yes",
+      "Pressure Support": "Yes",
+      "Central Apnea Treatment": "",
+      "Back up rate": "Yes",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "Yes",
+      "Waterless Humidification": "",
+      "Leakage Compensation": "Yes",
+      "SD card": "Yes",
+      "Cloud connectivity/Wifi": "Yes",
+      "Bluetoooth": "",
+      "QR code": "",
+      "FAA": "",
+      "FDA": "",
+      "CE": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Oxymed AirSmart BPAP ST \n\nOxymed AirSmart is a BiPAP machine with ST mode, German Turbine and Swiss Sensor. The machine has advanced features with detachable design. \n\n\n\tVAT Technology (VAPS Mode)\n\n\nInnovative VAT technology helps adults suffering from Chronic Respiratory Failure by precisely targeting the Tidal Volume. It has customize Pressure Support to suit your needs. and easily adjust IPAP and EPAP settings for maximum comfort.\n\n\n\tTrigger and Shifting Sensitivity\n\n\nOxymed AirSmart BPAP ST has customized settings between 1 to 3 for each breath's start and end, ensuring better patient-device synchronization.\n\n\n\tLeakage Compensation\n\n\nAirSmart is designed to adjust the pressure up to 60 mL/min based on mask leak, to make sure that the prescribed pressure is delivered to the patient.\n\n\n\tMobile Connectivity\n\n\nMonitor your sleep therapy remotely with mobile app connectivity. Data can be accessed anytime, anywhere.\n\n\n\tErgonomically Screen display\n\n\nThe vibrant TFT screen with a user-friendly 17° ergonomic angle, offering not only ease of use but also an interactive interface\n\n\n\tWarranty \n\n\nOxymed AirSmart BiPAP ST comes with 3 years warranty with home service PAN India.\n\nWhat's in the Box?\n\n\n\tDevice\n\tHeated Humidifier\n\tHose pipe\n\tAdapter with 2pin wire\n\tPendrive\n\tFilter\n\tTravel bag\n\tUser manual",
+  "related_links": [],
+  "device_type": "bipap",
+  "normalized_specs": {
+    "weight_kg": 2.0,
+    "noise_db": 30.0,
+    "pressure_min_cmh2o": 4.0,
+    "pressure_max_cmh2o": 30.0,
+    "has_humidifier": true
+  }
+}

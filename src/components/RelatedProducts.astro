@@ -1,0 +1,49 @@
+---
+import { getCollection, type CollectionEntry } from 'astro:content';
+import ProductCard from './ProductCard.astro';
+
+export interface Props {
+  currentSlug: string;
+  category?: string;
+  heading?: string;
+  limit?: number;
+}
+
+const { currentSlug, category, heading = 'Related products', limit = 4 } = Astro.props;
+
+const [products, cpapBipap] = await Promise.all([
+  getCollection('products'),
+  getCollection('cpap-bipap'),
+]);
+
+type AnyProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
+
+const pool: AnyProductEntry[] = [...products, ...cpapBipap];
+
+const normalize = (s: string) => s.trim().toLowerCase();
+
+const matchesCategory = (entry: AnyProductEntry) => {
+  if (!category) return true;
+  const entryCategory = entry.data.category ?? '';
+  if (!entryCategory) return false;
+  return normalize(entryCategory) === normalize(category);
+};
+
+const candidates = pool.filter((entry) => entry.data.slug !== currentSlug);
+
+// Prefer same-category matches; fall back to any remaining.
+const sameCategory = candidates.filter(matchesCategory);
+const otherCategory = candidates.filter((entry) => !matchesCategory(entry));
+
+const related: AnyProductEntry[] = [...sameCategory, ...otherCategory].slice(0, limit);
+---
+{related.length > 0 && (
+  <section aria-labelledby="related-products-heading">
+    <h2 id="related-products-heading">{heading}</h2>
+    <div class="grid">
+      {related.map((entry) => (
+        <ProductCard entry={entry} />
+      ))}
+    </div>
+  </section>
+)}

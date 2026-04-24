@@ -1,0 +1,33 @@
+---
+export interface BreadcrumbItem {
+  href?: string;
+  label: string;
+}
+
+export interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+
+const siteOrigin = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
+
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, index) => {
+    const entry: Record<string, unknown> = {
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.label,
+    };
+    if (item.href) {
+      entry.item = item.href.startsWith('http')
+        ? item.href
+        : `${siteOrigin}${item.href}`;
+    }
+    return entry;
+  }),
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />

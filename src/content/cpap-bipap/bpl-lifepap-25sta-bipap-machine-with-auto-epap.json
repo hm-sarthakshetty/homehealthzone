@@ -1,0 +1,81 @@
+{
+  "slug": "bpl-lifepap-25sta-bipap-machine-with-auto-epap",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/bpl-lifepap-25sta-bipap-machine-with-auto-epap",
+  "product_name": "BPL LifePAP 25STA BiPAP Machine with Auto-EPAP",
+  "brand": "BPL",
+  "brand_href": "https://www.oxygentimes.com/brand/BPL/cpap-bipap",
+  "category": "BiPAP",
+  "price_current": "70,080.00",
+  "price_mrp": "97,920.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/bpl-lifepap-25sta-bipap-machine-with-auto-epap-a7677b0062.jpg",
+      "alt": "BPL LifePAP 25STA BiPAP Machine with Auto-EPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/BPL-BiPAP-Machine-LifePAP-25S216482003771659945996.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "BiPAP",
+    "Modes": "eVAPS, S, T, ST, CPAP, AutoEPAP",
+    "Pressure Range": "4-25cmH₂O",
+    "Sound level": "28dB",
+    "Weight": "1.55Kg",
+    "Dimensions": "235 × 148× 125mm"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "BiPAP",
+      "Modes": "eVAPS, S, T, ST, CPAP, AutoEPAP",
+      "Pressure Range": "4-25cmH₂O",
+      "Sound level": "28dB",
+      "Weight": "1.55Kg",
+      "Dimensions": "235 × 148× 125mm",
+      "Company Headquaters": "India",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0-60min.",
+      "Auto Ramp": "",
+      "Ramp Down": "No",
+      "EPR": "Yes",
+      "Humidifier": "Heated",
+      "Climate control": "",
+      "Preheat": "Yes",
+      "Adaptive Humidification": "Yes",
+      "Mask Fit": "Yes",
+      "Central Apnea Detection": ""
+    },
+    "Additional details": {
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "Yes",
+      "VAPS": "Yes",
+      "Trigger & Cycle sensitivity": "Yes",
+      "Ti Control": "Yes",
+      "Rise Time": "Yes",
+      "Ti(inspiration time)": "Yes",
+      "Pressure Support": "Yes",
+      "Back up rate": "Yes",
+      "RERA Reporting": "",
+      "Waterless Humidification": "",
+      "SD card": "Yes",
+      "Bluetoooth": "",
+      "QR code": "",
+      "FAA": "",
+      "FDA": "",
+      "CE": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "What's in the box\n\n\n\tBPL Bipap Device\n\tIntegrated Heated Humidifier\n\tMask\n\tHose Pipe\n\tFilter\n\tAdapter\n\tSD card\n\tUser Manual",
+  "related_links": [],
+  "device_type": "bipap",
+  "normalized_specs": {
+    "weight_kg": 1.55,
+    "noise_db": 28.0,
+    "pressure_min_cmh2o": 4.0,
+    "pressure_max_cmh2o": 25.0,
+    "has_humidifier": true
+  }
+}

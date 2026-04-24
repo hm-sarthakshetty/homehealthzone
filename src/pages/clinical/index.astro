@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const articles = await getCollection('clinical');
+
+const sorted = articles.slice().sort((a, b) => {
+  const aDate = a.data.lastReviewed ?? '';
+  const bDate = b.data.lastReviewed ?? '';
+  if (aDate && bDate && aDate !== bDate) return bDate.localeCompare(aDate);
+  return a.data.title.localeCompare(b.data.title, 'en');
+});
+
+const pageTitle = 'Clinical education';
+const description =
+  'Clinical background on respiratory therapy for Indian patients and caregivers — PSA chemistry, AHI explained, GOLD guidelines, and what the numbers on your report mean.';
+
+const crumbs = [
+  { href: '/', label: 'Home' },
+  { href: '/clinical/', label: 'Clinical' },
+];
+---
+<BaseLayout title={pageTitle} description={description}>
+  <Breadcrumbs items={crumbs} />
+
+  <header class="hub-header">
+    <h1>{pageTitle}</h1>
+    <p class="lead">
+      Clinical background on respiratory disease and therapy — PSA chemistry, AHI thresholds,
+      GOLD staging, and how to read the numbers that come with your equipment. Reviewed
+      periodically by clinicians and timestamped.
+    </p>
+  </header>
+
+  {sorted.length === 0 ? (
+    <p class="empty">No clinical articles published yet.</p>
+  ) : (
+    <div class="article-grid">
+      {sorted.map((entry) => (
+        <ArticleCard entry={entry} href={`/clinical/${entry.id}/`} />
+      ))}
+    </div>
+  )}
+</BaseLayout>
+
+<style>
+  .hub-header {
+    margin-bottom: var(--space-8);
+  }
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-5);
+  }
+  .empty {
+    color: var(--color-text-muted);
+  }
+</style>

@@ -1,0 +1,104 @@
+{
+  "slug": "home-medix-5-lpm",
+  "source_url": "https://www.homemedix.in/",
+  "product_name": "Home Medix HM-KV 5 LPM",
+  "brand": "Home Medix",
+  "brand_href": "/brand/home-medix/",
+  "category": "5 LPM",
+  "price_current": "37,800",
+  "price_mrp": "54,000",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/hm-kv-hero.png",
+      "alt": "Home Medix HM-KV 5 LPM oxygen concentrator — white chassis with humidifier bottle, HM logo visible",
+      "original": "HM-Product-Catalog-v1 / HM-KV-Flyer-v2"
+    }
+  ],
+  "key_features": {
+    "Purity": "93% ± 3%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5–5 L/min",
+    "Weight": "13 kg (lightest in the 5 LPM class)",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "320 VA"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "93% ± 3%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5–5 L/min",
+      "Weight": "13 kg (lightest in the 5 LPM class)",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "320 VA",
+      "Sound level": "≤ 40 dB (field-verified)",
+      "Dimensions": "Compact floor-standing form factor",
+      "Outlet pressure": "0.04–0.06 MPa"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "Yes",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes (High Temperature)",
+      "No Flow Alarm": "Yes (Low/No Flow)",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "India",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    },
+    "Home Medix differentiators": {
+      "Integrated Nebulization": "Yes",
+      "Precise Electronic Flowmeter": "Yes",
+      "One-Touch SOS Alert": "Yes — high-volume audible alarm button for summoning a nearby attendant (local siren; no mobile app or telecom channel)",
+      "Hour Counter": "User-visible running-hour display",
+      "Working Voltage": "AC 230V / 50Hz, ±10% tolerance (207–253 V)",
+      "Industrial-Grade Compressor": "Yes",
+      "ISO 9001": "Yes",
+      "ISO 13485": "Yes",
+      "CDSCO": "Approved",
+      "Warranty": "3 years or 10,000 hours of operation, whichever comes first"
+    }
+  },
+  "faqs": [
+    {
+      "q": "What is the HM-KV's oxygen purity?",
+      "a": "93% ± 3% across the flow range of 0.5–5 L/min, per the published technical specification. This is the standard medical-grade purity band for PSA home concentrators."
+    },
+    {
+      "q": "Is the HM-KV approved for use in India?",
+      "a": "Yes. Home Medix lists ISO 9001 and ISO 13485 certifications and CDSCO approval for the HM-KV. It is designed to run on AC 230V / 50Hz with ±10% tolerance."
+    },
+    {
+      "q": "How loud is the HM-KV at bedside distance?",
+      "a": "The published specification is ≤ 40 dB (field-verified). That sits below the common 45 dB bedside threshold and ties the Nidek Nuvo Lite as the quietest 5 LPM on the Indian market."
+    },
+    {
+      "q": "What is the warranty?",
+      "a": "3 years or 10,000 hours of operation, whichever comes first — a standard home-stationary concentrator warranty term."
+    }
+  ],
+  "description_text": "The HM-KV is Home Medix's 5 LPM home stationary oxygen concentrator, designed for long-term home oxygen therapy across the Indian market. Published specs cover 0.5–5 L/min continuous flow, 93% ± 3% oxygen concentration, ≤ 40 dB sound level (field-verified), 320 VA draw at 230V, and a 13 kg cabinet. The unit carries ISO 9001 + ISO 13485 + CDSCO approval and ships with a 3-year / 10,000-hour warranty.",
+  "related_links": [
+    "/oxygen-concentrators/home-medix-10-lpm/",
+    "/oxygen-concentrators/philips-everflo-5-lpm/",
+    "/oxygen-concentrators/oxymed-mini-5-lpm/",
+    "/oxygen-concentrators/nidek-nuvo-lite-5-lpm/"
+  ],
+  "normalized_specs": {
+    "weight_kg": 13,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5,
+    "purity_min": 90,
+    "purity_max": 96,
+    "noise_db": 40,
+    "power_w": 320,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true,
+    "warranty_years": 3
+  }
+}

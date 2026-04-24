@@ -1,0 +1,76 @@
+{
+  "slug": "yuwell-7f-5-lpm-mini",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Yuwell-7F-5-LPM-Mini",
+  "product_name": "Yuwell 7F 5 LPM Mini",
+  "brand": "Yuwell",
+  "brand_href": "https://www.oxygentimes.com/brand/Yuwell/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "46,080.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Discontinued",
+  "images": [
+    {
+      "src": "/images/products/yuwell-7f-5-lpm-mini-4c325cf3b0.jpg",
+      "alt": "Yuwell 7F 5 LPM Mini",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-03 at 31638526770.jpg"
+    },
+    {
+      "src": "/images/products/yuwell-7f-5-lpm-mini-0d71331d70.jpg",
+      "alt": "Yuwell 7F 5 LPM Mini",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-03 at 31638526771.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5-5LPM",
+    "Weight": "22.5kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "500watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5-5LPM",
+      "Weight": "22.5kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "500watts",
+      "Sound level": "53db",
+      "Dimensions": "19.6H x 15.3W x 9.6Dinch",
+      "Operating altitude": "6000feet",
+      "Outlet pressure": "10psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "",
+      "Company Headquarters": "Yuwell",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 22.5,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 53.0,
+    "power_w": 500,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": false,
+    "altitude_ft": 6000
+  }
+}

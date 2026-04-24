@@ -1,0 +1,319 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
+
+export interface Props {
+  entries: ProductEntry[];
+  id?: string;
+  placeholder?: string;
+  minChars?: number;
+  maxResults?: number;
+  /** 'navigate' (default) → result link navigates to product page.
+   *  'select' → clicking/Enter fires a `search:select` CustomEvent with the chosen product. */
+  target?: 'navigate' | 'select';
+}
+
+const {
+  entries,
+  id = 'search-box',
+  placeholder = 'Search products…',
+  minChars = 2,
+  maxResults = 8,
+  target = 'navigate',
+} = Astro.props;
+
+function hrefFor(entry: ProductEntry): string {
+  if (entry.collection === 'cpap-bipap') {
+    const dt = (entry.data as CollectionEntry<'cpap-bipap'>['data']).device_type;
+    return `/${dt}/${entry.data.slug}/`;
+  }
+  return `/oxygen-concentrators/${entry.data.slug}/`;
+}
+
+const index = entries
+  .map((e) => {
+    const firstImage = e.data.images?.[0];
+    return {
+      slug: e.data.slug,
+      name: e.data.product_name,
+      brand: e.data.brand || '',
+      category: e.data.category || '',
+      searchKey: `${e.data.brand} ${e.data.product_name}`.toLowerCase(),
+      image: firstImage?.src ?? null,
+      href: hrefFor(e),
+    };
+  })
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<div
+  class="searchbox"
+  data-search-id={id}
+  data-min-chars={minChars}
+  data-max-results={maxResults}
+  data-target={target}
+>
+  <input
+    type="text"
+    class="searchbox__input mono-data"
+    id={`${id}-input`}
+    placeholder={placeholder}
+    autocomplete="off"
+    spellcheck="false"
+    role="combobox"
+    aria-expanded="false"
+    aria-controls={`${id}-list`}
+    aria-autocomplete="list"
+  />
+  <ul class="searchbox__list" id={`${id}-list`} role="listbox" hidden></ul>
+  <script
+    type="application/json"
+    class="searchbox__data"
+    set:html={JSON.stringify(index)}
+  />
+</div>
+
+<script is:inline>
+  (() => {
+    document.querySelectorAll('.searchbox').forEach((box) => {
+      if (box.dataset.searchInit === '1') return;
+      box.dataset.searchInit = '1';
+
+      const id = box.dataset.searchId;
+      const minChars = Number(box.dataset.minChars) || 2;
+      const maxResults = Number(box.dataset.maxResults) || 8;
+      const target = box.dataset.target || 'navigate';
+      const input = document.getElementById(id + '-input');
+      const list = document.getElementById(id + '-list');
+      const dataScript = box.querySelector('.searchbox__data');
+      if (!input || !list || !dataScript) return;
+
+      let items = [];
+      try { items = JSON.parse(dataScript.textContent); } catch {}
+
+      let activeIndex = -1;
+      let currentResults = [];
+
+      function escapeHtml(s) {
+        return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => (
+          { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+        ));
+      }
+
+      function hideList() {
+        list.hidden = true;
+        input.setAttribute('aria-expanded', 'false');
+        activeIndex = -1;
+      }
+
+      function render(results) {
+        currentResults = results;
+        activeIndex = -1;
+        if (!results.length) { hideList(); return; }
+        list.hidden = false;
+        input.setAttribute('aria-expanded', 'true');
+        list.innerHTML = results.map((r, i) => {
+          const imgCell = r.image
+            ? `<img src="${escapeHtml(r.image)}" alt="" loading="lazy">`
+            : '<span class="searchbox__noimg" aria-hidden="true"></span>';
+          const isLink = target === 'navigate';
+          const inner = `
+            ${imgCell}
+            <span class="searchbox__result-body">
+              <span class="searchbox__result-name">${escapeHtml(r.name)}</span>
+              <span class="searchbox__result-meta">${escapeHtml(r.brand || '—')}${r.category ? '&nbsp;·&nbsp;' + escapeHtml(r.category) : ''}</span>
+            </span>
+          `;
+          return isLink
+            ? `<li role="option" data-index="${i}"><a href="${escapeHtml(r.href)}" class="searchbox__result" tabindex="-1">${inner}</a></li>`
+            : `<li role="option" data-index="${i}"><button type="button" class="searchbox__result" tabindex="-1">${inner}</button></li>`;
+        }).join('');
+      }
+
+      function search(q) {
+        const qL = q.toLowerCase();
+        const matches = items.filter((p) => p.searchKey.includes(qL));
+        matches.sort((a, b) => {
+          const aStart = a.searchKey.startsWith(qL);
+          const bStart = b.searchKey.startsWith(qL);
+          if (aStart !== bStart) return aStart ? -1 : 1;
+          return a.name.localeCompare(b.name);
+        });
+        render(matches.slice(0, maxResults));
+      }
+
+      function updateActive() {
+        const options = list.querySelectorAll('li');
+        options.forEach((o, i) => o.classList.toggle('searchbox__item--active', i === activeIndex));
+        if (activeIndex >= 0 && options[activeIndex]) {
+          options[activeIndex].scrollIntoView({ block: 'nearest' });
+        }
+      }
+
+      function choose(index) {
+        const item = currentResults[index];
+        if (!item) return;
+        if (target === 'navigate') {
+          window.location.href = item.href;
+        } else {
+          box.dispatchEvent(new CustomEvent('search:select', {
+            detail: item,
+            bubbles: true,
+          }));
+          input.value = '';
+          hideList();
+        }
+      }
+
+      input.addEventListener('input', () => {
+        const q = input.value.trim();
+        if (q.length < minChars) { hideList(); return; }
+        search(q);
+      });
+
+      input.addEventListener('focus', () => {
+        if (input.value.trim().length >= minChars && currentResults.length) {
+          list.hidden = false;
+          input.setAttribute('aria-expanded', 'true');
+        }
+      });
+
+      input.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowDown') {
+          e.preventDefault();
+          if (list.hidden && input.value.trim().length >= minChars) search(input.value.trim());
+          activeIndex = Math.min(activeIndex + 1, currentResults.length - 1);
+          if (activeIndex < 0) activeIndex = 0;
+          updateActive();
+        } else if (e.key === 'ArrowUp') {
+          e.preventDefault();
+          activeIndex = Math.max(activeIndex - 1, 0);
+          updateActive();
+        } else if (e.key === 'Enter') {
+          if (activeIndex >= 0) { e.preventDefault(); choose(activeIndex); }
+        } else if (e.key === 'Escape') {
+          hideList();
+          input.blur();
+        }
+      });
+
+      // Click handling — delegate for both link and button variants
+      list.addEventListener('click', (e) => {
+        const li = e.target.closest('li');
+        if (!li) return;
+        const idx = Number(li.dataset.index);
+        if (target === 'select') {
+          e.preventDefault();
+          choose(idx);
+        }
+        // Link variant just navigates via anchor href naturally
+      });
+
+      document.addEventListener('click', (e) => {
+        if (!box.contains(e.target)) hideList();
+      });
+    });
+  })();
+</script>
+
+<style is:global>
+  .searchbox {
+    position: relative;
+    font-family: var(--font-sans);
+  }
+
+  .searchbox__input {
+    width: 100%;
+    padding: var(--space-3) var(--space-4);
+    border: 1px solid var(--color-rule);
+    background: var(--color-bg);
+    font-family: var(--font-mono);
+    font-size: var(--text-base);
+    letter-spacing: -0.01em;
+    border-radius: 0;
+    outline: none;
+    transition: border-color 0.12s ease;
+  }
+  .searchbox__input:focus {
+    border-color: var(--color-accent);
+    box-shadow: inset 0 0 0 1px var(--color-accent);
+  }
+
+  .searchbox__list {
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 0;
+    right: 0;
+    max-height: 420px;
+    overflow-y: auto;
+    background: var(--color-bg);
+    border: 1px solid var(--color-rule);
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    z-index: 50;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.04);
+  }
+  .searchbox__list[hidden] { display: none; }
+
+  .searchbox__list li { margin: 0; }
+  .searchbox__list li + li { border-top: 1px solid var(--color-border); }
+
+  .searchbox__result {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: var(--space-2);
+    align-items: center;
+    width: 100%;
+    padding: var(--space-1) var(--space-3);
+    text-align: left;
+    background: transparent;
+    border: 0;
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: inherit;
+    min-height: 32px;
+  }
+
+  .searchbox__list li.searchbox__item--active .searchbox__result,
+  .searchbox__result:hover,
+  .searchbox__result:focus-visible {
+    background: var(--color-surface);
+    outline: none;
+  }
+
+  .searchbox__result img,
+  .searchbox__noimg {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    background: var(--color-surface);
+    display: block;
+  }
+
+  .searchbox__result-body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    min-width: 0;
+  }
+
+  .searchbox__result-name {
+    font-weight: 600;
+    font-size: var(--text-sm);
+    color: var(--color-text);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .searchbox__result-meta {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+</style>

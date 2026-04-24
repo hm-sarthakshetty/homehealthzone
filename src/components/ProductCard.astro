@@ -1,0 +1,45 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import PriceBadge from './PriceBadge.astro';
+import ProductImage from './ProductImage.astro';
+
+type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
+
+export interface Props {
+  entry: ProductEntry;
+  href?: string;
+}
+
+const { entry, href: hrefOverride } = Astro.props;
+const data = entry.data;
+
+const getHref = (): string => {
+  if (hrefOverride) return hrefOverride;
+  if (entry.collection === 'cpap-bipap') {
+    const deviceType = (data as CollectionEntry<'cpap-bipap'>['data']).device_type;
+    if (deviceType === 'bipap') return `/bipap/${data.slug}/`;
+    return `/cpap/${data.slug}/`;
+  }
+  return `/oxygen-concentrators/${data.slug}/`;
+};
+
+const href = getHref();
+const firstImage = data.images && data.images.length > 0 ? data.images[0] : null;
+const imageSrc = firstImage ? firstImage.src : '/images/placeholder.svg';
+const imageAlt = firstImage ? firstImage.alt || data.product_name : data.product_name;
+---
+<a class="product-card" href={href} aria-label={`Review of ${data.product_name}`}>
+  <div class="product-card__image">
+    <ProductImage src={imageSrc} alt={imageAlt} loading="lazy" />
+  </div>
+  <div class="product-card__body">
+    {data.brand && <span class="product-card__brand">{data.brand}</span>}
+    <h3 class="product-card__name">{data.product_name}</h3>
+    {data.category && <span class="product-card__category">{data.category}</span>}
+    <PriceBadge
+      current={data.price_current}
+      mrp={data.price_mrp}
+      symbol={data.price_symbol}
+    />
+  </div>
+</a>

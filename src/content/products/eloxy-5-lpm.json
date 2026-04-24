@@ -1,0 +1,69 @@
+{
+  "slug": "eloxy-5-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Eloxy-5-LPM",
+  "product_name": "Eloxy 5 LPM",
+  "brand": "Eloxy",
+  "brand_href": "https://www.oxygentimes.com/brand/Eloxy/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "37,440.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/eloxy-5-lpm-108f66c498.jpg",
+      "alt": "Eloxy 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-30 at 11638258296.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5-5LPM",
+    "Weight": "19kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "390watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5-5LPM",
+      "Weight": "19kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "390watts",
+      "Sound level": "40db",
+      "Dimensions": "23.6H x 14.7W x 14.3Dinch",
+      "Outlet pressure": "10psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 19.0,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 40.0,
+    "power_w": 390,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

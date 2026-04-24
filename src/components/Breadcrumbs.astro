@@ -1,0 +1,31 @@
+---
+import SchemaBreadcrumb from './SchemaBreadcrumb.astro';
+
+export interface BreadcrumbItem {
+  href?: string;
+  label: string;
+}
+
+export interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+---
+<nav class="breadcrumbs" aria-label="Breadcrumb">
+  <ol>
+    {items.map((item, index) => {
+      const isLast = index === items.length - 1;
+      return (
+        <li>
+          {item.href && !isLast ? (
+            <a href={item.href}>{item.label}</a>
+          ) : (
+            <span aria-current={isLast ? 'page' : undefined}>{item.label}</span>
+          )}
+        </li>
+      );
+    })}
+  </ol>
+</nav>
+<SchemaBreadcrumb items={items} />

@@ -1,0 +1,94 @@
+{
+  "slug": "resmed-aircurve-v-auto",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/resmed-aircurve-v-auto",
+  "product_name": "Resmed Aircurve 10 V Auto BiPAP Machine-Tripack",
+  "brand": "Resmed",
+  "brand_href": "https://www.oxygentimes.com/brand/Resmed/cpap-bipap",
+  "category": "BiPAP",
+  "price_current": "66,800.00",
+  "price_mrp": "81,600.00",
+  "price_symbol": "₹",
+  "rating_value": "4.7 (64)",
+  "rating_count": "64",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/resmed-aircurve-10-v-auto-bipap-machine-tripack-f76938be32.jpg",
+      "alt": "Resmed Aircurve 10 V Auto BiPAP Machine-Tripack",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/aircurve-10-cs-a-pacewave-front-with-tub_168a4c42-14aa-4e01-b8a9-db45359e095a_720x1675755295.jpg"
+    },
+    {
+      "src": "/images/products/resmed-aircurve-10-v-auto-bipap-machine-tripack-4b9a27ff3f.jpg",
+      "alt": "Resmed Aircurve 10 V Auto BiPAP Machine-Tripack",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/aircurve-10-cs-a-pacewave-front-notub_8ea1186c-e486-4d18-97c5-a9f85efe45d1_540x_(1)1675756034.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "Auto BIPAP",
+    "Modes": "CPAP, S, Vauto",
+    "Turbine": "Made in Australia",
+    "Pressure Range": "3-25cmH₂O",
+    "Ergonomic Tilted Display": "Yes",
+    "Detachable Design": "No"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "Auto BIPAP",
+      "Modes": "CPAP, S, Vauto",
+      "Turbine": "Made in Australia",
+      "Pressure Range": "3-25cmH₂O",
+      "Ergonomic Tilted Display": "Yes",
+      "Detachable Design": "",
+      "Sound level": "25dB",
+      "Weight": "1.24Kg",
+      "Dimensions": "116 x 255 x 150mm",
+      "Company Headquaters": "California",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0-45min.",
+      "Auto Ramp": "",
+      "Ramp Down": "No",
+      "EPR": "Yes",
+      "Humidifier": "Heated",
+      "Heated Tube Compatibility": "Yes",
+      "Climate control": "Yes",
+      "Preheat": "Yes",
+      "Adaptive Humidification": "Yes",
+      "Mask Fit": "Yes",
+      "Central Apnea Detection": "Yes"
+    },
+    "Additional details": {
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "Yes",
+      "VAPS": "",
+      "Trigger & Cycle sensitivity": "",
+      "Ti Control": "",
+      "Rise Time": "Yes",
+      "Ti(inspiration time)": "",
+      "Pressure Support": "Yes",
+      "Central Apnea Treatment": "",
+      "Back up rate": "",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "Yes",
+      "Waterless Humidification": "",
+      "Leakage Compensation": "Yes",
+      "SD card": "Yes",
+      "Cloud connectivity/Wifi": "Yes",
+      "Bluetoooth": "",
+      "QR code": "",
+      "FAA": "Yes",
+      "FDA": "Yes",
+      "CE": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Resmed Aircurve 10 Vauto Features:\n\n\n\tIt has an EPR or expiratory pressure relief system which lowers the pressure while exhalation so that patient can easily breathe and doesn’t face any difficulty in breathing against the pressure.\n\tThe machine has an auto-ramp function which ensures that the air pressure does not interrupt the patient when a person is trying to fall asleep.\n\tThe machine has Ti control which monitors the pattern of inhalation and exhalation and prevents cycling by setting a minimum and maximum time limit on inspiration. When the machine detects the user's breathing which falls outside the machine settings, it will intervene to alter the timing of the delivered inhalation or exhalation pressure.\n\tThe machine has a leak management element, and optional spo2 monitoring and operates quietly.\n\tThere are no chances of nasal and throat dryness when you use it alongside the heated humidifier and heated tube, thus providing additional support to the patient.\n\tWarranty of the machie is 2 years.\n\n\nWhat’s in the box \n\n\n\tResmed BiPAP Aircurve 10 V Auto machine \n\tHumidAir Heated Humidifier \n\tClimateLineAir Heated Tube\n\tPower Supply Cable\n\tPower Adaptor \n\tFilter \n\tTravel Bag\n\tSD Card \n\tUser Manual",
+  "related_links": [],
+  "device_type": "bipap",
+  "normalized_specs": {
+    "weight_kg": 1.24,
+    "noise_db": 25.0,
+    "pressure_min_cmh2o": 3.0,
+    "pressure_max_cmh2o": 25.0,
+    "has_humidifier": true
+  }
+}

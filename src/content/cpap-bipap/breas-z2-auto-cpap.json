@@ -1,0 +1,100 @@
+{
+  "slug": "breas-z2-auto-cpap",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/breas-z2-auto-cpap",
+  "product_name": "Breas Z2 Auto Travel CPAP",
+  "brand": "Breas",
+  "brand_href": "https://www.oxygentimes.com/brand/Breas/cpap-bipap",
+  "category": "CPAP",
+  "price_current": "62,687.04",
+  "price_mrp": "90,230.40",
+  "price_symbol": "₹",
+  "rating_value": "4.9 (53)",
+  "rating_count": "53",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/breas-z2-auto-travel-cpap-b1a3c8e8cd.jpg",
+      "alt": "Breas Z2 Auto Travel CPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Breas-Z2-Auto-CPAP1648115848.jpg"
+    },
+    {
+      "src": "/images/products/breas-z2-auto-travel-cpap-03910aeb59.jpg",
+      "alt": "Breas Z2 Auto Travel CPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/z221664910330.jpg"
+    },
+    {
+      "src": "/images/products/breas-z2-auto-travel-cpap-ac46c99b2f.jpg",
+      "alt": "Breas Z2 Auto Travel CPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/z231664910330.jpg"
+    },
+    {
+      "src": "/images/products/breas-z2-auto-travel-cpap-ef348b3769.jpg",
+      "alt": "Breas Z2 Auto Travel CPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/z211664910352.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "Travel CPAP",
+    "Modes": "CPAP , APAP",
+    "Pressure Range": "4-20cmH₂O",
+    "Ergonomic Tilted Display": "No",
+    "Detachable Design": "No",
+    "Sound level": "26dB"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "Travel CPAP",
+      "Modes": "CPAP , APAP",
+      "Pressure Range": "4-20cmH₂O",
+      "Ergonomic Tilted Display": "",
+      "Detachable Design": "",
+      "Sound level": "26dB",
+      "Weight": "0.299Kg",
+      "Dimensions": "164.6x 83.8 x 51.3mm",
+      "Company Headquaters": "Sweden",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0-45min.",
+      "Auto Ramp": "",
+      "Ramp Down": "No",
+      "EPR": "Yes",
+      "Humidifier": "No",
+      "Heated Tube Compatibility": "",
+      "Climate control": "",
+      "Preheat": "",
+      "Adaptive Humidification": "",
+      "Mask Fit": ""
+    },
+    "Additional details": {
+      "Central Apnea Detection": "",
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "Yes",
+      "VAPS": "",
+      "Trigger & Cycle sensitivity": "",
+      "Ti Control": "",
+      "Rise Time": "",
+      "Ti(inspiration time)": "",
+      "Pressure Support": "",
+      "Back up rate": "",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "",
+      "Waterless Humidification": "Yes",
+      "SD card": "",
+      "Bluetoooth": "Yes",
+      "QR code": "",
+      "FAA": "Yes",
+      "FDA": "",
+      "CE": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Breas Z2 Travel CPAP machine Features:\n\n\n\tIt has an extremely light weight of 299 grams.\n\tIt operates in a quiet way.\n\tIt comes with waterless humidification.\n\tIts altitude range varies between 0 to 8000 feet.\n\tIt features Z breath- pressure relief,\n\tYou can connect the Nitelog app with the help of Bluetooth for data.\n\tIt has a PowerShell battery.\n\tYou do not require a special mask.\n\tQ-Tube CPAP muffler dampens the sound.\n\tIt works well with any available PowerPoint.\n\n\nWhat's in the Box? \n\n\n\tZ2 CPAP Machine\n\t4-Foot SlimStyle Tubing\n\tAir Filter\n\tUniversal Tube Adapter\n\tMicro USB Cable\n\tPowershell Battery (optional)\n\tUniversal AC Power Supply With Cord\n\tUser Guide",
+  "related_links": [],
+  "device_type": "cpap",
+  "normalized_specs": {
+    "weight_kg": 0.3,
+    "noise_db": 26.0,
+    "pressure_min_cmh2o": 4.0,
+    "pressure_max_cmh2o": 20.0,
+    "has_humidifier": false
+  }
+}

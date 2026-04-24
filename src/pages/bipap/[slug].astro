@@ -1,0 +1,59 @@
+---
+import type { GetStaticPaths } from 'astro';
+import type { CollectionEntry } from 'astro:content';
+import ProductLayout from '../../layouts/ProductLayout.astro';
+import { getCollection, getEntry, render } from 'astro:content';
+
+export const getStaticPaths = (async () => {
+  const all = await getCollection('cpap-bipap');
+  return all
+    .filter((entry) => entry.data.device_type === 'bipap')
+    .map((entry) => ({
+      params: { slug: entry.data.slug },
+      props: { entry },
+    }));
+}) satisfies GetStaticPaths;
+
+interface Props {
+  entry: CollectionEntry<'cpap-bipap'>;
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+
+const review = await getEntry('cpap-bipap-reviews', data.slug);
+const ReviewContent = review ? (await render(review)).Content : null;
+const reviewFrontmatter = review?.data ?? undefined;
+
+const brandLabel = data.brand ? `${data.brand} ` : '';
+const fallbackDescription =
+  `${brandLabel}${data.product_name} review — specs, price, pros and cons. Independent BiPAP review by HHZ Respiratory Review.`.trim();
+
+function buildDescription(): string {
+  const raw = (data.description_text ?? '').replace(/\s+/g, ' ').trim();
+  if (raw.length >= 120) {
+    if (raw.length <= 160) return raw;
+    const truncated = raw.slice(0, 157);
+    const lastSpace = truncated.lastIndexOf(' ');
+    return `${truncated.slice(0, lastSpace > 120 ? lastSpace : 157)}…`;
+  }
+  return fallbackDescription.length > 160
+    ? `${fallbackDescription.slice(0, 157)}…`
+    : fallbackDescription;
+}
+
+const description = buildDescription();
+const title = reviewFrontmatter?.title ?? `${data.product_name} review`;
+const canonicalURL = new URL(`/bipap/${data.slug}/`, Astro.site).toString();
+---
+<ProductLayout
+  product={data}
+  category="bipap"
+  categoryLabel="BiPAP"
+  title={title}
+  description={description}
+  canonicalURL={canonicalURL}
+  reviewFrontmatter={reviewFrontmatter}
+>
+  {ReviewContent && <ReviewContent />}
+</ProductLayout>

@@ -1,0 +1,149 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import SchemaArticle from '../components/SchemaArticle.astro';
+import SchemaMedicalWebPage from '../components/SchemaMedicalWebPage.astro';
+import ArticleCard from '../components/ArticleCard.astro';
+import { getCollection, type CollectionEntry } from 'astro:content';
+
+type ArticleSection = 'guides' | 'clinical';
+type ArticleEntry = CollectionEntry<'guides'> | CollectionEntry<'clinical'>;
+
+export interface Props {
+  entry: ArticleEntry;
+  section: ArticleSection;
+  sectionLabel: string;
+  title?: string;
+  description?: string;
+  canonicalURL?: string;
+  headings?: Array<{ depth: number; slug: string; text: string }>;
+}
+
+const {
+  entry,
+  section,
+  sectionLabel,
+  title: titleProp,
+  description: descriptionProp,
+  canonicalURL,
+} = Astro.props;
+
+const frontmatter = entry.data;
+const isClinical = section === 'clinical';
+const basePath = `/${section}/`;
+
+const breadcrumbs = [
+  { href: '/', label: 'Home' },
+  { href: basePath, label: sectionLabel },
+  { label: frontmatter.title },
+];
+
+function formatDate(iso?: string): string | null {
+  if (!iso) return null;
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return null;
+  return d.toLocaleDateString('en-IN', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+  });
+}
+
+const formattedLastReviewed = formatDate(frontmatter.lastReviewed);
+const formattedNextReview = formatDate(frontmatter.nextReview);
+
+// Compute reading time from the raw body (glob-loader exposes this on the entry).
+const rawBody: string = (entry as any).body ?? '';
+const wordCount = rawBody
+  ? rawBody
+      .replace(/```[\s\S]*?```/g, '') // skip code blocks
+      .replace(/[#>*_`[\]()~\-]/g, ' ') // strip common markdown punctuation
+      .split(/\s+/)
+      .filter(Boolean).length
+  : 0;
+const readingMinutes = wordCount > 0 ? Math.max(1, Math.round(wordCount / 220)) : 0;
+
+// Related articles from same section, excluding current entry.
+let related: ArticleEntry[] = [];
+try {
+  const entries = await getCollection(section);
+  related = entries
+    .filter((e) => e.id !== entry.id)
+    .slice(0, 3);
+} catch {
+  related = [];
+}
+
+const title = titleProp ?? frontmatter.title;
+const description = descriptionProp ?? frontmatter.description;
+---
+<BaseLayout title={title} description={description} canonicalURL={canonicalURL}>
+  <article class="article">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <header class="article__header">
+      <h1>{frontmatter.title}</h1>
+      <p class="meta-line">
+        {frontmatter.lastReviewed && formattedLastReviewed && (
+          <span>
+            <time datetime={frontmatter.lastReviewed}>Reviewed {formattedLastReviewed}</time>
+          </span>
+        )}
+        {readingMinutes > 0 && <span>{readingMinutes} min read</span>}
+        <span>By HHZ Editorial</span>
+        {frontmatter.nextReview && formattedNextReview && (
+          <span>
+            Next review <time datetime={frontmatter.nextReview}>{formattedNextReview}</time>
+          </span>
+        )}
+      </p>
+    </header>
+
+    <div class="article__body content-width">
+      <slot />
+    </div>
+
+    {related.length > 0 && (
+      <section class="article__related" aria-labelledby="related-articles-heading">
+        <h2 id="related-articles-heading">More from {sectionLabel.toLowerCase()}</h2>
+        <div class="grid">
+          {related.map((rel) => (
+            <ArticleCard entry={rel} />
+          ))}
+        </div>
+      </section>
+    )}
+  </article>
+
+  <SchemaArticle
+    title={frontmatter.title}
+    description={frontmatter.description}
+    lastReviewed={frontmatter.lastReviewed}
+    author={frontmatter.author}
+    wordCount={wordCount || undefined}
+    inLanguage="en-IN"
+  />
+  {isClinical && (
+    <SchemaMedicalWebPage
+      title={frontmatter.title}
+      description={frontmatter.description}
+      lastReviewed={frontmatter.lastReviewed}
+      reviewedBy={frontmatter.reviewedBy}
+      credentials={frontmatter.credentials}
+    />
+  )}
+</BaseLayout>
+
+<style>
+  .article__header {
+    margin-bottom: var(--space-8);
+  }
+  .article__body {
+    /* content-width class from global.css narrows the column */
+  }
+  .article__related {
+    margin-top: var(--space-16);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--color-border);
+  }
+</style>

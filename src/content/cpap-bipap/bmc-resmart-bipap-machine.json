@@ -1,0 +1,103 @@
+{
+  "slug": "bmc-resmart-bipap-machine",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/bmc-resmart-bipap-machine",
+  "product_name": "BMC RESMART GII BiPAP Y25T Machine (G2)",
+  "brand": "BMC",
+  "brand_href": "https://www.oxygentimes.com/brand/BMC/cpap-bipap",
+  "category": "BiPAP",
+  "price_current": "25,823.04",
+  "price_mrp": "62,400.00",
+  "price_symbol": "₹",
+  "rating_value": "4.8 (41)",
+  "rating_count": "41",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/bmc-resmart-gii-bipap-y25t-machine-g2-31eab4b343.jpg",
+      "alt": "BMC RESMART GII BiPAP Y25T Machine (G2)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/BMC-RESMART-GII-BIPAP-Y25T-MACHINE-WITH-HUMIDIFIER1648200696.jpg"
+    },
+    {
+      "src": "/images/products/bmc-resmart-gii-bipap-y25t-machine-g2-622663bbda.jpg",
+      "alt": "BMC RESMART GII BiPAP Y25T Machine (G2)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/y251664982871.jpg"
+    },
+    {
+      "src": "/images/products/bmc-resmart-gii-bipap-y25t-machine-g2-c16c79f33a.jpg",
+      "alt": "BMC RESMART GII BiPAP Y25T Machine (G2)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/y2511664982917.jpg"
+    },
+    {
+      "src": "/images/products/bmc-resmart-gii-bipap-y25t-machine-g2-b876be4f17.jpg",
+      "alt": "BMC RESMART GII BiPAP Y25T Machine (G2)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/y2521664982917.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "BIPAP",
+    "Modes": "CPAP, S, S/T, T",
+    "Turbine": "Made in China",
+    "Pressure Range": "4 - 25cmH₂O",
+    "Ergonomic Tilted Display": "No",
+    "Detachable Design": "Yes"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "BIPAP",
+      "Modes": "CPAP, S, S/T, T",
+      "Turbine": "Made in China",
+      "Pressure Range": "4 - 25cmH₂O",
+      "Ergonomic Tilted Display": "",
+      "Detachable Design": "Yes",
+      "Sound level": "30dB",
+      "Weight": "2.5Kg",
+      "Dimensions": "313 × 194 ×112mm",
+      "Company Headquaters": "China",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0 - 60min.",
+      "Auto Ramp": "",
+      "Ramp Down": "No",
+      "EPR": "",
+      "Humidifier": "Heated",
+      "Heated Tube Compatibility": "",
+      "Climate control": "",
+      "Preheat": "",
+      "Adaptive Humidification": "",
+      "Mask Fit": ""
+    },
+    "Additional details": {
+      "Central Apnea Detection": "",
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "Yes",
+      "VAPS": "",
+      "Trigger & Cycle sensitivity": "Yes",
+      "Ti Control": "Yes",
+      "Rise Time": "Yes",
+      "Ti(inspiration time)": "Yes",
+      "Pressure Support": "",
+      "Back up rate": "",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "",
+      "Waterless Humidification": "",
+      "Leakage Compensation": "No",
+      "SD card": "Yes",
+      "Cloud connectivity/Wifi": "No",
+      "Bluetoooth": "",
+      "QR code": "Yes",
+      "FAA": "",
+      "FDA": "",
+      "CE": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "What's in the box\n\n\n\tBMC Resmart GII BIPAP 25T (Main Unit)\n\tHumidifier\n\tMask\n\tHose\n\tAdapter\n\tFilter\n\tCarry Bag\n\tUser Manual",
+  "related_links": [],
+  "device_type": "bipap",
+  "normalized_specs": {
+    "weight_kg": 2.5,
+    "noise_db": 30.0,
+    "pressure_min_cmh2o": 4.0,
+    "pressure_max_cmh2o": 25.0,
+    "has_humidifier": true
+  }
+}

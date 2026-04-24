@@ -1,0 +1,129 @@
+---
+title: "ResMed Lumis 100 VPAP ST review: the default clinical BiPAP ST in India"
+description: "A technical review of the ResMed Lumis 100 VPAP ST BiPAP for Indian buyers: 2-25 cmH2O, iBR, CPAP/ST/S/T/PAC modes, clinical ventilation."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+verdict: "The Lumis 100 VPAP ST is the default home-BiPAP prescription in India for central-apnoea, neuromuscular, and respiratory-insufficiency patients who do not yet require volume-assured iVAPS therapy, and the ₹47,900 street price makes it the best-value clinical ST BiPAP in the Indian market."
+pros:
+  - "2-25 cmH2O pressure range plus five therapy modes (CPAP, ST, S, T, PAC) cover the full non-invasive-ventilation clinical envelope"
+  - "Intelligent Backup Rate (iBR) delivers backup breaths only when clinically warranted, avoiding unnecessary machine-triggered breaths"
+  - "₹47,900 retail is roughly ₹19,000 below the discontinued AirCurve 10 ST and ₹15,600 below the Lumis 150 iVAPS sibling"
+  - "Trigger and Cycle Sensitivity, Ti Control, Rise Time all configurable on the clinical interface for patient-ventilator synchronisation"
+cons:
+  - "Cloud connectivity/Wifi published as No — data upload to AirView requires manual SD-card retrieval and clinician-side upload"
+  - "No iVAPS — severe OHS and NMD patients with documented hypoventilation still need to step up to the Lumis 150"
+  - "Pressure Support is blank on the spec sheet; device delivers fixed IPAP/EPAP bilevel rather than PS-targeted support"
+score: 8.4
+tags: ["bipap", "resmed", "lumis", "st", "vpap"]
+---
+
+The ResMed Lumis 100 VPAP ST is the entry-tier clinical BiPAP in the Lumis family — ResMed's dedicated non-invasive-ventilation platform as distinct from the AirCurve sleep-apnoea-focused line. It is the direct successor to the discontinued AirCurve 10 ST and is currently the default home-BiPAP prescription for Indian patients with central sleep apnoea, neuromuscular weakness requiring backup-rate ventilation, COPD-OSA overlap with ventilatory failure, and moderate obesity hypoventilation syndrome that does not yet require volume-assured pressure support. The device delivers five therapy modes — CPAP, ST, S, T, and PAC (Pressure Assist Control) — across a 2-25 cmH2O pressure range. Weight is 1.2 kg, published sound level is 25 dB, and the indicative retail is ₹47,900 (varies by region/dealer) with HumidAir heated humidifier and ClimateLineAir heated tube. The device carries US FDA, CE, and FAA approval per the manufacturer brochure and e-commerce product listings.
+
+## What the specs actually mean
+
+The 2-25 cmH2O pressure range is 1 cmH2O wider at the low end than the AirCurve 10 ST's 3-25 cmH2O envelope. That 1 cmH2O matters for patients with very low baseline EPAP requirements — some COPD-OSA-overlap patients tolerate EPAP as low as 3 cmH2O comfortably, and a device that can step down to 2 cmH2O during ramp gives the clinician a gentler therapy onset.
+
+Five therapy modes, all published on the spec sheet.
+
+**CPAP mode** — single-pressure CPAP. Used when a patient needs single-level therapy off a multi-mode clinical device (clinic inventory, post-titration re-downshift).
+
+**S mode** — Spontaneous bilevel. Patient-triggered cycling, fixed IPAP and EPAP. The default ICU step-down and post-extubation configuration.
+
+**ST mode** — Spontaneous-Timed. Patient-triggered breaths when spontaneous rate is adequate; machine-triggered backup breaths if spontaneous rate drops below the programmed backup rate. This is the primary clinical mode for most home-BiPAP prescriptions on the Lumis 100.
+
+**T mode** — fully Timed. Machine-triggered breaths only, at the programmed rate. Rarely used for home therapy.
+
+**PAC mode** — Pressure Assist Control. The clinician sets IPAP, EPAP, Ti (inspiration time), and a respiratory rate; the device delivers pressure-limited, time-cycled, partly-machine-triggered breaths. PAC is useful for patients with unreliable inspiratory effort where strict time-cycling is preferred over sensitivity-based cycling — some late-stage NMD patients, some post-acute respiratory-failure patients.
+
+The PAC mode on the Lumis 100 is what clinically distinguishes it from the AirCurve 10 ST (which did not publish a PAC mode). For Indian pulmonologists managing complex NMD and COPD patients at home, this is a real feature addition.
+
+Intelligent Backup Rate (iBR) is published as Yes. This is the clinical feature that most distinguishes the Lumis 100 from earlier-generation ST BiPAPs. Traditional backup-rate logic is simple: if the patient's spontaneous rate drops below the programmed threshold, deliver a machine-triggered breath at the prescribed IPAP/EPAP. This has a real problem — a patient who coughs, sighs, or has a brief respiratory pause (which healthy people do 10-40 times per night) triggers spurious backup breaths that are uncomfortable and feed back into the patient's breathing pattern, causing further asynchrony.
+
+iBR logic adds a second layer: the device distinguishes real apnoeas or effort failures from benign respiratory pauses, and only delivers backup breaths during the former. The published behaviour is that iBR offers patients "the maximum opportunity to trigger the ventilator" and only delivers backup breaths "to comfortably bring patients back to target." In practice this produces a lower total backup-breath count, better patient comfort, and better patient-ventilator synchrony on ST-mode therapy. This is the single largest clinical reason to prefer the Lumis 100 over the AirCurve 10 ST.
+
+Ti Control is published as Yes — minimum and maximum allowed inspiration time, clinician-set per prescription. Important for patients with weak inspiratory effort or large leak-induced cycling failures.
+
+Trigger and Cycle Sensitivity is published as Yes — adjustable in five graded steps on the clinical interface. Load-bearing for patient-ventilator synchronisation.
+
+Rise Time is published as Yes — standard 150-900 ms range on the ResMed interface.
+
+Backup Rate is published as Yes. Standard 0-30 breaths per minute range.
+
+Pressure Support is blank on the published spec sheet. As on the AirCurve 10 ST, the Lumis 100 delivers bilevel therapy by setting IPAP and EPAP separately, with the pressure support being the numerical difference. This is a spec-sheet nuance, not a clinical gap — the end-delivered therapy is the same as a device that exposes Pressure Support as a named parameter.
+
+Central Apnea Detection is published as Yes. The device flags central events in AirView-bound data. In ST mode, centrals are largely pre-empted by backup-rate kick-in.
+
+Leakage Compensation is published as Yes. Critical for maintaining delivered pressure through mask leak, especially on timed and spontaneous-timed modes where leak can corrupt the cycle-sensitivity signal.
+
+RERA Reporting is blank on the spec sheet. Acceptable for ST-mode therapy where the dominant clinical signal is ventilatory, not arousal-based.
+
+Altitude Compensation published as Yes. Device auto-compensates to the rated operating altitude.
+
+Humidification path: full HumidAir heated humidifier, ClimateLineAir heated tube compatibility, Climate Control with auto humidity regulation, Preheat, Adaptive Humidification. All identical to the AirCurve 10 platform.
+
+Connectivity is the operational concern. SD card is Yes. Cloud connectivity/Wifi is published as No. Bluetooth is blank. This means the Lumis 100 in its published configuration does not have a built-in cellular modem for AirView upload. Data goes on the SD card and requires manual retrieval. Some Indian-market Lumis 100 SKUs have a module option for Wi-Fi or cellular connectivity; buyers wanting AirView integration should specifically confirm connectivity module at purchase. This is a real workflow cost compared to the AirCurve 10 ST's native cellular.
+
+Sound level is 25 dB, weight 1.2 kg, footprint 116 × 255 × 150 mm — matching the AirCurve 10 chassis on size, slightly lighter.
+
+## Who should buy it
+
+The Lumis 100 VPAP ST is the right machine for an adult patient with central sleep apnoea — CAI >5 per hour or a Cheyne-Stokes pattern — who does not have a severe cardiac-failure component that would specifically indicate ASV. ST mode with iBR delivers the right therapy: backup-rate stabilisation during central pauses, spontaneous breathing when the patient's drive is active, and the auto-differentiation between benign sighs and real effort failures that iBR provides.
+
+It is the right machine for an adult patient with neuromuscular disease — ALS, Duchenne, post-polio, myasthenic syndromes — in a stage where nocturnal ventilation requires backup-rate capability but the patient still initiates meaningful spontaneous breaths. ST mode with Ti Control and adjustable Trigger/Cycle Sensitivity is the clinical standard-of-care for this population [CITATION: BTS/ICS Guideline on Home Mechanical Ventilation]. iBR specifically avoids the patient-ventilator asynchrony that plain backup-rate BiPAPs produce in NMD patients with variable effort.
+
+It is the right machine for an adult patient with COPD-OSA overlap who has developed daytime hypercapnia (PaCO2 45-55 mmHg) but who does not yet require volume-assured iVAPS therapy. ST mode with IPAP 14-18 cmH2O, EPAP 6-8 cmH2O, and an iBR-backup configured to the patient's sleep rate provides ventilatory unloading and OSA treatment in a single device. For patients who progress to higher CO2 retention or develop hypoventilation, the correct step-up is the Lumis 150 VPAP ST with iVAPS.
+
+It is the right machine for a moderate OHS patient — BMI 35-45, daytime PaCO2 45-50 mmHg — where bilevel therapy with adequate IPAP and PS is the first-line intervention. Severe OHS (BMI >45, PaCO2 >55) is the Lumis 150 indication; moderate OHS is where the Lumis 100 VPAP ST delivers therapy at meaningfully lower cost.
+
+And it is the right machine as the institutional successor to any Indian sleep-clinic or pulmonology practice that has been prescribing the AirCurve 10 ST for years. The clinical workflow is equivalent, the patient setup is familiar, and the iBR improvement plus the lower price are pure wins.
+
+## Who shouldn't
+
+An uncomplicated adult OSA patient should not be on the Lumis 100 VPAP ST. The indication is wrong. A patient whose study shows AHI 15-40 with no central component should be on an AirSense 10 or 11 APAP. Prescribing a clinical BiPAP ST for plain OSA is clinical over-treatment and the device's features are not serving the patient.
+
+A patient with severe OHS or advanced NMD with documented nocturnal hypoventilation (falling tidal volume on overnight transcutaneous CO2, rising ABG PaCO2 on morning blood gas) should step up to the Lumis 150 VPAP ST with iVAPS. The Lumis 100 delivers pressure-targeted therapy; the Lumis 150 with iVAPS delivers ventilation-targeted therapy, which is what severe hypoventilation patients clinically need. The price delta (₹15,590) is small relative to the clinical upgrade.
+
+A patient requiring adaptive servo-ventilation for treatment-emergent central sleep apnoea or severe complex sleep apnoea should be on an ASV platform, not an ST-mode BiPAP. The AirCurve 10 ASV (where still available in India) is the clinically correct device. ST-mode backup rate is not the same as ASV's pressure-support modulation against a running target.
+
+A patient where the clinician specifically requires AirView-based remote titration from day one should confirm connectivity-module availability before buying the Lumis 100 — the published base SKU does not have cellular. If the Indian-market SKU with the cellular module is not available in stock at the dispensing dealer, the patient may end up with a SD-card-only device and a clinical workflow that assumes remote data upload.
+
+And a patient who is fully CPAP-adherent and therapeutic on an AirSense device should not be upgraded to a Lumis 100 without a clinical reason. "My doctor said BiPAP is better" is not a clinical indication. BiPAP is better for specific indications (central, NMD, OHS, CPAP-failure); it is not universally superior to CPAP.
+
+## How it compares to real alternatives
+
+**ResMed Lumis 150 VPAP ST (₹63,490).** The Lumis 150 is the iVAPS-capable sibling of the Lumis 100. Same 2-25 cmH2O pressure range, same ST/S/T/PAC/CPAP mode set, plus the iVAPS mode (Intelligent Volume-Assured Pressure Support). iVAPS is the feature that distinguishes the Lumis 150: the device learns the patient's alveolar ventilation, sets a target, and automatically adjusts pressure support to maintain target ventilation breath-by-breath. Cloud connectivity/Wifi is published as Yes on the Lumis 150 — addressing the AirView integration gap of the Lumis 100. For severe hypoventilation patients, the Lumis 150 is the correct device at a ₹15,590 premium. For moderate ST-mode patients without hypoventilation, the Lumis 100 delivers equivalent therapy at the lower price. Our call: Lumis 100 as default, Lumis 150 when iVAPS is clinically indicated.
+
+**ResMed AirCurve 10 ST (discontinued, ₹67,188 last-run).** The AirCurve 10 ST is the Lumis 100's predecessor, discontinued in favour of the Lumis line. The AirCurve 10 ST had native cellular connectivity (a Lumis 100 gap) but lacked iBR and PAC mode (both Lumis 100 advantages) and was priced ₹19,288 higher. For a new prescription today, there is no scenario where the AirCurve 10 ST is the correct buy over the Lumis 100 — not on price, not on feature-set, not on forward-looking service support.
+
+**Philips DreamStation BiPAP ST.** Philips' DreamStation BiPAP ST is the cross-brand equivalent clinically. Comparable pressure range, comparable therapy modes, comparable humidification. The Indian service-network confidence issue for Philips continues post the 2021 Respironics recall, and most Indian sleep physicians have moved to ResMed for BiPAP ST prescriptions. Our call: Lumis 100 over DreamStation BiPAP ST for Indian buyers.
+
+**BMC RESmart BPAP 25A ST.** BMC's Chinese-manufactured ST BiPAP is priced around ₹35,000-45,000 street, delivering similar pressure range and ST-mode capability. The algorithm maturity and service-network reach are narrower than ResMed's. For a clinical workflow where AirView integration is not required and the patient-ventilator synchrony tuning is straightforward, the BMC is a defensible lower-cost option. For complex patients or clinics running structured remote-titration programmes, the Lumis 100 is worth the ₹10,000-15,000 delta.
+
+**ResMed AirCurve 10 VAuto (₹66,800).** The AirCurve 10 VAuto is the auto-adjusting BiPAP sibling without backup-rate capability. It is the correct device for CPAP-failure OSA and complex sleep apnoea without meaningful central component. It is the wrong device for patients who specifically need backup rate — the Lumis 100 is clinically correct for backup-rate indications.
+
+## Indian-market considerations
+
+AirView integration on the base Lumis 100 SKU is not built-in — the spec sheet publishes Cloud connectivity/Wifi as No. ResMed India sells Lumis 100 SKUs with and without the cellular-module add-on, and the price delta is typically ₹3,000-5,000. Buyers whose clinicians specifically require AirView-based remote titration should explicitly specify the cellular-equipped SKU at purchase. For patients on clinic-based in-person follow-up with SD-card data review, the base SKU is fine. This SKU configuration question is the single biggest practical purchase-time decision.
+
+Voltage tolerance on the external 90 W power brick is universal 100-240 V AC input. Indian grid fluctuations handled within spec. Surge protection recommended at the wall outlet in tier-2 cities.
+
+Altitude compensation published as Yes — the device auto-compensates for reduced atmospheric pressure up to the rated operating altitude. For patients using the Lumis 100 in mid-altitude Indian destinations (Shimla, Nainital, Gangtok), no manual adjustment required.
+
+Prescription portability for ST-mode BiPAP in India requires a pulmonologist, sleep physician, or neurologist prescription with the full bilevel parameter set — IPAP, EPAP, backup rate (or iBR enable), rise time, Ti min, Ti max, trigger sensitivity, cycle sensitivity. Authorised ResMed dealers require this documentation for initial purchase and for parameter adjustments.
+
+Dealer-vs-online-vs-hospital channel pricing: online retail sits around ₹47,900; authorised dealer adds 5-10% with in-home setup and local service relationship; hospital-channel pricing bundled with titration stays at ₹70,000-90,000 for the bundle. For patients already titrated in a separate study, self-purchasing through the online or dealer channel saves meaningfully over the hospital bundle.
+
+Humidity management identical to AirCurve 10 family — adaptive humidification handles Mumbai-Chennai coastal-monsoon RH well, Climate Control with ClimateLineAir heated tube prevents rainout in AC-cooled bedrooms.
+
+Service network reality for the Lumis 100 in India is strong — as a current-production ResMed clinical BiPAP, the device is fully supported by ResMed authorised service centres across metros and most tier-2 cities. Blower assembly, humidifier tub, power supply, and SD-card reader are stocked-part repairs. Turnaround on warranty work is 7-14 days in metros. Loaner units are available through some dealers for BiPAP-dependent patients during service windows.
+
+Warranty is 2 years manufacturer on the device, sometimes extended to 3 years via dealer promotion per the manufacturer brochure and e-commerce product listings. The 3-year warranty is a genuine extension when offered, and meaningfully improves the total cost of ownership.
+
+## Verdict
+
+The Lumis 100 VPAP ST earns a strong 8.4 — the best-value clinical ST BiPAP in the Indian market today, and the defensible default for patients requiring backup-rate bilevel therapy who do not yet need volume-assured iVAPS support. The 2-25 cmH2O pressure range, the iBR backup-rate intelligence, the full ST/S/T/PAC/CPAP mode set, and the patient-ventilator synchronisation controls (Ti Control, Trigger/Cycle Sensitivity, Rise Time) deliver the complete home-NIV clinical envelope. At ₹47,900 it is ₹19,288 below the discontinued AirCurve 10 ST and ₹15,590 below the Lumis 150 iVAPS sibling.
+
+What prevents a higher score is the AirView integration gap on the published base SKU. Cellular connectivity is not standard, and for a clinical BiPAP where serial titration adjustments are a real part of the first 3-6 months of therapy, the absence of automatic overnight data upload to AirView adds friction. Buyers whose clinical workflow depends on remote titration should confirm the cellular-equipped SKU at purchase.
+
+Buy the Lumis 100 VPAP ST if the patient needs ST-mode therapy with backup rate — central apnoea, NMD with preserved spontaneous effort, COPD-OSA overlap with mild hypercapnia, moderate OHS. Step up to the Lumis 150 VPAP ST if iVAPS and volume-assured pressure support are clinically required. Step across to the AirCurve 10 VAuto if the patient is spontaneous-breathing CPAP-failure OSA without backup-rate indication. And step down to the AirSense 10 or 11 if the patient is uncomplicated obstructive OSA — BiPAP is the wrong therapy class for straightforward OSA, and the Lumis 100 is not a default replacement for an AirSense.

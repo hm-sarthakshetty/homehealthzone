@@ -1,0 +1,69 @@
+{
+  "slug": "niscomed-5-lpm-(dual-flow)",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Niscomed-5-LPM-(Dual-Flow)",
+  "product_name": "Niscomed 5 LPM (Dual Flow)",
+  "brand": "Niscomed",
+  "brand_href": "https://www.oxygentimes.com/brand/Niscomed/oxygen-concentrator",
+  "category": "Dual Flow",
+  "price_current": "57,600.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Discontinued",
+  "images": [
+    {
+      "src": "/images/products/niscomed-5-lpm-dual-flow-006988b68c.jpg",
+      "alt": "Niscomed 5 LPM (Dual Flow)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-01 at 41638356733.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "1-5LPM",
+    "Weight": "25kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "530watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "1-5LPM",
+      "Weight": "25kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "530watts",
+      "Sound level": "50db",
+      "Dimensions": "23.6H x 14.7W x 14.3Dinch",
+      "Outlet pressure": "10psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 25.0,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 50.0,
+    "power_w": 530,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

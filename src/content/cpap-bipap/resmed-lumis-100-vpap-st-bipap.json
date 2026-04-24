@@ -1,0 +1,99 @@
+{
+  "slug": "resmed-lumis-100-vpap-st-bipap",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/resmed-lumis-100-vpap-st-bipap",
+  "product_name": "Resmed Lumis 100 VPAP ST BiPAP",
+  "brand": "Resmed",
+  "brand_href": "https://www.oxygentimes.com/brand/Resmed/cpap-bipap",
+  "category": "BiPAP",
+  "price_current": "47,900.00",
+  "price_mrp": "107,520.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/resmed-lumis-100-vpap-st-bipap-5ba9f98956.jpg",
+      "alt": "Resmed Lumis 100 VPAP ST BiPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/ResMed-Lumis-100-VPAP-ST-Ventilator-5-416x4161681653783.jpg"
+    },
+    {
+      "src": "/images/products/resmed-lumis-100-vpap-st-bipap-122e27b177.jpg",
+      "alt": "Resmed Lumis 100 VPAP ST BiPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/ResMed-Lumis-100-VPAP-ST-Ventilator-3-416x416_(1)1681653964.jpg"
+    },
+    {
+      "src": "/images/products/resmed-lumis-100-vpap-st-bipap-ea0f474eea.jpg",
+      "alt": "Resmed Lumis 100 VPAP ST BiPAP",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/ResMed-Lumis-100-VPAP-ST-Ventilator-4-416x4161681653997.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "BiPAP",
+    "Modes": "CPAP, ST, S , T, PAC",
+    "Turbine": "Made in Australia",
+    "Pressure Range": "2-25cmH₂O",
+    "Ergonomic Tilted Display": "Yes",
+    "Detachable Design": "No"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "BiPAP",
+      "Modes": "CPAP, ST, S , T, PAC",
+      "Turbine": "Made in Australia",
+      "Pressure Range": "2-25cmH₂O",
+      "Ergonomic Tilted Display": "Yes",
+      "Detachable Design": "",
+      "Sound level": "25dB",
+      "Weight": "1.2Kg",
+      "Dimensions": "116 x 255 x 150mm",
+      "Company Headquaters": "California",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0-45min.",
+      "Auto Ramp": "",
+      "Ramp Down": "Yes",
+      "EPR": "Yes",
+      "Humidifier": "Heated",
+      "Heated Tube Compatibility": "Yes",
+      "Climate control": "Yes",
+      "Preheat": "Yes",
+      "Adaptive Humidification": "Yes",
+      "Mask Fit": "Yes",
+      "Central Apnea Detection": "Yes"
+    },
+    "Additional details": {
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "Yes",
+      "VAPS": "",
+      "Trigger & Cycle sensitivity": "Yes",
+      "Ti Control": "Yes",
+      "Rise Time": "Yes",
+      "Ti(inspiration time)": "Yes",
+      "Pressure Support": "",
+      "Central Apnea Treatment": "",
+      "Back up rate": "Yes",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "Yes",
+      "Waterless Humidification": "",
+      "Leakage Compensation": "Yes",
+      "SD card": "Yes",
+      "Cloud connectivity/Wifi": "No",
+      "Bluetoooth": "",
+      "QR code": "",
+      "FAA": "Yes",
+      "FDA": "Yes",
+      "CE": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Resmed Lumis 100 VPAP ST\n\nResmed Lumis 100 VPAP ST is a BiPAP Machine with advanced features and Technologies that can be customized for tyhe patient comfort. Resmed Lumis 100 VPAP ST has the following features:\n\n\n\t\n\tIntuitive User Interface:- \n\t\n\n\nThe ResMed Lumis 100 VPAP ST features an intuitive user interface, making it easy for users to navigate and customize patient control settings. Additionally, it provides a convenient sleep report after each session, allowing for progress evaluation.\n\n\n\t\n\tIntelligent Backup Rate:-\n\t\n\n\nThe Lumis 100 VPAP SThas an Intelligent Backup Rate (iBR) system, which offers backup breaths only when needed, such as during apneas or when the patient shows a lack of effort. It avoids unnecessary intervention during pauses caused by coughing or sighing.\n\n\n\t\n\tTrigger and Cycle Sensitivity:-\n\t\n\n\nThe device offers customizable trigger and cycle sensitivity with five different levels. This feature allows healthcare providers to optimize the settings according to the patient's specific condition, ensuring personalized care.\n\n\n\t\n\tAuto Humidification:-\n\t\n\n\nWith the auto humidification, the Lumis 100 VPAP ST, when used alongside a heated humidifier and ClimateLineAir heated tube, automatically delivers the right level of humidity for patient comfort and therapy effectiveness.\n\n\n\t\n\tClimate Control Auto:- \n\t\n\n\nThis mode simplifies the process by pre-setting temperature and humidity levels for optimal comfort. There's no need for manual adjustments or navigating through complicated menus, ensuring a hassle-free experience. \n\n\n\t\n\tWarranty \n\t\n\n\nThe machine comes with 2 years warranty \n\nWhat's in the Box? \n\n\n\tResmed Lumis 100 ST VPAP device\n\tCharger\n\tHeated Humidifier\n\tClimate Control Heated Tube\n\tSD Card\n\tTravel bag\n\tFilter cover and Preinstalled filter",
+  "related_links": [],
+  "device_type": "bipap",
+  "normalized_specs": {
+    "weight_kg": 1.2,
+    "noise_db": 25.0,
+    "pressure_min_cmh2o": 2.0,
+    "pressure_max_cmh2o": 25.0,
+    "has_humidifier": true
+  }
+}

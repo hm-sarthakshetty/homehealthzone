@@ -1,0 +1,86 @@
+{
+  "slug": "nidek-nuvo-10-litre",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Nidek-Nuvo-10-Litre",
+  "product_name": "Nidek Nuvo 10 LPM",
+  "brand": "Nidek Medical",
+  "brand_href": "https://www.oxygentimes.com/brand/Nidek-Medical/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "94,079.04",
+  "price_mrp": "120,000.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/nidek-nuvo-10-lpm-642d8d56ca.jpg",
+      "alt": "Nidek Nuvo 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/nuvo-10-oxygen-concentrator-500x50016365588921659604099.jpg"
+    },
+    {
+      "src": "/images/products/nidek-nuvo-10-lpm-eadbd810e5.jpg",
+      "alt": "Nidek Nuvo 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/nl21664564280.jpg"
+    },
+    {
+      "src": "/images/products/nidek-nuvo-10-lpm-c97898e430.jpg",
+      "alt": "Nidek Nuvo 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/nl31664564280.jpg"
+    },
+    {
+      "src": "/images/products/nidek-nuvo-10-lpm-bec5433296.jpg",
+      "alt": "Nidek Nuvo 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Untitled-11664564280.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "87-95%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "2-10LPM",
+    "Weight": "29.26kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "600watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "87-95%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "2-10LPM",
+      "Weight": "29.26kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "600watts",
+      "Sound level": "58db",
+      "Dimensions": "27.8H x 15.6W x 15.5Dinch",
+      "Operating altitude": "5000feet",
+      "Outlet pressure": "15psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Nidek Nuvo 10 Liter Oxygen Concentrator\n\nNidek Nuvo 10 litre is a well-established American oxygen concentrator in the Indian market that supplies oxygen at the flow rate of 2-10 LPM at oxygen purity of 87-95% at all flow levels. \n\nWeight: Nidek Nuvo 10 litres weighs 29.26 kg.\n\nSound: The machine emits sound at 58 dB. \n\nOperating Altitude: The operating altitude of Nidek Nuvo 10 LPM is 5000 feet.\n\nOutlet Pressure: The machine gives outlet pressure at 15 psi.\n\nPower Consumption: Nidek Nuvo 10 LPM uses 600 watts of power.\n\nFlow Meter: The device comes with ball type flow meter which can be set between 2-10 LPM.\n\nAlarms: Loss of power, system malfunction\n\nCertifications and Approvals: Nidek Nuvo 10 LPM is CE certified and FDA approved.\n\nWarranty: This machine has a warranty period of 1 year.\n\nWhat's in the Box?\n\n\n\tNuvo 10 oxygen concentrator\n\tHumidifier Bottle\n\tNasal cannula\n\tUser Manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 29.26,
+    "flow_min_lpm": 2.0,
+    "flow_max_lpm": 10.0,
+    "purity_min": 87.0,
+    "purity_max": 95.0,
+    "noise_db": 58.0,
+    "power_w": 600,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 5000
+  }
+}

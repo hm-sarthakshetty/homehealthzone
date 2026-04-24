@@ -1,0 +1,147 @@
+---
+title: "Voltage fluctuations and concentrator warranties in India: state by state"
+description: "State utility voltage bands, stabiliser sizing at 1.5× VA, warranty exclusion language, when a pure-sine UPS is mandatory, and how to document a claim."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["voltage", "stabiliser", "ups", "warranty", "concentrator", "india", "electrical", "msedcl", "bescom"]
+---
+
+A home oxygen concentrator is, functionally, a compressor and a control board running continuously for years. Both are vulnerable to the most common failure mode on Indian domestic mains: voltage excursions outside the nameplate range. Nearly every manufacturer warranty in the Indian market excludes damage caused by those excursions — and the exclusion is in the fine print, not on the box. This article covers what the exclusions actually say, how voltage behaves on the feeders of India's five largest state distribution utilities, what to install to stay inside warranty, and what evidence to keep if a device fails and you need to file a claim.
+
+The direct cost of an under-specified electrical setup is straightforward: a compressor replacement on a 5 LPM concentrator runs ₹18,000–35,000 at Indian authorised-service rates, and a control-board replacement ₹8,000–15,000. A properly sized servo stabiliser from a mainstream Indian brand costs ₹3,500–7,000. The arithmetic is not close. The patient-level cost — an unplanned outage of respiratory therapy for the weeks a service turnaround takes — is harder to price, which is why the electrical setup matters.
+
+## The problem: Indian grid voltage reality, utility by utility
+
+Indian domestic mains is nominally 230 V, 50 Hz. The Bureau of Indian Standards IS 12360 permits a steady-state tolerance of ±6%, i.e. approximately 216–244 V. In most Indian urban areas, actual measured voltage sits within ±10% of nominal for most of the day. The tails, and particularly the evening peak, are where the trouble starts.
+
+The state-level variation is substantial. We have compiled the typical operational bands below based on published supply-code tolerances and widely reported measurements; this is operational reality, not statutory specification.
+
+### Maharashtra (MSEDCL, Tata Power, Adani Electricity, BEST Mumbai)
+
+MSEDCL services rural and most urban Maharashtra outside Mumbai. Pune, Nashik, Nagpur, and Aurangabad domestic feeders typically measure 210–240 V during the day and 195–220 V during evening peak (18:30–22:30). Tail-end rural feeders in Vidarbha and Marathwada see 170–215 V routinely, and 150–200 V during summer peak load (April–June). Mumbai's three suburban licensees — Tata Power, Adani Electricity (formerly Reliance Infrastructure), and BEST — run tighter, typically 225–240 V, with short evening-peak excursions to 210–220 V. A concentrator installed in Vidarbha without a stabiliser will see voltages outside the manufacturer's rated band routinely; the same installation in south Mumbai may not.
+
+### Delhi (BSES Rajdhani, BSES Yamuna, Tata Power Delhi Distribution)
+
+Delhi's three private discoms — BSES Rajdhani Power Limited (BRPL) for south and west Delhi, BSES Yamuna Power Limited (BYPL) for central and east Delhi, and Tata Power Delhi Distribution Limited (TPDDL) for north Delhi — generally deliver 220–240 V during the day. Summer peak (May–July) brings evening voltage down to 200–225 V on stressed feeders in Shahdara, parts of Karol Bagh, and older outer-Delhi colonies. Winter peak (late December–February) produces evening excursions the other direction — 240–255 V as connected load drops unexpectedly and transformer regulation lags. Lutyens' Delhi and cantonment feeders run unusually tight (228–238 V) because the feeder load is predictable.
+
+### Karnataka (BESCOM and state ESCOMs)
+
+BESCOM covers Bengaluru Urban, Bengaluru Rural, Tumkur, Chitradurga, Davangere, Kolar, Chikkaballapur, and Ramanagara. Bengaluru city domestic feeders run 215–240 V most of the day. Outer areas (Yelahanka, Whitefield, Electronic City peripheral zones) and the state ESCOM areas (MESCOM coastal, HESCOM north, GESCOM Kalaburagi) routinely see 200–225 V on evening peak and 185–215 V during load-shedding-reinstatement cycles. Rural feeder tail-ends in northern Karnataka (Raichur, Koppal, Yadgir) operate 165–210 V as a normal condition.
+
+### West Bengal (WBSEDCL, CESC)
+
+CESC Limited serves greater Kolkata and measures typically 220–240 V with moderate evening-peak softening to 210–225 V in south and east Kolkata. WBSEDCL covers the rest of West Bengal — Howrah outskirts, North 24 Parganas, Hooghly, Burdwan (Purba and Paschim Bardhaman), Nadia, Murshidabad, Malda, and the North Bengal districts. WBSEDCL rural feeders commonly sit 180–215 V on evening peak and are prone to sustained under-voltage during monsoon flooding events that take down repair crews. The North Bengal districts (Darjeeling, Kalimpong, Jalpaiguri, Alipurduar, Cooch Behar) add a mountain-weather dimension — storm-induced phase imbalance on the three-phase grid occasionally exposes single-phase domestic connections to transient excursions of 280–330 V.
+
+### Tamil Nadu (TANGEDCO)
+
+TANGEDCO is a single state-owned distribution entity for Tamil Nadu. Chennai metropolitan feeders run 220–240 V with evening peak softening to 205–225 V. Coimbatore, Madurai, Trichy, Salem, and Tirunelveli follow similar profiles. Rural feeders, especially in Villupuram, Cuddalore, Ariyalur, Perambalur, and Ramanathapuram districts, see 180–220 V on evening peak as normal operating condition. Coastal cyclone season (October–December) produces occasional hard shutdowns and reinstatement spikes to 250–275 V.
+
+### Why this matters for the user
+
+These are operational bands — the range your domestic concentrator will see across a working week. The warranty is written around a narrower "rated input voltage" band, typically 200–240 V, with a note that "operation outside the rated range voids the warranty." A patient in south Mumbai or central Bengaluru rarely strays outside the rated band. A patient in rural Vidarbha or North Bengal strays outside the rated band every evening. Both patients pay the same warranty-covered price for the device. Only one of them is getting the warranty coverage they paid for.
+
+## What the warranty language actually says
+
+A sample of language we see routinely in Indian concentrator warranty documents (paraphrased across brands; the specifics vary):
+
+> "This warranty does not cover damage resulting from use with voltage outside the rated range; from spikes, surges, lightning, or other electrical disturbances; from operation on an inverter, generator, or uninterruptible power supply not approved in writing by the manufacturer; or from failure to use an appropriately sized voltage stabiliser with the device."
+
+The exclusions form a ring. Damage from sustained under-voltage: excluded. Damage from transient over-voltage: excluded. Damage from operation on a UPS or inverter: excluded unless that UPS or inverter model is on the manufacturer's written approved list. Damage from absence of a stabiliser: excluded. The one sanctioned configuration is: concentrator plus approved-brand servo stabiliser, nothing else in the power path. Everything else is a warranty argument waiting to happen.
+
+In practice, this means a patient whose compressor fails at 14 months — four months before the standard 2-year compressor warranty expires — often finds the claim denied on the grounds that voltage-related cause cannot be ruled out. The burden of proof for voltage-appropriate operation sits on the user, and the user typically has no voltage log to produce.
+
+This is not malice. Compressor failure from voltage stress is genuinely difficult for the manufacturer's technician to distinguish from a manufacturing defect without either a voltage log from the installation site or a characteristic failure pattern on the motor windings or start capacitor. The manufacturer's engineer has seen both. The one they have not seen is the patient's installation.
+
+## Stabiliser, UPS, or inverter — what does what
+
+These three devices are often used interchangeably in Indian casual discussion. They solve different problems and the vocabulary confusion is part of why warranty claims get denied.
+
+### Voltage stabiliser
+
+A stabiliser uses a tap-changing transformer (servo type) or switched relay (relay type) to hold its output voltage inside a narrow band (typically 200–240 V) even as the input swings over a wider range (typically 140–280 V or, in wide-range units, 90–300 V).
+
+- **Servo stabilisers** are slower but more accurate; output holds within ±1–2% of nominal. Suitable for compressor loads.
+- **Relay stabilisers** switch in coarse steps and are cheaper; output holds within ±5–7% of nominal. Adequate for refrigerators and televisions; marginal for medical compressors.
+
+A stabiliser does not provide power during an outage and does not filter high-frequency transients. It is a voltage-range corrector, nothing more.
+
+**Use case:** the first and non-negotiable protection for any Indian concentrator installation. Any household on BESCOM rural, WBSEDCL, MSEDCL rural, or TANGEDCO rural feeders; any household that has observed lights dimming or the fridge compressor clicking hard on evening peak; any household in North Bengal or the Himalayan states subject to weather-induced phase imbalance — all need a servo stabiliser.
+
+### UPS (uninterruptible power supply)
+
+A UPS has a battery backup and provides continuous power during outages. Two broad architectures matter for concentrator use:
+
+- **Offline / standby UPS:** during normal mains, the load runs straight off mains. On outage, the UPS switches to battery and an inverter produces AC output. Switching time is typically 4–10 ms. Adequate for desktop computers and televisions, but motor loads — including concentrator compressors — may not tolerate the transition glitch; the compressor can stall, trip, or over-current-draw during the transfer.
+- **Online / double-conversion UPS:** mains always feeds a rectifier, charging a battery; the output is always driven by an inverter off the battery bus. No switching transient at all, because there is no switching. This is the correct architecture for a compressor load, and the architecture most concentrator manufacturers will explicitly approve. Indian-market examples in the 1–3 kVA range start at roughly ₹15,000 and go up to ₹35,000.
+
+**Use case:** for short outage bridging (20–60 minutes) where cylinder backup is not available and load shedding is a routine event — which covers most Tier-2 and Tier-3 Indian cities. An online UPS with a 1 kVA rating and a 12V/100Ah external battery bank can support a 5 LPM concentrator for roughly 45–60 minutes on battery alone.
+
+### Inverter (battery-plus-AC-output, domestic usage)
+
+An "inverter" in the Indian domestic sense is typically a 12V or 24V DC-input device with a battery bank (typically one or two 150 Ah tubular batteries) and an AC output designed to run lights, fans, and televisions during the scheduled 2–6 hours of daily load shedding that is still the norm in many smaller cities. The output waveform is the critical distinction:
+
+- **Square-wave** inverters: should never be used with a concentrator. The harmonic content is catastrophic for the motor windings.
+- **Modified / quasi-sine wave**: also should not be used with a concentrator compressor. Harmonics heat the windings and rapidly shorten motor life.
+- **Pure sine wave** inverters: can run a concentrator, but only with explicit manufacturer approval in the warranty documents. Output total harmonic distortion (THD) below 3% and a VA rating of 2× concentrator VA with adequate battery bank is the usable specification.
+
+**Use case:** pure-sine-wave only, manufacturer-approved model only, in households with daily scheduled load shedding longer than an online UPS can economically bridge (about 60 minutes). The economics tip to the inverter when outages exceed 90 minutes routinely.
+
+## Stabiliser sizing: the 1.5× VA rule
+
+The standard rule of thumb, applied across Indian dealer and installer practice:
+
+```
+Stabiliser VA rating ≥ 1.5 × concentrator VA rating,
+                        rounded up to the next available size.
+```
+
+Worked examples for typical Indian-market concentrators:
+
+- A 5 LPM stationary concentrator rated at 350 VA: required stabiliser ≥ 525 VA. Buy a 600 VA or 1 kVA unit.
+- A 5 LPM stationary concentrator rated at 450 VA (higher-power-draw units): required stabiliser ≥ 675 VA. Buy a 1 kVA unit.
+- A 10 LPM stationary concentrator rated at 580–700 VA: required stabiliser ≥ 870–1,050 VA. Buy a 1 kVA or 1.5 kVA unit.
+- A home ventilator or BiPAP on a shared line with a concentrator: rate as the sum of both loads, then apply 1.5×.
+
+The 1.5× margin accommodates two things: the inrush current during compressor start (typically 3–5× rated for 100–300 ms, which a stabiliser must absorb without dropping output voltage), and the internal conversion losses of the stabiliser itself, which range from 3% to 8% depending on type and load factor.
+
+Specific brand guidance without endorsement: reputable Indian stabiliser brands include V-Guard, Microtek, Luminous, APC Schneider, Servokon, and Everest. Any of these, in a servo-type unit with input range 140–280 V (or 90–300 V wide-range for hill stations and rural feeders), meets the engineering requirement. Avoid unbranded or very cheap units — the relay switching quality and the internal fusing tend to be inadequate for continuous compressor load.
+
+## When a pure-sine UPS or inverter is mandatory (not optional)
+
+Three scenarios where stabiliser alone is not enough, and a UPS or inverter becomes the mandatory addition:
+
+1. **Patient on continuous flow therapy without cylinder backup.** A COPD patient prescribed 2–5 LPM continuous who does not keep a cylinder on-site needs bridging power for even a short outage. The concentrator must not stop. An online UPS sized per the rule above is the correct answer.
+2. **Patient on pulse-flow therapy overnight.** Sleep-time oxygen is interrupted by an outage; the patient desaturates, wakes, and has to find the cylinder or wait for restoration. A small online UPS (500–1,000 VA with 30–45 minutes of bridging battery) prevents this and is the standard setup for nocturnal-desaturation patients.
+3. **Long scheduled load shedding (>60 minutes, once or more per day).** UPS economics break down here; the battery bank to bridge 3 hours of load shedding costs as much as the concentrator. A pure-sine inverter with a larger tubular battery bank (one or two 150 Ah batteries) and manufacturer approval of the specific inverter model is the correct answer.
+
+The common-mode error: installing a domestic modified-sine inverter because "it runs the fan and the tube light, so it'll run the concentrator." The compressor runs, but the harmonic content in the AC output cooks the motor windings over weeks to months. The failure is silent until it is not. The warranty is, by that point, long gone.
+
+## How to document voltage for a warranty claim
+
+Given the ring of exclusions, an installation where voltage-appropriate operation is documented is substantially better protected than one where it is not. Recommended practice:
+
+1. **Install a stabiliser sized per the 1.5× rule, from a reputable Indian brand.** Keep the purchase invoice with the concentrator paperwork.
+2. **Photograph the installation** — stabiliser model plate, serial number, and the concentrator nameplate visible in the same frame — at the time of first use. Store the photograph with the warranty paperwork.
+3. **Keep the stabiliser invoice.** A warranty claim is significantly easier if matching invoices for concentrator and protection equipment can be produced.
+4. **For high-value installations (10 LPM units, BiPAP-AVAPS, home ventilators), install a voltage logger.** A ₹3,000–5,000 domestic-grade voltage and current logger records voltage at the socket at 1–10 second resolution continuously for 30+ days on battery. If a warranty dispute arises, 30 days of clean voltage data is the strongest single piece of evidence that the device was correctly protected. Several Indian instrumentation brands manufacture suitable loggers; any model with CAT II 300V rating and downloadable CSV logs is adequate.
+5. **Note the date and approximate times of any prolonged outage, storm event, or utility complaint.** If a failure arrives later, the pattern-match between event timing and failure timing becomes evidence one way or the other.
+
+## When a warranty claim is filed
+
+Practical steps in the Indian market:
+
+- File the claim in writing, via the manufacturer's designated service channel, within 7–14 days of the failure. Delay itself is a reason for denial on some warranty documents.
+- Include: concentrator serial number, purchase invoice, stabiliser invoice, installation photographs, and (if available) the voltage log for the relevant period.
+- Expect an on-site inspection by the authorised service partner. The inspector will examine the compressor, start capacitor, control board, and (on some units) the sieve bed.
+- If the initial response denies the claim on voltage grounds and you believe the installation was correctly protected, request in writing: (a) the specific finding that indicated voltage damage — burn marks on the compressor start capacitor, heat signature on the motor windings, a specific control-board failure pattern — and (b) the manufacturer's inspection report. The voltage log can then be cross-referenced.
+
+Realistic expectation: a well-documented installation with clean voltage records has a significantly better claim outcome than an undocumented one, but warranty fine print is what it is. Preventing the failure is more effective than winning a claim afterward.
+
+## The position
+
+A servo stabiliser is not optional in Indian concentrator installations. An online UPS is not optional in Indian installations where cylinder backup is absent or where the patient is on overnight therapy. A domestic modified-sine inverter should never be in the power path, even if the household has one available. The warranty document is explicit about this and Indian service technicians are explicit about this in post-failure inspections; the confusion is entirely on the buyer side, and the confusion is expensive.
+
+For a specific installation — a specific concentrator model on a specific feeder, with specific outage patterns — a qualified electrician's site survey, in addition to the manufacturer's warranty document, is the right due-diligence step before purchase.
+
+*Background references: Bureau of Indian Standards IS 12360 tolerances for distribution voltage; Central Electricity Authority Regulations 2023; state electricity supply codes published by MSEDCL, BESCOM, WBSEDCL, TANGEDCO, and the Delhi discoms [CITATION: BIS IS 12360; CEA 2023; state supply codes].*

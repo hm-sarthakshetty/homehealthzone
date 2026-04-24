@@ -1,0 +1,25 @@
+{
+  "slug": "my-home-plus",
+  "source_url": "",
+  "product_name": "My Home Plus",
+  "brand": "My Home",
+  "brand_href": null,
+  "category": "5 LPM",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Unknown",
+  "images": [],
+  "key_features": {},
+  "spec_tables": {
+    "Additional details": {
+      "Note": "No published spec sheet on surveyed Indian collateral at time of review"
+    }
+  },
+  "faqs": [],
+  "description_text": "My Home Plus appears in Indian oxygen-concentrator comparison listings but does not carry a publicly documented technical specification sheet on the collateral we have surveyed. Key specifications — flow range, purity, weight, sound level, power draw, alarm coverage, certifications — are not verifiable. Listed here for cross-reference only; not recommended for a prescribed LTOT purchase without a published spec sheet from the manufacturer.",
+  "related_links": [],
+  "normalized_specs": {}
+}

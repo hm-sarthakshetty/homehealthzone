@@ -1,0 +1,41 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
+
+export interface Props {
+  product: ProductEntry['data'];
+}
+
+const { product } = Astro.props;
+
+const siteOrigin = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
+
+const firstImage = product.images && product.images.length > 0 ? product.images[0] : null;
+const imageUrl = firstImage
+  ? firstImage.src.startsWith('http')
+    ? firstImage.src
+    : `${siteOrigin}${firstImage.src}`
+  : undefined;
+
+const ld: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: product.product_name,
+};
+
+if (imageUrl) ld.image = imageUrl;
+if (product.brand) ld.brand = { '@type': 'Brand', name: product.brand };
+if (product.description_text) ld.description = product.description_text;
+if (product.category) ld.category = product.category;
+
+if (product.rating_value) {
+  const rating: Record<string, unknown> = {
+    '@type': 'AggregateRating',
+    ratingValue: product.rating_value,
+  };
+  if (product.rating_count) rating.reviewCount = product.rating_count;
+  ld.aggregateRating = rating;
+}
+---
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />

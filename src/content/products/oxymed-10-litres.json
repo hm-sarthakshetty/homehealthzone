@@ -1,0 +1,84 @@
+{
+  "slug": "oxymed-10-litres",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Oxymed-10-Litres",
+  "product_name": "Oxymed 10 Litre Oxygen Concentrator (Dual Flow)",
+  "brand": "Oxymed",
+  "brand_href": "https://www.oxygentimes.com/brand/Oxymed/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "50,990.00",
+  "price_mrp": "95,000.00",
+  "price_symbol": "₹",
+  "rating_value": "4.8 (186)",
+  "rating_count": "186",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/oxymed-10-litre-oxygen-concentrator-dual-flow-0ee206a300.jpg",
+      "alt": "Oxymed 10 Litre Oxygen Concentrator (Dual Flow)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/10lpm_(1)1747725555.jpg"
+    },
+    {
+      "src": "/images/products/oxymed-10-litre-oxygen-concentrator-dual-flow-856190ee51.jpg",
+      "alt": "Oxymed 10 Litre Oxygen Concentrator (Dual Flow)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/o1031664563086.jpg"
+    },
+    {
+      "src": "/images/products/oxymed-10-litre-oxygen-concentrator-dual-flow-5b15534614.jpg",
+      "alt": "Oxymed 10 Litre Oxygen Concentrator (Dual Flow)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/o1011664563126.jpg"
+    },
+    {
+      "src": "/images/products/oxymed-10-litre-oxygen-concentrator-dual-flow-76f62b4a7b.jpg",
+      "alt": "Oxymed 10 Litre Oxygen Concentrator (Dual Flow)",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/o101664563168.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "1-10LPM",
+    "Weight": "24kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "610watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "1-10LPM",
+      "Weight": "24kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "610watts",
+      "Sound level": "50db",
+      "Dimensions": "26.77H x 15.74W x 14.72Dinch",
+      "Outlet pressure": "14.5psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "India",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "Oxymed 10 LPM Oxygen Concentrator\n\nOxymed is one of the most successful brands in the Indian market with over 40 service centres and home installation service in almost 50 cities across the country. Its high-flow oxygen concentrator, Oxymed 10 LPM supplies oxygen at the flow rate of 1-10 LPM at oxygen purity of 90-96% at all flow levels. \n\nWeight: Oxymed 10 LPM weighs 24 kg.\n\nSound: The machine emits sound at 50 dB. \n\nOutlet Pressure: The machine gives outlet pressure at 14.5 psi.\n\nPower Consumption: Oxymed 10 LPM uses 610 watts of power.\n\nAlarms: Loss of power, system malfunction\n\nWarranty: This machine has a warranty period of 2 years.\n\nWhat's in the Box?\n\nOxygen Concentrator 10 LPM\n\nNasal cannula\n\n2 Humidifier Bottle\n\nPower Cord\n\nUser Guide",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 24.0,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 10.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 50.0,
+    "power_w": 610,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

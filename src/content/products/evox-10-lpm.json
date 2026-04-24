@@ -1,0 +1,73 @@
+{
+  "slug": "evox-10-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Evox-10-LPM",
+  "product_name": "Evox 10 LPM",
+  "brand": "Evox",
+  "brand_href": "https://www.oxygentimes.com/brand/Evox/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "54,999.00",
+  "price_mrp": "105,600.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/evox-10-lpm-a777830903.jpg",
+      "alt": "Evox 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/evox10lpm1654678153.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Transportation Humidity": "90%",
+    "Temperature Range": "45Celcius",
+    "Type": "High Flow Stationary 10LPM",
+    "Continuous Flow": "1-10LPM",
+    "Weight": "25.7kg"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Transportation Humidity": "90%",
+      "Temperature Range": "45Celcius",
+      "Type": "High Flow Stationary 10LPM",
+      "Continuous Flow": "1-10LPM",
+      "Weight": "25.7kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "630watts",
+      "Sound level": "55db",
+      "Dimensions": "16.2 x 13.2 x 26.2inch",
+      "Operating altitude": "4500feet"
+    },
+    "Additional details": {
+      "Outlet pressure": "10psi",
+      "Oxygen Purity % Analyzer": "Yes",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "India",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "What's in the Box?\n\nOxygen Concentrator\n\nHumidifier bottle\n\nNasal Cannula\n\nUser manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 25.7,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 10.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 55.0,
+    "power_w": 630,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true,
+    "altitude_ft": 4500
+  }
+}

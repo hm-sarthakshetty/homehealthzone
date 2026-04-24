@@ -1,0 +1,74 @@
+{
+  "slug": "oxymed-eco-10-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Oxymed-Eco-10-LPM",
+  "product_name": "Oxymed Eco 10 LPM",
+  "brand": "Oxymed",
+  "brand_href": "https://www.oxygentimes.com/brand/Oxymed/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "52,499.00",
+  "price_mrp": "120,000.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Discontinued",
+  "images": [
+    {
+      "src": "/images/products/oxymed-eco-10-lpm-47a7967a9d.jpg",
+      "alt": "Oxymed Eco 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot_2021-12-20_at_121639982664.jpg"
+    },
+    {
+      "src": "/images/products/oxymed-eco-10-lpm-e4ed7ba804.jpg",
+      "alt": "Oxymed Eco 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot_2021-12-20_at_121639982665.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "1-10LPM",
+    "Weight": "20kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "770watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "1-10LPM",
+      "Weight": "20kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "770watts",
+      "Sound level": "55db",
+      "Dimensions": "26.7H x 17.5W x 15.7Dinch",
+      "Outlet pressure": "11.6psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "Things we like about Oxymed 10LPM :\n\n\n\tRenowned brand name\n\tSecond largest dealer network in India\n\tQuietest 10 LPM oxygen concentrator\n\tLightweight \n\tTwo years warranty\n\tHigh oxygen purity level cross all flow rates\n\n\n \n\nThings we don't like about Oxymed :\n\n\n\tNot aesthetically appealing\n\tDoes not have FDA approval",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 20.0,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 10.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 55.0,
+    "power_w": 770,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "philips-10-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Philips-10-LPM",
+  "product_name": "Philips 10 LPM",
+  "brand": "Philips Respironics",
+  "brand_href": "https://www.oxygentimes.com/brand/Philips-Respironics/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "129,600.00",
+  "price_mrp": "177,600.00",
+  "price_symbol": "₹",
+  "rating_value": "4.7 (18)",
+  "rating_count": "18",
+  "stock": "Discontinued",
+  "images": [
+    {
+      "src": "/images/products/philips-10-lpm-556784b7a9.jpg",
+      "alt": "Philips 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/philips1662714166.jpg"
+    },
+    {
+      "src": "/images/products/philips-10-lpm-f7f6944d2c.jpg",
+      "alt": "Philips 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-07 at 111638858655.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "1-10LPM",
+    "Weight": "24kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "600watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "1-10LPM",
+      "Weight": "24kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "600watts",
+      "Sound level": "50db",
+      "Dimensions": "27H x 19W x 13Dinch",
+      "Operating altitude": "1368feet",
+      "Outlet pressure": "30psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Imported unit (US Voltage Model). Step down transformer (Indian Voltage: 220V to US Voltage: 110V) included in this price. \n\nImportant: Warranty for this model is not available in India\n\n \n\nWhat's in the Box?\n\nRespironics Millenium M10 Stationary Concentrator\n\nAC Power Cords\n\nPre Installed Filter kit\n\n5 Nasal Cannulas\n\n1 year manufacturer's warranty\n\nUser Manual\n\nStep down transformer to convert 220V to 110V",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 24.0,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 10.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 50.0,
+    "power_w": 600,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": false,
+    "altitude_ft": 1368
+  }
+}

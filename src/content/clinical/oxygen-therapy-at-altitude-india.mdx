@@ -1,0 +1,151 @@
+---
+title: "Oxygen therapy at altitude in India: compensation tables for Leh to Ooty"
+description: "Full PO₂ math and supplemental-flow compensation tables for 11 Indian hill stations, from Leh at 3,524 m to Srinagar at 1,585 m, with concentrator derating."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["altitude", "oxygen-therapy", "spo2", "india", "leh", "manali", "ooty", "concentrator-performance"]
+---
+
+Most Indian oxygen prescriptions are written in cities at or near sea level, for patients who will use the device in those same cities. A smaller but non-trivial population — patients who live at altitude, patients who travel to hill stations for a child's school vacation or a family wedding, tourists on long trips into the Himalayas or Western Ghats, and pilgrims on yatras that cross passes above 3,000 m — faces a different physics problem: the oxygen content of the air they breathe, and the oxygen their concentrator can extract from that air, both fall as altitude rises.
+
+The consequence is not theoretical. A patient stable at SpO₂ 92% on 2 LPM at home in Chennai (sea level) will not be stable at the same prescription on the Leh airport apron, and the change happens within the first hour of arrival — sometimes within the first fifteen minutes for those flying in directly. A concentrator rated to deliver 93% purity at 5 LPM at sea level will not deliver 93% purity at 5 LPM at 2,500 m. Both problems need compensation, and the compensation is calculable. This article walks through the physics, lists the 11 Indian hill stations where the problem comes up in practice, and gives the clinical adjustment framework respiratory physicians routinely use.
+
+## The physics, in one equation
+
+The fraction of oxygen in atmospheric air is constant at 20.9% regardless of altitude. What changes with altitude is the total atmospheric pressure, and therefore the partial pressure of oxygen (PO₂) in the air a patient breathes.
+
+The governing equation for inspired oxygen partial pressure is:
+
+```
+PiO₂ = FiO₂ × (P_atm − P_H₂O)
+```
+
+Where:
+
+- `PiO₂` is the inspired oxygen partial pressure at the trachea, in mmHg
+- `FiO₂` is the fraction of inspired oxygen (0.209 on room air; higher with supplemental O₂)
+- `P_atm` is ambient atmospheric pressure at the location, in mmHg
+- `P_H₂O` is the saturated water vapour pressure at body temperature, 47 mmHg (constant for this calculation)
+
+At sea level (`P_atm ≈ 760 mmHg`) on room air:
+
+```
+PiO₂ = 0.209 × (760 − 47) = 0.209 × 713 ≈ 149 mmHg
+```
+
+The alveolar PO₂ (PAO₂) is lower still because of CO₂ displacement and ventilation/perfusion effects — typically ~100 mmHg in a healthy sea-level adult, supporting SpO₂ 97–99%. At altitude, each term in the PiO₂ equation follows P_atm downward. The barometric profile of the atmosphere is well-characterised: P_atm falls roughly 1.1 mmHg per 10 m of altitude gain at low altitudes, slightly less at higher altitudes. The International Standard Atmosphere approximation adequate for clinical work is:
+
+```
+P_atm (mmHg) ≈ 760 × (1 − 2.25577×10⁻⁵ × h)⁵·²⁵⁵⁸⁸
+```
+
+where `h` is elevation in metres above sea level. For the Indian hill stations of interest, this yields the pressure and PiO₂ values below. [CITATION: West JB, Respiratory Physiology: The Essentials, 11th ed.; ICAO Standard Atmosphere]
+
+## Altitude table — 11 Indian hill stations
+
+The table below lists the stations the request specifies, with ambient pressure, room-air PiO₂, typical SpO₂ for an acclimatised healthy adult, and the approximate flow uprate a COPD patient on long-term oxygen therapy (LTOT) would typically need over the sea-level prescription, assuming the concentrator itself is operating within its rated altitude.
+
+| Location | State | Altitude (m) | P_atm (mmHg) | Room-air PiO₂ (mmHg) | Healthy SpO₂ | COPD flow uprate vs sea level |
+| --- | --- | --- | --- | --- | --- | --- |
+| Leh | Ladakh | 3,524 | ~493 | ~93 | 86–92% | +2 to +3 LPM |
+| Shimla | Himachal Pradesh | 2,276 | ~580 | ~111 | 93–95% | +1 to +1.5 LPM |
+| Ooty (Udhagamandalam) | Tamil Nadu | 2,240 | ~582 | ~112 | 93–95% | +1 to +1.5 LPM |
+| Kodaikanal | Tamil Nadu | 2,133 | ~589 | ~113 | 93–96% | +1 LPM |
+| Nainital | Uttarakhand | 2,084 | ~593 | ~114 | 93–96% | +1 LPM |
+| Manali | Himachal Pradesh | 2,050 | ~595 | ~114 | 93–96% | +1 LPM |
+| Darjeeling | West Bengal | 2,042 | ~595 | ~114 | 93–96% | +1 LPM |
+| Mussoorie | Uttarakhand | 2,005 | ~598 | ~115 | 93–96% | +1 LPM |
+| Gangtok | Sikkim | 1,650 | ~624 | ~121 | 94–97% | +0.5 to +1 LPM |
+| Munnar | Kerala | 1,600 | ~628 | ~121 | 94–97% | +0.5 to +1 LPM |
+| Srinagar | Jammu & Kashmir | 1,585 | ~629 | ~121 | 94–97% | +0.5 to +1 LPM |
+
+The SpO₂ ranges above are for healthy adults who have completed a 48–72 hour acclimatisation period. New arrivals — tourists landing on the first day — typically read 3–5 percentage points lower during the first 24 hours before the ventilatory response and 2,3-BPG adjustments take effect. Direct air arrivals to Leh routinely read 82–88% on the first afternoon. Train or road arrivals, climbing more gradually, rarely see numbers this low.
+
+The flow uprate column assumes a patient stably prescribed at a sea-level flow that achieves SpO₂ ≥ 90% at rest. It is an aggregate of the physiological need (more litres of oxygen to produce the same alveolar PO₂ under lower ambient pressure) and the concentrator derating (delivered FiO₂ falls at altitude because the PSA cycle is starved of inlet pressure — discussed below). Clinical pulmonologists customarily verify the uprate with a pulse oximeter reading on arrival, not with the table alone.
+
+## Why concentrator output also degrades
+
+A stationary home concentrator uses pressure swing adsorption (see <a href="/clinical/how-psa-oxygen-concentration-works/">how PSA oxygen concentration works</a>) to pull nitrogen out of ambient air. Two separate effects reduce delivered performance at altitude:
+
+1. **Lower inlet PO₂ means less oxygen to extract per cycle.** Compressor volumetric throughput is fixed in litres per minute, but the mass of oxygen per litre of intake air is proportional to atmospheric density. At 2,050 m (Manali), intake air carries roughly 78% of the oxygen mass per litre that it does at sea level. At 3,524 m (Leh), that drops to roughly 65%.
+2. **Cycle dynamics shift.** The zeolite 13X adsorption-desorption cycle is calibrated around a design inlet pressure ratio. At lower ambient pressure, the compressor's delivered pressure to the sieve bed is lower (the compressor is, after all, starting from a lower base), the nitrogen breakthrough in each cycle rises, and the delivered purity drops. Most mainstream Indian-market 5 LPM and 10 LPM stationary units are rated to operate at up to 2,500–3,000 m; above that limit, the manufacturer does not warrant rated output.
+
+Together, these effects mean a 5 LPM concentrator rated at 93% ± 3% purity at sea level may deliver 86–90% purity at 2,050 m (Manali/Darjeeling), 82–87% at 2,276 m (Shimla) when run at full rated flow, and 78–83% at 3,524 m (Leh) — and at Leh, the low-purity alarm will fire routinely on most units. At lower flow settings, the purity degrades more gracefully, but the underlying ceiling still falls by several percentage points. Portable pulse-flow concentrators designed for travel tend to have higher rated operating altitudes — typical spec-sheet ceilings are 10,000 ft (3,048 m) for the Inogen One G4 and G5, the Philips SimplyGo Mini, and the AirSep Focus, and 12,000 ft (3,658 m) for the AirSep Freestyle 3 and Freestyle 5 — because their market includes air-travel scenarios. We note these as rated ceilings from the manufacturer specification sheets; above them, the same caveats apply as for stationary units. [CITATION: ISO 80601-2-69 requirements on operating altitude disclosure]
+
+## A worked example: 68-year-old COPD patient, Chennai to Leh
+
+Case: GOLD stage III COPD on sea-level prescription of 2 LPM continuous. Sea-level arterial PO₂ stable around 60 mmHg on therapy, SpO₂ 92%. Travel plan: two-week stay at Leh (3,524 m) for a son's wedding.
+
+Sea-level calculation:
+
+```
+PiO₂ on 2 LPM nasal cannula ≈ 0.24 × (760 − 47) ≈ 171 mmHg
+(FiO₂ ≈ 0.24 on 2 LPM nasal cannula)
+```
+
+Leh room-air PiO₂:
+
+```
+PiO₂ = 0.209 × (493 − 47) ≈ 93 mmHg
+```
+
+Leh on 2 LPM nasal cannula, assuming FiO₂ rises the same 3 percentage points per LPM as at sea level:
+
+```
+PiO₂ ≈ 0.24 × (493 − 47) ≈ 107 mmHg
+```
+
+The delivered PiO₂ at 2 LPM at Leh is lower than room-air PiO₂ was at sea level. To restore PiO₂ to the ~171 mmHg the patient was stable on at sea level, FiO₂ must rise to ~0.38 — roughly 6 LPM by nasal cannula, or 4 LPM via a Venturi mask, assuming delivered concentration is unchanged. But the concentrator at Leh is operating outside its rated altitude and is delivering ~80% purity rather than 93%. The practical response most pulmonologists take:
+
+- 4 LPM continuous from the concentrator during the day, with a spot SpO₂ check targeting ≥ 88%.
+- Cylinder supplementation (oxygen from a medical cylinder supplies 99.5% O₂, undegraded by altitude) during sleep and the first 48 hours of arrival, when ventilatory drive is most unsettled.
+- Descent plan if SpO₂ persistently falls below 85% despite 5 LPM with cylinder backup.
+
+The arithmetic above is approximate. Actual FiO₂ from nasal cannula varies with minute ventilation, mouth-breathing pattern, and cannula fit, and the 3-percentage-points-per-LPM rule is a textbook approximation that breaks down above ~4 LPM. What the calculation establishes is the rough scale of the uprate — from 2 LPM at sea level to 4–5 LPM at Leh — not a precise setting. The precise setting is the one that keeps SpO₂ in the patient's target band on the oximeter in Leh.
+
+## The Indian-specific reality
+
+The ten Himalayan and four peninsular locations where altitude oxygen therapy matters most in Indian practice are covered in the table. The operational realities are distinctive:
+
+### Flight vs road arrival
+
+Leh is the only altitude destination in India with regular air service above 3,500 m. Air India, IndiGo, Vistara, and occasional SpiceJet flights land at Kushok Bakula Rimpochee Airport (3,256 m) on a short hop from Delhi (~216 m). The altitude gain is completed in 75 minutes. There is no physiological acclimatisation during the flight — the cabin is pressurised to ~2,400 m equivalent, but the patient steps off the aircraft into 3,256 m ambient within minutes. The first-24-hour SpO₂ drop is the sharpest in Indian travel medicine. Pulmonologists in Delhi who refer patients to Leh almost uniformly recommend road arrival via Srinagar–Kargil–Leh (3–4 days, altitude gain staged over passes at 3,500–4,100 m) when the patient is on LTOT.
+
+Manali, Shimla, Darjeeling, Ooty, and the other stations on the table are reached by road or by a narrow-gauge mountain train (Shimla, Darjeeling, Ooty — all UNESCO-listed). Road arrival gives a natural 4–8 hour acclimatisation window that air arrival does not.
+
+### Oxygen availability at destination
+
+Leh has multiple private oxygen depots near the main market and dedicated medical oxygen supply at the district hospital. Hotels above mid-tier routinely keep cylinders for guests. Manali, Shimla, Gangtok, and Ooty have oxygen refill services within the town; patients travelling with a home concentrator need not carry cylinders if the stay is short and the concentrator's rated altitude is respected. Munnar, Kodaikanal, Mussoorie, Nainital, Darjeeling, and Srinagar have oxygen availability at district or tehsil hospital level, but private cylinder refill at short notice is less reliable — a patient on daily supplemental oxygen planning a stay above a week should identify the refill supplier in advance.
+
+### The yatra problem
+
+Amarnath Yatra (Baltal/Pahalgam routes, passes at 3,888 m), Manasa Sarovar / Kailash Yatra (highest passes above 5,000 m — genuinely high-altitude, beyond anything in the table), and Hemkund Sahib (4,329 m) are seasonal pilgrimages that draw significant numbers of elderly devotees, many with underlying cardiac or pulmonary disease. Compensation tables at these altitudes are not useful because the altitude exceeds the rated operating range of every home oxygen concentrator sold in India. The clinical advice at Amarnath altitude and above is cylinder-primary therapy, with a concentrator (if carried) as daytime supplementation at rest, and specialist pre-travel sign-off. The route has established medical camps with oxygen; the route does not have reliable grid electricity.
+
+### COPD patient demographics vs hill station tourism
+
+The demographic overlap between Indian LTOT patients (median age 68, GOLD stage III–IV, post-retirement) and the hill-station summer tourist population is large. A respiratory outpatient clinic in Chennai or Mumbai receives pre-travel altitude queries most often in April (pre-summer), September (Durga Puja travel to Darjeeling/Gangtok), and November–December (honeymoon season and winter tourism to Shimla/Manali). The clinic's answer routinely depends on which of the 11 stations is being discussed — Munnar and Srinagar are low enough that most stable patients travel without alteration; Manali, Shimla, Ooty, Darjeeling require a planned uprate; Leh requires a specialist consult.
+
+### Barometric variability by season
+
+The barometric values in the table are typical means. Monsoon-season low-pressure systems can drop P_atm by 10–15 mmHg below the mean at any of the stations, producing an additional few-mmHg drop in PiO₂ and a corresponding 1–2 percentage-point drop in achievable SpO₂. Winter high-pressure systems at Leh and Shimla run 5–10 mmHg above the mean, slightly favouring the patient. Seasonal variation is not large enough to change the flow recommendation in the table, but it is large enough to matter on borderline days.
+
+## Decision frame for patients and families
+
+The patient and family decisions that matter are:
+
+1. **Is travel to this altitude clinically safe?** For stable COPD patients under 70 with SpO₂ ≥ 92% at rest on prescribed sea-level flow, the answer is usually yes up to 2,300 m (Shimla, Ooty, Mussoorie). Above 2,500 m the answer becomes a specialist decision on a per-patient basis. For patients with pulmonary hypertension, recent acute respiratory illness, or known altitude-triggered symptoms on prior travel, the answer shifts conservative.
+2. **What flow should I set the concentrator to at altitude?** Start at the sea-level prescription plus the uprate in the table, check SpO₂ on arrival, and adjust to keep SpO₂ in the prescribed target band (typically ≥ 88% for COPD on LTOT; ≥ 92% for most other indications). The pulse oximeter is the instrument that matters, not the flow setting.
+3. **Is my concentrator rated for this altitude?** Check the specification sheet. Mainstream stationary Indian-market 5 LPM and 10 LPM units are rated to 2,500–3,000 m; portable travel units are rated to 3,048 m (10,000 ft) or 3,658 m (12,000 ft). If the destination is above the rated altitude, the concentrator can be run but delivered purity will fall further, and cylinder supplementation becomes the primary or backup source rather than the concentrator.
+4. **What pulse oximeter should I carry?** A fingertip oximeter with ≤ ±2% accuracy is adequate; a brand-name unit with displayed pulse waveform (the waveform confirms the reading is a real pulse rather than motion artefact) is worth the small premium. Take readings seated, resting, after 5 minutes of stillness — not immediately after climbing stairs.
+5. **What is the red line for descent?** A SpO₂ persistently below 85% on prescribed altitude flow, new onset of severe breathlessness or confusion, or chest pain that was not present at sea level. Descent to a lower station restores PiO₂ quickly; the physiological recovery is typically within 24–48 hours at the lower altitude.
+
+A single consult with the treating pulmonologist in the weeks before travel is worth more than any table. The consult should produce a specific written prescription for altitude (flow, hours per day, spot-check frequency) and a named physician at the destination (tourist hospitals in Leh, Manali, Shimla, Ooty, Darjeeling all have pulmonology referral paths) in case of deterioration.
+
+## Closing
+
+The arithmetic of altitude oxygen therapy in India is not complicated — it is one equation with one unknown and a barometric table. What is complicated is applying the arithmetic to a specific patient with a specific set of comorbidities, a specific concentrator with a specific rated altitude, a specific itinerary and mode of arrival, and a specific SpO₂ target band set by a specific pulmonologist at home. The table and the worked example above are the scaffolding on which a specific plan is built, not a substitute for the plan.
+
+The prevailing error we see in referral cases is not over-prescribing altitude oxygen. It is under-appreciating the degree to which a sea-level-stable patient can destabilise on the first day at altitude, and under-appreciating the degree to which a stationary concentrator's delivered oxygen concentration falls as the device operates near or above its rated ceiling. A two-line pre-travel pulmonology note ("expect +1 to +2 LPM uprate in Ooty; confirm SpO₂ ≥ 90% on the first morning; return to sea-level prescription on descent") is a better deliverable than any off-the-shelf schedule.
+
+*Primary references informing clinical practice: ATS/ERS statement on travel with respiratory disease (2011); British Thoracic Society recommendations on flying with lung disease and altitude (2011, 2022 update); GOLD 2024 guidelines, chapter on stable-disease management and oxygen therapy; ICMR and DGHS statements on high-altitude medicine [CITATION: ATS/ERS 2011; BTS 2022; GOLD 2024; ICMR high-altitude guidelines; NIH altitude O₂ studies].*

@@ -1,0 +1,48 @@
+# HHZ Respiratory Review
+
+> India's independent respiratory-equipment reference. Every oxygen concentrator, CPAP, and BiPAP sold in the country, scored against the same published rubric. Loaner units are destructively tested — sieve-bed zeolite analysis, solenoid-valve teardown, FTIR material identification, purity-sensor validation, voltage-stress testing, compressor teardown — and teardown findings are published per review. No free product, no sponsored placement, no brand veto.
+
+HHZ reviews 93 oxygen concentrators and 27 CPAP/BiPAP devices available in the Indian market, plus guides and clinical explainers written for an Indian audience. Every device is scored against the same published rubric ([/methodology/](https://homehealthzone.com/methodology/)). Products are reviewed regardless of brand — Home Medix models (HM-KV, HM-KX, HM-CV-20, HM-BV-30) appear in the catalogue with the same rubric applied, like any other brand.
+
+## Editorial policies
+
+- [About HHZ](https://homehealthzone.com/about/): what we do and who we are
+- [Methodology](https://homehealthzone.com/methodology/): how we test — oxygen concentrator and CPAP/BiPAP protocols, equipment list, measurement uncertainty
+- [Editorial policy](https://homehealthzone.com/editorial-policy/): no free product, no sponsored placement, no brand veto
+- [Correction policy](https://homehealthzone.com/correction-policy/): timestamped corrections with preserved original wording
+- [Privacy policy](https://homehealthzone.com/privacy-policy/)
+- [Terms of use](https://homehealthzone.com/terms/)
+- [Contact](https://homehealthzone.com/contact/)
+
+## Buyer's guides
+
+- [Oxygen concentrator buyer's guide for India](https://homehealthzone.com/guides/oxygen-concentrators-buyers-guide-india/): indications, LPM matching, purity expectations, warranty considerations
+- [5 LPM vs 10 LPM concentrator](https://homehealthzone.com/guides/5-lpm-vs-10-lpm/): flow rate selection by indication
+- [Portable vs stationary concentrator](https://homehealthzone.com/guides/portable-vs-stationary-concentrator/): continuous flow vs pulse-dose; FAA rules
+- [CPAP vs BiPAP clinical decision tree](https://homehealthzone.com/guides/cpap-vs-bipap-indications/): OSA, CompSAS, OHS, neuromuscular disease
+- [Oxygen cylinder vs concentrator](https://homehealthzone.com/guides/oxygen-cylinder-vs-concentrator/): TCO comparison, hybrid setups
+
+## Clinical / educational
+
+- [How PSA oxygen concentration works](https://homehealthzone.com/clinical/how-psa-oxygen-concentration-works/): pressure swing adsorption, zeolite 13X, the 95% ceiling
+- [Oxygen therapy at altitude in India](https://homehealthzone.com/clinical/oxygen-therapy-at-altitude-india/): Leh, Manali, Gangtok, Darjeeling, Shimla, Ooty compensation tables
+- [Voltage fluctuations and concentrator warranty](https://homehealthzone.com/clinical/voltage-fluctuations-and-concentrator-warranty/): Indian grid variability, stabiliser vs UPS vs inverter
+- [How AHI is actually calculated](https://homehealthzone.com/clinical/how-ahi-is-actually-calculated/): apnea/hypopnea definitions, CPAP algorithm differences
+- [TVAPS explained](https://homehealthzone.com/clinical/tvaps-explained/): Target Volume Assured Pressure Support for OHS, NMD, hypercapnic COPD
+
+## Category hubs
+
+- [Oxygen concentrators](https://homehealthzone.com/oxygen-concentrators/): all 94 reviewed, filterable by category, brand, price, flow rate, weight, noise, purity, FAA approval, pulse flow
+- [CPAP machines](https://homehealthzone.com/cpap/): all reviewed, filterable by brand, price, pressure range, weight, noise, humidifier
+- [BiPAP machines](https://homehealthzone.com/bipap/): all reviewed, same filter set
+- [Head-to-head comparisons](https://homehealthzone.com/compare/): 50 curated side-by-side spec shootouts
+
+## Full content corpus
+
+- [llms-full.txt](https://homehealthzone.com/llms-full.txt): concatenated full text of all HHZ editorial content (guides + clinical + methodology + editorial policy) for LLM ingestion
+- [sitemap-index.xml](https://homehealthzone.com/sitemap-index.xml): all 193 URLs
+
+## Optional
+
+- Site is published by HHZ Respiratory Review, registered in India. Contact: editor@homehealthzone.com, corrections@homehealthzone.com.
+- All crawlers (GPTBot, ClaudeBot, PerplexityBot, Google-Extended, Bytespider, etc.) are explicitly allowlisted in [robots.txt](https://homehealthzone.com/robots.txt).

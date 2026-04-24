@@ -1,0 +1,76 @@
+{
+  "slug": "airsep-intensity-8",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Airsep-Intensity-8",
+  "product_name": "Airsep Intensity 8",
+  "brand": "AirSep",
+  "brand_href": "https://www.oxygentimes.com/brand/AirSep/oxygen-concentrator",
+  "category": "8 LPM",
+  "price_current": "148,800.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/airsep-intensity-8-52ef3bd0af.jpg",
+      "alt": "Airsep Intensity 8",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 31638181426.jpg"
+    },
+    {
+      "src": "/images/products/airsep-intensity-8-b4138efc70.jpg",
+      "alt": "Airsep Intensity 8",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 31638181427.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "1-8LPM",
+    "Weight": "24.5kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "410watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "1-8LPM",
+      "Weight": "24.5kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "410watts",
+      "Sound level": "52db",
+      "Dimensions": "27.5H x 16.5W x 14.5Dinch",
+      "Operating altitude": "10000feet",
+      "Outlet pressure": "20psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 24.5,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 8.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 52.0,
+    "power_w": 410,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 10000
+  }
+}

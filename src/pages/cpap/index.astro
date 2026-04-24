@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BrowseProducts from '../../components/BrowseProducts.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const [all, reviews] = await Promise.all([
+  getCollection('cpap-bipap'),
+  getCollection('cpap-bipap-reviews'),
+]);
+const scoreMap: Record<string, number> = {};
+for (const r of reviews) {
+  if (typeof r.data.score === 'number') scoreMap[r.id] = r.data.score;
+}
+
+const cpapProducts = all
+  .filter((entry) => entry.data.device_type === 'cpap')
+  .sort((a, b) => {
+    const sa = scoreMap[a.data.slug] ?? 0;
+    const sb = scoreMap[b.data.slug] ?? 0;
+    if (sb !== sa) return sb - sa;
+    return a.data.product_name.localeCompare(b.data.product_name, 'en');
+  });
+
+const pageTitle = 'CPAP machines';
+const description =
+  'Independent reviews of CPAP machines sold in India — auto, fixed-pressure, and travel units. Search and filter by brand and price.';
+
+const crumbs = [
+  { href: '/', label: 'Home' },
+  { href: '/cpap/', label: 'CPAP' },
+];
+---
+<BaseLayout title={pageTitle} description={description}>
+  <Breadcrumbs items={crumbs} />
+
+  <header class="hub-header">
+    <h1>{pageTitle}</h1>
+    <p class="lead">
+      {cpapProducts.length} CPAP machines available in India — auto-titrating, fixed-pressure, and travel-friendly models. Every device is scored against the same published rubric.
+    </p>
+  </header>
+
+  {cpapProducts.length === 0 ? (
+    <p class="empty">No CPAP reviews published yet. Check back soon.</p>
+  ) : (
+    <BrowseProducts entries={cpapProducts} basePath="/cpap/" kind="cpap-bipap" scoreMap={scoreMap} />
+  )}
+</BaseLayout>
+
+<style>
+  .hub-header {
+    margin-bottom: var(--space-8);
+  }
+  .empty {
+    color: var(--color-text-muted);
+  }
+</style>

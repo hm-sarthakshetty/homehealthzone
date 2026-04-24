@@ -1,0 +1,96 @@
+{
+  "slug": "bmc-g3-b30vt-bipap-machine",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/bmc-g3-b30vt-bipap-machine",
+  "product_name": "BMC G3 B30VT BiPAP Machine",
+  "brand": "BMC",
+  "brand_href": "https://www.oxygentimes.com/brand/BMC/cpap-bipap",
+  "category": "BiPAP",
+  "price_current": "39,744.00",
+  "price_mrp": "48,000.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/bmc-g3-b30vt-bipap-machine-f52d9def5a.jpg",
+      "alt": "BMC G3 B30VT BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/G3_30VT_(2)1657617282.jpg"
+    },
+    {
+      "src": "/images/products/bmc-g3-b30vt-bipap-machine-d631933a88.jpg",
+      "alt": "BMC G3 B30VT BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/21657617282.jpg"
+    },
+    {
+      "src": "/images/products/bmc-g3-b30vt-bipap-machine-48fc255409.jpg",
+      "alt": "BMC G3 B30VT BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/31657617282.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "BiPAP",
+    "Modes": "CPAP,S,T,ST",
+    "Pressure Range": "4-30cmH₂O",
+    "Ergonomic Tilted Display": "No",
+    "Detachable Design": "No",
+    "Sound level": "26dB"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "BiPAP",
+      "Modes": "CPAP,S,T,ST",
+      "Pressure Range": "4-30cmH₂O",
+      "Ergonomic Tilted Display": "",
+      "Detachable Design": "",
+      "Sound level": "26dB",
+      "Weight": "1.7Kg",
+      "Dimensions": "265 × 145 × 114mm",
+      "Company Headquaters": "China",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0-60min.",
+      "Auto Ramp": "Yes",
+      "Ramp Down": "No",
+      "EPR": "Yes",
+      "Humidifier": "Yes",
+      "Heated Tube Compatibility": "Yes",
+      "Climate control": "Yes",
+      "Preheat": "Yes",
+      "Adaptive Humidification": "Yes",
+      "Mask Fit": "Yes"
+    },
+    "Additional details": {
+      "Central Apnea Detection": "Yes",
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "Yes",
+      "VAPS": "",
+      "Trigger & Cycle sensitivity": "Yes",
+      "Ti Control": "Yes",
+      "Rise Time": "Yes",
+      "Ti(inspiration time)": "Yes",
+      "Pressure Support": "",
+      "Back up rate": "Yes",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "",
+      "Waterless Humidification": "",
+      "SD card": "Yes",
+      "Cloud connectivity/Wifi": "1",
+      "Bluetoooth": "",
+      "QR code": "Yes",
+      "FAA": "",
+      "FDA": "",
+      "CE": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "What's in the Box?\n\n\n\tG3 Series BiPAP System (G3 B30VT) device\n\tHeated Humidifier\n\tHeated Hose\n\tCarry Case\n\tSD Card \n\t2 standard filters\n\tMask\n\tUser Manual",
+  "related_links": [],
+  "device_type": "bipap",
+  "normalized_specs": {
+    "weight_kg": 1.7,
+    "noise_db": 26.0,
+    "pressure_min_cmh2o": 4.0,
+    "pressure_max_cmh2o": 30.0,
+    "has_humidifier": true
+  }
+}

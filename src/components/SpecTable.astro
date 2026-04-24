@@ -1,0 +1,25 @@
+---
+export interface Props {
+  caption?: string;
+  rows: Record<string, string>;
+}
+
+const { caption, rows } = Astro.props;
+
+const entries = Object.entries(rows).filter(
+  ([, value]) => value !== undefined && value !== null && String(value).trim() !== ''
+);
+---
+{entries.length > 0 && (
+  <table class="spec-table">
+    {caption && <caption>{caption}</caption>}
+    <tbody>
+      {entries.map(([key, value]) => (
+        <tr>
+          <th scope="row">{key}</th>
+          <td>{value}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+)}

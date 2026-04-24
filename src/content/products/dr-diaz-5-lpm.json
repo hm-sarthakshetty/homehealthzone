@@ -1,0 +1,76 @@
+{
+  "slug": "dr-diaz-5-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Dr-Diaz-5-LPM",
+  "product_name": "Dr Diaz 5 LPM",
+  "brand": "Hemodiaz",
+  "brand_href": "https://www.oxygentimes.com/brand/Hemodiaz/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "29,759.04",
+  "price_mrp": "40,320.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/dr-diaz-5-lpm-84ff00257a.jpg",
+      "alt": "Dr Diaz 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 51638187312.jpg"
+    },
+    {
+      "src": "/images/products/dr-diaz-5-lpm-9a6cb06659.jpg",
+      "alt": "Dr Diaz 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 51638187313.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Type": "Single Flow",
+    "Continuous Flow": "1-5LPM",
+    "Weight": "16kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "285watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Type": "Single Flow",
+      "Continuous Flow": "1-5LPM",
+      "Weight": "16kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "285watts",
+      "Sound level": "48db",
+      "Dimensions": "21H x 12W x 11.8Dinch",
+      "Operating altitude": "12000feet",
+      "Outlet pressure": "13psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "India",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "What's in the box?\n\nBasic type/purity monitoring type-\n\n1 pc humidifier bottle\n\n1 pc oxgen concentrator\n\n1 pc cannula tubing\n\n1 pc air filter(inside the unit)\n\n1 user manual\n\nNebulization type-\n\n1 pc humidifier bottle\n\n1 pc oxgen concentrator\n\n1 pc cannula tubing\n\n1 pc air filter(inside the unit)\n\n1 user manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 16.0,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 48.0,
+    "power_w": 285,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true,
+    "altitude_ft": 12000
+  }
+}

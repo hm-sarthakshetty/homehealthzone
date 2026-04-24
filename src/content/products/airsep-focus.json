@@ -1,0 +1,74 @@
+{
+  "slug": "airsep-focus",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Airsep-Focus",
+  "product_name": "Airsep Focus",
+  "brand": "AirSep",
+  "brand_href": "https://www.oxygentimes.com/brand/AirSep/oxygen-concentrator",
+  "category": "Portable (Battery-powered)",
+  "price_current": "163,200.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Discontinued",
+  "images": [
+    {
+      "src": "/images/products/airsep-focus-fbaccde837.jpg",
+      "alt": "Airsep Focus",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-07 at 41638876429.jpg"
+    },
+    {
+      "src": "/images/products/airsep-focus-f4ab15de33.jpg",
+      "alt": "Airsep Focus",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-07 at 41638876955.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Portable (Battery-powered)",
+    "mL dose": "17.25mL",
+    "Weight": "1kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Battery backup (at 2 pulse setting)": "3hours"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Portable (Battery-powered)",
+      "mL dose": "17.25mL",
+      "Weight": "1kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Battery backup (at 2 pulse setting)": "3hours",
+      "Recharge time": "4hours",
+      "Backup with external battery pack": "7hours",
+      "Sound level": "42db",
+      "Dimensions": "6.4H x 4.8W x 2.5Dinch"
+    },
+    "Additional details": {
+      "Operating altitude": "10000feet",
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "Yes",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 1.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 42.0,
+    "has_opi": false,
+    "faa_approved": true,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 10000
+  }
+}

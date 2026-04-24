@@ -1,0 +1,140 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
+
+export interface Props {
+  productA: ProductEntry['data'];
+  productB: ProductEntry['data'];
+}
+
+const { productA, productB } = Astro.props;
+
+interface Row {
+  key: string;
+  a: string;
+  b: string;
+  section?: string;
+}
+
+const sanitize = (v: string | null | undefined): string => {
+  if (v === null || v === undefined) return '';
+  const s = String(v).trim();
+  return s;
+};
+
+const rows: Row[] = [];
+
+// Basic fields
+const basicPairs: Array<[string, string, string]> = [
+  ['Brand', sanitize(productA.brand), sanitize(productB.brand)],
+  ['Category', sanitize(productA.category), sanitize(productB.category)],
+  [
+    'Price',
+    sanitize(productA.price_current)
+      ? `${productA.price_symbol}${sanitize(productA.price_current)}`
+      : '',
+    sanitize(productB.price_current)
+      ? `${productB.price_symbol}${sanitize(productB.price_current)}`
+      : '',
+  ],
+  ['MRP', sanitize(productA.price_mrp), sanitize(productB.price_mrp)],
+  ['Stock', sanitize(productA.stock), sanitize(productB.stock)],
+];
+
+for (const [key, a, b] of basicPairs) {
+  if (a || b) rows.push({ key, a, b, section: 'Overview' });
+}
+
+// Key features merged (union of keys).
+const keyFeatureKeys = Array.from(
+  new Set([
+    ...Object.keys(productA.key_features || {}),
+    ...Object.keys(productB.key_features || {}),
+  ])
+);
+for (const key of keyFeatureKeys) {
+  const a = sanitize(productA.key_features?.[key]);
+  const b = sanitize(productB.key_features?.[key]);
+  if (a || b) rows.push({ key, a, b, section: 'Key features' });
+}
+
+// Spec tables merged: union of (table, key) pairs.
+const specTableNames = Array.from(
+  new Set([
+    ...Object.keys(productA.spec_tables || {}),
+    ...Object.keys(productB.spec_tables || {}),
+  ])
+);
+for (const tableName of specTableNames) {
+  const tableA = productA.spec_tables?.[tableName] || {};
+  const tableB = productB.spec_tables?.[tableName] || {};
+  const specKeys = Array.from(new Set([...Object.keys(tableA), ...Object.keys(tableB)]));
+  for (const key of specKeys) {
+    const a = sanitize(tableA[key]);
+    const b = sanitize(tableB[key]);
+    if (a || b) rows.push({ key, a, b, section: tableName });
+  }
+}
+
+// Group rows by section for rendering.
+const sections = new Map<string, Row[]>();
+for (const row of rows) {
+  const sec = row.section || 'Specifications';
+  if (!sections.has(sec)) sections.set(sec, []);
+  sections.get(sec)!.push(row);
+}
+
+const differs = (a: string, b: string) => {
+  if (!a || !b) return true;
+  return a.trim().toLowerCase() !== b.trim().toLowerCase();
+};
+---
+<table class="spec-table comparison-table">
+  <caption>Side-by-side comparison</caption>
+  <thead>
+    <tr>
+      <th scope="col">Specification</th>
+      <th scope="col">{productA.product_name}</th>
+      <th scope="col">{productB.product_name}</th>
+    </tr>
+  </thead>
+  <tbody>
+    {Array.from(sections.entries()).map(([section, sectionRows]) => (
+      <>
+        <tr class="row-section">
+          <th scope="rowgroup" colspan="3">{section}</th>
+        </tr>
+        {sectionRows.map((row) => (
+          <tr class={differs(row.a, row.b) ? 'row-differ' : undefined}>
+            <th scope="row">{row.key}</th>
+            <td>{row.a || '—'}</td>
+            <td>{row.b || '—'}</td>
+          </tr>
+        ))}
+      </>
+    ))}
+  </tbody>
+</table>
+
+<style>
+  .comparison-table thead th {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    color: var(--color-text);
+    border-bottom: 2px solid var(--color-border-strong);
+  }
+  .comparison-table .row-section th {
+    background: #f8f7f4;
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    padding-top: var(--space-4);
+    padding-bottom: var(--space-3);
+  }
+  .comparison-table .row-differ td {
+    background: #fff8f2;
+  }
+</style>

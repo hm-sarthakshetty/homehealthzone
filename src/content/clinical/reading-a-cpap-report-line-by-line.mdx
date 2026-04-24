@@ -1,0 +1,124 @@
+---
+title: "Reading a CPAP report line by line — AirView, Care Orchestrator, iCode decoded"
+description: "What every field on a ResMed / Philips / BMC CPAP data report actually means, which numbers matter, and when to act versus reassure."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["cpap-data", "airview", "care-orchestrator", "icode", "resmed", "philips", "bmc", "adherence", "report-interpretation"]
+---
+
+A patient hands over a single-page "compliance report" pulled from ResMed AirView, Philips Care Orchestrator, or BMC iCode. The report has twenty-plus fields: hours-of-use, days-used, median pressure, 95th-percentile pressure, AHI, leak, mask-off events, central apneas, flow-limitation index. Half the fields look duplicative. A few are mislabelled compared to the clinical terms the physician learned. And the thresholds separating "therapy adequate" from "therapy needs follow-up" are not printed on the report — they live in the reader's head, or not at all.
+
+This article walks every major field on the three dominant cloud-report formats and assigns each a clinical meaning, a defensible threshold, and an action trigger. Then it compares the Indian sleep-lab report format (where in-lab PSG data is reported) with the home-monitoring cloud report (where therapy-under-PAP data is reported), because they are not the same document and are often confused when a patient brings both to a consultation.
+
+## The three cloud platforms at a glance
+
+**ResMed AirView** is the cloud back-end for AirSense 10, AirSense 11, AirCurve family, and S9 legacy devices. Reports are generated server-side from data uploaded via the built-in cellular modem or SD card. The canonical patient-facing summary is the "Therapy Report."
+
+**Philips Care Orchestrator** (formerly EncoreAnywhere) serves DreamStation, DreamStation 2, and System One legacy devices. Philips' equivalent summary is the "Compliance Report" or "Therapy Progress Report."
+
+**BMC iCode** is the cloud platform for BMC's RESmart family and OEM variants sold under other labels. Report generation is via SD card or BMC's app; cellular connectivity is less prevalent in the Indian BMC install base.
+
+All three formats share the same core fields but with different names and occasionally different definitions. The sections below use field-by-field mapping.
+
+## Usage — hours used per night, days used per month
+
+**What it shows.** Average hours of mask-on time per night across a selected window (usually 30 days or since last review). Also: days with ≥ 4 hours, days with any use, longest consecutive run.
+
+**Adequate-therapy threshold.** ≥ 4 hours per night on ≥ 70% of nights in a 30-night window. This is the classical CMS (US) adherence criterion and has become the global reference, including in Indian insurance and corporate-plan coverage decisions. [CITATION: CMS National Coverage Determination for CPAP; AASM adherence consensus statements.]
+
+**When to act.** If average hours-of-use is &lt; 3 hours/night or &lt; 50% of nights have ≥ 4 hours, the first investigation is cause of non-adherence: mask fit, pressure tolerance, aerophagia, claustrophobia, nasal congestion, partner's sleep schedule, work shift pattern. Fixing the cause is more important than any downstream AHI interpretation, because the AHI-on-therapy number is meaningless if the patient isn't wearing the mask through the night.
+
+**Brand name differences.** ResMed reports "Days used" and "Days with ≥ 4 hours" separately. Philips reports "Percent days used" and "Percent days ≥ 4 hours." BMC iCode typically reports only total usage hours and a simple compliance-percent figure.
+
+## AHI — the headline residual event rate
+
+**What it shows.** Apnea-hypopnea events per hour of machine-on time. Critical: this is not sleep time. The denominator is the clock-time the machine was running, whether the patient was actually asleep or lying awake with the mask on.
+
+**Adequate-therapy threshold.** Residual AHI on PAP should be &lt; 5 events/hour. Most well-treated patients run &lt; 2. An AHI consistently > 5 on therapy means the prescription is under-titrated, the patient has treatment-emergent CSA, or there is a significant leak issue corrupting the flow signal.
+
+**When to act.** Trend matters more than a single value. A stable AHI of 3 over months is fine. An AHI that drifts from 2 to 7 over three months, with no mask or lifestyle change, needs investigation.
+
+**Algorithm differences across brands.** ResMed tends to under-report AHI relative to Philips on the same patient because ResMed's hypopnea threshold is more conservative. BMC numbers vary across firmware versions. A cross-brand AHI comparison must be adjusted for algorithm differences — usually by 20–40%. [CITATION: Cross-device AHI comparison studies; manufacturer algorithm white papers.]
+
+## Central apnea index — ClearAirway / central events / CSR
+
+**What it shows.** The subset of apneas the device classified as central (airway open, no flow). ResMed labels these "ClearAirway" apneas, detected by the Forced Oscillation Technique (FOT) cardiac-pulse probe. Philips uses a cardiac-pulse-through-airway inference. BMC's central detection is less transparent.
+
+**Adequate-therapy threshold.** Central apnea index (CAI) &lt; 5, with ratio of centrals to total events &lt; 50%. Isolated centrals are normal and not pathological; their concentration is what matters.
+
+**When to act.** CAI > 5 with ratio > 50% suggests treatment-emergent central sleep apnea (CompSAS). Persistent over 30–90 days of stable therapy and it's time to consider ASV or BiPAP-ST. Transient — say, for one week after a pressure increase — may resolve as the patient acclimatises.
+
+**Cheyne-Stokes respiration (CSR).** ResMed AirView reports a separate "CSR" field (minutes of detected Cheyne-Stokes pattern). Non-trivial CSR, especially in a patient with known or suspected heart failure, is a clinical flag. [CITATION: AASM CompSAS / CSR scoring criteria; ResMed AirSense 11 algorithm documentation.]
+
+## Pressure percentiles — median, 90th, 95th, peak
+
+**What it shows.** Pressure distribution on the given night / across the window. Median (50th) is the typical operating pressure. 95th is the "tight envelope" — the pressure below which the device operated 95% of the time. Peak is the single-point maximum.
+
+**Adequate-therapy pattern.** Median and 95th percentile should be within a few cmH₂O of each other if the patient is on fixed CPAP. On APAP, a 3–5 cmH₂O gap between median and 95th is typical and reflects the device reacting to REM-supine episodes. A gap of 8+ cmH₂O suggests the APAP is frequently hitting the upper limit — either the range is too narrow or there's an unusual event pattern.
+
+**When to act.** If 95th-percentile pressure is drifting upward over months on a previously stable patient (say, from 10 to 14 cmH₂O), something is changing — weight gain, worsening nasal patency, alcohol use, leak-driven algorithm over-compensation. Investigate before just accepting the higher pressure as "the new prescription."
+
+**Brand name differences.** Philips reports "90th percentile pressure" by default; ResMed reports "95th percentile pressure." The two numbers are close but not identical. Knowing which percentile you're reading matters when comparing across brands.
+
+## Leak values — intentional vs mask leak
+
+**What it shows.** Total leak in L/min (measured at the blower; derived from the difference between commanded pressure and the resulting blower motor load). Usually the report shows median leak and 95th-percentile leak.
+
+**Adequate-therapy threshold.** Total leak 95th percentile &lt; 24 L/min (ResMed's published threshold) or &lt; the equivalent Philips "large leak" flag. Note that every mask has an intentional leak designed for CO₂ clearance — typically 20–40 L/min at the prescribed pressure, published in the mask spec sheet. The device's reported leak is **total leak minus expected intentional leak**; i.e., the unintentional part.
+
+**When to act.** 95th-percentile leak > 24 L/min (ResMed) or equivalent red flag on Philips is a mask-fit problem. The AHI on such a night is not reliable because leak destabilises flow-shape detection. Fix the leak (re-fit mask, check cushion wear, investigate mouth leak) before trying to titrate the pressure up.
+
+**Brand name differences.** ResMed has clean leak reporting. Philips has historically been less transparent, reporting "Large leak percentage" (percent of session time spent in the large-leak state) rather than absolute L/min. BMC varies by firmware.
+
+## Flow limitation index
+
+**What it shows.** Rate of detected flow-limitation events per hour. These are sub-apnea, sub-hypopnea events — inspiratory flow flattening suggesting partial airway narrowing.
+
+**Adequate-therapy threshold.** There is no widely accepted numeric threshold. A low value (&lt; 0.1) is normal; persistent high values (> 0.3) suggest the patient has residual partial obstruction the APAP algorithm is aware of but isn't fully resolving.
+
+**When to act.** A low AHI with high flow-limitation index, in a patient who is still symptomatically tired, is suspicious for residual airway resistance or a UARS phenotype contribution. This is where the APAP's upper pressure limit may need to be raised, or where the patient may benefit from an evaluation for oral-appliance combination therapy.
+
+## Mask-off events
+
+**What it shows.** Number of times the device detected mask removal during a session, typically with timestamps.
+
+**Adequate-therapy pattern.** Occasional mask-offs (0–1 per night) are normal. A frequent pattern (3+ per night, recurrently) suggests active mask removal during sleep — often for toilet trips, pressure intolerance, or unconscious face-rubbing. Investigate behavioural cause.
+
+**When to act.** Frequent mask-offs in a patient reporting mid-night awakenings merit a look at mask type, pressure comfort, and bladder / prostate issues (common in older Indian male patients with BPH driving nocturia).
+
+## Average minutes / session statistics
+
+**What it shows.** Minutes per session, sessions per day, start-time and stop-time statistics.
+
+**Adequate-therapy pattern.** One session per night, consistent start-time, session length matching the patient's total sleep time, is the profile of a stable user. Multiple short sessions with large gaps suggest the patient is taking the mask off mid-night.
+
+## "Adequate therapy" vs "needs follow-up" — the gestalt
+
+A single-number summary of "is this patient adequately treated" is a bad idea — the fields interact. A reasonable gestalt:
+
+- **Adequate therapy.** Usage > 4h/night on > 70% of nights, AHI &lt; 5, 95th-percentile leak &lt; threshold, 95th-percentile pressure stable over 30+ days, CAI &lt; 5, no mask-off storm.
+- **Needs follow-up.** Any one of: AHI consistently > 5, 95th-percentile leak > threshold, upward-trending 95th-percentile pressure, CAI ratio > 50%, usage &lt; 4h/night.
+- **Immediate action.** Sudden change in a previously stable profile — large overnight AHI spike, leak storm on a specific night sequence, central apnea emergence — especially in a patient with comorbidity.
+
+## Indian sleep-lab report vs home cloud report — a common confusion
+
+Patients frequently carry two documents into a consultation and assume both describe the same thing. They do not.
+
+**Sleep-lab PSG report** (from the diagnostic study). Records sleep architecture, baseline AHI (pre-therapy), desaturation burden, body-position breakdown, REM-index. Measured against AASM scoring rules with or without EEG depending on Type I vs Type III. This is the *diagnostic* document.
+
+**Home cloud report** (from the CPAP). Records usage hours, residual AHI on therapy, pressure distribution, leak, and device-detected events. Calculated by the device's proprietary algorithms against machine-on time (not sleep time). This is the *therapy-monitoring* document.
+
+A patient asking "my lab report said AHI 42, my CPAP report says AHI 2 — which is correct?" is asking a confused question. Both are correct. The first is pre-therapy severity; the second is residual on therapy. The CPAP having dropped AHI from 42 to 2 means the therapy is working.
+
+The two also use different denominators, different event-detection methods (EEG + effort + SpO₂ + flow vs. flow only), and different AHI definitions (AASM rule 1A vs. manufacturer-specific proprietary rule). They cannot be directly compared; they describe different phases of the same disease.
+
+## Clinical takeaway
+
+The cloud report is a trend-monitoring instrument, not a diagnostic re-measurement. Read it by field, with thresholds in mind. Usage first, then AHI, then leak, then pressure trend, then centrals, then flow limitation. Don't act on a single night's outlier; act on sustained patterns over 2–4 weeks. And recognise that cross-brand comparisons of AHI and leak numbers are calibration-dependent — the numbers are not interchangeable.
+
+HHZ's editorial view: Indian CPAP dealers should be sending the cloud report (or its SD-card equivalent) to the treating physician quarterly, by default, not only on patient request. Most don't. Patients should download the AirView / Care Orchestrator / iCode app themselves and review their own numbers weekly — the data is theirs and the pattern-recognition is learnable.
+
+Consult your sleep physician when the report shows AHI > 5 persistently, upward-trending pressure, high leak, or central apnea emergence — these are the fields that change clinical management.
+
+*References: ResMed AirSense 11 Clinician's Manual [CITATION]; Philips DreamStation 2 clinician guide [CITATION]; BMC RESmart user manual [CITATION]; CMS NCD for CPAP adherence [CITATION]; AASM scoring manual v3 [CITATION].*

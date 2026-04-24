@@ -1,0 +1,212 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SchemaOrganization from '../components/SchemaOrganization.astro';
+import SearchBox from '../components/SearchBox.astro';
+import { getCollection } from 'astro:content';
+
+const [products, cpapBipap, comparisons, guides, clinical] = await Promise.all([
+  getCollection('products'),
+  getCollection('cpap-bipap'),
+  getCollection('comparisons'),
+  getCollection('guides'),
+  getCollection('clinical'),
+]);
+
+const allProducts = [...products, ...cpapBipap];
+const cpapCount = cpapBipap.filter((e) => e.data.device_type === 'cpap').length;
+const bipapCount = cpapBipap.filter((e) => e.data.device_type === 'bipap').length;
+
+// "Popular" quick links — highest-rated + best-known devices in the Indian market
+const popularSlugs = [
+  'home-medix-10-lpm',
+  'home-medix-5-lpm',
+  'home-medix-bv-30',
+  'home-medix-cv-20',
+  'philips-everflo-5-lpm',
+  'oxymed-mini-5-lpm',
+  'resmed-airsense-11-autoset-cpap-machine',
+  'resmed-aircurve-v-auto',
+];
+const popular = popularSlugs
+  .map((s) => {
+    const p = [...products, ...cpapBipap].find((e) => e.data.slug === s);
+    if (!p) return null;
+    const dt = p.collection === 'cpap-bipap' ? (p.data as any).device_type : null;
+    const href =
+      p.collection === 'cpap-bipap' ? `/${dt}/${p.data.slug}/` : `/oxygen-concentrators/${p.data.slug}/`;
+    return { label: p.data.product_name, href };
+  })
+  .filter((x): x is { label: string; href: string } => x !== null);
+
+const categoryCards = [
+  { href: '/oxygen-concentrators/', key: 'O2', title: 'Concentrators', meta: `${products.length} units` },
+  { href: '/cpap/', key: 'CPAP', title: 'CPAP', meta: `${cpapCount} units` },
+  { href: '/bipap/', key: 'BiPAP', title: 'BiPAP', meta: `${bipapCount} units` },
+  { href: '/compare/', key: 'CMP', title: 'Compare', meta: `${comparisons.length} curated + live builder` },
+  { href: '/guides/', key: 'GDE', title: "Buyer's guides", meta: `${guides.length} pieces` },
+  { href: '/clinical/', key: 'CLN', title: 'Clinical', meta: `${clinical.length} articles` },
+];
+
+const desc =
+  "India's independent respiratory-equipment reference. Every oxygen concentrator, CPAP, and BiPAP sold in the country, scored against the same published rubric. No free product, no sponsored placement, no brand veto.";
+---
+<BaseLayout title="HHZ Respiratory Review" description={desc}>
+  <section class="home-hero">
+    <p class="home-hero__kicker">HHZ · {allProducts.length} respiratory devices indexed</p>
+    <h1>India's independent respiratory-equipment reference.</h1>
+    <p class="lead">
+      Every oxygen concentrator, CPAP, and BiPAP sold in the country, scored against the same published rubric.
+      No free product, no sponsored placement, no brand veto.
+    </p>
+  </section>
+
+  <section class="home-search" aria-labelledby="home-search-heading">
+    <h2 id="home-search-heading" class="section-kicker">Search {allProducts.length} reviewed devices</h2>
+    <SearchBox
+      entries={allProducts}
+      id="home-search"
+      placeholder="Type at least 2 characters — e.g. philips, 10 lpm, airsense…"
+      minChars={2}
+      maxResults={8}
+    />
+    {popular.length > 0 && (
+      <p class="home-search__popular">
+        <span class="section-kicker">Popular</span>
+        {popular.map((p, i) => (
+          <>
+            <a href={p.href}>{p.label}</a>
+            {i < popular.length - 1 && <span class="home-search__divider">·</span>}
+          </>
+        ))}
+      </p>
+    )}
+  </section>
+
+  <section class="home-catalogue" aria-labelledby="home-catalogue-heading">
+    <h2 id="home-catalogue-heading" class="section-kicker">Browse the catalogue</h2>
+    <div class="home-catalogue__grid">
+      {categoryCards.map((card) => (
+        <a class="home-cat" href={card.href}>
+          <span class="home-cat__key mono-data">{card.key}</span>
+          <span class="home-cat__body">
+            <span class="home-cat__title">{card.title}</span>
+            <span class="home-cat__meta mono-data">{card.meta}</span>
+          </span>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <SchemaOrganization />
+</BaseLayout>
+
+<style>
+  .home-hero {
+    padding: var(--space-8) 0 var(--space-10);
+    border-bottom: 1px solid var(--color-border);
+    margin-bottom: var(--space-10);
+  }
+
+  .home-hero__kicker {
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    margin: 0 0 var(--space-4);
+  }
+
+  .home-hero h1 {
+    font-size: clamp(2rem, 4vw + 1rem, 3.25rem);
+    line-height: 1.05;
+    letter-spacing: -0.03em;
+    margin: 0 0 var(--space-4);
+    max-width: 22ch;
+  }
+
+  .home-hero .lead {
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    color: var(--color-text-muted);
+    max-width: 52ch;
+    margin: 0;
+  }
+
+  .home-search {
+    margin-bottom: var(--space-12);
+  }
+  .home-search__popular {
+    margin-top: var(--space-4);
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--space-2);
+  }
+  .home-search__popular .section-kicker {
+    margin-right: var(--space-2);
+    margin-bottom: 0;
+  }
+  .home-search__popular a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--color-border-strong);
+    padding-bottom: 1px;
+  }
+  .home-search__popular a:hover {
+    border-bottom-color: var(--color-accent);
+  }
+  .home-search__divider {
+    color: var(--color-text-subtle);
+  }
+
+  .home-catalogue__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 0;
+    border-top: 1px solid var(--color-rule);
+    border-left: 1px solid var(--color-rule);
+  }
+
+  .home-cat {
+    display: grid;
+    grid-template-columns: 56px 1fr;
+    padding: var(--space-4) var(--space-5);
+    border-right: 1px solid var(--color-rule);
+    border-bottom: 1px solid var(--color-rule);
+    text-decoration: none;
+    color: var(--color-text);
+    background: var(--color-bg);
+    transition: background 0.12s ease;
+  }
+  .home-cat:hover {
+    background: var(--color-surface);
+    color: var(--color-text);
+  }
+  .home-cat__key {
+    font-weight: 700;
+    color: var(--color-accent);
+    font-size: var(--text-sm);
+    letter-spacing: 0.06em;
+    line-height: 1.2;
+    align-self: center;
+  }
+  .home-cat__body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .home-cat__title {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: var(--text-base);
+    letter-spacing: -0.01em;
+  }
+  .home-cat__meta {
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+</style>

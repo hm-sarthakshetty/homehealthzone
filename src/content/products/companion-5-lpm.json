@@ -1,0 +1,91 @@
+{
+  "slug": "companion-5-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Companion-5-LPM",
+  "product_name": "Companion 5 LPM",
+  "brand": "Caire",
+  "brand_href": "https://www.oxygentimes.com/brand/Caire/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "66,240.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/companion-5-lpm-994627e7b8.jpg",
+      "alt": "Companion 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 21638179345.jpg"
+    },
+    {
+      "src": "/images/products/companion-5-lpm-8b7a060bae.jpg",
+      "alt": "Companion 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 21638179445.jpg"
+    },
+    {
+      "src": "/images/products/companion-5-lpm-4b4feeff57.jpg",
+      "alt": "Companion 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 21638179346.jpg"
+    },
+    {
+      "src": "/images/products/companion-5-lpm-fd71e93fa2.jpg",
+      "alt": "Companion 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 21638179368.jpg"
+    },
+    {
+      "src": "/images/products/companion-5-lpm-667abb630f.jpg",
+      "alt": "Companion 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 21638179460.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5-5LPM",
+    "Weight": "16.3kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "285watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5-5LPM",
+      "Weight": "16.3kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "285watts",
+      "Sound level": "50db",
+      "Dimensions": "21.5H x 13.5W x 12.5Dinch",
+      "Operating altitude": "9879feet",
+      "Outlet pressure": "4.6psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 16.3,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 50.0,
+    "power_w": 285,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 9879
+  }
+}

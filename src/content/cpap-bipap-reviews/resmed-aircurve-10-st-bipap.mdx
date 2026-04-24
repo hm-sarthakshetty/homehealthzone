@@ -1,0 +1,117 @@
+---
+title: "ResMed AirCurve 10 ST BiPAP review: a discontinued platform and where to go next"
+description: "A technical review of the ResMed AirCurve 10 ST BiPAP for Indian buyers: 3-25 cmH2O, backup rate, ST mode, succeeded by the Lumis 100 VPAP ST."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+verdict: "The AirCurve 10 ST is discontinued in India and has been replaced by the Lumis 100 VPAP ST; new buyers should go directly to the Lumis 100, and existing AirCurve 10 ST owners should confirm spare-parts availability with their service centre before committing to long-term use."
+pros:
+  - "3-25 cmH2O pressure range with configurable backup rate addresses central-apnoea and NMD patients at lower cost than the Lumis line"
+  - "CPAP, S, ST, and T therapy modes cover spontaneous, timed, and spontaneous-timed bilevel workflows on a single chassis"
+  - "Ti Control, Trigger and Cycle Sensitivity, and Backup Rate all published — the clinician has the full BiPAP tuning envelope"
+  - "Native cellular connectivity and AirView compatibility support the remote titration that backup-rate BiPAP therapy actually requires"
+cons:
+  - "Discontinued status means the Indian dealer channel may be holding last-run inventory, with spares and warranty service becoming progressively harder"
+  - "Pressure Support is explicitly blank on the spec sheet — the device delivers fixed-IPAP/EPAP bilevel rather than PS-targeted support"
+  - "No iVAPS, no volume assurance — for severe OHS or NMD with changing ventilation needs, the Lumis 150 VPAP ST is the correct platform"
+score: 7.5
+tags: ["bipap", "resmed", "aircurve", "st", "discontinued"]
+---
+
+The ResMed AirCurve 10 ST is a Spontaneous-Timed BiPAP from the AirCurve 10 family — the backup-rate-capable sibling of the AirCurve 10 VAuto. It targets patients who require timed ventilatory assist: central sleep apnoea, neuromuscular disease requiring backup breaths, and complex respiratory-insufficiency patients who are not on full invasive ventilation. The device delivers CPAP, S (Spontaneous), ST (Spontaneous-Timed), and T (Timed) modes across a 3-25 cmH2O pressure range, with configurable Backup Rate, Trigger and Cycle Sensitivity, and Ti Control. As of this review (2026-04-23), ResMed India lists the AirCurve 10 ST as Discontinued, with the Lumis 100 VPAP ST positioned as its successor per the manufacturer's own product-end-of-life note in the Indian listing. The indicative last-run retail is ₹67,188 (varies by region/dealer) with HumidAir heated humidifier and ClimateLineAir heated tube. The device carries US FDA, CE, and FAA approval per the manufacturer brochure and e-commerce product listings.
+
+## What the specs actually mean
+
+The 3-25 cmH2O published pressure range is the full bilevel envelope. Adult ST-mode therapy operates in an EPAP 4-10 cmH2O, IPAP 10-20 cmH2O window for most indications, with severe hypoventilation occasionally requiring IPAP 22-24 cmH2O. The 25 cmH2O ceiling delivers genuine clinical headroom. The 3 cmH2O floor is low enough to support gentle ramp-in for patients uncomfortable with full-pressure onset.
+
+Therapy modes: four, all published on the spec sheet.
+
+**CPAP mode** is single-pressure CPAP for patients initially titrated to BiPAP but re-titrated back to CPAP. Rarely used as primary therapy on a ST device.
+
+**S mode** is Spontaneous bilevel — patient-triggered breath cycling, fixed IPAP and fixed EPAP, no backup rate. Equivalent to what the AirCurve VAuto's S mode does, and what most ICU step-down BiPAP prescriptions default to.
+
+**ST mode** is Spontaneous-Timed bilevel — patient-triggered cycling when the patient initiates breaths spontaneously, with machine-triggered breaths at the programmed Backup Rate if the patient's spontaneous rate falls below that threshold. This is the primary clinical mode for central-apnoea management, ALS, post-polio, and many OHS phenotypes. The patient breathes spontaneously when able; the machine backs them up when they do not.
+
+**T mode** is fully timed — machine-triggered breaths at the set rate regardless of patient effort. T mode is rarely used for home therapy; it is more a diagnostic or step-down inpatient mode.
+
+Backup Rate is published as Yes, with the typical ResMed configurable range of 0-30 breaths per minute. The clinician sets a rate appropriate to the patient's spontaneous pattern — usually 2-4 breaths per minute below the spontaneous rate during healthy sleep, so the backup only triggers when the patient's drive fails.
+
+Ti Control — minimum and maximum allowed inspiration time — is published as Yes. Ti Min prevents the device from terminating a breath before delivered inspiratory flow is adequate (important for patients with weak inspiratory effort); Ti Max prevents the device from locking into an excessively long inspiration if the cycle-sensitivity misreads a breath transition (important for patients with large leaks or unstable breathing patterns). Published range on the ResMed clinical interface is 0.3-4.0 seconds typically.
+
+Trigger and Cycle Sensitivity are published as Yes. These are the core patient-ventilator synchronisation controls. Trigger sensitivity determines how readily the device detects the patient's inspiratory effort and delivers a supported breath; cycle sensitivity determines how the device decides the patient has started exhaling and transitions from IPAP to EPAP. On the ResMed interface these are usually graded 1 to 5 — higher sensitivity triggers earlier and cycles earlier. Poor synchronisation is the single most common cause of BiPAP intolerance, and adjustable sensitivity is the clinical lever to fix it.
+
+Rise Time is published as Yes. Controls the IPAP-rise transition slope. Shorter rise time delivers a more aggressive inspiratory feel; longer rise time softens the breath. NMD and ALS patients usually need shorter rise times to achieve adequate tidal volume in the short inspiratory window; anxious or air-hungry patients tolerate longer rise times better.
+
+Pressure Support is explicitly blank on the AirCurve 10 ST spec sheet. This is a specification nuance worth flagging: the AirCurve 10 ST delivers fixed IPAP and fixed EPAP in S/ST modes, and the "pressure support" — the delivered IPAP minus EPAP — is the numerical difference the clinician sets by prescribing IPAP and EPAP separately. The device does not expose Pressure Support as a directly-set parameter the way some other BiPAPs do. Clinically, the end result is the same, but the clinical interface handles it differently.
+
+Central Apnea Detection is published as Yes. The device flags central events in the overnight data stream. In ST mode, central events are typically pre-empted by the backup-rate kick-in, so the AHI and central-AHI in ST-mode data are usually lower than in spontaneous-only modes. This is the correct therapy response.
+
+Leakage Compensation is published as Yes. The device maintains delivered pressure through mask leak up to the published tolerance. This is critical on ST mode because a sudden mask leak can interfere with cycle-sensitivity detection and cause spurious backup-breath delivery; the compensation logic filters the leak signal from the patient-effort signal.
+
+RERA Reporting is blank on this spec sheet. For ST-mode patients, RERA tracking is clinically less central than it is for OSA — the dominant respiratory events are central apnoeas and hypoventilation episodes, not flow-limitation arousals. The absence is acceptable for the target patient population.
+
+Altitude Compensation is published as Yes. The device auto-compensates to roughly 2,591 m.
+
+Humidification is the full AirCurve 10 chassis path: integrated HumidAir heated humidifier, ClimateLineAir heated tube compatibility, Climate Control with auto temperature/humidity. Preheat and Adaptive Humidification are both Yes.
+
+Connectivity: SD card Yes, Cloud connectivity/Wifi Yes. Bluetooth blank. Same as the AirCurve 10 VAuto — native cellular modem for AirView, SD card for clinical data retrieval, no patient-facing Bluetooth.
+
+Published sound level is 25 dB. Weight is 1.24 kg. Footprint 115 × 255 × 150 mm — essentially identical to the VAuto and the AirSense 10 because they share the chassis.
+
+## Who should buy it
+
+Given the Discontinued status, the real question is who should hold onto an existing AirCurve 10 ST versus switch. For a patient currently stable on the AirCurve 10 ST — central-apnoea patient on ST mode, NMD patient on backup rate, OHS patient on ST with adequate ventilation — the device continues to deliver prescribed therapy and the AirView data stream continues to work. There is no acute reason to replace a functioning unit. The concern is 2-4 years out as the spare-parts inventory at ResMed India's dealer network ages.
+
+For a clinician ordering new BiPAP inventory for a sleep practice, the correct buy is the Lumis 100 VPAP ST, not the AirCurve 10 ST. This is not a close call — the Lumis 100 is the designated successor, priced meaningfully lower (₹47,900 vs ₹67,188), with a broader therapy-mode list (CPAP, ST, S, T, PAC) and a slightly wider pressure range (2-25 cmH2O vs 3-25 cmH2O).
+
+For a patient whose sleep study shows a clinical picture specifically requiring backup rate — central apnoea index >5, neuromuscular weakness with documented ventilatory failure, OHS with hypercapnic overlap — and whose authorised dealer still has AirCurve 10 ST stock in inventory, the device is clinically adequate and the price at the discontinued-stock level may be negotiable. But the Lumis 100 VPAP ST is simply the better buy at this point in the product cycle.
+
+If the patient has access to legacy institutional inventory — hospitals still carrying AirCurve 10 ST loaner units, rental fleets at sleep clinics — the device remains fully serviceable by ResMed authorised technicians in metros. The chassis has not gone end-of-life on service, only on new sales.
+
+## Who shouldn't
+
+Anyone starting fresh on BiPAP therapy today should not buy an AirCurve 10 ST. The discontinuation is the single most important reason — long-term spare-parts and warranty-service risk on a 5-7 year home-therapy device makes the Lumis 100 VPAP ST the obvious alternative at a lower price.
+
+Any patient with severe obesity hypoventilation syndrome — BMI >45, daytime PaCO2 >55 mmHg, nocturnal hypoventilation with falling tidal volumes on ABG — should not be on an AirCurve 10 ST. These patients need volume-assured pressure support. The Lumis 150 VPAP ST with iVAPS is the clinically correct device, and the price delta over the AirCurve 10 ST is small enough (₹63,490 vs ₹67,188) that the iVAPS upgrade is the rational buy.
+
+Any patient with an uncomplicated obstructive sleep apnoea profile — AHI 15-40, no central component, no hypoventilation — should not be on an ST-class BiPAP. The indication is wrong. The AirSense 10 or 11 is the correct device, and the AirCurve 10 ST's backup-rate capability is a feature the patient will never clinically need.
+
+Any patient requiring ASV (adaptive servo-ventilation) for severe complex sleep apnoea or treatment-emergent central apnoea should not be on a conventional ST-mode BiPAP. The AirCurve 10 ASV (a different device in the AirCurve family) is the clinically correct platform, or a ResMed VPAP Adapt if that is still available in the Indian market through specialist channels.
+
+And any patient whose clinician is not running AirView-based remote titration should think carefully about buying the AirCurve 10 ST — backup-rate BiPAP therapy needs serial pressure-support, rise-time, and Ti adjustments over the first several months, and without AirView these adjustments require repeated clinic visits with physical SD-card data handoff. That is a real ongoing cost of the therapy.
+
+## How it compares to real alternatives
+
+**ResMed Lumis 100 VPAP ST (₹47,900).** The designated successor to the AirCurve 10 ST. The Lumis 100 delivers CPAP, ST, S, T, and PAC (Pressure Assist Control) modes — one more therapy mode than the AirCurve 10 ST — at a 2-25 cmH2O pressure range (slightly wider at the low end than the AirCurve 10 ST's 3-25 cmH2O). Backup Rate, Trigger and Cycle Sensitivity, Ti Control, and Rise Time are all published. Intelligent Backup Rate (iBR) is a specific Lumis feature — the device only delivers backup breaths when truly needed (during real apnoeas or effort lapses) rather than on every rate drop, which improves patient comfort and avoids unnecessary machine-triggered breaths. The Lumis 100 lists cellular as No in the published spec, which is a regression from the AirCurve 10 ST's native cellular — clinicians running AirView should confirm SKU-specific connectivity options. Our call: buy the Lumis 100 over the AirCurve 10 ST on cost and iBR grounds, and specifically confirm connectivity SKU at purchase.
+
+**ResMed Lumis 150 VPAP ST (₹63,490).** The Lumis 150 is the iVAPS-capable BiPAP in the lineup and is the correct step-up for severe OHS and NMD patients. It has all the ST-mode capability of the AirCurve 10 ST plus Volume-Assured Pressure Support (iVAPS mode), which measures alveolar ventilation breath-by-breath and adjusts pressure support to achieve a target tidal volume or minute ventilation. For any patient with documented hypoventilation who needs ventilation-targeted therapy rather than pressure-targeted therapy, the Lumis 150 is the clinical answer. The ₹63,490 price is essentially parity with the AirCurve 10 ST's ₹67,188, which makes the Lumis 150 the better buy for hypoventilation patients by a clear margin.
+
+**ResMed AirCurve 10 VAuto (₹66,800).** The VAuto is the same-chassis sibling of the AirCurve 10 ST with auto-adjusting IPAP (VAuto mode) instead of backup-rate capability. For patients with CPAP-failure OSA or complex sleep apnoea without clinically meaningful central apnoeas, VAuto is the correct mode. For patients specifically requiring backup rate — NMD, central apnoea, OHS with ventilatory failure — VAuto is the wrong device and the AirCurve 10 ST (or its Lumis successors) is clinically correct.
+
+**Philips DreamStation BiPAP AVAPS.** The Philips DreamStation AVAPS is the closest cross-brand analogue with volume-assurance features, competing with the Lumis 150. For ST-mode-only therapy, Philips' DreamStation BiPAP ST competes more directly with the AirCurve 10 ST. The persistent Indian service-confidence issue post the 2021 Respironics recall applies to the BiPAP line too, and Indian sleep physicians have largely moved to ResMed for BiPAP prescriptions. Our call: ResMed (Lumis 100 or 150) over Philips for new BiPAP prescriptions in India.
+
+## Indian-market considerations
+
+AirView integration on the AirCurve 10 ST is via the native cellular modem in the standard Indian SKU. For a discontinued device, the AirView data upload continues to function as long as ResMed India maintains platform support for the AirCurve 10 generation, which they currently do. Patients whose clinicians rely on AirView-based remote titration can continue using the device without workflow disruption.
+
+Voltage handling on the external 90 W power brick is universal 100-240 V AC input. Indian grid fluctuations handled within spec. Surge protection recommended.
+
+Altitude compensation published as Yes, with the device auto-compensating up to the rated 2,591 m operating altitude. For patients travelling regularly to mid-altitude Indian destinations (Shimla, Nainital, Ooty), this is adequate. Above 2,591 m the device goes out of spec.
+
+Prescription portability for ST-mode BiPAP in India requires specialist-level prescription with full parameter set — IPAP, EPAP, backup rate, rise time, Ti min, Ti max, trigger and cycle sensitivity. Authorised dealers will require this documentation.
+
+Service-network reality for the AirCurve 10 ST in India is the single largest issue for buyers considering this device. ResMed authorised service centres continue to stock major AirCurve 10 spares — blower assembly, humidifier tub, power supply, SD-card reader — but as the product has been discontinued for new sales, new-stock ordering may lengthen and the service tier-2-city coverage may degrade over 2-3 years. Patients committing to an AirCurve 10 ST should confirm with their authorised dealer that spare-parts inventory covers at least a 5-year forward horizon.
+
+Dealer pricing on the discontinued AirCurve 10 ST varies more widely than on current-production devices. Some dealers are clearing last-run inventory at ₹60,000-65,000; others holding refurbished or demo units are pricing at ₹50,000-55,000. Hospital-channel pricing (where it is still bundled with sleep-study packages) is typically 15-25% above retail. Buyers should not pay above ₹60,000 for a new-in-box AirCurve 10 ST today when the Lumis 100 at ₹47,900 is the better-supported successor.
+
+Humidity management on the AirCurve 10 ST is identical to the other AirCurve 10 platform devices — HumidAir with Adaptive Humidification, ClimateLineAir heated tube with Climate Control. This handles both coastal-monsoon and dry-winter extremes well.
+
+Warranty is 2 years manufacturer, sometimes 3 years by dealer promotion per the manufacturer brochure and e-commerce product listings. The practical warranty concern on a discontinued device is whether the dealer will honour year-2 and year-3 claims once spare-parts availability tightens. ResMed authorised dealers generally honour warranty on the chassis for the posted term regardless of discontinuation.
+
+## Verdict
+
+The AirCurve 10 ST earns a 7.5 — competent and clinically adequate for its published indications, but discontinued and with a lower-cost better-supported successor already on the market. The 3-25 cmH2O pressure range, configurable Backup Rate, Ti Control, Trigger and Cycle Sensitivity, and Rise Time deliver the full BiPAP clinical envelope for ST-mode therapy, and the chassis shares the 25 dB sound level and HumidAir humidification path with the rest of the AirCurve 10 family.
+
+What keeps the score at 7.5 rather than higher is the discontinuation reality and the existence of the Lumis 100 VPAP ST at ₹47,900 — which is the same clinical class at meaningfully lower cost, with the iBR (Intelligent Backup Rate) feature the AirCurve 10 ST does not have. For a new prescription today, the Lumis 100 is simply the better device at the better price.
+
+If you already own an AirCurve 10 ST and it is working, do not replace it. Confirm with your ResMed authorised service centre that they hold spare-parts inventory for at least the next 3-5 years, and keep using the device. If you are buying new today, go to the Lumis 100 VPAP ST. If you need volume-assured pressure support, go to the Lumis 150 VPAP ST. And if your clinical picture is CPAP-failure OSA without backup-rate indication, the AirCurve 10 VAuto is the correct device, not the AirCurve 10 ST.

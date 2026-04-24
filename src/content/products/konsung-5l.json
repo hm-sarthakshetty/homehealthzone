@@ -1,0 +1,73 @@
+{
+  "slug": "konsung-5l",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Konsung-5L",
+  "product_name": "Konsung 5L",
+  "brand": "Konsung",
+  "brand_href": "https://www.oxygentimes.com/brand/Konsung/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "34,560.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/konsung-5l-56b1a3fac0.jpg",
+      "alt": "Konsung 5L",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot_2021-12-17_at_61639745796.jpg"
+    },
+    {
+      "src": "/images/products/konsung-5l-689801b9d5.jpg",
+      "alt": "Konsung 5L",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot_2021-12-17_at_61639745797.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5-5LPM",
+    "Weight": "18kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "350watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5-5LPM",
+      "Weight": "18kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "350watts",
+      "Sound level": "48db",
+      "Dimensions": "23.22H x 15.35W x 12.2Dinch",
+      "Outlet pressure": "7psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 18.0,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 48.0,
+    "power_w": 350,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

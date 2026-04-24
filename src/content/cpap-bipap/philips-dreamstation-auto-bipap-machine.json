@@ -1,0 +1,102 @@
+{
+  "slug": "philips-dreamstation-auto-bipap-machine",
+  "source_url": "https://www.oxygentimes.com/cpap-bipap/philips-dreamstation-auto-bipap-machine",
+  "product_name": "Philips Dreamstation Auto BiPAP Machine",
+  "brand": "Philips Respironics",
+  "brand_href": "https://www.oxygentimes.com/brand/Philips-Respironics/cpap-bipap",
+  "category": "BiPAP",
+  "price_current": "63,999.00",
+  "price_mrp": "105,600.00",
+  "price_symbol": "₹",
+  "rating_value": "4.9 (341)",
+  "rating_count": "341",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/philips-dreamstation-auto-bipap-machine-7aadf23826.jpg",
+      "alt": "Philips Dreamstation Auto BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/philips-respironics-dreamstation-auto-bipap1662098019.jpg"
+    },
+    {
+      "src": "/images/products/philips-dreamstation-auto-bipap-machine-cb5fa4d21e.jpg",
+      "alt": "Philips Dreamstation Auto BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/dream11664983916.jpg"
+    },
+    {
+      "src": "/images/products/philips-dreamstation-auto-bipap-machine-9329be4a4a.jpg",
+      "alt": "Philips Dreamstation Auto BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/dream21664983916.jpg"
+    },
+    {
+      "src": "/images/products/philips-dreamstation-auto-bipap-machine-72bdab9981.jpg",
+      "alt": "Philips Dreamstation Auto BiPAP Machine",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/dream31664983916.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "Auto BiPAP",
+    "Modes": "Auto BiPAP, Fixed BiPAP and Fixed CPAP",
+    "Pressure Range": "4-25cmH₂O",
+    "Ergonomic Tilted Display": "Yes",
+    "Detachable Design": "Yes",
+    "Sound level": "27dB"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "Auto BiPAP",
+      "Modes": "Auto BiPAP, Fixed BiPAP and Fixed CPAP",
+      "Pressure Range": "4-25cmH₂O",
+      "Ergonomic Tilted Display": "Yes",
+      "Detachable Design": "Yes",
+      "Sound level": "27dB",
+      "Weight": "1.33Kg",
+      "Dimensions": "157 x 193 x 84mm",
+      "Company Headquaters": "USA",
+      "Auto On/Off": "Yes",
+      "Ramp Duration": "0-45min.",
+      "Auto Ramp": "Yes",
+      "Ramp Down": "No",
+      "EPR": "Yes",
+      "Humidifier": "Optional",
+      "Heated Tube Compatibility": "Yes",
+      "Climate control": "Yes",
+      "Preheat": "Yes",
+      "Adaptive Humidification": "Yes",
+      "Mask Fit": "Yes",
+      "Central Apnea Detection": "Yes"
+    },
+    "Additional details": {
+      "Leak Alert": "Yes",
+      "Altitude Compensation": "Yes",
+      "VAPS": "",
+      "Trigger & Cycle sensitivity": "Yes",
+      "Ti Control": "",
+      "Rise Time": "",
+      "Ti(inspiration time)": "",
+      "Pressure Support": "Yes",
+      "Central Apnea Treatment": "",
+      "Back up rate": "",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "Yes",
+      "Waterless Humidification": "",
+      "Leakage Compensation": "Yes",
+      "SD card": "Yes",
+      "Bluetoooth": "Yes",
+      "QR code": "",
+      "FAA": "Yes",
+      "FDA": "",
+      "CE": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Philips DreamStation Auto BiPAP Machine\n\nThe Philips DreamStation Auto BiPAP Machine is designed to provide a comfortable alternative to CPAP therapy for obstructive sleep apnea patients. With advanced features, customizable therapy modes, and cloud connectivity, the DreamStation Auto BiPAP is loaded with features. \n\n\n\t\n\tTherapy Modes\n\t\n\n\nThe DreamStation Auto BiPAP have multiple therapy modes, including Auto BiPAP, Fixed BiPAP, and Fixed CPAP, allowing you to choose the most comfortable and effective mode for your needs.\n\n\n\t\n\tAdvanced Comfort Features\n\t\n\n\nThe machine has Smart Ramp with adjustable timing from 5 to 45 minutes that ensures a smooth transition to therapy pressure. Additional comfort options like preheat, pressure relief, Auto On/Off, and auto humidification make therapy more adaptable.\n\n\n\t\n\tDesign\n\t\n\n\nWith a compact and detachable design, the DreamStation is easy to clean and maintain. Its interactive color display is intuitive and user-friendly, enhancing the overall experience for effortless operation and monitoring.\n\n\n\t\n\tHeated Humidification\n\t\n\n\nPhilips DreamStation Auto BiPAP comes with a heated humidifier and an optional heated tube, the DreamStation allows for auto humidification, ensuring a consistent moisture level throughout the night to prevent dryness.\n\n\n\t\n\tCloud Connectivity\n\t\n\n\nThe DreamStation Auto BiPAP is equipped with built-in Bluetooth and cloud connectivity, enabling remote monitoring for a more personalized therapy experience.\n\n\n\t\n\tWarranty \n\t\n\n\nPhilips DreamStation Auto BiPAP offers 2 years warranty.\n\nWhat's in the Box? \n\n\n\tDevice\n\tOptional Humidifier \n\tFlexible tubing\n\tReusable blue pollen filter\n\tPower cord\n\tPower supply\n\tDisposable light-blue ultra-fine filter (optional)\n\tCarrying case\n\tSD Card\n\tUser Manual",
+  "related_links": [],
+  "device_type": "bipap",
+  "normalized_specs": {
+    "weight_kg": 1.33,
+    "noise_db": 27.0,
+    "pressure_min_cmh2o": 4.0,
+    "pressure_max_cmh2o": 25.0,
+    "has_humidifier": true
+  }
+}

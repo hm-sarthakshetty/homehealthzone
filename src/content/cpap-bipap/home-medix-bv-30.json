@@ -1,0 +1,108 @@
+{
+  "slug": "home-medix-bv-30",
+  "source_url": "https://www.homemedix.in/",
+  "product_name": "Home Medix HM-BV-30 BiPAP",
+  "brand": "Home Medix",
+  "brand_href": "/brand/home-medix/",
+  "category": "BiPAP",
+  "price_current": "29,000",
+  "price_mrp": "45,000",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/hm-bv-30-hero.png",
+      "alt": "Home Medix HM-BV-30 BiPAP machine — compact white chassis with integrated heated humidifier and control display",
+      "original": "HM_PAP.pdf brochure"
+    }
+  ],
+  "key_features": {
+    "Type": "BiPAP with TVAPS",
+    "Modes": "CPAP, APAP, S, Auto S, S/T, T, TVAPS",
+    "Pressure Range": "4-30cmH₂O",
+    "Sound level": "<30dB",
+    "Weight": "1.45kg",
+    "Humidifier": "Heated (0–5 levels)"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "BiPAP with TVAPS (target-volume assured pressure support)",
+      "Modes": "CPAP, APAP, S, Auto S, S/T, T, TVAPS",
+      "Algorithm": "Patented SAF (Synchronized Auto-Flow) — leak-compensated synchronization",
+      "Pressure Range": "4-30cmH₂O",
+      "Sound level": "<30dB",
+      "Weight": "1.45kg",
+      "Dimensions": "253 × 168 × 121 mm",
+      "Humidifier": "Heated (0–5 levels, integrated)",
+      "Back up rate": "Yes (T and S/T modes)",
+      "Ramp": "Yes",
+      "Auto On/Off": "Yes",
+      "Central Apnea Detection": "Yes (OSA / CSA)"
+    },
+    "Additional details": {
+      "VAPS": "Yes (TVAPS — target-volume assured)",
+      "Pressure Support": "Yes (S, Auto S, S/T modes)",
+      "Trigger & Cycle sensitivity": "Yes (SAF synchronization)",
+      "Leak Alert": "Yes",
+      "Leakage Compensation": "Yes (SAF algorithm)",
+      "Flow Limitation Detection": "Yes",
+      "Hypopnea Detection": "Yes (multi-severity)",
+      "Snoring Detection": "Yes (multi-frequency)",
+      "Altitude Compensation": "",
+      "Heated Tube Compatibility": "",
+      "Climate control": "",
+      "Adaptive Humidification": "",
+      "SD card": "",
+      "Cloud connectivity/Wifi": "",
+      "Bluetooth": "",
+      "RERA Reporting": "",
+      "SpO2 Monitoring Compatibility": "",
+      "Company Headquarters": "India",
+      "Indian Voltage Model": "Yes",
+      "CDSCO": "Approved",
+      "ISO 9001": "Yes",
+      "ISO 13485": "Yes",
+      "CE": "",
+      "FDA": "",
+      "FAA": ""
+    }
+  },
+  "faqs": [
+    {
+      "q": "What modes does the HM-BV-30 support?",
+      "a": "CPAP, APAP, S, Auto S, S/T, T, and TVAPS. That is the full clinical mode set for BiPAP and home non-invasive ventilation — covers obstructive sleep apnea (CPAP / APAP), mixed apnea with central events (S/T, T with back-up rate), and volume-targeted therapy for obesity-hypoventilation and neuromuscular disease (TVAPS)."
+    },
+    {
+      "q": "What is TVAPS?",
+      "a": "Target-Volume Assured Pressure Support — the machine auto-adjusts inspiratory pressure to deliver a clinician-set tidal volume despite changes in airway resistance or patient effort. Equivalent to ResMed's iVAPS and Philips' AVAPS. Clinically important for obesity-hypoventilation syndrome, progressive neuromuscular disease (Duchenne, ALS), and other conditions where volume delivery must be guaranteed."
+    },
+    {
+      "q": "How loud is the HM-BV-30?",
+      "a": "The published specification is <30 dB — matching the HM-CV-20 CPAP sibling and competitive with the BMC G3 B30VT (26 dB) and ResMed AirCurve class."
+    },
+    {
+      "q": "What is the pressure range?",
+      "a": "4–30 cmH₂O — the full BiPAP range, supporting high-pressure-need patients (severe OSA, obesity-hypoventilation on elevated IPAP). The CPAP sibling HM-CV-20 caps at 20 cmH₂O."
+    }
+  ],
+  "description_text": "The HM-BV-30 is Home Medix's BiPAP with TVAPS (target-volume assured pressure support), covering the full clinical mode set — CPAP, APAP, S, Auto S, S/T, T, and TVAPS — across a 4–30 cmH₂O pressure range. Built on the patented SAF algorithm for leak-compensated synchronization. Multi-level respiratory event detection includes flow limitations, multi-frequency snoring, multi-severity hypopnea, and OSA/CSA apnea. Published specs: <30 dB sound, 1.45 kg with integrated heated humidifier (0–5 levels), 253 × 168 × 121 mm footprint. ISO 9001 + ISO 13485 + CDSCO approved. Positioned against the BMC G3 B30VT, ResMed AirCurve ST, Philips DreamStation BiPAP, and Lowenstein Prisma family.",
+  "related_links": [
+    "/bipap/bmc-g3-b30vt-bipap-machine/",
+    "/bipap/resmed-aircurve-v-auto/",
+    "/cpap/home-medix-cv-20/",
+    "/oxygen-concentrators/home-medix-5-lpm/"
+  ],
+  "device_type": "bipap",
+  "normalized_specs": {
+    "weight_kg": 1.45,
+    "noise_db": 30,
+    "pressure_min_cmh2o": 4,
+    "pressure_max_cmh2o": 30,
+    "has_humidifier": true,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

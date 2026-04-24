@@ -1,0 +1,110 @@
+{
+  "slug": "home-medix-10-lpm",
+  "source_url": "https://www.homemedix.in/",
+  "product_name": "Home Medix HM-KX 10 LPM",
+  "brand": "Home Medix",
+  "brand_href": "/brand/home-medix/",
+  "category": "10 LPM",
+  "price_current": "65,000",
+  "price_mrp": "85,000",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/hm-kx-hero.png",
+      "alt": "Home Medix HM-KX 10 LPM oxygen concentrator — white floor-standing chassis with castors and HM logo",
+      "original": "HM-Product-Catalog-v1 / HM-KX-Flyer-v2"
+    }
+  ],
+  "key_features": {
+    "Purity": "93% ± 3%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5–10 L/min",
+    "Weight": "25.6 kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "550 VA"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "93% ± 3%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5–10 L/min",
+      "Weight": "25.6 kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "550 VA",
+      "Sound level": "≤ 48 dB (field-verified)",
+      "Dimensions": "368 × 346 × 695 mm",
+      "Outlet pressure": "0.04–0.06 MPa"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "Yes",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes (High Temperature)",
+      "No Flow Alarm": "Yes (Low/No Flow)",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "India",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    },
+    "Home Medix differentiators": {
+      "Integrated Nebulization": "Yes",
+      "Precise Electronic Flowmeter": "Yes",
+      "One-Touch SOS Alert": "Yes — high-volume audible alarm button for summoning a nearby attendant (local siren; no mobile app or telecom channel)",
+      "Hour Counter": "User-visible running-hour display",
+      "Working Voltage": "AC 230V / 50Hz, ±10% tolerance (207–253 V)",
+      "Industrial-Grade Compressor": "Yes",
+      "Ultra-Quiet Operation": "Yes (< 48 dB field-verified)",
+      "ISO 9001": "Yes",
+      "ISO 13485": "Yes",
+      "CDSCO": "Approved",
+      "Warranty": "3 years or 10,000 hours of operation, whichever comes first"
+    }
+  },
+  "faqs": [
+    {
+      "q": "What is the HM-KX's output range?",
+      "a": "0.5 to 10 L/min of continuous flow at 93% ± 3% oxygen concentration, per the published technical specification. That puts it in the high-flow stationary class typically needed for severe COPD, ILD progression, post-discharge high-flow therapy, or ventilator bridging at home."
+    },
+    {
+      "q": "How loud is the HM-KX?",
+      "a": "The published sound spec is ≤ 48 dB at 1 m, field-verified. That ties the Nidek Nuvo 10 as the quietest 10 LPM on the Indian market. For 24/7 LTOT use, placement in an adjacent room with tubing extension is common at this flow class."
+    },
+    {
+      "q": "What is integrated nebulization?",
+      "a": "The HM-KX can deliver oxygen-rich nebulized medication through the same circuit, eliminating the need for a separate nebulizer during treatment. The feature is useful when patients on high-flow O₂ also require nebulized bronchodilators or steroids."
+    },
+    {
+      "q": "What power draw should a stabiliser support?",
+      "a": "The HM-KX draws 550 VA — the lowest in the 10 LPM class. A servo stabiliser rated for roughly 825 VA (1.5× the rated draw) is the conventional sizing for Indian mains voltage variance. In areas with frequent outages, pair with an online UPS or a pure-sine inverter — not a square-wave one, which can damage the compressor motor."
+    },
+    {
+      "q": "What is the warranty?",
+      "a": "3 years or 10,000 hours of operation, whichever comes first. For a unit running continuously in a chronic LTOT setting, the hour counter typically reaches 10,000 before the 3-year calendar limit."
+    }
+  ],
+  "description_text": "The HM-KX is Home Medix's 10 LPM high-flow stationary oxygen concentrator. Published specs cover 0.5–10 L/min continuous flow, 93% ± 3% oxygen concentration, ≤ 48 dB sound level (field-verified, ties Nidek Nuvo 10 as class-quietest), 550 VA at 230V / 50Hz (lowest in the 10 LPM class), 25.6 kg, and 368 × 346 × 695 mm footprint. Feature set includes integrated nebulization, a precise electronic flowmeter, a one-touch SOS audible siren, smart safety alarms, and an industrial-grade compressor. ISO 9001 + ISO 13485 + CDSCO approved with a 3-year / 10,000-hour warranty.",
+  "related_links": [
+    "/oxygen-concentrators/home-medix-5-lpm/",
+    "/oxygen-concentrators/nidek-nuvo-10-litre/",
+    "/oxygen-concentrators/philips-10-lpm/",
+    "/oxygen-concentrators/oxymed-10-litres/",
+    "/oxygen-concentrators/devilbiss-10-lpm/"
+  ],
+  "normalized_specs": {
+    "weight_kg": 25.6,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 10,
+    "purity_min": 90,
+    "purity_max": 96,
+    "noise_db": 48,
+    "power_w": 550,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true,
+    "warranty_years": 3
+  }
+}

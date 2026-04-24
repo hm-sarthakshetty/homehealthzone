@@ -1,0 +1,42 @@
+---
+export interface Props {
+  title: string;
+  description: string;
+  lastReviewed?: string;
+  reviewedBy?: string;
+  credentials?: string;
+}
+
+const { title, description, lastReviewed, reviewedBy, credentials } = Astro.props;
+
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? 'https://example.com').toString();
+
+const ld: Record<string, unknown> = {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalWebPage',
+  url: canonicalUrl,
+  name: title,
+  description,
+  mainContentOfPage: {
+    '@type': 'MedicalEntity',
+    name: title,
+  },
+};
+
+if (lastReviewed) {
+  ld.lastReviewed = lastReviewed;
+  ld.datePublished = lastReviewed;
+  ld.dateModified = lastReviewed;
+}
+
+if (reviewedBy) {
+  const reviewer: Record<string, unknown> = {
+    '@type': 'Person',
+    name: reviewedBy,
+  };
+  if (credentials) reviewer.honorificSuffix = credentials;
+  ld.reviewedBy = reviewer;
+  ld.lastReviewedBy = reviewer;
+}
+---
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />

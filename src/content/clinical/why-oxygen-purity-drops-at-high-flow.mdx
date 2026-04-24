@@ -1,0 +1,120 @@
+---
+title: "Why oxygen purity drops at high flow: PSA throughput physics and the rated-flow envelope"
+description: "Why a 5 LPM concentrator delivers 93% at rated flow but less at 6 LPM, and why 10 LPM machines often derate above 8 LPM. Breakthrough physics, cycle compression, and prescribing implications."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["psa", "oxygen-concentrator", "flow-rate", "purity", "throughput"]
+---
+
+Why does the same oxygen concentrator deliver 94% O₂ at 2 LPM, 92% at 4 LPM, and 87% at 6 LPM? The answer is not that the device is failing or that the manufacturer is cutting corners. The answer is that a PSA (pressure-swing-adsorption) bed has a finite rate at which it can capture nitrogen from a passing gas stream, and pushing more gas through the same bed in the same unit of time pushes each gas molecule past the zeolite faster than it can be captured. The flow-versus-purity curve that results is a fundamental property of the hardware, not a calibration imperfection.
+
+This article walks through the physics of adsorbent-bed throughput, the cycle-time compression that happens at high flow, the specific numbers that 5 LPM and 10 LPM class units publish (and what they imply about the bed design), and the clinical consequences when a patient needs an occasional burst of higher-flow oxygen. It is written for prescribing clinicians who want to titrate oxygen intelligently across activity levels, and for biomedical engineers or dealers who have to explain why "5 LPM at 93%" and "10 LPM at 93%" are not the same kind of spec.
+
+## The bed capacity vs flow demand balance
+
+A PSA bed has a **working capacity** for nitrogen, measured in moles of N₂ per kilogram of zeolite per cycle, or equivalently in standard-litres of N₂ adsorbed per kilogram per cycle. Working capacity is not the total loading the bed could hold at feed pressure; it is the difference between the loading at feed pressure and the loading at vent pressure, because that is what the pressure-swing cycle actually delivers.
+
+For commercial 13X at typical PSA conditions (1.5 bar feed, 1.0 bar vent, 295 K, 78% N₂ in feed), working capacity is roughly 0.5–0.8 mol N₂/kg/cycle. LiLSX runs roughly 1.0–1.5 mol N₂/kg/cycle at the same conditions, reflecting both the higher equilibrium selectivity and the steeper isotherm that releases more of the loading in the vent pressure swing. [CITATION: Yang RT — Adsorbents: Fundamentals and Applications, Wiley 2003.]
+
+The demand side is set by the product flow and the target purity. To produce 5 LPM of 93% O₂, the bed must remove N₂ from approximately 25 LPM of feed air (because the 5:1 feed-to-product ratio at typical PSA conditions is set by the mass balance on N₂). That is roughly 19.5 LPM of N₂ adsorbed, or ~0.87 mol/min at STP.
+
+The balance equation: if the bed has a working capacity W (mol/kg/cycle) and runs at n cycles per minute, then each kilogram of bed can adsorb W × n moles of N₂ per minute. The bed mass M required to meet the demand D is:
+
+  M ≥ D / (W × n)
+
+For a 5 LPM / 93% unit demanding 0.87 mol N₂/min with W = 0.8 mol/kg/cycle and n = 6 cycles/min (10-second cycle):
+
+  M ≥ 0.87 / (0.8 × 6) ≈ 0.18 kg of zeolite per bed
+
+But this is the theoretical minimum assuming 100% bed utilisation and zero safety margin. Real designs multiply this by 10–20× to account for the mass-transfer zone width, breakthrough safety margin, and cycle timing headroom. A 5 LPM unit typically carries 2–4 kg of 13X per bed or 0.6–1.2 kg of LiLSX per bed. At twice the demand (10 LPM class), the bed mass doubles — and if the bed geometry, compressor output, or cycle timing cannot scale to that, the delivered purity suffers.
+
+## Cycle-time compression at high flow
+
+The first thing that happens when a PSA unit is asked to deliver more flow than designed: the adsorption front inside the bed moves faster. The front velocity through the bed is approximately proportional to the superficial gas velocity. Doubling the feed flow roughly halves the time before the front reaches the bed outlet and nitrogen "breaks through" into the product stream.
+
+The cycle controller has two defensive responses. Neither is free.
+
+**Response 1: shorten the cycle.** Cut the half-cycle time from 10 seconds to 6 seconds so the front never has time to break through. This works until it hits the limits of the solenoid valves (maximum cycle rate before valve life collapses), the pressure-ripple tolerance of the product tank (more switches per minute means more pressure noise in the delivered gas), and the regeneration time the off bed needs (if you cut the vent-and-purge half-cycle too short, the off bed doesn't have time to fully desorb, and its next adsorption half-cycle starts with reduced working capacity).
+
+**Response 2: accept the breakthrough.** Let the front break through for the final seconds of each half-cycle, and accept a lower average purity in the product tank. This is what happens when the cycle time cannot be compressed further, or when the compressor cannot maintain feed pressure at the higher flow demand.
+
+Both responses degrade the purity at rated flow. In a well-tuned 5 LPM unit, the designer has found the cycle timing that delivers 93% at 5 LPM without either problem. Push beyond rated flow, and the designer's margin is gone.
+
+## The typical flow-vs-purity curve
+
+Manufacturer specifications commonly quote a single-point purity ("93% ± 3% across the rated flow range") rather than a full curve. But the real shape of the curve is reasonably consistent across mid-tier 5 LPM stationary units, based on ISO 80601-2-69 test data and manufacturer spec sheets: [CITATION: ISO 80601-2-69:2020; manufacturer spec sheets cross-referenced with third-party test labs.]
+
+| Flow | Typical delivered purity (mid-tier 5 LPM stationary) |
+|---|---|
+| 1 LPM | 95–96% (near the argon-limited ceiling) |
+| 2 LPM | 94–95% |
+| 3 LPM | 93–94% |
+| 4 LPM | 91–93% |
+| 5 LPM | 89–93% (rated flow) |
+| 6 LPM | 82–88% (outside rated range for a 5 LPM unit) |
+| 7+ LPM | &lt;82% or OPI trips (firmly out of spec) |
+
+The curve is gentle from 1 to 4 LPM and begins to steepen between 4 and 5 LPM as the design margin narrows. Above rated flow, the curve falls off a cliff because the cycle can no longer keep up with the front propagation.
+
+Different manufacturer specs map onto this curve differently:
+
+- **Philips Everflo 5 LPM** specifies "90–96%" across 1–5 LPM — a wide window that reflects the ISO standard's acknowledgment of unit-to-unit and condition-dependent variation. The unit's 350 W compressor is sized with enough headroom to hold the top of the window across most of the flow range in well-maintained service. [CITATION: Philips Respironics Everflo technical specifications — product listing and brochures.]
+- **Nidek Nuvo Lite 5 LPM** publishes "90–96%" at 290 W. A smaller compressor means less headroom; in practice the Nuvo Lite tends to deliver near the top of the window at low flow and closer to 90% at 5 LPM, consistent with a tighter margin at rated flow.
+- **BPL Oxy 5 Neo 5 LPM** at 400 W and 25 kg is the heavy-end of the 5 LPM class. More compressor power and more bed mass buy a wider purity margin at rated flow.
+
+The differences between these units at 2 LPM are often within a few percent (all deliver 93–96% at low flow). The differences at rated flow can be meaningful. Units designed with generous compressor sizing and bed mass deliver closer to 93% at 5 LPM; units at the minimum margin deliver closer to 89–90%. Both are within the published spec envelope.
+
+[DIAGRAM: Flow-vs-purity curves for three 5 LPM stationary units overlaid. All three start at ~95% at 1 LPM; the high-margin unit stays above 93% through 5 LPM; the tight-margin unit drops to ~89% at 5 LPM; the over-spec run shows both curves falling sharply above 5 LPM.]
+
+## Why 10 LPM machines often derate above 8 LPM
+
+A 10 LPM concentrator is not simply a 5 LPM unit with a larger flow meter. It is a different design with a larger compressor (typically 500–700 W vs 300–400 W), a larger bed, and frequently a different valve manifold to handle the higher feed throughput. In principle, a well-designed 10 LPM unit should deliver spec purity (typically 90–96%) across its full rated flow range.
+
+In practice, many 10 LPM units in the Indian market publish **"spec purity at 8 LPM or below, reduced purity above 8 LPM"** in their technical documentation, or quote a purity range that narrows at the top of the flow range. Why?
+
+**Reason 1: the compressor is undersized for sustained maximum flow.** Building a 10 LPM unit with enough compressor headroom to hold 93% purity at 10 LPM indefinitely adds weight, power draw, noise, and cost. Many commercial designs split the difference: size the compressor to hold spec across 1–8 LPM and accept purity derating in the 8–10 LPM band. This is perfectly clinically acceptable for most patients who require sustained 8 LPM but need occasional 10 LPM bursts, and it produces a unit at a reasonable price point.
+
+**Reason 2: the bed mass / cycle rate is tuned for 8 LPM.** Doubling the bed mass above what's needed for sustained 8 LPM is expensive. Cycle-time compression can extend the usable range by ~20% above the design point, which is where the 8 LPM → 10 LPM specification typically comes from.
+
+**Reason 3: two-outlet models (dual flowmeter).** The BPL Oxy 5 Neo Dual Flowmeter and some 10 LPM units are designed to deliver 5 LPM per port on two patients simultaneously. The internal bed mass is sized for 10 LPM total across both ports. Drawing 10 LPM from a single port on these units is outside the design envelope and will produce sub-spec purity even though the flow meter reads 10 LPM.
+
+Clinicians prescribing 10 LPM class units should read the manufacturer's purity spec carefully for the flow at which the patient will actually be operating. "10 LPM at 93%" and "10 LPM at 85%" are both possible published specs; the difference matters for patients with severe hypoxaemia at rest who need sustained high-FiO₂ delivery.
+
+## Implications for titrating flow in patients who briefly need higher output
+
+The clinical question this physics raises: a patient prescribed 3 LPM continuous who needs 6 LPM during acute exacerbation or exercise — can their 5 LPM concentrator deliver the 6 LPM request?
+
+The answer depends on what the device is willing to do past its rated flow.
+
+**Category 1: Hard flow limit.** Some concentrators, particularly premium stationary units with firmware-enforced flow caps, will not deliver more than rated flow regardless of what the flow meter is set to. The OPI trips at sub-spec purity as soon as the user exceeds rated flow, and the unit may alarm or throttle back. This is the safest behaviour but limits the clinical envelope.
+
+**Category 2: Soft flow limit with alarm.** Many mid-tier stationaries will deliver the requested flow up to the flow meter's maximum reading (often 6–7 LPM on a 5 LPM unit) with the OPI firing to indicate sub-spec purity. The patient gets more gas but at a lower FiO₂. For brief bursts of activity or to tide over an exacerbation, this can be clinically useful — the volume delivered may be what's needed even if the concentration is reduced.
+
+**Category 3: Continuous delivery without feedback.** Older or budget units may simply deliver the flow without meaningful purity monitoring. A patient on such a unit running at 6 LPM on a 5 LPM concentrator may be receiving 82–86% O₂ without any indication that the purity has dropped. This is clinically concerning for patients whose prescribed dose assumed 93%+ delivered purity.
+
+The practical protocol for patients who may need brief high-flow bursts: confirm the unit's behaviour at the flow meter's maximum, run a purity test at that flow, and document the result. For patients whose high-flow requirement is frequent or sustained, **upsizing to a 10 LPM concentrator is the right answer rather than running a 5 LPM unit at its limit.** The 10 LPM unit at 6 LPM operates in its comfortable mid-range and delivers full-spec purity. The 5 LPM unit at 6 LPM is in overload and is almost certainly sub-spec.
+
+For portable oxygen concentrators (POCs), the same physics applies but more aggressively. Most POCs use pulse-flow delivery at low settings (1, 2, 3 on the unit's dial correspond roughly to 1 LPM, 2 LPM, 3 LPM bolus-equivalents), and their adsorbent bed is sized for pulse delivery at moderate purity. Running a POC continuously at "setting 5" often operates near its maximum, and delivered-equivalent purity drops faster than the spec-sheet suggests for continuous-flow equivalents. The Inogen One G5 at 2.2 kg publishes "90–93%" purity with pulse settings 1–6; at higher settings the margin is thinner and actual delivered O₂ to the airway depends on the inhalation pattern. [CITATION: Inogen One G5 technical specifications.]
+
+## Altitude and temperature compound the flow derating
+
+The flow-vs-purity curve is drawn at sea level at 22–25 °C. Altitude reduces feed-air density (at 2,000 m the air is ~80% the density of sea level, so each cubic metre of feed has 20% less N₂ to adsorb per pass, shifting the flow-vs-purity curve downward at a given flow). High ambient temperature reduces the adsorption equilibrium loading at both feed and vent pressures, also compressing working capacity and shifting the curve.
+
+An Indian patient in Leh (3,500 m) running a 5 LPM concentrator rated to 7,500 ft (2,286 m) operates outside the manufacturer's envelope: the unit may deliver 5 LPM but at ~85% purity rather than 93%. A patient in Delhi in May (45 °C ambient, unit in a room that may reach 38–40 °C) pushes the unit toward the lower end of its published envelope, again without any alarm to indicate that the curve has shifted.
+
+For these patients, the prescribing clinician should either specify a higher-capacity unit or accept the derated purity at prescribed flow. Running a tight-margin unit in overload conditions simultaneously against a high-flow requirement is a recipe for sub-82% events and OPI firing during the exact moments the patient most needs the oxygen.
+
+## Practical takeaway for Indian buyers and clinicians
+
+For patients whose prescribed flow will ever exceed 3 LPM — **buy a unit whose rated flow is at least 1–2 LPM above the prescribed maximum.** A 5 LPM unit is right for a 2–3 LPM prescription with occasional bursts; a 10 LPM unit is right for a 5–7 LPM prescription; a patient prescribed 9 LPM continuous needs a 10 LPM-rated unit that holds spec at 9 LPM, not at 8 LPM. Overheading by one rating tier is the single most reliable way to avoid sub-spec FiO₂ delivery.
+
+For prescribers reviewing a patient's home setup: **ask for a purity reading at the prescribed flow, not just a rated-flow spec.** A patient whose unit reads 94% at 2 LPM could be running a failed 5 LPM at 2 LPM with room to spare, or a stressed 10 LPM at 2 LPM on its way to bed replacement. The reading at flow is what maps to delivered FiO₂.
+
+For dealers and biomedical engineers explaining this to patients: **the flow knob on the front of a concentrator is not a volume knob, it is a trade between volume and concentration.** Turning it up gives more gas but lower concentration; turning it down gives less gas but higher concentration. In most clinical prescriptions, the right working point is in the comfortable middle of the unit's rating, not at either edge.
+
+For patients in altitude regions (Leh, Manali, Shimla, Gangtok, Darjeeling, Ooty, Munnar, Mussoorie, Srinagar at 1,500–3,500 m elevations), **verify the unit's altitude rating before purchase** — 7,500 ft (~2,286 m) is the mainstream rating for a Philips Everflo or Nidek Nuvo Lite; a BPL Oxy 5 Neo rated to 6,000 ft (~1,830 m) is outside spec at Shimla and higher. High-altitude-rated units exist but are a small fraction of the Indian market.
+
+Consult your treating physician for flow and titration decisions; this article is educational and does not replace a clinical prescription.
+
+*Further reading: [how PSA oxygen concentration works](/clinical/how-psa-oxygen-concentration-works/) for the cycle-level physics, [why 93% is the ceiling](/clinical/why-93-percent-is-the-ceiling/) for the argon-limited purity asymptote, and [oxygen therapy at altitude in India](/clinical/oxygen-therapy-at-altitude-india/) for altitude derating specifics. [CITATION: ISO 80601-2-69:2020; manufacturer spec sheets; Ruthven DM — Principles of Adsorption.]*

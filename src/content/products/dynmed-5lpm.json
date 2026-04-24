@@ -1,0 +1,68 @@
+{
+  "slug": "dynmed-5lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Dynmed-5LPM",
+  "product_name": "Dynmed 5LPM",
+  "brand": "Dynmed",
+  "brand_href": "https://www.oxygentimes.com/brand/Dynmed/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "39,360.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/dynmed-5lpm-bd51c872eb.jpg",
+      "alt": "Dynmed 5LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-29 at 31638179093.jpg"
+    }
+  ],
+  "key_features": {
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5-5LPM",
+    "Price": "60999",
+    "Weight": "15.9kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "320watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5-5LPM",
+      "Price": "60999",
+      "Weight": "15.9kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "320watts",
+      "Sound level": "45db",
+      "Dimensions": "24.4H x 16.9W x 12.5Dinch",
+      "Operating altitude": "7500feet",
+      "Outlet pressure": "8.4psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Modes": "1",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "What's in the Box?\n\nOxygen Concentrator\n\n1 Humidifier Bottle\n\n1 Nasal Cannula\n\nUser Manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 15.9,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5.0,
+    "noise_db": 45.0,
+    "power_w": 320,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "altitude_ft": 7500
+  }
+}

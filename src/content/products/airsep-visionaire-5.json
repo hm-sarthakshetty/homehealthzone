@@ -1,0 +1,81 @@
+{
+  "slug": "airsep-visionaire-5",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/airsep-visionaire-5",
+  "product_name": "Airsep Visionaire 5",
+  "brand": "AirSep",
+  "brand_href": "https://www.oxygentimes.com/brand/AirSep/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "54,999.00",
+  "price_mrp": "80,640.00",
+  "price_symbol": "₹",
+  "rating_value": "5 (64)",
+  "rating_count": "64",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/airsep-visionaire-5-8eefded98f.jpg",
+      "alt": "Airsep Visionaire 5",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/av11664992995.jpg"
+    },
+    {
+      "src": "/images/products/airsep-visionaire-5-11f8a36c21.jpg",
+      "alt": "Airsep Visionaire 5",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/av31664993076.jpg"
+    },
+    {
+      "src": "/images/products/airsep-visionaire-5-7bc4031ac4.jpg",
+      "alt": "Airsep Visionaire 5",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/av21664993102.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Type": "Stationary",
+    "Continuous Flow": "0.5-5LPM",
+    "Weight": "13.6kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "290watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Type": "Stationary",
+      "Continuous Flow": "0.5-5LPM",
+      "Weight": "13.6kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "290watts",
+      "Sound level": "45db",
+      "Dimensions": "20.8H x 14.1W x 11.5Dinch",
+      "Operating altitude": "10000feet",
+      "Outlet pressure": "8psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "What's in the Box?\n\n\n\tOxygen Concentrator Machine\n\tHumidifer Bottle \n\tNasal Cannula\n\tUser Manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 13.6,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 45.0,
+    "power_w": 290,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 10000
+  }
+}

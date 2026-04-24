@@ -1,0 +1,117 @@
+---
+title: "CPAP pressure titration — in-lab attended, home auto-titration, and how to read the numbers"
+description: "Attended PSG titration vs APAP-as-diagnostic home titration, the 90th/95th-percentile and median pressure columns, and the 8–14 cmH₂O reality."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["cpap", "titration", "psg", "apap", "split-night", "prescription-pressure", "osa"]
+---
+
+Every CPAP prescription answers one narrow question: at what delivered mask pressure does the airway stay open across all of this patient's sleep stages, body positions, and REM episodes? The answer is never an instantaneous measurement. It is the end-product of either a full night of attended titration in a sleep lab, or one to two weeks of home auto-titration on an APAP used as a diagnostic instrument. Both produce a number that then gets copied onto the prescription and into the final CPAP's settings — but the two routes see different failure modes, report different summary statistics, and cost materially different amounts of money.
+
+This article walks through both routes: what an in-lab attended titration does minute-by-minute, what the home APAP-as-diagnostic workflow actually measures, how to read the 90th-percentile vs 95th-percentile vs median pressure columns on a titration report, why most patients end up prescribed between 8–14 cmH₂O, what to do when titration doesn't converge, and the rupee-cost reality of each option in Indian sleep labs.
+
+## Attended in-lab titration — the mechanics
+
+A full attended titration is a polysomnography performed with the patient already interfaced to a titration-capable CPAP. A trained sleep technologist monitors the raw flow, effort, EEG, EOG, EMG, and SpO₂ channels in real time and adjusts mask pressure manually, in 1 cmH₂O increments, according to a pre-defined protocol. The AASM 2008 titration guidelines (with subsequent updates) set the canonical decision rules:
+
+- **Starting pressure** 4–5 cmH₂O on CPAP; higher (7–10 cmH₂O + 4 cmH₂O of pressure support) on BiPAP starts.
+- **Increase by 1 cmH₂O** if any of: ≥ 2 obstructive apneas, ≥ 3 hypopneas, ≥ 5 RERAs, or ≥ 3 minutes of loud unambiguous snoring occur within a 5-minute observation window.
+- **Hold** each pressure for ≥ 15–30 minutes of clean, stable breathing — including REM and supine sleep — before declaring the pressure adequate.
+- **Maximum CPAP pressure** 20 cmH₂O; switch to BiPAP if pressure-related arousals appear or the patient cannot tolerate further increases.
+- **Down-titrate** if over-pressure arousals, central apnea emergence, or mask leak destabilise the recording. [CITATION: Kushida CA et al, J Clin Sleep Med 2008 — AASM Clinical Guidelines for PAP Titration.]
+
+The single non-negotiable technical requirement is that the study observes the patient in **both REM and NREM, and in both supine and lateral body positions**, because airway collapsibility varies dramatically across these states. In many patients, supine-REM is the worst-case subset that determines the final prescription. A titration that never observed supine-REM — because the patient spent the whole night in lateral NREM — produced a pressure that will prove inadequate when the patient eventually rolls supine in REM at home.
+
+## Split-night vs full-night
+
+A **full-night titration** is a dedicated second visit after the diagnostic PSG. 7–8 hours of recording, single purpose. This is the gold standard and produces the most defensible prescription.
+
+A **split-night study** combines diagnosis and titration in a single overnight visit: diagnostic PSG for the first 2–3 hours, convert to titration for the remaining 4–5 hours if the diagnostic half shows severe OSA (commonly AHI > 40 in the first 2 hours, with centre-specific variants). Split-night is cost-efficient and dominant in Indian private practice, but it has real limits:
+
+- The titration half is shorter and may not capture supine-REM adequately.
+- In patients with moderate (not severe) OSA, the conversion threshold is not met, and a dedicated titration still has to be scheduled.
+- The diagnostic AHI from a split-night is calculated over a shorter window and carries larger sampling variance than a full diagnostic night.
+
+For most Indian patients with clearly severe OSA on screening (AHI > 30, heavy desaturation burden, obvious symptoms), split-night is operationally reasonable. For patients with borderline diagnostic AHI, a full diagnostic night followed by a separate titration night — or a home APAP-as-diagnostic run — is cleaner.
+
+## Home auto-titration — the APAP-as-diagnostic workflow
+
+An APAP is a CPAP that varies its delivered pressure breath-by-breath within a prescribed range (typically 4–20 cmH₂O), guided by the device's flow-limitation, snore, and apnea detection algorithms. The same hardware that delivers therapy can also perform a de facto titration when sent home with a diagnosed patient for a fixed trial period, typically 7–14 nights.
+
+The workflow looks like this:
+
+- Patient receives a home APAP set to a broad range (4–20 cmH₂O), optionally with a modest EPR setting, and a properly fitted mask.
+- Patient sleeps on the device every night for 10–14 nights, ideally in typical home conditions (own bed, normal sleep schedule, no travel).
+- At end of trial, the SD card is pulled (or cellular-modem data downloaded) and the per-night pressure distributions are reviewed.
+- Summary pressure statistics (median, 90th percentile, 95th percentile, peak) across the trial form the basis of the prescription.
+
+The clinical premise is that a well-instrumented APAP, averaged over multiple nights, will have delivered a pressure that suppressed events. The 95th-percentile pressure across the trial is typically quoted as the "titrated" pressure, and a fixed CPAP at that pressure (or an APAP with a narrower range around it) is then prescribed.
+
+Home APAP-as-diagnostic has real advantages over single-night in-lab titration:
+
+- **Multi-night averaging** smooths over night-to-night variability (position, alcohol, sleep architecture variance).
+- **Observation in the patient's own bed** — real pillow, real mattress, real HVAC — captures environmental factors a lab bedroom doesn't.
+- **Cost is a fraction** of an in-lab titration (see pricing section).
+
+It also has real disadvantages:
+
+- **No EEG, no effort belt, no SpO₂.** The APAP cannot score sleep stages, distinguish true apnea from wake-drift, or confirm oxygen desaturation. The pressure decisions are flow-based.
+- **The algorithm's blind spots become the study's blind spots.** A ResMed AutoSet and a BMC APAP run side-by-side on the same patient produce different pressure distributions because the underlying flow-limitation detection differs.
+- **Central apnea emergence is not well characterised.** If CPAP unmasks treatment-emergent centrals (CompSAS), a home APAP may log "ClearAirway" events but cannot distinguish central from obstructive with the same confidence as an attended study with effort belts.
+
+On balance, home APAP-as-diagnostic is excellent for straightforward moderate-severe OSA in otherwise healthy adults. It is less suitable for patients with heart failure, significant COPD, stroke history, suspected central sleep apnea, or complex comorbidity — these groups benefit from attended titration.
+
+## Reading the titration report — median, 90th, 95th percentile
+
+A modern titration report (from either route) includes a pressure distribution across the recording. The key columns:
+
+- **Median pressure (50th percentile).** Half the time the device delivered less than this, half the time more. Reflects the "typical" pressure the patient needed.
+- **90th percentile.** The pressure below which the device operated 90% of the time. The remaining 10% — typically supine-REM episodes, post-arousal recovery, or transient events — required higher pressure.
+- **95th percentile.** The same logic, one tick tighter. This is the number most prescribing physicians use as the fixed CPAP prescription if the patient is being switched from APAP to a fixed-pressure unit.
+- **Peak pressure.** The highest pressure delivered at any point. Often driven by isolated supine-REM events or algorithm reactions to leak. Not a prescription input on its own.
+
+The practical heuristic: the 95th-percentile pressure from a multi-night APAP trial is a defensible fixed CPAP prescription; the median is too low (will leave REM-supine events un-treated); the peak is too high (will cause aerophagia and pressure intolerance). In recent guidance, many Indian and international physicians simply leave the patient on APAP with a narrowed range — say, (95th percentile − 2) to (95th percentile + 2) — rather than switching to fixed CPAP. This preserves the APAP's ability to chase pressure during rough nights without the sleeper being over-pressured during calm NREM.
+
+## Why most OSA patients titrate between 8–14 cmH₂O
+
+Across published titration distributions in moderate-to-severe OSA cohorts, the prescription pressure modal range sits between 8–14 cmH₂O, with the central tendency around 10–11 cmH₂O in adults. [CITATION: Large-cohort titration studies; Kushida CA et al 2006 clinical guidelines reference.] The physiological reasons:
+
+- Below 6–7 cmH₂O, most CPAP-responsive airways remain collapsible during supine-REM. The airway splint is incomplete.
+- Above 14–15 cmH₂O, aerophagia becomes meaningfully prevalent, pressure-related arousals rise, and patient tolerance falls sharply without BiPAP-style pressure support relief.
+- 8–14 cmH₂O is the mechanical sweet spot for splinting the pharynx in a standard-anatomy adult with moderate-to-severe OSA.
+
+Outliers exist: patients with marked obesity, craniofacial factors, severe positional dependency, or neuromuscular disease may titrate at 16–20 cmH₂O and often move to BiPAP. Younger, slimmer patients with mild OSA sometimes titrate at 6–7 cmH₂O. An Indian adult patient whose report comes back with a prescribed pressure of 22 cmH₂O deserves a second look — usually the titration has encountered pressure-intolerance and should have been switched to BiPAP rather than climbing on CPAP.
+
+## When titration doesn't converge
+
+Some titration nights — in-lab or home APAP — fail to produce a stable, defensible prescription. The common failure modes:
+
+- **Persistent REM-supine events at maximum comfortable pressure.** The patient can't tolerate higher CPAP; switch to BiPAP with moderate pressure support (IPAP 14 / EPAP 10 is a common start), which often resolves.
+- **Treatment-emergent central apnea (CompSAS).** CPAP suppresses obstructive events but unmasks central events. Continuing to raise pressure makes it worse. Requires a dedicated ASV (adaptive servo-ventilation) titration, or a BiPAP-ST trial with backup rate.
+- **High leak destabilising the study.** If mask leak exceeds 24 L/min at titration pressures, the delivered pressure and the event scoring both become unreliable. Re-fit the mask and re-titrate, not push the pressure higher.
+- **Periodic breathing without CompSAS criteria.** Cheyne-Stokes-like waxing-waning in a patient with unrecognised heart failure; management shifts beyond OSA alone.
+
+Each of these outcomes is clinically actionable only if the titration technologist or clinician actually names the failure mode in the report. A titration report that says "pressure 22 cmH₂O, residual AHI 14" without any commentary on why the titration failed is clinically unhelpful and should prompt a call back to the lab.
+
+## Indian sleep-lab costs and operational realities
+
+**In-lab attended titration**, full-night, at metro private labs: typically ₹8,000–₹18,000 in 2026. Academic-centre or premium-tier sleep labs can run higher (₹20,000–₹28,000). Public-hospital wait times for PSG and titration can run into months; private-lab bookings are usually available within 1–3 weeks.
+
+**Split-night PSG + titration** at the same centres: roughly ₹10,000–₹22,000 — a single visit fee slightly higher than a pure diagnostic night but much less than two separate nights.
+
+**Home APAP rental as diagnostic**, 7–14 nights, including SD-card download and basic interpretation: ₹2,500–₹6,000 through Indian dealers offering APAP-trial programmes. Not all dealers offer this — it's still a premium-dealer workflow — but availability is growing in Mumbai, Delhi-NCR, Bengaluru, Hyderabad, and Chennai.
+
+**Pure home-APAP purchase and self-titration** (patient buys an APAP outright): the upfront spend is the APAP cost (indicative retail ₹40,000–₹90,000 for premium units), with a clinician later reviewing the downloaded data. Economically this only makes sense when the patient is proceeding to therapy regardless — you are buying the therapy device and extracting the titration as a free by-product.
+
+Insurance / GIPSA mediclaim coverage for sleep studies in India is inconsistent. Many mediclaim policies exclude outpatient sleep studies entirely; those that cover will typically cover in-lab PSG and titration but not home APAP trials. CGHS and ESIC coverage exists for government beneficiaries at empanelled centres but almost always requires a pre-authorisation paperwork trail. [CITATION: CGHS sleep-study reimbursement policy; centre-specific insurance empanelment lists.]
+
+## Clinical takeaway
+
+A titration — whether in-lab attended or home APAP — is the bridge between diagnosis and therapy. The prescription pressure it produces is only as reliable as the study that generated it. Read the report for the actual pressure distribution (median, 90th, 95th), not just the headline number. Verify that REM and supine sleep were both observed (in-lab) or that the trial spanned enough nights to capture the patient's full behavioural range (home). Be wary of single-night titrations that land on unusually high prescriptions, and of home APAP runs shorter than 7 nights. When titration doesn't converge, name the failure mode — don't just accept a high residual AHI.
+
+HHZ's editorial view: for straightforward moderate-severe OSA in otherwise healthy adults, a 10-night home APAP-as-diagnostic workflow produces a more defensible prescription than a single-night split-night, at roughly one-quarter the cost. For comorbid patients (heart failure, significant COPD, stroke, suspected CompSAS), attended in-lab titration with effort belts and SpO₂ remains the appropriate investigation.
+
+Consult your sleep physician for interpretation of your specific titration result and for prescription decisions — the report, not the headline pressure number, is the clinically useful document.
+
+*References: AASM 2008 Clinical Guidelines for PAP Titration [CITATION]; Kushida CA et al, J Clin Sleep Med 2008 [CITATION]; manufacturer APAP titration white papers — ResMed, Philips, BMC [CITATION]; Indian private-lab fee surveys 2025–26.*

@@ -1,0 +1,68 @@
+{
+  "slug": "oxypure-5-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/oxypure-5-lpm",
+  "product_name": "OxyPure 5 LPM Oxygen Concentrator",
+  "brand": "Sanrai",
+  "brand_href": "https://www.oxygentimes.com/brand/Sanrai/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "57,590.40",
+  "price_mrp": "62,400.00",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/oxypure-5-lpm-oxygen-concentrator-8f6bb15ba8.jpg",
+      "alt": "OxyPure 5 LPM Oxygen Concentrator",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-10 at 111636523172.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "1-5LPM",
+    "Weight": "15.2kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "350watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "1-5LPM",
+      "Weight": "15.2kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "350watts",
+      "Sound level": "40db",
+      "Outlet pressure": "8.5psi",
+      "Oxygen Purity % Analyzer": ""
+    },
+    "Additional details": {
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "",
+      "Company Headquarters": "India",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "OxyPure 5 LPM Oxygen Concentrator\n\nOxyPure is a 5 LPM home oxygen concentrator that supplies oxygen at a continuous flow rate of 1-5 LPM with an oxygen purity level of 90-96% at all flow rates.\n\nWeight: OxyPure oxygen concentrator weighs 15.6 kgs.\n\nSound: The sound emitted by the device is 40 decibels and is one of the quietest oxygen concentrators available.\n\nPower Consumption: The machine consumes power at 350 watts and can work with Indian stabilizers.\n\nOutlet Pressure: OxyPure delivers oxygen at the outlet pressure of 8.5 psi.\n\nAlarms: Loss of power alarm\n\nWarranty: OxyPure oxygen concentrator comes with 2 years warranty.",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 15.2,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 40.0,
+    "power_w": 350,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": false
+  }
+}

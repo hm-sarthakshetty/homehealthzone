@@ -1,0 +1,24 @@
+{
+  "name": "hhz-site",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "llms:regen": "python3 scripts/generate_llms_full.py",
+    "indexnow:ping": "node scripts/indexnow-ping.mjs",
+    "indexnow:changed": "node scripts/indexnow-ping.mjs --changed"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^5.0.4",
+    "@astrojs/rss": "^4.0.18",
+    "@astrojs/sitemap": "^3.7.2",
+    "astro": "^6.1.9"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.5"
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "invacare-xpo2",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Invacare-XPO2",
+  "product_name": "Invacare XPO2",
+  "brand": "Invacare",
+  "brand_href": "https://www.oxygentimes.com/brand/Invacare/oxygen-concentrator",
+  "category": "Portable (Battery-powered)",
+  "price_current": "153,600.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Discontinued",
+  "images": [
+    {
+      "src": "/images/products/invacare-xpo2-d340bf0041.jpg",
+      "alt": "Invacare XPO2",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-07 at 51638877681.jpg"
+    },
+    {
+      "src": "/images/products/invacare-xpo2-8c6f6be709.jpg",
+      "alt": "Invacare XPO2",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-12-07 at 51638877682.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "Portable (Battery-powered)",
+    "Pulse Flow": "1-5Pulse setting",
+    "mL dose": "15mL",
+    "Weight": "2.7kg",
+    "Oxygen Purity Indicator (OPI)": "No"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "Portable (Battery-powered)",
+      "Pulse Flow": "1-5Pulse setting",
+      "mL dose": "15mL",
+      "Weight": "2.7kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Battery backup (at 2 pulse setting)": "2.5hours",
+      "Recharge time": "4hours",
+      "Backup with external battery pack": "7.5hours",
+      "Sound level": "45db",
+      "Dimensions": "10H x 7W x 4Dinch"
+    },
+    "Additional details": {
+      "Operating altitude": "10000feet",
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "Yes",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 2.7,
+    "has_pulse_flow": true,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 45.0,
+    "has_opi": false,
+    "faa_approved": true,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 10000
+  }
+}

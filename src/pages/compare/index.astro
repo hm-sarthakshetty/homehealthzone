@@ -1,0 +1,98 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CompareBuilder from '../../components/CompareBuilder.astro';
+import { getCollection } from 'astro:content';
+
+const [products, cpapBipap, comparisons] = await Promise.all([
+  getCollection('products'),
+  getCollection('cpap-bipap'),
+  getCollection('comparisons'),
+]);
+
+const allProducts = [...products, ...cpapBipap];
+
+// Popular curated comparisons — kept as secondary, not the primary UI.
+const popular = comparisons
+  .slice()
+  .sort((a, b) => b.data.comparison_score - a.data.comparison_score)
+  .slice(0, 12);
+
+const pageTitle = 'Compare respiratory equipment';
+const description =
+  'Build your own side-by-side comparison: pick any 2–4 oxygen concentrators, CPAP or BiPAP machines and see every published spec compared. Independent data, no marketing fluff.';
+
+const crumbs = [
+  { href: '/', label: 'Home' },
+  { href: '/compare/', label: 'Compare' },
+];
+---
+<BaseLayout title={pageTitle} description={description}>
+  <Breadcrumbs items={crumbs} />
+
+  <header class="hub-header">
+    <h1>Build a comparison</h1>
+    <p class="lead">
+      Pick any two products from the {allProducts.length} we've reviewed — oxygen concentrators,
+      CPAP, or BiPAP — and we'll lay every published spec side-by-side. Add a third or fourth
+      product if you want a wider shootout. Rows where products differ are highlighted.
+    </p>
+  </header>
+
+  <CompareBuilder entries={allProducts} maxSlots={4} />
+
+  {popular.length > 0 && (
+    <section class="popular-comparisons">
+      <h2>Popular curated comparisons</h2>
+      <p class="meta-line">
+        Pre-written comparisons for the matchups people search for most often.
+      </p>
+      <ul class="popular-list">
+        {popular.map((c) => (
+          <li>
+            <a href={`/compare/${c.data.slug}/`}>
+              {c.data.productA_name} vs {c.data.productB_name}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</BaseLayout>
+
+<style>
+  .hub-header {
+    margin-bottom: var(--space-8);
+  }
+  .popular-comparisons {
+    margin-top: var(--space-16);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--color-border);
+  }
+  .popular-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-4) 0 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-2);
+  }
+  .popular-list li {
+    margin: 0;
+  }
+  .popular-list a {
+    display: block;
+    padding: var(--space-3) var(--space-4);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    background: var(--color-surface);
+    color: var(--color-text);
+    text-decoration: none;
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+  }
+  .popular-list a:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+</style>

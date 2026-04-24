@@ -1,0 +1,71 @@
+{
+  "slug": "bpl-oxy-5-neo-5-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/BPL-Oxy-5-Neo-5-LPM",
+  "product_name": "BPL Oxy 5 Neo 5 LPM",
+  "brand": "BPL",
+  "brand_href": "https://www.oxygentimes.com/brand/BPL/oxygen-concentrator",
+  "category": "5 LPM",
+  "price_current": "31,966.08",
+  "price_mrp": "62,400.00",
+  "price_symbol": "₹",
+  "rating_value": "4.1 (18)",
+  "rating_count": "18",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/bpl-oxy-5-neo-5-lpm-97b6c31904.jpg",
+      "alt": "BPL Oxy 5 Neo 5 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/cover1636455453.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-96%",
+    "Type": "Home Stationary",
+    "Continuous Flow": "1-5LPM",
+    "Weight": "25kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "400watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-96%",
+      "Type": "Home Stationary",
+      "Continuous Flow": "1-5LPM",
+      "Weight": "25kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "400watts",
+      "Sound level": "55db",
+      "Dimensions": "21.8H x 11.22W x 18.5Dinch",
+      "Operating altitude": "6000feet",
+      "Outlet pressure": "7.25psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "Yes",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "India",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "BPL Oxy 5 Neo Oxygen Concentrator\n\nBPL Oxy 5 Neo Oxygen Concentrator is an affordable oxygen concentrator that supplies oxygen at the flow rate of 0.5-5 LPM at 90-95% oxygen purity.\n\nWeight: BPL oxygen concentrator weighs 25 kgs and comes with wheels for easy transportation within the house.\n\nSound: The machine produces sound at 55 dB.\n\nPower Consumption: BPL 5 LPM oxygen concentrator consumes around 400 W of electricity.\n\nOperating Altitude: BPL Oxy 5 Neo has an operating altitude of 6000 feet after which the purity level would start to decline.\n\nFlow Meter: BPL 5 LPM comes with a ball-type flow meter with a rotatable knob. The flow rate can be adjusted between 0-5 LPM at an interval of 0.5 LPM.\n\nOutlet Pressure: The machine has an outlet pressure of 7.25 psi. \n\nScreen-display: The machine comes with a user-friendly screen display that acts as an hour-meter and automatic shutdown timer. \n\nAlarms: Loss of power alarm and system malfunction\n\nWarranty: BPL 5 LPM oxygen concentrator has a warranty period of 2 years.\n\nAdditional Features: This oxygen concentrator comes with an in-built storage facility that is big enough to store all the essential accessories such as cannula tubes, humidifier bottles, extra air filters, user manuals, etc. \n\nWhat's in the Box?\n\nOxygen Concentrator\n\nNasal cannula\n\nHumidifier Bottle\n\nNebulizer Bottle\n\nFilter Set\n\nPower cable\n\nUser manual",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 25.0,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 5.0,
+    "purity_min": 90.0,
+    "purity_max": 96.0,
+    "noise_db": 55.0,
+    "power_w": 400,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true,
+    "altitude_ft": 6000
+  }
+}

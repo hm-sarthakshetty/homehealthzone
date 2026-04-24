@@ -1,0 +1,355 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PriceBadge from '../components/PriceBadge.astro';
+import SpecTable from '../components/SpecTable.astro';
+import FAQSection from '../components/FAQSection.astro';
+import RelatedProducts from '../components/RelatedProducts.astro';
+import SchemaProduct from '../components/SchemaProduct.astro';
+import ProductImage from '../components/ProductImage.astro';
+import PriceDisclaimer from '../components/PriceDisclaimer.astro';
+
+type ProductData =
+  | CollectionEntry<'products'>['data']
+  | CollectionEntry<'cpap-bipap'>['data'];
+
+export interface Props {
+  product: ProductData;
+  category: string;       // URL segment e.g. "oxygen-concentrators", "cpap", "bipap"
+  categoryLabel: string;  // display label e.g. "Oxygen concentrators"
+  title?: string;
+  description?: string;
+  canonicalURL?: string;
+  reviewFrontmatter?: {
+    title?: string;
+    verdict?: string;
+    pros?: string[];
+    cons?: string[];
+    score?: number;
+    lastReviewed?: string;
+    reviewedBy?: string;
+    credentials?: string;
+  };
+}
+
+const {
+  product,
+  category,
+  categoryLabel,
+  title: titleProp,
+  description: descriptionProp,
+  canonicalURL,
+  reviewFrontmatter,
+} = Astro.props;
+
+const breadcrumbs = [
+  { href: '/', label: 'Home' },
+  { href: `/${category}/`, label: categoryLabel },
+  { label: product.product_name },
+];
+
+const images = product.images ?? [];
+const primaryImage = images[0];
+const galleryImages = images.slice(1, 5);
+
+const stockLabel = product.stock?.trim() ?? '';
+const stockClass = (() => {
+  const s = stockLabel.toLowerCase();
+  if (!s) return 'stock';
+  if (s.includes('in stock') || s.includes('available')) return 'stock stock--in';
+  if (s.includes('out') || s.includes('sold out')) return 'stock stock--out';
+  if (s.includes('discontinued')) return 'stock stock--discontinued';
+  return 'stock';
+})();
+
+const fallbackDescription =
+  product.description_text && product.description_text.trim().length > 0
+    ? product.description_text.slice(0, 160)
+    : `${product.product_name} — independent review, specifications, and price.`;
+
+const description = descriptionProp ?? fallbackDescription;
+const title = titleProp ?? product.product_name;
+
+const ogImage = primaryImage
+  ? (primaryImage.src.startsWith('http')
+      ? primaryImage.src
+      : new URL(primaryImage.src, Astro.site ?? 'https://example.com').toString())
+  : undefined;
+
+const keyFeatureEntries = Object.entries(product.key_features ?? {});
+const specTables = product.spec_tables ?? {};
+const faqs = product.faqs ?? [];
+---
+<BaseLayout title={title} description={description} canonicalURL={canonicalURL} ogImage={ogImage}>
+  <article class="product">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <header class="product__header">
+      <h1>{product.product_name}</h1>
+      <p class="meta-line">
+        {product.brand && <span>{product.brand}</span>}
+        {product.category && <span>{product.category}</span>}
+        {product.rating_value && (
+          <span>
+            Rated {product.rating_value}
+            {product.rating_count && <> ({product.rating_count} ratings)</>}
+          </span>
+        )}
+      </p>
+    </header>
+
+    <div class="product__top">
+      <div class="product__gallery">
+        {primaryImage ? (
+          <figure class="product__primary-image">
+            <ProductImage
+              src={primaryImage.src}
+              alt={primaryImage.alt || product.product_name}
+              loading="eager"
+              fetchpriority="high"
+            />
+          </figure>
+        ) : (
+          <div class="product__primary-image product__primary-image--empty" aria-hidden="true" />
+        )}
+        {galleryImages.length > 0 && (
+          <ul class="product__thumbs" aria-label="Product images">
+            {galleryImages.map((img) => (
+              <li>
+                <ProductImage src={img.src} alt={img.alt || product.product_name} loading="lazy" />
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
+
+      <aside class="product__summary" aria-label="Purchase summary">
+        <PriceBadge
+          current={product.price_current}
+          mrp={product.price_mrp}
+          symbol={product.price_symbol}
+        />
+        <PriceDisclaimer />
+        {stockLabel && <p><span class={stockClass}>{stockLabel}</span></p>}
+        {reviewFrontmatter?.score !== undefined && (
+          <p class="product__score" aria-label="HHZ score">
+            <span class="product__score-label">HHZ SCORE</span>
+            <span class="product__score-value mono-data">{reviewFrontmatter.score.toFixed(1)}<span class="product__score-denom">/10</span></span>
+          </p>
+        )}
+        {reviewFrontmatter?.verdict && (
+          <p class="product__verdict">{reviewFrontmatter.verdict}</p>
+        )}
+        {!reviewFrontmatter?.verdict && product.description_text && (
+          <p class="product__lead">{product.description_text}</p>
+        )}
+      </aside>
+    </div>
+
+    {keyFeatureEntries.length > 0 && (
+      <section aria-labelledby="key-features-heading">
+        <h2 id="key-features-heading">Key features</h2>
+        <ul class="key-features">
+          {keyFeatureEntries.map(([label, value]) => (
+            <li>
+              <span class="label">{label}</span>
+              <span class="value">{value}</span>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {Object.entries(specTables).length > 0 && (
+      <section aria-labelledby="specs-heading">
+        <h2 id="specs-heading">Specifications</h2>
+        {Object.entries(specTables).map(([tableName, rows]) => (
+          <SpecTable caption={tableName} rows={rows} />
+        ))}
+      </section>
+    )}
+
+    {reviewFrontmatter && (reviewFrontmatter.pros?.length || reviewFrontmatter.cons?.length) && (
+      <section class="pros-cons" aria-labelledby="pros-cons-heading">
+        <h2 id="pros-cons-heading">Pros and cons</h2>
+        <div class="pros-cons__grid">
+          {reviewFrontmatter.pros && reviewFrontmatter.pros.length > 0 && (
+            <div>
+              <h3 class="pros-cons__sub">PROS</h3>
+              <ul class="pros-cons__list pros-cons__list--pro">
+                {reviewFrontmatter.pros.map((p) => <li>{p}</li>)}
+              </ul>
+            </div>
+          )}
+          {reviewFrontmatter.cons && reviewFrontmatter.cons.length > 0 && (
+            <div>
+              <h3 class="pros-cons__sub">CONS</h3>
+              <ul class="pros-cons__list pros-cons__list--con">
+                {reviewFrontmatter.cons.map((c) => <li>{c}</li>)}
+              </ul>
+            </div>
+          )}
+        </div>
+      </section>
+    )}
+
+    <slot />
+
+    {faqs.length > 0 && <FAQSection faqs={faqs} />}
+
+    <RelatedProducts currentSlug={product.slug} category={product.category} />
+
+    <section class="also-compared" aria-labelledby="also-compared-heading">
+      <h2 id="also-compared-heading">Also compared with</h2>
+      <p class="meta-line">
+        Looking for a head-to-head? Browse the
+        {' '}<a href="/compare/">full comparisons index</a> to see how the
+        {' '}{product.product_name} stacks up against competing models.
+      </p>
+    </section>
+  </article>
+
+  <SchemaProduct product={product} />
+</BaseLayout>
+
+<style>
+  .product__top {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+    gap: var(--space-8);
+    margin-block: var(--space-8);
+  }
+  @media (max-width: 780px) {
+    .product__top {
+      grid-template-columns: 1fr;
+    }
+  }
+  .product__primary-image {
+    margin: 0;
+    aspect-ratio: 4 / 3;
+    background: #f5f5f5;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product__primary-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: var(--space-4);
+  }
+  .product__primary-image--empty {
+    min-height: 240px;
+  }
+  .product__thumbs {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-3) 0 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-2);
+  }
+  .product__thumbs li {
+    margin: 0;
+    aspect-ratio: 1 / 1;
+    background: #f5f5f5;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-sm);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product__thumbs img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: var(--space-2);
+  }
+  .product__summary {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-4);
+    padding: var(--space-6);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: var(--color-surface);
+    align-self: start;
+  }
+  .product__lead {
+    font-size: var(--text-base);
+    color: var(--color-text-muted);
+    margin: 0;
+  }
+  .product__score {
+    margin: var(--space-2) 0 0;
+    font-family: var(--font-mono);
+    line-height: 1;
+    border-top: 1px solid var(--color-border);
+    padding-top: var(--space-3);
+  }
+  .product__score-label {
+    display: block;
+    font-size: var(--text-xs);
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    margin-bottom: 4px;
+  }
+  .product__score-value {
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  .product__score-denom {
+    font-size: var(--text-base);
+    color: var(--color-text-subtle);
+    font-weight: 400;
+  }
+  .product__verdict {
+    margin: var(--space-3) 0 0;
+    font-family: var(--font-serif);
+    font-size: var(--text-base);
+    line-height: 1.45;
+    color: var(--color-text);
+    border-left: 2px solid var(--color-accent);
+    padding-left: var(--space-3);
+  }
+  .pros-cons { margin: var(--space-8) 0; }
+  .pros-cons__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 0;
+    border: 1px solid var(--color-rule);
+  }
+  .pros-cons__grid > div {
+    padding: var(--space-4);
+    border-right: 1px solid var(--color-rule);
+  }
+  .pros-cons__grid > div:last-child { border-right: 0; }
+  .pros-cons__sub {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    letter-spacing: 0.1em;
+    color: var(--color-text-muted);
+    margin: 0 0 var(--space-3);
+    font-weight: 700;
+  }
+  .pros-cons__list {
+    margin: 0;
+    padding-left: 1.1em;
+    font-size: var(--text-sm);
+    color: var(--color-text);
+  }
+  .pros-cons__list li { margin-bottom: 0.4em; line-height: 1.45; }
+  .pros-cons__list--pro li::marker { color: var(--color-success); }
+  .pros-cons__list--con li::marker { color: var(--color-error); }
+  .also-compared {
+    margin-top: var(--space-12);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--color-border);
+  }
+</style>

@@ -1,0 +1,320 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseLayout from './BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import PriceBadge from '../components/PriceBadge.astro';
+import PriceDisclaimer from '../components/PriceDisclaimer.astro';
+import ComparisonTable from '../components/ComparisonTable.astro';
+import ProductImage from '../components/ProductImage.astro';
+import { getCollection } from 'astro:content';
+
+type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
+
+export interface Props {
+  productA: ProductEntry['data'];
+  productB: ProductEntry['data'];
+  productAHref?: string;
+  productBHref?: string;
+  productACollection?: 'products' | 'cpap-bipap';
+  productBCollection?: 'products' | 'cpap-bipap';
+  title?: string;
+  description?: string;
+  canonicalURL?: string;
+  currentSlug?: string;
+  comparison?: CollectionEntry<'comparisons'>['data'];
+  writeupFrontmatter?: {
+    title?: string;
+    verdict?: string;
+    winner?: 'A' | 'B' | 'tie';
+    lastReviewed?: string;
+    reviewedBy?: string;
+  };
+}
+
+const {
+  productA,
+  productB,
+  productAHref,
+  productBHref,
+  productACollection = 'products',
+  productBCollection = 'products',
+  title: titleProp,
+  description: descriptionProp,
+  canonicalURL,
+  currentSlug,
+  comparison,
+  writeupFrontmatter,
+} = Astro.props;
+
+const defaultHref = (
+  data: ProductEntry['data'],
+  collection: 'products' | 'cpap-bipap'
+): string => {
+  if (collection === 'cpap-bipap') {
+    const deviceType = (data as CollectionEntry<'cpap-bipap'>['data']).device_type;
+    if (deviceType === 'bipap') return `/bipap/${data.slug}/`;
+    return `/cpap/${data.slug}/`;
+  }
+  return `/oxygen-concentrators/${data.slug}/`;
+};
+
+const hrefA = productAHref ?? defaultHref(productA, productACollection);
+const hrefB = productBHref ?? defaultHref(productB, productBCollection);
+
+const compareTitle = `${productA.product_name} vs ${productB.product_name}`;
+const title = titleProp ?? compareTitle;
+
+const breadcrumbs = [
+  { href: '/', label: 'Home' },
+  { href: '/compare/', label: 'Compare' },
+  { label: compareTitle },
+];
+
+const description =
+  descriptionProp ??
+  `Side-by-side comparison: ${productA.product_name} vs ${productB.product_name} — specs, price, and editorial verdict.`;
+
+const imageA = productA.images && productA.images.length > 0 ? productA.images[0] : null;
+const imageB = productB.images && productB.images.length > 0 ? productB.images[0] : null;
+
+const effectiveSlug = comparison?.slug ?? currentSlug;
+
+// Related comparisons.
+let related: CollectionEntry<'comparisons'>[] = [];
+try {
+  const all = await getCollection('comparisons');
+  related = all
+    .filter((entry) => !effectiveSlug || entry.data.slug !== effectiveSlug)
+    .filter((entry) => (
+      entry.data.productA_slug === productA.slug ||
+      entry.data.productB_slug === productA.slug ||
+      entry.data.productA_slug === productB.slug ||
+      entry.data.productB_slug === productB.slug
+    ))
+    .slice(0, 3);
+} catch {
+  related = [];
+}
+
+const winner = writeupFrontmatter?.winner;
+const winnerLabel = winner === 'A'
+  ? productA.product_name
+  : winner === 'B'
+  ? productB.product_name
+  : winner === 'tie'
+  ? 'Tie'
+  : null;
+---
+<BaseLayout title={title} description={description} canonicalURL={canonicalURL}>
+  <article class="compare">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <header class="compare__header">
+      <h1>{productA.product_name} <span class="compare__vs">vs</span> {productB.product_name}</h1>
+      <p class="meta-line">
+        Independent head-to-head based on the published spec rubric.
+        {writeupFrontmatter?.lastReviewed && (
+          <span>· Reviewed <time datetime={writeupFrontmatter.lastReviewed}>{writeupFrontmatter.lastReviewed}</time></span>
+        )}
+      </p>
+    </header>
+
+    {writeupFrontmatter?.verdict && (
+      <aside class="compare__verdict-box">
+        <p class="compare__verdict-kicker">
+          {winnerLabel ? `VERDICT — ${winnerLabel}` : 'VERDICT'}
+        </p>
+        <p class="compare__verdict-body">{writeupFrontmatter.verdict}</p>
+      </aside>
+    )}
+
+    <div class="comparison">
+      <section class="compare__card" aria-labelledby="compare-a-heading">
+        <h2 id="compare-a-heading" class="compare__card-title">
+          <a href={hrefA}>{productA.product_name}</a>
+        </h2>
+        {imageA && (
+          <figure class="compare__image">
+            <ProductImage src={imageA.src} alt={imageA.alt || productA.product_name} loading="lazy" />
+          </figure>
+        )}
+        <dl class="compare__facts">
+          {productA.brand && (
+            <>
+              <dt>Brand</dt>
+              <dd>{productA.brand}</dd>
+            </>
+          )}
+          {productA.category && (
+            <>
+              <dt>Category</dt>
+              <dd class="mono-data">{productA.category}</dd>
+            </>
+          )}
+        </dl>
+        <PriceBadge
+          current={productA.price_current}
+          mrp={productA.price_mrp}
+          symbol={productA.price_symbol}
+        />
+        <PriceDisclaimer />
+      </section>
+
+      <section class="compare__card" aria-labelledby="compare-b-heading">
+        <h2 id="compare-b-heading" class="compare__card-title">
+          <a href={hrefB}>{productB.product_name}</a>
+        </h2>
+        {imageB && (
+          <figure class="compare__image">
+            <ProductImage src={imageB.src} alt={imageB.alt || productB.product_name} loading="lazy" />
+          </figure>
+        )}
+        <dl class="compare__facts">
+          {productB.brand && (
+            <>
+              <dt>Brand</dt>
+              <dd>{productB.brand}</dd>
+            </>
+          )}
+          {productB.category && (
+            <>
+              <dt>Category</dt>
+              <dd class="mono-data">{productB.category}</dd>
+            </>
+          )}
+        </dl>
+        <PriceBadge
+          current={productB.price_current}
+          mrp={productB.price_mrp}
+          symbol={productB.price_symbol}
+        />
+        <PriceDisclaimer />
+      </section>
+    </div>
+
+    <section aria-labelledby="specs-compare-heading">
+      <h2 id="specs-compare-heading">Specifications compared</h2>
+      <ComparisonTable productA={productA} productB={productB} />
+    </section>
+
+    <section class="compare__analysis" aria-labelledby="analysis-heading">
+      <h2 id="analysis-heading">Analysis</h2>
+      <div class="content-width">
+        <slot />
+      </div>
+    </section>
+
+    {related.length > 0 && (
+      <section class="compare__related" aria-labelledby="related-compare-heading">
+        <h2 id="related-compare-heading">Related comparisons</h2>
+        <ul class="compare__related-list">
+          {related.map((entry) => (
+            <li>
+              <a href={`/compare/${entry.data.slug}/`}>{entry.data.title}</a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </article>
+</BaseLayout>
+
+<style>
+  .compare__header {
+    margin-bottom: var(--space-6);
+  }
+  .compare__vs {
+    color: var(--color-accent);
+    font-weight: 500;
+    font-style: italic;
+  }
+  .compare__verdict-box {
+    border: 1px solid var(--color-rule);
+    padding: var(--space-5);
+    background: var(--color-data-bg);
+    margin: var(--space-6) 0 var(--space-8);
+  }
+  .compare__verdict-kicker {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    letter-spacing: 0.1em;
+    color: var(--color-accent);
+    margin: 0 0 var(--space-2);
+    font-weight: 700;
+  }
+  .compare__verdict-body {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    line-height: 1.45;
+    color: var(--color-text);
+  }
+  .comparison {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-5);
+    margin-bottom: var(--space-8);
+  }
+  @media (max-width: 720px) {
+    .comparison { grid-template-columns: 1fr; }
+  }
+  .compare__card {
+    padding: var(--space-5);
+    border: 1px solid var(--color-rule);
+    background: var(--color-bg);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+  }
+  .compare__card-title {
+    font-size: var(--text-lg);
+    margin: 0;
+  }
+  .compare__card-title a { color: inherit; text-decoration: none; }
+  .compare__card-title a:hover { color: var(--color-accent); }
+  .compare__image {
+    margin: 0;
+    aspect-ratio: 4 / 3;
+    background: var(--color-surface);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .compare__image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: var(--space-3);
+  }
+  .compare__facts {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: var(--space-2) var(--space-4);
+    margin: 0;
+    font-size: var(--text-sm);
+  }
+  .compare__facts dt {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-subtle);
+  }
+  .compare__facts dd { margin: 0; }
+  .compare__analysis {
+    margin-top: var(--space-12);
+  }
+  .compare__related {
+    margin-top: var(--space-12);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--color-border);
+  }
+  .compare__related-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+  }
+</style>

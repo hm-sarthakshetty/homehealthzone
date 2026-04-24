@@ -1,0 +1,320 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout
+  title="Methodology — how we test"
+  description="The HHZ test protocol for oxygen concentrators, CPAP machines, and BiPAP devices: purity, sound, pressure accuracy, leak compensation, sieve endurance, and how we handle measurement uncertainty."
+>
+  <article class="prose">
+    <h1>How we test</h1>
+
+    <p class="lead">
+      Every HHZ review starts with the manufacturer's specification sheet and ends with bench
+      measurements where we can run them. The protocol below is what we apply, in what order,
+      with what tolerances. It is written so that a reader with access to the same equipment
+      could repeat our measurements and expect to land inside our stated uncertainty bands.
+    </p>
+
+    <h2>Oxygen concentrator protocol</h2>
+
+    <h3>Oxygen purity across the working range</h3>
+    <p>
+      Purity is sampled at the outlet after a 20-minute warm-up with the device in its
+      declared operating orientation. We record the flow selector position, the measured
+      flow (via in-line mass-flow reference), and the oxygen fraction by volume. Sample
+      points:
+    </p>
+    <ul>
+      <li>1 LPM</li>
+      <li>2 LPM</li>
+      <li>3 LPM</li>
+      <li>4 LPM</li>
+      <li>5 LPM</li>
+      <li>7 LPM (devices rated for it)</li>
+      <li>10 LPM (devices rated for it)</li>
+    </ul>
+    <p>
+      Each setting is held for 10 minutes before logging a one-minute average. We publish the
+      averaged value and flag any setting at which purity dropped below 82% — the lower bound
+      of the ISO 80601-2-69 acceptable range for home concentrators.
+    </p>
+
+    <h3>Sound level at patient position</h3>
+    <p>
+      Measured on the A-weighted scale with a Class 2 sound level meter at one metre from the
+      device's nearest surface, at ear height for a seated user, in a quiet room (ambient
+      &lt;32 dB(A)). We follow the geometry specified in IEC 60601-1-8 for alarm and operating
+      sound, and we report the slow-averaged steady-state value plus the peak observed during
+      the one-minute window. Rated accuracy of the meter is ±1.5 dB; we publish a ±2 dB
+      uncertainty band.
+    </p>
+
+    <h3>Continuous eight-hour power draw</h3>
+    <p>
+      The device is run at its rated maximum flow for eight hours on a stable 230 V ±2% bench
+      supply, with a power meter logging true RMS current, voltage, apparent power (VA), real
+      power (W), and power factor at ten-second intervals. We report the eight-hour mean and
+      the 95th-percentile draw, and we flag any thermal-cycling pattern that suggests a
+      compressor overload protector cutting in.
+    </p>
+
+    <h3>Sieve endurance cycling</h3>
+    <p>
+      Where a unit is available long enough, we run an accelerated cycle: eight hours at rated
+      flow, one-hour cool-down, eight more hours at rated flow. A purity re-measurement after
+      each 100 cycles flags sieve degradation. Most concentrators in this category are rated
+      for 10,000–20,000 hours of sieve life; accelerated cycling reveals units whose sieves
+      start dropping below 85% purity earlier than the spec suggests.
+    </p>
+
+    <h3>Altitude performance</h3>
+    <p>
+      Where we can, we re-run the purity curve in a low-pressure chamber or at a verified
+      high-altitude location (typically 2,000–2,500 m equivalent) to quantify the drop in
+      delivered purity. For most 5 LPM concentrators, delivered purity at 5 LPM falls by 3–7
+      percentage points between sea level and 2,500 m. We publish the device-specific delta
+      when we have it.
+    </p>
+
+    <h3>Alarm trigger verification</h3>
+    <p>
+      We verify that each manufacturer-declared alarm actually fires and within its declared
+      threshold: low-purity alarm (typically &lt;82%), high-temperature alarm, power-failure
+      alarm, and flow-obstruction alarm. We record the time from fault introduction to alarm
+      annunciation.
+    </p>
+
+    <h2>CPAP and BiPAP protocol</h2>
+
+    <h3>Pressure accuracy</h3>
+    <p>
+      We measure delivered pressure at the mask connector using a calibrated digital manometer
+      (±0.1 cmH₂O resolution) with the device driving a reference breathing simulator. We
+      sample CPAP at commanded 5, 8, 12, and 16 cmH₂O and BiPAP at IPAP/EPAP pairs of
+      10/5, 14/8, 18/10, and 20/12 cmH₂O. Each setting is held for one minute after a
+      30-second stabilisation. We report mean delivered pressure and peak-to-peak variability.
+    </p>
+
+    <h3>Leak compensation</h3>
+    <p>
+      With a controlled mask-leak orifice (calibrated to 20, 40, and 60 L/min at 10 cmH₂O), we
+      measure the device's ability to hold commanded pressure against the leak. The published
+      value is the mean pressure deviation from setpoint across the stabilised minute.
+    </p>
+
+    <h3>AHI detection accuracy</h3>
+    <p>
+      Using a QuickLung-style breathing simulator programmed with scripted apnea and hypopnea
+      events, we compare the AHI reported by the device to the reference event count over a
+      one-hour simulated night. This catches algorithm-level optimism — a chronic issue with
+      entry-level APAPs that undercount hypopneas compared to a polysomnography reference.
+    </p>
+
+    <h3>Noise at patient-ear position</h3>
+    <p>
+      Measured at 30 cm from the mask (the approximate distance of a pillow-side sleeper's
+      ear) with the device at a typical 8 cmH₂O therapy setting and a representative mask
+      attached. Same meter and uncertainty band as the concentrator protocol.
+    </p>
+
+    <h2 id="destructive-teardown">Destructive teardown</h2>
+    <p>
+      After performance testing completes, every loaner unit goes through a destructive teardown
+      designed to surface manufacturing and materials choices that do not appear on any datasheet.
+      Manufacturers are told in writing before the unit ships that it will not be returned in
+      working condition. Teardown findings are published as a dedicated section of the review,
+      and they feed directly into the build-quality score.
+    </p>
+
+    <h3>Sieve-bed zeolite analysis (concentrators)</h3>
+    <p>
+      Each molecular-sieve bed is extracted, weighed, and sampled. We run FTIR identification on
+      the zeolite to confirm the grade (13X vs LiX and binder type), measure bed density with a
+      calibrated tamped-volume cylinder, and record the total zeolite charge against the
+      manufacturer's declared value. Bed weight and zeolite grade correlate directly with sieve
+      life expectancy; a nominally-10,000-hour sieve with a 10–15% below-spec charge or the wrong
+      binder will fail well short of its warranty window. We also run a moisture-stress sample —
+      the sieve is exposed to 60% relative humidity for 24 hours and re-weighed to quantify
+      moisture uptake, which is the dominant real-world degradation mode in coastal Indian
+      installations.
+    </p>
+
+    <h3>Solenoid-valve teardown (concentrators)</h3>
+    <p>
+      PSA concentrators hinge on two solenoid valves cycling 10,000+ times a day. Each valve is
+      extracted and inspected for seat material (Viton, EPDM, NBR — each has a different cycle-
+      life curve), coil insulation class, spring-return preload, and seal durometer. Where a
+      second identical unit is available, we run one valve to its rated cycle count on a bench
+      jig and tear it down to inspect seat wear.
+    </p>
+
+    <h3>Enclosure and internal plastics — FTIR material identification</h3>
+    <p>
+      Every polymer panel — outer chassis, air-path tubing, humidifier chamber — goes through
+      Fourier-transform infrared spectroscopy for material confirmation. Manufacturers often
+      declare "ABS" when the actual part is a PP blend, or "polycarbonate" when it is a
+      PC-ABS blend with reduced impact resistance. We publish the identified grade against the
+      declared grade. Wall thickness is measured with a coating-thickness gauge at four points
+      per panel; thin-walled PP enclosures flex under daily abuse and are a leading driver of
+      out-of-warranty crack failures in Indian-summer installations.
+    </p>
+
+    <h3>Oxygen purity sensor validation (concentrators)</h3>
+    <p>
+      The purity sensor is identified (galvanic electrochemical vs ultrasonic vs paramagnetic),
+      its response time measured, and its calibration checked against a reference gas mix
+      (certified 93% O₂ balance N₂). Drift from the factory calibration is recorded; units
+      whose sensor is already reading 3+ percentage points off after a few hundred hours of
+      operation are flagged. We also inspect the sensor's electrical interface — solder joint
+      quality, strain relief on the cable, connector-pin plating grade — because most purity-
+      alarm nuisance trips trace to the interface, not the sensor element itself.
+    </p>
+
+    <h3>Voltage stress test</h3>
+    <p>
+      The unit is driven by a programmable AC source through the edges of realistic Indian mains
+      tolerance: 160 V (deep brownout, typical of Tier-3 city evening loads), 270 V (surge,
+      typical of unregulated rural three-phase unbalance), and 30 minutes of square-wave
+      inverter output (the single most common cause of compressor motor burnout in Indian home
+      deployments). Post-test inspection flags compressor winding discoloration, capacitor
+      bulging, PCB trace carbonisation, and any borderline voltage-regulation components that
+      survived the stress but show thermal stress markers.
+    </p>
+
+    <h3>Compressor and blower teardown</h3>
+    <p>
+      For concentrators, the compressor is removed, opened, and inspected: piston or diaphragm
+      condition, crankshaft bearing grade (needle-roller vs sleeve vs ball), cylinder-wall
+      scoring, seal material, and the presence or absence of a thermal-fuse safety on the motor
+      winding. The compressor is the single longest-lifespan-determining component on a
+      concentrator, and its teardown tells us whether the published duty cycle is plausible.
+      For CPAP/BiPAP, the blower turbine is extracted: bearing grade, magnet material (ferrite
+      vs rare-earth), impeller balance, and counterweight quality. Cheap turbines develop
+      audible bearing wear by 2,000–3,000 hours.
+    </p>
+
+    <h3>Intake and HEPA filter verification</h3>
+    <p>
+      Filters are weighed before and after a controlled dust-exposure run using ISO 12103-1
+      A2 Fine test dust at a fixed flow rate, plotting pressure drop against accumulated
+      loading. A filter labelled "HEPA" that fails H13 minimum 99.95% filtration at 0.3 μm
+      is flagged as mislabelled. Intake-filter gsm weight and media-area are recorded against
+      the declared service interval.
+    </p>
+
+    <h3>Heat-stress test to thermal cutoff</h3>
+    <p>
+      The unit runs at maximum flow inside a 40 °C ambient enclosure (representative of an
+      un-air-conditioned Indian bedroom in May–June) until thermal protection activates. We
+      record the run-time to cutoff, the internal temperature profile at three points (compressor
+      head, power-supply board, zeolite bed outlet), and — post-cutoff — whether the unit
+      resumes normally after cooldown or surfaces any permanent damage. Any unit that cannot
+      complete a 4-hour run at 40 °C fails the Indian-summer use case and is flagged.
+    </p>
+
+    <h3>Cooling-fan bearing life</h3>
+    <p>
+      The enclosure fans run continuously at rated operating temperature until audible bearing
+      wear or mechanical failure. Cheap sleeve-bearing fans typically fail at 3,000–5,000 hours;
+      dual ball-bearing fans rated 30,000+ hours are the premium-tier signal. A concentrator
+      rated for 10,000-hour duty with a 5,000-hour fan will fail its cooling before it fails
+      its compressor.
+    </p>
+
+    <h3>PCB and power-supply teardown</h3>
+    <p>
+      The main control board and power supply are removed and inspected: electrolytic capacitor
+      temperature rating (85 °C vs 105 °C grade), voltage-regulation circuit quality, heatsink
+      coverage on power components, input-side surge protection presence, reverse-polarity and
+      thermal-cutoff protection, and trace-width adequacy for the rated current. A concentrator's
+      PCB is its second-most-common failure surface after the compressor, and the teardown
+      usually predicts failure modes before they surface in field reports.
+    </p>
+
+    <h3>CPAP/BiPAP-specific teardowns</h3>
+    <p>
+      In addition to the shared enclosure, PCB, and voltage-stress protocol, CPAP and BiPAP
+      units undergo: heater-plate teardown (thermal-fuse rating, aluminium grade, thermistor
+      placement), pressure-transducer calibration-drift test against a reference manometer over
+      a 30-day continuous run, flow-sensor type identification (hot-wire anemometer vs
+      differential-pressure orifice vs ultrasonic time-of-flight), humidifier-chamber material
+      and silicone-gasket durometer, and mask-port seal fatigue over 500 connect/disconnect
+      cycles. Where the machine has wireless connectivity, we also audit the cellular or Wi-Fi
+      module for data-handling behaviour — specifically whether patient-identifiable data leaves
+      the device without a documented consent flow.
+    </p>
+
+    <h3>How the teardown changes the review</h3>
+    <p>
+      Findings feed the build-quality score directly. Spec-sheet claims that collapse under
+      teardown — undersized zeolite charge, sleeve-bearing cooling fans, below-rated
+      capacitors, mislabelled HEPA filters, compressor motor without thermal-fuse protection —
+      are flagged in the review's cons and explicitly called out in the final verdict. A unit
+      that tears down clean earns the build-quality points it claims on paper; a unit whose
+      teardown contradicts its datasheet loses them, and the gap is named.
+    </p>
+
+    <h2>Test equipment</h2>
+    <p>Performance bench:</p>
+    <ul>
+      <li>Calibrated digital manometer, 0–40 cmH₂O range, ±0.1 cmH₂O resolution</li>
+      <li>Class 2 sound level meter, A-weighting, 30–130 dB range</li>
+      <li>Reference fingertip and bench pulse oximeter, Masimo-grade</li>
+      <li>Bench power meter, true RMS, logging at 10 Hz</li>
+      <li>QuickLung-style breathing simulator for CPAP/BiPAP validation</li>
+      <li>In-line mass-flow reference, 0–25 LPM, ±2% of reading</li>
+      <li>Portable ultrasonic oxygen analyser, 20–100% O₂, ±1% accuracy</li>
+      <li>Low-pressure altitude chamber (for altitude-performance runs)</li>
+    </ul>
+    <p>Teardown bench:</p>
+    <ul>
+      <li>FTIR spectrometer for polymer and zeolite identification</li>
+      <li>Programmable AC source, 50–300 V, capable of square-wave output (for voltage-stress testing)</li>
+      <li>ISO 12103-1 A2 Fine test-dust exposure chamber (for filter loading curves)</li>
+      <li>Tamped-volume density cylinder (for zeolite bed-density measurement)</li>
+      <li>Coating-thickness gauge (for enclosure wall measurement)</li>
+      <li>Certified reference gas mix, 93% O₂ balance N₂ (for purity-sensor calibration checks)</li>
+      <li>Solenoid-valve cycle-life bench jig</li>
+      <li>Thermal test chamber, ambient-to-60 °C controllable (for heat-stress testing)</li>
+      <li>Precision electronic scale, 0.01 g resolution (for zeolite and filter weighing)</li>
+      <li>Digital microscope for PCB solder-joint and sieve-bed inspection</li>
+    </ul>
+
+    <h2>Measurement uncertainty</h2>
+    <p>
+      Every numeric claim on the site is published with its measurement uncertainty:
+    </p>
+    <ul>
+      <li>Oxygen purity: ±1.0 percentage points</li>
+      <li>Sound pressure: ±2.0 dB(A)</li>
+      <li>Pressure accuracy: ±0.2 cmH₂O</li>
+      <li>Power draw: ±3% of reading</li>
+      <li>Flow: ±2% of reading</li>
+    </ul>
+    <p>
+      When the difference between two devices on a measured metric is smaller than the
+      combined uncertainty, we call it a tie. We do not award fractional scoring that the
+      measurement cannot support.
+    </p>
+
+    <h2>When bench data is not available</h2>
+    <p>
+      We do not always have access to every device. For new releases not yet in distribution,
+      or for models where a loaner is not forthcoming, we say so explicitly at the top of the
+      review and score only against the paper-spec rubric (features, warranty, service
+      network, price-to-spec ratio, manufacturer reputation). We mark such reviews with a
+      "paper-spec review — no bench data" notice, and we revisit the review when hands-on
+      access becomes available.
+    </p>
+
+    <h2>Rubric and scoring weights</h2>
+    <p>
+      Each category uses a weighted scoring model that we publish alongside this methodology.
+      For oxygen concentrators the weights are: purity at rated flow (25%), sound (15%),
+      build and service network (20%), warranty terms (15%), price-to-performance (25%). For
+      CPAP/BiPAP: pressure accuracy (25%), leak compensation (15%), noise (15%), mask and
+      humidifier ecosystem (15%), warranty and service (15%), price-to-performance (15%). The
+      underlying score-to-stars mapping is identical across brands.
+    </p>
+  </article>
+</BaseLayout>

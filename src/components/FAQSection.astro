@@ -1,0 +1,27 @@
+---
+import SchemaFAQ from './SchemaFAQ.astro';
+
+export interface FAQItem {
+  q: string;
+  a: string;
+}
+
+export interface Props {
+  faqs: FAQItem[];
+  heading?: string;
+}
+
+const { faqs, heading = 'Frequently asked questions' } = Astro.props;
+---
+{faqs && faqs.length > 0 && (
+  <section class="faq" aria-labelledby="faq-heading">
+    <h2 id="faq-heading">{heading}</h2>
+    {faqs.map((item) => (
+      <details>
+        <summary>{item.q}</summary>
+        <p>{item.a}</p>
+      </details>
+    ))}
+    <SchemaFAQ faqs={faqs} />
+  </section>
+)}

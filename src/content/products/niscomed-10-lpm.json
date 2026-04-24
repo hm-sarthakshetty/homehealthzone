@@ -1,0 +1,74 @@
+{
+  "slug": "niscomed-10-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Niscomed-10-LPM",
+  "product_name": "Niscomed 10 LPM",
+  "brand": "Niscomed",
+  "brand_href": "https://www.oxygentimes.com/brand/Niscomed/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "91,200.00",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of stock",
+  "images": [
+    {
+      "src": "/images/products/niscomed-10-lpm-d28d4a6f2d.jpg",
+      "alt": "Niscomed 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/niscomed1662714037.jpg"
+    },
+    {
+      "src": "/images/products/niscomed-10-lpm-a8d0ec1684.jpg",
+      "alt": "Niscomed 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/Screenshot 2021-11-30 at 41638269203.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "90-95%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "1-10LPM",
+    "Weight": "30kg",
+    "Oxygen Purity Indicator (OPI)": "No",
+    "Power consumption": "530watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90-95%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "1-10LPM",
+      "Weight": "30kg",
+      "Oxygen Purity Indicator (OPI)": "",
+      "Power consumption": "530watts",
+      "Sound level": "50db",
+      "Dimensions": "23.6H x 14.7W x 14.3Dinch",
+      "Outlet pressure": "10psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "China",
+      "US FDA Approved": "",
+      "FAA Approved": "",
+      "CE Certified": ""
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 30.0,
+    "flow_min_lpm": 1.0,
+    "flow_max_lpm": 10.0,
+    "purity_min": 90.0,
+    "purity_max": 95.0,
+    "noise_db": 50.0,
+    "power_w": 530,
+    "has_opi": false,
+    "faa_approved": false,
+    "ce_certified": false,
+    "indian_voltage": true
+  }
+}

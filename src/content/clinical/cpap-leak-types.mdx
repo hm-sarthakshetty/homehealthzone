@@ -1,0 +1,139 @@
+---
+title: "CPAP leak types — intentional, mask leak, mouth leak, and how to diagnose each"
+description: "Three kinds of leak, how the CPAP's leak number is calculated, and the diagnostic workflow that separates mask fit from mouth breathing from normal venting."
+lastReviewed: "2026-04-23"
+nextReview: "2026-10-23"
+author: "HHZ Editorial"
+tags: ["cpap-leak", "mask-fit", "mouth-leak", "intentional-leak", "chin-strap", "full-face", "leak-threshold"]
+---
+
+"Leak" is printed on the CPAP report in red if it crosses a threshold and in a calm colour if it doesn't. What the report doesn't tell the patient — or the dealer who just handed over the machine — is that the number is a composite of three very different phenomena, and that what to do about a leak depends entirely on which type is dominating. Treat every leak as a mask-fit problem and you will fail the 30% of patients whose leak is from their mouth. Treat every leak as a mouth-leak problem and you will miss the worn-out cushions and sloppy headgear.
+
+This article covers the three leak categories, how the device calculates the leak number, the diagnostic workflow that separates them, and the specific interventions that fix each.
+
+## Three kinds of leak
+
+**Intentional leak (vent leak).** Every CPAP mask has deliberate venting — small holes in the mask or elbow designed to flush exhaled CO₂ out of the circuit before the patient rebreathes it. The vent flow is a designed feature, specified in the mask's datasheet as a flow-vs-pressure curve. A typical nasal mask vents roughly 20–30 L/min at 8 cmH₂O and 30–40 L/min at 15 cmH₂O; full-face masks vent somewhat more. This is **normal and required** — without it, CO₂ accumulates in the mask dead space.
+
+**Mask leak (unintentional seal leak).** Air escaping from where the mask should be sealed against the face — over the nasal bridge, under the cheeks, at the chin on a full-face, or around the nostril of nasal pillows. A mask-leak problem means the seal is broken: the cushion is worn, the headgear too loose or too uneven, the face shape mismatched, or the mask is displaced.
+
+**Mouth leak.** On a nasal mask or nasal-pillow interface, air that would otherwise go into the nasopharynx escapes out through the mouth when the patient opens their lips. Common in mouth-breathers, in REM sleep where oral muscle tone relaxes, and in dry-mouth states. On a full-face mask, mouth leak is not a separate category — the mouth is inside the sealed area.
+
+## How the device calculates the leak number
+
+The CPAP / APAP measures flow at a sensor inside the blower housing. The flow signal is the total volume of air moving through the circuit, which equals:
+
+**Patient flow (breathing) + vent leak + unintentional leak**
+
+The device knows the commanded pressure and knows (from its internal model of the mask type configured in settings) the expected vent-leak flow at that pressure. It subtracts the expected intentional leak and reports the residual as "leak" or "unintentional leak" in L/min.
+
+Critical implication: the mask type in device settings must match the actual mask. If the patient switches from a nasal mask to a full-face but the device is still configured for the nasal mask, the calculated leak will be wrong because the vent-leak model is wrong. ResMed AirSense devices auto-detect some mask types but not all; Philips DreamStation has user-configured mask type. BMC varies. At every mask change, the device's mask setting should be updated.
+
+The reported leak number on modern devices is typically:
+
+- **Median leak** (L/min): the centre of the distribution over the session.
+- **95th-percentile leak** (L/min): the value below which leak stayed 95% of the time. This is the threshold-comparison number.
+- **Large-leak time** (minutes or % of session): time spent above a threshold leak value, typically 24 L/min on ResMed or equivalent on Philips.
+
+ResMed's published threshold is 24 L/min of unintentional leak at the 95th percentile — above this, the device's event detection becomes unreliable and the AHI number that night is not fully trustworthy. Philips uses a "large leak" flag on a similar principle. BMC's thresholds are less clearly documented.
+
+## Diagnosing intentional leak — is the reported leak just the vent?
+
+If the device's mask setting doesn't match the actual mask, the reported leak can be systematically high or low by the difference between the two vent models. A patient wearing a full-face mask (vent flow ~35 L/min at 10 cmH₂O) on a device configured for a nasal mask (expected vent ~25 L/min at 10 cmH₂O) will see a reported "unintentional leak" of ~10 L/min even with a perfect seal — because 10 L/min of vent is being attributed to the unintentional bucket.
+
+The fix is simple: check the mask setting in the device's clinician or patient menu and confirm it matches the current mask. If it doesn't, update it. The leak numbers after the fix will be the true unintentional leak.
+
+## Diagnosing mask leak
+
+Mask leak manifests as a stable or slowly-climbing 95th-percentile leak over the session, often with a position dependency (a side-sleeper rolling onto the leaky side shows leak climb during that position period). The patient sometimes hears or feels the leak — a whistling, an air jet against the eye, a sheet blowing.
+
+Diagnostic steps:
+
+1. **Inspect the mask at pressure.** The patient dons the mask, the CPAP is turned on, and the fitter (or patient with a mirror) checks for visible air jets around the seal. Wet a finger and feel along the seal — a leak is palpable.
+2. **Inspect the cushion for wear.** Silicone cushions yellow, stiffen, or lose their gel compliance with age. A 6-month-old cushion in daily use is often past its prime. Replace.
+3. **Check headgear tension.** Even tension on both sides, neither too loose nor too tight. Over-tightened headgear compresses the cushion and paradoxically leaks more. Under-tightened headgear leaves gaps. The "perfect fit" test: lie down in sleeping position, then fine-tune the headgear until no leak is felt but also no seal is excessively compressed.
+4. **Check the mask for deformation or cracks.** Especially elbow joints and vents.
+5. **Check the mask type.** A nasal mask that doesn't fit a patient's nasal bridge will leak regardless of how much the headgear is adjusted. Re-try a different cushion size or switch to a different mask style. Some facial morphologies (flatter nasal bridge, wider nasal base) need under-nose variants or hybrids.
+
+## Diagnosing mouth leak
+
+Mouth leak on a nasal mask is characterised by a specific pattern on the data trace: the leak is often episodic and REM-concentrated, and the patient usually reports dry mouth on waking. The patient may not be aware of mouth-opening during sleep because it happens in REM when muscle tone is relaxed.
+
+Diagnostic steps:
+
+1. **Ask about dry mouth on waking.** Morning dry mouth is an 80%-specific pointer to mouth leak for patients on nasal masks / pillows.
+2. **Review the leak trace for REM clustering.** If possible, overlay the leak trace with sleep-stage data (or with time-of-night — REM clusters late-night). Mouth leak tends to concentrate in REM periods.
+3. **Check for a drop in therapy pressure via the mouth.** On an APAP, mouth leak effectively short-circuits part of the pressure the device is trying to deliver. The device may respond by raising pressure, which worsens mouth leak further.
+4. **Trial interventions** (see below).
+
+Interventions for mouth leak, in increasing intensity:
+
+- **Chin strap.** A simple elasticated strap that holds the jaw closed during sleep. Works for about half of mouth-breathers. Cheap and quick to trial.
+- **Mouth tape.** Adhesive tape across the lips. Effective but controversial (should not be used in patients at risk of vomiting; needs education to avoid discomfort).
+- **Switch to full-face mask.** The definitive solution for persistent mouth leak. The full-face seal includes the mouth inside the sealed area, eliminating mouth leak by anatomy.
+- **Address the underlying cause.** Nasal obstruction driving mouth breathing can sometimes be treated directly (nasal steroid, ENT evaluation for septoplasty / turbinate reduction), resolving the mouth-breathing habit and allowing return to a nasal mask.
+
+## The leak-vs-AHI trade-off
+
+A high-leak night produces an unreliable AHI. The device's event detection depends on a clean flow signal; high leak masks events (flow signal is dominated by leak, not breathing) and sometimes creates phantom events (leak fluctuations resembling flow drops). A night with 95th-percentile leak > 24 L/min should have its AHI interpreted as "approximately, with large uncertainty."
+
+The operational implication: don't adjust therapy (raise pressure, change mode, declare therapy failure) based on AHI numbers from leak-corrupted nights. Fix the leak first, then re-review the AHI on clean nights.
+
+Some specific interactions:
+
+- **Leak can make AHI look better than reality.** A large leak that persists through what would have been apnea events masks those events from detection. Patient reports more tiredness than the "low AHI" would predict; fix the leak and the true AHI emerges.
+- **Leak can make AHI look worse than reality.** Leak-transient fluctuations get scored as hypopneas. The patient actually has clean therapy; the algorithm is chasing artefact. This is less common than the first mode but still happens.
+- **APAP can over-pressure in response to leak.** Some APAP algorithms respond to persistent flow limitation (or its simulacrum from leak) by raising pressure. The higher pressure worsens the leak. A runaway cycle. Fix the leak; the pressure settles.
+
+## Bearded patients, dry climates, glasses-in-bed — Indian-specific notes
+
+**Beards and stubble.** Full-face and nasal masks rely on silicone contact with clean skin. Stubble disrupts the seal within 2–3 days of last shave. Options: clean-shave every 2–3 days (often impractical for cultural reasons), switch to nasal pillows (which seal at nostril openings, no cheek or chin contact), or use specialist beard-friendly cushions (limited availability in India).
+
+**Dry climates.** Cities with low ambient humidity (Delhi winter, Pune summer, Hyderabad) produce faster cushion degradation and more nasal dryness-driven mouth breathing. Heated humidification settings and cushion replacement cadence should be more frequent. [CITATION: humidification literature; Indian climate humidity zone data.]
+
+**Glasses in bed.** Patients who read before sleep often wear glasses. Glasses rest on the nasal bridge; standard nasal and full-face masks also seal on the nasal bridge. Under-nose masks (DreamWear Nasal, AirFit F30) leave the bridge free. This is a common underappreciated driver of mask selection in literate middle-class Indian urban patients.
+
+**Air-conditioning directly on the sleeper.** A ceiling-mount AC vent blowing directly on the face cools and dries the mask cushion, increases leak, and increases nasal dryness. Repositioning the bed or redirecting the vent is a simple intervention often overlooked.
+
+## Leak and humidification — the interaction
+
+Heated humidification in the CPAP circuit changes the leak picture subtly. A humidified circuit delivers slightly warmer, moister air; the mask cushion is exposed to this warmer-moist environment and may behave differently than in a dry circuit. Specifically:
+
+- **Silicone cushions.** Behaviour unchanged by humidification — silicone is inert to the moisture difference. Cushion lifetime unaffected.
+- **Memory-foam or gel cushions.** May absorb moisture over hours, slightly softening during the session. This typically improves seal (more compliant cushion fills small gaps) but can accelerate degradation over weeks.
+- **Fabric-covered cushions.** Moisture retention can change the seal pattern. Daily drying is required.
+
+Leak from condensation (rainout) — water droplets forming in the tubing or mask when warm humid air contacts cool surfaces — is a separate phenomenon. Rainout doesn't create a seal leak but can disrupt therapy if water reaches the mask or nostrils. Heated tubing substantially reduces rainout; an unheated circuit in a cool bedroom (Delhi winter, hill station, AC room) often rains out.
+
+## Mask replacement as leak intervention
+
+A mask that leaks persistently despite re-fitting, headgear adjustment, and cushion replacement is sometimes simply an ill-matched mask for that face. The intervention is replacement with a different model or style, not continued fiddling with a failed fit.
+
+Scenarios where mask replacement (rather than cushion replacement) is appropriate:
+
+- **Nasal-bridge anatomy doesn't match any size of the current mask.** Try an under-nose variant or a different brand's nasal-mask shape.
+- **The patient has switched from strict nose-breathing to mouth-breathing.** Nasal mask to full-face.
+- **The patient has grown a beard or significantly altered facial contour.** Standard masks no longer fit; switch to nasal pillows.
+- **The prescription pressure has risen (weight gain, progression).** Nasal pillows to nasal mask or nasal to full-face as pressure climbs.
+
+A 30-day return/exchange programme at the dealer is the practical mechanism for trialling a second mask. If the dealer doesn't support one, try a different dealer or an online retailer with a return window.
+
+## When "leak" on the report is not a real problem
+
+Occasionally the leak number on a report is high but the patient reports no symptoms, the AHI is clean, and the therapy is subjectively excellent. Investigate before intervening:
+
+- **Mask-type mismatch in device settings.** If the device is configured for nasal mask but the patient is on full-face, the reported unintentional leak is inflated by the vent-model difference. Fix the setting and the leak number drops without any actual therapy change.
+- **A particular night's outlier.** One leaky night (mask displacement from an unusual sleep position) among 30 otherwise-clean nights is noise. Don't act on a single outlier.
+- **Session-end leak from mask doffing.** If the patient removes the mask but doesn't turn off the device cleanly, the final minutes log as extreme leak. Not a therapy issue.
+
+A high leak number should trigger investigation, not automatic intervention. The investigation might conclude the therapy is fine and the number is an artefact.
+
+## Clinical takeaway
+
+Leak is not one thing. It is three things — intentional vent, mask-seal leak, and mouth leak — each with different causes and different interventions. Read the leak trend alongside the usage pattern, sleep-stage clustering if available, and patient symptom report (dry mouth, mask noise). Fix the leak before adjusting the pressure. Verify the mask type in device settings at every mask change.
+
+HHZ's editorial view: Indian dealer-level CPAP follow-up rarely distinguishes these three leak types. A patient handed back a machine with "leak is high, see your doctor" is being under-served; the dealer should be doing the first-line diagnostic separation (mask-type match, cushion age, mouth-leak symptoms) before escalation.
+
+Consult your sleep physician for persistent leak issues that simple fit adjustments don't resolve — nasal obstruction, facial-anatomy considerations, and mask-type changes sometimes require clinical judgement.
+
+*References: Manufacturer mask-vent datasheets — ResMed, Philips, Fisher & Paykel [CITATION]; ResMed AirSense 11 clinician manual — leak thresholds [CITATION]; CPAP adherence literature — leak as predictor [CITATION]; Indian climate and seasonal variation literature [CITATION].*

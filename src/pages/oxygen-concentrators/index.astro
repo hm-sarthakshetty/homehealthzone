@@ -1,0 +1,61 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import BrowseProducts from '../../components/BrowseProducts.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const [products, reviews] = await Promise.all([
+  getCollection('products'),
+  getCollection('product-reviews'),
+]);
+
+// HHZ editorial score per product slug, from the review's frontmatter `score` field.
+const scoreMap: Record<string, number> = {};
+for (const r of reviews) {
+  if (typeof r.data.score === 'number') scoreMap[r.id] = r.data.score;
+}
+
+// Default render order: HHZ score (high → low), tiebreak by name.
+products.sort((a, b) => {
+  const sa = scoreMap[a.data.slug] ?? 0;
+  const sb = scoreMap[b.data.slug] ?? 0;
+  if (sb !== sa) return sb - sa;
+  return a.data.product_name.localeCompare(b.data.product_name, 'en');
+});
+
+// Order category facets to match how users think about it
+const categoryOrder = ['5 LPM', '8 LPM', '9 LPM', '10 LPM', 'Dual Flow', 'Portable (Battery-powered)', 'Adjustable Purity'];
+
+const pageTitle = 'Oxygen concentrators';
+const description =
+  'Independent reviews of every oxygen concentrator sold in India — 5 LPM, 10 LPM, portable battery-powered, and dual-flow units. Search and filter by brand, category, and price.';
+
+const crumbs = [
+  { href: '/', label: 'Home' },
+  { href: '/oxygen-concentrators/', label: 'Oxygen concentrators' },
+];
+---
+<BaseLayout title={pageTitle} description={description}>
+  <Breadcrumbs items={crumbs} />
+
+  <header class="hub-header">
+    <h1>{pageTitle}</h1>
+    <p class="lead">
+      {products.length} oxygen concentrators sold in India, reviewed against the same published rubric.
+      Search by model, narrow by brand or flow category, or cap your budget to find options in range.
+    </p>
+  </header>
+
+  <BrowseProducts
+    entries={products}
+    basePath="/oxygen-concentrators/"
+    categoryOrder={categoryOrder}
+    scoreMap={scoreMap}
+  />
+</BaseLayout>
+
+<style>
+  .hub-header {
+    margin-bottom: var(--space-8);
+  }
+</style>

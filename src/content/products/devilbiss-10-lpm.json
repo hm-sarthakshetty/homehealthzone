@@ -1,0 +1,86 @@
+{
+  "slug": "devilbiss-10-lpm",
+  "source_url": "https://www.oxygentimes.com/oxygen-concentrator/Devilbiss-10-LPM",
+  "product_name": "DeVilbiss 10 LPM",
+  "brand": "Drive DeVilbiss",
+  "brand_href": "https://www.oxygentimes.com/brand/Drive-DeVilbiss/oxygen-concentrator",
+  "category": "10 LPM",
+  "price_current": "109,584.00",
+  "price_mrp": "158,400.00",
+  "price_symbol": "₹",
+  "rating_value": "5 (14)",
+  "rating_count": "14",
+  "stock": "In Stock",
+  "images": [
+    {
+      "src": "/images/products/devilbiss-10-lpm-6817cc3993.jpg",
+      "alt": "DeVilbiss 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/devil-101662714220.jpg"
+    },
+    {
+      "src": "/images/products/devilbiss-10-lpm-c4fbf52538.jpg",
+      "alt": "DeVilbiss 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/dd1664564597.jpg"
+    },
+    {
+      "src": "/images/products/devilbiss-10-lpm-5490726bb3.jpg",
+      "alt": "DeVilbiss 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/dd11664564607.jpg"
+    },
+    {
+      "src": "/images/products/devilbiss-10-lpm-38f8c7481e.jpg",
+      "alt": "DeVilbiss 10 LPM",
+      "original": "https://www.oxygentimes.com/storage/productlargeimages/dd21664564617.jpg"
+    }
+  ],
+  "key_features": {
+    "Purity": "87-96%",
+    "Type": "High Flow Stationary",
+    "Continuous Flow": "2-10LPM",
+    "Weight": "19kg",
+    "Oxygen Purity Indicator (OPI)": "Yes",
+    "Power consumption": "664watts"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "87-96%",
+      "Type": "High Flow Stationary",
+      "Continuous Flow": "2-10LPM",
+      "Weight": "19kg",
+      "Oxygen Purity Indicator (OPI)": "Yes",
+      "Power consumption": "664watts",
+      "Sound level": "67db",
+      "Dimensions": "24.5H x 13.5W x 12Dinch",
+      "Operating altitude": "5000feet",
+      "Outlet pressure": "20psi"
+    },
+    "Additional details": {
+      "Oxygen Purity % Analyzer": "",
+      "Loss of Power Alarm": "Yes",
+      "System Malfunction Alarm": "",
+      "No Flow Alarm": "Yes",
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "USA",
+      "US FDA Approved": "Yes",
+      "FAA Approved": "",
+      "CE Certified": "Yes"
+    }
+  },
+  "faqs": [],
+  "description_text": "Devilbiss 10 LPM Oxygen Concentrator\n\nThings we like about  Devilbiss 10LPM :\n\n\n\tLightest and most compact 10 LPM oxygen concentrator\n\tFDA approved\n\t90%+ oxygen purity level among all flow rates\n\tEfficient alarm system\n\tReliable brand name\n\tHighly durable with solid extractor\n\n\nThings we don't like about  Devilbiss 10LPM :\n\n\n\tPower consumption rate is high as compared to competitors.\n\n\n \n\nManufactured by one of the most reliable brands, Devilbiss 10 LPM is capable of delivering oxygen at the flow rate of 2-10 LPM with a purity level of above 90%. \n\nCompact and Lightweight: Devilbiss 10 LPM weighs just 19 kgs, making it the lightest and most compact oxygen concentrator in the 10 LPM range. \n\nHighest Outlet Pressure: The outlet pressure of Devilbiss 10 LPM is 20 psi, higher than any other oxygen concentrator.\n\nPower Consumption: The machine consumes 664 watts of power.\n\nSound: This oxygen concentrator emits sound at 67 decibels.\n\nOperating Altitude: The operating altitude of Devilbiss 10 LPM is 5000 feet.\n\nAlarms: Loss of power and no flow alarm.\n\nCertificates and Approvals: Devilbiss 10 litre is FDA approved and CE certified.\n\nWarranty: The warranty period of the Devilbiss 10 LPM oxygen concentrator is 2 years.\n\nWhat's in the Box?\n\nOxygen Concentrator Machine\n\nNasal Cannula\n\nHumidifier Bottle\n\nFilter set\n\nPower cable\n\nUser Manual and other documents",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 19.0,
+    "flow_min_lpm": 2.0,
+    "flow_max_lpm": 10.0,
+    "purity_min": 87.0,
+    "purity_max": 96.0,
+    "noise_db": 67.0,
+    "power_w": 664,
+    "has_opi": true,
+    "faa_approved": false,
+    "ce_certified": true,
+    "indian_voltage": true,
+    "altitude_ft": 5000
+  }
+}

@@ -1,0 +1,806 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
+
+export interface Props {
+  entries: ProductEntry[];
+  maxSlots?: number;
+}
+
+const { entries, maxSlots = 4 } = Astro.props;
+
+function hrefFor(entry: ProductEntry): string {
+  if (entry.collection === 'cpap-bipap') {
+    const dt = (entry.data as CollectionEntry<'cpap-bipap'>['data']).device_type;
+    return `/${dt}/${entry.data.slug}/`;
+  }
+  return `/oxygen-concentrators/${entry.data.slug}/`;
+}
+
+function groupFor(e: ProductEntry): 'concentrator' | 'cpap' | 'bipap' {
+  if (e.collection === 'cpap-bipap') {
+    return (e.data as CollectionEntry<'cpap-bipap'>['data']).device_type;
+  }
+  return 'concentrator';
+}
+
+const products = entries
+  .map((e) => {
+    const firstImage = e.data.images?.[0];
+    return {
+      slug: e.data.slug,
+      name: e.data.product_name,
+      brand: e.data.brand || '',
+      category: e.data.category || '',
+      group: groupFor(e),
+      searchKey: `${e.data.brand} ${e.data.product_name}`.toLowerCase(),
+      price: e.data.price_current ?? null,
+      mrp: e.data.price_mrp ?? null,
+      price_symbol: e.data.price_symbol || '₹',
+      stock: e.data.stock || '',
+      image: firstImage?.src ?? null,
+      alt: firstImage?.alt ?? e.data.product_name,
+      href: hrefFor(e),
+      key_features: (e.data.key_features ?? {}) as Record<string, string>,
+      spec_tables: (e.data.spec_tables ?? {}) as Record<string, Record<string, string>>,
+      normalized_specs: ((e.data as any).normalized_specs ?? {}) as Record<string, number | boolean>,
+    };
+  })
+  .sort((a, b) => a.name.localeCompare(b.name));
+---
+
+<section class="compare-builder" aria-labelledby="compare-builder-heading">
+  <h2 id="compare-builder-heading" class="visually-hidden">Compare products</h2>
+
+  <p class="compare-builder__intro">
+    Compare within the same category — oxygen concentrators with concentrators, CPAP with CPAP,
+    BiPAP with BiPAP. Pick any product first and the remaining slots filter to matching-category devices.
+  </p>
+
+  <p class="compare-builder__lock" id="compare-lock" hidden>
+    <span class="compare-builder__lock-label">Locked to:</span>
+    <span class="compare-builder__lock-value" id="compare-lock-value">—</span>
+    <button type="button" class="link-button" id="compare-change-category">Change category</button>
+  </p>
+
+  <div class="compare-builder__slots" id="compare-slots" data-max={maxSlots}>
+    <div class="compare-slot" data-slot-index="0"></div>
+    <div class="compare-slot" data-slot-index="1"></div>
+  </div>
+
+  <div class="compare-builder__actions">
+    <button type="button" id="compare-add-slot" class="compare-builder__add-btn">
+      + Add another product
+    </button>
+    <button type="button" id="compare-reset-all" class="link-button">Clear all</button>
+  </div>
+
+  <div class="compare-builder__table-wrap" id="compare-table-wrap" hidden>
+    <table class="compare-table">
+      <thead><tr id="compare-thead-row"></tr></thead>
+      <tbody id="compare-tbody"></tbody>
+    </table>
+    <p class="compare-builder__note">
+      Rows where values differ are highlighted. Where a product has no published value for a spec,
+      the cell shows an em dash.
+    </p>
+  </div>
+
+  <p class="compare-builder__empty" id="compare-empty">
+    Pick at least two products from the slots above. Start typing — suggestions appear after 2 characters.
+  </p>
+
+  <script
+    id="compare-data"
+    type="application/json"
+    set:html={JSON.stringify(products)}
+  />
+</section>
+
+<script is:inline>
+  (() => {
+    const dataEl = document.getElementById('compare-data');
+    if (!dataEl) return;
+    let PRODUCTS;
+    try { PRODUCTS = JSON.parse(dataEl.textContent); } catch { return; }
+    const bySlug = Object.fromEntries(PRODUCTS.map((p) => [p.slug, p]));
+
+    const slotsContainer = document.getElementById('compare-slots');
+    const maxSlots = Number(slotsContainer.dataset.max) || 4;
+    const MIN_CHARS = 2;
+    const MAX_RESULTS = 8;
+
+    const addBtn = document.getElementById('compare-add-slot');
+    const resetBtn = document.getElementById('compare-reset-all');
+    const tableWrap = document.getElementById('compare-table-wrap');
+    const theadRow = document.getElementById('compare-thead-row');
+    const tbody = document.getElementById('compare-tbody');
+    const emptyEl = document.getElementById('compare-empty');
+    const lockEl = document.getElementById('compare-lock');
+    const lockValueEl = document.getElementById('compare-lock-value');
+    const changeCategoryBtn = document.getElementById('compare-change-category');
+
+    const GROUP_LABELS = {
+      concentrator: 'Oxygen concentrators',
+      cpap: 'CPAP machines',
+      bipap: 'BiPAP machines',
+    };
+
+    const selected = new Array(maxSlots).fill(null);
+    const slotState = new Array(maxSlots).fill(null).map(() => ({ results: [], active: -1 }));
+
+    function activeGroup() {
+      for (const slug of selected) {
+        if (slug && bySlug[slug]) return bySlug[slug].group;
+      }
+      return null;
+    }
+
+    function updateLockBanner() {
+      const g = activeGroup();
+      if (!lockEl || !lockValueEl) return;
+      if (g) {
+        lockValueEl.textContent = GROUP_LABELS[g] || g;
+        lockEl.hidden = false;
+      } else {
+        lockEl.hidden = true;
+      }
+    }
+
+    function escapeHtml(s) {
+      return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => (
+        { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+      ));
+    }
+    function fmtPrice(p) {
+      if (!p || !p.price) return null;
+      return `${p.price_symbol}${p.price}`;
+    }
+
+    function renderSlot(index) {
+      const slot = slotsContainer.querySelector(`[data-slot-index="${index}"]`);
+      if (!slot) return;
+      const slug = selected[index];
+      if (slug && bySlug[slug]) {
+        const p = bySlug[slug];
+        slot.innerHTML = `
+          <article class="compare-slot__card">
+            <div class="compare-slot__image-wrap">
+              ${p.image ? `<img src="${escapeHtml(p.image)}" alt="${escapeHtml(p.alt)}" loading="lazy">` : '<div class="compare-slot__image-placeholder"></div>'}
+            </div>
+            <div class="compare-slot__body">
+              ${p.brand ? `<p class="compare-slot__brand">${escapeHtml(p.brand)}</p>` : ''}
+              <h3 class="compare-slot__name"><a href="${escapeHtml(p.href)}">${escapeHtml(p.name)}</a></h3>
+              ${p.category ? `<p class="compare-slot__category mono-data">${escapeHtml(p.category)}</p>` : ''}
+              ${fmtPrice(p) ? `<p class="compare-slot__price mono-data">${escapeHtml(fmtPrice(p))}</p>` : ''}
+              <button type="button" class="link-button" data-remove-slot="${index}">Clear slot</button>
+            </div>
+          </article>
+        `;
+      } else {
+        slot.innerHTML = `
+          <div class="compare-slot__picker" data-picker="${index}">
+            <label class="compare-slot__picker-label" for="compare-slot-input-${index}">Product #${index + 1}</label>
+            <input
+              id="compare-slot-input-${index}"
+              type="text"
+              class="compare-slot__picker-input mono-data"
+              data-slot-input="${index}"
+              placeholder="Type to search…"
+              autocomplete="off"
+              spellcheck="false"
+              role="combobox"
+              aria-expanded="false"
+              aria-autocomplete="list"
+              aria-controls="compare-slot-dropdown-${index}"
+            />
+            <ul id="compare-slot-dropdown-${index}" class="compare-slot__dropdown" data-slot-dropdown="${index}" role="listbox" hidden></ul>
+          </div>
+        `;
+        slotState[index] = { results: [], active: -1 };
+      }
+    }
+
+    function hideDropdown(idx) {
+      const dd = slotsContainer.querySelector(`[data-slot-dropdown="${idx}"]`);
+      if (dd) dd.hidden = true;
+      const input = slotsContainer.querySelector(`[data-slot-input="${idx}"]`);
+      if (input) input.setAttribute('aria-expanded', 'false');
+      if (slotState[idx]) slotState[idx].active = -1;
+    }
+
+    function renderDropdown(idx, results) {
+      slotState[idx].results = results;
+      slotState[idx].active = -1;
+      const dd = slotsContainer.querySelector(`[data-slot-dropdown="${idx}"]`);
+      const input = slotsContainer.querySelector(`[data-slot-input="${idx}"]`);
+      if (!dd || !input) return;
+      if (!results.length) {
+        const g = activeGroup();
+        const msg = g
+          ? `No ${escapeHtml(GROUP_LABELS[g] || g)} match`
+          : 'No matches';
+        dd.innerHTML = `<li class="compare-slot__dropdown-empty">${msg}</li>`;
+        dd.hidden = false;
+        input.setAttribute('aria-expanded', 'true');
+        return;
+      }
+      dd.innerHTML = results.map((r, i) => `
+        <li role="option" data-result-index="${i}">
+          <button type="button" class="compare-slot__dropdown-btn" tabindex="-1">
+            ${r.image ? `<img src="${escapeHtml(r.image)}" alt="" loading="lazy">` : '<span class="compare-slot__dropdown-noimg"></span>'}
+            <span>
+              <span class="compare-slot__dropdown-name">${escapeHtml(r.name)}</span>
+              <span class="compare-slot__dropdown-meta mono-data">${escapeHtml(r.brand || '—')}${r.category ? '&nbsp;·&nbsp;' + escapeHtml(r.category) : ''}</span>
+            </span>
+          </button>
+        </li>
+      `).join('');
+      dd.hidden = false;
+      input.setAttribute('aria-expanded', 'true');
+    }
+
+    function updateActive(idx) {
+      const dd = slotsContainer.querySelector(`[data-slot-dropdown="${idx}"]`);
+      if (!dd) return;
+      const items = dd.querySelectorAll('li[data-result-index]');
+      const act = slotState[idx].active;
+      items.forEach((li, i) => li.classList.toggle('compare-slot__dropdown-item--active', i === act));
+      if (act >= 0 && items[act]) items[act].scrollIntoView({ block: 'nearest' });
+    }
+
+    function searchForSlot(idx, q) {
+      const qL = q.toLowerCase();
+      const lockGroup = activeGroup();
+      const taken = new Set(selected.filter(Boolean));
+      let matches = PRODUCTS.filter((p) => p.searchKey.includes(qL));
+      if (lockGroup) matches = matches.filter((p) => p.group === lockGroup);
+      matches = matches.filter((p) => !taken.has(p.slug));
+      matches.sort((a, b) => {
+        const aStart = a.searchKey.startsWith(qL);
+        const bStart = b.searchKey.startsWith(qL);
+        if (aStart !== bStart) return aStart ? -1 : 1;
+        return a.name.localeCompare(b.name);
+      });
+      renderDropdown(idx, matches.slice(0, MAX_RESULTS));
+    }
+
+    function pickResult(idx, resultIndex) {
+      const result = slotState[idx].results[resultIndex];
+      if (!result) return;
+      selected[idx] = result.slug;
+      renderSlot(idx);
+      renderTable();
+      updateLockBanner();
+    }
+
+    function flattenSpecs(p) {
+      const flat = {};
+      for (const [, rows] of Object.entries(p.spec_tables || {})) Object.assign(flat, rows || {});
+      return flat;
+    }
+
+    function renderTable() {
+      const picks = selected.filter((s) => s != null).map((s) => bySlug[s]).filter(Boolean);
+      if (picks.length < 2) {
+        tableWrap.hidden = true;
+        emptyEl.hidden = false;
+        return;
+      }
+      emptyEl.hidden = true;
+      tableWrap.hidden = false;
+
+      const cols = picks.length;
+      theadRow.innerHTML =
+        '<th scope="col">Spec</th>' +
+        picks.map((p) => `
+          <th scope="col">
+            <a href="${escapeHtml(p.href)}">${escapeHtml(p.name)}</a>
+            ${p.brand ? `<span class="compare-table__brand">${escapeHtml(p.brand)}</span>` : ''}
+          </th>
+        `).join('');
+
+      const sections = [];
+      sections.push({
+        group: 'At a glance',
+        rows: [
+          { label: 'Brand', values: picks.map((p) => p.brand || '—') },
+          { label: 'Category', values: picks.map((p) => p.category || '—') },
+          { label: 'Price', values: picks.map((p) => fmtPrice(p) || '—') },
+          { label: 'MRP', values: picks.map((p) => (p.mrp ? `${p.price_symbol}${p.mrp}` : '—')) },
+          { label: 'Stock', values: picks.map((p) => p.stock || '—') },
+        ],
+      });
+
+      const kfKeys = new Set();
+      for (const p of picks) for (const k of Object.keys(p.key_features || {})) kfKeys.add(k);
+      if (kfKeys.size) {
+        sections.push({
+          group: 'Key features',
+          rows: [...kfKeys].map((k) => ({
+            label: k,
+            values: picks.map((p) => (p.key_features && p.key_features[k]) || '—'),
+          })),
+        });
+      }
+
+      const flats = picks.map(flattenSpecs);
+      const specKeys = new Set();
+      for (const f of flats) for (const k of Object.keys(f)) specKeys.add(k);
+      if (specKeys.size) {
+        sections.push({
+          group: 'Specifications',
+          rows: [...specKeys].map((k) => ({
+            label: k,
+            values: flats.map((f) => f[k] || '—'),
+          })),
+        });
+      }
+
+      const html = sections.map((section) => {
+        const groupHeader = `
+          <tr class="compare-table__group">
+            <th colspan="${cols + 1}" scope="colgroup">${escapeHtml(section.group)}</th>
+          </tr>`;
+        const rows = section.rows
+          .filter((r) => r.values.some((v) => v && v !== '—'))
+          .map((r) => {
+            const nonEmpty = r.values.filter((v) => v && v !== '—');
+            const differs = new Set(nonEmpty).size > 1;
+            return `
+              <tr class="${differs ? 'compare-table__differ' : ''}">
+                <th scope="row">${escapeHtml(r.label)}</th>
+                ${r.values.map((v) => `<td class="mono-data">${escapeHtml(v)}</td>`).join('')}
+              </tr>`;
+          })
+          .join('');
+        return groupHeader + rows;
+      }).join('');
+      tbody.innerHTML = html;
+    }
+
+    function updateAddBtn() {
+      if (!addBtn) return;
+      const count = slotsContainer.querySelectorAll('.compare-slot').length;
+      addBtn.hidden = count >= maxSlots;
+    }
+
+    slotsContainer.addEventListener('input', (e) => {
+      const t = e.target;
+      if (!t.matches('input[data-slot-input]')) return;
+      const idx = Number(t.dataset.slotInput);
+      const q = t.value.trim();
+      if (q.length < MIN_CHARS) { hideDropdown(idx); return; }
+      searchForSlot(idx, q);
+    });
+
+    slotsContainer.addEventListener('focusin', (e) => {
+      const t = e.target;
+      if (!t.matches('input[data-slot-input]')) return;
+      const idx = Number(t.dataset.slotInput);
+      const q = t.value.trim();
+      if (q.length >= MIN_CHARS && slotState[idx].results.length) {
+        const dd = slotsContainer.querySelector(`[data-slot-dropdown="${idx}"]`);
+        if (dd) dd.hidden = false;
+        t.setAttribute('aria-expanded', 'true');
+      }
+    });
+
+    slotsContainer.addEventListener('keydown', (e) => {
+      const t = e.target;
+      if (!t.matches('input[data-slot-input]')) return;
+      const idx = Number(t.dataset.slotInput);
+      const state = slotState[idx];
+      const dd = slotsContainer.querySelector(`[data-slot-dropdown="${idx}"]`);
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (dd && dd.hidden && t.value.trim().length >= MIN_CHARS) searchForSlot(idx, t.value.trim());
+        state.active = Math.min(state.active + 1, state.results.length - 1);
+        if (state.active < 0) state.active = 0;
+        updateActive(idx);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        state.active = Math.max(state.active - 1, 0);
+        updateActive(idx);
+      } else if (e.key === 'Enter') {
+        if (state.active >= 0) { e.preventDefault(); pickResult(idx, state.active); }
+      } else if (e.key === 'Escape') {
+        hideDropdown(idx);
+        t.blur();
+      }
+    });
+
+    slotsContainer.addEventListener('click', (e) => {
+      const removeBtn = e.target.closest('[data-remove-slot]');
+      if (removeBtn) {
+        const idx = Number(removeBtn.dataset.removeSlot);
+        selected[idx] = null;
+        renderSlot(idx);
+        renderTable();
+        updateLockBanner();
+        return;
+      }
+      const dropBtn = e.target.closest('.compare-slot__dropdown-btn');
+      if (dropBtn) {
+        const li = dropBtn.closest('li[data-result-index]');
+        const dd = dropBtn.closest('[data-slot-dropdown]');
+        if (!li || !dd) return;
+        const idx = Number(dd.dataset.slotDropdown);
+        const rIdx = Number(li.dataset.resultIndex);
+        pickResult(idx, rIdx);
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      if (slotsContainer.contains(e.target)) return;
+      for (let i = 0; i < maxSlots; i++) hideDropdown(i);
+    });
+
+    if (addBtn) {
+      addBtn.addEventListener('click', () => {
+        const existing = slotsContainer.querySelectorAll('.compare-slot').length;
+        if (existing >= maxSlots) return;
+        const newSlot = document.createElement('div');
+        newSlot.className = 'compare-slot';
+        newSlot.dataset.slotIndex = String(existing);
+        slotsContainer.appendChild(newSlot);
+        renderSlot(existing);
+        updateAddBtn();
+      });
+    }
+
+    function clearAllSlots() {
+      for (let i = 0; i < selected.length; i++) selected[i] = null;
+      slotsContainer.querySelectorAll('.compare-slot').forEach((_, i) => renderSlot(i));
+      renderTable();
+      updateLockBanner();
+    }
+
+    if (resetBtn) resetBtn.addEventListener('click', clearAllSlots);
+    if (changeCategoryBtn) changeCategoryBtn.addEventListener('click', clearAllSlots);
+
+    for (let i = 0; i < slotsContainer.querySelectorAll('.compare-slot').length; i++) {
+      renderSlot(i);
+    }
+    updateAddBtn();
+    renderTable();
+    updateLockBanner();
+  })();
+</script>
+
+<style is:global>
+  .visually-hidden {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden; clip: rect(0, 0, 0, 0);
+    white-space: nowrap; border: 0;
+  }
+
+  .compare-builder__intro {
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    color: var(--color-text-muted);
+    margin: 0 0 var(--space-3);
+    max-width: 68ch;
+  }
+
+  .compare-builder__lock {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: var(--space-3);
+    margin: 0 0 var(--space-3);
+    padding: var(--space-2) var(--space-3);
+    border: 1px solid var(--color-rule);
+    background: var(--color-surface);
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+  }
+  .compare-builder__lock[hidden] { display: none; }
+  .compare-builder__lock-label {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+  }
+  .compare-builder__lock-value {
+    font-weight: 600;
+    color: var(--color-text);
+  }
+
+  .compare-builder__slots {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: var(--space-3);
+    margin-bottom: var(--space-4);
+  }
+
+  .compare-slot {
+    border: 1px solid var(--color-rule);
+    background: var(--color-bg);
+    min-height: 240px;
+    display: flex;
+    flex-direction: column;
+    padding: var(--space-4);
+    position: relative;
+  }
+
+  .compare-slot__picker {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-2);
+    position: relative;
+    height: 100%;
+    justify-content: center;
+  }
+
+  .compare-slot__picker-label {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    font-weight: 600;
+  }
+
+  .compare-slot__picker-input {
+    width: 100%;
+    padding: var(--space-3);
+    border: 1px solid var(--color-border-strong);
+    background: var(--color-bg);
+    font-family: var(--font-mono);
+    font-size: var(--text-sm);
+    border-radius: 0;
+    outline: none;
+  }
+  .compare-slot__picker-input:focus {
+    border-color: var(--color-accent);
+    box-shadow: inset 0 0 0 1px var(--color-accent);
+  }
+
+  .compare-slot__dropdown {
+    position: absolute;
+    top: calc(100% - 1px);
+    left: 0; right: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    margin: 0; padding: 0;
+    list-style: none;
+    background: var(--color-bg);
+    border: 1px solid var(--color-rule);
+    z-index: 30;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  }
+  .compare-slot__dropdown[hidden] { display: none; }
+  .compare-slot__dropdown li + li { border-top: 1px solid var(--color-border); }
+  .compare-slot__dropdown li { margin: 0; }
+
+  .compare-slot__dropdown-empty {
+    padding: var(--space-3) var(--space-4);
+    font-family: var(--font-mono);
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+
+  .compare-slot__dropdown-btn {
+    display: grid;
+    grid-template-columns: 20px 1fr;
+    gap: var(--space-2);
+    align-items: center;
+    width: 100%;
+    padding: var(--space-1) var(--space-3);
+    background: transparent;
+    border: 0;
+    text-align: left;
+    cursor: pointer;
+    font-family: inherit;
+    color: inherit;
+    min-height: 32px;
+  }
+  .compare-slot__dropdown-btn:hover,
+  .compare-slot__dropdown-item--active .compare-slot__dropdown-btn {
+    background: var(--color-surface);
+  }
+  .compare-slot__dropdown-btn img,
+  .compare-slot__dropdown-noimg {
+    width: 20px; height: 20px;
+    object-fit: contain;
+    background: var(--color-surface);
+  }
+  .compare-slot__dropdown-name {
+    display: block;
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    font-weight: 600;
+    color: var(--color-text);
+  }
+  .compare-slot__dropdown-meta {
+    display: block;
+    font-size: var(--text-xs);
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .compare-slot__card {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-3);
+    border: 0; padding: 0; margin: 0;
+    background: none;
+  }
+
+  .compare-slot__image-wrap {
+    aspect-ratio: 4 / 3;
+    background: var(--color-surface);
+    overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .compare-slot__image-wrap img {
+    max-width: 100%; max-height: 100%;
+    object-fit: contain;
+    padding: var(--space-3);
+  }
+  .compare-slot__image-placeholder {
+    width: 100%; height: 100%;
+    background: var(--color-surface);
+  }
+
+  .compare-slot__body {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .compare-slot__brand {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--color-text-subtle);
+    margin: 0;
+  }
+  .compare-slot__name {
+    font-family: var(--font-sans);
+    margin: 0;
+    font-size: var(--text-base);
+    line-height: 1.25;
+  }
+  .compare-slot__name a { color: var(--color-text); text-decoration: none; }
+  .compare-slot__name a:hover { color: var(--color-accent); }
+  .compare-slot__category,
+  .compare-slot__price {
+    margin: 0;
+    font-size: var(--text-sm);
+  }
+  .compare-slot__price { font-weight: 700; }
+  .compare-slot__category {
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    font-size: var(--text-xs);
+  }
+
+  .compare-builder__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-4);
+    align-items: center;
+    margin-bottom: var(--space-6);
+  }
+
+  .compare-builder__add-btn {
+    padding: var(--space-2) var(--space-4);
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    border: 1px solid var(--color-rule);
+    background: var(--color-bg);
+    cursor: pointer;
+    border-radius: 0;
+  }
+  .compare-builder__add-btn:hover {
+    border-color: var(--color-accent);
+    color: var(--color-accent);
+  }
+  .compare-builder__add-btn[hidden] { display: none; }
+
+  .compare-builder__empty {
+    padding: var(--space-8) var(--space-6);
+    border: 1px dashed var(--color-border-strong);
+    color: var(--color-text-muted);
+    font-family: var(--font-sans);
+  }
+
+  .compare-builder__table-wrap {
+    overflow-x: auto;
+    margin-top: var(--space-4);
+  }
+
+  .compare-builder__note {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    color: var(--color-text-subtle);
+    margin-top: var(--space-3);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .compare-table {
+    width: 100%;
+    min-width: 640px;
+    border-collapse: collapse;
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    border: 1px solid var(--color-rule);
+  }
+
+  .compare-table thead th {
+    text-align: left;
+    padding: var(--space-3);
+    background: var(--color-rule);
+    color: #fff;
+    vertical-align: top;
+    font-weight: 600;
+  }
+  .compare-table thead th:first-child {
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+  }
+  .compare-table thead th a { color: #fff; text-decoration: none; }
+  .compare-table thead th a:hover { color: #fde7d6; }
+
+  .compare-table__brand {
+    display: block;
+    font-family: var(--font-sans);
+    font-weight: 400;
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 2px;
+  }
+
+  .compare-table tbody th,
+  .compare-table tbody td {
+    padding: var(--space-2) var(--space-3);
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: top;
+  }
+  .compare-table tbody th {
+    color: var(--color-text-muted);
+    font-weight: 500;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: var(--text-xs);
+    letter-spacing: 0.04em;
+    width: 22%;
+    background: var(--color-data-bg);
+  }
+
+  .compare-table__group th {
+    background: var(--color-surface);
+    border-top: 2px solid var(--color-rule);
+    border-bottom: 1px solid var(--color-rule);
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--color-text);
+    padding: var(--space-2) var(--space-3);
+    font-weight: 700;
+  }
+
+  .compare-table__differ td {
+    background: rgba(178, 57, 10, 0.05);
+  }
+  .compare-table__differ th {
+    color: var(--color-accent);
+  }
+</style>

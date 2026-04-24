@@ -1,0 +1,129 @@
+---
+import '../styles/global.css';
+
+export interface Props {
+  title?: string;
+  description?: string;
+  canonicalURL?: string;
+  ogImage?: string;
+  noindex?: boolean;
+  frontmatter?: {
+    title?: string;
+    description?: string;
+    canonicalURL?: string;
+    ogImage?: string;
+    noindex?: boolean;
+  };
+}
+
+// MDX pages using `layout: BaseLayout.astro` pass frontmatter under Astro.props.frontmatter
+// rather than as direct props. Fall back through frontmatter so both call styles work.
+const props = Astro.props;
+const fm = props.frontmatter ?? {};
+const title = props.title ?? fm.title ?? 'HHZ Respiratory Review';
+const description = props.description ?? fm.description;
+const canonicalURL = props.canonicalURL ?? fm.canonicalURL;
+const ogImage = props.ogImage ?? fm.ogImage;
+const noindex = props.noindex ?? fm.noindex;
+
+const SITE_NAME = 'HHZ Respiratory Review';
+const fullTitle = title === SITE_NAME ? title : `${title} — ${SITE_NAME}`;
+const resolvedCanonical = canonicalURL ?? new URL(Astro.url.pathname, Astro.site).toString();
+
+const nav = [
+  { href: '/oxygen-concentrators/', label: 'Concentrators' },
+  { href: '/cpap/', label: 'CPAP' },
+  { href: '/bipap/', label: 'BiPAP' },
+  { href: '/compare/', label: 'Compare' },
+  { href: '/guides/', label: 'Guides' },
+  { href: '/clinical/', label: 'Clinical' },
+];
+
+const footerNav = [
+  { href: '/about/', label: 'About' },
+  { href: '/methodology/', label: 'Methodology' },
+  { href: '/editorial-policy/', label: 'Editorial policy' },
+  { href: '/correction-policy/', label: 'Corrections' },
+  { href: '/privacy-policy/', label: 'Privacy' },
+  { href: '/terms/', label: 'Terms' },
+  { href: '/contact/', label: 'Contact' },
+];
+
+const currentPath = Astro.url.pathname;
+const isCurrent = (href: string) =>
+  currentPath === href || (href !== '/' && currentPath.startsWith(href));
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{fullTitle}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="canonical" href={resolvedCanonical} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+
+    {/* Open Graph */}
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={resolvedCanonical} />
+    {description && <meta property="og:description" content={description} />}
+    {ogImage && <meta property="og:image" content={ogImage} />}
+
+    {/* Twitter */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    {description && <meta name="twitter:description" content={description} />}
+    {ogImage && <meta name="twitter:image" content={ogImage} />}
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    {/* Feeds */}
+    <link rel="alternate" type="application/rss+xml" title={`${SITE_NAME} (RSS)`} href="/feed.xml" />
+    <link rel="alternate" type="application/feed+json" title={`${SITE_NAME} (JSON)`} href="/feed.json" />
+
+    {/* LLM-friendly corpus index */}
+    <link rel="alternate" type="text/plain" title="LLM index" href="/llms.txt" />
+  </head>
+  <body>
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <header class="site-header">
+      <div class="container">
+        <a href="/" class="masthead" aria-label="HHZ Respiratory Review home">
+          <strong>HHZ</strong> Respiratory Review
+        </a>
+        <nav class="site-nav" aria-label="Primary">
+          {nav.map((item) => (
+            <a
+              href={item.href}
+              aria-current={isCurrent(item.href) ? 'page' : undefined}
+            >
+              {item.label}
+            </a>
+          ))}
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container">
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <nav aria-label="Footer">
+          {footerNav.map((item) => (
+            <a href={item.href}>{item.label}</a>
+          ))}
+        </nav>
+        <p>
+          © {new Date().getFullYear()} {SITE_NAME}. Independent reviews of respiratory equipment
+          sold in India. No free product accepted, no sponsored placements, no brand veto.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
