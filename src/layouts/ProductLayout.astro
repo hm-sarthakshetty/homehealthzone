@@ -81,7 +81,13 @@ const keyFeatureEntries = Object.entries(product.key_features ?? {});
 const specTables = product.spec_tables ?? {};
 const faqs = product.faqs ?? [];
 ---
-<BaseLayout title={title} description={description} canonicalURL={canonicalURL} ogImage={ogImage}>
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalURL={canonicalURL}
+  ogImage={ogImage}
+  preloadImage={primaryImage?.src}
+>
   <article class="product">
     <Breadcrumbs items={breadcrumbs} />
 

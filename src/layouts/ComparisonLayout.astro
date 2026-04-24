@@ -105,7 +105,12 @@ const winnerLabel = winner === 'A'
   ? 'Tie'
   : null;
 ---
-<BaseLayout title={title} description={description} canonicalURL={canonicalURL}>
+<BaseLayout
+  title={title}
+  description={description}
+  canonicalURL={canonicalURL}
+  preloadImage={imageA?.src}
+>
   <article class="compare">
     <Breadcrumbs items={breadcrumbs} />
 

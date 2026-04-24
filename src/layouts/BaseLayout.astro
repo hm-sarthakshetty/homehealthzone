@@ -7,6 +7,13 @@ export interface Props {
   canonicalURL?: string;
   ogImage?: string;
   noindex?: boolean;
+  /**
+   * LCP-candidate image URL that the browser should start fetching before it
+   * finishes parsing the rest of the HTML. Emitted as a <link rel="preload">
+   * in <head>. Only pass this when the image is certain to be the largest
+   * contentful paint element on the page (product hero, first compare card, etc.).
+   */
+  preloadImage?: string;
   frontmatter?: {
     title?: string;
     description?: string;
@@ -25,6 +32,29 @@ const description = props.description ?? fm.description;
 const canonicalURL = props.canonicalURL ?? fm.canonicalURL;
 const ogImage = props.ogImage ?? fm.ogImage;
 const noindex = props.noindex ?? fm.noindex;
+const preloadImage = props.preloadImage;
+
+// If preloadImage points at /images/products/<file>.jpg|png, prefer the AVIF variant
+// from /images/opt/ — most modern browsers support AVIF and it's typically 5–8×
+// smaller than the JPG. Browsers without AVIF support ignore the preload and
+// fetch the original via the <picture> fallback.
+function preloadHref(src: string | undefined): string | undefined {
+  if (!src) return undefined;
+  const m = src.match(/^\/images\/products\/(.+)\.(jpe?g|png)$/i);
+  if (!m) return src;
+  return `/images/opt/${m[1]}.avif`;
+}
+function preloadType(src: string | undefined): string | undefined {
+  if (!src) return undefined;
+  if (/\/images\/products\/.+\.(jpe?g|png)$/i.test(src)) return 'image/avif';
+  if (/\.avif$/i.test(src)) return 'image/avif';
+  if (/\.webp$/i.test(src)) return 'image/webp';
+  if (/\.(jpe?g)$/i.test(src)) return 'image/jpeg';
+  if (/\.png$/i.test(src)) return 'image/png';
+  return undefined;
+}
+const preloadHrefResolved = preloadHref(preloadImage);
+const preloadTypeResolved = preloadType(preloadImage);
 
 const SITE_NAME = 'HHZ Respiratory Review';
 const fullTitle = title === SITE_NAME ? title : `${title} — ${SITE_NAME}`;
@@ -79,6 +109,16 @@ const isCurrent = (href: string) =>
     {ogImage && <meta name="twitter:image" content={ogImage} />}
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    {preloadHrefResolved && (
+      <link
+        rel="preload"
+        as="image"
+        href={preloadHrefResolved}
+        type={preloadTypeResolved}
+        fetchpriority="high"
+      />
+    )}
 
     {/* Feeds */}
     <link rel="alternate" type="application/rss+xml" title={`${SITE_NAME} (RSS)`} href="/feed.xml" />

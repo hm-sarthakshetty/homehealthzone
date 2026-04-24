@@ -118,6 +118,6 @@ export default defineConfig({
     }),
     mdx(),
   ],
-  build: { inlineStylesheets: 'auto' },
+  build: { inlineStylesheets: 'always' },
   trailingSlash: 'always',
 });

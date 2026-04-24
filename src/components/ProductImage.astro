@@ -10,6 +10,10 @@ export interface Props {
   loading?: 'lazy' | 'eager';
   fetchpriority?: 'high' | 'low' | 'auto';
   class?: string;
+  /** Intrinsic width in CSS pixels — used by browser for layout reservation. */
+  width?: number;
+  /** Intrinsic height in CSS pixels — used by browser for layout reservation. */
+  height?: number;
 }
 
 const {
@@ -18,6 +22,11 @@ const {
   loading = 'lazy',
   fetchpriority,
   class: className,
+  // Defaults reflect the 4:3 aspect the CSS renders at on cards + hero images.
+  // Declared attributes let the browser reserve layout space before the image
+  // decodes, eliminating a CLS contribution and letting LCP elements paint sooner.
+  width = 800,
+  height = 600,
 } = Astro.props;
 
 const PREFIX = '/images/products/';
@@ -44,6 +53,8 @@ if (src.startsWith(PREFIX)) {
       fetchpriority={fetchpriority}
       class={className}
       decoding="async"
+      width={width}
+      height={height}
     />
   </picture>
 ) : (
@@ -54,5 +65,7 @@ if (src.startsWith(PREFIX)) {
     fetchpriority={fetchpriority}
     class={className}
     decoding="async"
+    width={width}
+    height={height}
   />
 )}
