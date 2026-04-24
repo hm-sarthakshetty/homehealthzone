@@ -19,11 +19,23 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     <h3>Analytics</h3>
     <p>
-      We use Plausible Analytics to understand traffic at an aggregate level. Plausible does
-      not set cookies for visitor identification and does not collect personal data. It
-      records the URL requested, an anonymised referrer, an approximate country (derived from
-      IP and then discarded), and the screen size and browser family. We cannot identify any
-      individual visitor from this data, and we do not try to.
+      We use Google Analytics 4 to understand in aggregate what content is read, from which
+      countries, and over what kind of connection. GA4 sets first-party cookies
+      (<code>_ga</code> and <code>_ga_&lt;stream-id&gt;</code>) used to distinguish one browser
+      session from another. It also records the URL requested, the referrer, an approximate
+      geographic region derived from your IP address (the IP itself is truncated by Google
+      before storage), the browser and OS family, screen size, and the standard GA4 Enhanced
+      Measurement events (page views, scrolls, outbound clicks, file downloads, site-search
+      queries). Data is sent to Google's servers and retained per Google's published
+      retention window.
+    </p>
+    <p>
+      We do not turn on Google Signals, Google-Ads-linked advertising features, or
+      cross-site user-ID stitching. We do not use the data for advertising or remarketing.
+      If you want to opt out of GA4 across all sites that use it, install the
+      <a href="https://tools.google.com/dlpage/gaoptout" rel="nofollow noopener">Google Analytics Opt-out Browser Add-on</a>
+      or enable your browser's Do Not Track / Global Privacy Control signals (we honour GPC
+      for US-CCPA-covered visitors).
     </p>
 
     <h3>Contact forms and email</h3>
@@ -42,14 +54,13 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       rate-limiting and are retained for 30 days.
     </p>
 
-    <h2>What we do not collect</h2>
+    <h2>What we do not do</h2>
     <ul>
-      <li>We do not run advertising trackers.</li>
+      <li>We do not run advertising trackers or retargeting pixels on the site.</li>
       <li>
-        We do not set identification cookies. The only cookies you may encounter are session
-        cookies strictly necessary to deliver the page (for example, to remember that you
-        dismissed a cookie notice on a regulated jurisdiction). We do not use third-party
-        advertising or retargeting cookies.
+        We do not enable Google Signals, Google Ads linkage, or cross-site user-ID
+        stitching in our GA4 property. Analytics are used to measure aggregate content
+        performance, not to target you.
       </li>
       <li>
         We do not sell or share personal data with third parties for commercial purposes.
@@ -113,6 +124,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       days. Historical versions are available on request.
     </p>
 
-    <p><em>Effective date: 23 April 2026</em></p>
+    <p><em>Effective date: 24 April 2026</em></p>
   </article>
 </BaseLayout>
