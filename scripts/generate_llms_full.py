@@ -149,6 +149,9 @@ def main() -> int:
         if s:
             parts.append(s)
 
+    # Top-5 category rankings (pillar pages under src/pages/top-5/)
+    parts += read_mdx_sections(SITE / "src/pages/top-5", "/top-5/")
+
     # Buyer's guides
     parts += read_mdx_sections(SITE / "src/content/guides", "/guides/")
 

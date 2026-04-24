@@ -14,6 +14,16 @@ HHZ reviews 93 oxygen concentrators and 27 CPAP/BiPAP devices available in the I
 - [Terms of use](https://homehealthzone.com/terms/)
 - [Contact](https://homehealthzone.com/contact/)
 
+## Top 5 category rankings
+
+Editorially curated Top-5 picks per category, ranked by HHZ score, with pros/cons and best-for buyer profiles for each:
+
+- [Top 5 5 LPM oxygen concentrators in India (2026)](https://homehealthzone.com/top-5/5-lpm-oxygen-concentrators/): Philips EverFlo, AirSep Visionaire, DeVilbiss 5 LPM, Nidek Nuvo Lite, Home Medix HM-KV
+- [Top 5 10 LPM oxygen concentrators in India (2026)](https://homehealthzone.com/top-5/10-lpm-oxygen-concentrators/): Home Medix HM-KX, Oxymed 10 Litres, Nidek Nuvo 10, DeVilbiss 10 LPM, Fitmate 10 LPM
+- [Top 5 portable (battery-powered) oxygen concentrators in India (2026)](https://homehealthzone.com/top-5/portable-oxygen-concentrators/): Inogen One G5, SeQual Eclipse 5, Invacare Platinum Mobile, Philips SimplyGo Mini, Caire FreeStyle Comfort 5
+- [Top 5 CPAP machines in India (2026)](https://homehealthzone.com/top-5/cpap-machines/): ResMed AirSense 10 AutoSet, ResMed AirSense 11, Breas Z2 Auto, ResMed AirMini, Home Medix HM-CV-20
+- [Top 5 BiPAP machines in India (2026)](https://homehealthzone.com/top-5/bipap-machines/): ResMed Lumis 150 VPAP ST, ResMed Lumis 100 VPAP ST, ResMed AirCurve 10 V Auto, Home Medix HM-BV-30, Philips DreamStation BiPAP AVAPS
+
 ## Buyer's guides
 
 - [Oxygen concentrator buyer's guide for India](https://homehealthzone.com/guides/oxygen-concentrators-buyers-guide-india/): indications, LPM matching, purity expectations, warranty considerations

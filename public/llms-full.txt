@@ -826,6 +826,828 @@ Source: https://homehealthzone.com/correction-policy/
 
 ---
 
+# Top 5 10 LPM Oxygen Concentrators in India (2026) — HHZ
+
+Source: https://homehealthzone.com/top-5/10-lpm-oxygen-concentrators/
+
+# Top 5 10 LPM Oxygen Concentrators in India (2026)
+
+The 10 LPM high-flow stationary concentrator is the correct class for severe COPD on 6+ LPM, progressing ILD and IPF, post-ICU step-down at home, non-invasive ventilator enrichment, and dual-patient low-flow setups via Y-splitter. It is not the category to buy "just in case" — 10 LPM units run louder, draw more power, and cost two to three times what a 5 LPM does, and are clinically over-specified for stable 2–4 LPM prescriptions. This listicle ranks the five 10 LPM units HHZ considers the strongest buys for Indian households in 2026 by editorial score. The default pick for the Home-Medix-served single-patient household is the HM-KX — class-tied-quietest sound, class-lowest power draw, integrated nebulization.
+
+## How we ranked
+
+HHZ applies the same composite rubric to every 10 LPM device: published purity and flow accuracy per manufacturer brochure and e-commerce listings, noise, power draw, build and chassis weight, outlet pressure, alarm suite completeness, warranty term, Indian authorised-dealer and service-network depth, and price-to-performance. We do not run independent bench tests — all performance claims are per published spec, manufacturer figure, or field-observed in the dealer network. The full methodology is at [our methodology page](/methodology/).
+
+## The top 5
+
+### 1. Home Medix HM-KX 10 LPM — 8.0
+
+**Price snapshot** — indicative retail ₹65,000 (listed MRP ₹85,000), 25.6 kg, 0.5–10 LPM continuous, field-verified ≤48 dB sound, 550 VA draw, 3-year or 10,000-hour warranty, AC 230V ±10% tolerance.
+
+**Pros**
+- Field-verified ≤48 dB sound floor ties the Nidek Nuvo 10 as the quietest 10 LPM on the Indian market, and 7–12 dB below Philips 10 LPM, AirSep Intensity 10, and most Chinese OEM 10 LPMs.
+- 550 VA draw is the lowest in the 10 LPM class — roughly 8–15% below Nidek, Philips, AirSep, and DeVilbiss at 590–650 VA, translating to ₹300–₹450/month lower electricity over 24/7 LTOT use.
+- Integrated nebulization and precise electronic flowmeter — feature-set differentiators not standard in the class.
+- Factory-integrated one-touch SOS audible siren, dealer-validated across 100+ deployments. Local distress alarm loud enough to reach a caregiver in an adjacent room — no mobile app, no SIM, no data pack to fail.
+- Full alarm suite (Low Oxygen, Power Failure, High Temperature, Low/No Flow) plus documented AC ±10% voltage tolerance and on-panel hour counter.
+- 3-year or 10,000-hour warranty matches the import tier.
+
+**Cons**
+- 25.6 kg is ~5 kg heavier than the Nidek Nuvo 10 — two-person job on stairs or across carpet.
+- Service-network coverage is strongest in South and West India; North-East and hill belt reach is thin.
+- Brand recognition among Indian pulmonologists sits below Nidek, Philips, and AirSep.
+- No FDA approval, no third-party bench validation, no cloud telemetry.
+
+**Best for** — chronic high-flow LTOT in Home-Medix-served cities, patients needing concurrent nebulization on the same circuit, bedridden patients with an in-home caregiver not always in the same room, cost-conscious buyers trading down from a premium import rather than into a Chinese rebadge.
+
+Full review at [/oxygen-concentrators/home-medix-10-lpm/](/oxygen-concentrators/home-medix-10-lpm/).
+
+### 2. Oxymed 10 Litre Dual Flow — 7.8
+
+**Price snapshot** — indicative retail ₹50,990 (listed MRP ₹95,000), 24 kg, 1–10 LPM continuous, 50 dB published sound, 610 W draw, 14.5 psi outlet pressure, 2-year warranty, CDSCO registered.
+
+**Pros**
+- 1–10 LPM continuous flow at 90–96% purity across all flow rates — the "all flow rates" claim is clinically meaningful at the top of the range.
+- 14.5 psi outlet pressure is the standout in the class — drives high-resistance humidifier/nebuliser chains, Y-split dual-patient setups, and long cannula runs without pressure-dependent flow loss.
+- 610 W power draw is unusually low for the output class — well below most sub-premium 10 LPM units.
+- Full alarm package (OPI, no-flow, system-malfunction, loss-of-power) present on this SKU.
+- Oxymed's authorised service network is the broadest Indian-brand footprint at this price point — roughly 40 service centres across ~50 cities.
+
+**Cons**
+- 24 kg chassis is heavy for daily in-home relocation.
+- 50 dB sound claim sits at the edge of bedroom tolerability; a single bedroom shared with the patient is borderline.
+- No CE or US FDA paperwork on record for this SKU — CDSCO is the applicable Indian regulatory gate, which matters for hospital-channel buyers with strict procurement policies.
+- No altitude rating published — confirm with the manufacturer for installations above ~5,000 ft.
+
+**Best for** — single-patient high-flow home LTOT where the 14.5 psi outlet is clinically useful, dual-patient elderly-couple households on 2–3 LPM each via Y-splitter, small nursing homes and hospice fleets where service footprint drives uptime more than spec sheet.
+
+Full review at [/oxygen-concentrators/oxymed-10-litres/](/oxygen-concentrators/oxymed-10-litres/).
+
+### 3. Nidek Nuvo 10 LPM — 7.2
+
+**Price snapshot** — indicative retail ₹94,079 (listed MRP ₹120,000), 29.26 kg, 2–10 LPM continuous, 58 dB published sound, 600 W draw, 15 psi outlet pressure, 87–95% purity, 1-year warranty, 5,000 ft operating altitude.
+
+**Pros**
+- Genuine 2–10 LPM ceiling with full continuous titration — the default workhorse for severe COPD, ILD, and late-stage respiratory failure on 8–10 LPM continuous.
+- Complete alarm set (loss of power, system malfunction, no-flow) listed on the manufacturer sheet.
+- 15 psi outlet pressure supports long tubing runs and most transfill rigs without measurable pressure drop at high flow.
+- FDA and CE paperwork on record; Nidek India service network is present in all metros plus Pune, Hyderabad, Ahmedabad, Chandigarh, Kochi.
+- Widely stocked in Indian dealer channels; spare parts pipeline is the most reliable in the imported 10 LPM segment.
+
+**Cons**
+- 58 dB published sound is 10 dB louder than the HM-KX and Nuvo Nuvo 10 class — not a shared-bedroom unit.
+- 5,000 ft altitude ceiling is the lowest in this list — no good option for Indian hill stations above Munnar at 5,200 ft.
+- 600 W power draw adds roughly ₹325/month over the HM-KX at the same 14 h/day duty cycle.
+- 87–95% purity band has worst-case 84% delivery at 10 LPM after the -3% tolerance — below the 86% OPI alarm trigger.
+- 1-year warranty is the shortest in the list; extended warranty from Tier-1 dealers runs ₹8,000–12,000 for two additional years.
+
+**Best for** — plains-altitude patients on clinically genuine 8–10 LPM continuous prescriptions where the Nidek service pipeline is the load-bearing requirement; households with wall-separation between the machine and the sleeper.
+
+Full review at [/oxygen-concentrators/nidek-nuvo-10-litre/](/oxygen-concentrators/nidek-nuvo-10-litre/).
+
+### 4. DeVilbiss 10 LPM — 7.0
+
+**Price snapshot** — indicative retail ₹109,584 (listed MRP ₹158,400), 19 kg, 2–10 LPM continuous, 67 dB published sound, 664 W draw, 20 psi outlet pressure, 87–96% purity, 2-year Indian warranty, 5,000 ft operating altitude.
+
+**Pros**
+- 19 kg chassis is 10 kg lighter than the Nuvo 10 — genuinely portable between rooms or between patient bays in a step-down ward.
+- 20 psi outlet pressure is the highest in this list — best support for transfill setups, parallel humidifier/nebuliser accessory chains, and 60+ ft tubing runs.
+- 96% purity ceiling is the best in the 10 LPM class against the Nuvo 10's 95%.
+- Complete alarm set plus OPI, FDA and CE both on the manufacturer sheet.
+- 2-year Indian warranty is 1 year longer than the Nuvo 10 at this tier — meaningful on a failure-prone high-flow device.
+
+**Cons**
+- 67 dB published sound is the loudest in this list and the loudest in this review — conversation-level volume, 9 dB above the Nuvo 10 and 20 dB above the HM-KX.
+- 664 W power draw is the highest in the 10 LPM class — roughly ₹2,175/month on Mumbai tariffs at 14 h/day.
+- 5,000 ft altitude cap matches the Nuvo 10's — the DeVilbiss brand premium does not buy altitude headroom here, despite the 525's 13,123 ft rating at 5 LPM.
+- ₹109,584 retail is ₹15,500 above the Nuvo 10 and ~₹45,000 above the HM-KX for no flow-ceiling advantage.
+
+**Best for** — step-down ward or small nursing home where the 19 kg chassis moves between patient rooms and ambient noise is already elevated; home patients needing 60+ ft tubing runs where the 20 psi outlet provides real pressure margin.
+
+Full review at [/oxygen-concentrators/devilbiss-10-lpm/](/oxygen-concentrators/devilbiss-10-lpm/).
+
+### 5. Fitmate 10 LPM — 6.4
+
+**Price snapshot** — indicative retail ₹134,400, 25.5 kg, 0.5–10 LPM continuous, 55 dB published sound, 600 W draw, 5.25 psi outlet pressure, CE certified, 1-year warranty.
+
+**Pros**
+- CE certification declared on the spec sheet — one of the few Chinese-origin 10 LPMs in the Indian market with CE on record.
+- 0.5–10 LPM continuous range covers dual-patient low-flow (via Y-splitter) and single-patient high-flow use cases.
+- Loss-of-power and system-malfunction alarms both declared.
+- Price undercuts Philips 10 LPM (₹1.50L+) and Nidek Nuvo 10 ceiling bracket (₹1.60L+) for branded competitors where those exist.
+
+**Cons**
+- 55 dB noise spec is loud — not a bedroom-at-night unit.
+- 5.25 psi outlet pressure is modest; borderline for Y-split dual-patient setups and insufficient for most HFNC/NIV feed circuits — test compatibility before committing.
+- No US FDA approval and no FAA compliance declared.
+- No-flow alarm row is blank on the spec sheet — real gap for unattended high-flow use where cannula dislodgement is a realistic failure mode.
+- No meaningful Indian service footprint; parts route through the importing dealer with 3–6 week turnaround on major components.
+
+**Best for** — step-down home use, dual-patient low-flow setups, short-to-medium-term high-flow recovery scenarios where the CE certification and ₹35,000–50,000 saving against branded alternatives is the decisive factor, provided the buyer can absorb the service-network ambiguity.
+
+Full review at [/oxygen-concentrators/fitmate-10lpm/](/oxygen-concentrators/fitmate-10lpm/).
+
+## How to pick between these five
+
+**Single-patient quiet LTOT vs dual-patient routing.** If the machine serves one patient in a single bedroom where the sleeper is light, the HM-KX or Nuvo 10 sound floors (both ≤48 dB) are the only acceptable options in the list; the DeVilbiss 10 at 67 dB and the Fitmate at 55 dB are loud enough to require wall separation. If the setup is dual-patient via Y-splitter (an elderly couple both on 2–3 LPM), the Oxymed 10 Dual Flow's 14.5 psi outlet and explicit dual-flow routing beat everything else — the HM-KX's 0.04–0.06 MPa outlet is marginal for Y-split pressure-drop, and the DeVilbiss's 20 psi wins on pressure but loses badly on noise.
+
+**Indian brand warranty vs imported algorithm maturity.** The HM-KX's 3-year or 10,000-hour warranty is longer than the Nuvo 10 (1 year) and matches the DeVilbiss 10 (2 years) in calendar terms. For any high-flow unit running 20+ hours a day, the compressor failure-rate window is 18–24 months — a 2-year-plus warranty is genuine insurance, and the HM-KX and DeVilbiss both cover that window. The Nuvo 10 buyer should budget the extended-warranty upcharge.
+
+**Altitude.** Every unit in this list except the Fitmate publishes a 5,000 ft or lower rating, and the Fitmate does not publish an altitude figure at all. There is no good 10 LPM answer for Indian hill stations above 5,000 ft — Shimla at 7,200 ft, Darjeeling at 6,700 ft, Leh at 11,500 ft are all off-brief. For patients on 10 LPM prescriptions at hill altitudes, the honest move is dual 5 LPM machines (the [DeVilbiss 5 LPM](/oxygen-concentrators/devilbiss-5-lpm/) at 13,123 ft) on a Y-connector, or a cylinder-backed cascade.
+
+**Price vs service-network depth.** The Oxymed 10 at ₹50,990 is the cheapest in the list; the Fitmate at ₹134,400 the most expensive for arguably the weakest spec. Oxymed's service footprint is the broadest Indian-brand network at this price point — roughly 40 centres across ~50 cities. HM-KX is strong in South and West India but thins in the North-East. Nuvo 10 covers all metros plus a respectable tier-2 list. DeVilbiss concentrates on metros plus Chandigarh, Pune, Hyderabad, Kochi. Fitmate has effectively no Indian service network — parts route through the importing dealer.
+
+**Feature density vs commodity spec.** The HM-KX's integrated nebulization and dealer-validated SOS siren are real-world-tested features at a ₹65,000 price that does not exist on any of the other four units. If those features match the clinical picture — a patient on concurrent bronchodilator nebulization, a bedridden patient with voice-too-weak-to-call-out — the HM-KX is the only pick in the list that ships them factory-integrated.
+
+## Who should look elsewhere
+
+Patients whose prescription is 5 LPM or below should not be on a 10 LPM machine at all. The compressor, power budget, and chassis are mismatched to the therapy; noise and electricity are both unnecessarily elevated. See [our 5 LPM top 5](/top-5/5-lpm-oxygen-concentrators/) instead.
+
+Patients on a prescription that requires battery-powered mobility (travel, transport between addresses, hospital-to-home transport on continuous flow) are not served by any stationary 10 LPM. The [SeQual Eclipse 5](/oxygen-concentrators/sequal-eclipse-5/) is the only Indian-market portable that delivers up to 3 LPM continuous on battery, and above 3 LPM on continuous flow there is no portable option — a cylinder bridge is the only answer.
+
+Patients at altitudes above 5,000 ft on 10 LPM prescriptions are outside every unit in this list's rated envelope. Purity derates predictably above the rated ceiling, and the OPI alarm will fire on a healthy machine. Hill-station 10 LPM is a market gap in India.
+
+Hospital and institutional procurement teams who mandate US FDA listing or CE marking should not consider the Oxymed 10 (CDSCO only) or the HM-KX (CDSCO plus ISO 13485 but no FDA). The Nuvo 10 or DeVilbiss 10 are the correct choices at that spec level, at a 40–120% price premium.
+
+Buyers in tier-3 cities with no authorised service partner for any of the five brands within a 72-hour dispatch radius should plan for a cylinder bridge during any service event, or factor a loaner-unit clause into the purchase agreement in writing.
+
+## Verdict
+
+For the default Indian high-flow LTOT buyer — single patient, plains altitude, 24/7 use, budget in the ₹50,000–75,000 band, access to Home Medix service in South or West India — the **Home Medix HM-KX** at ₹65,000 is the strongest feature-to-price value on the list. Field-verified ≤48 dB sound ties the class, 550 VA is the class-lowest power draw, integrated nebulization and the one-touch SOS siren are real-world-tested differentiators, and the 3-year or 10,000-hour warranty matches the import tier.
+
+For dual-patient households or nursing-home fleets where service reach is load-bearing, the **Oxymed 10 Dual Flow** at ₹50,990 is the correct choice — broadest Indian-brand service network, 14.5 psi outlet pressure for Y-split setups, and the cheapest price in the list.
+
+For patients on genuine 8–10 LPM continuous prescriptions who need the Nidek service pipeline and have wall-separation between the machine and the sleeper, the **Nidek Nuvo 10** at ₹94,079 is the defensible pick, with an extended warranty add-on strongly recommended.
+
+For step-down wards and institutional buyers where the 20 psi outlet and 19 kg chassis matter more than bedroom noise, the **DeVilbiss 10 LPM** at ₹109,584 is the correct choice.
+
+The **Fitmate 10** sits at rank 5 on price-to-spec and should only be considered where CE certification at sub-branded pricing is a procurement requirement and the buyer can accept the thin service footprint.
+
+Consult your prescribing physician before finalising any 10 LPM purchase — confirm the prescription genuinely requires >5 LPM, because many patients are over-specced into this class.
+
+---
+
+# Top 5 5 LPM Oxygen Concentrators in India (2026) — HHZ
+
+Source: https://homehealthzone.com/top-5/5-lpm-oxygen-concentrators/
+
+# Top 5 5 LPM Oxygen Concentrators in India (2026)
+
+The 5 LPM continuous-flow stationary concentrator is the default class of device prescribed for long-term oxygen therapy in India — stable COPD, ILD, post-COVID lung sequelae, post-discharge recovery. Close to nine out of ten Indian home oxygen prescriptions fall in the 1–4 LPM continuous band that a 5 LPM machine is sized for. The category also carries the widest price spread of any concentrator class, the most brand churn, and the highest counterfeit risk. This listicle ranks the five 5 LPM units HHZ considers the strongest buys for an Indian household in 2026, in order of HHZ editorial score. The default pick for a plains-altitude, stable 1–4 LPM prescription is the Philips EverFlo — quiet, light, power-efficient, and attached to the deepest service network in the category.
+
+## How we ranked
+
+HHZ scores every respiratory device on the same composite rubric: published purity and flow accuracy against the manufacturer brochure and e-commerce listings, noise, power draw, build and chassis weight, warranty term, Indian authorised-dealer and service-network depth, and price-to-performance against in-class alternatives. We do not run independent bench tests on any unit referenced here — all performance statements are per published spec, manufacturer claim, or field-observed in the dealer network. The full methodology is at [our methodology page](/methodology/).
+
+## The top 5
+
+### 1. Philips EverFlo 5 LPM — 8.2
+
+**Price snapshot** — indicative retail ₹43,699 (listed MRP ₹63,228), 14 kg, 1–5 LPM continuous, 45 dB published sound, 350 W draw, 3-year warranty, 7,500 ft operating altitude.
+
+**Pros**
+- Lightest imported 5 LPM stationary in the class at 14 kg, genuinely movable between rooms by a single caregiver.
+- 350 W published power draw keeps 24/7 electricity cost in reach of most Indian domestic utility slabs.
+- Integrated Oxygen Purity Indicator alarms below ~82% purity, catching silent sieve-bed drift that is a real failure mode in humid Indian coastal cities.
+- 45 dB published sound level stays under the bedside-disruption threshold in a small Indian bedroom.
+- Widest Philips Respironics authorised service network of any imported concentrator brand in India — sub-48-hour spare-part availability across 15-plus cities.
+
+**Cons**
+- 7,500 ft operating altitude ceiling rules out Leh, Kaza, Tawang, and other above-2,286 m deployments.
+- 5.5 psi outlet pressure is the lowest in the class — pressure drops over long tubing (40 ft-plus cannula runs to an adjacent bedroom) are real.
+- Pure continuous-flow only — no pulse-flow travel mode.
+
+**Best for** — the stable 1–4 LPM LTOT patient at a fixed plains-altitude address, where the machine runs 12–24 hours a day for months or years and service reliability matters more than spec-sheet top-end.
+
+Full review at [/oxygen-concentrators/philips-everflo-5-lpm/](/oxygen-concentrators/philips-everflo-5-lpm/).
+
+### 2. AirSep Visionaire 5 — 8.0
+
+**Price snapshot** — indicative retail ₹54,999 (listed MRP ₹80,640), 13.6 kg, 0.5–5 LPM continuous, 45 dB published sound, 290 W draw, 10,000 ft operating altitude, 8 psi outlet pressure.
+
+**Pros**
+- 290 W published power draw is the lowest in the 5 LPM class, roughly ₹14,000 saved in electricity over a three-year 24/7 prescription versus the EverFlo.
+- 10,000 ft operating altitude opens Nainital, Auli, and the bulk of Himachal and Uttarakhand hill-station routes that the EverFlo's 7,500 ft ceiling rules out.
+- 0.5 LPM flow floor is unique among imported 5 LPM units — matters for paediatric titration and sub-1 LPM overnight prescriptions.
+- Complete alarm suite (loss of power, system malfunction, no-flow) plus OPI — fuller unattended-operation monitoring than most peers.
+- 8 psi outlet pressure is the highest in the imported 5 LPM tier — genuine advantage for multi-room installs with 30–40 ft cannula runs.
+
+**Cons**
+- CAIRE/AirSep India service network is meaningfully thinner than Philips Respironics, especially in tier-2 cities — dispatch times on spares run longer.
+- ₹54,999 indicative retail is 26% above the Philips EverFlo for specs that only pay back in specific altitude or high-utilisation scenarios.
+- Brand visibility in Indian prescribing channels sits below Philips and Nidek.
+
+**Best for** — buyers at hill-station elevations between 7,500 and 10,000 ft, or on 24/7 commercial-tariff electricity where the ₹14,000 three-year energy saving matters, or whose prescription runs below 1 LPM overnight.
+
+Full review at [/oxygen-concentrators/airsep-visionaire-5/](/oxygen-concentrators/airsep-visionaire-5/).
+
+### 3. DeVilbiss 5 LPM (Compact 525) — 8.0
+
+**Price snapshot** — indicative retail ₹45,984 (listed MRP ₹86,400), 16.3 kg, 0.5–5 LPM continuous, 48 dB published sound, 310 W draw with turn-down technology, 3-year warranty, 13,123 ft operating altitude.
+
+**Pros**
+- 13,123 ft operating altitude is the only 5 LPM rating in the Indian market that covers Leh, Kaza, Spiti, Tawang, and upper Himachal year-round without purity derating.
+- Cheapest Western-brand 5 LPM on sale in India — ₹11,600 below the Nuvo Lite for superior altitude, outlet pressure, and warranty paperwork.
+- 8.5 psi outlet pressure supports long 50 ft cannula runs and higher-resistance accessory chains without measurable flow loss.
+- Turn-down technology throttles the compressor at low flow settings — a patient on 1–2 LPM overnight draws closer to 240–260 W in practice.
+- Full alarm set plus OPI, 3-year Indian warranty, FDA and CE both on record.
+
+**Cons**
+- 16.3 kg chassis is 2.7 kg heavier than the Nuvo Lite — enough to change single-person lift ergonomics between rooms.
+- 48 dB published sound is 8 dB louder than the Nuvo Lite — not a light-sleeper bedroom unit without wall separation.
+- Auxiliary oxygen port is FDA-cleared for transfill but not warranty-supported for transfill use in India.
+
+**Best for** — any Indian household above 2,000 metres, or price-sensitive plains buyers who want a Western brand's paperwork and service pipeline without paying the Nidek premium.
+
+Full review at [/oxygen-concentrators/devilbiss-5-lpm/](/oxygen-concentrators/devilbiss-5-lpm/).
+
+### 4. Nidek Nuvo Lite 5 LPM — 7.8
+
+**Price snapshot** — indicative retail ₹57,599 (listed MRP ₹66,240), 13.6 kg, 0.125–5 LPM continuous, 40 dB published sound, 290 W draw, 3-year warranty, 7,500 ft operating altitude.
+
+**Pros**
+- 40 dB published sound is the quietest in the 5 LPM imported class — genuinely usable in the same small bedroom as the patient.
+- 13.6 kg tied with the Visionaire as the lightest 5 LPM, castor base is practical for daily bedroom-living-room relocations.
+- 290 W draw matches the Visionaire at the class floor, roughly ₹950/month at 14 h/day on Mumbai tariffs.
+- 0.125 LPM flowmeter floor is unique in the class — the only 5 LPM in this list usable for neonatal and paediatric low-flow titration.
+- Lockable flowmeter resists accidental dial adjustment — real safety margin in multi-caregiver households.
+
+**Cons**
+- 7,500 ft altitude ceiling rules out Leh, Spiti, Lachung, Tawang.
+- 5.5 psi outlet pressure cannot drive transfill systems or long cannula runs without flow loss.
+- 87–96% published purity band has lower worst-case delivery at 5 LPM than imports with 90% floors.
+- ₹57,599 retail is the highest in the list, with a smaller price-to-spec cushion than the other four.
+
+**Best for** — the bedroom-shared stable 1–3 LPM plains household where sleep quality is the binding constraint, and paediatric or neonatal prescriptions requiring sub-0.5 LPM titration.
+
+Full review at [/oxygen-concentrators/nidek-nuvo-lite-5-lpm/](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/).
+
+### 5. Home Medix HM-KV 5 LPM — 7.7
+
+**Price snapshot** — indicative retail ₹37,800 (listed MRP ₹54,000), 13 kg, 0.5–5 LPM continuous, field-verified ≤40 dB sound, 320 VA draw, 3-year or 10,000-hour warranty, AC 230V ±10% documented tolerance.
+
+**Pros**
+- Lightest 5 LPM on the Indian market at 13 kg — 1 kg below the EverFlo and 5–8 kg below most Chinese OEM 5 LPMs.
+- Field-verified ≤40 dB sound floor ties the Nuvo Lite as the quietest bedside 5 LPM in the Indian market.
+- Full alarm suite (Low Oxygen, Power Failure, High Temperature, Low/No Flow) matches the premium import tier.
+- Documented AC 230V ±10% voltage tolerance (207–253 V) — unit shuts down on out-of-tolerance voltage rather than damaging the compressor.
+- 3-year or 10,000-hour warranty matches Philips and DeVilbiss term; on-panel hour counter is patient-visible.
+- ISO 9001, ISO 13485, and CDSCO approval all documented.
+
+**Cons**
+- Service-network footprint is strongest in South and West India; reach thins in the North-East and remote hill belt.
+- Brand recognition among Indian pulmonologists sits below Philips, Nidek, and DeVilbiss — less prescription-channel pull.
+- No FDA listing and no third-party bench validation; all spec numbers are manufacturer-sourced even where field-verified.
+- Secondary-market resale value is estimated 35–45% at 12 months, against 55–65% for a comparable EverFlo.
+
+**Best for** — cost-conscious LTOT buyers in Home-Medix-served cities (Bengaluru, Hyderabad, Chennai, Mumbai, Pune, Ahmedabad) who want class-leading weight and sound with an Indian service address, without paying 30–40% more for a tier-1 import badge.
+
+Full review at [/oxygen-concentrators/home-medix-5-lpm/](/oxygen-concentrators/home-medix-5-lpm/).
+
+## How to pick between these five
+
+**Altitude vs everything else.** The most clear-cut trade-off in this list. If the installation is above 7,500 ft — Leh, Kaza, Tawang, upper Kinnaur, Lahaul — the DeVilbiss 525 is the only defensible pick in the list; the EverFlo, Nuvo Lite, and HM-KV all cap at 7,500 ft, and the Visionaire reaches 10,000 ft but still falls short of the 525 for Leh-class addresses. Between 7,500 and 10,000 ft (Auli, Nainital at seasonal extremes), the Visionaire is the lighter and quieter alternative to the 525. Below 7,500 ft, altitude is not a discriminator and the decision shifts to sound, service, and price.
+
+**Sound vs service depth.** The Nuvo Lite and HM-KV lead the category on published sound at ≤40 dB; the EverFlo sits at 45 dB; the 525 at 48 dB. In a single-bedroom flat where the patient sleeps next to the unit, the 8 dB gap between the Nuvo Lite and the 525 is the difference between a compressor whirr that disappears into ambient and one that wakes a light sleeper. But the EverFlo's service-network depth is the reason most Indian pulmonologists still default to it — a 45 dB machine you can actually get fixed in 48 hours beats a 40 dB machine that needs a 200 km transport to a regional service centre. Decide which problem bites first.
+
+**Price vs warranty and paperwork.** The HM-KV at ₹37,800 is the cheapest in the list; the Visionaire at ₹54,999 is the most expensive. The EverFlo and the 525 sit within ₹2,300 of each other at ₹43,699 and ₹45,984. All five carry 3-year warranty terms, but the HM-KV's warranty runs on the lower of 3 years or 10,000 operating hours — a patient on 16 h/day hits 10,000 hours in roughly 20 months, which is the honest planning number.
+
+**Outlet pressure for multi-room installs.** If the machine lives in a living room and the patient is in a bedroom via a 30–50 ft cannula extension, the Visionaire (8 psi) and the 525 (8.5 psi) both handle the pressure drop cleanly. The EverFlo at 5.5 psi and the Nuvo Lite at 5.5 psi will show measurable flow loss at the delivered end over longer runs. The HM-KV falls in the 5.8–8.7 psi (0.04–0.06 MPa) band — adequate for standard 7 ft cannula, marginal for 40+ ft runs.
+
+**Low-flow titration (sub-1 LPM).** Only the Nuvo Lite (0.125 LPM floor) and the Visionaire (0.5 LPM floor) go below the 1 LPM minimum that the EverFlo imposes. For paediatric and neonatal prescriptions, or for overnight titration below 1 LPM, these two are the only options in the list.
+
+## Who should look elsewhere
+
+Patients prescribed continuous flow above 4 LPM sustained — advanced ILD, post-acute COVID with unresolved fibrosis, pulmonary hypertension on LTOT — are outside the 5 LPM class and should be reading [our 10 LPM top 5](/top-5/10-lpm-oxygen-concentrators/) instead. A 5 LPM machine run at the 5 LPM ceiling for 16+ hours a day is operating at the top of its sieve-bed band, with -3% purity tolerance bringing worst-case delivery to 87%.
+
+Patients who need battery-powered mobility — long-distance flights, railway journeys longer than 12 hours, pilgrimage routes, daily urban ambulatory use — are not served by any stationary 5 LPM. A pulse-flow portable like the [Inogen One G5](/oxygen-concentrators/inogen-one-g5/) is the right category; see [our portable top 5](/top-5/portable-oxygen-concentrators/).
+
+Buyers in tier-3 cities or rural districts where no authorised Philips, AirSep, DeVilbiss, or Home Medix service partner sits within a 48-hour dispatch radius should factor a cylinder bridge into the purchase plan. All five of these machines are service-dependent devices; a dead compressor in rural Assam or upper Himachal with no service presence is a two-to-four-week downtime problem.
+
+Buyers with budgets materially below ₹37,800 — the HM-KV's floor — will find the Indian sub-₹30,000 market full of Chinese rebadges where CDSCO paperwork, CE certification, and dealer warranty all frequently absent. None of the five units here ship at that price, and we do not recommend dropping below the HM-KV to save the ₹5,000–8,000 gap.
+
+Patients whose prescription falls inside the 5 LPM class but who need clinical-grade cloud telemetry or integrated nebulization should look at the 10 LPM class (the [Home Medix HM-KX](/oxygen-concentrators/home-medix-10-lpm/) carries integrated nebulization) rather than stretching a 5 LPM platform.
+
+## Verdict
+
+For the default Indian LTOT buyer — stable 1–4 LPM prescription, plains-altitude address, 220 V supply, budget in the ₹40,000–55,000 band — the **Philips EverFlo 5 LPM** remains the right pick. The combination of 14 kg weight, 45 dB sound, 350 W draw, 3-year warranty, and the deepest Indian authorised-service network is the defensible composite. It is not the quietest on paper and not the cheapest, but it is the 5 LPM you can actually get fixed in two days in the cities most Indian buyers live in.
+
+For hill-station buyers above 2,000 m, the **DeVilbiss Compact 525** is the only correct pick in the list — 13,123 ft altitude rating, 8.5 psi outlet, 3-year warranty, and a ₹45,984 retail that is 20% below the Nuvo Lite.
+
+For the cost-constrained buyer in a Home-Medix-served city who wants class-leading weight and sound with an Indian service address, the **Home Medix HM-KV** at ₹37,800 is the defensible lower-priced buy. It is not a Philips EverFlo replacement for tier-3 city or North-East buyers where service reach matters more than spec sheet; it is the right call for a Bengaluru, Hyderabad, or Pune buyer quoted ₹60k+ for an EverFlo.
+
+For the bedroom-shared plains patient where ≤40 dB sound is the binding constraint and budget allows, the **Nidek Nuvo Lite** is the quietest answer in the list — ₹57,599 for the lowest sound spec and the only sub-0.5 LPM titration floor.
+
+Consult your prescribing physician before finalising any purchase against your specific prescription and ambient altitude.
+
+---
+
+# Top 5 BiPAP Machines in India (2026) — HHZ
+
+Source: https://homehealthzone.com/top-5/bipap-machines/
+
+# Top 5 BiPAP Machines in India (2026)
+
+The BiPAP (bilevel positive airway pressure) machine is the correct class for patients whose clinical picture is not served by a CPAP — central sleep apnoea, CPAP-failure OSA, obesity hypoventilation syndrome (OHS), COPD-OSA overlap with hypercapnia, neuromuscular disease with preserved spontaneous breathing, and severe hypoventilation that needs volume-assured pressure support (iVAPS, AVAPS, TVAPS). It is not a default upgrade from CPAP. This listicle ranks the five BiPAP machines HHZ considers the strongest buys for Indian households in 2026 by editorial score. The default pick for any patient with documented nocturnal hypoventilation is the ResMed Lumis 150 VPAP ST — the only iVAPS-capable unit in the list with native cloud connectivity.
+
+## How we ranked
+
+HHZ applies the same rubric to every BiPAP: pressure range (2–25 cmH₂O minimum for adult NIV), therapy mode set (CPAP/S/ST/T/PAC/iVAPS or AVAPS or TVAPS), backup-rate intelligence, central-apnoea detection, published sound level, weight, integrated humidification, cloud connectivity for clinician-side remote titration, altitude compensation, Indian authorised-dealer depth, warranty term, and price-to-performance against in-class alternatives. We do not run independent bench tests — all performance claims are per published spec, manufacturer brochure, or field-observed in the dealer network. The full methodology is at [our methodology page](/methodology/).
+
+## The top 5
+
+### 1. ResMed Lumis 150 VPAP ST — 8.5
+
+**Price snapshot** — indicative retail ₹63,490 (listed MRP ₹138,000), 1.26 kg, 2–25 cmH₂O pressure range, 25 dB published sound, six therapy modes (iVAPS, CPAP, S, ST, T, PAC), native cellular connectivity, 2-year manufacturer warranty (sometimes 3-year dealer extension), FDA/FAA/CE approved.
+
+**Pros**
+- iVAPS (Intelligent Volume-Assured Pressure Support) mode targets alveolar ventilation rather than fixed pressure — the published standard-of-care for severe OHS, advanced neuromuscular disease, and chronic hypercapnic COPD.
+- Full six-mode therapy set (iVAPS, CPAP, S, ST, T, PAC) covers essentially every home-NIV clinical indication on a single chassis.
+- Cloud connectivity/Wi-Fi published as Yes — native AirView integration for remote titration, which hypoventilation management genuinely needs across the first 2–4 weeks of therapy.
+- iBR (Intelligent Backup Rate) delivers backup breaths only during real apnoeas or effort failures, not benign sighs or coughs — meaningful for NMD patients with variable effort.
+- Ti Control, Trigger and Cycle Sensitivity, Rise Time all configurable — complete clinical tuning envelope. VSync leak compensation keeps iVAPS ventilation estimates clean through mask leak.
+- Full HumidAir plus ClimateLineAir heated-tube climate control; Auto Ramp and Ramp Down; Pressure Support published as a directly-readable clinical parameter.
+
+**Cons**
+- ₹63,490 retail sits at the top of the home-BiPAP bracket and is only justified when iVAPS is clinically indicated — uncomplicated OSA patients should not be on this device.
+- iVAPS commissioning requires clinician setup with target alveolar ventilation and baseline spirometry — not a plug-and-play device.
+- Weight at 1.26 kg and footprint matches the Lumis 100 — no portability advantage over the cheaper sibling.
+- ₹15,590 premium over the Lumis 100 is only defensible when iVAPS or native cloud connectivity is the load-bearing requirement.
+
+**Best for** — severe OHS (BMI >45, daytime PaCO₂ >55 mmHg), advanced NMD (ALS with FVC &lt;50% predicted, DMD transitioning to nocturnal NIV), chronic hypercapnic COPD needing high-intensity NIV, any hospital-to-home transition after acute hypercapnic respiratory failure where ventilation targets from ICU need to be maintained.
+
+Full review at [/bipap/resmed-lumis-vpap-st-bipap-tripack/](/bipap/resmed-lumis-vpap-st-bipap-tripack/).
+
+### 2. ResMed Lumis 100 VPAP ST — 8.4
+
+**Price snapshot** — indicative retail ₹47,900 (listed MRP ₹107,520), 1.2 kg, 2–25 cmH₂O pressure range, 25 dB published sound, five therapy modes (CPAP, S, ST, T, PAC), 2-year manufacturer warranty (sometimes 3-year dealer extension), FDA/FAA/CE approved.
+
+**Pros**
+- Full five-mode clinical stack (CPAP, S, ST, T, PAC) with Intelligent Backup Rate covers central apnoea, NMD with preserved spontaneous effort, COPD-OSA overlap with mild hypercapnia, and moderate OHS.
+- iBR logic distinguishes real apnoeas from benign respiratory pauses, delivering backup breaths only when clinically warranted — meaningfully better patient-ventilator synchrony than plain backup-rate BiPAPs.
+- PAC mode (Pressure Assist Control) — fixed-Ti time-cycled mode for patients with unreliable inspiratory effort. Not available on the discontinued AirCurve 10 ST.
+- ₹47,900 retail is ₹19,288 below the discontinued AirCurve 10 ST and ₹15,590 below the iVAPS-capable Lumis 150 — the best-value clinical ST BiPAP in the Indian market.
+- 2–25 cmH₂O pressure range plus full Ti Control, Trigger/Cycle Sensitivity, and Rise Time tuning — complete clinical control envelope.
+- 25 dB published sound and full HumidAir/ClimateLineAir climate control match the Lumis 150 comfort stack.
+
+**Cons**
+- Cloud connectivity/Wi-Fi published as No on the base SKU — data upload to AirView requires manual SD-card retrieval unless the cellular-module-equipped SKU is specified at purchase.
+- No iVAPS — severe OHS and NMD patients with documented nocturnal hypoventilation need to step up to the Lumis 150.
+- Pressure Support is blank on the spec sheet; device delivers fixed IPAP/EPAP bilevel with pressure support as the numerical difference, rather than a PS-targeted algorithm.
+- Not the right device for ASV-indicated patients (severe complex sleep apnoea, treatment-emergent CSA, heart-failure periodic breathing).
+
+**Best for** — central sleep apnoea (CAI >5/hour) without severe cardiac component, NMD with preserved spontaneous effort, COPD-OSA overlap with PaCO₂ 45–55 mmHg, moderate OHS (BMI 35–45, PaCO₂ 45–50) before iVAPS is clinically required.
+
+Full review at [/bipap/resmed-lumis-100-vpap-st-bipap/](/bipap/resmed-lumis-100-vpap-st-bipap/).
+
+### 3. ResMed AirCurve 10 V Auto — 8.2
+
+**Price snapshot** — indicative retail ₹66,800 (listed MRP ₹81,600), 1.24 kg, 3–25 cmH₂O pressure range, 25 dB published sound, three therapy modes (CPAP, S, VAuto), native cellular connectivity, 2-year manufacturer warranty (sometimes 3-year dealer extension), FDA/FAA/CE approved.
+
+**Pros**
+- VAuto mode delivers auto-adjusting IPAP with configurable minimum pressure support — the clinically mature auto-BiPAP algorithm for CPAP-failure OSA and complex apnoea without central component.
+- Pressure Support is explicitly published as Yes on the spec sheet and exposed as a directly-set parameter — distinguishes VAuto from plain S-mode bilevel.
+- Built-in cellular modem plus AirView compatibility — nightly data upload enables clinic-led remote titration, which serial IPAP/EPAP/PS/rise-time adjustments in the first 3–6 months of therapy genuinely need.
+- 3–25 cmH₂O pressure range covers the full adult-OSA, CPAP-failure, and mild-to-moderate OHS window; full HumidAir plus ClimateLineAir climate control.
+- 25 dB published sound, 1.24 kg, matches the AirSense 10 comfort envelope.
+- Leakage Compensation and Mask Fit verification — critical for BiPAP where mask leak corrupts cycle-sensitivity signals.
+
+**Cons**
+- ₹66,800 retail is roughly ₹20,000 above the AirSense 11 APAP — many OSA patients prescribed BiPAP do not actually need bilevel therapy.
+- Spec-sheet blanks on RERA reporting and Backup Rate — this is not the right machine for patients with central apnoea, neuromuscular indications, or hypoventilation.
+- No iVAPS, no true volume-assurance — OHS and NMD patients need a Lumis 150, not this device.
+- Not a device for treatment-emergent central sleep apnoea — ASV-class therapy is the correct escalation, not VAuto.
+
+**Best for** — documented CPAP-failure OSA (AHI >5 on AirSense 10/11 despite proper titration, or documented CPAP intolerance), complex sleep apnoea with CAI 2–5/hour (below ASV threshold), mild-to-moderate OHS without iVAPS-level hypoventilation, COPD-OSA overlap with obstructive-dominant burden and mild hypercapnia.
+
+Full review at [/bipap/resmed-aircurve-v-auto/](/bipap/resmed-aircurve-v-auto/).
+
+### 4. Home Medix HM-BV-30 — 8.0
+
+**Price snapshot** — indicative retail ₹29,000 (listed MRP ₹45,000), 1.45 kg with integrated humidifier, 4–30 cmH₂O pressure range, &lt;30 dB published sound, seven therapy modes (CPAP, APAP, S, Auto S, S/T, T, TVAPS), ISO 9001 + ISO 13485 + CDSCO approved.
+
+**Pros**
+- TVAPS (target-volume assured pressure support) at a sub-premium tier — functionally equivalent to ResMed iVAPS and Philips AVAPS, and not listed by the closest Indian competitor BMC G3 B30VT.
+- Full seven-mode clinical stack (CPAP, APAP, S, Auto S, S/T, T, TVAPS) covers straightforward OSA through volume-assured home NIV on a single chassis.
+- 4–30 cmH₂O pressure envelope — 5 cmH₂O higher ceiling than the Lumis platform — covers high-IPAP severe obesity-hypoventilation and elevated-pressure severe OSA.
+- 1.45 kg with integrated heated humidifier is lighter than the BMC G3 B30VT (1.7 kg) and competitive with the Philips DreamStation class. Bedside-credible chassis.
+- Backup rate in T and S/T modes, central-apnea detection (OSA/CSA) in the published spec — feature coverage that closest competitors at this price omit.
+- Patented SAF algorithm with leak-compensated synchronization and multi-level event detection (flow limitation, multi-frequency snoring, multi-severity hypopnea).
+- ₹29,000 retail is substantially below the Lumis 150's ₹63,490 — TVAPS reachable for households pushed out of the ResMed ST-A tier by budget.
+
+**Cons**
+- No CE and no FDA listed on the published spec — weaker paperwork for hospital-channel procurement and international travel clearance.
+- No Wi-Fi, no cloud, no SD card, no Bluetooth — clinics standardised on AirView or Care Orchestrator cannot integrate compliance data.
+- No heated-tube compatibility, no climate control, no adaptive humidification — real four-season comfort gap versus ResMed or Philips premium tier.
+- Central-apnea DETECTION only, not ASV-class treatment — CompSA and cardiac-origin central events still escalate to a ResMed AirCurve ASV or Philips DreamStation ASV.
+- Service-network coverage strongest in South/West India; North-East and remote reach is thin, which is non-trivial for a home-NIV device where nightly downtime is not acceptable.
+
+**Best for** — OHS, progressive NMD, and complex-NIV home prescriptions where the physician requires volume-assured ventilation and the budget cannot reach the ResMed AirCurve ST-A tier, BiPAP-complexity patients with mixed apnoea plus central events managed in Home-Medix-served cities.
+
+Full review at [/bipap/home-medix-bv-30/](/bipap/home-medix-bv-30/).
+
+### 5. Philips DreamStation BiPAP AVAPS — 8.0
+
+**Price snapshot** — indicative retail ₹77,952 (listed MRP ₹142,080), 1.98 kg with humidifier, 4–30 cmH₂O pressure range, 26.1 dB published sound, full CPAP/S/S-T/PC/T/AVAPS mode range, Care Orchestrator cloud, Bluetooth, FAA approved, CE certified (FDA not stated for this Indian SKU).
+
+**Pros**
+- AVAPS (Average Volume Assured Pressure Support) plus AVAPS-AE auto-titration — handles OHS, late-stage COPD with chronic hypercapnia, and neuromuscular disease that pure S/ST BiPAPs cannot deliver safely.
+- 4–30 cmH₂O pressure envelope with full CPAP/S/S-T/PC/T/AVAPS mode range — one of only two Indian-available BiPAPs here covering both the 30 cmH₂O ceiling and the mode depth.
+- Digital Auto-Trak trigger detection with Auto Back-up Rate — sophisticated ventilator logic that Indian pulmonologists prescribing home AVAPS specifically ask for.
+- 1.98 kg with humidifier, 26.1 dB sound, FAA approval, and Care Orchestrator cloud integration — meaningful travel capability for a clinical BiPAP class that traditionally stays bedside.
+- Auto Ramp, Auto On/Off, EPR, preheat, adaptive humidification, climate control, heated-tube compatibility, mask fit — full comfort stack for a sick-patient population where adherence is load-bearing.
+- Philips India's authorised service network is the deepest among imported BiPAP brands in India.
+
+**Cons**
+- 2021 Philips Respironics PE-PUR foam recall — largely remediated by 2026, but AVAPS patients are the sickest in the DreamStation population and serial-number verification of remediation status is non-negotiable at purchase.
+- ₹77,952 retail is premium — ₹14,462 above the Lumis 150 with similar capability, where the Lumis carries no recall-remediation history.
+- No integrated battery — a gap for AVAPS patients needing mobility beyond the bedside; external inverter-UPS add-ons are a mandatory planning step.
+- SpO₂ monitoring compatibility is not listed in the published additional-details table for this Indian SKU — verify with the supplier if pulse-oximetry co-recording is a clinical requirement.
+- 2-year Indian warranty trails ResMed's 3-year Lumis dealer-extension warranty by a year.
+
+**Best for** — respiratory-physician prescriptions explicitly requiring volume-assured ventilation where the clinic runs Care Orchestrator (not AirView), overlap syndromes (OSA plus OHS) needing AVAPS-AE auto-titration, patients whose trust in Philips post-recall is intact given documented remediation.
+
+Full review at [/bipap/philips-dreamstation-bipap-avaps/](/bipap/philips-dreamstation-bipap-avaps/).
+
+## How to pick between these five
+
+**The indication decides the device.** BiPAP is not one class — it is four overlapping therapies (spontaneous bilevel, ST backup-rate, auto-BiPAP, volume-assured) served by different machine tiers. Map the indication first, then pick the machine:
+
+- **CPAP-failure OSA or complex sleep apnoea without central burden** → AirCurve 10 V Auto. VAuto's auto-IPAP with configurable minimum PS is the correct algorithm. Lumis 100 and Lumis 150 are over-specified; HM-BV-30 and DreamStation AVAPS are over-specified.
+- **Central sleep apnoea, NMD with preserved effort, moderate OHS, COPD-OSA overlap with mild hypercapnia** → Lumis 100 VPAP ST. iBR backup-rate intelligence is the correct feature. VAuto lacks backup rate.
+- **Severe OHS (BMI >45, PaCO₂ >55), advanced NMD, chronic hypercapnic COPD, documented nocturnal hypoventilation** → Lumis 150 VPAP ST (iVAPS) or DreamStation BiPAP AVAPS. Volume-assured ventilation is non-substitutable at this clinical tier. Between the two, pick based on clinic platform (AirView = Lumis 150; Care Orchestrator = DreamStation AVAPS) and recall-comfort preference.
+- **Same severe-indication patient at a sub-premium budget** → HM-BV-30. TVAPS at ₹29,000 is the only Indian-market answer for volume-assured therapy when the Lumis 150 or DreamStation AVAPS budgets are out of reach. Real clinical coverage trade for narrower paperwork and no cloud.
+
+**Cloud integration matters more on BiPAP than on CPAP.** A CPAP stabilises within weeks of titration; a BiPAP often needs serial IPAP, EPAP, PS, rise-time, and Ti adjustments over the first 3–6 months. Three units in the list ship native cellular — Lumis 150, AirCurve 10 V Auto, DreamStation BiPAP AVAPS. The Lumis 100 base SKU has cellular as optional — confirm "With Cellular" at purchase if the clinic runs AirView. The HM-BV-30 has no cloud pathway. For clinics running remote titration, the cloud-enabled four are the shortlist.
+
+**Sound and chassis.** All five units sit at 25–30 dB published — all below bedside-disruption threshold in a typical Indian bedroom. The DreamStation BiPAP AVAPS is the heaviest in the list at 1.98 kg (with humidifier); the Lumis 100 the lightest at 1.2 kg. None of these are travel-portable BiPAPs — the category of travel-BiPAP effectively does not exist in India at a price point we can recommend.
+
+**Warranty and recall history.** The Lumis platform carries 2-year manufacturer, often 3-year dealer extension — the longest in the list. The AirCurve 10 V Auto matches Lumis on warranty term. The DreamStation AVAPS is 2 years manufacturer, with the 2021 foam-recall serial-number verification as the one non-negotiable purchase-time step. The HM-BV-30 ships a 3-year or 10,000-hour warranty consistent with the Home Medix platform; no recall history to verify.
+
+**Price.** The HM-BV-30 at ₹29,000 is the cheapest; the DreamStation AVAPS at ₹77,952 the most expensive. The Lumis 100 at ₹47,900 is the value sweet spot for the ST indications where iVAPS is not clinically required. The AirCurve 10 V Auto at ₹66,800 is the correct spend only on a VAuto-indicated patient; stepping down to the AirSense 11 at ₹63,390 for uncomplicated OSA saves the BiPAP premium.
+
+## Who should look elsewhere
+
+Patients with uncomplicated obstructive sleep apnoea (AHI 15–50, no central component, no hypoventilation, no CPAP trial history) should not be on any BiPAP in this list. The correct first-line device is a CPAP or APAP — see [our CPAP top 5](/top-5/cpap-machines/). Prescribing BiPAP first-line to CPAP-naive uncomplicated OSA is clinically wasteful.
+
+Patients with severe complex sleep apnoea, treatment-emergent central sleep apnoea, or heart-failure periodic breathing need ASV (adaptive servo-ventilation) platforms — ResMed AirCurve 10 ASV or Philips DreamStation ASV — not any of the units in this list. ST-mode backup rate is not a substitute for ASV's pressure-support modulation.
+
+Patients on full or near-full ventilator dependence (late-stage ALS with daytime ventilation, chronic tracheostomy ventilation, post-polio respiratory failure) need dedicated home ventilators (Philips Trilogy, ResMed Astral, Breas Vivo) — life-support-certified devices with dual-circuit operation, multi-tier alarms, and internal battery backup. None of the five units in this list carries ventilator certification or internal battery; a BiPAP with volume-assurance is not a ventilator.
+
+Patients in Indian hill stations above 2,591 m (Leh, Kaza, Spiti villages) should note that published altitude-compensation specifications on these units generally cap around 2,591 m. For long-term residence at higher altitudes, confirm delivered-pressure stability with the brand's Indian service centre before committing.
+
+Buyers in tier-3 cities or rural districts where no authorised ResMed, Philips, or Home Medix service partner sits within a 72-hour dispatch radius should either commit to a metro-relocation plan for service or negotiate a written loaner-unit clause for BiPAP-dependent patients who cannot lose a night of therapy.
+
+Patients or households whose trust in Philips Respironics post-2021 recall is not intact — even for documented-remediated DreamStation 1 units or DreamStation 2 platform units — should default to the Lumis 150 for AVAPS-equivalent therapy.
+
+## Verdict
+
+For the default home-NIV patient with documented nocturnal hypoventilation — severe OHS, advanced NMD, chronic hypercapnic COPD — the **ResMed Lumis 150 VPAP ST** at ₹63,490 is the right pick. iVAPS mode, full six-mode clinical stack, native AirView cellular, iBR backup-rate intelligence, VSync leak management, 3-year dealer-extension warranty. The price is defensible when iVAPS is clinically required.
+
+For ST-mode backup-rate indications without hypoventilation — central sleep apnoea, NMD with preserved effort, moderate OHS, COPD-OSA overlap with mild hypercapnia — the **ResMed Lumis 100 VPAP ST** at ₹47,900 is the best-value clinical ST BiPAP in the Indian market. Same five-mode stack minus iVAPS, iBR, PAC mode, and a decade-mature comfort envelope.
+
+For documented CPAP-failure OSA or complex sleep apnoea without central burden, the **ResMed AirCurve 10 V Auto** at ₹66,800 is the correct auto-BiPAP pick — but only on a documented CPAP-failure or complex-apnoea indication. Do not default-upgrade an uncomplicated OSA patient from AirSense to AirCurve.
+
+For volume-assured home NIV patients whose budget cannot reach the Lumis 150 or DreamStation AVAPS tier, the **Home Medix HM-BV-30** at ₹29,000 is the defensible answer. TVAPS at sub-premium pricing is genuinely rare in the Indian market, and the seven-mode stack plus central-apnea detection clears the functional bar. The trade is no cloud, no heated tube, and service coverage concentrated in South and West India.
+
+For AVAPS-indicated patients in clinics on Philips Care Orchestrator platform (rather than ResMed AirView), the **Philips DreamStation BiPAP AVAPS** at ₹77,952 is the defensible alternative to the Lumis 150 — with mandatory serial-number verification of foam-remediation status at purchase.
+
+Consult your prescribing respiratory physician before finalising any BiPAP purchase against your specific PSG and clinical picture — BiPAP indication is where many Indian patients are mis-specced into a therapy tier that does not match the disease.
+
+---
+
+# Top 5 CPAP Machines in India (2026) — HHZ
+
+Source: https://homehealthzone.com/top-5/cpap-machines/
+
+# Top 5 CPAP Machines in India (2026)
+
+The CPAP or auto-CPAP machine is the default device prescribed for adult obstructive sleep apnoea in India — moderate to severe AHI (>15) where the sleep study does not show meaningful central apnoea or hypoventilation. This listicle ranks the five CPAP machines HHZ considers the strongest buys for Indian households in 2026 by editorial score. The default pick for most Indian OSA patients in 2026 is the ResMed AirSense 10 AutoSet — same algorithm as the AirSense 11 flagship at ₹17,000 less, quieter 25 dB published sound, and the same heated-humidifier ecosystem.
+
+## How we ranked
+
+HHZ applies the same rubric to every CPAP: pressure range (4–20 cmH₂O is the adult OSA floor), algorithm maturity on apnoea/hypopnoea/flow-limitation response, published sound level, weight, integrated humidification, comfort features (AutoRamp, EPR, climate control), cloud connectivity and data workflow, mask ecosystem, altitude compensation, Indian authorised-dealer and service-network depth, warranty term, and price-to-performance. We do not run independent bench tests — all performance claims are per published spec, manufacturer brochure, or field-observed in the dealer network. The full methodology is at [our methodology page](/methodology/).
+
+## The top 5
+
+### 1. ResMed AirSense 10 AutoSet — 8.4
+
+**Price snapshot** — indicative retail ₹45,999 (listed MRP ₹82,560), 1.24 kg, 4–20 cmH₂O auto pressure range, 25 dB published sound, 2-year manufacturer warranty (sometimes 3-year dealer extension), HumidAir heated humidifier plus ClimateLineAir heated tubing bundled on the standard Indian SKU.
+
+**Pros**
+- Same AutoSet and AutoSet for Her algorithms as the AirSense 11 flagship, at ₹17,000 lower retail — the algorithm is what makes an APAP clinically different from a CPAP, and this is the same algorithm.
+- 25 dB published sound is 2 dB quieter than the AirSense 11 — genuinely below bedside-disruption threshold for a sleeper within 60–100 cm of the unit.
+- Same 4–20 cmH₂O auto pressure range as the AirSense 11 — covers the full 90th-percentile adult-OSA titration envelope in Indian sleep-lab data.
+- Cellular modem and AirView compatibility available as an SKU option — preserves the remote-titration workflow for clinics that run AirView.
+- 1.24 kg and 116 × 255 × 150 mm fits standard Indian bedside-table real estate; FAA, FDA, CE all confirmed.
+- AutoRamp with sleep-onset detection and EPR (1–3 cmH₂O exhalation relief) — the comfort features most correlated with 90-day adherence in Indian patient data.
+
+**Cons**
+- Button-and-knob interface is a half-generation behind the AirSense 11 touchscreen — slower for first-time users to navigate.
+- Cloud connectivity is published as Optional; the base SKU ships without a modem, so data upload defaults to SD-card shuttle unless the cellular SKU is specified at purchase.
+- No Bluetooth — no myAir phone-app direct pairing on base units, which removes the nightly therapy-score feedback loop.
+- No RERA reporting — feature added in the AirSense 11 generation.
+
+**Best for** — uncomplicated moderate-to-severe OSA (AHI 15–50) in clinics running in-person SD-card follow-up, cost-conscious buyers quoted AirSense 11 pricing who do not need touchscreen or native 4G, replacement buyers upgrading from an end-of-life older AirSense.
+
+Full review at [/cpap/resmed-airsense-10-autoset-cpap/](/cpap/resmed-airsense-10-autoset-cpap/).
+
+### 2. ResMed AirSense 11 AutoSet — 8.3
+
+**Price snapshot** — indicative retail ₹63,390 (listed MRP ₹105,600), 1.1 kg, 4–20 cmH₂O auto pressure range, 27 dB published sound, 2-year manufacturer warranty (often 3-year dealer extension), HumidAir 11 heated humidifier plus ClimateLineAir or SlimLine tubing.
+
+**Pros**
+- Current ResMed flagship APAP with native Bluetooth plus built-in 4G cellular modem on the Indian SKU — nightly AirView upload without SD-card shuttle or phone-app mediation.
+- myAir phone-app pairing delivers nightly therapy score, mask-seal rating, and gamified compliance feedback loop — measurably improves long-term adherence.
+- RERA reporting added in this generation — clinicians who need respiratory effort-related arousal visibility in remote titration get it here and not on the AirSense 10.
+- 4–20 cmH₂O pressure range and AutoSet + AutoSet for Her algorithms identical to the AirSense 10; central apnoea and Cheyne-Stokes detection built in for escalation flagging.
+- Touchscreen interface, 1.1 kg chassis is slightly more compact than the AirSense 10's 1.24 kg.
+- ResMed India's authorised service network is the deepest in the imported-CPAP category — metros plus most tier-2 cities, 7–10 day warranty turnaround.
+
+**Cons**
+- ₹63,390 retail is ₹17,390 above the AirSense 10 for the same algorithm, same pressure range, and same humidification ecosystem — the delta is defensible only if cloud workflow or touchscreen is load-bearing.
+- 27 dB is 2 dB louder than the AirSense 10 on paper.
+- Heated tubing and HumidAir 11 tub are ResMed proprietary parts — consumable replacement cost in India runs higher than competing platforms.
+- No waterless humidification — tub requires nightly distilled-water fill, which is an operational cost in hard-water Indian cities.
+
+**Best for** — newly diagnosed moderate-to-severe OSA patients in clinics on AirView, buyers who want the myAir phone-app feedback loop, patients who value the touchscreen interface and compact 1.1 kg footprint, anyone buying their "last CPAP for a decade" who can absorb the price.
+
+Full review at [/cpap/resmed-airsense-11-autoset-cpap-machine/](/cpap/resmed-airsense-11-autoset-cpap-machine/).
+
+### 3. Breas Z2 Auto Travel — 7.8
+
+**Price snapshot** — indicative retail ₹62,687 (listed MRP ₹90,230), 299 g, 4–20 cmH₂O pressure range, 26 dB published sound, waterless HME humidification, Q-Tube muffler, Bluetooth to Nitelog app, FAA approved, CE marked, optional Powershell battery for untethered operation.
+
+**Pros**
+- 299 g weight is roughly one-seventh of the home-APAP class — genuinely carry-on-pocket portable, fits inside a laptop-bag compartment.
+- FAA approval explicit on the Indian spec sheet — only non-ResMed travel CPAP carrying this on the Indian listing. Permits in-cabin operation on US-registered and most international airlines.
+- 26 dB published sound with Q-Tube inline muffler is the quietest CPAP in this list — meaningfully quieter than even ResMed AirMini's 27 dB.
+- Waterless humidification via HME element — no distilled-water supply required at destination, no heated chamber, no spill risk.
+- 4–20 cmH₂O full adult APAP pressure range with fixed-CPAP and APAP modes; EPR ("Z breath") and altitude compensation published; universal AC input 100–240 V; Powershell battery runs it untethered for 1–2 full nights.
+- Standard 22 mm hose and mask-platform-independent — works with any nasal, nasal-pillow, or full-face mask; no mask ecosystem lock-in.
+
+**Cons**
+- ₹62,687 retail is ~2.2x the cheapest CPAP in this list and comparable to a full-size premium APAP — you are paying for portability, not features.
+- No SD card and no cloud connectivity — data infrastructure is Bluetooth-only to Nitelog phone app; no clinician-side AirView-equivalent portal.
+- No heated humidifier, no heated tube, no climate control, no mask-fit feedback, no central-apnoea detection, no adaptive humidification — stripped travel-only feature set.
+- FDA status not stated on the Indian SKU listing (CE is marked).
+- Warranty length unclear in the Indian dealer-channel data reviewed; confirm at purchase.
+
+**Best for** — frequent-flying OSA patients (10+ flights annually or multi-week international trips), as a second CPAP alongside a home APAP where the primary machine stays at the bedroom and the Z2 handles travel nights, professionals on on-site deployments where the machine packs into a laptop bag.
+
+Full review at [/cpap/breas-z2-auto-cpap/](/cpap/breas-z2-auto-cpap/).
+
+### 4. ResMed AirMini — 7.8
+
+**Price snapshot** — indicative retail ₹49,990 (listed MRP ₹62,400), 300 g, 4–20 cmH₂O pressure range, 27 dB published sound, waterless HumidX humidification, Bluetooth to AirMini app, FDA/FAA/CE approved, universal 100–240V input.
+
+**Pros**
+- 300 g weight and 136 × 84 × 52 mm footprint — the smallest auto-CPAP in production, fits in a laptop bag without taking roll-aboard space.
+- Same AutoSet and AutoSet for Her algorithms as the full-size AirSense 11 — full 4–20 cmH₂O auto pressure range, full algorithm sophistication in a 300 g chassis.
+- Waterless HumidX humidification recycles exhaled moisture — eliminates distilled-water dependency for international travel, 30-day disc service life.
+- FAA approved for airline cabin use; AirView integration via phone-app relay; myAir compatibility preserves the ResMed data workflow.
+- EPR is published as Yes — retains the exhalation-relief comfort feature that drives first-30-days adherence.
+- At ₹49,990, priced ₹12,697 below the Breas Z2 Auto with the same 4–20 cmH₂O range.
+
+**Cons**
+- Proprietary mask ecosystem — only AirFit N30, P10, F20, F30 "for AirMini" variants work; the mask integrates the pressure-regulation valve, and standard ResMed masks cannot be retrofitted.
+- F20 full-face mask is specifically incompatible with HumidX — full-face users get zero humidification on travel nights.
+- No built-in battery; requires mains power or a ResMed Power Station II external battery (sold separately, adds 1 kg and ₹18,000–22,000).
+- No altitude compensation published on the spec sheet — a real limit for Himalayan-travel or pilgrimage-route OSA patients above 2,500 m.
+- No AutoRamp with sleep-onset detection (only fixed-duration Ramp Time); no Central Apnea Detection flagged.
+
+**Best for** — already-adherent home CPAP users travelling 30+ nights a year to urban destinations with reliable mains, nasal or nasal-pillow mask users, business travellers where the 300 g laptop-bag factor is decisive, as a second device alongside a home AirSense 10 or 11.
+
+Full review at [/cpap/resmed-airmini-travel-auto-cpap/](/cpap/resmed-airmini-travel-auto-cpap/).
+
+### 5. Home Medix HM-CV-20 — 7.6
+
+**Price snapshot** — indicative retail ₹23,000 (listed MRP ₹35,000), 1.45 kg with integrated humidifier, 4–20 cmH₂O pressure range, &lt;30 dB published sound, CPAP and APAP modes, EPFlex expiratory pressure relief, integrated heated humidifier with 0–5 adjustable levels, ISO 9001 + ISO 13485 + CDSCO approved.
+
+**Pros**
+- Central-apnea detection published on the spec sheet — OSA and CSA events flagged in compliance data. Most sub-₹30,000 CPAPs in the Indian market omit this.
+- 1.45 kg weight quoted with humidifier attached — the honest way to measure CPAP weight. BMC GII is 2.5 kg; AirSense 11 is 1.1 kg without humidifier.
+- &lt;30 dB published sound is at the quiet end of the CPAP class, within 3 dB of the AirSense 11's 27 dB.
+- 4–20 cmH₂O full adult OSA pressure range, same envelope as the ResMed flagship.
+- Patented SAF (Synchronized Auto-Flow) algorithm with leak compensation and multi-level respiratory event detection (flow-limitation, multi-frequency snoring, multi-severity hypopnea, OSA/CSA apnea).
+- EPFlex expiratory pressure relief — functionally equivalent to ResMed EPR and Philips C-Flex.
+- ₹23,000 is the lowest price in the list — ₹22,999 below the AirSense 10, ~₹40,390 below the AirSense 11.
+
+**Cons**
+- No cloud connectivity, no Wi-Fi, no Bluetooth, no SD card field populated — compliance data cannot be pushed to AirView or Care Orchestrator-class clinician dashboards.
+- No heated-tube compatibility, no climate control, no adaptive humidification — real comfort gap in coastal Mumbai monsoon or North-India winter.
+- No CE or US FDA listing on record; only ISO and CDSCO — matters for hospital-channel procurement and international travel.
+- Service-network coverage is strongest in South and West India; North-East and remote geographies are an operational risk for a nightly-therapy device.
+- No mask-fit check, RERA reporting, or SpO₂ monitoring compatibility.
+
+**Best for** — newly diagnosed OSA patients in Home-Medix-served cities where the clinician does not require AirView cloud integration, cost-conscious buyers quoted ₹55,000–70,000 for an AirSense 11, buyers for whom Indian-HQ warranty and service address matter more than cloud workflow.
+
+Full review at [/cpap/home-medix-cv-20/](/cpap/home-medix-cv-20/).
+
+## How to pick between these five
+
+**Primary home CPAP vs travel second device.** The cleanest axis. Two units in the list — the Breas Z2 Auto and the ResMed AirMini — are travel-only, sub-300-gram devices with waterless humidification. Neither is suited to be a patient's primary home CPAP; both are bad primary CPAPs precisely because the feature trade-offs that enable 300 g are the same ones that degrade first-30-days adherence on a treatment-naive patient. The AirSense 10, AirSense 11, and HM-CV-20 are all home-primary CPAPs with integrated heated humidification. Travel CPAP is a second-device purchase on top of a home CPAP, not a substitute.
+
+**AirView cloud vs SD-card follow-up.** The AirSense 11 ships with native 4G cellular, upload runs nightly without patient action. The AirSense 10 base SKU has cellular as optional — confirm "With Cellular" at purchase if needed. The Z2 and AirMini route data through Bluetooth to phone apps (Nitelog and AirMini respectively); neither has built-in cellular. The HM-CV-20 has no cloud pathway at all — compliance is offline. If the clinic is on AirView and requires same-morning data visibility, only the AirSense 11 (and the optional-cellular AirSense 10) fits cleanly; the Z2 and AirMini can work with patient-phone-mediated upload, and the HM-CV-20 cannot.
+
+**Price vs algorithm maturity.** The HM-CV-20 at ₹23,000 is the cheapest by a wide margin; the AirSense 10 at ₹45,999 is the cheapest ResMed in the list; the AirSense 11 at ₹63,390 is the most expensive home unit. The ResMed AutoSet algorithm is the most clinically mature in the Indian CPAP market, with a decade of validated behaviour. The Home Medix SAF algorithm is a younger codebase but covers the functional requirements — central-apnoea detection, flow-limitation response, multi-level hypopnea grading. For a treatment-naive patient on moderate-to-severe OSA where algorithm sophistication does real work, the ResMed units earn their delta. For a clinic-titrated patient who just needs a fixed-pressure-equivalent machine with quiet blower and integrated humidifier, the HM-CV-20's ₹22,999 saving versus the AirSense 10 is real.
+
+**Sound.** The Breas Z2 Auto's 26 dB is the quietest CPAP in the list. The AirSense 10 and HM-CV-20 follow at 25–&lt;30 dB; the AirSense 11 and AirMini are 27 dB. All five are below the 30 dB threshold at which fan noise becomes an adherence problem, but 26 dB in a silent hotel room matters more than 30 dB in an Indian bedroom with a ceiling fan.
+
+**Mask ecosystem flexibility.** The AirMini is the outlier — proprietary short-tube with integrated vent, only four specific "for AirMini" mask variants. Every other CPAP in the list accepts standard 22 mm hose and any mask in the nasal, nasal-pillow, or full-face categories. Patients with established mask preferences from a prior CPAP should factor this.
+
+## Who should look elsewhere
+
+Patients whose sleep study shows a meaningful central apnoea component (CAI >5/hour), Cheyne-Stokes respiration, or treatment-emergent CSA should not be on any CPAP in this list — the indication is BiPAP ST or ASV, not CPAP. See [our BiPAP top 5](/top-5/bipap-machines/) instead.
+
+Patients with obesity hypoventilation syndrome (BMI >45 or documented nocturnal hypoventilation), advanced neuromuscular disease with diaphragmatic weakness, or chronic hypercapnic COPD are not served by any CPAP — they need volume-assured BiPAP (iVAPS, AVAPS, TVAPS). See [our BiPAP top 5](/top-5/bipap-machines/).
+
+Patients travelling regularly above 2,500 m without explicit altitude compensation on the machine spec sheet should not rely on the AirMini (no altitude compensation published) or the HM-CV-20 (altitude compensation field blank). The AirSense 10, AirSense 11, and Breas Z2 Auto all publish altitude compensation as Yes.
+
+Buyers in tier-3 Indian cities or rural districts where no authorised ResMed, Breas, or Home Medix service partner sits within a 72-hour radius should factor a backup cylinder or a clause for a loaner unit into the purchase agreement. A dead CPAP on a 30+ AHI patient is not a tomorrow-morning problem.
+
+Patients with budgets significantly below ₹23,000 — the HM-CV-20 floor — will find the Indian sub-₹20,000 market populated by Chinese-brand CPAPs where central-apnoea detection, EPR-equivalent comfort, and algorithm maturity are all variable. We do not recommend dropping below the HM-CV-20.
+
+## Verdict
+
+For the default Indian OSA buyer — newly diagnosed moderate-to-severe AHI (>15), no meaningful central component, budget in the ₹45,000–65,000 band, clinic doing in-person follow-up or SD-card data review — the **ResMed AirSense 10 AutoSet** at ₹45,999 is the right pick. Same AutoSet algorithm as the AirSense 11, same 4–20 cmH₂O range, quieter 25 dB published sound, same HumidAir and ClimateLineAir ecosystem, ₹17,000 cheaper.
+
+If the clinic is running AirView-based remote titration and requires native cellular upload without patient intervention, the **ResMed AirSense 11 AutoSet** at ₹63,390 is the correct upgrade — buy the premium for the workflow it unlocks, not for the touchscreen.
+
+For frequent-travelling OSA patients already on a home CPAP who need a second device for flights and on-site deployments, the **Breas Z2 Auto** at ₹62,687 is the defensible travel pick where the home machine is Indian-brand or non-ResMed and mask flexibility is important. If the home machine is a ResMed AirSense, the **ResMed AirMini** at ₹49,990 is the cleaner match — integrates with the myAir data workflow and saves ~₹13,000 on purchase.
+
+For cost-conscious newly diagnosed OSA patients in Home-Medix-served cities where the clinician is fine with offline compliance data and budget caps at ₹25,000, the **Home Medix HM-CV-20** at ₹23,000 is the right call. It covers the functional bar (central-apnea detection, 4–20 cmH₂O range, &lt;30 dB, integrated heated humidifier, EPFlex) at roughly half the AirSense 10 price.
+
+Consult your respiratory physician before finalising any CPAP purchase against your specific PSG.
+
+---
+
+# Top 5 Portable Oxygen Concentrators in India (2026) — HHZ
+
+Source: https://homehealthzone.com/top-5/portable-oxygen-concentrators/
+
+# Top 5 Portable Oxygen Concentrators in India (2026)
+
+The battery-powered portable oxygen concentrator is the category for Indian patients who need supplemental oxygen away from mains power — daily urban mobility, domestic flights, long-distance trains, pilgrimage routes, hill-station travel, international flights with FAA-approved carriers. Portables split cleanly into two sub-classes: pulse-flow-only units at 2–3 kg with 4–8 hour battery endurance, and heavier dual-mode units that deliver continuous flow on battery at the cost of weight. This listicle ranks the five portable oxygen concentrators HHZ considers the strongest buys for Indian households in 2026 by editorial score. The default pick for a pulse-flow prescription below 10,000 ft altitude is the Inogen One G5 — quietest, longest base battery, broadest pulse-setting range.
+
+## How we ranked
+
+HHZ applies the same composite rubric to every portable: published purity and flow accuracy per manufacturer brochure and e-commerce listings, noise, battery endurance at pulse setting 2, recharge time, chassis weight, pulse-setting range, operating altitude ceiling, alarm suite completeness, FAA approval, warranty term, Indian authorised-dealer depth, and price-to-performance. We do not run independent bench tests — all performance claims are per published spec, manufacturer figure, or field-observed in the dealer network. The full methodology is at [our methodology page](/methodology/).
+
+## The top 5
+
+### 1. Inogen One G5 — 8.6
+
+**Price snapshot** — indicative retail ₹214,999 (listed MRP ₹259,200), 2.6 kg, 1–6 pulse settings, 38 dB published sound, 6.5 hour base battery at pulse 2 (13 hr extended), 10,000 ft operating altitude, 2-year manufacturer warranty (6 months battery).
+
+**Pros**
+- 38 dB published sound is the quietest among active-SKU pulse-only portables — inaudible against ambient noise in a typical Indian bedroom.
+- 6.5 hour base battery at pulse 2 is the longest in the segment — 44% longer than the SimplyGo Mini's 4.5 hours, 63% longer than the Freestyle Comfort 5's 4 hours.
+- 1–6 pulse setting range is the broadest among premium pulse-only active SKUs — covers effective flow equivalents that 1–5 portables cannot service.
+- Complete alarm suite (loss of power, system malfunction, no flow) plus OPI — fullest monitoring package in the premium pulse-only tier.
+- FDA, FAA, and CE all confirmed; Indian voltage model; 2-year warranty is among the longest active warranties in the segment.
+
+**Cons**
+- 90–93% published purity range is narrower at the top end than 90–96% peer portables (SimplyGo Mini, Freestyle Comfort 5).
+- Inogen India service network is thinner than Philips Respironics — fewer tier-2 city authorised dealers.
+- 2.6 kg is 300 g heavier than the 2.3 kg SimplyGo Mini and Freestyle Comfort 5, borderline-perceptible over all-day shoulder-strap wear.
+- ₹214,999 retail is ₹4,000 above the SimplyGo Mini at comparable weight class.
+
+**Best for** — pulse-flow prescriptions at settings 1–6, daily urban mobility, flights of 6+ hours, light-sleeper patients or shared-bedroom scenarios where 38 dB sound is decisive, buyers whose dealer relationship is with Inogen specifically.
+
+Full review at [/oxygen-concentrators/inogen-one-g5/](/oxygen-concentrators/inogen-one-g5/).
+
+### 2. SeQual Eclipse 5 — 8.4
+
+**Price snapshot** — indicative retail ₹287,040 (listed MRP ₹369,600), 8.3 kg, 1–9 pulse settings plus 0.5–3 LPM continuous, 40 dB published sound, 5.4 hour battery at pulse 2 (1.3 hr at 3 LPM continuous), 13,123 ft operating altitude, FDA/FAA/CE approved.
+
+**Pros**
+- 13,123 ft operating altitude is the highest in any active-SKU Indian-market portable — the only unit that covers Leh, Kaza, Rohtang, and the Leh-Manali road approach.
+- Dual-mode delivery: 0.5–3 LPM continuous plus 1–9 pulse settings — the only active-SKU portable in India that delivers 2.5–3 LPM continuous on battery.
+- 1–9 pulse range with 16–192 mL per-dose capability covers high-pulse prescriptions that 1–5 and 1–6 portables cannot meet.
+- 40 dB published sound is competitive with premium pulse-only portables.
+- 90–96% purity range at the top end of the PSA portable class, with conservative 86% OPI alarm threshold.
+
+**Cons**
+- 8.3 kg is 2.6x the G5's weight and 3.6x the Freestyle Comfort 5's — genuinely heavy, cart-based portability rather than shoulder-strap.
+- Battery endurance at 3 LPM continuous drops to 1.3 hours — limits continuous-flow trip duration on battery.
+- Non-touchscreen interface — older UX than active Inogen and Caire SKUs.
+- ₹287,040 retail is 34% above the Philips SimplyGo at comparable dual-mode capability.
+- CAIRE India service network is thinner than Philips; battery replacement has historically had 2–4 week lead times.
+
+**Best for** — patients on continuous-flow prescriptions above 2 LPM who need portable delivery, any patient travelling to Leh, Spiti, or above 10,000 ft, patients who need pulse settings 6–9 for effective delivery.
+
+Full review at [/oxygen-concentrators/sequal-eclipse-5/](/oxygen-concentrators/sequal-eclipse-5/).
+
+### 3. Invacare Platinum Mobile — 7.9
+
+**Price snapshot** — indicative retail ₹210,240 (listed MRP ₹268,800), 2.18 kg, 1–5 pulse settings, 40 dB published sound, 5 hr single-battery / 10 hr dual-pack at pulse 2, 2-hour recharge, 10,000 ft operating altitude, FDA and FAA approved, 28.5 psi outlet pressure.
+
+**Pros**
+- 2.18 kg is the lightest active-SKU pulse-dose portable in this list — genuinely shoulder-strap portable for daily 2–4 hour continuous wear.
+- 5 hour single-battery / 10 hour dual-pack runtime at pulse 2 is the longest in the portable category with dual-pack — true full-day-out capability.
+- 2-hour recharge time is the shortest in the class — half the 4–5 hour recharge times on the SimplyGo Mini and G5.
+- 28.5 psi outlet pressure is the highest among pulse-dose portables — widest accessory compatibility.
+- Confirmed OPI on a pulse portable — rare, and meaningful for long-duration pulse-dose use where silent sieve-bed drift matters.
+- FDA, FAA, and Indian-voltage-model all confirmed; operates to 40°C ambient — wider thermal envelope for Indian summer.
+
+**Cons**
+- ₹210,240 retail is premium pricing, justified only when the dual-pack battery capability is actually used.
+- CE certification field is blank on the manufacturer sheet — may matter at some EU destination airports.
+- Loss-of-power alarm and no-flow alarm blank on spec sheet (system-malfunction is listed) — less complete than the G5's alarm suite.
+- 1-year manufacturer warranty is shorter than the G5's 2-year term; paid extensions available through Tier-1 dealers.
+
+**Best for** — frequent air travellers on pulse-dose oxygen (6+ domestic or 2–4 international flights per year), active ambulatory patients needing full-day-out capability at pulse 2–4, parents of paediatric oxygen-dependent patients where mid-day battery failure is a clinical emergency.
+
+Full review at [/oxygen-concentrators/invacare-platinum-mobile/](/oxygen-concentrators/invacare-platinum-mobile/).
+
+### 4. Philips SimplyGo Mini — 7.8
+
+**Price snapshot** — indicative retail ₹210,700 (listed MRP ₹254,400), 2.3 kg, 1–5 pulse settings, 52 dB published sound, 4.5 hr base battery / 9 hr extended at pulse 2, 4-hour recharge, 10,000 ft operating altitude, FDA/FAA/CE approved.
+
+**Pros**
+- 2.3 kg is under the 2.5 kg all-day-wearable threshold — side-bag-friendly for a full day of urban mobility.
+- 4.5 hour base battery at pulse 2 covers most domestic flights without requiring the extended pack; 9-hour extended covers most single-leg domestic and 1-stop international routes.
+- 90–96% purity range at the top of the PSA pulse class, ahead of the G5's narrower 90–93%.
+- Philips Respironics India service depth is the strongest in the imported-portable segment — genuine advantage in tier-2 cities like Bhopal, Indore, Jaipur, Lucknow, Nagpur where Inogen coverage thins.
+- FAA confirmed; Indian voltage model; pairs cleanly with a home Philips EverFlo on the same service channel.
+
+**Cons**
+- 52 dB published sound is the weakest spec in the premium pulse-only segment — 14 dB above the G5, 12 dB above the Freestyle Comfort 5. Day-time use is fine; bedside overnight use is not.
+- Pulse-only delivery (1–5 settings) — no continuous flow mode, cannot substitute for a home unit on continuous prescriptions.
+- 4-hour recharge is an hour longer than the G5's 3 hours.
+- ₹210,700 retail is a premium over the G5 at similar weight and better sound spec.
+
+**Best for** — ambulatory pulse-setting-1–3 patients who travel regularly within 10,000 ft altitude, buyers in tier-2 Indian cities where the Philips service footprint is decisive over Inogen's, households pairing a home EverFlo with a travel companion on the same service channel.
+
+Full review at [/oxygen-concentrators/philips-simplygo-mini/](/oxygen-concentrators/philips-simplygo-mini/).
+
+### 5. Caire Freestyle Comfort 5 — 7.7
+
+**Price snapshot** — indicative retail ₹248,640 (listed MRP ₹273,600), 2.3 kg, 1–5 pulse settings, 39.9 dB published sound, 4 hr base / 16 hr extended battery at pulse 2, 3.5-hour recharge, 10,000 ft operating altitude, FDA/FAA/CE approved, 30 psi outlet pressure.
+
+**Pros**
+- 39.9 dB published sound is the lowest among active-SKU pulse-only portables — 12 dB below the SimplyGo Mini's 52 dB, 1.9 dB below the G5 (borderline perceptible).
+- 16-hour extended battery endurance is the longest in the Indian pulse-only market — covers Delhi-London or Mumbai-Singapore direct flights with buffer.
+- 2.3 kg ties the SimplyGo Mini for the lightest FAA-approved pulse-only active SKU.
+- 30 psi outlet pressure is unusually high for a portable — eliminates pressure drop for backpack-stowed operation and supports inline humidifier bottles.
+- Curved chassis design sits against the wearer's side ergonomically — reduces shoulder-strap pressure-point fatigue over extended wear.
+
+**Cons**
+- Listed as Out of stock on Indian e-commerce and dealer channels at time of review.
+- ₹248,640 retail is 15–18% above the SimplyGo Mini and G5 at comparable spec.
+- CAIRE India service network is thinner than Philips or Inogen for portable units specifically; battery replacement has had 3–5 week lead times.
+- No-flow alarm is blank on the published spec sheet — real gap for unattended overnight use with a shallow-breathing patient.
+- 4-hour base battery is shorter than the G5's 6.5 hours.
+
+**Best for** — buyers whose travel profile specifically benefits from the 16-hour extended battery endurance (long-haul international direct flights with no AC access), curved-chassis ergonomics for extended daily wear in smaller-framed patients or post-surgical-sensitivity cases, situations where 39.9 dB bedside sound is load-bearing and immediate availability is not.
+
+Full review at [/oxygen-concentrators/freestyle-comfort-5/](/oxygen-concentrators/freestyle-comfort-5/).
+
+## How to pick between these five
+
+**Pulse-only vs dual-mode.** The cleanest split in the list. Four of the five — G5, Platinum Mobile, SimplyGo Mini, Freestyle Comfort 5 — are pulse-flow-only. The SeQual Eclipse 5 is the only unit that delivers continuous flow on battery (up to 3 LPM). If the prescription is continuous flow above 2 LPM, the Eclipse 5 is the only pick in the list. If the prescription is pulse-mode or continuous below 2 LPM (where a pulse-mode equivalent will maintain SpO₂), the four lighter portables are the relevant comparison.
+
+**Altitude.** The Eclipse 5's 13,123 ft rating is the only one in the list that covers Leh, Kaza, Spiti, and the Leh-Manali road. Every other unit caps at 10,000 ft — adequate for Shimla, Manali, Gangtok, Darjeeling, Nainital, Mussoorie, Ooty, Munnar, and most mainstream Indian hill destinations, but not the highest addresses. For Leh-class travel on portable oxygen, there is no substitute for the Eclipse 5.
+
+**Battery endurance profile.** Three distinct shapes. The **G5** runs 6.5 hours base / 13 hours extended — the longest combined base-battery-plus-extended number. The **Platinum Mobile** runs 5 hours single / 10 hours dual-pack with a 2-hour recharge — the fastest recharge turnaround lets a traveller charge between airport hops. The **Freestyle Comfort 5** runs 4 hours base / 16 hours extended — the longest single-charge extended battery, best for direct long-haul international legs. Match the battery shape to the travel pattern, not the raw number.
+
+**Sound vs weight.** The quietest three units in the list — G5 (38 dB), Freestyle Comfort 5 (39.9 dB), Eclipse 5 (40 dB) — are separated by 2 dB total. The SimplyGo Mini's 52 dB is the outlier. For bedside overnight use or shared hotel rooms, stay under 40 dB. The G5 at 2.6 kg is 300 g heavier than the 2.3 kg SimplyGo Mini and Freestyle Comfort 5 — a real difference over all-day shoulder-strap wear for frail or osteoporotic patients, a small one for most adult caregivers.
+
+**Service-network depth.** The Philips SimplyGo Mini wins this axis decisively in tier-2 Indian cities — deeper dealer coverage than Inogen or CAIRE portable networks. The G5 and Platinum Mobile have solid metro coverage. The Eclipse 5 and Freestyle Comfort 5 (both CAIRE) are the thinnest on tier-2 India. For a tier-1 metro buyer, service-network depth is rarely the binding spec; for a Bhopal or Lucknow buyer, it may be.
+
+**Price.** The five portables span ₹210,240 (Platinum Mobile) to ₹287,040 (Eclipse 5) — a 37% spread. Raw price is not a useful primary filter at these tiers; spec fit is. The Eclipse 5's 34% premium is justified only if continuous flow, 13,123 ft altitude, or pulse 7–9 is actually needed. The Platinum Mobile's ₹210,240 is the defensible premium if full-day dual-pack battery and 2-hour recharge match the travel pattern.
+
+## Who should look elsewhere
+
+Patients on stationary continuous-flow LTOT whose only out-of-home need is monthly medical appointments and occasional travel are paying ~₹200,000 premium for a portable they use 30–50 days a year. A home [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/) at ₹43,699 plus cylinder-rental for travel days is often cheaper over three years.
+
+Patients on continuous flow above 3 LPM cannot be served by any portable on the Indian market — the Eclipse 5 caps at 3 LPM continuous and drops to 1.3 hours battery at that flow. The honest answer is a home stationary plus cylinder bridge for travel, not a portable.
+
+Buyers in tier-3 Indian cities where no authorised service partner for any of the five brands sits within a 72-hour radius should not buy any premium portable without a written loaner-unit clause in the purchase agreement. Portable batteries are the most common service item, and battery lead times in tier-3 India range 3–5 weeks.
+
+Patients with soft or shallow breathing patterns — late-stage ILD, severe COPD with poor inspiratory effort — may not reliably trigger pulse delivery on any of the four pulse-only portables. Clinical fit should be verified with a walk-test on the specific unit before purchase, not assumed from spec-setting equivalents.
+
+Institutional or hospital-channel buyers with procurement policies requiring CE marking should note the Platinum Mobile's blank CE field. The G5, Eclipse 5, SimplyGo Mini, and Freestyle Comfort 5 all carry CE certification. This rarely affects home buyers but can matter for CGHS or tender-fulfilment procurement.
+
+Buyers whose budget sits materially below ₹210,000 will find the Indian sub-₹180,000 portable market full of low-spec Chinese rebadges with thin battery endurance, unclear FAA status, and no meaningful Indian service channel. None of the five units here ship at that price, and we do not recommend dropping below the Platinum Mobile's ₹210,240 floor.
+
+## Verdict
+
+For the default Indian portable-oxygen buyer — pulse-flow prescription at settings 1–6, plains-to-hill-station altitudes below 10,000 ft, regular domestic travel or occasional international flights, budget in the ₹210,000–220,000 band — the **Inogen One G5** is the right pick. 38 dB sound, 6.5-hour base battery, 1–6 pulse range, complete alarm suite with OPI, 2-year manufacturer warranty. No other portable in the list wins on as many measurable axes.
+
+For patients travelling above 10,000 ft, needing continuous flow above 2 LPM, or requiring pulse 7–9 settings, the **SeQual Eclipse 5** is the only pick in the list that covers those envelopes. The 8.3 kg weight and ₹287,040 retail are real penalties, and both are justifiable only when the spec delta is clinically used.
+
+For frequent air travellers on pulse-dose oxygen where dual-pack 10-hour battery endurance and 2-hour recharge are load-bearing, the **Invacare Platinum Mobile** at ₹210,240 is the defensible premium. 6+ domestic or 2–4 international flights a year is the break-even use case.
+
+For tier-2 Indian city buyers where Philips Respironics service coverage beats Inogen's or CAIRE's, the **Philips SimplyGo Mini** is the practical pick — at the cost of 14 dB more published sound and 2 hours less base battery than the G5.
+
+For buyers whose travel profile specifically includes long-haul direct international flights with no AC access between legs, the **Caire Freestyle Comfort 5**'s 16-hour extended battery and 39.9 dB sound are the closest alternative — when it is back In Stock.
+
+Consult your prescribing physician before finalising any portable purchase to confirm the pulse-setting prescription maps to adequate SpO₂ maintenance on the specific unit via walk-test.
+
+---
+
 # 5 LPM vs 10 LPM concentrator: which do I need?
 
 Source: https://homehealthzone.com/guides/5-lpm-vs-10-lpm/
