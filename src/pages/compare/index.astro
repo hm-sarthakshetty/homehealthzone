@@ -4,13 +4,24 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CompareBuilder from '../../components/CompareBuilder.astro';
 import { getCollection } from 'astro:content';
 
-const [products, cpapBipap, comparisons] = await Promise.all([
+const [products, cpapBipap, comparisons, productReviews, cpapBipapReviews] = await Promise.all([
   getCollection('products'),
   getCollection('cpap-bipap'),
   getCollection('comparisons'),
+  getCollection('product-reviews'),
+  getCollection('cpap-bipap-reviews'),
 ]);
 
 const allProducts = [...products, ...cpapBipap];
+
+// Build slug → HHZ score map across both review collections.
+const scoreMap: Record<string, number> = {};
+for (const r of productReviews) {
+  if (typeof r.data.score === 'number') scoreMap[r.id] = r.data.score;
+}
+for (const r of cpapBipapReviews) {
+  if (typeof r.data.score === 'number') scoreMap[r.id] = r.data.score;
+}
 
 // Popular curated comparisons — kept as secondary, not the primary UI.
 const popular = comparisons
@@ -39,7 +50,7 @@ const crumbs = [
     </p>
   </header>
 
-  <CompareBuilder entries={allProducts} maxSlots={4} />
+  <CompareBuilder entries={allProducts} scoreMap={scoreMap} maxSlots={4} />
 
   {popular.length > 0 && (
     <section class="popular-comparisons">

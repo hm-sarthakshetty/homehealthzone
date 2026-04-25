@@ -41,8 +41,17 @@ function reviewHref(e: ReviewEntry): string {
   return `/${deviceType}/${e.data.slug}/`;
 }
 
+async function resolveScore(e: ReviewEntry | undefined): Promise<number | undefined> {
+  if (!e) return undefined;
+  const reviewCollection = e.collection === 'products' ? 'product-reviews' : 'cpap-bipap-reviews';
+  const review = await getEntry(reviewCollection, e.data.slug);
+  return typeof review?.data.score === 'number' ? review.data.score : undefined;
+}
+
 const productA = await resolveProduct(data.productA_slug);
 const productB = await resolveProduct(data.productB_slug);
+const scoreA = await resolveScore(productA);
+const scoreB = await resolveScore(productB);
 
 const bothResolved = Boolean(productA && productB);
 
@@ -69,6 +78,8 @@ const crumbs = [
     productB={productB.data}
     productAHref={reviewHref(productA)}
     productBHref={reviewHref(productB)}
+    productAScore={scoreA}
+    productBScore={scoreB}
     title={writeupFrontmatter?.title ?? title}
     description={description}
     canonicalURL={canonicalURL}

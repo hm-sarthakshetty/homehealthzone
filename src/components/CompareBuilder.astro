@@ -5,10 +5,12 @@ type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
 
 export interface Props {
   entries: ProductEntry[];
+  /** Map of product slug → HHZ editorial score (0–10). Surfaces in slot cards and the At-a-glance row. */
+  scoreMap?: Record<string, number>;
   maxSlots?: number;
 }
 
-const { entries, maxSlots = 4 } = Astro.props;
+const { entries, scoreMap = {}, maxSlots = 4 } = Astro.props;
 
 function hrefFor(entry: ProductEntry): string {
   if (entry.collection === 'cpap-bipap') {
@@ -28,6 +30,7 @@ function groupFor(e: ProductEntry): 'concentrator' | 'cpap' | 'bipap' {
 const products = entries
   .map((e) => {
     const firstImage = e.data.images?.[0];
+    const score = scoreMap[e.data.slug];
     return {
       slug: e.data.slug,
       name: e.data.product_name,
@@ -42,6 +45,7 @@ const products = entries
       image: firstImage?.src ?? null,
       alt: firstImage?.alt ?? e.data.product_name,
       href: hrefFor(e),
+      score: typeof score === 'number' ? score : null,
       key_features: (e.data.key_features ?? {}) as Record<string, string>,
       spec_tables: (e.data.spec_tables ?? {}) as Record<string, Record<string, string>>,
       normalized_specs: ((e.data as any).normalized_specs ?? {}) as Record<string, number | boolean>,
@@ -164,6 +168,12 @@ const products = entries
       const slug = selected[index];
       if (slug && bySlug[slug]) {
         const p = bySlug[slug];
+        const scoreHtml = (typeof p.score === 'number')
+          ? `<p class="compare-slot__score" aria-label="HHZ score">
+              <span class="compare-slot__score-label">HHZ SCORE</span>
+              <span class="compare-slot__score-value mono-data">${p.score.toFixed(1)}<span class="compare-slot__score-denom">/10</span></span>
+            </p>`
+          : '';
         slot.innerHTML = `
           <article class="compare-slot__card">
             <div class="compare-slot__image-wrap">
@@ -174,6 +184,7 @@ const products = entries
               <h3 class="compare-slot__name"><a href="${escapeHtml(p.href)}">${escapeHtml(p.name)}</a></h3>
               ${p.category ? `<p class="compare-slot__category mono-data">${escapeHtml(p.category)}</p>` : ''}
               ${fmtPrice(p) ? `<p class="compare-slot__price mono-data">${escapeHtml(fmtPrice(p))}</p>` : ''}
+              ${scoreHtml}
               <button type="button" class="link-button" data-remove-slot="${index}">Clear slot</button>
             </div>
           </article>
@@ -305,6 +316,7 @@ const products = entries
       sections.push({
         group: 'At a glance',
         rows: [
+          { label: 'HHZ score', values: picks.map((p) => (typeof p.score === 'number' ? `${p.score.toFixed(1)} / 10` : '—')) },
           { label: 'Brand', values: picks.map((p) => p.brand || '—') },
           { label: 'Category', values: picks.map((p) => p.category || '—') },
           { label: 'Price', values: picks.map((p) => fmtPrice(p) || '—') },
@@ -682,6 +694,31 @@ const products = entries
     text-transform: uppercase;
     letter-spacing: 0.03em;
     font-size: var(--text-xs);
+  }
+
+  .compare-slot__score {
+    margin: 0;
+    padding-top: var(--space-2);
+    border-top: 1px solid var(--color-border);
+    font-family: var(--font-mono);
+    line-height: 1;
+  }
+  .compare-slot__score-label {
+    display: block;
+    font-size: var(--text-xs);
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    margin-bottom: 4px;
+  }
+  .compare-slot__score-value {
+    font-size: var(--text-xl);
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  .compare-slot__score-denom {
+    font-size: var(--text-sm);
+    color: var(--color-text-subtle);
+    font-weight: 400;
   }
 
   .compare-builder__actions {

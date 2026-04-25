@@ -17,6 +17,8 @@ export interface Props {
   productBHref?: string;
   productACollection?: 'products' | 'cpap-bipap';
   productBCollection?: 'products' | 'cpap-bipap';
+  productAScore?: number;
+  productBScore?: number;
   title?: string;
   description?: string;
   canonicalURL?: string;
@@ -38,6 +40,8 @@ const {
   productBHref,
   productACollection = 'products',
   productBCollection = 'products',
+  productAScore,
+  productBScore,
   title: titleProp,
   description: descriptionProp,
   canonicalURL,
@@ -155,7 +159,11 @@ const topFive = topFivePillar(productA.category);
     )}
 
     <div class="comparison">
-      <section class="compare__card" aria-labelledby="compare-a-heading">
+      <section
+        class:list={['compare__card', winner === 'A' && 'compare__card--winner']}
+        aria-labelledby="compare-a-heading"
+      >
+        {winner === 'A' && <p class="compare__winner-flag">EDITORIAL PICK</p>}
         <h2 id="compare-a-heading" class="compare__card-title">
           <a href={hrefA}>{productA.product_name}</a>
         </h2>
@@ -184,9 +192,21 @@ const topFive = topFivePillar(productA.category);
           symbol={productA.price_symbol}
         />
         <PriceDisclaimer />
+        {typeof productAScore === 'number' && (
+          <p class="compare__score" aria-label="HHZ score">
+            <span class="compare__score-label">HHZ SCORE</span>
+            <span class="compare__score-value mono-data">
+              {productAScore.toFixed(1)}<span class="compare__score-denom">/10</span>
+            </span>
+          </p>
+        )}
       </section>
 
-      <section class="compare__card" aria-labelledby="compare-b-heading">
+      <section
+        class:list={['compare__card', winner === 'B' && 'compare__card--winner']}
+        aria-labelledby="compare-b-heading"
+      >
+        {winner === 'B' && <p class="compare__winner-flag">EDITORIAL PICK</p>}
         <h2 id="compare-b-heading" class="compare__card-title">
           <a href={hrefB}>{productB.product_name}</a>
         </h2>
@@ -215,6 +235,14 @@ const topFive = topFivePillar(productA.category);
           symbol={productB.price_symbol}
         />
         <PriceDisclaimer />
+        {typeof productBScore === 'number' && (
+          <p class="compare__score" aria-label="HHZ score">
+            <span class="compare__score-label">HHZ SCORE</span>
+            <span class="compare__score-value mono-data">
+              {productBScore.toFixed(1)}<span class="compare__score-denom">/10</span>
+            </span>
+          </p>
+        )}
       </section>
     </div>
 
@@ -321,6 +349,46 @@ const topFive = topFivePillar(productA.category);
     display: flex;
     flex-direction: column;
     gap: var(--space-3);
+    position: relative;
+  }
+  .compare__card--winner {
+    border-color: var(--color-accent);
+    box-shadow: 0 0 0 1px var(--color-accent);
+  }
+  .compare__winner-flag {
+    align-self: flex-start;
+    margin: 0;
+    padding: 2px var(--space-2);
+    background: var(--color-accent);
+    color: #fff;
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+  }
+  .compare__score {
+    margin: 0;
+    padding-top: var(--space-3);
+    border-top: 1px solid var(--color-border);
+    font-family: var(--font-mono);
+    line-height: 1;
+  }
+  .compare__score-label {
+    display: block;
+    font-size: var(--text-xs);
+    letter-spacing: 0.08em;
+    color: var(--color-text-muted);
+    margin-bottom: 4px;
+  }
+  .compare__score-value {
+    font-size: var(--text-2xl);
+    font-weight: 700;
+    color: var(--color-text);
+  }
+  .compare__score-denom {
+    font-size: var(--text-base);
+    color: var(--color-text-subtle);
+    font-weight: 400;
   }
   .compare__card-title {
     font-size: var(--text-lg);
