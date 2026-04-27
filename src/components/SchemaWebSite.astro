@@ -1,0 +1,16 @@
+---
+const siteOrigin = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
+
+// WebSite schema with explicit `name` is the canonical signal for Google's
+// Sitenames feature — overrides Google's inferred site name from external
+// sources (Knowledge Graph, GBP, GSC org association, etc.).
+// Docs: https://developers.google.com/search/docs/appearance/site-names
+const ld = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'HHZ Respiratory Review',
+  alternateName: 'HHZ',
+  url: siteOrigin ? `${siteOrigin}/` : undefined,
+};
+---
+<script type="application/ld+json" set:html={JSON.stringify(ld)} />

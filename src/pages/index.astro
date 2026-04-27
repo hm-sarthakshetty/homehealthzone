@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import SchemaOrganization from '../components/SchemaOrganization.astro';
+import SchemaWebSite from '../components/SchemaWebSite.astro';
 import SearchBox from '../components/SearchBox.astro';
 import { getCollection } from 'astro:content';
 
@@ -96,6 +97,7 @@ const desc =
     </div>
   </section>
 
+  <SchemaWebSite />
   <SchemaOrganization />
 </BaseLayout>
 

@@ -57,7 +57,12 @@ const preloadHrefResolved = preloadHref(preloadImage);
 const preloadTypeResolved = preloadType(preloadImage);
 
 const SITE_NAME = 'HHZ Respiratory Review';
-const fullTitle = title === SITE_NAME ? title : `${title} — ${SITE_NAME}`;
+// Title separator: pipe is one of Google's documented site-name separators
+// (along with `-`, `/`, `:`). Em-dash (—) is NOT recognized by Google's title
+// parser, which causes Google to fall back to its inferred site name from
+// external signals (Knowledge Graph, business listings, etc.) — which can be
+// wrong. Pipe forces Google to recognize SITE_NAME as the site name.
+const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
 const resolvedCanonical = canonicalURL ?? new URL(Astro.url.pathname, Astro.site).toString();
 
 const nav = [
