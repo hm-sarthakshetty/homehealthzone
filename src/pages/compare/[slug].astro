@@ -61,7 +61,7 @@ const writeupFrontmatter = writeup?.data ?? undefined;
 
 const title = data.title;
 const description = bothResolved
-  ? `${data.title} — specs, price, and verdict. Independent side-by-side comparison by HHZ Respiratory Review.`
+  ? `${data.title} — specs, price, and verdict. Side-by-side comparison scored against the HHZ rubric.`
   : `${data.title} — full comparison in progress. Here's what we know about each device from public specs.`;
 
 const canonicalURL = new URL(`/compare/${data.slug}/`, Astro.site).toString();

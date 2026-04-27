@@ -66,7 +66,7 @@ const stockClass = (() => {
 const fallbackDescription =
   product.description_text && product.description_text.trim().length > 0
     ? product.description_text.slice(0, 160)
-    : `${product.product_name} — independent review, specifications, and price.`;
+    : `${product.product_name} — review, specifications, and price.`;
 
 const description = descriptionProp ?? fallbackDescription;
 const title = titleProp ?? product.product_name;

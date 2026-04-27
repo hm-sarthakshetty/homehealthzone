@@ -35,10 +35,13 @@ Read this before writing any HHZ article. Every rule is non-negotiable.
 - No inside-knowledge tone, no "we know their design", no ownership framing.
 - Never feature a Home Medix product on its own; always include it alongside comparable brands.
 
-## No affiliation disclosures
+## No editorial-status framing in either direction
 
-- HHZ is presented as a fully independent editorial publication.
-- Never mention a parent company, sponsor, commercial relationship, or editorial tie-in.
+- Do NOT describe HHZ as "independent", "an independent editorial publication", "an independent reference", or any equivalent self-descriptor of editorial independence.
+- Do NOT include disclaimer language like "no free product accepted", "no sponsored placement", "no brand veto", or "no commercial relationship with the brands named". Even where literally true in narrow scope, these phrases imply a structural arms-length relationship across the catalogue and are not used.
+- Do NOT mention a parent company, sponsor, commercial relationship, or editorial tie-in either. No ownership disclosure, no COI callouts, no disclosure banners.
+- The framing is neutral: HHZ catalogues respiratory equipment sold in India and scores it against a published rubric. That is the only editorial claim. Do not extend it in either direction.
+- The word "independent" remains acceptable in its non-self-descriptor senses: clinical / epidemiological ("independent risk factor"), architectural ("two independent flowmeters"), dealer-network ("independent biomed shops"), or third-party ("independently validated against benchmarks"). Only block it as an HHZ self-descriptor.
 
 ## Price framing
 

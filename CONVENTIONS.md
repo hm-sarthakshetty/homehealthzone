@@ -5,10 +5,10 @@ Internal reference for agents building the HHZ Astro site at `~/hhz-site/`.
 ## Positioning (load-bearing — do not deviate)
 
 - Publication name: **HHZ Respiratory Review**
-- Positioning: independent editorial publication reviewing respiratory equipment sold in India
+- Positioning: a reference catalogue of respiratory equipment sold in India, scored against a published rubric. Do not describe HHZ as "independent", "an independent editorial publication", or any equivalent self-descriptor.
 - **No ownership or commercial affiliation is disclosed anywhere.** Do not reference Home Medix as a parent company, owner, sponsor, or affiliate. No disclosure banners, no COI callouts.
 - Home Medix products (model names: HM-KV, HM-KX, HM-CV-20, HM-BV-30, HM Pro, MistyNeb) are reviewed like any other brand using the published rubric.
-- No free product accepted, no sponsored placement, no brand veto — the editorial-independence statement lives at `/editorial-policy/`.
+- Do not include disclaimer language like "no free product accepted", "no sponsored placement", "no brand veto", or "no commercial relationship with the brands named". Even where literally true in narrow scope, these phrases imply a structural arms-length relationship across the catalogue and are not used. The editorial-policy page documents scoring, loaner, and outreach handling without claiming editorial independence.
 
 ## URL structure (trailing-slash required via astro.config.mjs)
 

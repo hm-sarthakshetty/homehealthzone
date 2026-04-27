@@ -135,7 +135,7 @@ const topFive = topFivePillar(productA.category);
     <header class="compare__header">
       <h1>{productA.product_name} <span class="compare__vs">vs</span> {productB.product_name}</h1>
       <p class="meta-line">
-        Independent head-to-head based on the published spec rubric.
+        Head-to-head scored against the published spec rubric.
         {writeupFrontmatter?.lastReviewed && (
           <span>· Reviewed <time datetime={writeupFrontmatter.lastReviewed}>{writeupFrontmatter.lastReviewed}</time></span>
         )}
