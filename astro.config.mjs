@@ -108,6 +108,21 @@ const BUILD_TIME = new Date().toISOString();
 
 export default defineConfig({
   site: SITE_URL,
+  redirects: {
+    '/clinical/bipap-st-mode-indications/': '/clinical/bipap-st-mode-and-indications/',
+    '/clinical/epflex-epr-flex-c-flex-explained/': '/clinical/epflex-epr-flex-cflex-explained/',
+    '/clinical/heated-tubing-clinical-evidence-indian-climate/': '/clinical/heated-tubing-clinical-evidence/',
+    '/clinical/how-to-verify-ce-mark-imports/': '/clinical/how-to-verify-ce-mark-imported-devices/',
+    '/clinical/is-2-lpm-enough-flow-rate-selection/': '/clinical/is-2-lpm-enough-flow-selection/',
+    '/clinical/nasal-cannula-vs-mask-vs-non-rebreather-vs-venturi/': '/clinical/nasal-cannula-vs-simple-mask-vs-non-rebreather-vs-venturi/',
+    '/clinical/osa-vs-central-vs-complex-sleep-apnea/': '/clinical/osa-vs-central-apnea-vs-complex-sleep-apnea/',
+    '/clinical/oxygen-concentrator-electricity-cost-india/': '/clinical/oxygen-concentrator-electricity-cost-by-state/',
+    '/clinical/post-covid-long-term-oxygen-evidence-2024-26/': '/clinical/post-covid-long-term-oxygen/',
+    '/clinical/reading-a-cpap-report-line-by-line/': '/clinical/reading-cpap-report-airview-care-orchestrator-icode/',
+    '/clinical/understanding-spo2-vs-pao2-vs-sao2/': '/clinical/spo2-vs-pao2-vs-sao2/',
+    '/clinical/stabiliser-vs-ups-vs-inverter-for-concentrators/': '/clinical/stabilizer-ups-vs-inverter-for-concentrator/',
+    '/clinical/traveling-with-oxygen-concentrator-india/': '/clinical/traveling-with-oxygen-indian-railways-indigo-air-india/',
+  },
   integrations: [
     sitemap({
       changefreq: 'weekly',

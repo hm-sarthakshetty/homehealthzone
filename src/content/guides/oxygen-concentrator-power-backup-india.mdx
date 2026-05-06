@@ -1,0 +1,74 @@
+---
+title: "Oxygen concentrator power backup guide for India"
+description: "How to size a stabilizer, UPS, or inverter for an oxygen concentrator in India, with practical VA math for 5 LPM and 10 LPM machines."
+lastReviewed: "2026-05-06"
+nextReview: "2026-11-06"
+author: "HHZ Editorial"
+tags: ["oxygen-concentrator", "power-backup", "ups", "inverter", "stabilizer", "india"]
+---
+
+An oxygen concentrator is only useful while it has stable power. In Indian homes, the power plan should be decided at the time of purchase, not after the first outage or voltage-failure warranty dispute.
+
+## Typical power draw
+
+| Device class | Typical draw | Backup implication |
+| --- | ---: | --- |
+| Efficient 5 LPM concentrator | 285-320 W/VA | Manageable on good inverter systems |
+| Mainstream 5 LPM concentrator | 350-400 W/VA | Needs proper VA headroom |
+| High-draw 5 LPM concentrator | 500+ W | Treat like a small appliance load |
+| Efficient 10 LPM concentrator | 530-600 W/VA | Needs larger inverter/UPS |
+| High-draw 10 LPM concentrator | 720-850 W | Backup gets expensive quickly |
+
+Use the manufacturer rating plate, not a sales listing, for final sizing.
+
+## Stabilizer versus UPS versus inverter
+
+| Equipment | Solves voltage fluctuation | Provides backup | Best use |
+| --- | --- | --- | --- |
+| Servo stabilizer | Yes | No | Unstable grid, no long outage concern |
+| Line-interactive UPS | Somewhat | Short | Brief outages, light protection |
+| Online UPS | Yes | Short to medium | Critical continuous therapy |
+| Pure-sine inverter | No by itself | Medium to long | Load-shedding backup |
+| Inverter + stabilizer | Yes | Medium to long | Common Indian home setup |
+
+Avoid square-wave inverters for compressor-driven concentrators. Use pure-sine equipment.
+
+## VA sizing rule
+
+Use at least 1.5 times the concentrator's rated VA or watt draw as the minimum inverter/UPS capacity.
+
+Examples:
+
+| Concentrator draw | Minimum practical backup capacity |
+| ---: | ---: |
+| 300 W | 450 VA or higher |
+| 400 W | 600 VA or higher |
+| 550 W | 825 VA or higher |
+| 850 W | 1,275 VA or higher |
+
+In practice, round up because humidifier, fan load, startup surge, battery aging, and other household devices reduce real capacity.
+
+## Backup duration math
+
+Battery duration depends on battery capacity, inverter efficiency, and depth-of-discharge limits. A simple estimate:
+
+`runtime hours = usable watt-hours / concentrator watts`
+
+A 12 V 150 Ah battery has 1,800 Wh nominal capacity. At 80% usable capacity and 85% inverter efficiency, usable energy is roughly 1,224 Wh.
+
+- 300 W concentrator: about 4 hours.
+- 400 W concentrator: about 3 hours.
+- 550 W concentrator: about 2.2 hours.
+- 850 W concentrator: about 1.4 hours.
+
+Real-world runtime can be lower.
+
+## Backup planning by patient dependence
+
+For daytime-only, intermittent oxygen, a stabilizer plus short outage plan may be enough. For overnight oxygen, backup should cover the longest expected night outage. For oxygen-dependent patients, keep cylinder backup or rental backup available even if an inverter is installed.
+
+## Bottom line
+
+Buy the concentrator and power plan together. A lower-power concentrator can reduce monthly electricity cost and make backup practical. A high-flow 10 LPM unit may be clinically necessary, but it requires a larger and more expensive power plan.
+
+For the technical clinical version, see <a href="/clinical/stabilizer-ups-vs-inverter-for-concentrator/">stabilizer vs UPS vs inverter for concentrators</a>.
