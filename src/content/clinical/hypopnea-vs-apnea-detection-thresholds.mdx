@@ -17,7 +17,7 @@ Under AASM scoring rules (Manual for the Scoring of Sleep and Associated Events,
 - Sustained for **≥ 10 seconds**,
 - With the drop occupying **≥ 90% of the event duration**.
 
-No desaturation required. No arousal required. An apnea is scored purely on the flow channel, with the duration and magnitude criteria. It is classified as obstructive (effort preserved), central (effort absent), or mixed (central transitioning to obstructive) by reference to the thoracic and abdominal effort belts. [CITATION: AASM Manual for the Scoring of Sleep and Associated Events v3.]
+No desaturation required. No arousal required. An apnea is scored purely on the flow channel, with the duration and magnitude criteria. It is classified as obstructive (effort preserved), central (effort absent), or mixed (central transitioning to obstructive) by reference to the thoracic and abdominal effort belts. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
 
 This is the stable, agreed-upon definition across labs and across devices. Apnea scoring rarely differs between centres; the magnitude threshold (90% flow drop) is high enough that detection is unambiguous. Disagreement on apnea counts between experienced technologists is typically small (κ > 0.85).
 
@@ -33,7 +33,7 @@ The hypopnea definition is the source of most cross-lab and cross-device AHI dis
 
 Both rules are endorsed by AASM. Rule 1A is the "recommended" rule and is the rule most academic centres follow. Rule 1B is the "acceptable" rule and is the rule historically required by CMS in the United States for coverage decisions (a legacy that persisted after the clinical rules moved to 1A). Many private Indian labs run rule 1B by default, often without clearly documenting the choice, because the 1B number is lower and produces fewer positive diagnoses.
 
-On the same raw data, rule 1A produces an AHI roughly 15–35% higher than rule 1B on average, with larger gaps in patients whose desaturation events cluster in the 3–4% range. A patient scored AHI 22 under 1A may read AHI 14 under 1B. The physiology is unchanged; the threshold is changed. [CITATION: Berry RB et al, Sleep Breath 2013 — rule comparison; BaHammam AS et al regional variation in scoring.]
+On the same raw data, rule 1A produces an AHI roughly 15–35% higher than rule 1B on average, with larger gaps in patients whose desaturation events cluster in the 3–4% range. A patient scored AHI 22 under 1A may read AHI 14 under 1B. The physiology is unchanged; the threshold is changed. ([Berry RB et al, Sleep Breath 2013](https://pubmed.ncbi.nlm.nih.gov/?term=Berry+RB+Sleep+Breath+2013))
 
 ## The older rules that still appear in Indian lab software
 
@@ -55,7 +55,7 @@ A patient with many RERAs and few hypopneas / apneas may have AHI &lt; 5 (techni
 
 A CPAP / APAP has less data than a Type III HSAT: flow at the blower, commanded and measured pressure, derived flow-limitation signal. No EEG, no effort belts, no pulse oximeter (absent an optional SpO₂ accessory). Every manufacturer's hypopnea algorithm must approximate the AASM definition using flow alone.
 
-**ResMed (AirSense 10/11, S9, AirCurve).** Hypopnea detection uses a proportional flow reduction against a rolling baseline (typical published threshold ~50%, above AASM's 30%), sustained > 10 seconds, with additional flow-shape analysis to discriminate real events from transient flow perturbations. The stricter threshold is a deliberate choice to reduce false positives. [CITATION: ResMed AutoSet algorithm white paper.]
+**ResMed (AirSense 10/11, S9, AirCurve).** Hypopnea detection uses a proportional flow reduction against a rolling baseline (typical published threshold ~50%, above AASM's 30%), sustained > 10 seconds, with additional flow-shape analysis to discriminate real events from transient flow perturbations. The stricter threshold is a deliberate choice to reduce false positives.
 
 **Philips (DreamStation, DreamStation 2, System One).** Uses a similar flow-reduction-plus-shape approach. The specific threshold values are not fully public. In practice, Philips AHI tends to run slightly higher than ResMed AHI on equivalent patients — suggesting the Philips threshold is less conservative.
 

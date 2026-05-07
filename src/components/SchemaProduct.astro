@@ -5,11 +5,21 @@ type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
 
 export interface Props {
   product: ProductEntry['data'];
+  canonicalURL?: string;
+  reviewFrontmatter?: {
+    title?: string;
+    verdict?: string;
+    score?: number;
+    lastReviewed?: string;
+    author?: string;
+    reviewedBy?: string;
+  };
 }
 
-const { product } = Astro.props;
+const { product, canonicalURL, reviewFrontmatter } = Astro.props;
 
 const siteOrigin = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
+const pageUrl = canonicalURL ?? (product.slug ? `${siteOrigin}/oxygen-concentrators/${product.slug}/` : undefined);
 
 const firstImage = product.images && product.images.length > 0 ? product.images[0] : null;
 const imageUrl = firstImage
@@ -24,10 +34,26 @@ const ld: Record<string, unknown> = {
   name: product.product_name,
 };
 
+if (pageUrl) ld.url = pageUrl;
 if (imageUrl) ld.image = imageUrl;
 if (product.brand) ld.brand = { '@type': 'Brand', name: product.brand };
 if (product.description_text) ld.description = product.description_text;
 if (product.category) ld.category = product.category;
+if (product.slug) ld.sku = product.slug;
+
+const price = product.price_current?.replace(/,/g, '').trim();
+if (price && /^\d+(?:\.\d+)?$/.test(price)) {
+  const availability = product.stock?.toLowerCase().includes('out')
+    ? 'https://schema.org/OutOfStock'
+    : 'https://schema.org/InStock';
+  ld.offers = {
+    '@type': 'Offer',
+    price,
+    priceCurrency: product.price_symbol === '₹' ? 'INR' : undefined,
+    availability,
+    url: pageUrl,
+  };
+}
 
 if (product.rating_value) {
   const rating: Record<string, unknown> = {
@@ -36,6 +62,59 @@ if (product.rating_value) {
   };
   if (product.rating_count) rating.reviewCount = product.rating_count;
   ld.aggregateRating = rating;
+}
+
+const properties: Array<Record<string, unknown>> = [];
+for (const [name, value] of Object.entries(product.key_features ?? {})) {
+  if (value) {
+    properties.push({
+      '@type': 'PropertyValue',
+      name,
+      value,
+    });
+  }
+}
+for (const [name, value] of Object.entries(product.normalized_specs ?? {})) {
+  if (value !== undefined && value !== null) {
+    properties.push({
+      '@type': 'PropertyValue',
+      name,
+      value: String(value),
+    });
+  }
+}
+if (properties.length > 0) ld.additionalProperty = properties;
+
+if (reviewFrontmatter?.score || reviewFrontmatter?.verdict) {
+  const review: Record<string, unknown> = {
+    '@type': 'Review',
+    name: reviewFrontmatter.title ?? `${product.product_name} review`,
+    author: {
+      '@type': 'Organization',
+      name: reviewFrontmatter.author ?? 'HHZ Editorial',
+    },
+    publisher: {
+      '@type': 'Organization',
+      name: 'HHZ Respiratory Review',
+    },
+  };
+  if (reviewFrontmatter.verdict) review.reviewBody = reviewFrontmatter.verdict;
+  if (reviewFrontmatter.lastReviewed) review.datePublished = reviewFrontmatter.lastReviewed;
+  if (reviewFrontmatter.reviewedBy) {
+    review.reviewedBy = {
+      '@type': 'Person',
+      name: reviewFrontmatter.reviewedBy,
+    };
+  }
+  if (reviewFrontmatter.score) {
+    review.reviewRating = {
+      '@type': 'Rating',
+      ratingValue: reviewFrontmatter.score,
+      bestRating: 10,
+      worstRating: 0,
+    };
+  }
+  ld.review = review;
 }
 ---
 <script type="application/ld+json" set:html={JSON.stringify(ld)} />

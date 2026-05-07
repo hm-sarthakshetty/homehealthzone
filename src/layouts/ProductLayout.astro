@@ -28,6 +28,7 @@ export interface Props {
     cons?: string[];
     score?: number;
     lastReviewed?: string;
+    author?: string;
     reviewedBy?: string;
     credentials?: string;
   };
@@ -232,7 +233,7 @@ const topFive = topFivePillar(product.category);
     </section>
   </article>
 
-  <SchemaProduct product={product} />
+  <SchemaProduct product={product} canonicalURL={canonicalURL} reviewFrontmatter={reviewFrontmatter} />
 </BaseLayout>
 
 <style>

@@ -107,7 +107,7 @@ const SOURCE_MAP = [
   { match: /WCAG\s*2\.?2|WCAG/i, label: 'WCAG 2.2', url: 'https://www.w3.org/TR/WCAG22/' },
 ];
 
-function classify(citationText) {
+export function classifyCitation(citationText) {
   // Strip if any explicit strip pattern matches.
   for (const p of STRIP_PATTERNS) {
     if (p.test(citationText)) return null;
@@ -152,7 +152,7 @@ function processChildren(parent) {
           parts.push({ type: 'text', value: value.slice(lastEnd, m.index) });
         }
         const cite = m[1].trim();
-        const resolved = classify(cite);
+        const resolved = classifyCitation(cite);
         if (resolved) {
           parts.push({ type: 'text', value: ' (' });
           parts.push({

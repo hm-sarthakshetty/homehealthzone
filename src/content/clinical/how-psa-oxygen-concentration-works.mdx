@@ -34,7 +34,7 @@ Modern home concentrators use variations on this pattern — Skarstrom-with-equa
 
 This is the load-bearing chemistry. A zeolite is a crystalline aluminosilicate — specifically, a three-dimensional framework of (SiO₄)⁴⁻ and (AlO₄)⁵⁻ tetrahedra that defines a regular array of cages connected by pore windows. The framework charge from the Al substitution is balanced by extra-framework cations (Na⁺, Li⁺, Ca²⁺, K⁺, depending on the zeolite type). Zeolite 13X is specifically the sodium-exchanged form of the X-type faujasite framework, with a roughly 13 Å pore aperture that admits both N₂ and O₂ without molecular exclusion.
 
-Inside the cage, the adsorption physics is governed by three contributions to the binding energy [CITATION: Ruthven DM, Principles of Adsorption and Adsorption Processes, Wiley 1984; Breck DW, Zeolite Molecular Sieves, 1974]:
+Inside the cage, the adsorption physics is governed by three contributions to the binding energy:
 
 - **Dispersive (van der Waals) interactions** — similar for both N₂ and O₂, small difference.
 - **Field-quadrupole interactions** between the extra-framework cation's electric field and the adsorbate's electric quadrupole moment. This is where N₂ and O₂ diverge. The N₂ quadrupole moment is approximately 4.7 × 10⁻²⁶ esu·cm², roughly 3.5 times the O₂ moment (1.3 × 10⁻²⁶ esu·cm²). In the strong electric field around a Na⁺ cation, N₂ binds more tightly than O₂ by a factor of 2–3 in equilibrium loading at typical PSA operating pressures.
@@ -46,13 +46,13 @@ The adsorption isotherm is well-fit by the Langmuir model for both species:
 
   q = q_m × (b × P) / (1 + b × P)
 
-where q is the adsorbed amount, q_m is the monolayer capacity, b is the Langmuir equilibrium constant, and P is the partial pressure. The key design variable for PSA is the difference in b between N₂ and O₂, because b × P roughly sets the filling of adsorption sites at feed pressure and the emptying of sites at vent pressure. A large b ratio means a clean pressure swing. [CITATION: Yang RT, Adsorbents: Fundamentals and Applications, Wiley 2003.]
+where q is the adsorbed amount, q_m is the monolayer capacity, b is the Langmuir equilibrium constant, and P is the partial pressure. The key design variable for PSA is the difference in b between N₂ and O₂, because b × P roughly sets the filling of adsorption sites at feed pressure and the emptying of sites at vent pressure. A large b ratio means a clean pressure swing.
 
 Argon is the frustrating exception. Its quadrupole moment is effectively zero (spherically symmetric atom), so its binding is dominated by dispersive forces that are nearly identical to O₂. The α_Ar/O₂ selectivity on 13X is close to 1.0. Any argon in the feed passes through the bed at the same rate as oxygen, and the 0.93% argon in atmospheric air ends up concentrated in the product stream to approximately 4.5% — fixing the thermodynamic ceiling on 13X PSA output at 95–96% O₂ with the balance as Ar.
 
 ## LiLSX: why lithium-exchanged low-silica X outperforms 13X
 
-Replacing the Na⁺ cations in the X framework with Li⁺ produces lithium low-silica X zeolite, LiLSX (sometimes labelled LiX). Two things change [CITATION: Chao CC, US Patent 4,859,217, 1989; Rege SU, Yang RT, Chem Eng Sci 1997].
+Replacing the Na⁺ cations in the X framework with Li⁺ produces lithium low-silica X zeolite, LiLSX (sometimes labelled LiX). Two things change.
 
 First, Li⁺ is smaller and has a higher charge-to-radius ratio than Na⁺. The electric field at the cation site is stronger, and the field-quadrupole interaction with N₂ is correspondingly stronger. The Henry's-law N₂/O₂ selectivity on LiLSX rises to roughly 6–10, depending on the exchange completeness, at room temperature — roughly double that of 13X.
 
@@ -133,4 +133,4 @@ Consult your treating physician for therapy decisions; this article is education
 
 The PSA oxygen concentrator is a remarkably durable piece of commodity chemical engineering. The underlying adsorption science — Na⁺ and Li⁺ cations in zeolite cages producing a quadrupole-moment-driven selectivity for N₂ over O₂ — has not materially changed in 40 years; what has changed is the cost of the zeolite, the availability of reliable oil-free compressors, and the maturity of the solenoid valves. The output spec of 93% ± 3% is not a shortcoming; it is what argon-limited zeolite PSA fundamentally produces, and it has been clinically adequate for the overwhelming majority of long-term oxygen therapy prescriptions written in the last three decades. A concentrator that delivers rated purity at rated flow, reliably, for three to five years, with a serviceable sieve bed and a factory-authorised service network in the owner's city, is doing everything it is asked to do.
 
-*Further reading for practitioners and biomedical engineers: the reference chapters on PSA chemistry in the adsorption literature, and the ISO 80601-2-69 standard for home oxygen concentrators. [CITATION: Ruthven DM, Farooq S, Knaebel KS — Pressure Swing Adsorption, Wiley-VCH 1994; Ackley MW — Adsorption 2019; ISO 80601-2-69:2020.]*
+*Further reading for practitioners and biomedical engineers: the reference chapters on PSA chemistry in the adsorption literature, and the ISO 80601-2-69 standard for home oxygen concentrators. ([ISO 80601-2-69](https://www.iso.org/standard/73645.html))*

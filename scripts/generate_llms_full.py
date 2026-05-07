@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Concatenate HHZ editorial content into public/llms-full.txt for LLM ingestion.
+"""Generate public/llms.txt and public/llms-full.txt for LLM ingestion.
 
 Pulls:
   - src/content/guides/*.mdx
@@ -14,10 +14,12 @@ from __future__ import annotations
 
 import re
 import sys
+import json
 from pathlib import Path
 
 SITE = Path.home() / "hhz-site"
-OUT = SITE / "public" / "llms-full.txt"
+OUT_INDEX = SITE / "public" / "llms.txt"
+OUT_FULL = SITE / "public" / "llms-full.txt"
 
 SITE_URL = "https://homehealthzone.com"
 
@@ -112,6 +114,120 @@ def read_mdx_sections(dir_path: Path, url_prefix: str) -> list[str]:
     return sections
 
 
+def content_entries(dir_path: Path, url_prefix: str) -> list[dict[str, str]]:
+    entries: list[dict[str, str]] = []
+    for f in sorted(dir_path.glob("*.mdx")):
+        md = f.read_text(encoding="utf-8")
+        fm, _body = strip_frontmatter(md)
+        title = fm.get("title") or f.stem.replace("-", " ").title()
+        description = fm.get("description") or ""
+        entries.append({
+            "title": title,
+            "description": description,
+            "url": f"{SITE_URL}{url_prefix}{f.stem}/",
+        })
+    return entries
+
+
+def count_files(dir_path: Path, suffix: str) -> int:
+    return len(list(dir_path.glob(f"*.{suffix}")))
+
+
+def load_json(path: Path) -> dict:
+    return json.loads(path.read_text(encoding="utf-8"))
+
+
+def product_names(paths: list[Path]) -> list[str]:
+    names: list[str] = []
+    for path in paths:
+        try:
+            names.append(load_json(path).get("product_name", path.stem))
+        except json.JSONDecodeError:
+            names.append(path.stem)
+    return names
+
+
+def generate_llms_index() -> str:
+    products_dir = SITE / "src/content/products"
+    cpap_bipap_dir = SITE / "src/content/cpap-bipap"
+    comparisons_dir = SITE / "src/content/comparisons"
+    product_reviews_dir = SITE / "src/content/product-reviews"
+    cpap_reviews_dir = SITE / "src/content/cpap-bipap-reviews"
+    comparison_writeups_dir = SITE / "src/content/comparison-writeups"
+    guides_dir = SITE / "src/content/guides"
+    clinical_dir = SITE / "src/content/clinical"
+    top5_dir = SITE / "src/pages/top-5"
+
+    product_count = count_files(products_dir, "json")
+    product_review_count = count_files(product_reviews_dir, "mdx")
+    cpap_bipap_count = count_files(cpap_bipap_dir, "json")
+    cpap_review_count = count_files(cpap_reviews_dir, "mdx")
+    comparison_count = count_files(comparisons_dir, "json")
+    comparison_writeup_count = count_files(comparison_writeups_dir, "mdx")
+    guide_entries = content_entries(guides_dir, "/guides/")
+    clinical_count = count_files(clinical_dir, "mdx")
+    top5_entries = content_entries(top5_dir, "/top-5/")
+
+    hm_products = product_names(
+        sorted(products_dir.glob("home-medix*.json")) + sorted(cpap_bipap_dir.glob("home-medix*.json"))
+    )
+
+    lines: list[str] = [
+        "# HHZ Respiratory Review",
+        "",
+        "> India's independent respiratory-equipment reference for oxygen concentrators, CPAP, and BiPAP devices sold in India. Products are scored against a published rubric. No sponsored placement and no brand veto.",
+        "",
+        (
+            f"HHZ currently tracks {product_count} oxygen concentrator product records, "
+            f"{product_review_count} oxygen concentrator reviews, {cpap_bipap_count} CPAP/BiPAP "
+            f"product records, {cpap_review_count} CPAP/BiPAP reviews, {comparison_count} "
+            f"comparison records, and {comparison_writeup_count} written comparison pages. "
+            f"The guide library has {len(guide_entries)} buyer guides and the clinical library has "
+            f"{clinical_count} educational explainers."
+        ),
+        "",
+        "Home Medix models in the catalogue: " + ", ".join(hm_products) + ". They are scored in the same product and comparison framework as Philips, Oxymed, ResMed, Nidek, DeVilbiss, BMC, Yuwell, and other brands.",
+        "",
+        "## Editorial policies",
+        "",
+        f"- [About HHZ]({SITE_URL}/about/): what HHZ covers and how the rubric is applied",
+        f"- [Methodology]({SITE_URL}/methodology/): scoring methodology and testing protocol",
+        f"- [Editorial policy]({SITE_URL}/editorial-policy/): independence, loaners, sponsorship, and corrections",
+        f"- [Correction policy]({SITE_URL}/correction-policy/): timestamped corrections with original wording preserved",
+        f"- [Contact]({SITE_URL}/contact/)",
+        "",
+        "## Top 5 category rankings",
+        "",
+    ]
+
+    for entry in top5_entries:
+        suffix = f": {entry['description']}" if entry["description"] else ""
+        lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
+
+    lines += ["", "## Buyer's guides", ""]
+    for entry in guide_entries:
+        suffix = f": {entry['description']}" if entry["description"] else ""
+        lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
+
+    lines += [
+        "",
+        "## Category hubs",
+        "",
+        f"- [Oxygen concentrators]({SITE_URL}/oxygen-concentrators/): oxygen concentrator catalogue, reviews, and category guides",
+        f"- [CPAP machines]({SITE_URL}/cpap/): CPAP catalogue, reviews, and CPAP guidance",
+        f"- [BiPAP machines]({SITE_URL}/bipap/): BiPAP catalogue, reviews, and NIV guidance",
+        f"- [Head-to-head comparisons]({SITE_URL}/compare/): side-by-side product comparisons",
+        "",
+        "## Full content corpus",
+        "",
+        f"- [llms-full.txt]({SITE_URL}/llms-full.txt): concatenated editorial corpus for LLM ingestion",
+        f"- [sitemap-index.xml]({SITE_URL}/sitemap-index.xml): generated sitemap index for all public URLs",
+        f"- [robots.txt]({SITE_URL}/robots.txt): AI crawlers are explicitly allowlisted",
+        "",
+    ]
+    return "\n".join(lines)
+
+
 def read_policy_page(page_path: Path, slug: str, title: str) -> str | None:
     if not page_path.exists():
         return None
@@ -158,11 +274,13 @@ def main() -> int:
     # Clinical articles
     parts += read_mdx_sections(SITE / "src/content/clinical", "/clinical/")
 
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text("".join(parts), encoding="utf-8")
+    OUT_FULL.parent.mkdir(parents=True, exist_ok=True)
+    OUT_FULL.write_text("".join(parts), encoding="utf-8")
+    OUT_INDEX.write_text(generate_llms_index(), encoding="utf-8")
 
-    size_kb = OUT.stat().st_size / 1024
-    print(f"wrote {OUT}")
+    size_kb = OUT_FULL.stat().st_size / 1024
+    print(f"wrote {OUT_INDEX}")
+    print(f"wrote {OUT_FULL}")
     print(f"  size: {size_kb:.1f} KB")
     print(f"  sections: {len(parts) - 1}")  # minus masthead
     return 0
