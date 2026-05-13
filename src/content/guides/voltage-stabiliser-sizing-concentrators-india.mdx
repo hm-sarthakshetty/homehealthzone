@@ -1,0 +1,111 @@
+---
+title: "Voltage stabiliser sizing for oxygen concentrators in India"
+description: "How to size a voltage stabiliser for a home oxygen concentrator on Indian mains: VA math, servo vs relay, brand pick, monsoon protection, and when a UPS is needed instead."
+lastReviewed: "2026-04-28"
+nextReview: "2026-10-28"
+author: "HHZ Editorial"
+tags: ["voltage-stabiliser", "oxygen-concentrator", "india", "ltot", "power-protection"]
+---
+
+A home oxygen concentrator running on Indian mains without a stabiliser is a warranty claim waiting to happen. The compressor inside a 5 LPM or 10 LPM concentrator is a small, hard-working reciprocating or rotary unit whose windings, valves, and start capacitors are specified for a 220–240 V band. Tier-2 and Tier-3 city distribution routinely delivers 160–260 V over a 24-hour cycle, with rural feeders worse and monsoon brown-outs worse still. This guide walks through the math, the topology choice, and the brand pick — the three decisions that determine whether the stabiliser does its job.
+
+## Why this is non-optional in India
+
+Most concentrator warranties exclude compressor damage caused by voltage excursions outside a stated band — typically 200–240 V. The exclusion is not unusual; it is the universal default in the category. In the field, three failure modes are most common:
+
+- **Under-voltage start** below ~190 V causes the compressor to draw a stalled-rotor current. Repeated stalls cook the windings within 200–500 cycles. The compressor fails inside the warranty window, and the warranty does not cover it.
+- **Over-voltage spike** above ~260 V — common at the trailing edge of a load shed when the substation kicks back online — punches through the start capacitor and the control-board mains side. Replacement boards are not cheap.
+- **Brown-out flicker** on a poorly conditioned feeder during monsoon causes the control board to half-boot, the compressor to half-start, and the oxygen-concentration indicator (OCI) to throw alarms intermittently. The patient loses confidence in the unit before any catastrophic failure.
+
+A voltage stabiliser sits between the wall socket and the concentrator, holds the output within a tighter band (typically ±5–10% of 220 V), and rides through the supply variance the warranty fine print refuses to cover. [CITATION: Bureau of Indian Standards IS 9815 and IS 13360 — voltage stabiliser specification and rating]
+
+## The 1.5x rule and the math behind it
+
+A stabiliser is rated in volt-amperes (VA), which is the apparent-power rating it can pass without saturating its transformer or overheating its switching elements. A concentrator's nameplate often quotes a *real-power* watt rating; the apparent-power VA is higher than the watt rating by a factor of 1/PF (power factor). Compressor loads typically run a power factor of 0.7–0.85, so the watt-to-VA conversion is roughly 1.2–1.4×.
+
+Add a 1.3–1.5× headroom for inrush current at compressor start (which can be 4–7× steady-state for the first 100–300 ms), and the working rule becomes: **stabiliser VA ≈ 1.5 × concentrator nameplate watts, or 1.5 × concentrator nameplate VA, whichever is higher.**
+
+Worked examples from the typical Indian catalogue:
+
+- **Home Medix HM-KV 5 LPM** at ~320 VA / ~280 W nameplate → 320 × 1.5 = 480 VA → buy a **500 VA stabiliser**.
+- **Niscomed 5 LPM** at ~530 W steady-state → 530 × 1.5 = 795 VA → buy an **800 VA stabiliser**.
+- **Philips Respironics EverFlo 5 LPM** at ~600 W steady-state → 600 × 1.5 = 900 VA → buy a **900 VA or 1 kVA stabiliser**.
+- **Generic 10 LPM concentrator** at 1000–1200 W steady-state → 1200 × 1.5 = 1800 VA → buy a **1.5 kVA or 2 kVA stabiliser**.
+- **Dual-flow 10 LPM clinical units** above 1300 W → buy a **2 kVA stabiliser**, with serious thought given to a UPS-grade alternative.
+
+The rule of thumb yields a stabiliser one or two stock sizes above the concentrator's apparent power. Under-sizing — buying a 300 VA stabiliser for a 320 VA concentrator — is worse than no stabiliser at all, because the stabiliser saturates and starts dropping voltage exactly when the compressor is trying to start.
+
+## Servo vs relay vs static — for a medical load, only one answer
+
+Three topologies dominate the Indian stabiliser market:
+
+- **Relay-type stabilisers** switch between transformer taps using mechanical relays. They are cheap, abrupt, and step the voltage in 8–15 V increments. Suitable for fans, lights, and tolerant SMPS-fed electronics. Not suitable for a compressor load — the step transitions cause the compressor to draw transient inrush every time the relay clicks.
+- **Servo-controlled stabilisers** use a motorised brush rotating across an autotransformer to hold the output continuously and smoothly within ±1–3% of nominal. The correction is slower than a static stabiliser (response time ~50–500 ms) but the output is genuinely *constant voltage*. This is the right topology for a compressor load.
+- **Static / IGBT-based stabilisers** use power-electronics switching to hold output. Response is fast (under 20 ms), output is clean, but the price is higher and the rating range is more limited at the bottom end.
+
+For a home concentrator on Indian mains, **a servo stabiliser sized at 1.5× the concentrator's VA is the default recommendation.** A static stabiliser is fine if the budget allows. A relay stabiliser is acceptable only as a stop-gap, and only on a feeder with mild variance (220–235 V). [CITATION: IS 13360 — voltage stabiliser performance categories]
+
+## Surge protection and the lightning-prone months
+
+Stabilisers regulate slow voltage drift; they do not fully absorb fast transients. A monsoon-season lightning-induced surge on the LT line can hit the concentrator's electronics at hundreds of volts above nominal in microseconds. A separate surge-protection device (SPD) is the right mitigation:
+
+- A whole-house SPD on the consumer-unit (DB) board, Class II or Class I+II, is the right architecture for households in lightning-prone regions — the entire eastern coast through monsoon, the Western Ghats, the foothills of the Himalayas.
+- A single-socket point-of-use surge strip behind the stabiliser is the cheaper retrofit. Look for a clamping voltage at ~275 V and a joule rating above 1500 J.
+
+The SPD-then-stabiliser-then-concentrator chain is the right order. Reversed, the SPD sees pre-conditioned voltage and is less effective on the upstream surge.
+
+## When a UPS or pure-sine inverter is needed instead
+
+A stabiliser does not bridge a power outage. For patients on continuous oxygen therapy, an outage of more than a few minutes is clinically meaningful. Two architectures handle this:
+
+- **UPS with sine-wave output.** Online (double-conversion) UPS units are the cleanest answer — the concentrator sees a continuously regenerated waveform, and supply outages drop straight to battery. Sizing follows the same 1.5× rule. Run-time depends on battery bank: a 1500 VA online UPS with a single 12V/100Ah battery yields 8–15 minutes of compressor runtime; a 4-battery bank extends this to ~60 minutes for a 5 LPM unit.
+- **Pure-sine-wave inverter on a battery bank.** The household inverter route, common in Indian homes, is acceptable *only* if the inverter waveform is genuinely pure sine (not modified-sine or quasi-square). Quasi-square waveforms damage compressor windings and start capacitors over weeks, not hours.
+
+For a long-term oxygen patient in a region with frequent or prolonged outages, the right architecture is: **mains → SPD → online UPS or pure-sine inverter (with adequate battery) → concentrator**, with the stabiliser embedded in the UPS topology rather than added separately. For shorter outages and stable supply, a stabiliser alone is adequate, with a backup oxygen cylinder kept charged for genuine emergencies.
+
+## Brand pick for a medical load in 2026
+
+Indicative working brand list, drawn from years of dealer feedback and published spec sheets:
+
+- **V-Guard** — broad availability, strong service network including Tier-2/3 cities, servo and relay lines both. The mainstream pick for a domestic medical load.
+- **Microtek** — comparable to V-Guard on availability and service. Strong in inverter-stabiliser combos.
+- **Su-Kam** — historically strong in inverters; servo stabiliser line less broad in 2026 but viable where local service exists.
+- **APC by Schneider Electric** — premium pick for the UPS path. Best-in-class for clean output but expensive at the kVA sizes a 10 LPM concentrator demands.
+- **Luminous** — broad consumer presence, more variable on servo. Acceptable for domestic loads with mild variance.
+
+Avoid unbranded local-make stabilisers from the e-commerce long tail. The sub-₹2,500 1 kVA "servo" units in this segment routinely ship with relay-tap topology mislabelled as servo, and the absence of any service network turns a stabiliser failure into a concentrator failure within hours.
+
+## Coastal, monsoon, and humidity considerations
+
+In Mumbai, Chennai, Kolkata, Kochi, Visakhapatnam, Mangalore, Goa, and Bhubaneswar, the stabiliser itself is a corrosion target. Salt-laden air and 80–95% relative humidity through June–September accelerate failure of the autotransformer winding, the brush contact, and the SMPS controller board.
+
+- **Install location.** Mount the stabiliser at least 60 cm above floor level, on a wall away from window-driven splash, in a room that gets some daily ventilation.
+- **Avoid** placing the stabiliser on the floor, in a cupboard, or behind the concentrator itself where compressor heat raises ambient by 5–10°C.
+- **Spray-coat** the terminals with a thin film of dielectric grease at install. Re-apply at the annual service.
+- **Sealed-enclosure** stabilisers (IP-rated covers, gasketed cabinets) are worth the premium in coastal installs. The standard ventilated cabinet is a humidity sink.
+
+For sieve-bed and electronics protection on the concentrator itself, the monsoon-care article in this guide series covers the full schedule.
+
+## A specific recipe for a typical Bangalore COPD patient on a 5 LPM Philips EverFlo
+
+- Concentrator: Philips EverFlo, 600 W steady-state, 5 LPM continuous.
+- Stabiliser: V-Guard or Microtek 1 kVA servo, output 220 V ± 5%, input range 130–270 V.
+- SPD: clamp voltage 275 V, joule rating 1800 J, point-of-use strip behind the stabiliser.
+- Outage protection: a 1.5 kVA online UPS with two 100 Ah batteries gives ~25–35 minutes of compressor runtime — adequate for short BESCOM outages.
+- For longer outages: a charged D-type 'medical' cylinder with regulator at the bedside, swapped in via a tank-side cannula.
+
+A patient in Leh, Manali, or Gangtok would size the same stabiliser one step larger (1.5 kVA) because the concentrator runs harder at altitude — this is covered in the altitude derating article.
+
+## The takeaway
+
+A stabiliser is the cheapest single piece of warranty protection a concentrator owner buys. Size it at 1.5× the concentrator's apparent-power rating, choose servo topology for the compressor load, mount it above floor in a ventilated location, and add a surge-protection device upstream. For continuous-therapy patients in outage-prone regions, layer an online UPS or pure-sine inverter on top — and keep a charged emergency cylinder regardless. The stabiliser does the slow work; the cylinder does the fast work; the warranty stays intact.
+
+## Cross-links
+
+- [Oxygen concentrator catalogue](/oxygen-concentrators/)
+- [Top 5 — 5 LPM oxygen concentrators](/top-5/5-lpm-oxygen-concentrators/)
+- [Top 5 — 10 LPM oxygen concentrators](/top-5/10-lpm-oxygen-concentrators/)
+- [GOLD-stage COPD and the LTOT pathway](/guides/gold-stage-copd-ltot-pathway/)
+- [ICU discharge to home oxygen: the first 30 days](/guides/icu-discharge-home-oxygen-first-30-days/)
+
+*This guide is editorial opinion and general information. It is not electrical-installation advice. Confirm sizing with a licensed electrician and the device manufacturer before installation.*
