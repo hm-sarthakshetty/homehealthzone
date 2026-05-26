@@ -25,7 +25,7 @@ const reviewFrontmatter = review?.data ?? undefined;
 
 const brandLabel = data.brand ? `${data.brand} ` : '';
 const fallbackDescription =
-  `${brandLabel}${data.product_name} review — specs, price, pros and cons. Independent review by HHZ Respiratory Review.`.trim();
+  `${brandLabel}${data.product_name} review — specs, price, pros and cons. Scored against the HHZ rubric.`.trim();
 
 function buildDescription(): string {
   const raw = (data.description_text ?? '').replace(/\s+/g, ' ').trim();
