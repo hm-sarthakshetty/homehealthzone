@@ -1,0 +1,86 @@
+{
+  "slug": "helix-inspiron-5-lpm",
+  "source_url": "https://www.helixpvtltd.com/oxygen-concentrator.html",
+  "product_name": "Helix Inspiron 5 LPM",
+  "brand": "Helix",
+  "brand_href": "",
+  "category": "5 LPM",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "In Stock — ships from Bengaluru",
+  "images": [
+    {
+      "src": "/images/products/helix-inspiron-5-lpm-1.jpeg",
+      "alt": "Helix Inspiron 5 LPM oxygen concentrator — front view with control panel",
+      "original": "helixpvtltd.com / IndiaMART listing"
+    },
+    {
+      "src": "/images/products/helix-inspiron-5-lpm-2.jpeg",
+      "alt": "Helix Inspiron 5 LPM oxygen concentrator — alternative view",
+      "original": "helixpvtltd.com / IndiaMART listing"
+    }
+  ],
+  "key_features": {
+    "Purity": "93% ± 3%",
+    "Type": "Home Use Stationary",
+    "Continuous Flow": "Up to 5 LPM",
+    "Sound level": "< 45 dB",
+    "Made in India": "Yes — indigenously designed and manufactured"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Brand": "Helix",
+      "Model": "Inspiron",
+      "Purity": "93% ± 3%",
+      "Flow Type": "Continuous",
+      "Continuous Flow": "Up to 5 LPM",
+      "Sound level": "< 45 dB",
+      "Operation Mode": "Electrical"
+    },
+    "Regulatory & origin": {
+      "CDSCO licence": "MFG/MD/2025/000720",
+      "CDSCO licence date": "Issued 5 November 2025",
+      "Issuing Authority": "SLA - Karnataka",
+      "Manufacturer": "Helix Private Limited, Bengaluru, Karnataka, India",
+      "Company tenure": "Since 1994",
+      "Indigenous build": "Yes (no parallel CDSCO import licence on record)",
+      "Bucket classification": "A (indigenous manufacture)"
+    },
+    "Service & support": {
+      "Service positioning": "Service-and-biomedical-engineering platform that also manufactures concentrators; calibration, MGPS testing, and oxygen-concentrator filter support are central capabilities",
+      "Spare parts": "Concentrator-specific HEPA and bacteria filters supplied directly via Helix's filter line",
+      "Distribution": "Bengaluru-centric with B2B presence on IndiaMART and TradeIndia"
+    },
+    "Additional details": {
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "Bengaluru, Karnataka, India",
+      "Concentrator-specific tenure": "Recent CDSCO licence (Nov 2025); company operating since 1994"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Is Helix Inspiron actually Indian-made?",
+      "a": "Yes. Helix Private Limited is an Indian medical-equipment company operating since 1994 from Bengaluru, Karnataka. The Inspiron concentrator line is registered under CDSCO manufacturing licence MFG/MD/2025/000720, issued 5 November 2025 — among the freshest indigenous concentrator licences in the audit dataset. No parallel CDSCO import licence is on the public registry under Helix for oxygen concentrators, placing the brand in Bucket A (indigenous manufacture) per the HHZ classification. The Helix marketing explicitly positions the Inspiron as 'indigenously developed, made in India'."
+    },
+    {
+      "q": "What is the price of the Helix Inspiron 5 LPM in India?",
+      "a": "Helix Private Limited lists the Inspiron with a 'Get Latest Price' rather than a public retail figure; current pricing is provided on request via direct enquiry. Public B2B listings on IndiaMART for the same unit have shown indicative starting prices in the ₹23,000–₹30,000 range plus 18% GST, but this should be verified with the manufacturer or an authorised dealer before purchase."
+    },
+    {
+      "q": "What's the service-network strength of Helix versus other indigenous brands?",
+      "a": "Helix operates more as a service-and-biomedical-engineering platform that also manufactures concentrators, rather than as a primarily retail-distribution brand. Their published strengths include calibration services, MGPS testing, oxygen-concentrator-specific HEPA and bacteria filter supply, and analyser support. This makes Helix strong for buyers prioritising spare-parts and service-engineering depth, particularly in Bengaluru and Karnataka. Buyers outside the southern service corridor should confirm local service availability before purchase."
+    }
+  ],
+  "description_text": "The Helix Inspiron 5 LPM is a stationary oxygen concentrator manufactured by Helix Private Limited at their Bengaluru, Karnataka facility. Helix has operated as a medical-equipment company since 1994, with the Inspiron line positioned in current marketing as 'indigenously developed, made in India'. The unit delivers continuous flow up to 5 LPM at 93% ± 3% oxygen purity with published sound levels below 45 dB. The platform is registered under CDSCO manufacturing licence MFG/MD/2025/000720, issued 5 November 2025 — among the freshest concentrator licence issuances in the 2026 audit dataset, signalling current manufacturer engagement. No parallel CDSCO import licence is on the public registry under Helix for oxygen concentrators, placing the brand in Bucket A (indigenous manufacture). Helix's distinctive positioning is that it operates as a service-and-biomedical-engineering platform that also manufactures concentrators, with published strengths in calibration, MGPS testing, oxygen-concentrator HEPA and bacteria filter supply, and analyser support. This makes the Inspiron a strong fit for buyers who prioritise post-purchase service-engineering and spare-parts depth — particularly within the Bengaluru and broader Karnataka service corridor. Distribution outside the southern service belt is meaningfully thinner; buyers in other regions should confirm local service availability before purchase. Public listed price is not surfaced on the manufacturer site (provided on enquiry); indicative B2B listings have shown starting prices in the ₹23,000–₹30,000 range plus GST.",
+  "related_links": [],
+  "normalized_specs": {
+    "flow_max_lpm": 5,
+    "purity_min": 90,
+    "purity_max": 96,
+    "noise_db": 45,
+    "indian_voltage": true
+  }
+}

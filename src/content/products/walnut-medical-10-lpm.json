@@ -1,0 +1,89 @@
+{
+  "slug": "walnut-medical-10-lpm",
+  "source_url": "https://www.walnutmedical.in/oxygen-concentrator-10-ltr-single-and-dual-flow/",
+  "product_name": "Walnut Medical MS-OC-10 (10 LPM, Single & Dual Flow)",
+  "brand": "Walnut Medical",
+  "brand_href": "",
+  "category": "10 LPM",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Available via direct manufacturer order and Government e-Marketplace (GeM)",
+  "images": [
+    {
+      "src": "/images/products/walnut-medical-10-lpm-1.webp",
+      "alt": "Walnut Medical MS-OC-10 oxygen concentrator — front view",
+      "original": "walnutmedical.in product page"
+    },
+    {
+      "src": "/images/products/walnut-medical-10-lpm-2.webp",
+      "alt": "Walnut Medical MS-OC-10 oxygen concentrator — side profile",
+      "original": "walnutmedical.in product page"
+    },
+    {
+      "src": "/images/products/walnut-medical-10-lpm-3.webp",
+      "alt": "Walnut Medical MS-OC-10 oxygen concentrator — interior detail",
+      "original": "walnutmedical.in product page"
+    }
+  ],
+  "key_features": {
+    "Purity": "90–95%",
+    "Type": "Stationary, Single and Dual Flow variants",
+    "Continuous Flow": "Up to 10 LPM",
+    "Technology": "Rapid Pressure Swing Adsorption (PSA) using zeolite",
+    "Made in India": "Yes — DST-funded indigenous design programme"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Model": "MS-OC-10",
+      "Purity": "90–95%",
+      "Type": "Stationary 10 LPM (Single Flow and Dual Flow variants)",
+      "Continuous Flow": "Up to 10 LPM",
+      "Technology": "Pressure Swing Adsorption (PSA) using zeolite minerals"
+    },
+    "Regulatory & origin": {
+      "CDSCO licence": "MFG/MD/2023/000272",
+      "CDSCO licence date": "Issued 25 March 2023",
+      "Issuing Authority": "SLA - Punjab",
+      "Manufacturer": "Walnut Medical Pvt Ltd, Mohali, Punjab, India",
+      "Indigenous build": "Yes (no parallel CDSCO import licence on record)",
+      "Bucket classification": "A (indigenous manufacture)",
+      "DST funding citation": "Department of Science & Technology, Government of India — indigenous concentrator design programme during the 2020–2021 oxygen-supply response"
+    },
+    "Channel & procurement": {
+      "Direct manufacturer": "walnutmedical.in",
+      "Government e-Marketplace (GeM)": "Active listing",
+      "B2B marketplaces": "Amazon, IndiaMART, TradeIndia"
+    },
+    "Additional details": {
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "Mohali, Punjab, India",
+      "Concentrator-specific tenure": "5 years (post-COVID 2020–2021 origin)"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Is Walnut Medical actually Indian-made?",
+      "a": "Yes. Walnut Medical Pvt Ltd is an indigenous Indian manufacturer, founded in Mohali (Punjab) and partially funded under a Department of Science & Technology (DST) industrial-policy programme for indigenous concentrator manufacturing during the 2020–2021 oxygen-supply response. The MS-OC-10 is registered under CDSCO manufacturing licence MFG/MD/2023/000272, issued 25 March 2023. No parallel CDSCO import licence is on the public registry under Walnut Medical for oxygen concentrators, placing the brand in Bucket A (indigenous manufacture) per the HHZ classification."
+    },
+    {
+      "q": "How do I buy a Walnut Medical concentrator?",
+      "a": "Direct manufacturer purchase via walnutmedical.in is the primary channel; Walnut also maintains an active Government e-Marketplace (GeM) listing useful for hospital, government health facility, and institutional procurement. The brand is also visible on Amazon India, IndiaMART, and TradeIndia for B2B and direct buyers. Confirm warranty terms and service-call path in writing at point of sale — published service-network detail is less elaborated than the larger indigenous brands."
+    },
+    {
+      "q": "How does Walnut Medical compare to Home Medix and Oxymed for institutional buyers?",
+      "a": "For Government e-Marketplace (GeM) and institutional procurement (small hospitals, polyclinics, government health facilities), Walnut's DST-supported origin and active GeM listing give it a structural channel advantage. For retail home buyers, Home Medix (longer warranty, lower noise, lighter chassis) and Oxymed (broader dealer network) typically present stronger options than Walnut at typical retail price points. See /top-5/indian-made-oxygen-concentrators/ for the indigenous-tier ranking."
+    }
+  ],
+  "description_text": "The Walnut Medical MS-OC-10 is a 10 LPM stationary oxygen concentrator manufactured in Mohali, Punjab by Walnut Medical Pvt Ltd. The platform uses Rapid Pressure Swing Adsorption (PSA) with zeolite to deliver oxygen at 90–95% purity, available in Single Flow and Dual Flow variants. Walnut Medical was funded under a Department of Science & Technology (DST) industrial-policy programme for indigenous concentrator manufacturing during the 2020–2021 oxygen-supply response, and the company carries this provenance in its public marketing. The unit is registered under CDSCO manufacturing licence MFG/MD/2023/000272 (issued 25 March 2023) at the Punjab State Licensing Authority; no parallel CDSCO import licence is on the public registry for oxygen concentrators under the entity, placing the brand in Bucket A (indigenous manufacture) per the HHZ classification. Primary purchase channel is direct manufacturer order via walnutmedical.in, supported by an active Government e-Marketplace (GeM) listing — the strongest institutional-channel evidence in the Indian indigenous concentrator cohort. The 5 LPM single-flow variant on GeM has been observed at approximately ₹34,996. Detailed published specs for noise, weight, and power draw are less elaborated in current manufacturer materials than the larger indigenous brands; buyers prioritising bedside noise or 24/7 power-cost economics should request a specification sheet from the manufacturer directly before purchase.",
+  "related_links": [],
+  "normalized_specs": {
+    "flow_min_lpm": 1,
+    "flow_max_lpm": 10,
+    "purity_min": 90,
+    "purity_max": 95,
+    "indian_voltage": true
+  }
+}

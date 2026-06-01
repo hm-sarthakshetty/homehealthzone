@@ -1,0 +1,94 @@
+{
+  "slug": "medtechlife-oxytec-smart",
+  "source_url": "https://shop.medtechlife.com/products/medtech-oxygen-concentrator-smart",
+  "product_name": "Medtech Oxytec Smart 5 LPM",
+  "brand": "Medtechlife",
+  "brand_href": "",
+  "category": "5 LPM",
+  "price_current": "25,999",
+  "price_mrp": "74,256",
+  "price_symbol": "₹",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Out of Stock at manufacturer; available via authorised dealers",
+  "images": [
+    {
+      "src": "/images/products/medtechlife-oxytec-smart-1.png",
+      "alt": "Medtech Oxytec Smart 5 LPM oxygen concentrator — front view with control panel",
+      "original": "shop.medtechlife.com product gallery"
+    },
+    {
+      "src": "/images/products/medtechlife-oxytec-smart-2.png",
+      "alt": "Medtech Oxytec Smart 5 LPM oxygen concentrator — side profile",
+      "original": "shop.medtechlife.com product gallery"
+    },
+    {
+      "src": "/images/products/medtechlife-oxytec-smart-3.png",
+      "alt": "Medtech Oxytec Smart 5 LPM oxygen concentrator — accessories and packaging",
+      "original": "shop.medtechlife.com product gallery"
+    }
+  ],
+  "key_features": {
+    "Purity": "90% (+5.5% / -3%)",
+    "Type": "Home Stationary",
+    "Continuous Flow": "0.5–5 L/min",
+    "Weight": "16 kg",
+    "Power consumption": "330 W",
+    "Made in India": "Yes"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Purity": "90% (+5.5% / -3%)",
+      "Type": "Home Stationary",
+      "Continuous Flow": "0.5–5 L/min",
+      "Weight": "16 kg",
+      "Power consumption": "330 W",
+      "Operating range": "1–5 LPM nominal"
+    },
+    "Safety features": {
+      "Power Failure Alarm": "Yes",
+      "Low/High Pressure Alarm": "Yes",
+      "High/Low Temperature Alarm": "Yes",
+      "Safety Valve": "Yes"
+    },
+    "Regulatory & origin": {
+      "CDSCO licence": "MFG/MD/2023/000525",
+      "CDSCO licence date": "Issued 23 May 2023",
+      "Issuing Authority": "SLA - Gujarat",
+      "Manufacturer": "Medtechlife Pvt Ltd, Gujarat, India",
+      "Indigenous build": "Yes (no parallel CDSCO import licence on record)",
+      "Bucket classification": "A (indigenous manufacture)"
+    },
+    "Additional details": {
+      "Indian Voltage Model": "Yes",
+      "Company Headquarters": "India",
+      "Years in market (company)": "20+",
+      "Spares catalogue published": "Yes — HEPA filters, cabinet filters, and small consumables sold via manufacturer's own commerce stack"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Is Medtech Oxytec Smart actually made in India?",
+      "a": "Yes. Medtechlife Pvt Ltd holds CDSCO manufacturing licence MFG/MD/2023/000525 covering the OXYTEC product family. No parallel CDSCO import licence is on the public registry under Medtechlife for oxygen concentrators, placing the brand in Bucket A (indigenous manufacture) per the HHZ classification. Verify at the CDSCO Medical Devices portal at cdscomdonline.gov.in."
+    },
+    {
+      "q": "How does the Medtech Oxytec Smart compare to Home Medix HM-KV and Oxymed Mini?",
+      "a": "All three are Bucket A Indian-manufactured stationary 5 LPM concentrators. The Oxytec Smart leads on direct manufacturer e-commerce with a published spares catalogue. The Home Medix HM-KV offers the longest warranty in the segment (3 years / 10,000 hours) and the quietest published noise level (≤40 dB). The Oxymed Mini has the broadest Indian dealer footprint. See our /top-5/indian-made-oxygen-concentrators/ for the full ranking."
+    },
+    {
+      "q": "What's the warranty on Medtech Oxytec Smart?",
+      "a": "Warranty terms are administered by Medtechlife directly through their own commerce stack and authorised dealer channel. Buyers should confirm the warranty period in writing at point of sale; published warranty terms in public sources are not specific enough for direct quotation."
+    }
+  ],
+  "description_text": "The Medtech Oxytec Smart is a stationary 5 LPM oxygen concentrator manufactured in India by Medtechlife Pvt Ltd, Gujarat. The unit delivers continuous flow from 0.5 to 5 LPM at 90% +5.5% / -3% oxygen purity, draws 330 W at nominal operating flow, and weighs 16 kg. Medtechlife operates a direct manufacturer-to-consumer commerce stack at shop.medtechlife.com with current pricing, a formal service-request workflow, and a published spares catalogue covering HEPA filters, cabinet filters, and small consumables — the most complete published parts-pipeline alongside Home Medix in the Indian indigenous concentrator cohort. The platform's safety stack includes power-failure, low/high-pressure, high/low-temperature alarms and a safety valve. The unit is registered under CDSCO manufacturing licence MFG/MD/2023/000525 (issued 23 May 2023) at the Gujarat State Licensing Authority. Verify the licence at the CDSCO Medical Devices portal. The published noise level is described qualitatively in current manufacturer materials rather than quoted as a specific dB figure; buyers prioritising quietest published spec should compare against the Home Medix HM-KV (≤40 dB) and Nidek Nuvo Lite (40 dB).",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 16,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5,
+    "purity_min": 87,
+    "purity_max": 95.5,
+    "power_w": 330,
+    "indian_voltage": true
+  }
+}
