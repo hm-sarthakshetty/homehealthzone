@@ -60,9 +60,17 @@ const WriteupContent = writeup ? (await render(writeup)).Content : null;
 const writeupFrontmatter = writeup?.data ?? undefined;
 
 const title = data.title;
+// Use the resolved products' human-readable names rather than data.title,
+// which is slug-formatted ("Dynmed-5LPM vs Oxymed-Mini-5-LPM") in many
+// comparison JSON entries from the original scrape. This produces clean
+// meta descriptions long enough to pass Bing's 150-char minimum.
+const readableMatchup =
+  productA && productB
+    ? `${productA.data.product_name} vs ${productB.data.product_name}`
+    : data.title;
 const description = bothResolved
-  ? `${data.title} — specs, price, and verdict. Side-by-side comparison scored against the HHZ rubric.`
-  : `${data.title} — full comparison in progress. Here's what we know about each device from public specs.`;
+  ? `${readableMatchup} — full specifications side-by-side, prices in Indian rupees, HHZ rubric scores, and editorial verdict on which device fits which buyer.`
+  : `${data.title} — full comparison in progress. Here's what we know about each device from manufacturer specifications and e-commerce listings.`;
 
 const canonicalURL = new URL(`/compare/${data.slug}/`, Astro.site).toString();
 

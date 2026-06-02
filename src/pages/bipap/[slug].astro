@@ -25,9 +25,11 @@ const review = await getEntry('cpap-bipap-reviews', data.slug);
 const ReviewContent = review ? (await render(review)).Content : null;
 const reviewFrontmatter = review?.data ?? undefined;
 
-const brandLabel = data.brand ? `${data.brand} ` : '';
+const productNameLc = data.product_name.toLowerCase();
+const brandLc = (data.brand || '').toLowerCase();
+const brandLabel = data.brand && !productNameLc.startsWith(brandLc) ? `${data.brand} ` : '';
 const fallbackDescription =
-  `${brandLabel}${data.product_name} review — specs, price, pros and cons. Scored against the HHZ rubric.`.trim();
+  `${brandLabel}${data.product_name} review — HHZ rubric score, India-market price in rupees, BiPAP mode coverage (S, S/T, AVAPS), ecosystem and mask fit, pros and cons.`.trim();
 
 function buildDescription(): string {
   const raw = (data.description_text ?? '').replace(/\s+/g, ' ').trim();
