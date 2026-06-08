@@ -1,0 +1,197 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import SchemaFAQ from '../components/SchemaFAQ.astro';
+
+interface RankingItem {
+  rank: number;
+  name: string;
+  score: number;
+  price?: string;
+  note?: string;
+  url: string;
+}
+interface FAQItem {
+  q: string;
+  a: string;
+}
+
+const fm = Astro.props.frontmatter ?? {};
+const title: string = fm.title ?? 'HHZ Respiratory Review';
+const description: string | undefined = fm.description;
+const answer: string | undefined = fm.answer;
+const ranking: RankingItem[] = fm.ranking ?? [];
+const faqs: FAQItem[] = fm.faqs ?? [];
+const lastReviewed: string | undefined = fm.lastReviewed;
+
+// H1 is the title without the trailing site-name suffix used in the <title> tag.
+const h1 = title.replace(/\s*[—-]\s*HHZ.*$/, '').trim();
+
+const SITE = 'https://homehealthzone.com';
+const abs = (u: string) => (u.startsWith('http') ? u : `${SITE}${u}`);
+
+// schema.org ItemList — the machine-readable ranking. This is the highest-leverage
+// signal for Google list-extraction and LLM shortlist retrieval: it hands the ordered
+// list (position + name + URL) to parsers instead of forcing them to reverse-engineer
+// it from prose.
+const itemListLd =
+  ranking.length > 0
+    ? {
+        '@context': 'https://schema.org',
+        '@type': 'ItemList',
+        name: h1,
+        numberOfItems: ranking.length,
+        itemListOrder: 'https://schema.org/ItemListOrderDescending',
+        itemListElement: ranking.map((r) => ({
+          '@type': 'ListItem',
+          position: r.rank,
+          name: r.name,
+          url: abs(r.url),
+        })),
+      }
+    : null;
+
+const niceDate = (iso?: string) => {
+  if (!iso) return null;
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
+};
+const updated = niceDate(lastReviewed);
+---
+<BaseLayout title={title} description={description}>
+  {itemListLd && (
+    <script type="application/ld+json" set:html={JSON.stringify(itemListLd)} />
+  )}
+  {faqs.length > 0 && <SchemaFAQ faqs={faqs} />}
+
+  <article class="top5">
+    <h1>{h1}</h1>
+    {updated && <p class="top5__updated">Last updated {updated}</p>}
+
+    {answer && (
+      <div class="top5__answer" role="note">
+        <p>{answer}</p>
+      </div>
+    )}
+
+    {ranking.length > 0 && (
+      <div class="top5__table-wrap">
+        <table class="top5__table">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Model</th>
+              <th scope="col">HHZ score</th>
+              <th scope="col">Price (indicative)</th>
+              <th scope="col">Best for</th>
+            </tr>
+          </thead>
+          <tbody>
+            {ranking.map((r) => (
+              <tr>
+                <td class="mono-data">{r.rank}</td>
+                <td><a href={r.url}>{r.name}</a></td>
+                <td class="mono-data">{r.score.toFixed(1)}</td>
+                <td class="mono-data">{r.price ?? '—'}</td>
+                <td>{r.note ?? '—'}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    )}
+
+    <div class="top5__body">
+      <slot />
+    </div>
+
+    {faqs.length > 0 && (
+      <section class="top5__faq" aria-labelledby="top5-faq-heading">
+        <h2 id="top5-faq-heading">Frequently asked questions</h2>
+        <dl>
+          {faqs.map((f) => (
+            <>
+              <dt>{f.q}</dt>
+              <dd>{f.a}</dd>
+            </>
+          ))}
+        </dl>
+      </section>
+    )}
+  </article>
+</BaseLayout>
+
+<style>
+  .top5__updated {
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--color-text-subtle);
+    margin: 0 0 var(--space-5);
+  }
+  .top5__answer {
+    border-left: 3px solid var(--color-accent);
+    background: var(--color-data-bg);
+    padding: var(--space-4) var(--space-5);
+    margin: 0 0 var(--space-6);
+  }
+  .top5__answer p {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    line-height: 1.5;
+    color: var(--color-text);
+  }
+  .top5__table-wrap {
+    overflow-x: auto;
+    margin: 0 0 var(--space-8);
+  }
+  .top5__table {
+    width: 100%;
+    min-width: 640px;
+    border-collapse: collapse;
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    border: 1px solid var(--color-rule);
+  }
+  .top5__table thead th {
+    text-align: left;
+    padding: var(--space-3);
+    background: var(--color-rule);
+    color: #fff;
+    font-weight: 600;
+    font-size: var(--text-xs);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+  }
+  .top5__table tbody td {
+    padding: var(--space-2) var(--space-3);
+    border-bottom: 1px solid var(--color-border);
+    vertical-align: top;
+  }
+  .top5__table tbody tr:first-child td {
+    background: rgba(178, 57, 10, 0.05);
+    font-weight: 500;
+  }
+  .top5__table a { color: var(--color-text); text-decoration: none; border-bottom: 1px solid var(--color-accent); }
+  .top5__table a:hover { color: var(--color-accent); }
+  .top5__faq {
+    margin-top: var(--space-12);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--color-border);
+  }
+  .top5__faq dt {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: var(--text-base);
+    color: var(--color-text);
+    margin-top: var(--space-5);
+  }
+  .top5__faq dd {
+    margin: var(--space-2) 0 0;
+    font-family: var(--font-serif);
+    line-height: 1.55;
+    color: var(--color-text-muted);
+  }
+</style>
