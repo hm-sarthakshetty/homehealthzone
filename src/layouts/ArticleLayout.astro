@@ -2,6 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import SchemaArticle from '../components/SchemaArticle.astro';
+import SchemaFAQ from '../components/SchemaFAQ.astro';
 import SchemaMedicalWebPage from '../components/SchemaMedicalWebPage.astro';
 import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
@@ -76,6 +77,11 @@ try {
 
 const title = titleProp ?? frontmatter.title;
 const description = descriptionProp ?? frontmatter.description;
+
+// Optional GEO extraction fields (answer block + FAQs) — present on entries
+// whose frontmatter opts in via editorialSchema.
+const answer: string | undefined = (frontmatter as any).answer;
+const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
 ---
 <BaseLayout title={title} description={description} canonicalURL={canonicalURL}>
   <article class="article">
@@ -99,9 +105,29 @@ const description = descriptionProp ?? frontmatter.description;
       </p>
     </header>
 
+    {answer && (
+      <div class="article__answer content-width" role="note">
+        <p>{answer}</p>
+      </div>
+    )}
+
     <div class="article__body content-width">
       <slot />
     </div>
+
+    {faqs.length > 0 && (
+      <section class="article__faq content-width" aria-labelledby="article-faq-heading">
+        <h2 id="article-faq-heading">Frequently asked questions</h2>
+        <dl>
+          {faqs.map((f) => (
+            <>
+              <dt>{f.q}</dt>
+              <dd>{f.a}</dd>
+            </>
+          ))}
+        </dl>
+      </section>
+    )}
 
     {related.length > 0 && (
       <section class="article__related" aria-labelledby="related-articles-heading">
@@ -123,6 +149,7 @@ const description = descriptionProp ?? frontmatter.description;
     wordCount={wordCount || undefined}
     inLanguage="en-IN"
   />
+  {faqs.length > 0 && <SchemaFAQ faqs={faqs} />}
   {isClinical && (
     <SchemaMedicalWebPage
       title={frontmatter.title}
@@ -140,6 +167,37 @@ const description = descriptionProp ?? frontmatter.description;
   }
   .article__body {
     /* content-width class from global.css narrows the column */
+  }
+  .article__answer {
+    border-left: 3px solid var(--color-accent);
+    background: var(--color-data-bg);
+    padding: var(--space-4) var(--space-5);
+    margin: 0 0 var(--space-6);
+  }
+  .article__answer p {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+    line-height: 1.5;
+    color: var(--color-text);
+  }
+  .article__faq {
+    margin-top: var(--space-12);
+    padding-top: var(--space-8);
+    border-top: 1px solid var(--color-border);
+  }
+  .article__faq dt {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: var(--text-base);
+    color: var(--color-text);
+    margin-top: var(--space-5);
+  }
+  .article__faq dd {
+    margin: var(--space-2) 0 0;
+    font-family: var(--font-serif);
+    line-height: 1.55;
+    color: var(--color-text-muted);
   }
   .article__related {
     margin-top: var(--space-16);

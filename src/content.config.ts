@@ -84,6 +84,19 @@ const editorialSchema = z.object({
   reviewedBy: z.string().optional(),
   credentials: z.string().optional(),
   tags: z.array(z.string()).default([]),
+  // GEO extraction scaffolding (optional, same pattern as Top-5 pages):
+  // `answer` renders as a TL;DR block under the H1 — the snippet retrievers
+  // lift verbatim for conversational queries. `faqs` emit FAQPage JSON-LD
+  // plus a visible FAQ section, matching question-phrased query intent.
+  answer: z.string().optional(),
+  faqs: z
+    .array(
+      z.object({
+        q: z.string(),
+        a: z.string(),
+      })
+    )
+    .default([]),
 });
 
 const productReviewSchema = z.object({
