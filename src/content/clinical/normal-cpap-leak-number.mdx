@@ -1,0 +1,70 @@
+---
+title: "What's a normal CPAP leak number? (and when leak is the real problem)"
+description: "What counts as an acceptable CPAP leak — the ResMed 24 L/min threshold, why Philips numbers look different, intentional vs unintentional leak, why the average hides the problem, and how to fix it."
+lastReviewed: "2026-06-24"
+nextReview: "2026-12-24"
+author: "HHZ Editorial"
+tags: ["cpap", "mask-leak", "leak", "airview", "myair", "95th-percentile"]
+answer: "On a ResMed machine, a 95th-percentile leak under about 24 L/min is the usual 'acceptable' threshold — ResMed flags large leak above 24 L/min. Philips machines report leak differently (total leak, which includes the intentional vent flow), so the numbers are not comparable across brands. Some leak is always normal: every mask vents a steady flow on purpose to clear exhaled carbon dioxide. The number that matters is the unintentional leak on top of that, and whether it spikes during the night rather than its nightly average."
+faqs:
+  - q: "What is a good leak number on a CPAP?"
+    a: "On ResMed devices, aim for a 95th-percentile leak under 24 L/min; under 10 is excellent. Philips reports total leak including the mask's intentional vent flow, so a Philips 'leak' figure is naturally higher and is not directly comparable to a ResMed number — check what your specific machine is measuring before judging it."
+  - q: "What is the 95th percentile leak?"
+    a: "It is the leak level your machine stayed below for 95% of the night — a better measure than the average because it captures the bad stretches. A low average with a high 95th-percentile means you had significant leak for part of the night, often during REM or after turning over, even though the night 'averaged out' fine."
+  - q: "Is some CPAP leak normal?"
+    a: "Yes. Every CPAP mask has intentional vent holes that release a constant flow to wash out exhaled carbon dioxide — that flow is designed in and is not a problem. 'Leak' as a problem refers to the extra, unintentional leak from a poor seal or an open mouth, on top of the intentional vent flow."
+  - q: "Can mask leak raise my AHI?"
+    a: "Yes. A large leak bleeds off pressure so the airway splint weakens, letting apneas and hypopneas slip through, and it can also confuse the machine's event detection. A rising residual AHI that tracks with leak spikes on the same nights is a strong sign the leak — not your apnea itself — is the problem to fix."
+---
+
+You open the app, see "Leak: 28 L/min," and have no idea whether that is fine or a disaster. The honest answer is: it depends entirely on which machine you have and what it is actually measuring — because the two big brands count leak in completely different ways, and most of the worry online comes from comparing numbers that were never meant to be compared.
+
+## Two kinds of leak: intentional and unintentional
+
+Every CPAP mask leaks *on purpose*. Built into the mask (or the elbow connector) is a set of vent holes that release a continuous, designed flow of air. That flow exists to flush your exhaled carbon dioxide out of the mask so you do not rebreathe it. This is **intentional leak**, and it rises with pressure — the higher your pressure, the more the vent flows. On a full-face mask at a high pressure, the intentional vent alone can be 40–50 L/min, and that is the mask working correctly. It is not a fault and there is nothing to fix.
+
+**Unintentional leak** is the extra air escaping where it should not: a gap at the bridge of the nose, a cushion that has gone hard, the mask shifting when you roll over, the straps too loose — or, the most common culprit on a nasal mask, air escaping from your mouth. This is the leak that damages your therapy and your sleep.
+
+## What number is "normal"?
+
+Here is the catch that confuses everyone: the brands report different things, so the same number means different things on different machines.
+
+- **ResMed** machines try to subtract the intentional vent flow and show you mostly the *unintentional* leak. Their guidance flags "large leak" above **24 L/min** at the 95th percentile. Under 24 is acceptable; under 10 is excellent; a flat line near zero is a beautifully sealed mask.
+- **Philips** machines typically report **total leak** — intentional vent flow *included*. So a Philips number is naturally much higher, and a reading of 40+ can be perfectly normal because most of it is the vent doing its job. Philips does not publish a single clean "good number" the way ResMed does; you have to know the mask's intentional flow to judge the excess.
+- **BMC and other brands** vary again, and OSCAR (the free open-source analyser) will show leak in whatever units the source device records.
+
+So a "leak of 28" might be a problem on a ResMed and completely normal on a Philips. Before you worry about any number, find out which your machine reports — our guide to [reading your CPAP report](/clinical/reading-cpap-report-airview-care-orchestrator-icode/) breaks down what each platform actually shows. A machine that reports leak clearly alongside pressure and AHI on its own data screen, like the [Home Medix HM-CV-20](https://homemedix.in/cpap/), makes this far easier to track night to night than trying to infer it from how you feel in the morning.
+
+## Why the average hides the problem
+
+Most apps show you an average or a single leak figure for the night. That can be deeply misleading. You can sleep with a perfect seal for six hours, then leak badly for ninety minutes after rolling supine in REM — and the night will still "average" to an acceptable number while that 90-minute stretch was actively destroying your sleep and under-treating your apnea.
+
+This is why the **95th-percentile** leak matters more than the average: it tells you the level you were *below* for 95% of the night, which surfaces the bad patches the average smooths over. The single most useful habit is to look at the *shape* of the leak graph — is it a flat low line, or does it have tall spikes? — rather than the headline mean. Spikes that recur at the same time each night often point to a body-position problem (rolling onto your side crushes the cushion) or to REM-related mouth opening.
+
+## What leak does — even when your AHI is low
+
+A leak does two damaging things at once. It physically bleeds off pressure, so the airway splint weakens exactly when a stretch of bad sleep needs it most, which can let apneas through and push your residual AHI up. And the air jet and noise fragment your sleep directly, and often wake your partner. Both can happen while your AHI still reads under 5 — which is one of the leading reasons people stay tired despite good numbers, covered in detail in [why am I still tired on CPAP when my AHI is low](/clinical/why-still-tired-on-cpap-low-ahi/).
+
+## Mouth leak — the one people miss
+
+If your unintentional leak spikes and you wear a *nasal* mask or nasal pillows, the likeliest cause is your mouth falling open in sleep. Air takes the path of least resistance: in through the nose under pressure, out through the mouth. The signatures are a dry mouth on waking and leak spikes concentrated in deeper sleep. The fixes are a chin strap, a switch to a full-face mask, or sometimes adding humidification so the airway is less irritated. Mouth leak is also why simply tightening a nasal mask rarely helps — the leak is not at the seal.
+
+## Fixing leak, in order of what usually works
+
+1. **Re-fit the mask — not tighter, *better*.** Over-tightening deforms the cushion and pushes air out sideways, making leak worse. Loosen, re-seat, and let the cushion inflate against your face.
+2. **Replace the cushion** if it is more than a few months old; silicone hardens with skin oils and heat and stops sealing. This is the single most common fix.
+3. **Address mouth leak** with a chin strap or a move to full-face, as above.
+4. **Check the headgear and frame** for stretched straps or a cracked elbow.
+5. **Look at pressure** — very high pressures stress every seal; if leak only appears at peak pressure, that is worth raising with your physician, who may consider EPR or a bilevel to lower the peak.
+
+The mechanics of each leak type — and which interface solves which — are in [CPAP leak types](/clinical/cpap-leak-types/).
+
+## What to bring your physician or supplier
+
+A screenshot of the leak *graph* (not just the number), noting when the spikes occur, plus the mask model and age of the cushion, lets your supplier or physician solve this quickly. "My 95th-percentile leak is 35 on my ResMed, spiking in the second half of the night, and I wake with a dry mouth" diagnoses itself; "the leak is high" does not.
+
+## Takeaway
+
+Some leak is always normal — every mask vents on purpose to clear carbon dioxide. The number that matters is the *unintentional* leak, judged against your specific brand's scale (ResMed: 95th-percentile under 24 L/min; Philips: a higher total-leak figure that already includes the vent). Read the graph, not the average, because the damage is usually in the spikes — and if it is high, most cases are solved by a fresh cushion, a better fit, or fixing mouth leak. If you cannot fix it yourself, the leak graph is the thing to take to your supplier.
+
+This is general information, not medical advice; persistent high leak, or leak paired with a rising AHI, should be reviewed with your sleep clinician. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
