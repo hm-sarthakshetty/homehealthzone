@@ -55,6 +55,7 @@ const primaryImage = images[0];
 const galleryImages = images.slice(1, 5);
 
 const stockLabel = product.stock?.trim() ?? '';
+const isDiscontinued = stockLabel.toLowerCase().includes('discontinued');
 const stockClass = (() => {
   const s = stockLabel.toLowerCase();
   if (!s) return 'stock';
@@ -148,12 +149,16 @@ const topFive = topFivePillar(product.category);
       </div>
 
       <aside class="product__summary" aria-label="Purchase summary">
-        <PriceBadge
-          current={product.price_current}
-          mrp={product.price_mrp}
-          symbol={product.price_symbol}
-        />
-        <PriceDisclaimer />
+        {!isDiscontinued && (
+          <>
+            <PriceBadge
+              current={product.price_current}
+              mrp={product.price_mrp}
+              symbol={product.price_symbol}
+            />
+            <PriceDisclaimer />
+          </>
+        )}
         {stockLabel && <p><span class={stockClass}>{stockLabel}</span></p>}
         {reviewFrontmatter?.score !== undefined && (
           <p class="product__score" aria-label="HHZ score">

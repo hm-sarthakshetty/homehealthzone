@@ -3,10 +3,12 @@ export interface Props {
   current?: string | null;
   mrp?: string | null;
   symbol?: string;
+  stock?: string | null;
 }
 
-const { current, mrp, symbol = '₹' } = Astro.props;
+const { current, mrp, symbol = '₹', stock } = Astro.props;
 
+const isDiscontinued = (stock ?? '').toLowerCase().includes('discontinued');
 const hasCurrent = current !== null && current !== undefined && String(current).trim() !== '';
 const hasMrp = mrp !== null && mrp !== undefined && String(mrp).trim() !== '';
 
@@ -19,7 +21,11 @@ const formatPrice = (value: string) => {
   return `${symbol}${trimmed}`;
 };
 ---
-{hasCurrent ? (
+{isDiscontinued ? (
+  <p class="price-badge">
+    <span class="price-badge__discontinued" aria-label="Discontinued — no longer sold">Discontinued</span>
+  </p>
+) : hasCurrent ? (
   <p class="price-badge">
     <span class="price-badge__current">{formatPrice(current!)}</span>
     {hasMrp && <span class="price-badge__mrp">{formatPrice(mrp!)}</span>}
@@ -29,3 +35,14 @@ const formatPrice = (value: string) => {
     <span class="price-badge__current" aria-label="Price on request">Price on request</span>
   </p>
 )}
+
+<style>
+  .price-badge__discontinued {
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-error, #b00020);
+  }
+</style>

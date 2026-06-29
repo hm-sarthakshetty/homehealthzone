@@ -41,9 +41,10 @@ if (product.description_text) ld.description = product.description_text;
 if (product.category) ld.category = product.category;
 if (product.slug) ld.sku = product.slug;
 
+const stockLc = product.stock?.toLowerCase() ?? '';
 const price = product.price_current?.replace(/,/g, '').trim();
-if (price && /^\d+(?:\.\d+)?$/.test(price)) {
-  const availability = product.stock?.toLowerCase().includes('out')
+if (price && /^\d+(?:\.\d+)?$/.test(price) && !stockLc.includes('discontinued')) {
+  const availability = stockLc.includes('out') || stockLc.includes('sold')
     ? 'https://schema.org/OutOfStock'
     : 'https://schema.org/InStock';
   ld.offers = {

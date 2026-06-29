@@ -190,6 +190,7 @@ const topFive = topFivePillar(productA.category);
           current={productA.price_current}
           mrp={productA.price_mrp}
           symbol={productA.price_symbol}
+          stock={productA.stock}
         />
         <PriceDisclaimer />
         {typeof productAScore === 'number' && (
@@ -233,6 +234,7 @@ const topFive = topFivePillar(productA.category);
           current={productB.price_current}
           mrp={productB.price_mrp}
           symbol={productB.price_symbol}
+          stock={productB.stock}
         />
         <PriceDisclaimer />
         {typeof productBScore === 'number' && (
