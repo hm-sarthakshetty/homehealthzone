@@ -8,6 +8,11 @@ interface RankingItem {
   score: number;
   price?: string;
   note?: string;
+  keySpec?: string;
+  noise?: string;
+  weight?: string;
+  warranty?: string;
+  reason?: string;
   url: string;
 }
 interface FAQItem {
@@ -22,6 +27,7 @@ const answer: string | undefined = fm.answer;
 const ranking: RankingItem[] = fm.ranking ?? [];
 const faqs: FAQItem[] = fm.faqs ?? [];
 const lastReviewed: string | undefined = fm.lastReviewed;
+const priceChecked: string | undefined = fm.priceChecked;
 
 // H1 is the title without the trailing site-name suffix used in the <title> tag.
 const h1 = title.replace(/\s*[—-]\s*HHZ.*$/, '').trim();
@@ -44,8 +50,33 @@ const itemListLd =
         itemListElement: ranking.map((r) => ({
           '@type': 'ListItem',
           position: r.rank,
-          name: r.name,
-          url: abs(r.url),
+          item: {
+            '@type': 'Product',
+            name: r.name,
+            url: abs(r.url),
+            description: r.reason ?? r.note,
+            offers: r.price
+              ? {
+                  '@type': 'Offer',
+                  price: r.price.replace(/[^\d.]/g, ''),
+                  priceCurrency: 'INR',
+                  url: abs(r.url),
+                }
+              : undefined,
+            review: {
+              '@type': 'Review',
+              author: {
+                '@type': 'Organization',
+                name: 'HHZ Respiratory Review',
+              },
+              reviewRating: {
+                '@type': 'Rating',
+                ratingValue: r.score,
+                bestRating: 10,
+                worstRating: 0,
+              },
+            },
+          },
         })),
       }
     : null;
@@ -57,6 +88,7 @@ const niceDate = (iso?: string) => {
   return d.toLocaleDateString('en-GB', { month: 'long', year: 'numeric' });
 };
 const updated = niceDate(lastReviewed);
+const checked = niceDate(priceChecked);
 ---
 <BaseLayout title={title} description={description}>
   {itemListLd && (
@@ -66,7 +98,13 @@ const updated = niceDate(lastReviewed);
 
   <article class="top5">
     <h1>{h1}</h1>
-    {updated && <p class="top5__updated">Last updated {updated}</p>}
+    {(updated || checked) && (
+      <p class="top5__updated">
+        {updated && <>Last reviewed {updated}</>}
+        {updated && checked && <> · </>}
+        {checked && <>Prices checked {checked}</>}
+      </p>
+    )}
 
     {answer && (
       <div class="top5__answer" role="note">
@@ -83,7 +121,10 @@ const updated = niceDate(lastReviewed);
               <th scope="col">Model</th>
               <th scope="col">HHZ score</th>
               <th scope="col">Price (indicative)</th>
-              <th scope="col">Best for</th>
+              <th scope="col">Key spec</th>
+              <th scope="col">Noise / weight</th>
+              <th scope="col">Warranty</th>
+              <th scope="col">Why it ranks here</th>
             </tr>
           </thead>
           <tbody>
@@ -93,7 +134,10 @@ const updated = niceDate(lastReviewed);
                 <td><a href={r.url}>{r.name}</a></td>
                 <td class="mono-data">{r.score.toFixed(1)}</td>
                 <td class="mono-data">{r.price ?? '—'}</td>
-                <td>{r.note ?? '—'}</td>
+                <td>{r.keySpec ?? r.note ?? '—'}</td>
+                <td>{[r.noise, r.weight].filter(Boolean).join(' / ') || '—'}</td>
+                <td>{r.warranty ?? '—'}</td>
+                <td>{r.reason ?? r.note ?? '—'}</td>
               </tr>
             ))}
           </tbody>
@@ -149,7 +193,7 @@ const updated = niceDate(lastReviewed);
   }
   .top5__table {
     width: 100%;
-    min-width: 640px;
+    min-width: 1040px;
     border-collapse: collapse;
     font-family: var(--font-sans);
     font-size: var(--text-sm);
