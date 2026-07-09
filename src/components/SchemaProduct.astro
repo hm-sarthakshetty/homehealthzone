@@ -9,6 +9,8 @@ export interface Props {
   reviewFrontmatter?: {
     title?: string;
     verdict?: string;
+    pros?: string[];
+    cons?: string[];
     score?: number;
     lastReviewed?: string;
     author?: string;
@@ -35,11 +37,20 @@ const ld: Record<string, unknown> = {
 };
 
 if (pageUrl) ld.url = pageUrl;
+if (pageUrl) ld.mainEntityOfPage = { '@type': 'WebPage', '@id': pageUrl };
 if (imageUrl) ld.image = imageUrl;
 if (product.brand) ld.brand = { '@type': 'Brand', name: product.brand };
 if (product.description_text) ld.description = product.description_text;
 if (product.category) ld.category = product.category;
 if (product.slug) ld.sku = product.slug;
+if (product.slug) ld.mpn = product.slug;
+if (product.source_url?.startsWith('http')) ld.sameAs = product.source_url;
+if (product.brand) {
+  ld.manufacturer = {
+    '@type': 'Organization',
+    name: product.brand,
+  };
+}
 
 const stockLc = product.stock?.toLowerCase() ?? '';
 const price = product.price_current?.replace(/,/g, '').trim();
@@ -66,25 +77,42 @@ if (product.rating_value) {
 }
 
 const properties: Array<Record<string, unknown>> = [];
+const seenPropertyKeys = new Set<string>();
+
+function addProperty(name: string, value: unknown, group?: string) {
+  if (value === undefined || value === null || value === '') return;
+  const cleanName = group ? `${group}: ${name}` : name;
+  const cleanValue = String(value).trim();
+  if (!cleanName || !cleanValue) return;
+  const key = `${cleanName}::${cleanValue}`;
+  if (seenPropertyKeys.has(key)) return;
+  seenPropertyKeys.add(key);
+  properties.push({
+    '@type': 'PropertyValue',
+    name: cleanName,
+    value: cleanValue,
+  });
+}
+
 for (const [name, value] of Object.entries(product.key_features ?? {})) {
-  if (value) {
-    properties.push({
-      '@type': 'PropertyValue',
-      name,
-      value,
-    });
+  addProperty(name, value);
+}
+for (const [tableName, rows] of Object.entries(product.spec_tables ?? {})) {
+  for (const [name, value] of Object.entries(rows ?? {})) {
+    addProperty(name, value, tableName);
   }
 }
 for (const [name, value] of Object.entries(product.normalized_specs ?? {})) {
-  if (value !== undefined && value !== null) {
-    properties.push({
-      '@type': 'PropertyValue',
-      name,
-      value: String(value),
-    });
-  }
+  addProperty(name, value);
 }
 if (properties.length > 0) ld.additionalProperty = properties;
+
+if (product.related_links?.length) {
+  ld.isRelatedTo = product.related_links.map((href) => ({
+    '@type': 'Product',
+    url: href.startsWith('http') ? href : `${siteOrigin}${href}`,
+  }));
+}
 
 if (reviewFrontmatter?.score || reviewFrontmatter?.verdict) {
   const review: Record<string, unknown> = {
@@ -113,6 +141,26 @@ if (reviewFrontmatter?.score || reviewFrontmatter?.verdict) {
       ratingValue: reviewFrontmatter.score,
       bestRating: 10,
       worstRating: 0,
+    };
+  }
+  if (reviewFrontmatter.pros?.length) {
+    review.positiveNotes = {
+      '@type': 'ItemList',
+      itemListElement: reviewFrontmatter.pros.map((note, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: note,
+      })),
+    };
+  }
+  if (reviewFrontmatter.cons?.length) {
+    review.negativeNotes = {
+      '@type': 'ItemList',
+      itemListElement: reviewFrontmatter.cons.map((note, index) => ({
+        '@type': 'ListItem',
+        position: index + 1,
+        name: note,
+      })),
     };
   }
   ld.review = review;
