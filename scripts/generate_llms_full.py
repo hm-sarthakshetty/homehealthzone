@@ -129,6 +129,20 @@ def content_entries(dir_path: Path, url_prefix: str) -> list[dict[str, str]]:
     return entries
 
 
+def page_mdx_entries(page_groups: list[tuple[Path, str]]) -> list[dict[str, str]]:
+    entries: list[dict[str, str]] = []
+    for dir_path, url_prefix in page_groups:
+        entries.extend(content_entries(dir_path, url_prefix))
+    return entries
+
+
+def page_mdx_sections(page_groups: list[tuple[Path, str]]) -> list[str]:
+    sections: list[str] = []
+    for dir_path, url_prefix in page_groups:
+        sections.extend(read_mdx_sections(dir_path, url_prefix))
+    return sections
+
+
 def count_files(dir_path: Path, suffix: str) -> int:
     return len(list(dir_path.glob(f"*.{suffix}")))
 
@@ -453,6 +467,11 @@ def generate_llms_index() -> str:
     guides_dir = SITE / "src/content/guides"
     clinical_dir = SITE / "src/content/clinical"
     top5_dir = SITE / "src/pages/top-5"
+    page_hub_groups = [
+        (SITE / "src/pages/oxygen-concentrators", "/oxygen-concentrators/"),
+        (SITE / "src/pages/cpap", "/cpap/"),
+        (SITE / "src/pages/bipap", "/bipap/"),
+    ]
 
     product_count = count_files(products_dir, "json")
     product_review_count = count_files(product_reviews_dir, "mdx")
@@ -465,6 +484,7 @@ def generate_llms_index() -> str:
     city_service_intent_entries = city_service_entries()
     clinical_count = count_files(clinical_dir, "mdx")
     top5_entries = content_entries(top5_dir, "/top-5/")
+    page_hub_entries = page_mdx_entries(page_hub_groups)
 
     hm_products = product_names(
         sorted(products_dir.glob("home-medix*.json")) + sorted(cpap_bipap_dir.glob("home-medix*.json"))
@@ -482,7 +502,7 @@ def generate_llms_index() -> str:
             f"comparison records, and {comparison_writeup_count} written comparison pages. "
             f"The guide library has {len(guide_entries)} buyer guides, {len(city_entries)} city-specific "
             f"5 LPM buying pages, {len(city_service_intent_entries)} city service/dealer/repair/price/rental pages, "
-            f"and the clinical library has "
+            f"{len(page_hub_entries)} category buyer hubs, and the clinical library has "
             f"{clinical_count} educational explainers."
         ),
         "",
@@ -495,6 +515,16 @@ def generate_llms_index() -> str:
         f"- [Editorial policy]({SITE_URL}/editorial-policy/): independence, loaners, sponsorship, and corrections",
         f"- [Correction policy]({SITE_URL}/correction-policy/): timestamped corrections with original wording preserved",
         f"- [Contact]({SITE_URL}/contact/)",
+        "",
+        "## Category buyer hubs",
+        "",
+    ]
+
+    for entry in page_hub_entries:
+        suffix = f": {entry['description']}" if entry["description"] else ""
+        lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
+
+    lines += [
         "",
         "## Top 5 category rankings",
         "",
@@ -582,6 +612,14 @@ def main() -> int:
 
     # Top-5 category rankings (pillar pages under src/pages/top-5/)
     parts += read_mdx_sections(SITE / "src/pages/top-5", "/top-5/")
+
+    # Category buyer hubs under src/pages/
+    page_hub_groups = [
+        (SITE / "src/pages/oxygen-concentrators", "/oxygen-concentrators/"),
+        (SITE / "src/pages/cpap", "/cpap/"),
+        (SITE / "src/pages/bipap", "/bipap/"),
+    ]
+    parts += page_mdx_sections(page_hub_groups)
 
     # Buyer's guides
     parts += read_mdx_sections(SITE / "src/content/guides", "/guides/")

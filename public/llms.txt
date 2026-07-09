@@ -2,7 +2,7 @@
 
 > India's independent respiratory-equipment reference for oxygen concentrators, CPAP, and BiPAP devices sold in India. Products are scored against a published rubric. No sponsored placement and no brand veto.
 
-HHZ currently tracks 96 oxygen concentrator product records, 78 oxygen concentrator reviews, 26 CPAP/BiPAP product records, 26 CPAP/BiPAP reviews, 71 comparison records, and 71 written comparison pages. The guide library has 46 buyer guides, 6 city-specific 5 LPM buying pages, 30 city service/dealer/repair/price/rental pages, and the clinical library has 72 educational explainers.
+HHZ currently tracks 96 oxygen concentrator product records, 78 oxygen concentrator reviews, 26 CPAP/BiPAP product records, 26 CPAP/BiPAP reviews, 71 comparison records, and 71 written comparison pages. The guide library has 46 buyer guides, 6 city-specific 5 LPM buying pages, 30 city service/dealer/repair/price/rental pages, 16 category buyer hubs, and the clinical library has 72 educational explainers.
 
 Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 LPM, Home Medix HM-BV-30 BiPAP, Home Medix HM-CV-20 Auto CPAP. They are scored in the same product and comparison framework as Philips, Oxymed, ResMed, Nidek, DeVilbiss, BMC, Yuwell, and other brands.
 
@@ -13,6 +13,25 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [Editorial policy](https://homehealthzone.com/editorial-policy/): independence, loaners, sponsorship, and corrections
 - [Correction policy](https://homehealthzone.com/correction-policy/): timestamped corrections with original wording preserved
 - [Contact](https://homehealthzone.com/contact/)
+
+## Category buyer hubs
+
+- [10 LPM Oxygen Concentrator Buyer's Guide (India 2026)](https://homehealthzone.com/oxygen-concentrators/10-lpm/): High-flow 10 LPM concentrator buyer's guide for India — clinical indications, dual-flow options, power/noise realities, sieve-bed endurance, and price brackets.
+- [5 LPM Oxygen Concentrator Buyer's Guide (India 2026)](https://homehealthzone.com/oxygen-concentrators/5-lpm/): Deep India-specific buyer's guide for 5 LPM oxygen concentrators — clinical fit, noise and purity specs, price brackets in rupees, brands, rental math, warranty reality.
+- [Adjustable Purity Oxygen Concentrator Buyer's Guide (India 2026)](https://homehealthzone.com/oxygen-concentrators/adjustable-purity/): Adjustable-purity oxygen concentrators — what they actually do, why most patients should NOT buy them, industrial vs medical-grade differences, and the credible models.
+- [Oxygen Concentrator Brands in India (2026 Landscape)](https://homehealthzone.com/oxygen-concentrators/brands/): Honest brand-by-brand positioning of oxygen concentrators sold in India — Philips, Nidek, DeVilbiss, AirSep, Oxymed, Home Medix, BPL, Yuwell and the full shelf.
+- [Dual Flow Oxygen Concentrator Buyer's Guide (India 2026)](https://homehealthzone.com/oxygen-concentrators/dual-flow/): Dual-flow oxygen concentrators in India — what the twin flowmeter actually means, two-patient math, nebuliser-plus-O₂ setups, and the three models that matter.
+- [Portable Oxygen Concentrator Buyer's Guide (India 2026)](https://homehealthzone.com/oxygen-concentrators/portable/): Battery-powered portable oxygen concentrators in India — pulse vs continuous, real run-times, FAA and airline approvals, railway rules, and how to choose.
+- [Oxygen Concentrator Price in India (2026 Tracker)](https://homehealthzone.com/oxygen-concentrators/price-india/): Live price tracker for oxygen concentrators in India — 5 LPM, 10 LPM, portable bands, what drives pricing, GST, channel differences, and grey-market red flags.
+- [Oxygen Concentrator Rental in India (2026 Guide)](https://homehealthzone.com/oxygen-concentrators/rental/): Rent vs buy for oxygen concentrators in India — city-tier pricing, deposit norms, breakeven math at 6/12/18/24 months, red flags, and rental-to-own advice.
+- [APAP (Auto CPAP) in India: Buyer's & Clinical Guide (2026)](https://homehealthzone.com/cpap/apap/): APAP vs fixed-pressure CPAP, algorithm differences, titration in India, and a model-by-model breakdown of auto CPAPs available in the Indian market in 2026.
+- [CPAP Brands in India: Tier-by-Tier Landscape (2026)](https://homehealthzone.com/cpap/brands/): Tier-1, tier-2, tier-3 and Indian-channel CPAP brands compared on algorithm, data platform, service network, and real-world Indian warranty outcomes.
+- [Fixed-pressure CPAP in India: When It's Still Right (2026)](https://homehealthzone.com/cpap/fixed-pressure/): When fixed-pressure CPAP is still clinically correct in 2026, limitations vs APAP, and models that deliver reliable fixed-pressure therapy in the Indian market.
+- [CPAP Price in India (2026): Brackets, Drivers, and Channel Tracker](https://homehealthzone.com/cpap/price-india/): 2026 Indian CPAP price tracker — fixed, APAP, travel and premium brackets, what drives the gap, channel pricing, GST, dealer markups, sampling caveats.
+- [CPAP Rental in India: Guide, Rates, and When It Makes Sense (2026)](https://homehealthzone.com/cpap/rental/): Indian CPAP rental rates, trial-before-buy programs, short-term rental economics, refurbished-vs-new, and when rental makes clinical and financial sense.
+- [Auto BiPAP (VAuto / Auto-ST) in India: Clinical Guide (2026)](https://homehealthzone.com/bipap/auto-st/): Auto BiPAP and Auto-ST explained — dynamic IPAP/EPAP/backup-rate algorithms, clinical indications, and auto-bilevel devices in the 2026 Indian market.
+- [BiPAP ST (Spontaneous-Timed) in India: Clinical Guide & Buyer's Reference (2026)](https://homehealthzone.com/bipap/st/): BiPAP ST mode explained — backup rate indications, CSA and neuromuscular use, Indian titration reality, and a model-by-model ST-device breakdown for 2026.
+- [TVAPS in India: Target Volume Assured Pressure Support — Full Guide (2026)](https://homehealthzone.com/bipap/tvaps/): TVAPS (target volume assured pressure support) end-to-end — mechanism, indications, TVAPS vs AVAPS vs iVAPS naming, Indian pricing, and device shortlist.
 
 ## Top 5 category rankings
 
