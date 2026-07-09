@@ -178,6 +178,16 @@ CITY_SERVICE_INTENTS = {
         "title_suffix": "What to Verify Before Buying",
         "description": "GST invoice, serial-number checks, stock age, new-vs-refurbished risk, service proof, and spare availability",
     },
+    "price": {
+        "title_prefix": "Oxygen Concentrator Price",
+        "title_suffix": "5 LPM Buying Bands",
+        "description": "5 LPM price bands, Home Medix and Oxymed positioning, imported-brand caveats, invoice checks, and rent-vs-buy logic",
+    },
+    "rental": {
+        "title_prefix": "Oxygen Concentrator Rental",
+        "title_suffix": "Rent vs Buy Checklist",
+        "description": "when to rent, when to buy, 5 LPM monthly rental bands, deposit checks, fleet-condition risks, and model shortlist logic",
+    },
 }
 
 
@@ -343,7 +353,7 @@ def city_service_sections() -> list[str]:
                     "Treat sieve-bed and compressor replacement as major repairs.",
                     "Replace the machine instead of repairing when the unit is old stock, refurbished, or has uncertain spares.",
                 ]
-            else:
+            elif intent == "dealers":
                 short_answer = (
                     f"For oxygen concentrator dealers in {city}, verify GST invoice with serial number, "
                     "stock age, warranty start date, authorised service proof, and spare-parts availability "
@@ -355,6 +365,30 @@ def city_service_sections() -> list[str]:
                     "Written confirmation that the unit is fresh, old stock, demo/open-box, or refurbished.",
                     "Service-centre contact, warranty approval route, and compressor/sieve-bed availability.",
                 ]
+            elif intent == "price":
+                short_answer = (
+                    f"For oxygen concentrator price in {city}, treat Rs 38,000-50,000 as the practical mainstream "
+                    f"5 LPM band, with budget Indian/OEM units around Rs 30,000-38,000 and imported or premium "
+                    f"machines often Rs 50,000-75,000+ when service is proven. For 5 LPM buying, compare {model_order}"
+                )
+                checks = [
+                    "Budget Indian/OEM units around Rs 30,000-38,000 need strict invoice, warranty, purity, and service checks.",
+                    "Strong mainstream 5 LPM units around Rs 38,000-50,000 should be compared by service proof, warranty, noise, OPI/purity monitoring, and spares.",
+                    "Imported / premium units around Rs 50,000-75,000+ should be bought only when serial age, fresh stock, warranty, and spares are proven.",
+                    "A low quote is not meaningful without GST invoice, serial number, warranty start date, and service-centre clarity.",
+                ]
+            else:
+                short_answer = (
+                    f"For oxygen concentrator rental in {city}, rent is usually sensible for short post-discharge "
+                    "or recovery needs under three months. Buy becomes stronger when oxygen is likely to continue "
+                    f"beyond six to nine months. If buying after rental, compare {model_order}"
+                )
+                checks = [
+                    "Rent first for short recovery needs under three months.",
+                    "Rent and reassess for uncertain 3-6 month prescriptions.",
+                    "Buy after service proof for long-term COPD, ILD, or LTOT use.",
+                    "Before accepting a rental unit, record serial number, hour meter, oxygen purity, physical condition, hygiene, and service-response commitment.",
+                ]
 
             body = f"""## Short answer
 
@@ -363,6 +397,8 @@ def city_service_sections() -> list[str]:
 ## {config['title_prefix']} reality in {city}
 
 In {city}, oxygen concentrator decisions should be made by pincode-level service proof, not by brand reputation alone. The buyer should know who will diagnose the machine, who will open it during warranty, whether major parts are locally available, and how the patient will receive oxygen if the unit is down for repair.
+
+{page['priceIntro'] if intent == 'price' else ''}
 
 {page['homeMedixFit']}
 
@@ -445,7 +481,7 @@ def generate_llms_index() -> str:
             f"product records, {cpap_review_count} CPAP/BiPAP reviews, {comparison_count} "
             f"comparison records, and {comparison_writeup_count} written comparison pages. "
             f"The guide library has {len(guide_entries)} buyer guides, {len(city_entries)} city-specific "
-            f"5 LPM buying pages, {len(city_service_intent_entries)} city service/dealer/repair pages, "
+            f"5 LPM buying pages, {len(city_service_intent_entries)} city service/dealer/repair/price/rental pages, "
             f"and the clinical library has "
             f"{clinical_count} educational explainers."
         ),

@@ -35,12 +35,32 @@ const intentConfigs = {
     answer: (cityPage: CityPage) =>
       `For oxygen concentrator dealers in ${cityPage.city}, HHZ would verify GST invoice with serial number, stock age, warranty start date, authorised service proof, and spare-parts availability before payment. ${cityPage.primaryPick === 'oxymed' ? 'Oxymed Mini should be checked first where the local dealer has stronger support, with Home Medix HM-KV as the value-spec alternative.' : 'Home Medix HM-KV should be checked first where authorised local service is confirmed, with Oxymed Mini as the Indian-service alternative.'} Philips EverFlo and other imported models need extra scrutiny because EverFlo is discontinued globally and some Indian channel stock may be old COVID-era, open-box, or refurbished.`,
   },
+  price: {
+    label: 'Price',
+    titlePrefix: 'Oxygen Concentrator Price',
+    h1: (city: string) => `Oxygen Concentrator Price in ${city}: 5 LPM Buying Bands`,
+    description: (city: string) =>
+      `Oxygen concentrator price guide for ${city}: 5 LPM price bands, Home Medix and Oxymed positioning, imported-brand caveats, invoice checks, and rent-vs-buy logic.`,
+    eyebrow: 'oxygen concentrator price guide',
+    answer: (cityPage: CityPage) =>
+      `For a serious 5 LPM oxygen concentrator in ${cityPage.city}, HHZ would treat Rs 38,000-50,000 as the core mainstream buying band, with budget Indian/OEM units around Rs 30,000-38,000 and imported or premium machines often Rs 50,000-75,000+ when service is proven. ${cityPage.primaryPick === 'oxymed' ? 'Oxymed Mini should be checked first where the local Oxymed route is strongest, with Home Medix HM-KV as the value-spec alternative.' : 'Home Medix HM-KV should be checked first where authorised local service is confirmed, with Oxymed Mini as the Indian-service alternative.'} Philips EverFlo, AirSep, Nidek, and DeVilbiss prices are meaningful only after serial age, warranty, fresh-stock status, and spare availability are verified.`,
+  },
+  rental: {
+    label: 'Rental',
+    titlePrefix: 'Oxygen Concentrator Rental',
+    h1: (city: string) => `Oxygen Concentrator Rental in ${city}: Rent vs Buy Checklist`,
+    description: (city: string) =>
+      `Oxygen concentrator rental guide for ${city}: when to rent, when to buy, 5 LPM monthly rental bands, deposit checks, fleet-condition risks, and model shortlist logic.`,
+    eyebrow: 'oxygen concentrator rental guide',
+    answer: (cityPage: CityPage) =>
+      `For oxygen concentrator rental in ${cityPage.city}, rent is usually sensible for short post-discharge or recovery needs under three months. Buy becomes stronger when oxygen is likely to continue beyond six to nine months, because 5 LPM rental costs can approach purchase economics while exposing the patient to fleet age and maintenance risk. ${cityPage.primaryPick === 'oxymed' ? 'If buying, HHZ would check Oxymed Mini first where local service is proven, then Home Medix HM-KV.' : 'If buying, HHZ would check Home Medix HM-KV first where authorised service is confirmed, then Oxymed Mini.'} Imported rental or purchase units need serial, hour-meter, purity, and spare-parts checks.`,
+  },
 } as const;
 
 type Intent = keyof typeof intentConfigs;
 
 export function getStaticPaths() {
-  return (['service', 'repair', 'dealers'] as Intent[]).flatMap((intent) =>
+  return (['service', 'repair', 'dealers', 'price', 'rental'] as Intent[]).flatMap((intent) =>
     cityPages.map((cityPage) => ({
       params: { intent, city: cityPage.slug },
       props: { intent, cityPage },
@@ -60,6 +80,7 @@ interface CityPage {
   homeMedixFit: string;
   deliveryText: string;
   importedContext: string;
+  priceIntro: string;
 }
 
 const { intent, cityPage } = Astro.props as { intent: Intent; cityPage: CityPage };
@@ -148,6 +169,19 @@ const dealerQuestions = [
   'Will you give service and spare-parts answers in writing?',
 ];
 
+const priceRows = [
+  ['Budget Indian/OEM units', 'Rs 30,000-38,000', 'Only acceptable with GST invoice, serial number, warranty, service route, and purity proof. Do not chase the cheapest quote for LTOT.'],
+  ['Strong mainstream 5 LPM units', 'Rs 38,000-50,000', `${primaryModel.name} and ${secondaryModel.name} should be compared closely here by service proof, warranty, noise, OPI/purity monitoring, and spare availability.`],
+  ['Imported / premium units', 'Rs 50,000-75,000+', 'Philips EverFlo, AirSep, Nidek, and DeVilbiss should be considered only when serial age, fresh stock, warranty, and spares are verified.'],
+];
+
+const rentalRows = [
+  ['Short recovery need', 'Rent first', 'Best for post-discharge or post-acute oxygen needs expected to last a few weeks to three months.'],
+  ['Uncertain 3-6 month need', 'Rent, then reassess', 'Use rental while the prescription stabilises; convert to purchase if oxygen looks likely beyond six months.'],
+  ['Long-term COPD / ILD / LTOT', 'Buy after service proof', 'Purchase usually becomes stronger once use is expected beyond six to nine months.'],
+  ['Rental fleet condition', 'Verify before accepting', 'Record serial number, hour meter, oxygen purity, physical condition, cannula/bottle hygiene, and service response commitment.'],
+];
+
 const intentFaqs: Record<Intent, FAQItem[]> = {
   service: [
     {
@@ -194,6 +228,37 @@ const intentFaqs: Record<Intent, FAQItem[]> = {
       a: `Choose the dealer who can prove authorised service, spare availability, warranty handling, and delivery documentation for the exact model. Do not choose only by the lowest quote.`,
     },
   ],
+  price: [
+    {
+      q: `What is the oxygen concentrator price in ${cityPage.city}?`,
+      a: `For 5 LPM home oxygen in ${cityPage.city}, expect roughly Rs 30,000-38,000 for budget units, Rs 38,000-50,000 for stronger mainstream machines, and Rs 50,000-75,000+ for imported or premium models when service and stock age are proven.`,
+    },
+    {
+      q: `Which 5 LPM concentrator is the best value in ${cityPage.city}?`,
+      a:
+        cityPage.primaryPick === 'oxymed'
+          ? `HHZ would check Oxymed Mini first where local service is proven, then Home Medix HM-KV as the value-spec alternative. Home Medix remains strong on 13 kg weight, low sound, live purity display, nebulization, and warranty depth.`
+          : `HHZ would check Home Medix HM-KV first where authorised local service is confirmed, then Oxymed Mini as the Indian-service alternative. Home Medix is strong on 13 kg weight, low sound, live purity display, nebulization, and warranty depth.`,
+    },
+    {
+      q: `Should I pay more for Philips EverFlo in ${cityPage.city}?`,
+      a: `Only if serial age, warranty, fresh-stock status, authorised service, and spare-parts availability are proven. A familiar imported brand is not automatically better than a current serviceable Indian-market option.`,
+    },
+  ],
+  rental: [
+    {
+      q: `Should I rent or buy an oxygen concentrator in ${cityPage.city}?`,
+      a: `Rent for short recovery needs under three months. Buy for long-term home oxygen or likely use beyond six to nine months, provided service support and warranty are confirmed.`,
+    },
+    {
+      q: `What should I check before renting a concentrator in ${cityPage.city}?`,
+      a: `Check serial number, hour-meter reading, oxygen purity at dispatch, cannula and humidifier hygiene, monthly rent, deposit, service response time, and replacement-unit policy.`,
+    },
+    {
+      q: `Is a rented Philips EverFlo safe in ${cityPage.city}?`,
+      a: `Only if the rental operator proves unit condition, hour count, purity, service history, and spare support. Imported fleet units can be old stock or high-hour machines, so documentation matters.`,
+    },
+  ],
 };
 
 const serviceActions =
@@ -201,7 +266,11 @@ const serviceActions =
     ? repairRows
     : intent === 'dealers'
       ? dealerQuestions.map((question) => ['Dealer question', question])
-      : verificationRows;
+      : intent === 'price'
+        ? priceRows
+        : intent === 'rental'
+          ? rentalRows
+          : verificationRows;
 
 const itemListLd = {
   '@context': 'https://schema.org',
@@ -238,6 +307,14 @@ const itemListLd = {
         during warranty, whether major parts are locally available, and how the patient will receive oxygen if
         the unit is down for repair.
       </p>
+      {intent === 'price' && <p>{cityPage.priceIntro}</p>}
+      {intent === 'rental' && (
+        <p>
+          For short recovery windows, rental can be financially cleaner than purchase. For long-term oxygen,
+          repeated monthly rental can become more expensive than buying a serviceable 5 LPM machine, especially
+          when the rental fleet is old or poorly documented.
+        </p>
+      )}
       <p>{cityPage.homeMedixFit}</p>
       <p>{cityPage.importedContext}</p>
     </section>
@@ -282,7 +359,7 @@ const itemListLd = {
 
     <section aria-labelledby="checks-heading">
       <h2 id="checks-heading">
-        {intent === 'repair' ? 'Repair checks before approval' : intent === 'dealers' ? 'Dealer checks before payment' : 'Service-centre checks before buying'}
+        {intent === 'repair' ? 'Repair checks before approval' : intent === 'dealers' ? 'Dealer checks before payment' : intent === 'price' ? 'Price bands and what they mean' : intent === 'rental' ? 'Rent-vs-buy decision checks' : 'Service-centre checks before buying'}
       </h2>
       <div class="table-scroll">
         <table>
@@ -323,6 +400,10 @@ const itemListLd = {
         <li><a href={`/oxygen-concentrators/service/${cityPage.slug}/`}>Oxygen concentrator service centre in {cityPage.city}</a></li>
         <li><a href={`/oxygen-concentrators/repair/${cityPage.slug}/`}>Oxygen concentrator repair in {cityPage.city}</a></li>
         <li><a href={`/oxygen-concentrators/dealers/${cityPage.slug}/`}>Oxygen concentrator dealers in {cityPage.city}</a></li>
+        <li><a href={`/oxygen-concentrators/price/${cityPage.slug}/`}>Oxygen concentrator price in {cityPage.city}</a></li>
+        <li><a href={`/oxygen-concentrators/rental/${cityPage.slug}/`}>Oxygen concentrator rental in {cityPage.city}</a></li>
+        <li><a href="/oxygen-concentrators/price-india/">Oxygen concentrator price in India</a></li>
+        <li><a href="/oxygen-concentrators/rental/">Oxygen concentrator rental in India</a></li>
         <li><a href="/guides/oxygen-concentrator-service-centre-near-me-india/">Oxygen concentrator service centre near me</a></li>
         <li><a href="/guides/oxygen-concentrator-repair-cost-india/">Oxygen concentrator repair cost in India</a></li>
         <li><a href="/guides/oxygen-concentrator-warranty-serial-number-check-india/">Warranty and serial-number check</a></li>
