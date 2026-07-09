@@ -483,6 +483,11 @@ def generate_llms_index() -> str:
         suffix = f": {entry['description']}" if entry["description"] else ""
         lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
 
+    lines += ["", "## Written comparison pages", ""]
+    for entry in content_entries(comparison_writeups_dir, "/compare/"):
+        suffix = f": {entry['description']}" if entry["description"] else ""
+        lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
+
     lines += [
         "",
         "## Category hubs",
@@ -550,6 +555,9 @@ def main() -> int:
 
     # City-specific service, dealer, and repair intent pages generated from src/data/
     parts += city_service_sections()
+
+    # Written product comparison pages
+    parts += read_mdx_sections(SITE / "src/content/comparison-writeups", "/compare/")
 
     # Clinical articles
     parts += read_mdx_sections(SITE / "src/content/clinical", "/clinical/")
