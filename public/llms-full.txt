@@ -4153,6 +4153,109 @@ In coastal India, monsoon is the failure mode. Plan a tighter maintenance cadenc
 
 ---
 
+# Oxygen concentrator compressor replacement cost in India
+
+Source: https://homehealthzone.com/guides/oxygen-concentrator-compressor-replacement-cost-india/
+
+The compressor is the mechanical heart of a PSA oxygen concentrator. It pressurises room air so the sieve beds can separate nitrogen and deliver oxygen-enriched output. When the compressor weakens, the machine may run loudly, heat up, alarm, or deliver low oxygen purity.
+
+That makes compressor replacement one of the most important repair paths to verify before buying.
+
+## Signs of compressor trouble
+
+Possible compressor-related symptoms include:
+
+- louder running than usual
+- excessive heat
+- low-pressure fault
+- unstable flow
+- low-purity alarm
+- weak oxygen percentage at normal flow
+- machine shutting down after running
+- longer run history with poor filter maintenance
+
+These signs do not prove compressor failure by themselves. Valve faults, sieve-bed degradation, clogged filters, and PCB problems can look similar.
+
+## Diagnosis before replacement
+
+Ask the service centre to document:
+
+| Check | Reason |
+| --- | --- |
+| Outlet pressure | Confirms whether the compressor can build pressure |
+| Oxygen purity | Shows whether the PSA system is producing therapeutic output |
+| Filter condition | Blocked filters can strain the compressor |
+| Valve timing | Valve faults can mimic compressor weakness |
+| Runtime hours | Helps interpret normal wear |
+| Voltage history | Voltage damage can affect warranty |
+
+Replacing a compressor without checking purity after repair is incomplete service.
+
+## Warranty risk
+
+Compressor warranty claims can be disputed when the seller attributes failure to:
+
+- voltage fluctuation
+- poor ventilation
+- dust ingress
+- blocked filters
+- water or humidifier backflow
+- physical damage during transport
+- unauthorised technician opening the unit
+
+Keep the GST invoice, warranty card, stabilizer or UPS invoice, service records, and serial-number photo. These documents can matter during a warranty claim.
+
+## What to ask before buying
+
+Before purchase, ask:
+
+1. Is the compressor for this exact model stocked in India?
+2. Is replacement done in my city?
+3. What is the usual turnaround?
+4. Is a loaner unit available?
+5. Is the replacement compressor new, rebuilt, OEM, or compatible?
+6. What warranty applies to the replaced compressor?
+7. Will post-repair purity be tested?
+
+If the answer is vague, the machine's price is not fully knowable.
+
+## 5 LPM model implications
+
+For Indian 5 LPM buyers:
+
+- [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) is strongest where authorised support can confirm compressor service under its 3-year / 10,000-hour warranty framework.
+- [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/) is strongest where Oxymed's local service route has faster compressor support.
+- [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/) should not be bought as old or clearance stock unless compressor and spare continuity are proven.
+- [Nidek](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/), [AirSep](/oxygen-concentrators/airsep-visionaire-5/), and [DeVilbiss](/oxygen-concentrators/devilbiss-5-lpm/) need parts-lead-time verification before long-term ownership.
+
+The best spec sheet can become a bad oxygen purchase if compressor support is distant or uncertain.
+
+## Repair versus replace
+
+Compressor replacement is reasonable when:
+
+- the chassis is otherwise healthy
+- sieve beds are still good
+- the repair is prompt
+- the service centre can test pressure and purity
+- the replaced compressor has a warranty
+
+Buying a new concentrator is more reasonable when:
+
+- the unit is old stock or refurbished with uncertain hours
+- compressor and sieve-bed issues appear together
+- parts must be imported on demand
+- downtime is unacceptable
+- the repair quote approaches the value of a reliable newer unit
+
+## Bottom line
+
+Compressor replacement cost is not just a future repair issue. It should shape the purchase decision today.
+
+Before buying an oxygen concentrator in India, verify compressor availability for the exact model. For more ownership-cost context, see [oxygen concentrator repair cost in India](/guides/oxygen-concentrator-repair-cost-india/) and [spare parts and service cost](/guides/oxygen-concentrator-spare-parts-service-cost-india/).
+
+---
+
 # Oxygen concentrator dealer near me: India buyer checklist
 
 Source: https://homehealthzone.com/guides/oxygen-concentrator-dealer-near-me-india/
@@ -4310,6 +4413,187 @@ For the technical clinical version, see <a href="/clinical/stabilizer-ups-vs-inv
 
 ---
 
+# Oxygen concentrator repair cost in India
+
+Source: https://homehealthzone.com/guides/oxygen-concentrator-repair-cost-india/
+
+Repair cost is one of the most important hidden costs in oxygen concentrator ownership. A low purchase price is not a bargain if the machine becomes expensive or slow to repair after the first major failure.
+
+HHZ does not publish fixed rupee estimates for every repair because local labour, part source, city, warranty status, and model availability vary. Instead, use repair categories. They are more reliable for buying decisions.
+
+## Repair-cost categories
+
+| Repair area | Cost category | Why it matters |
+| --- | --- | --- |
+| External filters | Low | Routine consumable; should be easy to replace |
+| Humidifier bottle/tubing | Low | Common accessory replacement |
+| Flowmeter | Low to medium | A cracked or inaccurate flowmeter affects delivered flow |
+| Solenoid valves | Medium | Valve failure can reduce purity or stop the PSA cycle |
+| PCB/control board | Medium to high | Cost depends on whether the board is stocked or repaired |
+| Oxygen sensor/OPI | Medium to high | A failed sensor can disable purity alarms |
+| Sieve beds | High | Directly affects oxygen concentration |
+| Compressor | High | Major mechanical repair and common long-term wear item |
+
+The quote should always include labour, parts, GST, pickup/delivery, and warranty on the replaced part.
+
+## Questions before approving repair
+
+Ask the service provider:
+
+1. What part has failed?
+2. Was purity tested with an analyzer?
+3. Was outlet pressure tested?
+4. Is the repair covered under warranty?
+5. Is the replacement part OEM, authorised, rebuilt, or substituted?
+6. What warranty applies to the replaced part?
+7. How long will the repair take?
+8. Is a loaner unit available?
+
+Do not approve a vague "general service" quote for a machine that is alarming or producing low purity. Ask for the diagnosis.
+
+## Repair versus replace
+
+Repair is usually more defensible when:
+
+- the machine is within warranty or recently out of warranty
+- spares are available locally
+- the service centre can test purity after repair
+- the patient has a backup oxygen plan
+- the repair has a written part warranty
+
+Replacement becomes more defensible when:
+
+- the model is discontinued with uncertain spares
+- compressor and sieve beds both need attention
+- the unit is old COVID-era stock with unclear history
+- the repair requires shipping to another city
+- downtime is clinically risky
+
+For long-term oxygen users, a cheap repair with uncertain purity is not a good outcome.
+
+## Model implications for 5 LPM buyers
+
+Before buying, ask how repair would work for the specific model:
+
+- [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) is attractive where authorised service is confirmed because its 3-year / 10,000-hour warranty and hour counter make ownership history easier to interpret.
+- [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/) is attractive where the local Oxymed service route is faster and better proven.
+- [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/) needs discontinued-stock and spare-parts verification before repair or purchase.
+- [Nidek](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/), [AirSep](/oxygen-concentrators/airsep-visionaire-5/), and [DeVilbiss](/oxygen-concentrators/devilbiss-5-lpm/) should be repaired only through channels that can prove parts and post-repair testing.
+
+## Warning signs in a repair quote
+
+Be cautious if the technician says:
+
+- "No need to test purity."
+- "The compressor is weak but you can keep using it."
+- "We will bypass the alarm."
+- "Sieve beds are not available, but we can adjust the machine."
+- "No bill is needed."
+- "Warranty does not matter because we repair locally."
+
+An oxygen concentrator is a medical device. A repair should restore flow, purity, alarms, and electrical safety.
+
+## Bottom line
+
+Oxygen concentrator repair cost in India is not just the rupee amount on the quote. The real cost is part availability, downtime, warranty clarity, and post-repair purity confidence.
+
+For buyers still choosing a machine, read [service centre near me](/guides/oxygen-concentrator-service-centre-near-me-india/) and [spare parts and service cost](/guides/oxygen-concentrator-spare-parts-service-cost-india/) before payment.
+
+---
+
+# Oxygen concentrator service centre near me: India checklist
+
+Source: https://homehealthzone.com/guides/oxygen-concentrator-service-centre-near-me-india/
+
+Searching for "oxygen concentrator service centre near me" usually means the buyer is close to purchase or already dealing with a fault. For a home oxygen machine, service access is not an after-sales detail. It is part of the buying decision.
+
+The right question is not just "is there a service centre near me?" It is whether that service centre can repair the exact model, with the right spares, quickly enough for a patient who may depend on oxygen every day.
+
+## What to verify before buying
+
+Ask for these details before payment:
+
+| Check | Strong answer | Weak answer |
+| --- | --- | --- |
+| Pincode coverage | Named centre serving your exact pincode | "Service is available everywhere" |
+| Model support | Exact model listed or confirmed | Generic brand support |
+| Spare stock | Compressor, sieve beds, valves, filters available | "We can arrange parts" |
+| Warranty handling | Written process and turnaround | Verbal promise |
+| Home visit | Technician visit available in your city | Ship-only repair |
+| Loaner unit | Written loaner or rental backup option | No backup plan |
+
+For daily oxygen users, the weak answers are not small inconveniences. They can mean cylinder bridging, urgent rental, or therapy interruption.
+
+## Dealer versus service centre
+
+Many Indian buyers assume the dealer who sells the unit will also service it. That is not always true.
+
+Before buying, ask:
+
+1. Who diagnoses the machine if an alarm appears?
+2. Who opens the unit during warranty?
+3. Who replaces compressor or sieve beds?
+4. Where is the service workshop physically located?
+5. Is the technician trained on this exact model?
+6. Are parts stocked locally or ordered after failure?
+7. Is there a service receipt for every repair?
+
+If the answer keeps changing between dealer, brand, distributor, and technician, treat the service path as unverified.
+
+## How this changes model selection
+
+For Indian 5 LPM buyers, HHZ would compare service proof model by model:
+
+| Model | Service-centre interpretation |
+| --- | --- |
+| [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/) | Strong pick where the local Oxymed dealer can prove faster response and spares |
+| [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) | Strong value-spec pick where authorised Home Medix support is confirmed |
+| [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/) | Buy only after discontinued-stock, warranty, and spare support are proven |
+| [Nidek Nuvo Lite](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/) | Good imported option only if fresh stock and service are proven |
+| [AirSep VisionAire 5](/oxygen-concentrators/airsep-visionaire-5/) | Needs parts-lead-time confirmation before long-term ownership |
+| [DeVilbiss 525](/oxygen-concentrators/devilbiss-5-lpm/) | Consider when outlet pressure or altitude matters, but verify service first |
+
+This is why the best machine in Mumbai or Delhi may not be the same as the best machine in Pune or Bangalore. Service reality is local.
+
+## Imported-brand service risk
+
+Imported oxygen concentrators can be excellent machines. The risk in India is not only engineering quality. It is the channel.
+
+Philips EverFlo has been discontinued globally. AirSep, Nidek, DeVilbiss, and other imported 5 LPM units may still be worth considering, but buyers should verify:
+
+- serial-number age
+- manufacturing or import date
+- whether the unit is fresh, old stock, demo stock, or refurbished
+- warranty start date
+- authorised service continuity
+- compressor and sieve-bed availability
+- whether parts are stocked in India or imported after failure
+
+A sealed box is not enough proof that the unit is fresh stock.
+
+## Service-centre questions for the phone call
+
+Use this script:
+
+1. "Do you service this exact model?"
+2. "Can you replace the compressor in-house?"
+3. "Can you replace sieve beds in-house?"
+4. "Do you stock solenoid valves and filters?"
+5. "Do you provide home service in my pincode?"
+6. "What is the usual turnaround for major repairs?"
+7. "Do you provide a loaner oxygen concentrator?"
+8. "Will you give written confirmation before I buy?"
+
+If the service centre cannot answer these questions clearly, do not treat the purchase as verified.
+
+## Bottom line
+
+For Indian home oxygen, the nearest service centre should influence the shortlist before price does. Buy the concentrator whose service path is provable in the patient's city.
+
+For broader ownership-cost checks, see [oxygen concentrator spare parts and service cost in India](/guides/oxygen-concentrator-spare-parts-service-cost-india/) and [oxygen concentrator dealer near me](/guides/oxygen-concentrator-dealer-near-me-india/).
+
+---
+
 # Oxygen concentrator service network guide for India
 
 Source: https://homehealthzone.com/guides/oxygen-concentrator-service-network-india/
@@ -4317,6 +4601,8 @@ Source: https://homehealthzone.com/guides/oxygen-concentrator-service-network-in
 For oxygen concentrators, service access is not a minor after-sales detail. It is part of the product. A concentrator with strong published specs but no local service path can become unusable at the first compressor, valve, or sieve-bed failure.
 
 This guide explains how to check service quality before buying.
+
+For purchase-ready searches, HHZ also maintains focused guides for [oxygen concentrator service centre near me](/guides/oxygen-concentrator-service-centre-near-me-india/), [oxygen concentrator repair cost](/guides/oxygen-concentrator-repair-cost-india/), [sieve-bed replacement](/guides/oxygen-concentrator-sieve-bed-replacement-cost-india/), [compressor replacement](/guides/oxygen-concentrator-compressor-replacement-cost-india/), and [warranty/serial-number verification](/guides/oxygen-concentrator-warranty-serial-number-check-india/).
 
 ## The failures that require service
 
@@ -4395,6 +4681,98 @@ For home oxygen, the service network is part of the device specification. Choose
 
 ---
 
+# Oxygen concentrator sieve bed replacement cost in India
+
+Source: https://homehealthzone.com/guides/oxygen-concentrator-sieve-bed-replacement-cost-india/
+
+Sieve beds are the core of a PSA oxygen concentrator. They contain molecular sieve material that adsorbs nitrogen so the machine can deliver oxygen-enriched gas. When sieve performance drops, the concentrator may still run but produce weak oxygen purity.
+
+That makes sieve-bed replacement a high-stakes repair. The patient may not notice the failure until SpO2 drops, especially during sleep or exertion.
+
+## Symptoms that point toward sieve-bed trouble
+
+Possible signs include:
+
+- low oxygen-purity alarm
+- oxygen percentage dropping on a purity analyzer
+- patient SpO2 falling at the same prescribed flow
+- machine heating more than usual
+- unusual compressor cycling
+- moisture or backflow history
+- long-term use in humid or dusty conditions
+
+These symptoms can also come from compressor weakness, valve failure, blocked filters, or sensor faults. Do not assume sieve failure without diagnosis.
+
+## What the technician should test
+
+Before replacing sieve beds, ask for:
+
+| Test | Why it matters |
+| --- | --- |
+| Oxygen purity at rated flow | Confirms actual output problem |
+| Outlet pressure | Separates sieve issue from compressor weakness |
+| Filter inspection | Finds preventable airflow restriction |
+| Valve/cycle check | Rules out solenoid timing fault |
+| Hour-meter reading | Helps interpret normal wear versus early failure |
+| Humidifier/backflow check | Identifies warranty-dispute risk |
+
+A serious repair should end with a post-repair purity test at the flow the patient actually uses.
+
+## Warranty and exclusion risk
+
+Sieve-bed coverage varies. Some warranties cover the full device for a stated period; others treat sieve material as consumable or exclude failures linked to humidity, dust, blocked filters, water backflow, or unauthorised opening.
+
+Before buying, ask the dealer:
+
+1. Are sieve beds covered under warranty?
+2. For how long?
+3. What counts as misuse?
+4. Are replacement sieve beds stocked locally?
+5. What is the expected turnaround?
+6. Is a loaner concentrator available?
+
+For Indian homes, humidity and dust are not theoretical risks. Coastal cities, monsoon conditions, and poor filter discipline can shorten sieve life.
+
+## Model-selection implications
+
+For 5 LPM buyers, sieve-bed availability should influence the shortlist:
+
+- [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) should be considered where authorised support can confirm sieve-bed replacement and warranty handling.
+- [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/) should be considered where local Oxymed support can prove faster sieve and compressor service.
+- [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/) needs extra caution because discontinued status makes future spare availability more important.
+- [Nidek](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/), [AirSep](/oxygen-concentrators/airsep-visionaire-5/), and [DeVilbiss](/oxygen-concentrators/devilbiss-5-lpm/) are credible only when replacement parts and authorised repair are proven.
+
+The safest choice is not always the most famous brand. It is the machine whose sieve-bed service path is real in the buyer's city.
+
+## Repair versus replace
+
+Replacement of sieve beds can make sense if:
+
+- the compressor is healthy
+- valves and board are working
+- the chassis is not very old
+- parts are available quickly
+- post-repair purity can be verified
+
+Replacing the whole machine may be safer if:
+
+- compressor and sieve beds are both weak
+- the unit is old stock or refurbished with unknown hours
+- parts must be imported with long lead times
+- the patient needs daily oxygen and has no backup
+
+For a used or suspiciously cheap unit, sieve-bed condition is one of the first things to verify.
+
+## Bottom line
+
+Sieve-bed replacement is not a routine accessory purchase. It is a major repair that determines whether the concentrator actually produces therapeutic oxygen.
+
+Before buying, ask whether sieve beds are available for the exact model. Before repairing, require diagnosis and post-repair purity testing.
+
+For related checks, see [how to check if an oxygen concentrator is new or refurbished](/guides/how-to-check-new-vs-refurbished-oxygen-concentrator/) and [oxygen concentrator repair cost in India](/guides/oxygen-concentrator-repair-cost-india/).
+
+---
+
 # Oxygen concentrator spare parts and service cost in India
 
 Source: https://homehealthzone.com/guides/oxygen-concentrator-spare-parts-service-cost-india/
@@ -4431,6 +4809,14 @@ HHZ avoids publishing fixed repair prices because local labour, parts source, an
 The buyer's question is not just "how much?" It is "how quickly, through whom, and with what warranty on the replaced part?"
 
 For common warranty disputes, see [concentrator warranty claim patterns](/clinical/concentrator-warranty-claim-patterns/) and [concentrator warranty claims in India](/clinical/concentrator-warranty-claims-india/).
+
+For narrower repair-intent checks, use these companion pages:
+
+- [Oxygen concentrator service centre near me](/guides/oxygen-concentrator-service-centre-near-me-india/) — pincode support, authorised repair, loaner units, and local service proof.
+- [Oxygen concentrator repair cost in India](/guides/oxygen-concentrator-repair-cost-india/) — repair categories, diagnosis questions, and repair-versus-replace logic.
+- [Oxygen concentrator sieve bed replacement cost](/guides/oxygen-concentrator-sieve-bed-replacement-cost-india/) — low-purity symptoms, sieve availability, and post-repair testing.
+- [Oxygen concentrator compressor replacement cost](/guides/oxygen-concentrator-compressor-replacement-cost-india/) — compressor symptoms, warranty disputes, and spare availability.
+- [Oxygen concentrator warranty and serial-number check](/guides/oxygen-concentrator-warranty-serial-number-check-india/) — invoice, serial, stock-age, and refurbished-risk verification.
 
 ## New purchase checklist
 
@@ -4484,6 +4870,107 @@ Voltage damage, dust damage, water backflow, unauthorised opening, and sieve wea
 Before buying any oxygen concentrator in India, treat spare-parts availability as part of the spec sheet. A model with slightly weaker published specs but a verified local repair path can be safer than an imported model with no clear future parts.
 
 For long-term home oxygen, buy the service path, not just the machine.
+
+---
+
+# Oxygen concentrator warranty and serial number check in India
+
+Source: https://homehealthzone.com/guides/oxygen-concentrator-warranty-serial-number-check-india/
+
+Warranty and serial-number checks are the buyer's defence against old stock, refurbished units, demo machines, and unclear service responsibility.
+
+This matters because oxygen concentrators are long-life medical devices. A machine that looks new externally may have an older manufacturing date, unclear hours, expired channel warranty, or weak spare-parts support.
+
+## What to collect before payment
+
+Ask the seller for:
+
+| Document or proof | What it proves |
+| --- | --- |
+| Serial-number photo | Identifies the exact machine |
+| Box label photo | Helps match box and unit |
+| GST invoice draft | Links serial number to buyer and warranty |
+| Manufacturing/import date | Shows stock age |
+| Warranty start date | Clarifies whether warranty begins at sale |
+| Dealer authorisation proof | Reduces unauthorised-channel risk |
+| Service-centre confirmation | Shows who will handle repairs |
+| Hour-meter photo if available | Helps detect used/demo stock |
+
+If the seller refuses serial-number documentation before payment, treat that as a risk signal.
+
+## How to check the serial number
+
+Use this sequence:
+
+1. Ask for the serial-number label on the machine.
+2. Ask for the box label.
+3. Ask for the invoice to include the same serial number.
+4. Ask the seller to confirm manufacturing or import date.
+5. Ask when warranty starts and who honours it.
+6. Ask the nearest service centre to confirm support for that serial.
+7. At delivery, record unboxing and first startup.
+
+For machines with an hour counter, photograph the hours at delivery.
+
+## New, old stock, demo, or refurbished?
+
+These categories are not the same:
+
+| Status | Meaning | Buyer stance |
+| --- | --- | --- |
+| Fresh new stock | Recent stock with full warranty | Best case |
+| Old stock | Unused or lightly handled but aged | Accept only with discount and warranty clarity |
+| Demo/open-box | Used for display or demonstrations | Requires hour reading and explicit disclosure |
+| Refurbished | Previously used and repaired or restored | Buy only with strong testing and written return terms |
+| Unclear | Seller will not specify | Avoid |
+
+The word "new" is not enough. Ask what kind of new.
+
+## Imported-brand warning
+
+Imported 5 LPM concentrators may still be good machines, but Indian channel risk is real.
+
+Philips EverFlo has been officially discontinued globally. That does not make every EverFlo bad, but it does mean buyers should verify:
+
+- serial-number age
+- whether the unit is old COVID-era stock
+- whether the box was opened
+- invoice date
+- warranty validity
+- authorised-service continuity
+- compressor and sieve-bed availability
+
+Apply the same verification logic to AirSep, Nidek, DeVilbiss, and other imported units where fresh supply and spares are not obvious.
+
+## How this affects the 5 LPM shortlist
+
+HHZ would shortlist by both machine quality and proof quality:
+
+- [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/) is strong where the local dealer can prove fresh stock, warranty, and support.
+- [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) is strong where authorised service is confirmed; its 3-year / 10,000-hour warranty and hour counter are useful verification signals.
+- [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/) should be treated as a verification-heavy purchase, not a default.
+- [Nidek Nuvo Lite](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/), [AirSep VisionAire 5](/oxygen-concentrators/airsep-visionaire-5/), and [DeVilbiss 525](/oxygen-concentrators/devilbiss-5-lpm/) need fresh-stock and spare-parts proof.
+
+## Delivery checklist
+
+At delivery:
+
+1. Match serial number on unit, box, and invoice.
+2. Photograph the serial label.
+3. Photograph box condition.
+4. Record unboxing if possible.
+5. Run the machine and check alarms.
+6. Ask for purity testing if the dealer can provide it.
+7. Save warranty registration proof.
+8. Save dealer and service-centre contacts.
+
+Do not let urgent delivery replace documentation. A delivered machine without traceable warranty is a weak long-term oxygen purchase.
+
+## Bottom line
+
+Warranty and serial-number verification should happen before payment, not after a fault appears. For Indian oxygen concentrator buyers, the paperwork is part of the product.
+
+For more condition checks, see [how to check if an oxygen concentrator is new or refurbished](/guides/how-to-check-new-vs-refurbished-oxygen-concentrator/) and [Philips EverFlo discontinued: India alternatives](/guides/philips-everflo-discontinued-india-alternatives/).
 
 ---
 
@@ -4701,6 +5188,9 @@ The final buying step is not selecting a model. It is proving that the specific 
 - [Oxygen concentrator spare parts and service cost in India](/guides/oxygen-concentrator-spare-parts-service-cost-india/) — compressor, sieve-bed, valve, PCB, filter, and loaner-unit questions.
 - [Philips EverFlo discontinued: India alternatives](/guides/philips-everflo-discontinued-india-alternatives/) — what to verify before buying EverFlo and which 5 LPM alternatives to compare.
 - [Oxygen concentrators with purity display in India](/guides/oxygen-concentrator-with-purity-display-india/) — OPI, OCI, and live oxygen-purity display guidance.
+- [Oxygen concentrator service centre near me](/guides/oxygen-concentrator-service-centre-near-me-india/) — pincode-level service-centre verification.
+- [Oxygen concentrator repair cost in India](/guides/oxygen-concentrator-repair-cost-india/) — repair categories, diagnosis questions, and repair-versus-replace logic.
+- [Oxygen concentrator warranty and serial-number check](/guides/oxygen-concentrator-warranty-serial-number-check-india/) — invoice, stock-age, and warranty proof before payment.
 
 Once the unit is at home, the next step is getting it through a voltage-stable supply and into a routine that respects the prescription. That is the subject of a separate clinical article — but the hardware choice is the decision you make only once, and it is the one this guide is here to help you get right.
 
@@ -4984,7 +5474,7 @@ This page combines the two existing HHZ topics: [low-noise oxygen concentrators]
 
 | Model | Weight | Noise | Why it matters |
 | --- | ---: | ---: | --- |
-| [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) | 13 kg | <=40 dB field-verified | Best combined value-spec position where service is confirmed |
+| [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) | 13 kg | 40 dB or lower, field-verified | Best combined value-spec position where service is confirmed |
 | [Nidek Nuvo Lite](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/) | 13.6 kg | 40 dB | Strong imported bedroom option if fresh stock and service are proven |
 | [AirSep VisionAire 5](/oxygen-concentrators/airsep-visionaire-5/) | 13.6 kg | 45 dB | Efficient imported option; service and spares must be verified |
 | [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/) | 13.9 kg | 45 dB | Indian-service alternative where Oxymed support is strongest |
@@ -5017,7 +5507,7 @@ Practical bedroom bands:
 
 | Noise band | Interpretation |
 | --- | --- |
-| <=40 dB | Strong bedroom candidate |
+| 40 dB or lower | Strong bedroom candidate |
 | 41-45 dB | Usually acceptable with placement |
 | 46-50 dB | Better for daytime or adjacent-room placement |
 | Above 50 dB | Often disruptive in small bedrooms |
