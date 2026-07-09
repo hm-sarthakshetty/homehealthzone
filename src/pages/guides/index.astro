@@ -22,6 +22,33 @@ const crumbs = [
   { href: '/', label: 'Home' },
   { href: '/guides/', label: 'Guides' },
 ];
+
+const featuredClusters = [
+  {
+    title: '5 LPM buying decisions',
+    links: [
+      ['Oxygen concentrators buyer guide', '/guides/oxygen-concentrators-buyers-guide-india/'],
+      ['Home Medix vs Oxymed vs Philips EverFlo', '/guides/home-medix-vs-oxymed-vs-philips-everflo-india/'],
+      ['Quiet and lightweight 5 LPM concentrators', '/guides/quiet-lightweight-5-lpm-oxygen-concentrators-india/'],
+    ],
+  },
+  {
+    title: 'EverFlo and imported-stock risk',
+    links: [
+      ['Philips EverFlo replacement in India', '/guides/philips-everflo-replacement-india/'],
+      ['Should you buy Philips EverFlo now?', '/guides/should-you-buy-philips-everflo-india/'],
+      ['Imported oxygen concentrator spare parts', '/guides/imported-oxygen-concentrator-spare-parts-india/'],
+    ],
+  },
+  {
+    title: 'Dealer, warranty, and stock checks',
+    links: [
+      ['Old stock oxygen concentrators in India', '/guides/old-stock-oxygen-concentrator-india/'],
+      ['New vs refurbished concentrator checks', '/guides/how-to-check-new-vs-refurbished-oxygen-concentrator/'],
+      ['Warranty and serial-number check', '/guides/oxygen-concentrator-warranty-serial-number-check-india/'],
+    ],
+  },
+];
 ---
 <BaseLayout title={pageTitle} description={description}>
   <Breadcrumbs items={crumbs} />
@@ -34,6 +61,22 @@ const crumbs = [
       mistakes. Reviewed periodically and timestamped.
     </p>
   </header>
+
+  <section class="featured-guides" aria-labelledby="featured-guides-heading">
+    <h2 id="featured-guides-heading">High-intent guide clusters</h2>
+    <div class="featured-guides__grid">
+      {featuredClusters.map((cluster) => (
+        <article class="featured-guides__cluster">
+          <h3>{cluster.title}</h3>
+          <ul>
+            {cluster.links.map(([label, href]) => (
+              <li><a href={href}>{label}</a></li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
 
   {sorted.length === 0 ? (
     <p class="empty">No guides published yet.</p>
@@ -49,6 +92,31 @@ const crumbs = [
 <style>
   .hub-header {
     margin-bottom: var(--space-8);
+  }
+  .featured-guides {
+    margin-bottom: var(--space-8);
+  }
+  .featured-guides h2 {
+    margin-bottom: var(--space-4);
+  }
+  .featured-guides__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--space-4);
+  }
+  .featured-guides__cluster {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-4);
+    background: var(--color-surface);
+  }
+  .featured-guides__cluster h3 {
+    margin-top: 0;
+    font-size: var(--text-lg);
+  }
+  .featured-guides__cluster ul {
+    margin-bottom: 0;
+    padding-left: var(--space-5);
   }
   .article-grid {
     display: grid;

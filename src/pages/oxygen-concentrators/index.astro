@@ -34,6 +34,48 @@ const crumbs = [
   { href: '/', label: 'Home' },
   { href: '/oxygen-concentrators/', label: 'Oxygen concentrators' },
 ];
+
+const buyingPaths = [
+  {
+    title: 'Choose a 5 LPM machine',
+    href: '/oxygen-concentrators/5-lpm/',
+    text: 'Compare Philips EverFlo, Oxymed Mini, Home Medix HM-KV, Nidek, AirSep, and DeVilbiss by price, service, warranty, noise, OPI, and stock risk.',
+  },
+  {
+    title: 'Check city price and service',
+    href: '/oxygen-concentrators/price/bangalore/',
+    text: 'Use city pages for Bangalore, Mumbai, Delhi, Chennai, Pune, and Hyderabad before trusting a local quote or dealer promise.',
+  },
+  {
+    title: 'Replace Philips EverFlo',
+    href: '/guides/philips-everflo-replacement-india/',
+    text: 'EverFlo remains a respected benchmark, but current Indian buyers should verify serial age, warranty, spares, and fresh-stock status.',
+  },
+  {
+    title: 'Avoid old or refurbished stock',
+    href: '/guides/old-stock-oxygen-concentrator-india/',
+    text: 'Check serial number, manufacturing/import date, hour meter, GST invoice, warranty activation, and whether the unit is demo or rental-return stock.',
+  },
+  {
+    title: 'Verify imported spare parts',
+    href: '/guides/imported-oxygen-concentrator-spare-parts-india/',
+    text: 'Philips, AirSep, Nidek, DeVilbiss, and Invacare units need compressor, sieve-bed, PCB, valve, and oxygen-sensor support verified in writing.',
+  },
+  {
+    title: 'Rent vs buy',
+    href: '/oxygen-concentrators/rental/',
+    text: 'Rent for short recovery windows; buy for long-term COPD, ILD, or LTOT use once city service support is confirmed.',
+  },
+];
+
+const cityLinks = [
+  ['Bangalore', 'bangalore'],
+  ['Mumbai', 'mumbai'],
+  ['Delhi', 'delhi'],
+  ['Chennai', 'chennai'],
+  ['Pune', 'pune'],
+  ['Hyderabad', 'hyderabad'],
+];
 ---
 <BaseLayout title={pageTitle} description={description}>
   <Breadcrumbs items={crumbs} />
@@ -46,6 +88,48 @@ const crumbs = [
     </p>
   </header>
 
+  <section class="buyer-paths" aria-labelledby="buyer-paths-heading">
+    <h2 id="buyer-paths-heading">Start with the buying question</h2>
+    <div class="buyer-paths__grid">
+      {buyingPaths.map((path) => (
+        <article class="buyer-card">
+          <h3><a href={path.href}>{path.title}</a></h3>
+          <p>{path.text}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="city-grid" aria-labelledby="city-heading">
+    <h2 id="city-heading">City guides for 5 LPM buyers</h2>
+    <div class="city-grid__table">
+      <table>
+        <thead>
+          <tr>
+            <th>City</th>
+            <th>Best 5 LPM</th>
+            <th>Price</th>
+            <th>Rental</th>
+            <th>Service</th>
+            <th>Dealers</th>
+          </tr>
+        </thead>
+        <tbody>
+          {cityLinks.map(([city, slug]) => (
+            <tr>
+              <td>{city}</td>
+              <td><a href={`/oxygen-concentrators/5-lpm/${slug}/`}>5 LPM picks</a></td>
+              <td><a href={`/oxygen-concentrators/price/${slug}/`}>price</a></td>
+              <td><a href={`/oxygen-concentrators/rental/${slug}/`}>rent vs buy</a></td>
+              <td><a href={`/oxygen-concentrators/service/${slug}/`}>service</a></td>
+              <td><a href={`/oxygen-concentrators/dealers/${slug}/`}>dealer checks</a></td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
   <BrowseProducts
     entries={products}
     basePath="/oxygen-concentrators/"
@@ -57,5 +141,53 @@ const crumbs = [
 <style>
   .hub-header {
     margin-bottom: var(--space-8);
+  }
+  .buyer-paths,
+  .city-grid {
+    margin-bottom: var(--space-9);
+  }
+  .buyer-paths h2,
+  .city-grid h2 {
+    margin-bottom: var(--space-4);
+  }
+  .buyer-paths__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-4);
+  }
+  .buyer-card {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-4);
+    background: var(--color-surface);
+  }
+  .buyer-card h3 {
+    margin-top: 0;
+    margin-bottom: var(--space-2);
+    font-size: var(--text-lg);
+  }
+  .buyer-card p {
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+  }
+  .city-grid__table {
+    overflow-x: auto;
+  }
+  .city-grid table {
+    width: 100%;
+    min-width: 760px;
+    border-collapse: collapse;
+    font-size: var(--text-sm);
+  }
+  .city-grid th,
+  .city-grid td {
+    border: 1px solid var(--color-border);
+    padding: var(--space-3);
+    text-align: left;
+    vertical-align: top;
+  }
+  .city-grid th {
+    background: var(--color-surface-muted);
   }
 </style>
