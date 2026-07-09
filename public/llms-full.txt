@@ -3468,6 +3468,98 @@ The hospital-channel premium is real and so is the service it bundles. For first
 
 ---
 
+# How to check if an oxygen concentrator is new or refurbished
+
+Source: https://homehealthzone.com/guides/how-to-check-new-vs-refurbished-oxygen-concentrator/
+
+Indian oxygen-concentrator buyers face a specific risk: a machine can be sold as "new" even when it is old channel stock, demo stock, open-box inventory, a rental return, or refurbished. The risk is highest when a buyer is in a hurry after hospital discharge and accepts the first available unit.
+
+This guide is the practical pre-payment checklist. It complements HHZ's clinical article on the [refurbished oxygen concentrator market](/clinical/refurbished-oxygen-concentrator-market/) by focusing on buyer-side detection.
+
+## The five categories sellers blur
+
+| Label | What it should mean | Buyer risk |
+| --- | --- | --- |
+| Fresh new stock | Unused, current channel, full warranty | Lowest |
+| Old new stock | Unused but stored for months/years | Warranty and storage ambiguity |
+| Open-box/demo | Opened or demonstrated | Possible hour accumulation |
+| Refurbished | Used, serviced, tested, resold | Depends on disclosure quality |
+| Used/rental return | Prior patient or fleet use | Highest without test certificate |
+
+The problem is not that refurbished units exist. The problem is disclosure. A legitimate refurbished unit with compressor hours, purity test certificate, parts replaced, and warranty can be a rational short-term buy. A refurbished unit sold as new is not acceptable.
+
+## The pre-payment checklist
+
+Ask for these before paying:
+
+1. Serial number.
+2. Manufacturing date or import date.
+3. GST invoice with serial number.
+4. Warranty registration process and start date.
+5. Written disclosure of condition: fresh, old stock, open-box, demo, refurbished, or rental return.
+6. Hour-meter photo if the unit has a visible hour counter.
+7. Purity reading at rated flow if the dealer has an analyzer.
+8. Box-label photo and unit-label photo.
+
+Do not accept "we will send after dispatch" for the serial number. The serial number is the anchor for warranty and age verification.
+
+## Hour-meter check
+
+Some concentrators expose a running-hour counter. The [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) has a visible hour counter; several other models expose hours through service menus or internal counters. A new unit should not show meaningful runtime beyond factory test and dealer demonstration.
+
+If a seller refuses an hour-meter photo where the model supports it, treat that as information.
+
+## Purity check
+
+A concentrator can look clean while the sieve beds are weak. If possible, ask for oxygen concentration at the prescribed flow or rated flow using a calibrated analyzer. For most medical 5 LPM concentrators, the expected new-unit band is around 93% +/- 3%, depending on model and flow.
+
+If the unit has OPI or live purity display, use it as a useful screen but not the only proof. A dealer analyzer remains better for delivery acceptance.
+
+For the technical background, read [why oxygen purity drops at high flow](/clinical/why-oxygen-purity-drops-at-high-flow/) and [why 93 percent is the ceiling](/clinical/why-93-percent-is-the-ceiling/).
+
+## Special warning for discontinued imported models
+
+Discontinued imported models need extra caution. Philips EverFlo is the obvious example in 2026. A unit may still be sealed, but it may also be old stock. That matters because spare availability, warranty support, and service continuity may be weaker over a multi-year prescription.
+
+Before buying a discontinued imported unit:
+
+- Verify serial age.
+- Verify warranty is accepted in India.
+- Verify compressor and sieve spares.
+- Verify the seller is not describing refurbished or old channel stock as "new".
+
+See HHZ's [EverFlo discontinued alternatives guide](/guides/philips-everflo-discontinued-india-alternatives/).
+
+## When a refurbished unit is acceptable
+
+Refurbished can be acceptable when:
+
+- Expected use is 3-9 months.
+- The patient has a backup.
+- The refurbisher provides compressor hours.
+- The unit has a dated purity certificate.
+- Sieves/filters/valves replaced are documented.
+- Warranty covers the intended use period.
+
+Refurbished is usually a poor fit for chronic LTOT, remote locations, hill-station patients, or households with no backup cylinder.
+
+## Model-specific buying notes
+
+For 5 LPM buyers comparing current options:
+
+- [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/): verify dealer service and warranty process by pincode.
+- [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/): verify authorised service and use the visible hour counter as part of handover.
+- [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/): verify discontinued-stock age and spares before buying.
+- [Nidek Nuvo Lite](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/), [AirSep VisionAire](/oxygen-concentrators/airsep-visionaire-5/), and [DeVilbiss 525](/oxygen-concentrators/devilbiss-5-lpm/): verify fresh imported stock and service channel.
+
+## Bottom line
+
+A new oxygen concentrator purchase should leave a documentation trail: serial number, invoice, warranty registration, stock condition, and service contact. If the seller cannot prove those before payment, the buyer is carrying unnecessary risk.
+
+For long-term oxygen therapy, choose documented new stock with local service over a vague discount.
+
+---
+
 # How to read an oxygen concentrator spec sheet
 
 Source: https://homehealthzone.com/guides/how-to-read-oxygen-concentrator-spec-sheet/
@@ -3876,6 +3968,8 @@ A lighter concentrator can reduce caregiver injury risk and make prescribed use 
 
 The most balanced lightweight 5 LPM shortlist is the 13-14 kg group: Home Medix HM-KV, Nidek Nuvo Lite, AirSep VisionAire, Oxymed Mini, and Philips EverFlo. Final selection should still depend on OPI, sound, service network, warranty, and verified price.
 
+If the patient will use oxygen overnight, combine this weight check with the bedroom-noise shortlist in HHZ's [quiet and lightweight 5 LPM guide](/guides/quiet-lightweight-5-lpm-oxygen-concentrators-india/).
+
 *This guide uses published and local product-spec data. Confirm final weight and configuration before purchase, especially when humidifier bottle, trolley, or accessories are bundled.*
 
 ---
@@ -3942,6 +4036,8 @@ For night use, shortlist the sub-45 dB class first. For living-room daytime use,
 ## Bottom line
 
 For patients prescribed oxygen during sleep, noise is a therapy-adherence variable. A quieter unit is not just more pleasant; it is more likely to be used for the prescribed hours.
+
+If weight and bedroom noise both matter, use HHZ's combined guide to [quiet and lightweight 5 LPM oxygen concentrators in India](/guides/quiet-lightweight-5-lpm-oxygen-concentrators-india/).
 
 *Published dB numbers are not a substitute for bench measurement. HHZ treats manufacturer noise claims as indicative until independently measured.*
 
@@ -4054,6 +4150,91 @@ In coastal India, monsoon is the failure mode. Plan a tighter maintenance cadenc
 - [Top 5 — 5 LPM oxygen concentrators](/top-5/5-lpm-oxygen-concentrators/)
 
 *This guide is editorial opinion and general information. It is not medical advice. Verify maintenance schedules and warranty terms with your manufacturer's service documentation.*
+
+---
+
+# Oxygen concentrator dealer near me: India buyer checklist
+
+Source: https://homehealthzone.com/guides/oxygen-concentrator-dealer-near-me-india/
+
+Searching "oxygen concentrator dealer near me" usually means the buyer needs a machine quickly. That urgency is real, but it is also where bad purchases happen: old stock sold as new, imported units without future spares, refurbished units with no disclosure, and warranty promises that disappear after delivery.
+
+This guide is written for Indian caregivers buying a 5 LPM or 10 LPM concentrator from a nearby medical-equipment shop, hospital-channel supplier, online seller, or home-care dealer. The goal is not to find the closest seller. The goal is to find the closest seller who can keep the patient on oxygen when the machine needs service.
+
+## The near-me buying rule
+
+For home oxygen, "near me" should mean:
+
+1. The seller can deliver the correct device class.
+2. The seller can prove the unit is traceable and invoice-backed.
+3. The seller can get the unit repaired locally or replace it quickly.
+4. The seller can provide written warranty and spare-parts answers.
+
+A shop that can deliver in two hours but cannot answer service questions is not a good oxygen concentrator dealer. For long-term oxygen therapy, service is part of the product.
+
+## What to ask before payment
+
+Use this script before paying any dealer:
+
+| Question | Strong answer | Weak answer |
+| --- | --- | --- |
+| What is the serial number? | Shared before invoice | "Will give after dispatch" |
+| Is it new, demo, refurbished, or open-box? | Written answer | Verbal assurance |
+| Manufacturing/import date? | Date shown or documented | "Latest stock" |
+| Warranty start date? | Invoice date or registration date | Unclear |
+| Who services my pincode? | Named service partner | Generic helpline |
+| Are compressor and sieve spares available? | Yes, named channel | "We arrange" |
+| Loaner during repair? | Written policy | No commitment |
+| Can I test purity at delivery? | Dealer can test or arrange | Not possible |
+
+For 5 LPM buyers, compare the dealer's answer against HHZ's [5 LPM oxygen concentrator guide](/oxygen-concentrators/5-lpm/) and [service-network guide](/guides/oxygen-concentrator-service-network-india/).
+
+## Recommended dealer conversation for 5 LPM
+
+Do not start with "what is cheapest?" Start with this:
+
+> "The patient needs a 5 LPM stationary concentrator for home use. I am considering Oxymed Mini, Home Medix HM-KV, and verified imported units. Which of these can you service locally, and can you give the serial number, warranty terms, and spare availability before payment?"
+
+That framing forces the dealer to answer the real question: not which box they have, but which box they can support.
+
+## City-specific ordering matters
+
+The right first option changes by city.
+
+- In Delhi and Mumbai, HHZ puts [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/) first when local service is proven, with [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) as the stronger value-spec alternative.
+- In Pune, Bangalore, Chennai, and Hyderabad, HHZ puts Home Medix HM-KV first where local service is confirmed, with Oxymed Mini as the Indian-service alternative.
+- In all cities, imported models require stock-age, warranty, and spare-parts verification before purchase.
+
+See the city pages for [Bangalore](/oxygen-concentrators/5-lpm/bangalore/), [Mumbai](/oxygen-concentrators/5-lpm/mumbai/), [Delhi](/oxygen-concentrators/5-lpm/delhi/), [Chennai](/oxygen-concentrators/5-lpm/chennai/), [Pune](/oxygen-concentrators/5-lpm/pune/), and [Hyderabad](/oxygen-concentrators/5-lpm/hyderabad/).
+
+## Same-day delivery is not the same as safe purchase
+
+Same-day or next-day delivery is common in metros, especially for 5 LPM concentrators. It is useful for post-discharge urgency, but it creates two risks:
+
+- The buyer accepts whatever stock is available.
+- The buyer skips serial-number, warranty, and service checks.
+
+Do not let delivery speed override documentation. A delivered concentrator with no service route can become an expensive cylinder stand when a compressor, sieve bed, valve, or PCB fails.
+
+## Imported models need extra checks
+
+Imported models such as Philips EverFlo, AirSep VisionAire, DeVilbiss 525, and Nidek Nuvo Lite may still be clinically capable, but they require more due diligence in India. The [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/) has been officially discontinued globally, and any "new" EverFlo listing should be treated as a stock-age question before it is treated as a recommendation.
+
+Ask the dealer:
+
+- Is this fresh stock, old COVID-era stock, demo stock, or refurbished stock?
+- Is brand warranty active from my invoice date?
+- Are compressor and sieve-bed spares available in India?
+- Who services the unit after the seller has been paid?
+- Will you write those answers on the invoice or quotation?
+
+If the seller refuses, move on.
+
+## Bottom line
+
+The best oxygen concentrator dealer near you is the one who can prove service, warranty, and stock age before payment. For home oxygen buyers, a slightly farther dealer with real service support is better than the closest shop with vague answers.
+
+For most 5 LPM purchases, start with the local-service shortlist: Oxymed Mini where service is strongest, Home Medix HM-KV where authorised support is confirmed, and imported units only after serial age, warranty, and spare availability are documented.
 
 ---
 
@@ -4214,6 +4395,177 @@ For home oxygen, the service network is part of the device specification. Choose
 
 ---
 
+# Oxygen concentrator spare parts and service cost in India
+
+Source: https://homehealthzone.com/guides/oxygen-concentrator-spare-parts-service-cost-india/
+
+The purchase price is only the first cost of an oxygen concentrator. The real ownership cost depends on what happens when the compressor weakens, the sieve beds degrade, a valve sticks, a PCB fails, or the oxygen purity sensor needs attention.
+
+For Indian buyers, spare-parts availability is often the difference between a repairable device and a therapy interruption.
+
+## The parts that matter
+
+| Part | Why it matters | Buyer question |
+| --- | --- | --- |
+| Compressor | Drives the PSA cycle; major wear item | Is the exact compressor stocked in India? |
+| Sieve beds | Determine oxygen purity | Are replacement sieves available locally? |
+| Solenoid valves | Switch air through sieve beds | Can the service centre replace valves? |
+| PCB/control board | Controls alarms and cycle timing | Is board replacement available or repair-only? |
+| Filters | Protect compressor and patient line | Are filter kits easily available? |
+| Flowmeter | Sets delivered flow | Can it be replaced if cracked or inaccurate? |
+| Oxygen sensor/OPI | Monitors purity | Is the sensor serviceable or replaceable? |
+| Humidifier bottle | Common accessory failure | Is it standard or proprietary? |
+
+If a dealer cannot answer these, the price quote is incomplete.
+
+## Service-cost thinking
+
+HHZ avoids publishing fixed repair prices because local labour, parts source, and warranty status vary. Instead, use this planning logic:
+
+- Filters and bottles should be low-cost consumables.
+- Flowmeter and valve work should be routine service.
+- PCB replacement can become expensive if the part is imported or dealer-controlled.
+- Sieve-bed replacement is a major repair.
+- Compressor replacement is the largest common repair.
+
+The buyer's question is not just "how much?" It is "how quickly, through whom, and with what warranty on the replaced part?"
+
+For common warranty disputes, see [concentrator warranty claim patterns](/clinical/concentrator-warranty-claim-patterns/) and [concentrator warranty claims in India](/clinical/concentrator-warranty-claims-india/).
+
+## New purchase checklist
+
+Before buying, ask the seller:
+
+1. Does your service centre stock compressor and sieve beds for this model?
+2. What is the typical turnaround for compressor replacement?
+3. What is the typical turnaround for sieve-bed replacement?
+4. Is home service available?
+5. Is a loaner unit available during repair?
+6. Who pays shipping during warranty?
+7. Are spares OEM, authorised, rebuilt, or locally substituted?
+8. Will parts replaced under warranty be listed on a service receipt?
+
+If the seller says "we will arrange", ask for a written answer.
+
+## How this affects model choice
+
+For 5 LPM buyers, service and spares often matter more than a small noise or weight difference.
+
+- [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/) is strongest where the local Oxymed dealer can prove fast service and spares.
+- [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) is strongest where authorised Home Medix service is confirmed; its 3-year / 10,000-hour warranty and visible hour counter are useful ownership signals.
+- [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/) needs extra scrutiny because discontinued status changes the future-spares risk.
+- [Nidek](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/), [AirSep](/oxygen-concentrators/airsep-visionaire-5/), and [DeVilbiss](/oxygen-concentrators/devilbiss-5-lpm/) remain credible imported options only when spares and service are proven in writing.
+
+## Downtime planning
+
+Every oxygen-dependent household should ask what happens during repair. The answer should be one of:
+
+- Dealer provides a loaner unit.
+- Family rents a temporary unit.
+- Family uses cylinder backup.
+- Family owns a secondary concentrator.
+
+No plan is not acceptable for COPD, ILD, pulmonary hypertension, or other long-term oxygen users.
+
+## Warranty versus paid service
+
+A warranty is useful only if:
+
+- The failure mode is covered.
+- The claim process is clear.
+- The service centre can diagnose the fault.
+- The parts are available.
+- The turnaround time is clinically tolerable.
+
+Voltage damage, dust damage, water backflow, unauthorised opening, and sieve wear are common dispute areas. Keep the stabilizer invoice, service records, serial-number photo, and warranty registration proof.
+
+## Bottom line
+
+Before buying any oxygen concentrator in India, treat spare-parts availability as part of the spec sheet. A model with slightly weaker published specs but a verified local repair path can be safer than an imported model with no clear future parts.
+
+For long-term home oxygen, buy the service path, not just the machine.
+
+---
+
+# Oxygen concentrators with purity display in India
+
+Source: https://homehealthzone.com/guides/oxygen-concentrator-with-purity-display-india/
+
+Oxygen purity is the clinical point of a concentrator. A machine that runs quietly but delivers weak oxygen is not doing its job. That is why OPI, OCI, and live purity display matter for long-term home oxygen buyers.
+
+The feature names vary:
+
+- OPI: oxygen purity indicator.
+- OCI: oxygen concentration indicator.
+- Purity display: live or periodic oxygen percentage display.
+- Low oxygen alarm: audible or visual warning below a threshold.
+
+They are related, but not identical.
+
+## Why purity monitoring matters
+
+Most medical concentrators use PSA technology over molecular sieve beds. Over time, sieve performance can degrade because of humidity, dust, compressor weakness, valve timing issues, or normal wear. The unit may still sound normal and deliver flow, while oxygen concentration falls below the intended range.
+
+For chronic oxygen users, this is a real problem. A patient may respond with lower SpO2, fatigue, breathlessness, sleep disruption, or more frequent desaturation.
+
+For the technical background, see [how PSA oxygen concentration works](/clinical/how-psa-oxygen-concentration-works/) and [why oxygen purity drops at high flow](/clinical/why-oxygen-purity-drops-at-high-flow/).
+
+## OPI versus live purity display
+
+| Feature | What it gives the caregiver | Limitation |
+| --- | --- | --- |
+| No OPI | No machine-side purity feedback | Needs external analyzer checks |
+| OPI light/alarm | Warning below a threshold | May not show gradual decline |
+| Live purity percent display | Continuous visible trend | Still needs service calibration |
+
+For home LTOT, live percent display is easier for caregivers to understand. A caregiver can notice that a machine that usually reads in the low-90s has started reading in the high-80s and call service before a crisis.
+
+## 5 LPM shortlist
+
+| Model | Purity-monitoring position | Buying note |
+| --- | --- | --- |
+| [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) | OPI plus live oxygen-purity percent display | Strong value pick where local service is confirmed |
+| [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/) | Indian-service tier with purity-monitoring positioning | Strong where Oxymed support is better locally |
+| [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/) | OPI alarm | Discontinued globally; verify stock age and spares |
+| [Nidek Nuvo Lite](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/) | OPI-equipped imported option | Buy only with fresh stock and service proof |
+| [DeVilbiss 525](/oxygen-concentrators/devilbiss-5-lpm/) | OPI-equipped imported option | Best for altitude when stock and service are verified |
+
+If the patient uses oxygen overnight or for 15+ hours per day, HHZ prefers an OPI-equipped unit unless the household has reliable access to external analyzer checks.
+
+## Who should prioritise this feature
+
+Prioritise OPI or live purity display when:
+
+- The patient has COPD, ILD, pulmonary hypertension, or long-term oxygen therapy.
+- Oxygen is used overnight.
+- The caregiver is not medically trained.
+- The machine will run in humid coastal cities.
+- The patient lives far from a service centre.
+- The household cannot easily rent a backup unit.
+
+For a short post-discharge rental of a few weeks, the dealer's maintenance program may matter more than the machine's display. For ownership, purity feedback becomes more important.
+
+## What to ask the seller
+
+Ask:
+
+1. Does this exact SKU have OPI, OCI, or live purity display?
+2. Is the purity reading visible to the caregiver?
+3. What alarm threshold is used?
+4. What should the caregiver do when the low-oxygen alarm appears?
+5. Is the oxygen sensor serviceable or replaceable?
+6. Can the dealer test purity at delivery?
+
+Do not assume a feature exists because another model from the same brand has it. Verify the exact SKU.
+
+## Bottom line
+
+An oxygen concentrator with purity display is not automatically better in every way, but for long-term Indian home oxygen it is a meaningful safety and maintenance feature. Home Medix HM-KV is the strongest value-spec 5 LPM option when its local service is confirmed; Oxymed Mini is the serious Indian-service alternative where its support route is stronger; imported OPI-equipped models remain viable only when stock age, warranty, and spares are proven.
+
+For full spec context, see the [5 LPM oxygen concentrator comparison](/guides/5-lpm-oxygen-concentrator-spec-comparison-india/).
+
+---
+
 # Which oxygen concentrator should you buy? The India buyer's guide (2026)
 
 Source: https://homehealthzone.com/guides/oxygen-concentrators-buyers-guide-india/
@@ -4340,6 +4692,16 @@ Before confirming the purchase:
 7. Spec a stabiliser at 1.5× the concentrator's VA rating.
 8. Register the serial number and retain the original invoice.
 
+## Buyer-risk checks before payment
+
+The final buying step is not selecting a model. It is proving that the specific unit, seller, and service route are safe for the patient's city. Use these HHZ checks before paying:
+
+- [Oxygen concentrator dealer near me: India buyer checklist](/guides/oxygen-concentrator-dealer-near-me-india/) — local dealer, same-day delivery, serial-number, and service proof.
+- [How to check if an oxygen concentrator is new or refurbished](/guides/how-to-check-new-vs-refurbished-oxygen-concentrator/) — old stock, demo stock, refurbished units, hour meters, and invoice checks.
+- [Oxygen concentrator spare parts and service cost in India](/guides/oxygen-concentrator-spare-parts-service-cost-india/) — compressor, sieve-bed, valve, PCB, filter, and loaner-unit questions.
+- [Philips EverFlo discontinued: India alternatives](/guides/philips-everflo-discontinued-india-alternatives/) — what to verify before buying EverFlo and which 5 LPM alternatives to compare.
+- [Oxygen concentrators with purity display in India](/guides/oxygen-concentrator-with-purity-display-india/) — OPI, OCI, and live oxygen-purity display guidance.
+
 Once the unit is at home, the next step is getting it through a voltage-stable supply and into a routine that respects the prescription. That is the subject of a separate clinical article — but the hardware choice is the decision you make only once, and it is the one this guide is here to help you get right.
 
 *This guide is editorial opinion and general information. It is not medical advice. Consult your physician for therapy decisions, and verify all specifications with the manufacturer before purchase.*
@@ -4443,6 +4805,98 @@ This is the setup we see work best for COPD and ILD patients with stable long-te
 
 ---
 
+# Philips EverFlo discontinued: India alternatives for 5 LPM buyers
+
+Source: https://homehealthzone.com/guides/philips-everflo-discontinued-india-alternatives/
+
+Philips EverFlo became the default Indian 5 LPM concentrator for a reason: it was light for its class, quiet enough for bedrooms, widely recognised by doctors, and supported by one of the deepest imported-brand service networks in India. That reputation still matters.
+
+But the buying question changed in 2026. A discontinued model can remain clinically capable while becoming a weaker purchase for a new long-term user. The risk is not that every EverFlo on sale is bad. The risk is that the buyer may be paying new-unit money for old stock, unclear warranty, weak future spares, or undisclosed refurbished inventory.
+
+## The decision in one line
+
+Do not buy a Philips EverFlo in India in 2026 unless the seller proves the unit's serial age, warranty validity, authorised service path, and spare-parts support in writing.
+
+If those checks fail, shortlist:
+
+- [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/) where local service is strongest.
+- [Home Medix HM-KV 5 LPM](/oxygen-concentrators/home-medix-5-lpm/) where authorised support is confirmed.
+- [Nidek Nuvo Lite](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/) if fresh imported stock and service are proven.
+- [AirSep VisionAire 5](/oxygen-concentrators/airsep-visionaire-5/) if efficiency and altitude headroom matter.
+- [DeVilbiss 525](/oxygen-concentrators/devilbiss-5-lpm/) if hill-station altitude is the binding spec.
+
+## Why discontinued status matters
+
+Oxygen concentrators are service-dependent devices. Over a multi-year prescription, common service events include filter replacement, sieve-bed degradation, compressor wear, valve failure, PCB faults, and flowmeter issues. A discontinued platform can still be repairable, but the buyer must ask whether parts will remain available for the expected ownership period.
+
+For a patient likely to use oxygen for 18 months or longer, spare availability is not an abstract concern. A three-week downtime window can force cylinder bridging, rental replacement, or hospital readmission.
+
+Read the broader [service-network guide](/guides/oxygen-concentrator-service-network-india/) before treating any imported unit as safe.
+
+## EverFlo still has strengths
+
+EverFlo's strengths are real:
+
+| Axis | EverFlo position |
+| --- | --- |
+| Weight | 14 kg, still manageable for caregivers |
+| Sound | 45 dB published class, usable if placed away from bed |
+| Power | 350 W published class |
+| OPI | Yes, oxygen purity indicator |
+| Doctor familiarity | Very high in India |
+| Legacy service network | Historically strong |
+
+Those strengths explain why EverFlo still appears in comparisons and dealer conversations. They do not remove the discontinued-stock problem.
+
+## The old-stock and refurbished risk
+
+Some Indian oxygen concentrator stock entered the market during the COVID demand spike. Not every old unit is defective, but old inventory creates three buyer problems:
+
+1. Warranty clock ambiguity.
+2. Unknown storage conditions.
+3. Higher chance of demo, return, rental, or refurbishment history.
+
+The seller may still call the unit "new" if it is unused by a patient. That is not enough. A buyer should ask whether the unit is fresh current-channel stock, old channel stock, demo stock, refurbished stock, or open-box stock.
+
+For deeper checks, use HHZ's guide to [checking new vs refurbished concentrators](/guides/how-to-check-new-vs-refurbished-oxygen-concentrator/).
+
+## Alternatives by buyer type
+
+| Buyer situation | Better shortlist |
+| --- | --- |
+| Delhi or Mumbai, service-first | Oxymed Mini first if local support is proven; Home Medix HM-KV second |
+| Pune, Bangalore, Chennai, Hyderabad, value-spec first | Home Medix HM-KV first if authorised service is confirmed |
+| Bedroom noise is the main issue | Home Medix HM-KV, Nidek Nuvo Lite, then EverFlo only if verified |
+| Hill-station use above 2,500 m | DeVilbiss 525 if fresh stock and service are verified |
+| Imported-brand preference | Nidek, AirSep, or DeVilbiss only with written stock-age and spares proof |
+| Long-term COPD or ILD oxygen | Prioritise new stock, service, and warranty over brand nostalgia |
+
+## What to ask an EverFlo seller
+
+Before paying for EverFlo, ask:
+
+- What is the serial number?
+- What is the manufacturing or import date?
+- Is warranty activated from my invoice date?
+- Is this fresh stock, old stock, demo stock, open-box, or refurbished?
+- Which authorised service centre will handle warranty?
+- Are compressor and sieve-bed spares available?
+- Will you provide those answers in writing?
+
+If the answer is "trust us", that is not enough for home oxygen.
+
+## Bottom line
+
+Philips EverFlo is still a known 5 LPM platform, but it should no longer be the automatic default for Indian buyers. In 2026, the safer buying frame is:
+
+1. Verify EverFlo stock and spares if you still want Philips.
+2. Compare against Oxymed Mini and Home Medix HM-KV in your city.
+3. Choose the machine with the best combination of fresh stock, local service, OPI/purity monitoring, warranty, and price.
+
+For ranked context, see HHZ's [Top 5 5 LPM oxygen concentrators](/top-5/5-lpm-oxygen-concentrators/) and [5 LPM spec comparison](/guides/5-lpm-oxygen-concentrator-spec-comparison-india/).
+
+---
+
 # Portable vs stationary: choosing the right concentrator
 
 Source: https://homehealthzone.com/guides/portable-vs-stationary-concentrator/
@@ -4515,6 +4969,72 @@ This is the setup we recommend most often when we are asked. It is not the cheap
 Portables are not worse devices than stationaries — they solve a different problem. The decision is not about quality. It is about matching the device to the life you actually lead.
 
 *This guide is editorial opinion and general information. It is not medical advice. Consult your physician for therapy decisions, and verify all specifications with the manufacturer before purchase.*
+
+---
+
+# Quiet and lightweight 5 LPM oxygen concentrators in India
+
+Source: https://homehealthzone.com/guides/quiet-lightweight-5-lpm-oxygen-concentrators-india/
+
+Many Indian buyers search separately for "quiet oxygen concentrator" and "lightweight oxygen concentrator", but in home use these are usually the same decision. The machine must be quiet enough for sleep and light enough for a caregiver to reposition without injury.
+
+This page combines the two existing HHZ topics: [low-noise oxygen concentrators](/guides/low-noise-oxygen-concentrators-india/) and [lightweight 5 LPM concentrators](/guides/lightweight-5-lpm-concentrators-india/). It is the buyer-facing shortlist for people who need both.
+
+## Quiet-lightweight shortlist
+
+| Model | Weight | Noise | Why it matters |
+| --- | ---: | ---: | --- |
+| [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) | 13 kg | <=40 dB field-verified | Best combined value-spec position where service is confirmed |
+| [Nidek Nuvo Lite](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/) | 13.6 kg | 40 dB | Strong imported bedroom option if fresh stock and service are proven |
+| [AirSep VisionAire 5](/oxygen-concentrators/airsep-visionaire-5/) | 13.6 kg | 45 dB | Efficient imported option; service and spares must be verified |
+| [Oxymed Mini 5 LPM](/oxygen-concentrators/oxymed-mini-5-lpm/) | 13.9 kg | 45 dB | Indian-service alternative where Oxymed support is strongest |
+| [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/) | 14 kg | 45 dB | Legacy benchmark, but discontinued status requires stock/spares checks |
+| [DeVilbiss 525](/oxygen-concentrators/devilbiss-5-lpm/) | 16.3 kg | 48 dB | Better for altitude than bedroom quietness |
+
+For most metro buyers, the decision is not purely spec-based. It is city-service based:
+
+- Pune, Bangalore, Chennai, Hyderabad: HM-KV first where local service is confirmed.
+- Delhi and Mumbai: Oxymed first where local service is stronger; HM-KV as the value-spec alternative.
+- Imported options: only when fresh stock and spares are proven.
+
+## Why weight matters
+
+A stationary concentrator is not meant to be carried daily, but Indian homes often require movement:
+
+- bedroom to living room,
+- one floor to another,
+- home to service centre,
+- patient home to caregiver home,
+- rental flat to another address.
+
+A 13-14 kg unit is materially easier to move than a 23-25 kg unit. The caregiver may be elderly, small-framed, or alone. Weight affects whether the prescription is followed consistently.
+
+## Why noise matters
+
+Oxygen prescriptions often include night use. A loud machine can reduce adherence because the patient or caregiver moves it too far away, switches it off, or avoids overnight use.
+
+Practical bedroom bands:
+
+| Noise band | Interpretation |
+| --- | --- |
+| <=40 dB | Strong bedroom candidate |
+| 41-45 dB | Usually acceptable with placement |
+| 46-50 dB | Better for daytime or adjacent-room placement |
+| Above 50 dB | Often disruptive in small bedrooms |
+
+Published dB numbers are not perfect. They may differ by flow setting, measurement distance, floor surface, room echo, and unit age. Still, they are useful for shortlisting.
+
+## The EverFlo caveat
+
+Philips EverFlo remains a recognised quiet-lightweight benchmark at 14 kg and 45 dB class, but discontinued status changes the purchase decision. A buyer considering EverFlo now should verify serial age, invoice date, warranty validity, authorised service, and spare availability.
+
+If those are not proven, do not treat EverFlo as the default. See [Philips EverFlo discontinued: India alternatives](/guides/philips-everflo-discontinued-india-alternatives/).
+
+## Bottom line
+
+For a quiet and lightweight 5 LPM concentrator in India, shortlist the 13-14 kg group first. Home Medix HM-KV has the strongest combined value-spec position where service is confirmed. Oxymed Mini is the service-first Indian alternative where Oxymed support is better locally. Nidek, AirSep, and DeVilbiss remain credible imported options only when stock age, service, and spares are proven.
+
+Do not buy a quiet machine that cannot be serviced, and do not buy a serviceable machine that is too loud for the patient to use overnight.
 
 ---
 
