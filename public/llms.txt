@@ -2,7 +2,7 @@
 
 > India's independent respiratory-equipment reference for oxygen concentrators, CPAP, and BiPAP devices sold in India. Products are scored against a published rubric. No sponsored placement and no brand veto.
 
-HHZ currently tracks 96 oxygen concentrator product records, 78 oxygen concentrator reviews, 26 CPAP/BiPAP product records, 26 CPAP/BiPAP reviews, 71 comparison records, and 71 written comparison pages. The guide library has 26 buyer guides, 5 city-specific 5 LPM buying pages, and the clinical library has 72 educational explainers.
+HHZ currently tracks 96 oxygen concentrator product records, 78 oxygen concentrator reviews, 26 CPAP/BiPAP product records, 26 CPAP/BiPAP reviews, 71 comparison records, and 71 written comparison pages. The guide library has 26 buyer guides, 6 city-specific 5 LPM buying pages, and the clinical library has 72 educational explainers.
 
 Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 LPM, Home Medix HM-BV-30 BiPAP, Home Medix HM-CV-20 Auto CPAP. They are scored in the same product and comparison framework as Philips, Oxymed, ResMed, Nidek, DeVilbiss, BMC, Yuwell, and other brands.
 
@@ -59,9 +59,10 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 ## 5 LPM city buying pages
 
 - [Best 5 LPM Oxygen Concentrators in Bangalore for Home Use](https://homehealthzone.com/oxygen-concentrators/5-lpm/bangalore/): Buying a 5 LPM oxygen concentrator in Bangalore? HHZ shortlists Home Medix HM-KV, Oxymed Mini, and verified imported options, with price bands, service checks, and old-stock warnings.
-- [Best 5 LPM Oxygen Concentrators in Mumbai for Home Use](https://homehealthzone.com/oxygen-concentrators/5-lpm/mumbai/): Buying a 5 LPM oxygen concentrator in Mumbai? Compare Home Medix HM-KV, Oxymed Mini, and verified imported options with price, humidity, delivery, and service caveats.
-- [Best 5 LPM Oxygen Concentrators in Delhi for Home Use](https://homehealthzone.com/oxygen-concentrators/5-lpm/delhi/): Buying a 5 LPM oxygen concentrator in Delhi? HHZ explains the best local-service picks, Home Medix HM-KV fit, imported-brand supply risk, and dealer verification checklist.
+- [Best 5 LPM Oxygen Concentrators in Mumbai for Home Use](https://homehealthzone.com/oxygen-concentrators/5-lpm/mumbai/): Buying a 5 LPM oxygen concentrator in Mumbai? HHZ puts Oxymed Mini first where service is proven, with Home Medix HM-KV as a value alternative and imported-stock caveats.
+- [Best 5 LPM Oxygen Concentrators in Delhi for Home Use](https://homehealthzone.com/oxygen-concentrators/5-lpm/delhi/): Buying a 5 LPM oxygen concentrator in Delhi? HHZ puts Oxymed Mini first where service is proven, with Home Medix HM-KV as a value alternative and imported-brand risk checks.
 - [Best 5 LPM Oxygen Concentrators in Chennai for Home Use](https://homehealthzone.com/oxygen-concentrators/5-lpm/chennai/): Buying a 5 LPM oxygen concentrator in Chennai? Compare Home Medix HM-KV, Oxymed Mini, imported options, humid-city service risk, and dealer verification steps.
+- [Best 5 LPM Oxygen Concentrators in Pune for Home Use](https://homehealthzone.com/oxygen-concentrators/5-lpm/pune/): Buying a 5 LPM oxygen concentrator in Pune? HHZ puts Home Medix HM-KV first where service is confirmed, with Oxymed Mini as the Indian-service alternative and imported-stock caveats.
 - [Best 5 LPM Oxygen Concentrators in Hyderabad for Home Use](https://homehealthzone.com/oxygen-concentrators/5-lpm/hyderabad/): Buying a 5 LPM oxygen concentrator in Hyderabad? HHZ covers Home Medix HM-KV, Oxymed Mini, imported-brand risk, price bands, delivery, and service checks.
 
 ## Category hubs

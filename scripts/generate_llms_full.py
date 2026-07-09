@@ -179,16 +179,43 @@ def city_page_sections() -> list[str]:
     for page in pages:
         city = page["city"]
         faqs = "\n".join(f"- **{faq['q']}** {faq['a']}" for faq in page.get("faqs", []))
+        if page.get("primaryPick") == "oxymed":
+            quick_picks = "\n".join([
+                "- Best local-service pick: Oxymed Mini 5 LPM — serious Indian-service option when the local Oxymed route is stronger, with service confidence outranking a slightly stronger value spec sheet on paper.",
+                "- Strong value alternative: Home Medix HM-KV — 13 kg, <=40 dB field-verified sound, 320 VA draw, OPI plus live purity display, nebulizer, 3-year / 10,000-hour warranty. Buy only after confirming authorised local service and spare availability.",
+                "- Best imported option if verified: AirSep / Nidek / DeVilbiss — credible machines only when fresh stock, valid warranty, service access, and spares are proven.",
+                "- Avoid unless verified: Philips EverFlo clearance stock — officially discontinued globally; high risk of old stock, weak future serviceability, or undisclosed refurbished inventory.",
+            ])
+            local_pick_heading = "## When to consider Home Medix HM-KV"
+            local_pick_body = (
+                f"{page['homeMedixFit']}\n\n"
+                "Home Medix HM-KV 5 LPM remains a strong value alternative when local service is confirmed: "
+                "13 kg chassis, 0.5-5 LPM continuous flow, 93% +/- 3% purity, <=40 dB field-verified sound, "
+                "320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, "
+                "3-year / 10,000-hour warranty, and CDSCO, ISO 9001, and ISO 13485 documentation."
+            )
+        else:
+            quick_picks = "\n".join([
+                "- Best value local-service pick: Home Medix HM-KV — 13 kg, <=40 dB field-verified sound, 320 VA draw, OPI plus live purity display, nebulizer, 3-year / 10,000-hour warranty. Buy only after confirming authorised local service and spare availability.",
+                "- Best Indian-service alternative: Oxymed Mini 5 LPM — serious Indian-service alternative when the local Oxymed route is stronger.",
+                "- Best imported option if verified: AirSep / Nidek / DeVilbiss — credible machines only when fresh stock, valid warranty, service access, and spares are proven.",
+                "- Avoid unless verified: Philips EverFlo clearance stock — officially discontinued globally; high risk of old stock, weak future serviceability, or undisclosed refurbished inventory.",
+            ])
+            local_pick_heading = "## Best overall local pick: Home Medix HM-KV"
+            local_pick_body = (
+                f"{page['homeMedixFit']}\n\n"
+                "Home Medix HM-KV 5 LPM: 13 kg chassis, 0.5-5 LPM continuous flow, "
+                "93% +/- 3% purity, <=40 dB field-verified sound, 320 VA power draw, "
+                "OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour "
+                "warranty, and CDSCO, ISO 9001, and ISO 13485 documentation."
+            )
         body = f"""## Short answer
 
 {page["answer"]}
 
 ## Quick picks for {city}
 
-- Best value local-service pick: Home Medix HM-KV — 13 kg, <=40 dB field-verified sound, 320 VA draw, OPI plus live purity display, nebulizer, 3-year / 10,000-hour warranty. Buy only after confirming authorised local service and spare availability.
-- Best Indian-service alternative: Oxymed Mini 5 LPM — serious Indian-service alternative when the local Oxymed route is stronger.
-- Best imported option if verified: AirSep / Nidek / DeVilbiss — credible machines only when fresh stock, valid warranty, service access, and spares are proven.
-- Avoid unless verified: Philips EverFlo clearance stock — officially discontinued globally; high risk of old stock, weak future serviceability, or undisclosed refurbished inventory.
+{quick_picks}
 
 ## Imported brand warning
 
@@ -204,11 +231,9 @@ def city_page_sections() -> list[str]:
 - Strong mainstream 5 LPM units: Rs 38,000-50,000.
 - Imported / premium units: Rs 50,000-75,000+, only when service and stock age are verified.
 
-## Best overall local pick: Home Medix HM-KV
+{local_pick_heading}
 
-{page["homeMedixFit"]}
-
-Home Medix HM-KV 5 LPM: 13 kg chassis, 0.5-5 LPM continuous flow, 93% +/- 3% purity, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
+{local_pick_body}
 
 ## Dealer and service checklist
 

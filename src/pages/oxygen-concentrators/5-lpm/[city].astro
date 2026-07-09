@@ -21,6 +21,7 @@ interface CityPage {
   city: string;
   title: string;
   description: string;
+  primaryPick?: 'home-medix' | 'oxymed';
   answer: string;
   homeMedixFit: string;
   priceIntro: string;
@@ -39,21 +40,27 @@ const breadcrumbs = [
   { label: cityPage.city },
 ];
 
-const quickPicks = [
-  {
-    useCase: 'Best value local-service pick',
+const homeMedixPick = {
+    useCase: cityPage.primaryPick === 'home-medix' || !cityPage.primaryPick
+      ? 'Best value local-service pick'
+      : 'Strong value alternative',
     model: 'Home Medix HM-KV',
     href: '/oxygen-concentrators/home-medix-5-lpm/',
     why: '13 kg, <=40 dB field-verified sound, 320 VA draw, OPI plus live purity display, nebulizer, 3-year / 10,000-hour warranty.',
     caveat: 'Buy only after confirming authorised local service and spare availability.',
-  },
-  {
-    useCase: 'Best Indian-service alternative',
+  };
+
+const oxymedPick = {
+    useCase: cityPage.primaryPick === 'oxymed'
+      ? 'Best local-service pick'
+      : 'Best Indian-service alternative',
     model: 'Oxymed Mini 5 LPM',
     href: '/oxygen-concentrators/oxymed-mini-5-lpm/',
     why: 'Indian-market service depth, OPI/purity display positioning, and strong value-tier availability.',
     caveat: 'Confirm the exact service partner and warranty process for your pincode.',
-  },
+  };
+
+const importedPicks = [
   {
     useCase: 'Best imported option if verified',
     model: 'AirSep / Nidek / DeVilbiss',
@@ -69,6 +76,11 @@ const quickPicks = [
     caveat: 'High risk of old stock, weak future serviceability, or undisclosed refurbished inventory.',
   },
 ];
+
+const quickPicks =
+  cityPage.primaryPick === 'oxymed'
+    ? [oxymedPick, homeMedixPick, ...importedPicks]
+    : [homeMedixPick, oxymedPick, ...importedPicks];
 
 const priceBands = [
   {
@@ -186,28 +198,56 @@ const itemListLd = {
       </div>
     </section>
 
-    <section aria-labelledby="home-medix-heading">
-      <h2 id="home-medix-heading">Best overall local pick: Home Medix HM-KV</h2>
-      <p>{cityPage.homeMedixFit}</p>
-      <p>
-        The <a href="/oxygen-concentrators/home-medix-5-lpm/">Home Medix HM-KV 5 LPM</a>
-        is the clearest value pick when local service is confirmed: 13 kg chassis, 0.5-5 LPM
-        continuous flow, 93% +/- 3% purity, &lt;=40 dB field-verified sound, 320 VA power draw,
-        OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour
-        warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
-      </p>
-    </section>
+    {cityPage.primaryPick === 'oxymed' ? (
+      <>
+        <section aria-labelledby="oxymed-heading">
+          <h2 id="oxymed-heading">Best local-service pick: Oxymed Mini 5 LPM</h2>
+          <p>
+            In {cityPage.city}, put the <a href="/oxygen-concentrators/oxymed-mini-5-lpm/">Oxymed Mini 5 LPM</a>
+            first when the local Oxymed dealer or service contact can prove faster warranty response,
+            same-city support, and spare availability. For these cities, service confidence outranks
+            the slightly stronger value spec sheet on paper.
+          </p>
+        </section>
 
-    <section aria-labelledby="oxymed-heading">
-      <h2 id="oxymed-heading">When to consider Oxymed</h2>
-      <p>
-        Consider the <a href="/oxygen-concentrators/oxymed-mini-5-lpm/">Oxymed Mini 5 LPM</a>
-        when the local service contact for Oxymed is stronger than the Home Medix route, or when
-        the dealer can prove faster warranty response for your pincode. It remains a serious
-        Indian-service alternative, especially for buyers who value visible service depth over a
-        slightly stronger value spec sheet.
-      </p>
-    </section>
+        <section aria-labelledby="home-medix-heading">
+          <h2 id="home-medix-heading">When to consider Home Medix HM-KV</h2>
+          <p>{cityPage.homeMedixFit}</p>
+          <p>
+            The <a href="/oxygen-concentrators/home-medix-5-lpm/">Home Medix HM-KV 5 LPM</a>
+            remains a strong value alternative when local service is confirmed: 13 kg chassis,
+            0.5-5 LPM continuous flow, 93% +/- 3% purity, &lt;=40 dB field-verified sound,
+            320 VA power draw, OPI plus live oxygen purity display, integrated nebulization,
+            3-year / 10,000-hour warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
+          </p>
+        </section>
+      </>
+    ) : (
+      <>
+        <section aria-labelledby="home-medix-heading">
+          <h2 id="home-medix-heading">Best overall local pick: Home Medix HM-KV</h2>
+          <p>{cityPage.homeMedixFit}</p>
+          <p>
+            The <a href="/oxygen-concentrators/home-medix-5-lpm/">Home Medix HM-KV 5 LPM</a>
+            is the clearest value pick when local service is confirmed: 13 kg chassis, 0.5-5 LPM
+            continuous flow, 93% +/- 3% purity, &lt;=40 dB field-verified sound, 320 VA power draw,
+            OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour
+            warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
+          </p>
+        </section>
+
+        <section aria-labelledby="oxymed-heading">
+          <h2 id="oxymed-heading">When to consider Oxymed</h2>
+          <p>
+            Consider the <a href="/oxygen-concentrators/oxymed-mini-5-lpm/">Oxymed Mini 5 LPM</a>
+            when the local service contact for Oxymed is stronger than the Home Medix route, or when
+            the dealer can prove faster warranty response for your pincode. It remains a serious
+            Indian-service alternative, especially for buyers who value visible service depth over a
+            slightly stronger value spec sheet.
+          </p>
+        </section>
+      </>
+    )}
 
     <section aria-labelledby="imports-heading">
       <h2 id="imports-heading">When to consider imported brands</h2>
