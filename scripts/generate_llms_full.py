@@ -162,6 +162,41 @@ def city_page_entries() -> list[dict[str, str]]:
     return entries
 
 
+CITY_SERVICE_INTENTS = {
+    "service": {
+        "title_prefix": "Oxygen Concentrator Service Centre",
+        "title_suffix": "Buyer Checklist",
+        "description": "pincode support, model service proof, compressor and sieve-bed spares, warranty handling, loaner units, and imported-brand risk",
+    },
+    "repair": {
+        "title_prefix": "Oxygen Concentrator Repair",
+        "title_suffix": "Cost and Service Checklist",
+        "description": "repair-cost categories, compressor and sieve-bed diagnosis, purity testing, warranty disputes, and repair-versus-replace decisions",
+    },
+    "dealers": {
+        "title_prefix": "Oxygen Concentrator Dealers",
+        "title_suffix": "What to Verify Before Buying",
+        "description": "GST invoice, serial-number checks, stock age, new-vs-refurbished risk, service proof, and spare availability",
+    },
+}
+
+
+def city_service_entries() -> list[dict[str, str]]:
+    path = SITE / "src/data/oxygenConcentratorCityPages.json"
+    if not path.exists():
+        return []
+    pages = json.loads(path.read_text(encoding="utf-8"))
+    entries: list[dict[str, str]] = []
+    for page in pages:
+        for intent, config in CITY_SERVICE_INTENTS.items():
+            entries.append({
+                "title": f"{config['title_prefix']} in {page['city']}: {config['title_suffix']}",
+                "description": f"City-specific oxygen concentrator {intent} guide for {page['city']}: {config['description']}.",
+                "url": f"{SITE_URL}/oxygen-concentrators/{intent}/{page['slug']}/",
+            })
+    return entries
+
+
 def city_page_sections() -> list[str]:
     path = SITE / "src/data/oxygenConcentratorCityPages.json"
     if not path.exists():
@@ -258,6 +293,120 @@ def city_page_sections() -> list[str]:
     return sections
 
 
+def city_service_sections() -> list[str]:
+    path = SITE / "src/data/oxygenConcentratorCityPages.json"
+    if not path.exists():
+        return []
+    pages = json.loads(path.read_text(encoding="utf-8"))
+    sections: list[str] = []
+    for page in pages:
+        city = page["city"]
+        primary_is_oxymed = page.get("primaryPick") == "oxymed"
+        primary = "Oxymed Mini 5 LPM" if primary_is_oxymed else "Home Medix HM-KV"
+        secondary = "Home Medix HM-KV" if primary_is_oxymed else "Oxymed Mini 5 LPM"
+        model_order = (
+            f"{primary} first where local service is proven, then {secondary}, "
+            "with Philips EverFlo, Nidek, AirSep, and DeVilbiss considered only after "
+            "stock age, warranty, and spare availability are verified."
+        )
+        imported_warning = (
+            "Imported 5 LPM concentrators need extra verification in India. Philips EverFlo has been "
+            "officially discontinued globally. AirSep, DeVilbiss, Nidek, and Philips units may still "
+            "be good machines, but supply is limited and spare availability can be weak. Some units "
+            "sold as \"new\" may be old COVID-era stock, demo/open-box inventory, or refurbished stock."
+        )
+
+        for intent, config in CITY_SERVICE_INTENTS.items():
+            title = f"{config['title_prefix']} in {city}: {config['title_suffix']}"
+            url = f"{SITE_URL}/oxygen-concentrators/{intent}/{page['slug']}/"
+            if intent == "service":
+                short_answer = (
+                    f"For oxygen concentrator service in {city}, verify the exact pincode service route "
+                    f"for {model_order} Ask who handles compressor, sieve-bed, valve, PCB, filter, "
+                    "and oxygen-sensor repairs for the exact model."
+                )
+                checks = [
+                    "Named service centre or technician for the buyer pincode.",
+                    "Compressor, sieve-bed, valve, PCB, filter, flowmeter, and OPI/oxygen-sensor spares.",
+                    "Written warranty path, home visit availability, shipping responsibility, and repair turnaround.",
+                    "Loaner unit, rental bridge, cylinder backup, or second-unit backup for oxygen-dependent patients.",
+                ]
+            elif intent == "repair":
+                short_answer = (
+                    f"For oxygen concentrator repair in {city}, do not approve work until the technician "
+                    "identifies whether the failure is filter, flowmeter, valve, PCB, sieve-bed, compressor, "
+                    f"or oxygen-sensor related. For 5 LPM ownership, compare {model_order}"
+                )
+                checks = [
+                    "Require diagnosis before approving a generic repair quote.",
+                    "Ask for oxygen purity and outlet-pressure testing before and after repair.",
+                    "Treat sieve-bed and compressor replacement as major repairs.",
+                    "Replace the machine instead of repairing when the unit is old stock, refurbished, or has uncertain spares.",
+                ]
+            else:
+                short_answer = (
+                    f"For oxygen concentrator dealers in {city}, verify GST invoice with serial number, "
+                    "stock age, warranty start date, authorised service proof, and spare-parts availability "
+                    f"before payment. For 5 LPM buying, compare {model_order}"
+                )
+                checks = [
+                    "GST invoice with the exact machine serial number.",
+                    "Manufacturing/import date, box label, hour-meter reading if available, and stock-condition disclosure.",
+                    "Written confirmation that the unit is fresh, old stock, demo/open-box, or refurbished.",
+                    "Service-centre contact, warranty approval route, and compressor/sieve-bed availability.",
+                ]
+
+            body = f"""## Short answer
+
+{short_answer}
+
+## {config['title_prefix']} reality in {city}
+
+In {city}, oxygen concentrator decisions should be made by pincode-level service proof, not by brand reputation alone. The buyer should know who will diagnose the machine, who will open it during warranty, whether major parts are locally available, and how the patient will receive oxygen if the unit is down for repair.
+
+{page['homeMedixFit']}
+
+{page['importedContext']}
+
+## Models to verify
+
+- {primary}: first local-service check in this city. Verify authorised service, warranty handling, compressor spares, and sieve-bed support.
+- {secondary}: serious alternative when its local service route is stronger or better documented.
+- Philips EverFlo: imported legacy option; verify serial age, invoice date, discontinued-stock status, warranty validity, and future spare availability.
+- Nidek / AirSep / DeVilbiss: imported options only when fresh stock, authorised service, and compressor/sieve-bed support are proven in writing.
+
+## Imported-brand warning
+
+{imported_warning}
+
+Before paying, ask for serial-number age, invoice date, warranty confirmation, authorised-service proof, and spare-parts availability in writing.
+
+## Checks before payment or repair
+
+{chr(10).join(f"- {check}" for check in checks)}
+
+## Delivery and documentation
+
+{page['deliveryText']}
+
+- Match the serial number on the machine, box, and GST invoice.
+- Photograph the serial label and box label before first use.
+- Record the first startup and hour-meter reading if the model exposes one.
+- Save service-centre contact and warranty registration proof.
+- Ask for oxygen-purity testing at delivery or after repair whenever possible.
+
+## Related HHZ pages
+
+- [Best 5 LPM oxygen concentrators in {city}](/oxygen-concentrators/5-lpm/{page['slug']}/)
+- [Oxygen concentrator service centre near me](/guides/oxygen-concentrator-service-centre-near-me-india/)
+- [Oxygen concentrator repair cost in India](/guides/oxygen-concentrator-repair-cost-india/)
+- [Warranty and serial-number check](/guides/oxygen-concentrator-warranty-serial-number-check-india/)
+- [Spare parts and service cost](/guides/oxygen-concentrator-spare-parts-service-cost-india/)
+"""
+            sections.append(section(url, title, body))
+    return sections
+
+
 def generate_llms_index() -> str:
     products_dir = SITE / "src/content/products"
     cpap_bipap_dir = SITE / "src/content/cpap-bipap"
@@ -277,6 +426,7 @@ def generate_llms_index() -> str:
     comparison_writeup_count = count_files(comparison_writeups_dir, "mdx")
     guide_entries = content_entries(guides_dir, "/guides/")
     city_entries = city_page_entries()
+    city_service_intent_entries = city_service_entries()
     clinical_count = count_files(clinical_dir, "mdx")
     top5_entries = content_entries(top5_dir, "/top-5/")
 
@@ -295,7 +445,8 @@ def generate_llms_index() -> str:
             f"product records, {cpap_review_count} CPAP/BiPAP reviews, {comparison_count} "
             f"comparison records, and {comparison_writeup_count} written comparison pages. "
             f"The guide library has {len(guide_entries)} buyer guides, {len(city_entries)} city-specific "
-            f"5 LPM buying pages, and the clinical library has "
+            f"5 LPM buying pages, {len(city_service_intent_entries)} city service/dealer/repair pages, "
+            f"and the clinical library has "
             f"{clinical_count} educational explainers."
         ),
         "",
@@ -324,6 +475,11 @@ def generate_llms_index() -> str:
 
     lines += ["", "## 5 LPM city buying pages", ""]
     for entry in city_entries:
+        suffix = f": {entry['description']}" if entry["description"] else ""
+        lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
+
+    lines += ["", "## City service, repair, and dealer pages", ""]
+    for entry in city_service_intent_entries:
         suffix = f": {entry['description']}" if entry["description"] else ""
         lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
 
@@ -391,6 +547,9 @@ def main() -> int:
 
     # City-specific 5 LPM buying pages generated from src/data/
     parts += city_page_sections()
+
+    # City-specific service, dealer, and repair intent pages generated from src/data/
+    parts += city_service_sections()
 
     # Clinical articles
     parts += read_mdx_sections(SITE / "src/content/clinical", "/clinical/")

@@ -1,0 +1,397 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import FAQSection from '../../../components/FAQSection.astro';
+import cityPages from '../../../data/oxygenConcentratorCityPages.json';
+
+const intentConfigs = {
+  service: {
+    label: 'Service',
+    titlePrefix: 'Oxygen Concentrator Service Centre',
+    h1: (city: string) => `Oxygen Concentrator Service Centre in ${city}: Buyer Checklist`,
+    description: (city: string) =>
+      `How to verify oxygen concentrator service centres in ${city}: pincode support, Home Medix and Oxymed service proof, imported-brand spares, warranty, and loaner checks.`,
+    eyebrow: 'oxygen concentrator service centre guide',
+    answer: (cityPage: CityPage) =>
+      `For oxygen concentrator service in ${cityPage.city}, HHZ would first verify the exact pincode service route for ${cityPage.primaryPick === 'oxymed' ? 'Oxymed Mini 5 LPM and Home Medix HM-KV' : 'Home Medix HM-KV and Oxymed Mini 5 LPM'}, then check whether compressor, sieve-bed, valve, PCB, and oxygen-sensor support is available locally. Imported models such as Philips EverFlo, Nidek, AirSep, and DeVilbiss should be serviced or bought only after spare-parts and warranty continuity are confirmed in writing, because EverFlo is discontinued globally and imported supply in India can include old stock or refurbished units.`,
+  },
+  repair: {
+    label: 'Repair',
+    titlePrefix: 'Oxygen Concentrator Repair',
+    h1: (city: string) => `Oxygen Concentrator Repair in ${city}: Cost and Service Checklist`,
+    description: (city: string) =>
+      `Oxygen concentrator repair guide for ${city}: compressor, sieve bed, valve, PCB, filter, purity testing, loaner units, warranty disputes, and repair-versus-replace checks.`,
+    eyebrow: 'oxygen concentrator repair guide',
+    answer: (cityPage: CityPage) =>
+      `For oxygen concentrator repair in ${cityPage.city}, do not approve work until the technician identifies whether the issue is filter, flowmeter, valve, PCB, sieve-bed, compressor, or oxygen-sensor related. The safest repair path includes purity testing before and after repair, written part details, and a loaner or backup oxygen plan. For 5 LPM ownership, compare ${cityPage.primaryPick === 'oxymed' ? 'Oxymed Mini first where local service is proven, then Home Medix HM-KV' : 'Home Medix HM-KV first where local service is proven, then Oxymed Mini'}; imported machines need stronger spare-parts proof.`,
+  },
+  dealers: {
+    label: 'Dealers',
+    titlePrefix: 'Oxygen Concentrator Dealers',
+    h1: (city: string) => `Oxygen Concentrator Dealers in ${city}: What to Verify Before Buying`,
+    description: (city: string) =>
+      `How to choose oxygen concentrator dealers in ${city}: GST invoice, serial number, new-vs-refurbished checks, Home Medix and Oxymed service proof, and imported-brand warnings.`,
+    eyebrow: 'oxygen concentrator dealer checklist',
+    answer: (cityPage: CityPage) =>
+      `For oxygen concentrator dealers in ${cityPage.city}, HHZ would verify GST invoice with serial number, stock age, warranty start date, authorised service proof, and spare-parts availability before payment. ${cityPage.primaryPick === 'oxymed' ? 'Oxymed Mini should be checked first where the local dealer has stronger support, with Home Medix HM-KV as the value-spec alternative.' : 'Home Medix HM-KV should be checked first where authorised local service is confirmed, with Oxymed Mini as the Indian-service alternative.'} Philips EverFlo and other imported models need extra scrutiny because EverFlo is discontinued globally and some Indian channel stock may be old COVID-era, open-box, or refurbished.`,
+  },
+} as const;
+
+type Intent = keyof typeof intentConfigs;
+
+export function getStaticPaths() {
+  return (['service', 'repair', 'dealers'] as Intent[]).flatMap((intent) =>
+    cityPages.map((cityPage) => ({
+      params: { intent, city: cityPage.slug },
+      props: { intent, cityPage },
+    }))
+  );
+}
+
+interface FAQItem {
+  q: string;
+  a: string;
+}
+
+interface CityPage {
+  slug: string;
+  city: string;
+  primaryPick?: 'home-medix' | 'oxymed';
+  homeMedixFit: string;
+  deliveryText: string;
+  importedContext: string;
+}
+
+const { intent, cityPage } = Astro.props as { intent: Intent; cityPage: CityPage };
+const config = intentConfigs[intent];
+const canonicalPath = `/oxygen-concentrators/${intent}/${cityPage.slug}/`;
+const canonicalURL = new URL(canonicalPath, Astro.site).toString();
+
+const breadcrumbs = [
+  { href: '/', label: 'Home' },
+  { href: '/oxygen-concentrators/', label: 'Oxygen concentrators' },
+  { label: config.label },
+  { label: cityPage.city },
+];
+
+const primaryModel =
+  cityPage.primaryPick === 'oxymed'
+    ? {
+        name: 'Oxymed Mini 5 LPM',
+        href: '/oxygen-concentrators/oxymed-mini-5-lpm/',
+        role: 'First local-service check',
+        serviceNote: 'Put first when the local Oxymed dealer can prove fast service response, warranty handling, and compressor/sieve-bed support.',
+      }
+    : {
+        name: 'Home Medix HM-KV',
+        href: '/oxygen-concentrators/home-medix-5-lpm/',
+        role: 'First local-service check',
+        serviceNote: 'Put first when authorised Home Medix support is confirmed for the buyer pincode.',
+      };
+
+const secondaryModel =
+  cityPage.primaryPick === 'oxymed'
+    ? {
+        name: 'Home Medix HM-KV',
+        href: '/oxygen-concentrators/home-medix-5-lpm/',
+        role: 'Strong value-spec alternative',
+        serviceNote: '13 kg, 40 dB or lower field-verified sound, 320 VA, OPI plus live purity display, nebulizer, and 3-year / 10,000-hour warranty.',
+      }
+    : {
+        name: 'Oxymed Mini 5 LPM',
+        href: '/oxygen-concentrators/oxymed-mini-5-lpm/',
+        role: 'Indian-service alternative',
+        serviceNote: 'Use when the local Oxymed service route is faster or better documented than the Home Medix route.',
+      };
+
+const modelRows = [
+  primaryModel,
+  secondaryModel,
+  {
+    name: 'Philips EverFlo',
+    href: '/oxygen-concentrators/philips-everflo-5-lpm/',
+    role: 'Imported legacy option',
+    serviceNote: 'Verify serial age, invoice date, discontinued-stock status, warranty validity, and future spare availability.',
+  },
+  {
+    name: 'Nidek / AirSep / DeVilbiss',
+    href: '/top-5/5-lpm-oxygen-concentrators/',
+    role: 'Imported option if verified',
+    serviceNote: 'Consider only when fresh stock, authorised service, and compressor/sieve-bed support are proven in writing.',
+  },
+];
+
+const verificationRows = [
+  ['Pincode support', `Named service contact or dealer route for ${cityPage.city}, not generic national support.`],
+  ['Major spares', 'Compressor, sieve beds, solenoid valves, filters, flowmeter, PCB, and OPI/oxygen-sensor parts.'],
+  ['Warranty path', 'Who approves claims, who opens the machine, who pays shipping, and what exclusions apply.'],
+  ['Loaner or backup', 'Loaner concentrator, rental bridge, cylinder backup, or second unit for oxygen-dependent patients.'],
+  ['Stock condition', 'Serial-number age, manufacturing/import date, box condition, hour meter, and refurbished/demo disclosure.'],
+];
+
+const repairRows = [
+  ['Filters and bottles', 'Low-cost consumables; should be locally available.'],
+  ['Flowmeter or tubing faults', 'Usually routine service, but must restore accurate flow.'],
+  ['Valve or PCB faults', 'Require trained diagnosis; can mimic sieve or compressor failure.'],
+  ['Sieve-bed replacement', 'Major purity repair; require analyzer testing before and after repair.'],
+  ['Compressor replacement', 'Major mechanical repair; verify part source and replacement warranty.'],
+];
+
+const dealerQuestions = [
+  'Will the GST invoice include the exact serial number?',
+  'What is the manufacturing or import date for this unit?',
+  'Is the unit fresh stock, old stock, demo, open-box, or refurbished?',
+  'Who handles warranty approval in this city?',
+  'Where is the nearest service centre or service technician?',
+  'Are compressor and sieve-bed spares locally available?',
+  'Can you test oxygen purity at delivery?',
+  'Will you give service and spare-parts answers in writing?',
+];
+
+const intentFaqs: Record<Intent, FAQItem[]> = {
+  service: [
+    {
+      q: `How do I find an oxygen concentrator service centre in ${cityPage.city}?`,
+      a: `Ask the seller for the named service centre or technician serving your pincode in ${cityPage.city}, then confirm that the centre handles your exact model and stocks compressor, sieve-bed, valve, PCB, and filter spares.`,
+    },
+    {
+      q: `Which 5 LPM oxygen concentrator has better service in ${cityPage.city}?`,
+      a:
+        cityPage.primaryPick === 'oxymed'
+          ? `HHZ would check Oxymed Mini first in ${cityPage.city} where local service is proven, then Home Medix HM-KV as the stronger value-spec alternative. Both need written pincode-level support proof.`
+          : `HHZ would check Home Medix HM-KV first in ${cityPage.city} where authorised local service is confirmed, with Oxymed Mini as the Indian-service alternative. Both need written support proof.`,
+    },
+    {
+      q: `Should I service Philips EverFlo in ${cityPage.city}?`,
+      a: `Only through a route that can prove parts and warranty continuity. EverFlo is discontinued globally, so ${cityPage.city} buyers should verify serial age, spare availability, and whether the unit is old or refurbished stock.`,
+    },
+  ],
+  repair: [
+    {
+      q: `What is the oxygen concentrator repair cost in ${cityPage.city}?`,
+      a: `Repair cost depends on the failed part and warranty status. Filters and bottles are minor, valve or PCB work is moderate, and sieve-bed or compressor replacement is major. Ask for diagnosis and post-repair purity testing before approving work.`,
+    },
+    {
+      q: `Should I repair or replace an oxygen concentrator in ${cityPage.city}?`,
+      a: `Repair is reasonable when parts are available, the unit is not too old, and purity can be verified after repair. Replacement is safer when compressor and sieve issues appear together, spares are uncertain, or downtime is risky.`,
+    },
+    {
+      q: `Can imported oxygen concentrators be repaired easily in ${cityPage.city}?`,
+      a: `Only if the service route has proven parts. Philips EverFlo, AirSep, Nidek, and DeVilbiss can be good machines, but Indian repair confidence depends on fresh stock, spare availability, and authorised support.`,
+    },
+  ],
+  dealers: [
+    {
+      q: `How do I choose an oxygen concentrator dealer in ${cityPage.city}?`,
+      a: `Choose a dealer who provides GST invoice with serial number, warranty start date, stock-age disclosure, service-centre contact, and written confirmation of compressor and sieve-bed spare availability.`,
+    },
+    {
+      q: `Can oxygen concentrators sold as new in ${cityPage.city} be old stock?`,
+      a: `Yes. Ask for serial-number age, manufacturing or import date, hour-meter reading if available, and written confirmation that the unit is not demo, open-box, old COVID-era stock, or refurbished.`,
+    },
+    {
+      q: `Which dealer should I choose for Home Medix or Oxymed in ${cityPage.city}?`,
+      a: `Choose the dealer who can prove authorised service, spare availability, warranty handling, and delivery documentation for the exact model. Do not choose only by the lowest quote.`,
+    },
+  ],
+};
+
+const serviceActions =
+  intent === 'repair'
+    ? repairRows
+    : intent === 'dealers'
+      ? dealerQuestions.map((question) => ['Dealer question', question])
+      : verificationRows;
+
+const itemListLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `${config.titlePrefix} in ${cityPage.city}`,
+  itemListElement: modelRows.map((row, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: row.name,
+    url: new URL(row.href, Astro.site).toString(),
+    description: `${row.role}. ${row.serviceNote}`,
+  })),
+};
+---
+<BaseLayout title={config.h1(cityPage.city)} description={config.description(cityPage.city)} canonicalURL={canonicalURL}>
+  <article class="city-service-page">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <header class="city-header">
+      <p class="eyebrow">{config.eyebrow}</p>
+      <h1>{config.h1(cityPage.city)}</h1>
+      <p class="meta-line">Reviewed by HHZ Editorial for Indian home oxygen buyers</p>
+    </header>
+
+    <section class="answer-block" aria-label="Short answer">
+      <p>{config.answer(cityPage)}</p>
+    </section>
+
+    <section aria-labelledby="city-frame-heading">
+      <h2 id="city-frame-heading">{config.label} reality in {cityPage.city}</h2>
+      <p>
+        In {cityPage.city}, oxygen concentrator decisions should be made by pincode-level service proof,
+        not by brand reputation alone. The buyer should know who will diagnose the machine, who will open it
+        during warranty, whether major parts are locally available, and how the patient will receive oxygen if
+        the unit is down for repair.
+      </p>
+      <p>{cityPage.homeMedixFit}</p>
+      <p>{cityPage.importedContext}</p>
+    </section>
+
+    <section aria-labelledby="models-heading">
+      <h2 id="models-heading">Models to verify in {cityPage.city}</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Model</th>
+              <th>Role</th>
+              <th>{config.label} note</th>
+            </tr>
+          </thead>
+          <tbody>
+            {modelRows.map((row) => (
+              <tr>
+                <td><a href={row.href}>{row.name}</a></td>
+                <td>{row.role}</td>
+                <td>{row.serviceNote}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <aside class="warning-box" aria-labelledby="imported-warning-heading">
+      <h2 id="imported-warning-heading">Imported-brand warning for {cityPage.city}</h2>
+      <p>
+        Imported 5 LPM concentrators need extra verification in India. Philips EverFlo has been officially
+        discontinued globally. AirSep, DeVilbiss, Nidek, and Philips units may still be good machines, but supply
+        is limited and spare availability can be weak. Some units sold as "new" may be old COVID-era stock,
+        demo/open-box inventory, or refurbished stock.
+      </p>
+      <p>
+        Before paying, ask for serial-number age, invoice date, warranty confirmation, authorised-service proof,
+        and spare-parts availability in writing.
+      </p>
+    </aside>
+
+    <section aria-labelledby="checks-heading">
+      <h2 id="checks-heading">
+        {intent === 'repair' ? 'Repair checks before approval' : intent === 'dealers' ? 'Dealer checks before payment' : 'Service-centre checks before buying'}
+      </h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>{intent === 'dealers' ? 'Check' : 'Area'}</th>
+              <th>What HHZ would verify</th>
+            </tr>
+          </thead>
+          <tbody>
+            {serviceActions.map(([area, note]) => (
+              <tr>
+                <td>{area}</td>
+                <td>{note}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="handoff-heading">
+      <h2 id="handoff-heading">Delivery and documentation</h2>
+      <p>{cityPage.deliveryText}</p>
+      <ul class="checklist">
+        <li>Match the serial number on the machine, box, and GST invoice.</li>
+        <li>Photograph the serial label and box label before first use.</li>
+        <li>Record the first startup and hour-meter reading if the model exposes one.</li>
+        <li>Save the service-centre contact and warranty registration proof.</li>
+        <li>Ask for oxygen-purity testing at delivery or after repair whenever possible.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="related-heading">
+      <h2 id="related-heading">Related HHZ pages</h2>
+      <ul>
+        <li><a href={`/oxygen-concentrators/5-lpm/${cityPage.slug}/`}>Best 5 LPM oxygen concentrators in {cityPage.city}</a></li>
+        <li><a href={`/oxygen-concentrators/service/${cityPage.slug}/`}>Oxygen concentrator service centre in {cityPage.city}</a></li>
+        <li><a href={`/oxygen-concentrators/repair/${cityPage.slug}/`}>Oxygen concentrator repair in {cityPage.city}</a></li>
+        <li><a href={`/oxygen-concentrators/dealers/${cityPage.slug}/`}>Oxygen concentrator dealers in {cityPage.city}</a></li>
+        <li><a href="/guides/oxygen-concentrator-service-centre-near-me-india/">Oxygen concentrator service centre near me</a></li>
+        <li><a href="/guides/oxygen-concentrator-repair-cost-india/">Oxygen concentrator repair cost in India</a></li>
+        <li><a href="/guides/oxygen-concentrator-warranty-serial-number-check-india/">Warranty and serial-number check</a></li>
+        <li><a href="/guides/oxygen-concentrator-spare-parts-service-cost-india/">Spare parts and service cost</a></li>
+      </ul>
+    </section>
+
+    <FAQSection faqs={intentFaqs[intent]} heading={`${config.label} questions in ${cityPage.city}`} />
+  </article>
+
+  <script type="application/ld+json" set:html={JSON.stringify(itemListLd)} />
+</BaseLayout>
+
+<style>
+  .city-service-page {
+    max-width: 980px;
+  }
+  .city-header {
+    margin-bottom: var(--space-6);
+  }
+  .eyebrow {
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+  .answer-block {
+    border-left: 3px solid var(--color-accent);
+    background: var(--color-data-bg);
+    padding: var(--space-4) var(--space-5);
+    margin: 0 0 var(--space-7);
+  }
+  .answer-block p {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+  }
+  .warning-box {
+    border: 1px solid var(--color-border);
+    border-left: 4px solid #b42318;
+    background: #fff7ed;
+    padding: var(--space-5);
+    margin: var(--space-7) 0;
+  }
+  .warning-box h2 {
+    margin-top: 0;
+  }
+  .table-scroll {
+    overflow-x: auto;
+    margin: var(--space-4) 0 var(--space-7);
+  }
+  table {
+    width: 100%;
+    min-width: 760px;
+    border-collapse: collapse;
+    font-size: var(--text-sm);
+  }
+  th,
+  td {
+    border: 1px solid var(--color-border);
+    padding: var(--space-3);
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: var(--color-surface-muted);
+  }
+  .checklist li {
+    margin-bottom: var(--space-2);
+  }
+</style>
