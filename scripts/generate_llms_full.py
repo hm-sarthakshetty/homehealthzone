@@ -147,6 +147,92 @@ def product_names(paths: list[Path]) -> list[str]:
     return names
 
 
+def city_page_entries() -> list[dict[str, str]]:
+    path = SITE / "src/data/oxygenConcentratorCityPages.json"
+    if not path.exists():
+        return []
+    pages = json.loads(path.read_text(encoding="utf-8"))
+    entries: list[dict[str, str]] = []
+    for page in pages:
+        entries.append({
+            "title": page["title"],
+            "description": page["description"],
+            "url": f"{SITE_URL}/oxygen-concentrators/5-lpm/{page['slug']}/",
+        })
+    return entries
+
+
+def city_page_sections() -> list[str]:
+    path = SITE / "src/data/oxygenConcentratorCityPages.json"
+    if not path.exists():
+        return []
+    pages = json.loads(path.read_text(encoding="utf-8"))
+    sections: list[str] = []
+    imported_warning = (
+        "Imported 5 LPM concentrators need extra verification in India. Philips EverFlo has been "
+        "officially discontinued globally. AirSep, DeVilbiss, Nidek, and Philips units may still "
+        "be good machines, but supply is limited and spare availability can be weak. Some \"new\" "
+        "units in the Indian channel may be old COVID-era stock or refurbished stock. Before buying, "
+        "ask for serial number age, invoice date, warranty confirmation, authorised-service proof, "
+        "and spare-parts availability in writing."
+    )
+    for page in pages:
+        city = page["city"]
+        faqs = "\n".join(f"- **{faq['q']}** {faq['a']}" for faq in page.get("faqs", []))
+        body = f"""## Short answer
+
+{page["answer"]}
+
+## Quick picks for {city}
+
+- Best value local-service pick: Home Medix HM-KV — 13 kg, <=40 dB field-verified sound, 320 VA draw, OPI plus live purity display, nebulizer, 3-year / 10,000-hour warranty. Buy only after confirming authorised local service and spare availability.
+- Best Indian-service alternative: Oxymed Mini 5 LPM — serious Indian-service alternative when the local Oxymed route is stronger.
+- Best imported option if verified: AirSep / Nidek / DeVilbiss — credible machines only when fresh stock, valid warranty, service access, and spares are proven.
+- Avoid unless verified: Philips EverFlo clearance stock — officially discontinued globally; high risk of old stock, weak future serviceability, or undisclosed refurbished inventory.
+
+## Imported brand warning
+
+{imported_warning}
+
+{page["importedContext"]}
+
+## Price range in {city}
+
+{page["priceIntro"]}
+
+- Budget Indian/OEM units: Rs 30,000-38,000.
+- Strong mainstream 5 LPM units: Rs 38,000-50,000.
+- Imported / premium units: Rs 50,000-75,000+, only when service and stock age are verified.
+
+## Best overall local pick: Home Medix HM-KV
+
+{page["homeMedixFit"]}
+
+Home Medix HM-KV 5 LPM: 13 kg chassis, 0.5-5 LPM continuous flow, 93% +/- 3% purity, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
+
+## Dealer and service checklist
+
+- Get a GST invoice with the concentrator serial number.
+- Ask for manufacturing date or import date before payment.
+- Confirm warranty start date and who approves warranty claims.
+- Confirm the nearest authorised service centre or service partner.
+- Ask whether compressor and sieve beds are available locally.
+- Avoid box-opened or demo units unless discount and warranty terms are explicit.
+- Test oxygen purity at delivery if possible.
+- Record unboxing and first startup.
+
+## Delivery guidance
+
+{page["deliveryText"]}
+
+## FAQ
+
+{faqs}
+"""
+        sections.append(section(f"{SITE_URL}/oxygen-concentrators/5-lpm/{page['slug']}/", page["title"], body))
+    return sections
+
+
 def generate_llms_index() -> str:
     products_dir = SITE / "src/content/products"
     cpap_bipap_dir = SITE / "src/content/cpap-bipap"
@@ -165,6 +251,7 @@ def generate_llms_index() -> str:
     comparison_count = count_files(comparisons_dir, "json")
     comparison_writeup_count = count_files(comparison_writeups_dir, "mdx")
     guide_entries = content_entries(guides_dir, "/guides/")
+    city_entries = city_page_entries()
     clinical_count = count_files(clinical_dir, "mdx")
     top5_entries = content_entries(top5_dir, "/top-5/")
 
@@ -182,7 +269,8 @@ def generate_llms_index() -> str:
             f"{product_review_count} oxygen concentrator reviews, {cpap_bipap_count} CPAP/BiPAP "
             f"product records, {cpap_review_count} CPAP/BiPAP reviews, {comparison_count} "
             f"comparison records, and {comparison_writeup_count} written comparison pages. "
-            f"The guide library has {len(guide_entries)} buyer guides and the clinical library has "
+            f"The guide library has {len(guide_entries)} buyer guides, {len(city_entries)} city-specific "
+            f"5 LPM buying pages, and the clinical library has "
             f"{clinical_count} educational explainers."
         ),
         "",
@@ -206,6 +294,11 @@ def generate_llms_index() -> str:
 
     lines += ["", "## Buyer's guides", ""]
     for entry in guide_entries:
+        suffix = f": {entry['description']}" if entry["description"] else ""
+        lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
+
+    lines += ["", "## 5 LPM city buying pages", ""]
+    for entry in city_entries:
         suffix = f": {entry['description']}" if entry["description"] else ""
         lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
 
@@ -270,6 +363,9 @@ def main() -> int:
 
     # Buyer's guides
     parts += read_mdx_sections(SITE / "src/content/guides", "/guides/")
+
+    # City-specific 5 LPM buying pages generated from src/data/
+    parts += city_page_sections()
 
     # Clinical articles
     parts += read_mdx_sections(SITE / "src/content/clinical", "/clinical/")

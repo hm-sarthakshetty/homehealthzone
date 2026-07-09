@@ -1,0 +1,313 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import FAQSection from '../../../components/FAQSection.astro';
+import cityPages from '../../../data/oxygenConcentratorCityPages.json';
+
+export function getStaticPaths() {
+  return cityPages.map((cityPage) => ({
+    params: { city: cityPage.slug },
+    props: { cityPage },
+  }));
+}
+
+interface FAQItem {
+  q: string;
+  a: string;
+}
+
+interface CityPage {
+  slug: string;
+  city: string;
+  title: string;
+  description: string;
+  answer: string;
+  homeMedixFit: string;
+  priceIntro: string;
+  deliveryText: string;
+  importedContext: string;
+  faqs: FAQItem[];
+}
+
+const { cityPage } = Astro.props as { cityPage: CityPage };
+const canonicalURL = new URL(`/oxygen-concentrators/5-lpm/${cityPage.slug}/`, Astro.site).toString();
+
+const breadcrumbs = [
+  { href: '/', label: 'Home' },
+  { href: '/oxygen-concentrators/', label: 'Oxygen concentrators' },
+  { href: '/oxygen-concentrators/5-lpm/', label: '5 LPM' },
+  { label: cityPage.city },
+];
+
+const quickPicks = [
+  {
+    useCase: 'Best value local-service pick',
+    model: 'Home Medix HM-KV',
+    href: '/oxygen-concentrators/home-medix-5-lpm/',
+    why: '13 kg, <=40 dB field-verified sound, 320 VA draw, OPI plus live purity display, nebulizer, 3-year / 10,000-hour warranty.',
+    caveat: 'Buy only after confirming authorised local service and spare availability.',
+  },
+  {
+    useCase: 'Best Indian-service alternative',
+    model: 'Oxymed Mini 5 LPM',
+    href: '/oxygen-concentrators/oxymed-mini-5-lpm/',
+    why: 'Indian-market service depth, OPI/purity display positioning, and strong value-tier availability.',
+    caveat: 'Confirm the exact service partner and warranty process for your pincode.',
+  },
+  {
+    useCase: 'Best imported option if verified',
+    model: 'AirSep / Nidek / DeVilbiss',
+    href: '/top-5/5-lpm-oxygen-concentrators/',
+    why: 'Strong engineering reputation when fresh stock, valid warranty, and service access are proven.',
+    caveat: 'Do not buy without written stock-age, warranty, and spare-parts confirmation.',
+  },
+  {
+    useCase: 'Avoid unless verified',
+    model: 'Philips EverFlo clearance stock',
+    href: '/oxygen-concentrators/philips-everflo-5-lpm/',
+    why: 'Historically strong service reputation, but the model has been officially discontinued globally.',
+    caveat: 'High risk of old stock, weak future serviceability, or undisclosed refurbished inventory.',
+  },
+];
+
+const priceBands = [
+  {
+    tier: 'Budget Indian/OEM units',
+    price: 'Rs 30,000-38,000',
+    note: 'Only consider with invoice, warranty, purity monitoring, and service clarity.',
+  },
+  {
+    tier: 'Strong mainstream 5 LPM units',
+    price: 'Rs 38,000-50,000',
+    note: 'The practical band for Home Medix HM-KV and stronger Indian-market options.',
+  },
+  {
+    tier: 'Imported / premium units',
+    price: 'Rs 50,000-75,000+',
+    note: 'Only defensible when stock age, warranty validity, service, and spares are verified.',
+  },
+];
+
+const dealerChecklist = [
+  'Get a GST invoice with the concentrator serial number printed or written clearly.',
+  'Ask for manufacturing date or import date before payment.',
+  'Confirm warranty start date and who approves warranty claims.',
+  'Confirm the nearest authorised service centre or service partner.',
+  'Ask whether compressor and sieve beds are available locally.',
+  'Avoid box-opened or demo units unless discount and warranty terms are explicit.',
+  'Test oxygen purity at delivery if the dealer has an analyzer.',
+  'Record unboxing and first startup, including serial-number label and hour meter.',
+];
+
+const importedWarning =
+  'Imported 5 LPM concentrators need extra verification in India. Philips EverFlo has been officially discontinued globally. AirSep, DeVilbiss, Nidek, and Philips units may still be good machines, but supply is limited and spare availability can be weak. Some "new" units in the Indian channel may be old COVID-era stock or refurbished stock. Before buying, ask for serial number age, invoice date, warranty confirmation, authorised-service proof, and spare-parts availability in writing.';
+
+const itemListLd = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: `Recommended 5 LPM oxygen concentrators in ${cityPage.city}`,
+  itemListElement: quickPicks.map((pick, index) => ({
+    '@type': 'ListItem',
+    position: index + 1,
+    name: pick.model,
+    url: new URL(pick.href, Astro.site).toString(),
+    description: `${pick.why} Caveat: ${pick.caveat}`,
+  })),
+};
+---
+<BaseLayout title={cityPage.title} description={cityPage.description} canonicalURL={canonicalURL}>
+  <article class="city-buying-page">
+    <Breadcrumbs items={breadcrumbs} />
+
+    <header class="city-header">
+      <p class="eyebrow">5 LPM oxygen concentrator buying guide</p>
+      <h1>{cityPage.title}</h1>
+      <p class="meta-line">Reviewed by HHZ Editorial for Indian home oxygen buyers</p>
+    </header>
+
+    <section class="answer-block" aria-label="Short answer">
+      <p>{cityPage.answer}</p>
+    </section>
+
+    <section aria-labelledby="quick-picks-heading">
+      <h2 id="quick-picks-heading">Quick picks for {cityPage.city}</h2>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Use case</th>
+              <th>Recommended model</th>
+              <th>Why</th>
+              <th>Caveat</th>
+            </tr>
+          </thead>
+          <tbody>
+            {quickPicks.map((pick) => (
+              <tr>
+                <td>{pick.useCase}</td>
+                <td><a href={pick.href}>{pick.model}</a></td>
+                <td>{pick.why}</td>
+                <td>{pick.caveat}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <aside class="warning-box" aria-labelledby="imported-warning-heading">
+      <h2 id="imported-warning-heading">Imported brand warning</h2>
+      <p>{importedWarning}</p>
+      <p>{cityPage.importedContext}</p>
+    </aside>
+
+    <section aria-labelledby="price-heading">
+      <h2 id="price-heading">5 LPM oxygen concentrator price in {cityPage.city}</h2>
+      <p>{cityPage.priceIntro}</p>
+      <div class="table-scroll">
+        <table>
+          <thead>
+            <tr>
+              <th>Segment</th>
+              <th>Typical price</th>
+              <th>Buying note</th>
+            </tr>
+          </thead>
+          <tbody>
+            {priceBands.map((band) => (
+              <tr>
+                <td>{band.tier}</td>
+                <td>{band.price}</td>
+                <td>{band.note}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section aria-labelledby="home-medix-heading">
+      <h2 id="home-medix-heading">Best overall local pick: Home Medix HM-KV</h2>
+      <p>{cityPage.homeMedixFit}</p>
+      <p>
+        The <a href="/oxygen-concentrators/home-medix-5-lpm/">Home Medix HM-KV 5 LPM</a>
+        is the clearest value pick when local service is confirmed: 13 kg chassis, 0.5-5 LPM
+        continuous flow, 93% +/- 3% purity, &lt;=40 dB field-verified sound, 320 VA power draw,
+        OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour
+        warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
+      </p>
+    </section>
+
+    <section aria-labelledby="oxymed-heading">
+      <h2 id="oxymed-heading">When to consider Oxymed</h2>
+      <p>
+        Consider the <a href="/oxygen-concentrators/oxymed-mini-5-lpm/">Oxymed Mini 5 LPM</a>
+        when the local service contact for Oxymed is stronger than the Home Medix route, or when
+        the dealer can prove faster warranty response for your pincode. It remains a serious
+        Indian-service alternative, especially for buyers who value visible service depth over a
+        slightly stronger value spec sheet.
+      </p>
+    </section>
+
+    <section aria-labelledby="imports-heading">
+      <h2 id="imports-heading">When to consider imported brands</h2>
+      <ul>
+        <li><strong>Nidek:</strong> quiet imported option if fresh stock and warranty are proven.</li>
+        <li><strong>AirSep:</strong> efficient or high-altitude option if service is proven.</li>
+        <li><strong>DeVilbiss:</strong> altitude and outlet-pressure option if fresh stock and service are proven.</li>
+        <li><strong>Philips EverFlo:</strong> only if serial age, invoice date, warranty, spare availability, and service continuity are clear.</li>
+      </ul>
+      <p>
+        Imported brands still have engineering credibility. The risk is Indian channel reality:
+        constrained supply, discontinued EverFlo stock, old COVID-era inventory, possible
+        refurbished units, and weaker future spare availability.
+      </p>
+    </section>
+
+    <section aria-labelledby="checklist-heading">
+      <h2 id="checklist-heading">Dealer and service checklist</h2>
+      <ul class="checklist">
+        {dealerChecklist.map((item) => <li>{item}</li>)}
+      </ul>
+    </section>
+
+    <section aria-labelledby="delivery-heading">
+      <h2 id="delivery-heading">Delivery guidance for {cityPage.city}</h2>
+      <p>{cityPage.deliveryText}</p>
+    </section>
+
+    <section aria-labelledby="related-heading">
+      <h2 id="related-heading">Related HHZ pages</h2>
+      <ul>
+        <li><a href="/oxygen-concentrators/5-lpm/">5 LPM oxygen concentrators in India</a></li>
+        <li><a href="/top-5/5-lpm-oxygen-concentrators/">Top 5 5 LPM oxygen concentrators</a></li>
+        <li><a href="/guides/5-lpm-oxygen-concentrator-spec-comparison-india/">5 LPM oxygen concentrator spec comparison</a></li>
+        <li><a href="/guides/oxygen-concentrator-service-network-india/">Oxygen concentrator service-network guide</a></li>
+      </ul>
+    </section>
+
+    <FAQSection faqs={cityPage.faqs} heading={`Buying questions in ${cityPage.city}`} />
+  </article>
+
+  <script type="application/ld+json" set:html={JSON.stringify(itemListLd)} />
+</BaseLayout>
+
+<style>
+  .city-buying-page {
+    max-width: 980px;
+  }
+  .city-header {
+    margin-bottom: var(--space-6);
+  }
+  .eyebrow {
+    color: var(--color-text-muted);
+    font-size: var(--text-sm);
+    font-weight: 700;
+    letter-spacing: 0;
+    text-transform: uppercase;
+  }
+  .answer-block {
+    border-left: 3px solid var(--color-accent);
+    background: var(--color-data-bg);
+    padding: var(--space-4) var(--space-5);
+    margin: 0 0 var(--space-7);
+  }
+  .answer-block p {
+    margin: 0;
+    font-family: var(--font-serif);
+    font-size: var(--text-lg);
+  }
+  .warning-box {
+    border: 1px solid var(--color-border);
+    border-left: 4px solid #b42318;
+    background: #fff7ed;
+    padding: var(--space-5);
+    margin: var(--space-7) 0;
+  }
+  .warning-box h2 {
+    margin-top: 0;
+  }
+  .table-scroll {
+    overflow-x: auto;
+    margin: var(--space-4) 0 var(--space-7);
+  }
+  table {
+    width: 100%;
+    min-width: 760px;
+    border-collapse: collapse;
+    font-size: var(--text-sm);
+  }
+  th,
+  td {
+    border: 1px solid var(--color-border);
+    padding: var(--space-3);
+    text-align: left;
+    vertical-align: top;
+  }
+  th {
+    background: var(--color-surface-muted);
+  }
+  .checklist li {
+    margin-bottom: var(--space-2);
+  }
+</style>
