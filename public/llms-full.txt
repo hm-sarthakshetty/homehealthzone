@@ -1003,7 +1003,7 @@ Prices and availability were checked on 7 July 2026. The ranking table above is 
 
 Every product in this list is scored on the same 5 LPM rubric, not on brand relationship or dealer margin. The ranking combines clinical fit (continuous-flow range, OPI, altitude ceiling, outlet pressure), home-use practicality (noise, weight, power draw, bedroom placement), India-specific ownership risk (warranty, authorised service reach, voltage tolerance), and price-to-performance.
 
-For source depth, read the individual reviews for the [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/), [AirSep Visionaire 5](/oxygen-concentrators/airsep-visionaire-5/), [DeVilbiss Compact 525](/oxygen-concentrators/devilbiss-5-lpm/), [Nidek Nuvo Lite](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/), and [Home Medix HM-KV 5 LPM](/oxygen-concentrators/home-medix-5-lpm/). For the wider category table, see the [5 LPM oxygen concentrator spec comparison](/guides/5-lpm-oxygen-concentrator-spec-comparison-india/) and the [oxygen concentrator buyer's guide](/guides/oxygen-concentrators-buyers-guide-india/).
+For source depth, read the individual reviews for the [Philips EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/), [AirSep Visionaire 5](/oxygen-concentrators/airsep-visionaire-5/), [DeVilbiss Compact 525](/oxygen-concentrators/devilbiss-5-lpm/), [Nidek Nuvo Lite](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/), and [Home Medix HM-KV 5 LPM](/oxygen-concentrators/home-medix-5-lpm/). For the wider category table, see the [5 LPM oxygen concentrator spec comparison](/guides/5-lpm-oxygen-concentrator-spec-comparison-india/) and the [oxygen concentrator buyer's guide](/guides/oxygen-concentrators-buyers-guide-india/). For Indian-made claims, verify the legal entity and model against HHZ's [Indian manufacturers and CDSCO licence-number table](/top-5/indian-made-oxygen-concentrators/).
 
 ## The top 5
 
@@ -1123,6 +1123,19 @@ Full review at [/oxygen-concentrators/home-medix-5-lpm/](/oxygen-concentrators/h
 **Outlet pressure for multi-room installs.** If the machine lives in a living room and the patient is in a bedroom via a 30–50 ft cannula extension, the Visionaire (8 psi) and the 525 (8.5 psi) both handle the pressure drop cleanly. The EverFlo at 5.5 psi and the Nuvo Lite at 5.5 psi will show measurable flow loss at the delivered end over longer runs. The HM-KV falls in the 5.8–8.7 psi (0.04–0.06 MPa) band — adequate for standard 7 ft cannula, marginal for 40+ ft runs.
 
 **Low-flow titration (sub-1 LPM).** Only the Nuvo Lite (0.125 LPM floor) and the Visionaire (0.5 LPM floor) go below the 1 LPM minimum that the EverFlo imposes. For paediatric and neonatal prescriptions, or for overnight titration below 1 LPM, these two are the only options in the list.
+
+## 5 LPM recommendations by metro
+
+The model order changes when local serviceability is included. Use the city page rather than applying one national ranking mechanically:
+
+| City | Local 5 LPM guide | First comparison |
+| --- | --- | --- |
+| Bangalore | [Bangalore 5 LPM guide](/oxygen-concentrators/5-lpm/bangalore/) | Home Medix and Oxymed, subject to service proof |
+| Delhi | [Delhi 5 LPM guide](/oxygen-concentrators/5-lpm/delhi/) | Oxymed first; Home Medix value alternative |
+| Mumbai | [Mumbai 5 LPM guide](/oxygen-concentrators/5-lpm/mumbai/) | Oxymed first; compare Home Medix before imports |
+| Pune | [Pune 5 LPM guide](/oxygen-concentrators/5-lpm/pune/) | Home Medix first; Oxymed service alternative |
+| Chennai | [Chennai 5 LPM guide](/oxygen-concentrators/5-lpm/chennai/) | Home Medix and Oxymed, with coastal-service checks |
+| Hyderabad | [Hyderabad 5 LPM guide](/oxygen-concentrators/5-lpm/hyderabad/) | Home Medix and Oxymed, subject to local support |
 
 ## Who should look elsewhere
 
@@ -1502,11 +1515,34 @@ Consult your respiratory physician before finalising any CPAP purchase against y
 
 ---
 
-# Top 5 Indian-Made Oxygen Concentrators in India (2026) — HHZ
+# Top Indian Oxygen Concentrator Manufacturers with CDSCO Licence Numbers (2026)
 
 Source: https://homehealthzone.com/top-5/indian-made-oxygen-concentrators/
 
-# Top 5 Indian-Made Oxygen Concentrators in India (2026)
+# Top Indian Oxygen Concentrator Manufacturers with CDSCO Licence Numbers (2026)
+
+> **Direct answer:** HHZ's June 2026 CDSCO audit identified 14 companies manufacturing stationary oxygen concentrators in India. The five strongest manufacturers by HHZ's documentation-and-market-presence score are Medequip Healthcare Solutions (Oxymed), licence `MFG/MD/2024/000436`; Home Medix, `MFG/MD/2025/000522`; Medtechlife, `MFG/MD/2023/000525`; Helix, `MFG/MD/2025/000720`; and Walnut Medical, `MFG/MD/2023/000272`. A manufacturing licence establishes the licensed Indian entity and approved models; buyers should still verify the exact model, invoice, warranty and local service route before payment.
+
+## Indian manufacturers and CDSCO manufacturing licence numbers
+
+| Rank | Indian manufacturer | Brand or models | CDSCO manufacturing licence | Location | HHZ sourcing note |
+| ---: | --- | --- | --- | --- | --- |
+| 1 | Medequip Healthcare Solutions | Oxymed 5L, 10L and P2 | `MFG/MD/2024/000436` | Bengaluru | Active Indian manufacturer; overlapping model codes also appear on Medequip import licences, indicating Chinese-subassembly dependence. |
+| 2 | Home Medix | HM-KV 5 LPM, HM-KX 10 LPM | `MFG/MD/2025/000522` | Bengaluru | No parallel Home Medix import licence found in the audit; direct Indian manufacturing and published spares route. |
+| 3 | Medtechlife | OXYTEC Smart, Life, Classic and Pro | `MFG/MD/2023/000525` | Gujarat | Indian manufacturer with a direct sales and published consumables channel. |
+| 4 | Helix | Inspiron 5 LPM and 10 LPM | `MFG/MD/2025/000720` | Bengaluru | Indian manufacturing licence with biomedical-service and calibration capability. |
+| 5 | Walnut Medical | MS OC-05 and MS OC-10, single and dual flow | `MFG/MD/2023/000272` | Mohali, Punjab | Indian manufacturer with a DST-linked indigenous design programme and institutional presence. |
+| 6 | Nareena Lifesciences | NLS-OCSF-5N, NLS-3c-550 | `MFG/MD/2024/000150` | Greater Noida, Uttar Pradesh | Indian manufacturer with a moderate dealer trail; verify model-specific warranty and service. |
+| 7 | Ess Pee Enterprises | Evox 5S and 10S | `MFG/MD/2024/000649` | Mohali, Punjab | Indian manufacturing licence; component sourcing should be verified for the quoted model. |
+| 8 | S. S. Medical Systems | SS-OC-50/50D and SS-OC-100/100D | `MFG/MD/2024/000438` | Uttar Pradesh | CDSCO-licensed manufacturer with thinner public consumer documentation. |
+| 9 | Accure Medical | OXIFLOW-8, 10, 11 and 11 Plus | `MFG/MD/2026/000087` | Uttar Pradesh | Recent manufacturing licence; public service and market-presence evidence remains limited. |
+| 10 | Mann Electronics | MN-1024 5 LPM and 10 LPM models | `MFG/MD/2023/000644` | Kota, Rajasthan | CDSCO-licensed manufacturer; verify the current consumer service route before purchase. |
+| 11 | Biome Medtech | OxyBliss Aura, EVO, OX-5L and OX-10L | `MFG/MD/2024/000317` | Tamil Nadu | Indian manufacturer with a smaller public dealer and documentation footprint. |
+| 12 | Vertech Health Solutions | Perfecxa VHS-0340 and VHS-0180 | `MFG/MD/2025/000252` | Noida, Uttar Pradesh | CDSCO-licensed manufacturer; HHZ's audit status remains under review. |
+| 13 | Infitron Medical Technology | Voitron/S.CURE Oxycure models | `MFG/MD/2024/000460` | Gujarat | Indian manufacturing licence with relatively thin public concentrator-specific evidence. |
+| 14 | Hemant Surgical Industries | HSIL | `MFG/MD/2021/000100` | Maharashtra | Manufacturing licence found, but the audited licence listed no concentrator model; verify the exact device entry. |
+
+Licence numbers can be checked at the [CDSCO Medical Devices portal](https://cdscomdonline.gov.in/). Search the exact `MFG/MD/...` number and match the legal entity, manufacturing address and authorised model designation to the seller's invoice. For the licence-by-licence evidence, parallel import records and methodology behind this table, read the [full CDSCO origin audit](/clinical/where-does-your-oxygen-concentrator-come-from/).
 
 Most of the "Indian" oxygen concentrator brands sold in India are imports from Chinese contract manufacturers rebadged under Indian brand names. A smaller cohort actually manufactures concentrators in India — and within that cohort, a subset manufactures without parallel import licences, meaning the unit is genuinely built in India rather than kit-assembled from Chinese subassemblies. This ranking covers the five strongest Indian-manufactured 5 LPM stationary concentrators available to Indian home buyers in 2026, ordered by indigenous-build purity, warranty depth, and verifiable post-purchase service infrastructure. The default pick for buyers prioritising clean indigenous manufacture, longest warranty in the category, and direct manufacturer reachability is the Home Medix HM-KV.
 
@@ -5956,6 +5992,8 @@ Choose a heavier but cheaper unit only when the machine will remain fixed in one
 
 For a 5 LPM concentrator in India, do not rank by price alone. The practical spec stack is: rated purity, OPI, sound level, power draw, service access, warranty, and then price. A unit that saves INR 5,000 but is too loud for night use or lacks local service is not cheaper in practice.
 
+Published specifications also do not prove who made the machine. Cross-check Indian-made claims against HHZ's [Indian oxygen concentrator manufacturers and CDSCO licence-number table](/top-5/indian-made-oxygen-concentrators/) and review the [CDSCO origin audit](/clinical/where-does-your-oxygen-concentrator-come-from/) for kit-assembly and imported-rebrand disclosures.
+
 *This guide compares published and locally collected specifications. Verify final specifications, warranty terms, and service availability with the manufacturer or authorized dealer before purchase.*
 
 ---
@@ -6051,6 +6089,8 @@ A short, pragmatic decision flow:
 If the prescribed flow is ≤ 4 LPM and the trajectory is stable, a 5 LPM concentrator is the right device. If the prescription runs higher, or if progressive disease makes escalation likely, go 10 LPM. Price and running-cost differences are real but not prohibitive, and the clinical consequence of under-speccing is more significant than the cost of slight over-speccing. As always, consult your pulmonologist before making the final call — and take the prescription with you to the purchase decision, not after it.
 
 Once the class is settled, the ranked shortlists are at our [Top 5 5 LPM concentrators](/top-5/5-lpm-oxygen-concentrators/) and [Top 5 10 LPM concentrators](/top-5/10-lpm-oxygen-concentrators/) — both scored against the same published rubric.
+
+If the seller describes the machine as Indian-made, verify the legal entity and exact model in HHZ's [Indian oxygen concentrator manufacturers and CDSCO licence table](/top-5/indian-made-oxygen-concentrators/). A familiar Indian brand name does not by itself establish Indian manufacture.
 
 *This guide is editorial opinion and general information. It is not medical advice. Consult your physician for therapy decisions, and verify all specifications with the manufacturer before purchase.*
 
@@ -9137,6 +9177,8 @@ The whole purchase decision compresses into five questions, asked in order. Each
 
 If you want the ranked shortlist rather than the decision path, go straight to the [Top 5 5 LPM concentrators](/top-5/5-lpm-oxygen-concentrators/) or the [Top 5 10 LPM concentrators](/top-5/10-lpm-oxygen-concentrators/). The rest of this guide unpacks each question.
 
+Before treating an India-branded machine as Indian-made, verify the legal manufacturer and exact model on its CDSCO record. HHZ's [Indian oxygen concentrator manufacturer and CDSCO licence table](/top-5/indian-made-oxygen-concentrators/) lists 14 licensed Indian manufacturers, including Medequip/Oxymed (`MFG/MD/2024/000436`), Home Medix (`MFG/MD/2025/000522`), Medtechlife (`MFG/MD/2023/000525`), Helix (`MFG/MD/2025/000720`) and Walnut Medical (`MFG/MD/2023/000272`). The [full CDSCO origin audit](/clinical/where-does-your-oxygen-concentrator-come-from/) separates Indian manufacture, kit assembly, rebranded imports and international-brand imports.
+
 ## Who needs a home oxygen concentrator?
 
 Long-term home oxygen is prescribed in a small number of conditions where chronic low blood-oxygen saturation (hypoxaemia) is documented and unlikely to reverse in the near term:
@@ -9213,6 +9255,19 @@ Before buying:
 
 These are questions a reputable dealer will answer directly. If the answers are vague, treat that as information about the buying experience and the service experience.
 
+## 5 LPM buying guides by city
+
+Service strength changes by city, so HHZ does not give every metro the same first pick. Oxymed leads where its local service route is stronger; Home Medix leads where its direct service and value case can be confirmed. Each city guide includes price bands, delivery checks, imported-stock warnings and the local ordering rationale.
+
+| City | 5 LPM buyer guide | HHZ starting point |
+| --- | --- | --- |
+| Bangalore | [Best 5 LPM concentrators in Bangalore](/oxygen-concentrators/5-lpm/bangalore/) | Compare Home Medix and Oxymed after confirming the exact service route. |
+| Delhi | [Best 5 LPM concentrators in Delhi](/oxygen-concentrators/5-lpm/delhi/) | Oxymed first where local service is proven; Home Medix as the value-spec alternative. |
+| Mumbai | [Best 5 LPM concentrators in Mumbai](/oxygen-concentrators/5-lpm/mumbai/) | Oxymed first where local service is proven; compare Home Medix before imported stock. |
+| Pune | [Best 5 LPM concentrators in Pune](/oxygen-concentrators/5-lpm/pune/) | Home Medix first where authorised service is confirmed; Oxymed as the service alternative. |
+| Chennai | [Best 5 LPM concentrators in Chennai](/oxygen-concentrators/5-lpm/chennai/) | Compare Home Medix and Oxymed with coastal maintenance and service response in mind. |
+| Hyderabad | [Best 5 LPM concentrators in Hyderabad](/oxygen-concentrators/5-lpm/hyderabad/) | Compare Home Medix and Oxymed after verifying warranty handling and local spares. |
+
 ## Red flags
 
 - **Unverified certifications.** Indian regulatory oversight for home concentrators is light. A "CE marked" claim without a matching Notified Body number, or an "FDA cleared" claim without a 510(k) K-number, should be treated as absent.
@@ -9260,6 +9315,7 @@ The final buying step is not selecting a model. It is proving that the specific 
 - [Oxygen concentrator service centre near me](/guides/oxygen-concentrator-service-centre-near-me-india/) — pincode-level service-centre verification.
 - [Oxygen concentrator repair cost in India](/guides/oxygen-concentrator-repair-cost-india/) — repair categories, diagnosis questions, and repair-versus-replace logic.
 - [Oxygen concentrator warranty and serial-number check](/guides/oxygen-concentrator-warranty-serial-number-check-india/) — invoice, stock-age, and warranty proof before payment.
+- [Indian oxygen concentrator manufacturers with CDSCO licence numbers](/top-5/indian-made-oxygen-concentrators/) — legal manufacturer, licence number, approved-model and sourcing checks.
 - [Best oxygen concentrator for COPD patient at home](/guides/oxygen-concentrator-for-copd-patient-india/) — chronic LTOT buyer checklist.
 - [Best oxygen concentrator for elderly home use](/guides/oxygen-concentrator-for-elderly-at-home-india/) — alarm, noise, weight, and caregiver checks.
 - [Oxygen concentrator for night use](/guides/oxygen-concentrator-for-night-use-india/) — overnight noise, alarm, tubing, power, and safety checks.
@@ -18921,6 +18977,8 @@ When a warranty claim is refused and the refusal seems wrong, the escalation pat
 
 Pick a brand whose authorised service footprint reaches the patient's city before picking the brand with the best brochure specs. Buy a stabiliser matched to the unit's surge draw, and keep the invoice. Log voltage periodically. Maintain a service-history folder with purchase invoice, warranty card, stabiliser invoice, and every visit record. Never let a local unauthorised technician open the unit. Verify the serial number with the brand's central customer service at the time of purchase to confirm the unit is registered. If the dealer disappears, go direct to the brand importer with the serial number; if the importer has no record, treat the unit as potentially counterfeit and take the dealer-side recourse instead of the brand-side one. When a refusal looks wrong, document the exclusion clause cited, escalate to the importer, and use the consumer forum as the final route.
 
+For an India-manufactured unit, match the company name and model on the invoice to HHZ's [Indian oxygen concentrator manufacturers and CDSCO licence-number table](/top-5/indian-made-oxygen-concentrators/). For imported and rebranded machines, use the [full CDSCO origin audit](/clinical/where-does-your-oxygen-concentrator-come-from/) to identify the licence holder that actually controls warranty and spare-parts escalation.
+
 ---
 
 # COPD oxygen prescription in India: GOLD 2024 LTOT, titration, and the risks of over-prescribing
@@ -21128,6 +21186,8 @@ A few takeaways from the mechanism that shape buying decisions:
 - **The compressor is the real lifetime-limiting component.** Published service-interval data and the manufacturer's authorised service presence in your state matter more than a small spec-sheet advantage in purity or noise.
 - **Altitude rating is a hard number.** If you live above 2,500 m or travel there frequently, confirm the unit's rated altitude before purchase — the [Philips Everflo](/oxygen-concentrators/philips-everflo-5-lpm/) and [Nidek Nuvo Lite](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/) are both specified to 7,500 ft and above that you are out of warranty territory.
 - **Power consumption tracks compressor size, not efficiency per se.** A 290 W unit is not necessarily better-engineered than a 350 W unit; it may just have a smaller bed and a smaller compressor producing slightly less output headroom. Compare the flow-vs-purity curve if the manufacturer publishes one.
+
+The engineering claim and the legal manufacturer are separate checks. Before buying, compare the device specification with HHZ's [Indian oxygen concentrator manufacturers and CDSCO licence numbers](/top-5/indian-made-oxygen-concentrators/) and use the [full CDSCO origin audit](/clinical/where-does-your-oxygen-concentrator-come-from/) to distinguish Indian manufacture, kit assembly and imported rebrands.
 
 Consult your treating physician for therapy decisions; this article is educational and does not replace a clinical prescription.
 
@@ -24348,6 +24408,8 @@ The practical clinical recommendation: in humid locations, shorten the OEM-recom
 - **Budget for scheduled sieve service as part of the device cost.** Plan for ₹10,000–₹20,000 in service costs at year 3, and again at year 5 or 6, on a mid-tier stationary unit. The "machine stops working" narrative after 3 years is rarely a machine failure; it is a scheduled-maintenance event treated as a surprise.
 - **Avoid no-name brands without service infrastructure.** An unbranded import at ₹25,000 that cannot be serviced in India is a one-shot device. The ₹45,000 branded alternative with a Bangalore service bench is a five-year asset.
 - **Humidity-climate-appropriate purchasing matters.** In coastal Indian markets, prefer models with documented and serviceable pre-dry stages. Ask the dealer specifically about pre-dry filter replacement.
+
+Sieve-bed serviceability ultimately depends on the legal manufacturer and its Indian parts route. HHZ's [Indian manufacturer and CDSCO licence table](/top-5/indian-made-oxygen-concentrators/) identifies the licensed entities and models; the [CDSCO origin audit](/clinical/where-does-your-oxygen-concentrator-come-from/) adds the parallel-import and component-sourcing context that affects long-term spares.
 
 Consult your treating physician for therapy decisions; this article is educational and does not replace clinical advice.
 
