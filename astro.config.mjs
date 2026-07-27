@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import mdx from '@astrojs/mdx';
-import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import remarkResolveCitations from './scripts/remark-resolve-citations.mjs';
 
@@ -28,22 +28,20 @@ function parseFrontmatter(text) {
   return fm;
 }
 
-function toIso(value, fallback) {
-  if (!value) return fallback;
+function toIso(value) {
+  if (!value) return undefined;
   const d = new Date(value);
-  if (isNaN(d.getTime())) return fallback;
+  if (isNaN(d.getTime())) return undefined;
   return d.toISOString();
 }
 
 /**
  * Build a URL -> ISO-8601 lastmod map by walking the content collections.
- * Every product review + clinical article + guide + comparison writeup uses
- * its `lastReviewed` frontmatter as the canonical freshness signal; static
- * Astro pages fall back to the source file mtime.
+ * Only explicit editorial dates are included. Build time and filesystem
+ * mtimes are not content-change signals and must not refresh sitemap dates.
  */
 function buildLastmodMap() {
   const map = new Map();
-  const fallback = new Date().toISOString();
 
   function addFromMdx(dir, urlBuilder) {
     if (!existsSync(dir)) return;
@@ -53,11 +51,9 @@ function buildLastmodMap() {
       const full = join(dir, file);
       let fm = {};
       try { fm = parseFrontmatter(readFileSync(full, 'utf8')); } catch {}
-      let mtime = fallback;
-      try { mtime = statSync(full).mtime.toISOString(); } catch {}
-      const iso = toIso(fm.lastReviewed, mtime);
+      const iso = toIso(fm.lastReviewed);
       const url = urlBuilder(slug);
-      if (url) map.set(url, iso);
+      if (url && iso) map.set(url, iso);
     }
   }
 
@@ -77,7 +73,20 @@ function buildLastmodMap() {
   addFromMdx('./src/content/guides', (slug) => `${SITE_URL}/guides/${slug}/`);
   addFromMdx('./src/content/comparison-writeups', (slug) => `${SITE_URL}/compare/${slug}/`);
 
-  // Pillar + static pages under src/pages: use file mtime.
+  // City and city-intent pages share the explicit date on their source record.
+  try {
+    const cityPages = JSON.parse(readFileSync('./src/data/oxygenConcentratorCityPages.json', 'utf8'));
+    for (const cityPage of cityPages) {
+      const iso = toIso(cityPage.lastReviewed);
+      if (!iso) continue;
+      map.set(`${SITE_URL}/oxygen-concentrators/5-lpm/${cityPage.slug}/`, iso);
+      for (const intent of ['service', 'repair', 'dealers', 'price', 'rental']) {
+        map.set(`${SITE_URL}/oxygen-concentrators/${intent}/${cityPage.slug}/`, iso);
+      }
+    }
+  } catch {}
+
+  // Static MDX/Markdown pages can provide an explicit lastReviewed date.
   function walkPages(dir, baseUrlPath) {
     if (!existsSync(dir)) return;
     for (const entry of readdirSync(dir, { withFileTypes: true })) {
@@ -90,12 +99,10 @@ function buildLastmodMap() {
       if (entry.name.startsWith('[')) continue; // dynamic route files
       const stem = entry.name.replace(/\.(astro|mdx|md)$/, '');
       const urlPath = stem === 'index' ? baseUrlPath : `${baseUrlPath}${stem}/`;
-      let mtime = fallback;
-      try { mtime = statSync(full).mtime.toISOString(); } catch {}
-      // Prefer frontmatter lastReviewed if the page defines one
       let fm = {};
       try { fm = parseFrontmatter(readFileSync(full, 'utf8')); } catch {}
-      map.set(`${SITE_URL}${urlPath}`, toIso(fm.lastReviewed, mtime));
+      const iso = toIso(fm.lastReviewed);
+      if (iso) map.set(`${SITE_URL}${urlPath}`, iso);
     }
   }
   walkPages('./src/pages', '/');
@@ -104,7 +111,6 @@ function buildLastmodMap() {
 }
 
 const LASTMOD_MAP = buildLastmodMap();
-const BUILD_TIME = new Date().toISOString();
 
 export default defineConfig({
   site: SITE_URL,
@@ -128,7 +134,8 @@ export default defineConfig({
       changefreq: 'weekly',
       priority: 0.7,
       serialize(item) {
-        item.lastmod = LASTMOD_MAP.get(item.url) ?? BUILD_TIME;
+        const lastmod = LASTMOD_MAP.get(item.url);
+        if (lastmod) item.lastmod = lastmod;
         return item;
       },
     }),
