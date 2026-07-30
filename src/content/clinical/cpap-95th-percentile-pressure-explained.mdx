@@ -1,0 +1,123 @@
+---
+title: "What does 95th-percentile pressure mean on a CPAP report?"
+description: "How to read P95 or 95% CPAP pressure — what it says about an APAP night, why it is not the maximum or automatically the right fixed pressure, and how leak and pressure limits distort it."
+lastReviewed: "2026-07-29"
+nextReview: "2027-01-29"
+author: "HHZ Editorial"
+tags: ["cpap", "apap", "95th-percentile", "p95", "pressure", "cpap-report"]
+answer: "Your 95th-percentile CPAP pressure (P95) is the pressure at or below which the machine operated for 95% of the recorded night; it spent about 5% of the time above that level. It is not the nightly maximum and it is not automatically the pressure you should set. P95 is useful only alongside median pressure, residual AHI, leak, the prescribed minimum/maximum range and a multi-night trend."
+faqs:
+  - q: "Is 95th-percentile pressure the highest pressure my CPAP reached?"
+    a: "No. It excludes the highest 5% of pressure values, so the true maximum may be higher. The maximum can be a brief spike and is usually less representative than P95."
+  - q: "Should fixed CPAP be set to the 95th-percentile APAP pressure?"
+    a: "P95 can inform titration, but it should not be copied automatically. Clinicians review several nights together with AHI, event type, leak, comfort and sleep position before choosing a fixed pressure or narrowing an APAP range."
+  - q: "Why is my 95% pressure equal to the APAP maximum?"
+    a: "The machine may be spending substantial time against the pressure ceiling. That can mean residual obstruction, a minimum that is too low and forces repeated climbs, leak or an artefact. It warrants report review rather than automatically raising the maximum."
+  - q: "Is a high P95 bad?"
+    a: "Not by itself. Some airways require higher pressure, especially during REM or supine sleep. The important questions are whether events are controlled, leak is acceptable, therapy is comfortable and the machine is operating within a sensible prescribed range."
+---
+
+If an APAP report says **95% pressure: 12.4 cmH₂O**, it means the pressure was at or below 12.4 for 95% of the recorded time and above it for roughly 5%. It does **not** mean the machine delivered 12.4 for 95% of the night, and it is not the maximum.
+
+The same statistic may be labelled **P95**, **95th percentile**, **95% pressure**, or — on some platforms — **90% pressure**. A 90th-percentile value uses the same idea but cuts off the highest 10% instead of 5%, so the two cannot be compared as if they were identical.
+
+## Median, P95 and maximum
+
+Imagine the machine recorded these summary values:
+
+| Metric | Example | What it means |
+| --- | ---: | --- |
+| Median pressure | 8.2 | Half the recorded time was at or below 8.2 |
+| 95th percentile | 12.4 | 95% of time was at or below 12.4 |
+| Maximum | 15.8 | Highest recorded value, possibly brief |
+
+The median describes the middle of the night. P95 describes the upper pressure requirement without letting the most extreme 5% dominate. The maximum is sensitive to short spikes, leak responses and artefact.
+
+## Why APAP pressure changes
+
+An APAP varies pressure inside a prescribed minimum–maximum window. Algorithms may raise pressure in response to:
+
+- inspiratory flow limitation;
+- snoring;
+- obstructive hypopnoeas;
+- obstructive apnoeas; and
+- the pattern of prior events.
+
+They usually avoid increasing pressure in response to a confidently identified central/clear-airway event. Each brand’s response speed and event logic differ, so the same patient can have a different P95 on two devices using the same nominal range. See [APAP algorithms compared](/clinical/apap-algorithms-compared/).
+
+## What P95 is useful for
+
+Across multiple representative nights, P95 helps a clinician answer:
+
+- Is the current maximum constraining therapy?
+- Is the minimum far below the pressure repeatedly required?
+- Is pressure need stable or highly variable?
+- Would a fixed-pressure prescription be reasonable?
+- Are REM, supine sleep or congestion driving an upper tail?
+- Does a pressure rise coincide with leak or residual obstruction?
+
+P95 is most informative as a trend. One unusual night after alcohol, a cold, severe sleep deprivation, travel or prolonged supine sleep may not represent the patient’s usual requirement.
+
+## Why P95 is not automatically your fixed pressure
+
+It is tempting to copy the P95 number into fixed CPAP. Sometimes a clinician uses a multi-night 90th/95th-percentile pressure as one input to fixed-pressure selection, but several traps make self-conversion unsafe:
+
+1. **Leak can drive or distort pressure.** A large leak can confuse event detection and make the pressure trace unreliable.
+2. **The machine may be ceiling-limited.** A P95 equal to the maximum says more about the configured boundary than the unconstrained requirement.
+3. **Awake breathing can be misread.** Irregular breathing while awake may trigger flags or pressure changes.
+4. **Central events need a different interpretation.** More pressure does not correct absent respiratory effort and may worsen treatment-emergent central events in susceptible patients.
+5. **Comfort matters.** A pressure that suppresses events but causes aerophagia, severe leak or abandonment is not a successful prescription.
+
+A clinician may choose a fixed value below, near or occasionally above the observed P95 depending on the full trace and titration goal. Others leave the patient on APAP and narrow the range.
+
+## When P95 equals the maximum
+
+If an APAP is set 4–12 and P95 is 12, the device spent enough time at or near the upper boundary that the 95th percentile landed on the ceiling. Possible explanations include:
+
+- the airway genuinely required more pressure;
+- the minimum was so low that the machine repeatedly chased events upward;
+- high leak or flow artefact distorted the response;
+- supine or REM clusters drove sustained pressure; or
+- the maximum was intentionally capped for comfort or another clinical reason.
+
+The correct next step is to examine residual OA/H events, clear-airway events, leak and the pressure timeline. Do not raise the ceiling without understanding why it was set.
+
+## When a high P95 is completely acceptable
+
+Pressure requirement is individual. A P95 of 15 is not inherently worse than a P95 of 9. If residual AHI is controlled, leak is manageable, sleep is restorative and the patient tolerates therapy, a higher number may simply be the pressure their airway needs during vulnerable parts of sleep.
+
+Likewise, a low P95 is not proof of good treatment. A device capped at an inadequate maximum can show a deceptively low P95 while obstructive events persist.
+
+## Read P95 with four neighbouring metrics
+
+**Residual AHI and event type:** Were remaining events obstructive, clear-airway or hypopnoea?
+
+**Leak:** Can the flow and event estimates be trusted? Read [what is a normal leak number?](/clinical/normal-cpap-leak-number/).
+
+**Median pressure:** Is the upper-tail requirement brief or is the whole night running high?
+
+**Configured range:** A P95 of 12 means something different in a 4–12 window than in an 8–20 window.
+
+Also compare symptoms and hours of actual sleep. A technically “good” report does not explain persistent fatigue by itself.
+
+## Example interpretations
+
+**Range 6–14, median 8, P95 10, AHI 1.2, low leak:**
+Comfortable headroom; pressure requirement appears controlled.
+
+**Range 4–10, median 9.6, P95 10, OA index elevated:**
+The machine is ceiling-limited or repeatedly arriving late. Needs clinician review of the full trace and range.
+
+**Range 6–16, median 7, P95 14, high leak only during the pressure rise:**
+Fix mask fit and reassess before treating 14 as the true pressure requirement.
+
+**Range 5–15, P95 11, low OA but rising CA index:**
+Do not assume more pressure is the answer; clear-airway events need clinical interpretation.
+
+## Takeaway
+
+P95 is the pressure at or below which your APAP spent 95% of recorded time. It is a robust upper-tail summary, not the maximum and not a prescription by itself.
+
+Use a multi-night trend and read it beside pressure range, median, leak, residual AHI, event types and symptoms. Settings changes should be made with the prescribing sleep clinician, especially when central events, heart/lung disease or bilevel therapy are involved.
+
+**Primary references:** [ResMed sleep-lab titration guide](https://document.resmed.com/en-us/documents/products/titration/s9-vpap-tx/user-guide/1013904_Sleep_Lab_Titration_Guide_amer_eng.pdf); [ResMed AirView materials](https://document.resmed.com/en-us/documents/products/data-management/airview/product-brochure/1018349r1_ProdBro_AirView_RDE.pdf); [AASM PAP titration guideline](https://aasm.org/resources/clinicalguidelines/040210.pdf).

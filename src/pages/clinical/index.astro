@@ -34,6 +34,39 @@ const crumbs = [
     </p>
   </header>
 
+  <section class="decoder-section" aria-labelledby="decoder-heading">
+    <div class="section-heading">
+      <p class="eyebrow">Start with the number or device in front of you</p>
+      <h2 id="decoder-heading">New clinical decoders</h2>
+      <p>
+        Short, focused explanations for the settings, report labels and oxygen interfaces that
+        most often cause confusion.
+      </p>
+    </div>
+
+    <div class="decoder-grid">
+      <article class="decoder-card">
+        <h3>Oxygen masks and interfaces</h3>
+        <ul>
+          <li><a href="/clinical/venturi-mask-vs-non-rebreather-mask/">Venturi vs non-rebreather</a></li>
+          <li><a href="/clinical/nasal-cannula-vs-oxygen-mask/">Nasal cannula vs oxygen mask</a></li>
+          <li><a href="/clinical/simple-oxygen-mask-vs-non-rebreather/">Simple mask vs non-rebreather</a></li>
+          <li><a href="/clinical/venturi-mask-colour-chart-flow-rate-fio2/">Venturi colour and FiO₂ chart</a></li>
+        </ul>
+      </article>
+
+      <article class="decoder-card">
+        <h3>CPAP and BiPAP numbers</h3>
+        <ul>
+          <li><a href="/clinical/ipap-vs-epap-vs-pressure-support/">IPAP, EPAP and pressure support</a></li>
+          <li><a href="/clinical/bipap-trigger-cycle-rise-time-ti-explained/">Trigger, cycle, rise time and Ti</a></li>
+          <li><a href="/clinical/cpap-report-oa-ca-h-fl-rera-explained/">OA, CA, H, FL and RERA</a></li>
+          <li><a href="/clinical/cpap-95th-percentile-pressure-explained/">95th-percentile CPAP pressure</a></li>
+        </ul>
+      </article>
+    </div>
+  </section>
+
   {sorted.length === 0 ? (
     <p class="empty">No clinical articles published yet.</p>
   ) : (
@@ -49,6 +82,55 @@ const crumbs = [
   .hub-header {
     margin-bottom: var(--space-8);
   }
+  .decoder-section {
+    margin-bottom: var(--space-10);
+    padding: clamp(1.25rem, 3vw, 2rem);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: var(--color-surface);
+  }
+  .section-heading {
+    max-width: 720px;
+    margin-bottom: var(--space-5);
+  }
+  .section-heading h2 {
+    margin: 0 0 var(--space-2);
+  }
+  .section-heading p {
+    margin: 0;
+    color: var(--color-text-muted);
+  }
+  .eyebrow {
+    margin-bottom: var(--space-2) !important;
+    color: var(--color-accent) !important;
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+  .decoder-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-4);
+  }
+  .decoder-card {
+    padding: var(--space-5);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: var(--color-bg);
+  }
+  .decoder-card h3 {
+    margin: 0 0 var(--space-3);
+  }
+  .decoder-card ul {
+    display: grid;
+    gap: var(--space-2);
+    margin: 0;
+    padding-left: 1.1rem;
+  }
+  .decoder-card a {
+    font-weight: 600;
+  }
   .article-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -56,5 +138,10 @@ const crumbs = [
   }
   .empty {
     color: var(--color-text-muted);
+  }
+  @media (max-width: 720px) {
+    .decoder-grid {
+      grid-template-columns: 1fr;
+    }
   }
 </style>

@@ -1,24 +1,24 @@
 ---
-title: "Reading a CPAP report — AirView, Care Orchestrator, and BMC iCode"
-description: "How to read the cloud and SD-card reports from ResMed AirView, Philips Care Orchestrator, and BMC iCode — leak thresholds, compliance hours, event types."
-lastReviewed: "2026-04-23"
-nextReview: "2026-10-23"
+title: "Reading a CPAP report — AirView, Care Orchestrator, BMC iCode, and Home Medix Claro"
+description: "How to read reports from ResMed AirView, Philips Care Orchestrator, BMC iCode, and Home Medix Claro — usage, leak, pressure, event types, trends, and waveform review."
+lastReviewed: "2026-07-30"
+nextReview: "2027-01-30"
 author: "HHZ Editorial"
-tags: ["cpap-report", "airview", "care-orchestrator", "icode", "compliance", "leak", "data-download"]
+tags: ["cpap-report", "airview", "care-orchestrator", "icode", "home-medix-claro", "compliance", "leak", "data-download"]
 ---
 
-Every modern CPAP and BiPAP sold in India writes data to an SD card, and most premium units also sync to a cloud dashboard overnight. The reports these systems produce — ResMed's AirView, Philips' Care Orchestrator (with Encore reports), BMC's iCode — look superficially similar but differ in event-detection methodology, leak thresholds, and the graphs they foreground. A clinician or patient who reads these fluently can answer most "is my therapy working?" questions in 90 seconds. One who cannot will reach wrong conclusions from the same data.
+Most current CPAP and BiPAP devices sold in India retain therapy data on removable memory, internal storage, or both; premium platforms may also sync to a cloud dashboard. The reports produced by ResMed AirView, Philips Care Orchestrator (with Encore reports), BMC iCode, and Home Medix Claro look superficially similar but differ in transfer method, event labels, leak handling, and the graphs they foreground. A clinician or patient who reads these fluently can answer most "is my therapy working?" questions in 90 seconds. One who cannot may reach the wrong conclusion from the same data.
 
-This article is a field guide to the three platforms: what each number means, what to watch for, and where the platforms genuinely differ.
+This article is a field guide to the four platforms: what each number means, what to watch for, how the data reaches the software, and where the platforms genuinely differ.
 
 ## What every CPAP report contains
 
-All three platforms report a common core of data per night and as rolling averages:
+All four platforms report a common core of data per night and as rolling averages:
 
 - **Usage hours** — minutes of machine-on time. The denominator for almost everything else.
 - **AHI** — events per hour of machine-on time, using that manufacturer's algorithm (see below).
 - **Leak** — the rate of unintentional air escape beyond the mask's exhaust port, usually reported as 95th-percentile value in L/min over the night.
-- **95th-percentile pressure** — the pressure the APAP ran at for 5% of the night or less. A key titration surrogate.
+- **95th-percentile pressure** — the pressure at or below which the APAP operated for 95% of recorded time. It is an upper-tail summary, not the maximum.
 - **Event breakdown** — counts or rate for obstructive apneas, central apneas, hypopneas, and (on some platforms) RERAs or flow-limitation events.
 
 The important thing to know before reading any of these: all three platforms compute AHI over **machine-on time, not sleep time**. None of them scores arousals. None of them scores desaturations (unless an optional SpO₂ module is connected). The AHI they report is a device-algorithm AHI, not an AASM AHI, as discussed in detail in our AHI calculation article.
@@ -50,6 +50,8 @@ Care Orchestrator is the clinician platform for DreamStation and Respironics uni
 - **AHI.** Under Philips' algorithm — historically more conservative hypopnea threshold and slightly different central-detection logic than ResMed. Philips reports AHI slightly lower than ResMed on the same patient, in the ranges discussed in our algorithm-comparison article.
 - **Large Leak (L/min).** Philips reports leak in the same L/min units as ResMed but uses a different threshold vocabulary. The headline metric is "% time in large leak." A threshold above 10% indicates compromised therapy.
 - **90% Pressure** (note: Philips reports 90th-percentile, not 95th-percentile, on many report formats — a subtle difference that matters when comparing across platforms). Philips' 90% pressure typically runs ~1 cmH₂O lower than ResMed's 95% pressure on the same patient.
+
+For focused definitions, see [OA, CA, H, FL and RERA on a CPAP report](/clinical/cpap-report-oa-ca-h-fl-rera-explained/) and [what 95th-percentile pressure means](/clinical/cpap-95th-percentile-pressure-explained/).
 - **Apneas per Hour / Hypopneas per Hour** — shown separately, unlike AirView which defaults to a combined AHI with a drill-down.
 - **Periodic Breathing %** — Philips' analogue to ResMed's Cheyne-Stokes %.
 - **Mask Off events** — count of times the mask was removed mid-session.
@@ -70,6 +72,31 @@ BMC devices (RESMART, G3 series, GII) in the Indian market write data to SD card
 
 A practical note for Indian clinicians: BMC's cloud-sync requires the patient's home WiFi and the iCode app setup. Many Indian BMC patients, particularly older patients who bought a unit for affordability reasons, never complete this setup. The SD card remains the primary data channel for these patients, and the physician needs either the BMC OEM software or an OSCAR install to read it.
 
+## Home Medix Claro
+
+Home Medix Claro is the Windows and macOS clinical-reporting application for Home Medix PAP devices, including the HM-CV-20 CPAP/APAP and HM-BV-30 BPAP families. Unlike AirView, it is not presented as an always-connected cloud dashboard. Claro reads the device memory card on a clinic computer or workstation and converts the stored therapy data into physician-facing reports.
+
+Home Medix documents four reporting layers:
+
+- **Therapy summary and night calendar** — usage, AHI, leak, pressure, respiratory statistics, and multi-night trends.
+- **Six-panel nightly overview** — respiratory events, delivered pressure, airflow, mask leak, snoring intensity, and rolling AHI aligned on one timeline.
+- **Event Window Analysis** — a closer view around an apnea or hypopnea, showing airflow reduction, event boundaries, leak-corrected tidal amplitude, and the pressure response.
+- **Patient record management** — patient demographics, stored sessions, summary reports, and detailed single-night reports kept together for follow-up.
+
+### How to use Claro for a follow-up report
+
+1. Obtain the appropriate Windows or macOS Claro installer through Home Medix or an authorised Home Medix dealer.
+2. Stop therapy normally before removing the device memory card. Do not remove it while the PAP device is writing data.
+3. Open Claro on the clinic workstation and create or select the correct patient record.
+4. Insert the memory card and import the recorded sessions. Confirm the patient, device, date range, and total usage before interpreting the report.
+5. Start with the therapy summary: usage, AHI, leak, pressure, and trend direction. Then open the six-panel nightly overview for a representative good night and any outlier night.
+6. Use Event Window Analysis only after checking leak and sleep–wake context; a waveform flag is still a device estimate, not an EEG-confirmed sleep-lab event.
+7. Generate the summary or detailed report for the prescribing physician, safely eject the card, and return it to the PAP device before the next therapy session.
+
+Claro's practical advantage is high-resolution offline review without requiring the patient's home Wi-Fi. Its limitation is the same feature viewed from the other side: there is no published automatic cloud push or live remote-titration workflow equivalent to AirView. The patient or dealer must move the memory card data to the workstation.
+
+For installation, data retrieval, report generation, updates, or troubleshooting, Home Medix publishes `claro@homemedix.in` as the software-support contact.
+
 ## What "leak above 24 L/min" means practically
 
 The 24 L/min unintentional leak threshold cited by ResMed (and approximated by the others) is not arbitrary. Above this rate:
@@ -89,7 +116,7 @@ Most reimbursement schemes — US Medicare is the reference, and private Indian 
 - **≥ 21 of any consecutive 30 nights (70%)** within
 - **the first 90 days of therapy**.
 
-Cloud platforms report compliance against this threshold by default. AirView shows a "Compliance" panel in a clinician-configurable 30-day window; Care Orchestrator shows "% nights ≥ 4 hours." The BMC iCode view is simpler, typically just showing average hours.
+Reporting platforms calculate compliance against this threshold by default. AirView shows a "Compliance" panel in a clinician-configurable 30-day window; Care Orchestrator shows "% nights ≥ 4 hours." BMC iCode provides a simpler compliance view. Claro presents usage in its therapy summary, night calendar, and trend reporting after memory-card import.
 
 A patient below the threshold may lose insurance coverage for the device rental or ongoing support in reimbursement markets. In India, this matters primarily for:
 
@@ -115,9 +142,9 @@ A CPAP report that shows persistent centrals at > 5/hour, regardless of obstruct
 
 ## Indian-context specifics
 
-**1. Cloud connectivity coverage is inconsistent.** ResMed AirSense 11 ships with cellular modem connectivity in many Indian distributor channels, eliminating the WiFi setup step; this is a meaningful operational advantage. Philips DreamStation requires WiFi configuration. BMC's iCode cloud requires both WiFi and a slightly clunky app setup. A significant fraction of Indian CPAP patients — particularly older and tier-2 city patients — never complete the cloud setup, and the physician relies on the SD card.
+**1. Cloud connectivity coverage is inconsistent.** ResMed AirSense 11 ships with cellular modem connectivity in many Indian distributor channels, eliminating the WiFi setup step; this is a meaningful operational advantage. Philips DreamStation requires WiFi configuration. BMC's iCode cloud requires WiFi and app setup. Home Medix Claro is intentionally memory-card based and does not require household internet, but it also does not automatically deliver last night's data to the clinic.
 
-**2. SD card download infrastructure.** Most Indian CPAP distributors can read SD cards at the retail point, but the skill varies. For BMC units, OSCAR (an open-source tool) gives more detailed analysis than the OEM software and is worth learning for clinicians serving larger CPAP patient populations. ResMed SD cards are encrypted for full-fidelity data; the AirView download is typically the easier route.
+**2. Memory-card download infrastructure.** Most Indian CPAP distributors can read removable media at the retail point, but the skill varies. For BMC units, OSCAR can provide more detailed analysis than basic iCode summaries. ResMed users usually find AirView the easier route. Home Medix clinics use Claro to import the memory card and produce the aligned waveform and event-window reports.
 
 **3. Compliance reporting requirements from Indian insurers are still maturing.** Unlike US Medicare's strict 4 h / 21 nights / 30 days rule, Indian insurance schemes covering CPAP are inconsistent about whether they require usage documentation post-purchase. For patients on corporate insurance that does require it, a cloud-enabled device simplifies the paperwork.
 
@@ -125,10 +152,10 @@ A CPAP report that shows persistent centrals at > 5/hour, regardless of obstruct
 
 ## Closing
 
-A CPAP report is readable in 90 seconds once you know the layout. Usage hours tell you whether the therapy is being taken. AHI tells you whether the algorithm is suppressing events. 95th-percentile pressure tells you where the patient's actual pressure requirement sits. Leak tells you whether any of the above numbers should be trusted.
+A CPAP report is readable in 90 seconds once you know the layout. Usage hours tell you whether the therapy is being taken. AHI tells you whether the algorithm is suppressing events. Upper-percentile pressure shows the high end of the nightly pressure distribution. Leak tells you whether any of the above numbers should be trusted. AirView, Care Orchestrator, iCode, and Claro package those facts differently, but the reading order remains the same.
 
 The standard 90-day review should check all four. A patient with ≥ 6 hours usage, AHI &lt; 5, leak well below 24 L/min, and a stable 95th-percentile pressure is fully treated and needs only an annual data review. Anyone outside that envelope has a specific, identifiable problem — and the report tells you which one.
 
 Consult your sleep physician if any of these numbers are persistently off-target, before making equipment changes on your own.
 
-*References: ResMed AirView clinician guide; Philips Care Orchestrator technical documentation; BMC iCode user manual; Weaver TE et al, Sleep 2007; AASM clinical practice guidance on PAP therapy [CITATION].*
+*References: ResMed AirView clinician guide; Philips Care Orchestrator technical documentation; BMC iCode user manual; [Home Medix Claro software description](https://homemedix.in/bpap/); Weaver TE et al, Sleep 2007; AASM clinical practice guidance on PAP therapy.*
