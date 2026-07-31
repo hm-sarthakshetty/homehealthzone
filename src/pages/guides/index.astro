@@ -16,7 +16,7 @@ const sorted = guides.slice().sort((a, b) => {
 
 const pageTitle = "Buyer's guides";
 const description =
-  'How to choose the right oxygen concentrator, CPAP, or BiPAP — how to read a spec sheet, what to ignore, what actually matters in Indian conditions.';
+  'Commercial buying guides for oxygen concentrators, CPAP, BiPAP, masks, humidifiers, and power backup in India — with clear recommendations and alternatives.';
 
 const crumbs = [
   { href: '/', label: 'Home' },
@@ -25,27 +25,107 @@ const crumbs = [
 
 const featuredClusters = [
   {
-    title: '5 LPM buying decisions',
+    title: 'Budget CPAP and BiPAP',
     links: [
-      ['Oxygen concentrators buyer guide', '/guides/oxygen-concentrators-buyers-guide-india/'],
-      ['Home Medix vs Oxymed vs Philips EverFlo', '/guides/home-medix-vs-oxymed-vs-philips-everflo-india/'],
-      ['Quiet and lightweight 5 LPM concentrators', '/guides/quiet-lightweight-5-lpm-oxygen-concentrators-india/'],
+      ['Best auto CPAP under ₹30,000', '/guides/best-auto-cpap-under-30000-india/'],
+      ['Best BiPAP under ₹50,000', '/guides/best-bipap-under-50000-india/'],
+      ['Best CPAP with humidifier under ₹30,000', '/guides/best-cpap-with-humidifier-under-30000-india/'],
     ],
   },
   {
-    title: 'EverFlo and imported-stock risk',
+    title: 'Replace premium PAP devices',
+    links: [
+      ['ResMed AirSense 11 alternatives', '/guides/resmed-airsense-11-alternatives-india/'],
+      ['Philips DreamStation CPAP alternatives', '/guides/philips-dreamstation-cpap-alternatives-india/'],
+      ['Philips DreamStation BiPAP and AVAPS alternatives', '/guides/philips-dreamstation-bipap-avaps-alternatives-india/'],
+    ],
+  },
+  {
+    title: 'Home Medix CPAP comparisons',
+    links: [
+      ['HM-CV-20 vs ResMed AirSense 10', '/guides/home-medix-hm-cv-20-vs-resmed-airsense-10-india/'],
+      ['HM-CV-20 vs ResMed AirSense 11', '/guides/home-medix-hm-cv-20-vs-resmed-airsense-11-india/'],
+      ['HM-CV-20 vs BMC GII Auto CPAP', '/guides/home-medix-hm-cv-20-vs-bmc-gii-auto-cpap-india/'],
+    ],
+  },
+  {
+    title: 'Home Medix BiPAP comparisons',
+    links: [
+      ['HM-BV-30 vs ResMed Lumis 150', '/guides/home-medix-hm-bv-30-vs-resmed-lumis-150-india/'],
+      ['HM-BV-30 vs DreamStation AVAPS', '/guides/home-medix-hm-bv-30-vs-philips-dreamstation-bipap-avaps-india/'],
+      ['HM-BV-30 vs Oxymed AirSmart VAPS', '/guides/home-medix-hm-bv-30-vs-oxymed-airsmart-vaps-india/'],
+    ],
+  },
+  {
+    title: 'CPAP masks and starter costs',
+    links: [
+      ['Best CPAP masks in India', '/guides/best-cpap-masks-india/'],
+      ['CPAP mask price and replacement cost', '/guides/cpap-mask-price-replacement-cost-india/'],
+      ['Complete CPAP starter-kit cost', '/guides/cpap-starter-kit-cost-india/'],
+    ],
+  },
+  {
+    title: 'CPAP comfort and continuity',
+    links: [
+      ['Best mask for mouth breathers', '/guides/best-cpap-mask-mouth-breathers-india/'],
+      ['Best mask for side sleepers', '/guides/best-cpap-mask-side-sleepers-india/'],
+      ['Best UPS and battery backup for CPAP', '/guides/best-ups-battery-backup-cpap-india/'],
+    ],
+  },
+  {
+    title: 'Home oxygen purchase decisions',
+    links: [
+      ['Best concentrator for 24/7 home use', '/guides/best-oxygen-concentrator-24-7-home-use-india/'],
+      ['Best concentrator for ILD patients', '/guides/best-oxygen-concentrator-ild-patients-india/'],
+      ['Best for hospitals and nursing homes', '/guides/best-oxygen-concentrator-hospital-nursing-home-india/'],
+    ],
+  },
+  {
+    title: 'EverFlo replacement and stock risk',
     links: [
       ['Philips EverFlo replacement in India', '/guides/philips-everflo-replacement-india/'],
       ['Should you buy Philips EverFlo now?', '/guides/should-you-buy-philips-everflo-india/'],
-      ['Imported oxygen concentrator spare parts', '/guides/imported-oxygen-concentrator-spare-parts-india/'],
+      ['How to check new vs refurbished stock', '/guides/how-to-check-new-vs-refurbished-oxygen-concentrator/'],
     ],
   },
   {
-    title: 'Dealer, warranty, and stock checks',
+    title: 'Oxygen budget, power, and portability',
     links: [
-      ['Old stock oxygen concentrators in India', '/guides/old-stock-oxygen-concentrator-india/'],
-      ['New vs refurbished concentrator checks', '/guides/how-to-check-new-vs-refurbished-oxygen-concentrator/'],
-      ['Warranty and serial-number check', '/guides/oxygen-concentrator-warranty-serial-number-check-india/'],
+      ['Best oxygen concentrator under ₹30,000', '/guides/best-oxygen-concentrator-under-30000-india/'],
+      ['Most energy-efficient concentrators', '/guides/most-energy-efficient-oxygen-concentrators-india/'],
+      ['Best portable continuous-flow concentrators', '/guides/best-portable-continuous-flow-oxygen-concentrators-india/'],
+    ],
+  },
+  {
+    title: 'CPAP rankings and comparisons',
+    links: [
+      ['Quietest CPAP machines', '/guides/quietest-cpap-machines-india/'],
+      ['Best travel CPAP machines', '/guides/best-travel-cpap-machines-india/'],
+      ['AirSense 10 vs AirSense 11', '/guides/resmed-airsense-10-vs-airsense-11-india/'],
+    ],
+  },
+  {
+    title: 'Indian CPAP choices',
+    links: [
+      ['Best Indian CPAP machines', '/guides/best-indian-cpap-machines-india/'],
+      ['BMC GII vs Oxymed SleepEasy', '/guides/bmc-gii-vs-oxymed-sleepeasy-auto-cpap-india/'],
+      ['Best auto CPAP under ₹30,000', '/guides/best-auto-cpap-under-30000-india/'],
+    ],
+  },
+  {
+    title: 'Home NIV and high-pressure therapy',
+    links: [
+      ['Best home NIV machines', '/guides/best-home-niv-machines-india/'],
+      ['Best BiPAP for COPD', '/guides/best-bipap-machine-copd-india/'],
+      ['Best high-pressure BiPAP machines', '/guides/best-high-pressure-bipap-machines-india/'],
+    ],
+  },
+  {
+    title: 'Mask category guides',
+    links: [
+      ['Best full-face CPAP masks', '/guides/best-full-face-cpap-masks-india/'],
+      ['Best nasal-pillow CPAP masks', '/guides/best-nasal-pillow-cpap-masks-india/'],
+      ['Best masks for high pressure', '/guides/best-cpap-bipap-masks-high-pressure-india/'],
     ],
   },
 ];

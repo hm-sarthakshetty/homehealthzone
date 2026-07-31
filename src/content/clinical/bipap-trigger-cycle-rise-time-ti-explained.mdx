@@ -1,0 +1,121 @@
+---
+title: "BiPAP trigger, cycle, rise time, Ti Min and Ti Max explained"
+description: "What the synchrony settings on a BiPAP do — trigger sensitivity, cycle sensitivity, rise time and inspiratory-time limits, plus the symptoms of missed triggers, auto-triggering and early or late cycling."
+lastReviewed: "2026-07-29"
+nextReview: "2027-01-29"
+author: "HHZ Editorial"
+tags: ["bipap", "trigger", "cycle", "rise-time", "ti-min", "ti-max", "synchrony"]
+answer: "Trigger tells a BiPAP when you have started inhaling and it should move from EPAP to IPAP. Cycle tells it when inspiration is ending and it should return to EPAP. Rise time controls how quickly pressure climbs from EPAP to IPAP. Ti Min and Ti Max set the shortest and longest time the machine may remain at IPAP. Together these settings determine whether the machine follows your breath comfortably or feels early, late, abrupt or difficult to trigger."
+faqs:
+  - q: "What does trigger sensitivity mean on BiPAP?"
+    a: "It controls how much change in inspiratory flow the machine needs before switching to IPAP. More-sensitive triggering detects weaker efforts but can also misread leak, movement or cardiac oscillation as a breath."
+  - q: "What does cycle sensitivity mean on BiPAP?"
+    a: "It controls when the machine decides inspiration is ending and returns to EPAP, often using the fall in inspiratory flow from its peak. Earlier cycling shortens IPAP; later cycling prolongs it."
+  - q: "What is rise time?"
+    a: "Rise time is how quickly pressure increases from EPAP to IPAP. Too fast may feel like an air blast; too slow may feel as though the machine is not giving enough support at the start of the breath."
+  - q: "What do Ti Min and Ti Max do?"
+    a: "Ti Min prevents IPAP ending too quickly, while Ti Max prevents it continuing too long. They create a timing window within which flow-based cycling can follow the patient’s spontaneous breath."
+---
+
+IPAP and EPAP describe **how much pressure** a BiPAP delivers. Trigger, cycle, rise time and Ti describe **when and how it moves between those pressures**. Two machines set to the same 16/8 cmH₂O can feel completely different if their timing and sensitivity differ.
+
+These are clinician settings. Their purpose is patient–device synchrony, not personal preference in isolation: a setting that feels smoother can still reduce effective ventilation or create missed and false-triggered breaths.
+
+## One breath, step by step
+
+1. You exhale while the machine maintains EPAP.
+2. You begin to inhale.
+3. **Trigger sensitivity** determines when that effort is detected.
+4. Pressure climbs from EPAP to IPAP at the selected **rise time**.
+5. The machine stays in inspiration for at least **Ti Min**.
+6. **Cycle sensitivity** detects the fall in inspiratory flow and returns toward EPAP.
+7. **Ti Max** prevents IPAP continuing indefinitely if cycling is delayed by leak or abnormal flow.
+
+On an ST machine, a timed breath may also begin because the backup-rate timer expires. The pressure transition still has a rise time and an inspiratory duration.
+
+## Trigger sensitivity: when inspiration starts
+
+Triggering is the transition from EPAP to IPAP. A more-sensitive trigger requires a smaller inspiratory-flow change, which helps a person with weak respiratory muscles initiate supported breaths. But excessive sensitivity can make the device respond to things that are not true breaths:
+
+- mask leak;
+- movement in the circuit;
+- water oscillating in the tubing; or
+- cardiogenic oscillation transmitted into airflow.
+
+That is **auto-triggering** — the machine delivers an apparent patient-triggered breath without a genuine inspiratory effort.
+
+A trigger that is not sensitive enough causes **missed or ineffective efforts**. The person tries to inhale but remains at EPAP. It may feel like pulling against the machine, taking two attempts to start a breath, or waking with air hunger. A waveform download may show patient efforts that fail to trigger IPAP.
+
+## Cycle sensitivity: when inspiration ends
+
+Cycling is the transition from IPAP back to EPAP. In flow-cycled bilevel devices, the machine watches inspiratory flow rise to a peak and then fall. When flow falls to the cycle threshold, it decides inspiration is over.
+
+- **Earlier cycling** returns to EPAP sooner.
+- **Later cycling** keeps IPAP active longer.
+
+If the machine cycles too early, the pressure drops while the person is still trying to inhale. This can feel like the breath is cut short. If it cycles too late, IPAP continues after the person wants to exhale; the patient may feel that they must push against the machine to breathe out.
+
+Obstructive lung disease and neuromuscular weakness can require different timing strategies, which is why a universal “best cycle setting” does not exist.
+
+## Rise time: how quickly support arrives
+
+Rise time is the slope between EPAP and IPAP.
+
+- **Fast rise:** support arrives quickly, but may feel like a punch or blast of air.
+- **Slow rise:** gentler pressure transition, but can starve the beginning of inspiration if support arrives after the patient needed it.
+
+Rise time does not change the set IPAP or EPAP. It changes how long the machine takes to get from one to the other. The number shown on the device may be milliseconds, or a brand-specific scale where a lower or higher number means faster rise. Never assume that “rise 1” means the same timing across brands.
+
+## Ti Min and Ti Max: the inspiratory-time guardrails
+
+**Ti Min** is the minimum time the machine must remain at IPAP after a breath begins. It prevents premature cycling caused by an irregular flow signal.
+
+**Ti Max** is the maximum time it may remain at IPAP. It prevents a leak or prolonged flow from trapping the device in inspiration when the person is ready to exhale.
+
+Between those two limits, the cycle algorithm can follow the patient’s flow. ResMed calls this timing window TiControl on relevant bilevel devices.
+
+In spontaneous breaths, Ti Min and Ti Max are guardrails. In machine-timed breaths, the configured inspiratory time or mode-specific timing logic may determine the breath duration more directly.
+
+## Symptom-to-setting map
+
+This table is for describing symptoms to a clinician, not for self-adjustment.
+
+| What it feels like | Synchrony problem the team may investigate |
+| --- | --- |
+| “I inhale but the machine does not respond” | Missed trigger, low sensitivity, leak or weak effort |
+| “It gives breaths I did not take” | Auto-triggering, excessive sensitivity or leak |
+| “Pressure hits me too hard” | Rise time too fast, excessive PS or mask leak |
+| “Support arrives too slowly” | Rise time too slow or trigger delay |
+| “It drops pressure before I finish inhaling” | Early cycling or Ti Min too short |
+| “It keeps pushing while I am trying to exhale” | Late cycling or Ti Max too long |
+| “Breaths stack or feel rushed” | Backup rate, cycling, Ti and leak interaction |
+
+Many of the same sensations can come from mask leak, nasal resistance, anxiety, excessive pressure support or a mode mismatch. A symptom is a clue, not a setting diagnosis.
+
+## Leak can imitate every synchrony problem
+
+BiPAP algorithms infer breathing from flow measured inside a leaky circuit. Modern devices estimate intentional mask vent flow and compensate for moderate leak, but a large or rapidly varying leak can:
+
+- trigger false breaths;
+- hide weak inspiratory efforts;
+- delay cycling;
+- distort tidal-volume estimates; and
+- make the pressure waveform feel unstable.
+
+Fix and quantify leak before interpreting trigger and cycle complaints. See [normal CPAP/BiPAP leak numbers](/clinical/normal-cpap-leak-number/) and [CPAP leak types](/clinical/cpap-leak-types/).
+
+## What to bring to the follow-up
+
+Bring the exact device model and mode, the full prescription, mask type, leak graph, respiratory-rate and tidal-volume/minute-ventilation trends when available, plus a precise description of when the mismatch happens.
+
+“The machine keeps pushing after I start exhaling, especially on my side” is more useful than “BiPAP is uncomfortable.” A respiratory therapist can compare that report with the airflow and pressure waveforms and adjust the relevant control under supervision.
+
+For the pressure side of the prescription, read [IPAP, EPAP and pressure support](/clinical/ipap-vs-epap-vs-pressure-support/). For timed breaths, read [BiPAP backup rate](/clinical/bipap-backup-rate-explained/).
+
+## Takeaway
+
+Trigger starts IPAP, cycle ends it, rise time shapes the climb, and Ti Min/Ti Max bound how long inspiration can last. These settings are the grammar of synchrony: they determine whether the machine follows a patient’s breath or appears to fight it.
+
+Do not change them by copying another user’s settings. The right combination depends on respiratory mechanics, muscle strength, leak, mode and ventilation goals, and should be reviewed with waveform or download data.
+
+**Primary references:** [ResMed AirCurve 11 VAuto professional information](https://www.resmed.com/en-us/health-professionals/products/cpap/machines/aircurve-11-vauto/); [ResMed AirCurve user guide](https://document.resmed.com/en-us/documents/products/machine/aircurve-series/user-guide/aircurve-10-vauto-s-st-device-with-humidifier_user-guide_amer_spa.pdf); [PAP technology review](https://pmc.ncbi.nlm.nih.gov/articles/PMC4629962/); [home NIV setup review](https://pmc.ncbi.nlm.nih.gov/articles/PMC6558539/).

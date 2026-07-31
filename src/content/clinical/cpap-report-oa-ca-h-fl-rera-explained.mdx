@@ -1,0 +1,125 @@
+---
+title: "OA, CA, H, FL and RERA on a CPAP report: what each flag means"
+description: "Decode the event labels on CPAP and OSCAR reports — obstructive apnea, clear-airway apnea, hypopnea, flow limitation and RERA — plus why machine flags are estimates, not a new sleep study."
+lastReviewed: "2026-07-29"
+nextReview: "2027-01-29"
+author: "HHZ Editorial"
+tags: ["cpap", "cpap-report", "oscar", "obstructive-apnea", "central-apnea", "hypopnea", "flow-limitation", "rera"]
+answer: "OA means obstructive apnea, CA usually means clear-airway apnea, H means hypopnea, FL means flow limitation, and RERA means respiratory effort-related arousal. OA, CA and H contribute to the machine-reported AHI; FL and RERA describe narrower or effortful breathing that may disturb sleep without meeting apnea or hypopnea criteria. These are device-algorithm flags based mainly on airflow and pressure — not definitive diagnoses from a full sleep study."
+faqs:
+  - q: "Does CA on my CPAP mean I have central sleep apnea?"
+    a: "Not by itself. CA usually means the device detected an apnea while the airway appeared open. Awake breath-holding, sleep–wake transitions, leak and algorithm error can also create clear-airway flags. A persistent or rising central-apnea index needs clinician review and may require a sleep study."
+  - q: "Do flow limitations count in AHI?"
+    a: "No. Flow limitation is generally a separate signal and does not enter the AHI unless the reduced flow becomes severe and long enough to meet the device’s hypopnea or apnea criteria."
+  - q: "Is RERA included in AHI?"
+    a: "No. AHI counts apneas and hypopneas. In a laboratory, RERAs contribute to RDI rather than AHI. Device-detected RERA is an estimate because a standard CPAP cannot measure the EEG arousal required to confirm a true RERA."
+  - q: "Why do different CPAP brands show different event labels?"
+    a: "Each manufacturer uses its own sensors, thresholds and algorithms. Philips often uses clear-airway terminology, ResMed reports central-apnea-related metrics, and some devices do not expose flow limitation or RERA at all. Values should not be compared as if the algorithms were identical."
+---
+
+A CPAP report is an algorithm’s interpretation of the airflow passing through the machine. The abbreviations are useful, but they are not equivalent to a sleep technologist scoring brain waves, chest effort, oxygen, position and airflow together.
+
+The first distinction to learn is this: **OA, CA and H are event flags that build the reported AHI; FL and RERA describe subtler breathing disturbance and are usually displayed separately.**
+
+## Event-label decoder
+
+| Label | Meaning | Basic pattern | Included in machine AHI? |
+| --- | --- | --- | --- |
+| OA | Obstructive apnea | Airflow stops while the airway appears obstructed | Yes |
+| CA | Clear-airway apnea; often treated as a central-apnea estimate | Airflow stops while the airway appears open | Yes |
+| H | Hypopnea | Airflow is substantially reduced, but not absent | Yes |
+| FL | Flow limitation | Inspiratory waveform flattens/narrows | No |
+| RERA | Respiratory effort-related arousal estimate | A run of effortful/flow-limited breaths ending in recovery | No; laboratory RERAs contribute to RDI |
+
+Some reports also show **UA** (unclassified apnea), **CSR** (Cheyne–Stokes respiration or periodic breathing) and snore markers.
+
+## OA: obstructive apnea
+
+An obstructive apnea is a period of absent or near-absent airflow caused by upper-airway collapse despite ongoing effort to breathe. A sleep laboratory confirms the continued effort using chest and abdominal belts.
+
+A home CPAP does not usually have those belts. It infers obstruction from the flow response, sometimes using a small pressure oscillation to test whether the airway is open or closed. An OA flag is therefore a strong device estimate, not direct observation of throat anatomy.
+
+Clusters of OA flags can relate to insufficient airway-splinting pressure, supine or REM sleep, chin-tucking, or leak that reduces effective pressure. Do not raise pressure from the flag count alone; confirm the pattern, leak and symptoms.
+
+## CA: clear-airway apnea
+
+“Clear airway” is deliberately cautious terminology. It means the machine detected little or no airflow while its test suggested that the airway was open. That resembles a central apnea, where the brain temporarily does not send an effective signal to breathe, but the device cannot directly measure respiratory effort.
+
+Clear-airway flags can also occur:
+
+- while awake and consciously pausing breathing;
+- during irregular sleep–wake transitions;
+- after a sigh;
+- with substantial leak; or
+- because the algorithm misclassifies the waveform.
+
+A few isolated flags near sleep onset are not the same as a diagnosis of central sleep apnea. A persistent central/clear-airway index, an increase after starting PAP, periodic-breathing clusters or associated heart, neurological or opioid-related risk needs clinician review. Read [why CPAP can cause new central apneas](/clinical/why-cpap-caused-central-apneas/) and [obstructive versus central versus complex apnea](/clinical/osa-vs-central-apnea-vs-complex-sleep-apnea/).
+
+## H: hypopnea
+
+A hypopnea is a partial reduction in airflow rather than a complete pause. In a laboratory, AASM scoring requires a qualifying flow reduction and either oxygen desaturation or an EEG arousal, depending on the scoring rule.
+
+A CPAP machine has no EEG and usually no integrated validated oximetry, so it applies a manufacturer-specific airflow rule. Its reported hypopnoea count can therefore differ from a sleep-study count and from another brand placed on the same patient.
+
+Hypopnoeas may reflect residual upper-airway narrowing, but the machine does not always distinguish obstructive from central hypopnoeas reliably.
+
+## FL: flow limitation
+
+Flow limitation is a partial narrowing visible as a flattened, notched or scooped inspiratory waveform. Air is still moving and the episode may not meet the duration or severity threshold for a hypopnea.
+
+Repeated flow limitation matters because it can increase breathing effort and fragment sleep even when AHI looks excellent. It is one reason someone may remain tired with a residual AHI under 5. See [flow-limitation events explained](/clinical/flow-limitation-events-explained/) and [why am I still tired with a low AHI?](/clinical/why-still-tired-on-cpap-low-ahi/).
+
+Different platforms express FL differently: a continuous graph, a nightly index, event flags, or no patient-visible metric at all.
+
+## RERA: a machine cannot see the “A” directly
+
+RERA stands for **respiratory effort-related arousal**. In a sleep lab, it is a sequence of breaths with increasing effort or inspiratory flattening that ends in an EEG-confirmed arousal but does not meet apnea or hypopnea criteria.
+
+A standard CPAP does not record EEG, so it cannot prove the arousal. A device RERA flag is an algorithmic approximation based on airflow shape and the recovery breath. It can be clinically useful as a trend, but it should not be treated as laboratory-grade RDI.
+
+## How the labels become AHI
+
+Machine AHI is broadly:
+
+**(OA + CA + H events) ÷ device-recorded therapy hours**
+
+That denominator is machine-on time, not EEG-confirmed sleep time. If you wear the mask awake for an hour, the machine may count irregular awake breathing as events and also include that hour in its calculation. This is one reason a single night should not drive a settings change.
+
+Read the full distinction in [how AHI is calculated](/clinical/how-ahi-is-actually-calculated/) and [what is a good AHI on CPAP?](/clinical/what-is-a-good-ahi-on-cpap/).
+
+## Read patterns, not isolated flags
+
+The same labels can appear in different software. AirView and Care Orchestrator obtain them through their connected manufacturer ecosystems; BMC iCode and [Home Medix Claro](/clinical/reading-cpap-report-airview-care-orchestrator-icode/) may be reviewed from device memory. Claro additionally places Home Medix event flags beside pressure, airflow, leak, snoring, and rolling AHI in an aligned nightly view. That richer view helps establish timing, but it does not turn a device flag into an EEG-confirmed diagnosis.
+
+Useful questions include:
+
+- Are flags scattered or clustered?
+- Do they occur while you are likely awake?
+- Does a leak spike occur at the same time?
+- Are events mainly obstructive, clear-airway or hypopnoea?
+- Does pressure rise before or after the event cluster?
+- Is flow limitation high despite a low AHI?
+- Is the trend stable across two to four weeks?
+
+The timeline and waveform carry more information than the nightly pie chart.
+
+## When to contact the sleep clinician
+
+Arrange review when:
+
+- residual AHI remains above the treatment target despite regular use;
+- CA/central index is persistently elevated or rising;
+- periodic breathing appears repeatedly;
+- symptoms remain severe despite a low AHI;
+- events cluster with oxygen desaturation; or
+- large leak makes the report unreliable.
+
+Do not use OSCAR or an app to diagnose central sleep apnea or independently switch to ST/ASV. Those decisions depend on the cause, heart function, medication, blood gases and formal sleep evaluation.
+
+## Takeaway
+
+OA is an obstructive-apnea estimate, CA is a clear-airway/central estimate, H is hypopnea, FL is inspiratory narrowing and RERA is an arousal-related estimate. OA, CA and H form the machine AHI; FL and RERA can explain disturbed sleep that AHI does not capture.
+
+Treat the flags as a useful map of breathing, not a final diagnosis. Trends, leak, symptoms and clinical context decide what the map means.
+
+**Primary references:** [AASM respiratory-event scoring update](https://pmc.ncbi.nlm.nih.gov/articles/PMC3459210/); [AASM PAP titration guideline](https://aasm.org/resources/clinicalguidelines/040210.pdf); [Philips Encore interpretation guide](https://www.philips.com/c-dam/b2c/ko_KR/experience/hs/sleep-apnea/software-compliance-report.pdf); [device-versus-polysomnography event-detection study](https://pmc.ncbi.nlm.nih.gov/articles/PMC9669528/).
