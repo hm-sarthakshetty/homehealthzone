@@ -51,7 +51,7 @@ function buildLastmodMap() {
       const full = join(dir, file);
       let fm = {};
       try { fm = parseFrontmatter(readFileSync(full, 'utf8')); } catch {}
-      const iso = toIso(fm.lastReviewed);
+      const iso = toIso(fm.dateModified ?? fm.lastReviewed);
       const url = urlBuilder(slug);
       if (url && iso) map.set(url, iso);
     }
@@ -101,7 +101,7 @@ function buildLastmodMap() {
       const urlPath = stem === 'index' ? baseUrlPath : `${baseUrlPath}${stem}/`;
       let fm = {};
       try { fm = parseFrontmatter(readFileSync(full, 'utf8')); } catch {}
-      const iso = toIso(fm.lastReviewed);
+      const iso = toIso(fm.dateModified ?? fm.lastReviewed);
       if (iso) map.set(`${SITE_URL}${urlPath}`, iso);
     }
   }

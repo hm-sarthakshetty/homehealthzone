@@ -78,6 +78,8 @@ const comparisonSchema = z.object({
 const editorialSchema = z.object({
   title: z.string(),
   description: z.string(),
+  datePublished: z.string().optional(),
+  dateModified: z.string().optional(),
   lastReviewed: z.string().optional(),
   nextReview: z.string().optional(),
   author: z.string().optional(),
@@ -102,6 +104,8 @@ const editorialSchema = z.object({
 const productReviewSchema = z.object({
   title: z.string(),
   description: z.string().optional(),
+  datePublished: z.string().optional(),
+  dateModified: z.string().optional(),
   lastReviewed: z.string(),
   nextReview: z.string().optional(),
   author: z.string().default('HHZ Editorial'),
@@ -117,6 +121,8 @@ const productReviewSchema = z.object({
 const comparisonWriteupSchema = z.object({
   title: z.string(),
   description: z.string().optional(),
+  datePublished: z.string().optional(),
+  dateModified: z.string().optional(),
   lastReviewed: z.string(),
   nextReview: z.string().optional(),
   author: z.string().default('HHZ Editorial'),

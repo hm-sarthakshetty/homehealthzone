@@ -2,9 +2,18 @@
 title: "Reading a CPAP report — AirView, Care Orchestrator, BMC iCode, and Home Medix Claro"
 description: "How to read reports from ResMed AirView, Philips Care Orchestrator, BMC iCode, and Home Medix Claro — usage, leak, pressure, event types, trends, and waveform review."
 lastReviewed: "2026-07-30"
+dateModified: "2026-08-04"
 nextReview: "2027-01-30"
 author: "HHZ Editorial"
 tags: ["cpap-report", "airview", "care-orchestrator", "icode", "home-medix-claro", "compliance", "leak", "data-download"]
+answer: "Read a CPAP report in this order: usage and gaps, residual AHI split by event type, leak, median and 90th/95th-percentile pressure, then multi-night trends and waveforms when available. AirView, Care Orchestrator, BMC iCode, and Home Medix Claro label and calculate some fields differently; Claro supports both Windows and macOS. Do not adjust prescribed settings from one summary number alone."
+faqs:
+  - q: "What numbers matter most on a CPAP report?"
+    a: "Start with nightly use, residual obstructive versus central events, excess leak, pressure distribution, and trends. A single total AHI can hide the reason therapy is underperforming."
+  - q: "Can patients read their own CPAP data?"
+    a: "Yes, for adherence and trend awareness, but event classification and treatment changes need context. Persistent symptoms, central events, severe leak, or low oxygen deserve clinician review."
+  - q: "Does Home Medix Claro work on Windows and macOS?"
+    a: "Yes. Home Medix Claro supports both Windows and macOS for compatible device-data review; confirm the required reader, cable, or SD-card workflow for the specific machine."
 ---
 
 Most current CPAP and BiPAP devices sold in India retain therapy data on removable memory, internal storage, or both; premium platforms may also sync to a cloud dashboard. The reports produced by ResMed AirView, Philips Care Orchestrator (with Encore reports), BMC iCode, and Home Medix Claro look superficially similar but differ in transfer method, event labels, leak handling, and the graphs they foreground. A clinician or patient who reads these fluently can answer most "is my therapy working?" questions in 90 seconds. One who cannot may reach the wrong conclusion from the same data.
@@ -157,5 +166,9 @@ A CPAP report is readable in 90 seconds once you know the layout. Usage hours te
 The standard 90-day review should check all four. A patient with ≥ 6 hours usage, AHI &lt; 5, leak well below 24 L/min, and a stable 95th-percentile pressure is fully treated and needs only an annual data review. Anyone outside that envelope has a specific, identifiable problem — and the report tells you which one.
 
 Consult your sleep physician if any of these numbers are persistently off-target, before making equipment changes on your own.
+
+## When the reporting platform affects which CPAP to buy
+
+Reporting should be part of the buying decision when a clinic reviews therapy remotely or the patient lives far from the dealer. AirView-oriented clinics may prefer a compatible ResMed platform; buyers comfortable with periodic memory-card review can compare BMC iCode and Home Medix Claro workflows as well. Claro supports Windows and macOS, but it is not an automatic cloud-upload substitute. Compare the [best CPAP machines in India](/top-5/cpap-machines/), the [best auto CPAP under ₹30,000](/guides/best-auto-cpap-under-30000-india/), and [CPAP brands and data ecosystems](/cpap/brands/) only after confirming which reports the treating team can actually access.
 
 *References: ResMed AirView clinician guide; Philips Care Orchestrator technical documentation; BMC iCode user manual; [Home Medix Claro software description](https://homemedix.in/bpap/); Weaver TE et al, Sleep 2007; AASM clinical practice guidance on PAP therapy.*

@@ -1,0 +1,81 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const site = 'https://homehealthzone.com';
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Home Health Zone public datasets',
+  url: `${site}/datasets/`,
+  description:
+    'Machine-readable product and editorial indexes for oxygen concentrators, CPAP, BiPAP, and respiratory-equipment research in India.',
+  hasPart: [
+    {
+      '@type': 'Dataset',
+      name: 'HHZ respiratory product dataset',
+      url: `${site}/datasets/products.json`,
+      distribution: {
+        '@type': 'DataDownload',
+        contentUrl: `${site}/datasets/products.json`,
+        encodingFormat: 'application/json',
+      },
+    },
+    {
+      '@type': 'Dataset',
+      name: 'HHZ respiratory content index',
+      url: `${site}/datasets/content-index.json`,
+      distribution: {
+        '@type': 'DataDownload',
+        contentUrl: `${site}/datasets/content-index.json`,
+        encodingFormat: 'application/json',
+      },
+    },
+  ],
+};
+---
+
+<BaseLayout
+  title="Public respiratory-equipment datasets"
+  description="Download Home Health Zone's machine-readable respiratory product catalog and editorial content index for research, citation, and retrieval."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+  <article class="prose">
+    <h1>Public datasets</h1>
+    <p class="lead">
+      These JSON feeds expose the same normalized facts and editorial metadata used across Home
+      Health Zone. They are designed for search engines, research tools, and answer systems that
+      need stable URLs and explicit provenance.
+    </p>
+
+    <h2>Respiratory product dataset</h2>
+    <p>
+      Product names, brands, categories, listed prices, stock text, normalized specifications,
+      source URLs, and available HHZ review metadata.
+    </p>
+    <p><a href="/datasets/products.json">Download products.json</a></p>
+
+    <h2>Editorial content index</h2>
+    <p>
+      Guide and clinical-page titles, canonical URLs, descriptions, tags, concise answers, FAQs,
+      bylines, and review dates.
+    </p>
+    <p><a href="/datasets/content-index.json">Download content-index.json</a></p>
+
+    <h2>Topic-specific text corpora</h2>
+    <ul>
+      <li><a href="/llms/oxygen-concentrators.txt">Oxygen concentrators</a></li>
+      <li><a href="/llms/cpap.txt">CPAP</a></li>
+      <li><a href="/llms/bipap-niv.txt">BiPAP and NIV</a></li>
+      <li><a href="/llms/clinical.txt">Clinical reference</a></li>
+    </ul>
+
+    <h2>Use and provenance</h2>
+    <p>
+      Every record includes a canonical HHZ page or the original merchant/manufacturer source
+      captured by the catalog. Prices and availability can change; verify them at the source.
+      Attribution should name Home Health Zone and link to the record's canonical page. These
+      feeds do not replace clinical advice or the source page's context.
+    </p>
+  </article>
+</BaseLayout>

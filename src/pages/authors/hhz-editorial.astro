@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const canonical = 'https://homehealthzone.com/authors/hhz-editorial/';
+const schema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': `${canonical}#editorial-team`,
+  name: 'HHZ Editorial',
+  url: canonical,
+  parentOrganization: {
+    '@type': 'Organization',
+    name: 'Home Health Zone',
+    url: 'https://homehealthzone.com/',
+  },
+  description:
+    'The Home Health Zone editorial team researches respiratory equipment, normalizes manufacturer specifications, and maintains buyer and clinical-reference pages for India.',
+  knowsAbout: [
+    'Oxygen concentrators',
+    'CPAP equipment',
+    'BiPAP and non-invasive ventilation',
+    'Respiratory equipment sold in India',
+  ],
+};
+---
+
+<BaseLayout
+  title="HHZ Editorial — author and review standards"
+  description="Who HHZ Editorial is, how Home Health Zone researches respiratory equipment, how clinical material is handled, and how readers can request a correction."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+
+  <article class="prose">
+    <h1>HHZ Editorial</h1>
+    <p class="lead">
+      HHZ Editorial is the Home Health Zone research and publishing team. The byline represents
+      an editorial organization, not an individual doctor, and it should not be read as a claim
+      that an article has received medical review unless a named reviewer is shown on that page.
+    </p>
+
+    <h2>What the team does</h2>
+    <p>
+      We collect and normalize manufacturer specifications, compare Indian-market availability,
+      examine price and service considerations, maintain product shortlists, and translate
+      respiratory-device concepts into plain language. Product conclusions follow our published
+      testing and evidence standards.
+    </p>
+
+    <h2>How clinical pages are handled</h2>
+    <p>
+      Clinical reference pages summarize established respiratory and sleep-medicine concepts and
+      link to primary guidelines or research where useful. They are educational, not a diagnosis
+      or prescription. Settings, oxygen flow, device mode, and escalation decisions belong with a
+      qualified clinician who knows the patient.
+    </p>
+
+    <h2>Dates and updates</h2>
+    <p>
+      A page's published date appears only when it is known. “Last reviewed” or “updated” means the
+      editorial team checked the page on that date; it does not imply that an unnamed clinician
+      approved it. Material changes update the page's modified date and review schedule.
+    </p>
+
+    <h2>Standards and corrections</h2>
+    <ul>
+      <li><a href="/methodology/">Testing methodology</a></li>
+      <li><a href="/editorial-policy/">Editorial policy</a></li>
+      <li><a href="/correction-policy/">Corrections policy</a></li>
+      <li><a href="/editorial-policy/">Ethics and independence</a></li>
+    </ul>
+    <p>
+      Found a factual error or an outdated specification? <a href="/contact/">Contact HHZ</a>
+      with the page URL and the source supporting the correction.
+    </p>
+  </article>
+</BaseLayout>

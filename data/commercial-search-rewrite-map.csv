@@ -1,0 +1,101 @@
+id,family,intent,user_language,likely_search_rewrite,target_url
+1,oxygen-general,best-overall,which oxygen machine is best for home,best oxygen concentrator for home use India,/guides/oxygen-concentrators-buyers-guide-india/
+2,oxygen-general,best-overall,best oxygen machine in India,best oxygen concentrator in India 2026,/guides/oxygen-concentrators-buyers-guide-india/
+3,oxygen-general,recommendation,which concentrator should I buy,oxygen concentrator buying guide India,/guides/oxygen-concentrators-buyers-guide-india/
+4,oxygen-general,reliability,most reliable home oxygen machine,most reliable oxygen concentrator India home use,/oxygen-concentrators/brands/
+5,oxygen-general,comparison,top oxygen machines for patients,top 5 oxygen concentrators India,/top-5/5-lpm-oxygen-concentrators/
+6,oxygen-general,home-use,oxygen concentrator for patient at home,home oxygen concentrator India continuous flow,/guides/oxygen-concentrators-buyers-guide-india/
+7,oxygen-general,selection,how to choose oxygen machine,how to choose oxygen concentrator flow purity service India,/guides/oxygen-concentrators-buyers-guide-india/
+8,oxygen-general,continuous-flow,best continuous oxygen machine,best continuous flow oxygen concentrator India,/top-5/5-lpm-oxygen-concentrators/
+9,oxygen-general,medical-grade,best medical oxygen concentrator,medical grade oxygen concentrator 93 percent purity India,/guides/oxygen-concentrators-buyers-guide-india/
+10,oxygen-general,current-year,best concentrator 2026,best oxygen concentrator India 2026 current models,/guides/oxygen-concentrators-buyers-guide-india/
+11,oxygen-flow,5-litre,best 5 litre oxygen concentrator,best 5 LPM oxygen concentrator India,/top-5/5-lpm-oxygen-concentrators/
+12,oxygen-flow,5-lpm,top five lpm concentrator,top 5 LPM oxygen concentrators India 2026,/top-5/5-lpm-oxygen-concentrators/
+13,oxygen-flow,10-litre,best 10 litre oxygen concentrator,best 10 LPM oxygen concentrator India,/top-5/10-lpm-oxygen-concentrators/
+14,oxygen-flow,high-flow,best high flow home oxygen machine,10 LPM high flow oxygen concentrator India,/oxygen-concentrators/10-lpm/
+15,oxygen-flow,choice,do I need 5 or 10 litre concentrator,5 LPM vs 10 LPM oxygen concentrator,/guides/5-lpm-vs-10-lpm/
+16,oxygen-flow,two-patient,oxygen machine for two patients,dual flow 10 LPM oxygen concentrator India,/oxygen-concentrators/dual-flow/
+17,oxygen-flow,low-flow,concentrator that starts at half litre,oxygen concentrator 0.5 LPM low flow India,/oxygen-concentrators/5-lpm/
+18,oxygen-flow,purity,which concentrator maintains purity at full flow,oxygen concentrator purity at 5 LPM comparison India,/guides/5-lpm-oxygen-concentrator-spec-comparison-india/
+19,oxygen-flow,spec-comparison,compare 5 litre concentrator specifications,5 LPM oxygen concentrator spec comparison India,/guides/5-lpm-oxygen-concentrator-spec-comparison-india/
+20,oxygen-flow,10l-specs,compare 10 litre concentrator specifications,10 LPM oxygen concentrator spec comparison India,/guides/10-lpm-oxygen-concentrator-spec-comparison-india/
+21,oxygen-use-case,copd,best oxygen machine for COPD,best oxygen concentrator for COPD home use India,/top-5/oxygen-concentrators-for-copd/
+22,oxygen-use-case,copd-home,which concentrator for COPD patient at home,oxygen concentrator for COPD patient at home India,/guides/oxygen-concentrator-for-copd-patient-india/
+23,oxygen-use-case,ild,best oxygen machine for lung fibrosis,best oxygen concentrator for ILD pulmonary fibrosis India,/guides/best-oxygen-concentrator-ild-patients-india/
+24,oxygen-use-case,elderly,best oxygen machine for elderly,best oxygen concentrator for elderly home use India,/top-5/oxygen-concentrators-for-senior-care/
+25,oxygen-use-case,night-use,quiet oxygen machine for sleeping,best oxygen concentrator for night use India,/guides/oxygen-concentrator-for-night-use-india/
+26,oxygen-use-case,continuous-duty,oxygen machine for all day use,best oxygen concentrator for 24 7 home use India,/guides/best-oxygen-concentrator-24-7-home-use-india/
+27,oxygen-use-case,hospital,best concentrator for nursing home,best oxygen concentrator hospital nursing home India,/guides/best-oxygen-concentrator-hospital-nursing-home-india/
+28,oxygen-use-case,high-altitude,best concentrator for hill station,best oxygen concentrator high altitude India,/guides/hill-station-oxygen-therapy-altitude-derating/
+29,oxygen-use-case,nebulizer,oxygen machine with nebulizer,best oxygen concentrator with nebulizer India,/guides/oxygen-concentrator-with-nebulizer-india/
+30,oxygen-use-case,purity-display,concentrator showing oxygen percentage,oxygen concentrator with live purity display India,/guides/oxygen-concentrator-with-purity-display-india/
+31,oxygen-price,budget-30k,best oxygen machine below 30000,best oxygen concentrator under 30000 India,/guides/best-oxygen-concentrator-under-30000-india/
+32,oxygen-price,budget-40k,best oxygen machine below 40000,best oxygen concentrator under 40000 India,/top-5/oxygen-concentrators-under-40000/
+33,oxygen-price,price,oxygen machine price for home,oxygen concentrator price in India home use,/oxygen-concentrators/price-india/
+34,oxygen-price,5l-price,price of 5 litre oxygen machine,5 LPM oxygen concentrator price India,/oxygen-concentrators/price-india/
+35,oxygen-price,10l-price,price of 10 litre oxygen machine,10 LPM oxygen concentrator price India,/oxygen-concentrators/price-india/
+36,oxygen-price,portable-price,portable oxygen machine cost,portable oxygen concentrator price India,/oxygen-concentrators/price-india/
+37,oxygen-price,value,best value oxygen machine,best value oxygen concentrator India price warranty service,/guides/oxygen-concentrators-buyers-guide-india/
+38,oxygen-price,electricity,concentrator with lowest power bill,most energy efficient oxygen concentrator India,/guides/most-energy-efficient-oxygen-concentrators-india/
+39,oxygen-price,running-cost,oxygen machine electricity cost,oxygen concentrator power consumption cost India,/clinical/oxygen-concentrator-electricity-cost-by-state/
+40,oxygen-price,buying-channel,is online oxygen machine cheaper,hospital dealer vs online oxygen concentrator India,/guides/hospital-channel-vs-online-channel-respiratory-equipment/
+41,oxygen-rental,rent,oxygen machine on rent,oxygen concentrator rental India monthly price,/oxygen-concentrators/rental/
+42,oxygen-rental,rent-vs-buy,should I rent or buy oxygen machine,oxygen concentrator rent vs buy India,/oxygen-concentrators/rental/
+43,oxygen-rental,short-term,oxygen machine rental for one month,5 LPM oxygen concentrator one month rent India,/oxygen-concentrators/rental/
+44,oxygen-service,near-me,oxygen concentrator service near me,oxygen concentrator service centre near me India,/guides/oxygen-concentrator-service-centre-near-me-india/
+45,oxygen-service,dealer,where to buy oxygen machine nearby,oxygen concentrator dealer near me India,/guides/oxygen-concentrator-dealer-near-me-india/
+46,oxygen-service,network,which oxygen brand has best service,best oxygen concentrator service network India,/guides/oxygen-concentrator-service-network-india/
+47,oxygen-service,repair,oxygen machine repair price,oxygen concentrator repair cost India,/guides/oxygen-concentrator-repair-cost-india/
+48,oxygen-service,compressor,oxygen machine compressor replacement,oxygen concentrator compressor replacement cost India,/guides/oxygen-concentrator-compressor-replacement-cost-india/
+49,oxygen-service,sieve-bed,concentrator sieve replacement price,oxygen concentrator sieve bed replacement cost India,/guides/oxygen-concentrator-sieve-bed-replacement-cost-india/
+50,oxygen-service,warranty,how to check oxygen machine warranty,oxygen concentrator serial number warranty check India,/guides/oxygen-concentrator-warranty-serial-number-check-india/
+51,oxygen-brands,best-brand,best oxygen concentrator company,best oxygen concentrator brands India,/oxygen-concentrators/brands/
+52,oxygen-brands,indian-brand,best Indian oxygen machine brand,best Indian oxygen concentrator manufacturers CDSCO,/top-5/indian-made-oxygen-concentrators/
+53,oxygen-brands,home-medix,Home Medix oxygen machine review,Home Medix HM KV review India,/oxygen-concentrators/home-medix-5-lpm/
+54,oxygen-brands,oxymed,Oxymed Mini oxygen machine review,Oxymed Mini 5 LPM review India,/oxygen-concentrators/oxymed-mini-5-lpm/
+55,oxygen-brands,philips,Philips EverFlo still worth buying,should you buy Philips EverFlo India 2026,/guides/should-you-buy-philips-everflo-india/
+56,oxygen-replacement,everflo-alternative,best replacement for Philips EverFlo,best Philips EverFlo alternative India,/guides/philips-everflo-replacement-india/
+57,oxygen-replacement,everflo-discontinued,what to buy after EverFlo discontinued,Philips EverFlo discontinued India alternatives,/guides/philips-everflo-discontinued-india-alternatives/
+58,oxygen-comparison,three-brand,Home Medix or Oxymed or Philips,Home Medix HM KV vs Oxymed Mini vs Philips EverFlo,/guides/home-medix-vs-oxymed-vs-philips-everflo-india/
+59,oxygen-comparison,hmkv-everflo,HM KV compared with EverFlo,Home Medix HM KV vs Philips EverFlo India,/guides/philips-everflo-replacement-india/
+60,oxygen-stock,new-vs-refurbished,how to know oxygen machine is new,new vs refurbished oxygen concentrator India serial hours,/guides/how-to-check-new-vs-refurbished-oxygen-concentrator/
+61,oxygen-portable,best-portable,best portable oxygen machine,best portable oxygen concentrator India,/top-5/portable-oxygen-concentrators/
+62,oxygen-portable,travel,oxygen machine for travel,portable oxygen concentrator for travel India,/oxygen-concentrators/portable/
+63,oxygen-portable,continuous-flow,portable machine with continuous oxygen,best portable continuous flow oxygen concentrator India,/guides/best-portable-continuous-flow-oxygen-concentrators-india/
+64,oxygen-portable,pulse-vs-continuous,is portable oxygen same as home machine,portable vs stationary oxygen concentrator India,/guides/portable-vs-stationary-concentrator/
+65,oxygen-portable,flight,oxygen concentrator allowed on flight,FAA approved portable oxygen concentrator India travel,/clinical/faa-approved-pocs-for-international-travel/
+66,oxygen-specialty,quiet,most silent oxygen machine,quietest oxygen concentrator India dB,/top-5/quietest-oxygen-concentrators/
+67,oxygen-specialty,lightweight,lightest 5 litre oxygen machine,lightweight 5 LPM oxygen concentrator India,/guides/lightweight-5-lpm-concentrators-india/
+68,oxygen-specialty,quiet-light,quiet lightweight oxygen concentrator,quiet and lightweight 5 LPM oxygen concentrator India,/guides/quiet-lightweight-5-lpm-oxygen-concentrators-india/
+69,oxygen-specialty,power-backup,inverter for oxygen machine,oxygen concentrator UPS inverter backup India,/guides/oxygen-concentrator-power-backup-india/
+70,oxygen-specialty,stabilizer,stabilizer size for oxygen machine,voltage stabilizer sizing oxygen concentrator India,/guides/voltage-stabiliser-sizing-concentrators-india/
+71,cpap-general,best,best sleep apnea machine,best CPAP machine India 2026,/top-5/cpap-machines/
+72,cpap-general,best-auto,best automatic CPAP machine,best auto CPAP APAP machine India,/top-5/cpap-machines/
+73,cpap-general,home-use,which CPAP should I buy,CPAP machine buying guide India brands price,/cpap/brands/
+74,cpap-general,brands,best CPAP company,best CPAP brands India ResMed BMC Home Medix,/cpap/brands/
+75,cpap-general,indian,best Indian CPAP machine,best Indian CPAP machines brands,/guides/best-indian-cpap-machines-india/
+76,cpap-price,budget,best CPAP below 30000,best auto CPAP under 30000 India,/guides/best-auto-cpap-under-30000-india/
+77,cpap-price,under-20k,best cheap CPAP under 20000,best CPAP under 20000 India BMC GII,/guides/best-auto-cpap-under-30000-india/
+78,cpap-price,humidifier,best CPAP with humidifier,best CPAP with humidifier under 30000 India,/guides/best-cpap-with-humidifier-under-30000-india/
+79,cpap-price,cost,CPAP machine cost,CPAP price in India 2026,/cpap/price-india/
+80,cpap-price,complete-kit,total CPAP setup cost,CPAP starter kit cost India mask humidifier tubing,/guides/cpap-starter-kit-cost-india/
+81,cpap-rental,rent,CPAP machine on rent,CPAP rental India monthly rates,/cpap/rental/
+82,cpap-rental,trial,can I try CPAP before buying,CPAP trial before buy India rental,/cpap/rental/
+83,cpap-travel,best-travel,best small CPAP for travel,best travel CPAP machine India,/guides/best-travel-cpap-machines-india/
+84,cpap-noise,quiet,most silent CPAP machine,quietest CPAP machines India dB,/guides/quietest-cpap-machines-india/
+85,cpap-software,data,software to read CPAP SD card,CPAP report software Windows macOS Claro AirView iCode,/clinical/reading-cpap-report-airview-care-orchestrator-icode/
+86,cpap-comparison,resmed-models,AirSense 10 or AirSense 11,ResMed AirSense 10 vs AirSense 11 India,/guides/resmed-airsense-10-vs-airsense-11-india/
+87,cpap-alternative,resmed-alternative,cheaper alternative to AirSense 11,best ResMed AirSense 11 alternatives India,/guides/resmed-airsense-11-alternatives-india/
+88,cpap-alternative,philips-alternative,replacement for DreamStation CPAP,best Philips DreamStation CPAP alternatives India,/guides/philips-dreamstation-cpap-alternatives-india/
+89,cpap-mask,best,best mask for CPAP,best CPAP masks India nasal pillow full face,/guides/best-cpap-masks-india/
+90,cpap-mask,mouth-breather,best mask if mouth opens,best CPAP mask for mouth breathers India,/guides/best-cpap-mask-mouth-breathers-india/
+91,cpap-mask,side-sleeper,best CPAP mask for side sleeping,best CPAP mask for side sleepers India,/guides/best-cpap-mask-side-sleepers-india/
+92,cpap-mask,high-pressure,mask that does not leak on BiPAP,best CPAP BiPAP mask high pressure India,/guides/best-cpap-bipap-masks-high-pressure-india/
+93,cpap-mask,cost,CPAP mask replacement price,CPAP mask price replacement cost India,/guides/cpap-mask-price-replacement-cost-india/
+94,bipap-general,best,best BiPAP machine,best BiPAP machines India 2026,/top-5/bipap-machines/
+95,bipap-price,budget,best BiPAP below 50000,best BiPAP under 50000 India,/guides/best-bipap-under-50000-india/
+96,bipap-use-case,copd,best BiPAP for COPD,best BiPAP machine for COPD India,/guides/best-bipap-machine-copd-india/
+97,bipap-mode,st,best BiPAP with backup rate,best BiPAP ST machine India backup rate,/guides/bipap-st-devices-india/
+98,bipap-mode,vaps,best AVAPS BiPAP for home,best home NIV VAPS AVAPS iVAPS machine India,/guides/best-home-niv-machines-india/
+99,bipap-alternative,philips,replacement for Philips AVAPS,best Philips DreamStation BiPAP AVAPS alternatives India,/guides/philips-dreamstation-bipap-avaps-alternatives-india/
+100,bipap-comparison,home-medix-resmed,HM BV 30 or Lumis 150,Home Medix HM BV 30 vs ResMed Lumis 150 India,/guides/home-medix-hm-bv-30-vs-resmed-lumis-150-india/

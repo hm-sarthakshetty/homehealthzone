@@ -52,3 +52,9 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Checkout source for freshness notification
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Notify IndexNow after deployment
+        run: node scripts/indexnow-ping.mjs --git-range "${{ github.event.before }}" "${{ github.sha }}"
