@@ -14,6 +14,7 @@
  *   "build": "astro build && node scripts/indexnow-ping.mjs --changed",
  */
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
+import { execFileSync } from 'node:child_process';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { dirname } from 'node:path';
@@ -41,6 +42,74 @@ function urlsFromSitemap() {
   let m;
   while ((m = re.exec(xml)) !== null) urls.push(m[1]);
   return urls;
+}
+
+async function urlsFromLiveSitemap() {
+  const origin = `https://${host}`;
+  const indexResponse = await fetch(`${origin}/sitemap-index.xml`);
+  if (!indexResponse.ok) throw new Error(`Could not fetch live sitemap index: ${indexResponse.status}`);
+  const indexXml = await indexResponse.text();
+  const sitemapUrls = [...indexXml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]);
+  const pageUrls = [];
+  for (const sitemapUrl of sitemapUrls) {
+    const response = await fetch(sitemapUrl);
+    if (!response.ok) throw new Error(`Could not fetch ${sitemapUrl}: ${response.status}`);
+    const xml = await response.text();
+    pageUrls.push(...[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map((match) => match[1]));
+  }
+  return pageUrls;
+}
+
+function cpapBipapRoute(slug) {
+  const productPath = join(ROOT, 'src', 'content', 'cpap-bipap', `${slug}.json`);
+  if (!existsSync(productPath)) return `/cpap/${slug}/`;
+  try {
+    const data = JSON.parse(readFileSync(productPath, 'utf8'));
+    return `/${data.device_type === 'bipap' ? 'bipap' : 'cpap'}/${slug}/`;
+  } catch {
+    return `/cpap/${slug}/`;
+  }
+}
+
+function routeForChangedFile(file) {
+  let match;
+  if ((match = file.match(/^src\/content\/guides\/(.+)\.(?:md|mdx)$/))) return `/guides/${match[1]}/`;
+  if ((match = file.match(/^src\/content\/clinical\/(.+)\.(?:md|mdx)$/))) return `/clinical/${match[1]}/`;
+  if ((match = file.match(/^src\/content\/product-reviews\/(.+)\.(?:md|mdx)$/))) return `/oxygen-concentrators/${match[1]}/`;
+  if ((match = file.match(/^src\/content\/products\/(.+)\.json$/))) return `/oxygen-concentrators/${match[1]}/`;
+  if ((match = file.match(/^src\/content\/cpap-bipap-reviews\/(.+)\.(?:md|mdx)$/))) return cpapBipapRoute(match[1]);
+  if ((match = file.match(/^src\/content\/cpap-bipap\/(.+)\.json$/))) return cpapBipapRoute(match[1]);
+  if ((match = file.match(/^src\/content\/comparison-writeups\/(.+)\.(?:md|mdx)$/))) return `/compare/${match[1]}/`;
+  if ((match = file.match(/^src\/pages\/top-5\/(.+)\.(?:md|mdx|astro)$/))) return `/top-5/${match[1]}/`;
+  if ((match = file.match(/^src\/pages\/(.+)\.(?:md|mdx|astro)$/))) {
+    const route = match[1].replace(/\/index$/, '');
+    if (route.includes('[')) return null;
+    return `/${route ? `${route}/` : ''}`;
+  }
+  return null;
+}
+
+function urlsChangedInGitRange(before, after, allUrls) {
+  if (!before || /^0+$/.test(before) || !after) return allUrls;
+  let files;
+  try {
+    files = execFileSync('git', ['diff', '--name-only', before, after], {
+      cwd: ROOT,
+      encoding: 'utf8',
+    }).trim().split('\n').filter(Boolean);
+  } catch {
+    return allUrls;
+  }
+
+  const globalPrefixes = [
+    'astro.config.', '.github/workflows/', 'src/components/', 'src/data/',
+    'src/layouts/', 'src/styles/', 'src/content.config.',
+  ];
+  if (files.some((file) => globalPrefixes.some((prefix) => file.startsWith(prefix)))) return allUrls;
+
+  const changedPaths = new Set(files.map(routeForChangedFile).filter(Boolean));
+  const changedUrls = allUrls.filter((url) => changedPaths.has(new URL(url).pathname));
+  return changedUrls.length > 0 ? changedUrls : [`https://${host}/`];
 }
 
 function filterChangedInLast24h(urls) {
@@ -115,6 +184,9 @@ if (args.length === 0) {
   urls = urlsFromSitemap();
 } else if (args[0] === '--changed') {
   urls = filterChangedInLast24h(urlsFromSitemap());
+} else if (args[0] === '--git-range') {
+  const allUrls = await urlsFromLiveSitemap();
+  urls = urlsChangedInGitRange(args[1], args[2], allUrls);
 } else {
   urls = args;
 }

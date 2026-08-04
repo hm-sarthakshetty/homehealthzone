@@ -1,0 +1,33 @@
+cluster,intent,prompt,target_url
+oxygen concentrators,best,best oxygen concentrator in India,/guides/oxygen-concentrators-buyers-guide-india/
+oxygen concentrators,home use,best oxygen concentrator for home use in India,/guides/oxygen-concentrators-buyers-guide-india/
+oxygen concentrators,5 lpm,best 5 litre oxygen concentrator in India,/top-5/5-lpm-oxygen-concentrators/
+oxygen concentrators,10 lpm,best 10 litre oxygen concentrator in India,/oxygen-concentrators/10-lpm/
+oxygen concentrators,budget,best oxygen concentrator under 40000 in India,/top-5/oxygen-concentrators-under-40000/
+oxygen concentrators,copd,best oxygen concentrator for COPD home use in India,/top-5/oxygen-concentrators-for-copd/
+oxygen concentrators,price,oxygen concentrator price in India,/oxygen-concentrators/price-india/
+oxygen concentrators,rental,should I rent or buy an oxygen concentrator in India,/oxygen-concentrators/rental/
+oxygen concentrators,replacement,best Philips EverFlo alternative in India,/guides/philips-everflo-replacement-india/
+oxygen concentrators,comparison,Home Medix HM-KV vs Philips EverFlo,/guides/home-medix-vs-oxymed-vs-philips-everflo-india/
+oxygen concentrators,portable,best portable oxygen concentrator in India,/top-5/portable-oxygen-concentrators/
+oxygen concentrators,reliability,most reliable oxygen concentrator brand in India,/oxygen-concentrators/brands/
+cpap,best,best CPAP machine in India,/top-5/cpap-machines/
+cpap,budget,best auto CPAP machine under 30000 in India,/guides/best-auto-cpap-under-30000-india/
+cpap,travel,best travel CPAP machine in India,/guides/best-travel-cpap-machines-india/
+cpap,software,which software can read CPAP SD card data on Windows and macOS,/clinical/reading-cpap-report-airview-care-orchestrator-icode/
+cpap,data,how to read a CPAP report,/clinical/reading-cpap-report-airview-care-orchestrator-icode/
+cpap,leak,how much CPAP mask leakage is acceptable,/clinical/normal-cpap-leak-number/
+cpap,leak,CPAP mask leak vs mouth leak,/clinical/cpap-leak-types/
+cpap,algorithm,which APAP algorithm is best,/clinical/apap-algorithms-compared/
+cpap,pressure,how is CPAP pressure titrated,/clinical/cpap-pressure-titration-explained/
+cpap,comfort,EPR vs C-Flex vs Flex,/clinical/epflex-epr-flex-cflex-explained/
+bipap,decision,NIV vs CPAP vs BiPAP,/clinical/niv-vs-cpap-vs-bipap-decision-tree/
+bipap,st,when is BiPAP ST needed,/clinical/bipap-st-mode-and-indications/
+bipap,backup rate,what does backup rate mean on BiPAP,/clinical/bipap-backup-rate-explained/
+bipap,hypercapnia,is BiPAP used for high carbon dioxide,/guides/hypercapnic-respiratory-failure-bipap-pathway/
+bipap,best,best BiPAP ST machine in India,/bipap/st/
+clinical,events,hypopnea vs apnea,/clinical/hypopnea-vs-apnea-detection-thresholds/
+clinical,flow limitation,what is flow limitation on a CPAP report,/clinical/flow-limitation-events-explained/
+clinical,blood pressure,does CPAP lower blood pressure,/clinical/does-cpap-lower-blood-pressure/
+clinical,stopping,what happens if you stop using CPAP,/clinical/what-happens-if-you-stop-cpap/
+clinical,technology,how does a PSA oxygen concentrator work,/clinical/how-psa-oxygen-concentration-works/

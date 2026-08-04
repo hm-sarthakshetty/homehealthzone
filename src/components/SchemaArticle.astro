@@ -2,14 +2,28 @@
 export interface Props {
   title: string;
   description: string;
+  datePublished?: string;
+  dateModified?: string;
   lastReviewed?: string;
   author?: string;
+  authorUrl?: string;
   url?: string;
   wordCount?: number;
   inLanguage?: string;
 }
 
-const { title, description, lastReviewed, author, url, wordCount, inLanguage = 'en-IN' } = Astro.props;
+const {
+  title,
+  description,
+  datePublished,
+  dateModified,
+  lastReviewed,
+  author,
+  authorUrl,
+  url,
+  wordCount,
+  inLanguage = 'en-IN',
+} = Astro.props;
 
 const siteOrigin = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
 const canonicalUrl = url ?? new URL(Astro.url.pathname, Astro.site ?? 'https://example.com').toString();
@@ -34,6 +48,9 @@ const ld: Record<string, unknown> = {
           url: `${siteOrigin}/favicon.svg`,
         }
       : undefined,
+    publishingPrinciples: siteOrigin ? `${siteOrigin}/editorial-policy/` : undefined,
+    ethicsPolicy: siteOrigin ? `${siteOrigin}/editorial-policy/` : undefined,
+    correctionsPolicy: siteOrigin ? `${siteOrigin}/correction-policy/` : undefined,
   },
   // Speakable hints for voice assistants: first paragraph + H1 on article pages.
   speakable: {
@@ -42,15 +59,14 @@ const ld: Record<string, unknown> = {
   },
 };
 
-if (lastReviewed) {
-  ld.datePublished = lastReviewed;
-  ld.dateModified = lastReviewed;
-}
+if (datePublished) ld.datePublished = datePublished;
+if (dateModified ?? lastReviewed) ld.dateModified = dateModified ?? lastReviewed;
 
 if (author) {
   ld.author = {
-    '@type': 'Person',
+    '@type': author === 'HHZ Editorial' ? 'Organization' : 'Person',
     name: author,
+    url: authorUrl ? new URL(authorUrl, Astro.site ?? 'https://example.com').toString() : undefined,
   };
 }
 

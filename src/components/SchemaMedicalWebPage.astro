@@ -2,12 +2,14 @@
 export interface Props {
   title: string;
   description: string;
+  datePublished?: string;
+  dateModified?: string;
   lastReviewed?: string;
   reviewedBy?: string;
   credentials?: string;
 }
 
-const { title, description, lastReviewed, reviewedBy, credentials } = Astro.props;
+const { title, description, datePublished, dateModified, lastReviewed, reviewedBy, credentials } = Astro.props;
 
 const canonicalUrl = new URL(Astro.url.pathname, Astro.site ?? 'https://example.com').toString();
 
@@ -25,9 +27,9 @@ const ld: Record<string, unknown> = {
 
 if (lastReviewed) {
   ld.lastReviewed = lastReviewed;
-  ld.datePublished = lastReviewed;
-  ld.dateModified = lastReviewed;
 }
+if (datePublished) ld.datePublished = datePublished;
+if (dateModified ?? lastReviewed) ld.dateModified = dateModified ?? lastReviewed;
 
 if (reviewedBy) {
   const reviewer: Record<string, unknown> = {

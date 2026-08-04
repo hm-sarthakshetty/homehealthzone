@@ -15,11 +15,14 @@ from __future__ import annotations
 import re
 import sys
 import json
+import os
 from pathlib import Path
 
-SITE = Path.home() / "hhz-site"
-OUT_INDEX = SITE / "public" / "llms.txt"
-OUT_FULL = SITE / "public" / "llms-full.txt"
+SITE = Path(__file__).resolve().parents[1]
+OUTPUT_ROOT = Path(os.environ.get("HHZ_LLM_OUTPUT_DIR", SITE / "public"))
+OUT_INDEX = OUTPUT_ROOT / "llms.txt"
+OUT_FULL = OUTPUT_ROOT / "llms-full.txt"
+OUT_TOPICS = OUTPUT_ROOT / "llms"
 
 SITE_URL = "https://homehealthzone.com"
 
@@ -91,6 +94,11 @@ def strip_citations(body: str) -> str:
     # Bare citations: [CITATION: ...] with any preceding whitespace
     body = _CITATION_RE.sub("", body)
     return body
+
+
+def clean_output(text: str) -> str:
+    """Remove trailing horizontal whitespace and end with one newline."""
+    return re.sub(r"[ \t]+$", "", text, flags=re.MULTILINE).rstrip() + "\n"
 
 
 def section(url: str, title: str, body: str) -> str:
@@ -514,6 +522,7 @@ def generate_llms_index() -> str:
         f"- [Methodology]({SITE_URL}/methodology/): scoring methodology and testing protocol",
         f"- [Editorial policy]({SITE_URL}/editorial-policy/): independence, loaners, sponsorship, and corrections",
         f"- [Correction policy]({SITE_URL}/correction-policy/): timestamped corrections with original wording preserved",
+        f"- [HHZ Editorial author profile]({SITE_URL}/authors/hhz-editorial/): byline identity, scope, review language, and update standards",
         f"- [Contact]({SITE_URL}/contact/)",
         "",
         "## Category buyer hubs",
@@ -566,6 +575,11 @@ def generate_llms_index() -> str:
         "## Full content corpus",
         "",
         f"- [llms-full.txt]({SITE_URL}/llms-full.txt): concatenated editorial corpus for LLM ingestion",
+        f"- [Oxygen concentrator corpus]({SITE_URL}/llms/oxygen-concentrators.txt): focused oxygen-device, therapy, and buying content",
+        f"- [CPAP corpus]({SITE_URL}/llms/cpap.txt): focused CPAP, APAP, mask, report, and sleep-therapy content",
+        f"- [BiPAP and NIV corpus]({SITE_URL}/llms/bipap-niv.txt): focused BiPAP, home NIV, ventilation-mode, and hypercapnia content",
+        f"- [Clinical corpus]({SITE_URL}/llms/clinical.txt): all clinical explainers with canonical source URLs",
+        f"- [Public datasets]({SITE_URL}/datasets/): machine-readable product and editorial indexes with methodology links",
         f"- [sitemap-index.xml]({SITE_URL}/sitemap-index.xml): generated sitemap index for all public URLs",
         f"- [robots.txt]({SITE_URL}/robots.txt): AI crawlers are explicitly allowlisted",
         "",
@@ -634,15 +648,47 @@ def main() -> int:
     parts += read_mdx_sections(SITE / "src/content/comparison-writeups", "/compare/")
 
     # Clinical articles
-    parts += read_mdx_sections(SITE / "src/content/clinical", "/clinical/")
+    clinical_sections = read_mdx_sections(SITE / "src/content/clinical", "/clinical/")
+    parts += clinical_sections
 
     OUT_FULL.parent.mkdir(parents=True, exist_ok=True)
-    OUT_FULL.write_text("".join(parts), encoding="utf-8")
-    OUT_INDEX.write_text(generate_llms_index(), encoding="utf-8")
+    OUT_FULL.write_text(clean_output("".join(parts)), encoding="utf-8")
+    OUT_INDEX.write_text(clean_output(generate_llms_index()), encoding="utf-8")
+
+    OUT_TOPICS.mkdir(parents=True, exist_ok=True)
+    topic_specs = {
+        "oxygen-concentrators.txt": (
+            "HHZ oxygen concentrator corpus",
+            ("oxygen", "concentrator", "ltot", "spo2", "pao2", "cannula", "venturi"),
+        ),
+        "cpap.txt": (
+            "HHZ CPAP and sleep-therapy corpus",
+            ("cpap", "apap", "autoset", "sleep apnea", "mask", "ahi", "hypopnea", "airview"),
+        ),
+        "bipap-niv.txt": (
+            "HHZ BiPAP and non-invasive ventilation corpus",
+            ("bipap", "niv", "avaps", "ivaps", "tvaps", "hypercap", "ventilat", "backup rate"),
+        ),
+    }
+    editorial_sections = parts[1:]
+    for filename, (title, keywords) in topic_specs.items():
+        selected = [part for part in editorial_sections if any(keyword in part.lower() for keyword in keywords)]
+        masthead = f"# {title}\n\nBase URL: {SITE_URL}\n\nEach section includes its canonical source URL.\n\n---\n\n"
+        (OUT_TOPICS / filename).write_text(clean_output(masthead + "".join(selected)), encoding="utf-8")
+
+    clinical_masthead = (
+        f"# HHZ clinical corpus\n\nBase URL: {SITE_URL}/clinical/\n\n"
+        "Clinical explainers are general information, not individual medical advice. "
+        "Each section includes its canonical source URL.\n\n---\n\n"
+    )
+    (OUT_TOPICS / "clinical.txt").write_text(
+        clean_output(clinical_masthead + "".join(clinical_sections)), encoding="utf-8"
+    )
 
     size_kb = OUT_FULL.stat().st_size / 1024
     print(f"wrote {OUT_INDEX}")
     print(f"wrote {OUT_FULL}")
+    print(f"wrote {OUT_TOPICS}/*.txt")
     print(f"  size: {size_kb:.1f} KB")
     print(f"  sections: {len(parts) - 1}")  # minus masthead
     return 0

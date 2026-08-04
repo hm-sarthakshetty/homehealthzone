@@ -52,6 +52,7 @@ function formatDate(iso?: string): string | null {
 
 const formattedLastReviewed = formatDate(frontmatter.lastReviewed);
 const formattedNextReview = formatDate(frontmatter.nextReview);
+const formattedPublished = formatDate(frontmatter.datePublished);
 
 // Compute reading time from the raw body (glob-loader exposes this on the entry).
 const rawBody: string = (entry as any).body ?? '';
@@ -64,13 +65,45 @@ const wordCount = rawBody
   : 0;
 const readingMinutes = wordCount > 0 ? Math.max(1, Math.round(wordCount / 220)) : 0;
 
-// Related articles from same section, excluding current entry.
+// Build a semantic related-content graph across clinical and buyer-guide
+// collections. Shared tags carry most weight; meaningful title/description
+// tokens provide a fallback for older entries with sparse tags.
 let related: ArticleEntry[] = [];
 try {
-  const entries = await getCollection(section);
-  related = entries
-    .filter((e) => e.id !== entry.id)
-    .slice(0, 3);
+  const [clinicalEntries, guideEntries] = await Promise.all([
+    getCollection('clinical'),
+    getCollection('guides'),
+  ]);
+  const entries: ArticleEntry[] = [...clinicalEntries, ...guideEntries];
+  const currentTags = new Set((frontmatter.tags ?? []).map((tag) => tag.toLowerCase()));
+  const stopwords = new Set([
+    'and', 'are', 'best', 'for', 'from', 'how', 'india', 'into', 'the', 'this',
+    'what', 'when', 'where', 'which', 'with', 'your', 'guide', 'explained',
+  ]);
+  const tokens = (value: string) =>
+    new Set(
+      value
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, ' ')
+        .split(/\s+/)
+        .filter((token) => token.length > 2 && !stopwords.has(token))
+    );
+  const currentTokens = tokens(`${frontmatter.title} ${frontmatter.description}`);
+  const ranked = entries
+    .filter((candidate) => !(candidate.collection === entry.collection && candidate.id === entry.id))
+    .map((candidate) => {
+      const candidateTags = new Set((candidate.data.tags ?? []).map((tag) => tag.toLowerCase()));
+      const tagOverlap = [...currentTags].filter((tag) => candidateTags.has(tag)).length;
+      const candidateTokens = tokens(`${candidate.data.title} ${candidate.data.description}`);
+      const tokenOverlap = [...currentTokens].filter((token) => candidateTokens.has(token)).length;
+      const complementarySection = candidate.collection !== entry.collection ? 1 : 0;
+      return { candidate, score: tagOverlap * 8 + Math.min(tokenOverlap, 6) + complementarySection };
+    })
+    .sort((a, b) => {
+      if (b.score !== a.score) return b.score - a.score;
+      return (b.candidate.data.lastReviewed ?? '').localeCompare(a.candidate.data.lastReviewed ?? '');
+    });
+  related = ranked.filter(({ score }) => score > 1).slice(0, 4).map(({ candidate }) => candidate);
 } catch {
   related = [];
 }
@@ -90,13 +123,22 @@ const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
     <header class="article__header">
       <h1>{frontmatter.title}</h1>
       <p class="meta-line">
+        {frontmatter.datePublished && formattedPublished && (
+          <span>
+            <time datetime={frontmatter.datePublished}>Published {formattedPublished}</time>
+          </span>
+        )}
         {frontmatter.lastReviewed && formattedLastReviewed && (
           <span>
             <time datetime={frontmatter.lastReviewed}>Reviewed {formattedLastReviewed}</time>
           </span>
         )}
         {readingMinutes > 0 && <span>{readingMinutes} min read</span>}
-        <span>By HHZ Editorial</span>
+        <span>
+          By {frontmatter.author === 'HHZ Editorial' || !frontmatter.author ? (
+            <a href="/authors/hhz-editorial/">HHZ Editorial</a>
+          ) : frontmatter.author}
+        </span>
         {frontmatter.nextReview && formattedNextReview && (
           <span>
             Next review <time datetime={frontmatter.nextReview}>{formattedNextReview}</time>
@@ -131,7 +173,7 @@ const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
 
     {related.length > 0 && (
       <section class="article__related" aria-labelledby="related-articles-heading">
-        <h2 id="related-articles-heading">More from {sectionLabel.toLowerCase()}</h2>
+        <h2 id="related-articles-heading">Related respiratory reading</h2>
         <div class="grid">
           {related.map((rel) => (
             <ArticleCard entry={rel} />
@@ -145,7 +187,10 @@ const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
     title={frontmatter.title}
     description={frontmatter.description}
     lastReviewed={frontmatter.lastReviewed}
-    author={frontmatter.author}
+    datePublished={frontmatter.datePublished}
+    dateModified={frontmatter.dateModified}
+    author={frontmatter.author ?? 'HHZ Editorial'}
+    authorUrl={frontmatter.author === 'HHZ Editorial' || !frontmatter.author ? '/authors/hhz-editorial/' : undefined}
     wordCount={wordCount || undefined}
     inLanguage="en-IN"
   />
@@ -155,6 +200,8 @@ const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
       title={frontmatter.title}
       description={frontmatter.description}
       lastReviewed={frontmatter.lastReviewed}
+      datePublished={frontmatter.datePublished}
+      dateModified={frontmatter.dateModified}
       reviewedBy={frontmatter.reviewedBy}
       credentials={frontmatter.credentials}
     />

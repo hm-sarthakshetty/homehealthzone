@@ -138,7 +138,7 @@ export const GET: APIRoute = async (context: APIContext) => {
     return {
       title: entry.data.title,
       description: entry.data.description,
-      pubDate: safeDate(entry.data.lastReviewed),
+      pubDate: safeDate(entry.data.datePublished ?? entry.data.lastReviewed),
       link: `/${collection}/${slug}/`,
       categories: entry.data.tags ?? [],
       author: entry.data.author || 'HHZ Editorial',

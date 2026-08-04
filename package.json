@@ -10,7 +10,9 @@
     "check": "astro check",
     "llms:regen": "python3 scripts/generate_llms_full.py",
     "indexnow:ping": "node scripts/indexnow-ping.mjs",
-    "indexnow:changed": "node scripts/indexnow-ping.mjs --changed"
+    "indexnow:changed": "node scripts/indexnow-ping.mjs --changed",
+    "ai:report": "node scripts/ai-visibility-report.mjs",
+    "semantic:validate": "node scripts/validate-commercial-semantic-map.mjs"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.4",
