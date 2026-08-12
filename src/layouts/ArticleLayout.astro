@@ -103,7 +103,10 @@ try {
       if (b.score !== a.score) return b.score - a.score;
       return (b.candidate.data.lastReviewed ?? '').localeCompare(a.candidate.data.lastReviewed ?? '');
     });
-  related = ranked.filter(({ score }) => score > 1).slice(0, 4).map(({ candidate }) => candidate);
+  // Always provide a contextual onward path. Sparse-tag legacy articles used
+  // to end with no related links, which left a group of otherwise useful
+  // pages internally isolated.
+  related = ranked.slice(0, 4).map(({ candidate }) => candidate);
 } catch {
   related = [];
 }

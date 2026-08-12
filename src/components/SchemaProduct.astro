@@ -67,12 +67,13 @@ if (price && /^\d+(?:\.\d+)?$/.test(price) && !stockLc.includes('discontinued'))
   };
 }
 
-if (product.rating_value) {
+const ratingCount = Number.parseInt(product.rating_count ?? '', 10);
+if (product.rating_value && Number.isFinite(ratingCount) && ratingCount > 0) {
   const rating: Record<string, unknown> = {
     '@type': 'AggregateRating',
     ratingValue: product.rating_value,
+    reviewCount: ratingCount,
   };
-  if (product.rating_count) rating.reviewCount = product.rating_count;
   ld.aggregateRating = rating;
 }
 

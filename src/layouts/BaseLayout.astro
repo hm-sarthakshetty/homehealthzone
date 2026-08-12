@@ -62,7 +62,9 @@ const SITE_NAME = 'HHZ Respiratory Review';
 // parser, which causes Google to fall back to its inferred site name from
 // external signals (Knowledge Graph, business listings, etc.) — which can be
 // wrong. Pipe forces Google to recognize SITE_NAME as the site name.
-const fullTitle = title === SITE_NAME ? title : `${title} | ${SITE_NAME}`;
+// Keep the SERP title suffix compact. The full publication name remains in
+// og:site_name, Organization schema and the visible masthead.
+const fullTitle = title === SITE_NAME ? title : `${title} | HHZ`;
 const resolvedCanonical = canonicalURL ?? new URL(Astro.url.pathname, Astro.site).toString();
 
 const nav = [

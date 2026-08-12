@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-labelledby="title desc">
+  <title id="title">Product image not available</title>
+  <desc id="desc">Neutral placeholder used when a product photograph has not been published.</desc>
+  <rect width="800" height="600" fill="#f5f3ef"/>
+  <rect x="250" y="150" width="300" height="300" rx="24" fill="#e6e1d9"/>
+  <circle cx="400" cy="260" r="62" fill="#cbc3b7"/>
+  <path d="M305 408l72-84 54 58 38-42 66 68H305z" fill="#b8aea0"/>
+</svg>

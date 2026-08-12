@@ -45,7 +45,18 @@ function buildDescription(): string {
 }
 
 const description = buildDescription();
-const title = reviewFrontmatter?.title ?? `${data.product_name} review`;
+function compactReviewTitle(productName: string, editorialTitle?: string): string {
+  const candidate = editorialTitle ?? `${productName} Review`;
+  if (candidate.length <= 55) return candidate;
+  const compactName = productName
+    .replace(/\s+BiPAP Machine\b.*$/i, '')
+    .replace(/\s+BiPAP\b.*$/i, '')
+    .replace(/\s+Machine\b.*$/i, '')
+    .replace(/-Tripack$/i, '')
+    .trim();
+  return `${compactName || productName} Review`;
+}
+const title = compactReviewTitle(data.product_name, reviewFrontmatter?.title);
 const canonicalURL = new URL(`/bipap/${data.slug}/`, Astro.site).toString();
 ---
 <ProductLayout
