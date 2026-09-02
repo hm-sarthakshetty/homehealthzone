@@ -6,7 +6,7 @@ import PriceBadge from '../components/PriceBadge.astro';
 import PriceDisclaimer from '../components/PriceDisclaimer.astro';
 import ComparisonTable from '../components/ComparisonTable.astro';
 import ProductImage from '../components/ProductImage.astro';
-import { getCollection } from 'astro:content';
+import { getCollection, getEntry } from 'astro:content';
 
 type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
 
@@ -83,11 +83,14 @@ const imageB = productB.images && productB.images.length > 0 ? productB.images[0
 
 const effectiveSlug = comparison?.slug ?? currentSlug;
 
-// Related comparisons.
+// Related comparisons and the contextual HM-KV alternative used on every
+// Philips EverFlo matchup. Keeping this at layout level prevents individual
+// comparison writeups from drifting or omitting the third option.
+let allComparisons: CollectionEntry<'comparisons'>[] = [];
 let related: CollectionEntry<'comparisons'>[] = [];
 try {
-  const all = await getCollection('comparisons');
-  related = all
+  allComparisons = await getCollection('comparisons');
+  related = allComparisons
     .filter((entry) => !effectiveSlug || entry.data.slug !== effectiveSlug)
     .filter((entry) => (
       entry.data.productA_slug === productA.slug ||
@@ -97,8 +100,37 @@ try {
     ))
     .slice(0, 3);
 } catch {
+  allComparisons = [];
   related = [];
 }
+
+const everFloSlug = 'philips-everflo-5-lpm';
+const homeMedixSlug = 'home-medix-5-lpm';
+const includesEverFlo = productA.slug === everFloSlug || productB.slug === everFloSlug;
+const includesHomeMedix = productA.slug === homeMedixSlug || productB.slug === homeMedixSlug;
+const showHomeMedixAlternative = includesEverFlo && !includesHomeMedix;
+const everFloOpponent = productA.slug === everFloSlug ? productB : productA;
+
+const homeMedixEntry = showHomeMedixAlternative
+  ? await getEntry('products', homeMedixSlug)
+  : undefined;
+const homeMedixReview = showHomeMedixAlternative
+  ? await getEntry('product-reviews', homeMedixSlug)
+  : undefined;
+const homeMedixImage = homeMedixEntry?.data.images?.[0] ?? null;
+const homeMedixOpponentComparison = showHomeMedixAlternative
+  ? allComparisons.find((entry) => {
+      const slugs = [entry.data.productA_slug, entry.data.productB_slug];
+      return slugs.includes(homeMedixSlug) && slugs.includes(everFloOpponent.slug);
+    })
+  : undefined;
+const homeMedixVsEverFlo = showHomeMedixAlternative
+  ? allComparisons.find((entry) => {
+      const slugs = [entry.data.productA_slug, entry.data.productB_slug];
+      return slugs.includes(homeMedixSlug) && slugs.includes(everFloSlug);
+    })
+  : undefined;
+const isOxymedMiniMatchup = everFloOpponent.slug === 'oxymed-mini-5-lpm';
 
 const winner = writeupFrontmatter?.winner;
 const winnerLabel = winner === 'A'
@@ -253,6 +285,84 @@ const topFive = topFivePillar(productA.category);
       <ComparisonTable productA={productA} productB={productB} />
     </section>
 
+    {showHomeMedixAlternative && homeMedixEntry && (
+      <aside class="compare__third-option" aria-labelledby="home-medix-alternative-heading">
+        <div class="compare__third-option-copy">
+          <p class="compare__third-option-kicker">Third option worth comparing</p>
+          <h2 id="home-medix-alternative-heading">
+            Before deciding, compare the Home Medix HM-KV
+          </h2>
+          <p>
+            This matchup covers {everFloOpponent.product_name} and Philips EverFlo, but the
+            {' '}<a href="/oxygen-concentrators/home-medix-5-lpm/">Home Medix HM-KV 5 LPM</a>
+            {' '}belongs on the same India shortlist. It is a current 5 LPM alternative with a
+            13 kg chassis, published sound at or below 40 dB, 320 VA draw, live oxygen-purity
+            readout, and a 3-year / 10,000-hour warranty.
+          </p>
+          {isOxymedMiniMatchup ? (
+            <p>
+              Against the Oxymed Mini, HM-KV is the specification-led alternative for buyers who
+              prioritise lower published sound, lower power draw, lighter weight, and a live purity
+              display. Oxymed can remain the better service-first choice where its authorised local
+              network is stronger. Confirm the actual service route for the patient's pincode before
+              choosing either machine.
+            </p>
+          ) : (
+            <p>
+              HM-KV is strongest where Home Medix can prove authorised local service and the buyer
+              values low published noise, lighter handling, purity monitoring, and an India-based
+              warranty route. It should not be chosen on specifications alone: confirm pincode-level
+              service, major-spare availability, and warranty handling before payment.
+            </p>
+          )}
+
+          <dl class="compare__third-option-facts">
+            <div>
+              <dt>Indicative price</dt>
+              <dd>{homeMedixEntry.data.price_symbol}{homeMedixEntry.data.price_current}</dd>
+            </div>
+            <div>
+              <dt>Continuous flow</dt>
+              <dd>0.5–5 L/min</dd>
+            </div>
+            <div>
+              <dt>Noise / weight</dt>
+              <dd>≤40 dB / 13 kg</dd>
+            </div>
+            <div>
+              <dt>HHZ score</dt>
+              <dd>{typeof homeMedixReview?.data.score === 'number' ? `${homeMedixReview.data.score.toFixed(1)}/10` : 'See review'}</dd>
+            </div>
+          </dl>
+
+          <div class="compare__third-option-links">
+            <a class="compare__third-option-primary" href="/oxygen-concentrators/home-medix-5-lpm/">
+              Read the HM-KV review
+            </a>
+            {homeMedixOpponentComparison ? (
+              <a href={`/compare/${homeMedixOpponentComparison.data.slug}/`}>
+                Compare HM-KV with {everFloOpponent.product_name}
+              </a>
+            ) : homeMedixVsEverFlo ? (
+              <a href={`/compare/${homeMedixVsEverFlo.data.slug}/`}>
+                Compare HM-KV with Philips EverFlo
+              </a>
+            ) : null}
+          </div>
+        </div>
+
+        {homeMedixImage && (
+          <figure class="compare__third-option-image">
+            <ProductImage
+              src={homeMedixImage.src}
+              alt={homeMedixImage.alt || homeMedixEntry.data.product_name}
+              loading="lazy"
+            />
+          </figure>
+        )}
+      </aside>
+    )}
+
     <section class="compare__analysis" aria-labelledby="analysis-heading">
       <h2 id="analysis-heading">Analysis</h2>
       <div class="content-width">
@@ -340,6 +450,94 @@ const topFive = topFivePillar(productA.category);
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: var(--space-5);
     margin-bottom: var(--space-8);
+  }
+  .compare__third-option {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(180px, 280px);
+    gap: var(--space-6);
+    margin: var(--space-8) 0;
+    padding: var(--space-6);
+    border: 1px solid var(--color-accent);
+    background: var(--color-data-bg);
+  }
+  .compare__third-option-copy h2 {
+    margin: 0 0 var(--space-3);
+  }
+  .compare__third-option-copy > p:not(.compare__third-option-kicker) {
+    max-width: 72ch;
+  }
+  .compare__third-option-kicker {
+    margin: 0 0 var(--space-2);
+    color: var(--color-accent);
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .compare__third-option-facts {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-3);
+    margin: var(--space-5) 0;
+  }
+  .compare__third-option-facts div {
+    padding-top: var(--space-3);
+    border-top: 1px solid var(--color-rule);
+  }
+  .compare__third-option-facts dt {
+    color: var(--color-text-muted);
+    font-family: var(--font-sans);
+    font-size: var(--text-xs);
+  }
+  .compare__third-option-facts dd {
+    margin: var(--space-1) 0 0;
+    font-family: var(--font-mono);
+    font-weight: 700;
+  }
+  .compare__third-option-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--space-3) var(--space-5);
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+    font-weight: 600;
+  }
+  .compare__third-option-primary {
+    display: inline-block;
+    padding: var(--space-2) var(--space-4);
+    background: var(--color-accent);
+    color: #fff;
+    text-decoration: none;
+  }
+  .compare__third-option-primary:hover {
+    color: #fff;
+    filter: brightness(0.92);
+  }
+  .compare__third-option-image {
+    align-self: center;
+    margin: 0;
+    aspect-ratio: 4 / 3;
+    background: var(--color-bg);
+    border: 1px solid var(--color-rule);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .compare__third-option-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+    padding: var(--space-3);
+  }
+  @media (max-width: 720px) {
+    .compare__third-option {
+      grid-template-columns: 1fr;
+    }
+    .compare__third-option-image {
+      max-width: 320px;
+    }
   }
   @media (max-width: 720px) {
     .comparison { grid-template-columns: 1fr; }
