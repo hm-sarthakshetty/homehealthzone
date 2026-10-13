@@ -10,12 +10,19 @@
  *    every other country is formatted with Intl.NumberFormat.
  */
 
-export type Country = 'IN' | 'US' | 'GB';
-export type Currency = 'INR' | 'USD' | 'GBP';
+export type Country = 'IN' | 'US' | 'GB' | 'SG' | 'AU' | 'CA' | 'NZ';
+export type Currency = 'INR' | 'USD' | 'GBP' | 'SGD' | 'AUD' | 'CAD' | 'NZD';
 
-export const COUNTRY_CURRENCY: Record<Country, Currency> = { IN: 'INR', US: 'USD', GB: 'GBP' };
-export const COUNTRY_LOCALE: Record<Country, string> = { IN: 'en-IN', US: 'en-US', GB: 'en-GB' };
-export const CURRENCY_SYMBOL: Record<Currency, string> = { INR: '₹', USD: '$', GBP: '£' };
+export const COUNTRY_CURRENCY: Record<Country, Currency> = {
+  IN: 'INR', US: 'USD', GB: 'GBP', SG: 'SGD', AU: 'AUD', CA: 'CAD', NZ: 'NZD',
+};
+export const COUNTRY_LOCALE: Record<Country, string> = {
+  IN: 'en-IN', US: 'en-US', GB: 'en-GB', SG: 'en-SG', AU: 'en-AU', CA: 'en-CA', NZ: 'en-NZ',
+};
+/** Display symbols. Dollar markets carry a prefix so prices are unambiguous (S$, A$, C$, NZ$). */
+export const CURRENCY_SYMBOL: Record<Currency, string> = {
+  INR: '₹', USD: '$', GBP: '£', SGD: 'S$', AUD: 'A$', CAD: 'C$', NZD: 'NZ$',
+};
 
 const SYMBOL_CURRENCY: Record<string, Currency> = { '₹': 'INR', $: 'USD', '£': 'GBP' };
 
@@ -101,12 +108,12 @@ export function formatAmount(n: number, country: Country = 'IN'): string {
 
 export function formatMoney(amount: number, currency: Currency, country: Country): string {
   const fractional = Math.round(amount * 100) % 100 !== 0;
-  return new Intl.NumberFormat(COUNTRY_LOCALE[country], {
-    style: 'currency',
-    currency,
-    minimumFractionDigits: fractional ? 2 : 0,
-    maximumFractionDigits: fractional ? 2 : 0,
-  }).format(amount);
+  const digits = { minimumFractionDigits: fractional ? 2 : 0, maximumFractionDigits: fractional ? 2 : 0 };
+  if (currency === 'INR' || currency === 'USD' || currency === 'GBP') {
+    return new Intl.NumberFormat(COUNTRY_LOCALE[country], { style: 'currency', currency, ...digits }).format(amount);
+  }
+  // Local Intl output for these is a bare "$"; prefix the explicit symbol instead.
+  return `${CURRENCY_SYMBOL[currency]}${new Intl.NumberFormat(COUNTRY_LOCALE[country], digits).format(amount)}`;
 }
 
 /**

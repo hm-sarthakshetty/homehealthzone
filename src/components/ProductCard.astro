@@ -7,7 +7,8 @@ import ProductImage from './ProductImage.astro';
 type ProductEntry =
   | CollectionEntry<'products'>
   | CollectionEntry<'cpap-bipap'>
-  | CollectionEntry<'us-products'>;
+  | CollectionEntry<'us-products'>
+  | CollectionEntry<'intl-products'>;
 
 export interface Props {
   entry: ProductEntry;
@@ -22,6 +23,7 @@ const getHref = (): string => {
   if (hrefOverride) return hrefOverride;
   // US-only catalogue has no review pages yet; callers pass an href to a guide.
   if (entry.collection === 'us-products') return '/us/guides/';
+  if (entry.collection === 'intl-products') return '/';
   if (entry.collection === 'cpap-bipap') {
     const deviceType = (data as CollectionEntry<'cpap-bipap'>['data']).device_type;
     if (deviceType === 'bipap') return `/bipap/${data.slug}/`;

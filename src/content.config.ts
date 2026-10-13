@@ -28,7 +28,7 @@ const normalizedSpecsSchema = z
 // valid during the transition (see src/lib/price.ts).
 const priceEntrySchema = z.object({
   amount: z.number().positive(),
-  currency: z.enum(['INR', 'USD', 'GBP']),
+  currency: z.enum(['INR', 'USD', 'GBP', 'SGD', 'AUD', 'CAD', 'NZD']),
   mrp: z.number().positive().optional(),
   source_url: z.url().optional(),
   checked_at: z.string().optional(),
@@ -39,6 +39,10 @@ const pricesSchema = z
     IN: priceEntrySchema.optional(),
     US: priceEntrySchema.optional(),
     GB: priceEntrySchema.optional(),
+    SG: priceEntrySchema.optional(),
+    AU: priceEntrySchema.optional(),
+    CA: priceEntrySchema.optional(),
+    NZ: priceEntrySchema.optional(),
   })
   .optional();
 
@@ -54,7 +58,7 @@ const productSchema = z.object({
   price_symbol: z.string().default('₹'),
   prices: pricesSchema,
   // Markets where the product is sold and may be listed. India is implicit.
-  countries: z.array(z.enum(['IN', 'US', 'GB'])).default(['IN']),
+  countries: z.array(z.enum(['IN', 'US', 'GB', 'SG', 'AU', 'CA', 'NZ'])).default(['IN']),
   rating_value: z.string().nullable().optional(),
   rating_count: z.string().nullable().optional(),
   stock: z.string().default(''),
@@ -204,6 +208,28 @@ const usGuides = defineCollection({
   schema: editorialSchema,
 });
 
+// Catalogue for the regional markets under /{code}/ (UK, SG, AU, CA, NZ).
+// One record per device; `countries` lists where it is sold and `prices`
+// carries a verified local price (source_url, checked_at) per market. Kept
+// apart from the India and US collections so their output is unaffected.
+const intlProducts = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/intl-products' }),
+  schema: productSchema.extend({
+    device_type: z.enum(['oxygen-concentrator', 'portable-oxygen-concentrator', 'cpap', 'bipap', 'cpap-mask']).default('oxygen-concentrator'),
+    /** Guide slug (per market code) that a product card links to. */
+    guides: z.record(z.string(), z.string()).default({}),
+  }),
+});
+
+// Regional buyer's guides: src/content/intl-guides/{code}/{slug}.mdx,
+// rendered at /{code}/guides/{slug}/. `cluster` groups the guides index.
+const intlGuides = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/intl-guides' }),
+  schema: editorialSchema.extend({
+    cluster: z.string().default('More guides'),
+  }),
+});
+
 const comparisonWriteups = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/comparison-writeups' }),
   schema: comparisonWriteupSchema,
@@ -220,4 +246,6 @@ export const collections = {
   'comparison-writeups': comparisonWriteups,
   'us-guides': usGuides,
   'us-products': usProducts,
+  'intl-guides': intlGuides,
+  'intl-products': intlProducts,
 };

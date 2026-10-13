@@ -1,10 +1,12 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { marketByCode } from '../data/markets';
 
 type ArticleEntry =
   | CollectionEntry<'guides'>
   | CollectionEntry<'clinical'>
-  | CollectionEntry<'us-guides'>;
+  | CollectionEntry<'us-guides'>
+  | CollectionEntry<'intl-guides'>;
 
 export interface Props {
   entry: ArticleEntry;
@@ -20,11 +22,15 @@ const basePath =
     : entry.collection === 'us-guides'
       ? '/us/guides'
       : '/guides';
-const fallbackHref = `${basePath}/${entry.id.replace(/\.(md|mdx)$/, '')}/`;
+const intlId = entry.collection === 'intl-guides' ? entry.id.replace(/\.(md|mdx)$/, '').split('/') : null;
+const intlMarket = intlId ? marketByCode(intlId[0]) : undefined;
+const fallbackHref = intlId
+  ? `/${intlId[0]}/guides/${intlId.slice(1).join('/')}/`
+  : `${basePath}/${entry.id.replace(/\.(md|mdx)$/, '')}/`;
 const href = hrefOverride ?? fallbackHref;
 
 const formattedDate = data.lastReviewed
-  ? new Date(data.lastReviewed).toLocaleDateString(entry.collection === 'us-guides' ? 'en-US' : 'en-IN', {
+  ? new Date(data.lastReviewed).toLocaleDateString(intlMarket ? intlMarket.lang : entry.collection === 'us-guides' ? 'en-US' : 'en-IN', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',

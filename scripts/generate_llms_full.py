@@ -103,7 +103,9 @@ def clean_output(text: str) -> str:
 
 PRICE_TAG = re.compile(r"<Price\s+([^>]*?)/>")
 PRICE_ATTR = re.compile(r'(\w+)="([^"]*)"')
-PRICE_DIRS = ("products", "cpap-bipap", "us-products")
+PRICE_DIRS = ("products", "cpap-bipap", "us-products", "intl-products")
+# Mirrors CURRENCY_SYMBOL in src/lib/price.ts (non-INR markets).
+PRICE_SYMBOLS = {"USD": "$", "GBP": "£", "SGD": "S$", "AUD": "A$", "CAD": "C$", "NZD": "NZ$"}
 
 
 def _price_text(attrs: str) -> str:
@@ -121,10 +123,11 @@ def _price_text(attrs: str) -> str:
         if f.exists():
             entry = (json.loads(f.read_text(encoding="utf-8")).get("prices") or {}).get(country) or {}
             amount = entry.get("amount")
-            if amount is None or country == "IN" or entry.get("currency", "USD") != "USD":
+            symbol = PRICE_SYMBOLS.get(entry.get("currency", ""))
+            if amount is None or country == "IN" or symbol is None:
                 return fallback
             frac = round(amount * 100) % 100 != 0
-            return "$" + (f"{amount:,.2f}" if frac else f"{int(round(amount)):,}")
+            return symbol + (f"{amount:,.2f}" if frac else f"{int(round(amount)):,}")
     return fallback
 
 
@@ -168,6 +171,25 @@ def content_entries(dir_path: Path, url_prefix: str) -> list[dict[str, str]]:
             "url": f"{SITE_URL}{url_prefix}{f.stem}/",
         })
     return entries
+
+
+
+def live_markets() -> list[dict[str, str]]:
+    """Live regional markets from src/data/markets.ts (code, label, hubDescription)."""
+    src = (SITE / "src/data/markets.ts").read_text(encoding="utf-8")
+    out = []
+    for block in re.findall(r"\{\s*code: '([a-z]+)'(.*?)clusters:", src, flags=re.S):
+        code, rest = block
+        if "live: true" not in rest:
+            continue
+        label = re.search(r"label: '([^']+)'", rest).group(1)
+        desc = re.search(r"hubDescription: '([^']+)'", rest).group(1)
+        out.append({"code": code, "label": label, "description": desc})
+    return out
+
+
+def market_guide_entries(code: str) -> list[dict[str, str]]:
+    return content_entries(SITE / "src/content/intl-guides" / code, f"/{code}/guides/")
 
 
 def page_mdx_entries(page_groups: list[tuple[Path, str]]) -> list[dict[str, str]]:
@@ -553,6 +575,9 @@ def generate_llms_index() -> str:
         "",
         f"- [India]({SITE_URL}/): oxygen concentrators, CPAP, and BiPAP sold in India, with prices in rupees",
         f"- [United States]({SITE_URL}/us/): oxygen concentrators and CPAP sold in the US, with USD prices, FDA prescription rules and Medicare basics",
+    ] + [
+        f"- [{m['label']}]({SITE_URL}/{m['code']}/): {m['description']}" for m in live_markets()
+    ] + [
         "",
         "## Editorial policies",
         "",
@@ -601,6 +626,14 @@ def generate_llms_index() -> str:
     for entry in content_entries(SITE / "src/content/us-guides", "/us/guides/"):
         suffix = f": {entry['description']}" if entry["description"] else ""
         lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
+
+    for m in live_markets():
+        lines += ["", f"## {m['label']} guides", ""]
+        lines.append(f"- [{m['label']} hub]({SITE_URL}/{m['code']}/): {m['description']}")
+        for entry in market_guide_entries(m["code"]):
+            suffix = f": {entry['description']}" if entry["description"] else ""
+            lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
+        lines.append("")
 
     lines += ["", "## Written comparison pages", ""]
     for entry in content_entries(comparison_writeups_dir, "/compare/"):
@@ -705,6 +738,19 @@ def main() -> int:
         )
     )
     parts += read_mdx_sections(us_guides_dir, "/us/guides/")
+
+    # Regional markets: hub summary plus one section per guide
+    for m in live_markets():
+        entries = market_guide_entries(m["code"])
+        parts.append(
+            section(
+                f"{SITE_URL}/{m['code']}/",
+                f"{m['label']}: oxygen concentrators and CPAP",
+                m["description"] + f"\n\n{m['label']} guides:\n\n"
+                + "\n".join(f"- [{e['title']}]({e['url']})" for e in entries),
+            )
+        )
+        parts += read_mdx_sections(SITE / "src/content/intl-guides" / m["code"], f"/{m['code']}/guides/")
 
     # Clinical articles
     clinical_sections = read_mdx_sections(SITE / "src/content/clinical", "/clinical/")
