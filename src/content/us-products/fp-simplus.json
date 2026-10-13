@@ -1,0 +1,40 @@
+{
+  "slug": "fp-simplus",
+  "source_url": "https://www.cpap.com/products/fisher-paykel-simplus-full-face-cpap-mask",
+  "product_name": "F&P Simplus",
+  "brand": "Fisher & Paykel",
+  "brand_href": "https://www.cpap.com/products/fisher-paykel-simplus-full-face-cpap-mask",
+  "category": "CPAP mask",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 135,
+      "currency": "USD",
+      "source_url": "https://www.cpap.com/products/fisher-paykel-simplus-full-face-cpap-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Full face"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Type": "Full face",
+      "Notes": "CPAP.com complete-mask price; specs from F&P instructions for use."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {},
+  "device_type": "cpap-mask"
+}

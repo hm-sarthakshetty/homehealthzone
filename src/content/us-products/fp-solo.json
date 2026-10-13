@@ -1,0 +1,40 @@
+{
+  "slug": "fp-solo",
+  "source_url": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask",
+  "product_name": "F&P Solo",
+  "brand": "Fisher & Paykel",
+  "brand_href": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask",
+  "category": "CPAP mask",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 119,
+      "currency": "USD",
+      "source_url": "https://www.cpap.com/products/fisher-paykel-solo-nasal-cpap-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Nasal or nasal pillows (2-in-1)"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Type": "Nasal or nasal pillows (2-in-1)",
+      "Notes": "CPAP.com complete-mask price; specs from F&P instructions for use."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {},
+  "device_type": "cpap-mask"
+}
