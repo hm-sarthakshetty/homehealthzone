@@ -7,7 +7,8 @@
   "price_symbol": "",
   "countries": [
     "AU",
-    "CA"
+    "CA",
+    "NZ"
   ],
   "device_type": "cpap-mask",
   "prices": {
@@ -22,11 +23,18 @@
       "currency": "CAD",
       "source_url": "https://canadiancpapstore.com/products/evora-full-face-mask-with-headgear",
       "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 285.6,
+      "currency": "NZD",
+      "source_url": "https://thesleepspot.co.nz/products/copy-of-fisher-paykel-evora%E2%84%A2-full-compact-full-face-mask",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
     "au": "cpap-masks-australia",
-    "ca": "cpap-masks-canada"
+    "ca": "cpap-masks-canada",
+    "nz": "cpap-masks-nz"
   },
   "images": []
 }

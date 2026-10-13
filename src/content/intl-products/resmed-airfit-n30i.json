@@ -8,7 +8,8 @@
   "countries": [
     "GB",
     "SG",
-    "CA"
+    "CA",
+    "NZ"
   ],
   "device_type": "cpap-mask",
   "prices": {
@@ -29,12 +30,19 @@
       "currency": "CAD",
       "source_url": "https://canadiancpapstore.com/products/airfit-n30i-starter-pack-small-medium-and-large-cushions",
       "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 275,
+      "currency": "NZD",
+      "source_url": "https://awakenz.co.nz/products/resmed-airfit-n30i-nasal-cradle-mask",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
     "uk": "cpap-masks-uk",
     "sg": "cpap-masks-singapore",
-    "ca": "cpap-masks-canada"
+    "ca": "cpap-masks-canada",
+    "nz": "cpap-masks-nz"
   },
   "images": []
 }

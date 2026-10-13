@@ -7,7 +7,8 @@
   "price_symbol": "",
   "countries": [
     "GB",
-    "AU"
+    "AU",
+    "NZ"
   ],
   "device_type": "cpap-mask",
   "prices": {
@@ -22,11 +23,18 @@
       "currency": "AUD",
       "source_url": "https://cpap.com.au/products/resmed-airfit-f20-full-face-mask",
       "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 286.6,
+      "currency": "NZD",
+      "source_url": "https://thesleepspot.co.nz/products/resmed-airfit-f20-full-face-mask",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
     "uk": "cpap-masks-uk",
-    "au": "cpap-masks-australia"
+    "au": "cpap-masks-australia",
+    "nz": "cpap-masks-nz"
   },
   "images": []
 }

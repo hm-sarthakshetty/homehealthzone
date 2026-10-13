@@ -8,7 +8,8 @@
   "countries": [
     "GB",
     "AU",
-    "CA"
+    "CA",
+    "NZ"
   ],
   "device_type": "cpap",
   "prices": {
@@ -29,12 +30,19 @@
       "currency": "CAD",
       "source_url": "https://canadiancpapstore.com/products/airmini-auto-ultra-portable-apap-machine",
       "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 1380,
+      "currency": "NZD",
+      "source_url": "https://thesleepspot.co.nz/products/resmed-airmini-autoset-machine-device-only",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
     "uk": "buying-cpap-privately-uk",
     "au": "cpap-machine-price-australia",
-    "ca": "cpap-machine-price-canada"
+    "ca": "cpap-machine-price-canada",
+    "nz": "cpap-machine-price-nz"
   },
   "images": [],
   "normalized_specs": {

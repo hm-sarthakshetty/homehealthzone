@@ -8,7 +8,8 @@
   "countries": [
     "GB",
     "AU",
-    "CA"
+    "CA",
+    "NZ"
   ],
   "device_type": "portable-oxygen-concentrator",
   "prices": {
@@ -29,12 +30,19 @@
       "currency": "CAD",
       "source_url": "https://cpapsupplycanada.ca/products/inogen-rove-6-portable-oxygen-concentrator-standard-battery",
       "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 5550,
+      "currency": "NZD",
+      "source_url": "https://www.oxygenplus.co.nz/Inogen-Rove+6.html",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
     "uk": "best-portable-oxygen-concentrator-uk",
     "au": "portable-oxygen-concentrator-australia",
-    "ca": "portable-oxygen-concentrator-canada"
+    "ca": "portable-oxygen-concentrator-canada",
+    "nz": "oxygen-concentrator-price-nz"
   },
   "images": [],
   "normalized_specs": {

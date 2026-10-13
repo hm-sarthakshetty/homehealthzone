@@ -14232,6 +14232,389 @@ Provinces fund home oxygen through their own programmes, usually through a contr
 
 ---
 
+# New Zealand: oxygen concentrators and CPAP
+
+Source: https://homehealthzone.com/nz/
+
+HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and devices sold in NZ with NZD prices from named retailers.
+
+New Zealand guides:
+
+- [ACC and respiratory equipment after an injury](https://homehealthzone.com/nz/guides/acc-equipment-respiratory-new-zealand/)
+- [CPAP cleaning and troubleshooting (NZ guide)](https://homehealthzone.com/nz/guides/cpap-cleaning-troubleshooting-nz/)
+- [CPAP machine prices in New Zealand (2026)](https://homehealthzone.com/nz/guides/cpap-machine-price-nz/)
+- [CPAP mask prices in New Zealand (2026)](https://homehealthzone.com/nz/guides/cpap-masks-nz/)
+- [Flying with CPAP or oxygen on Air New Zealand](https://homehealthzone.com/nz/guides/flying-with-cpap-oxygen-nz/)
+- [Funded CPAP in New Zealand: how it works](https://homehealthzone.com/nz/guides/funded-cpap-new-zealand/)
+- [Funded home oxygen in New Zealand](https://homehealthzone.com/nz/guides/home-oxygen-funding-new-zealand/)
+- [Medically dependent consumers: power and oxygen](https://homehealthzone.com/nz/guides/medically-dependent-power-nz/)
+- [Medsafe and WAND: are CPAP machines approved?](https://homehealthzone.com/nz/guides/medsafe-wand-medical-devices-nz/)
+- [Oxygen concentrator prices in New Zealand (2026)](https://homehealthzone.com/nz/guides/oxygen-concentrator-price-nz/)
+
+---
+
+# ACC and respiratory equipment after an injury
+
+Source: https://homehealthzone.com/nz/guides/acc-equipment-respiratory-new-zealand/
+
+This guide is written from ACC’s [aids and equipment page](https://www.acc.co.nz/im-injured/types-of-ongoing-support/aids-equipment) (last published 14 March 2024) and its [Medical Consumables operational guidelines](https://www.acc.co.nz/assets/contracts/medical-consumables-op-guidelines.pdf) (May 2023), read on 14 October 2026.
+
+## ACC or Health NZ?
+
+ACC covers **injuries**. If your breathing problem is caused by an injury ACC has accepted, ACC may pay for the equipment and consumables you need. Long-term conditions such as COPD or sleep apnoea that aren’t injury-related are funded through Health NZ instead. See [funded home oxygen](/nz/guides/home-oxygen-funding-new-zealand/) and [funded CPAP](/nz/guides/funded-cpap-new-zealand/).
+
+## What ACC pays for
+
+- **Aids and equipment** you need to recover from your covered injury. If you paid for some while waiting for cover, ask your recovery team about a refund.
+- **Medical consumables** through a separate service. Respiratory products are one category, for example cough-assist masks, suction catheters and cannulas. You need an accepted claim, an entitlement, and an injury-related need confirmed by a specialist, GP, nurse or other health professional.
+
+The consumables service excludes rehabilitation equipment, and consumables already paid for under publicly funded health services.
+
+## How to apply
+
+You can apply any time after ACC accepts your injury:
+
+- ask your doctor to send ACC a letter of recommendation
+- contact the claims team (0800 101 996) with your claim number
+- send the **ACC001** form by email or drop it at an ACC office
+- contact your recovery team, or use **MyACC**
+
+ACC may ask for an assessment, which it pays for. It says it will tell you its decision **within 21 days** of receiving the report.
+
+## Timeframes
+
+- Basic equipment: **3–5 days** after approval
+- More complex equipment: **2–3 weeks**
+- After a hospital stay, the hospital provides equipment for **up to six weeks** after discharge. Talk to ACC if you need it for longer.
+
+When you no longer need the equipment, contact Enable New Zealand (0800 362 253) to collect it. You can take equipment overseas, but you pay any baggage costs.
+
+---
+
+# CPAP cleaning and troubleshooting (NZ guide)
+
+Source: https://homehealthzone.com/nz/guides/cpap-cleaning-troubleshooting-nz/
+
+This guide is written from Health NZ’s [long-term CPAP therapy in Canterbury Waitaha](https://www.healthnz.govt.nz/hospitals-services/hospitals/canterbury/respiratory-services-canterbury/long-term-cpap-therapy-in-canterbury-waitaha) page, read on 14 October 2026. Follow your own sleep service’s and manufacturer’s instructions if they differ.
+
+## Cleaning schedule
+
+| When | Part | What to do |
+| --- | --- | --- |
+| Daily | Mask seal | Wash in warm soapy water; dishwashing detergent is best |
+| Daily | Water chamber | Remove from the machine, rinse and refill |
+| Weekly | Water chamber | Wash in warm soapy water, rinse, dry; soak 1 hour in 1 part white vinegar to 4 parts warm water |
+| Weekly | Hose | Rinse and leave to dry |
+| Weekly | Headgear | Machine-wash in a wash bag or pillowcase |
+| Monthly | Filter | Check it and brush off dust |
+
+Avoid very hot water, harsh chemicals and sunlight, which damage seals and plastic. Keep the mask away from children and pets. Only your sleep service should change the pressure.
+
+## Troubleshooting
+
+| Problem | What Health NZ suggests |
+| --- | --- |
+| Water building up in the tube or mask | Turn humidity down one setting at a time |
+| Dry nose or mouth | Turn humidity up one setting at a time, or try a full face mask |
+| Machine blowing cold air | Warm the room |
+| Mask leaking around the seal | Refit and adjust the straps; practise in front of a mirror; clean the mask |
+| Noisy hose | Air is probably escaping; check for holes and connections |
+| Sore eyes | Reposition the mask to stop air leaking towards your eyes |
+| Pressure too high to fall asleep | Use the ramp feature if your machine has one |
+| Still snoring with CPAP | The pressure may need changing; contact your sleep service |
+| Machine not working | Check the wall switch and power cable, and that the filter is clean |
+
+## Power cuts
+
+If the power goes off while you are using CPAP, take the mask off and sleep without it; the vents let you breathe room air. Restart CPAP when power returns. Don’t drive or operate heavy machinery if you are sleepy. If you rely on powered equipment, see [medically dependent consumers](/nz/guides/medically-dependent-power-nz/).
+
+Replacement masks cost $228–$300 in New Zealand; see [CPAP masks in New Zealand](/nz/guides/cpap-masks-nz/).
+
+---
+
+# CPAP machine prices in New Zealand (2026)
+
+Source: https://homehealthzone.com/nz/guides/cpap-machine-price-nz/
+
+All prices are in New Zealand dollars, read from each retailer’s store data on 14 October 2026. You may be able to get a machine through a public sleep service instead; see [funded CPAP in New Zealand](/nz/guides/funded-cpap-new-zealand/).
+
+## ResMed AirSense
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| AirSense 11 AutoSet | NZ$1,875 | [Awakenz](https://awakenz.co.nz/products/resmed-airsense-11-autoset-cpap) |
+| AirSense 11 AutoSet | $1,889 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airsense-11-autoset-machine) |
+| AirSense 11 AutoSet 4G | $1,945 | [CPAP Sales](https://www.cpapsales.co.nz/products/resmed-airsense-11-autoset-cpap-machine-4g) |
+| AirSense 11 AutoSet | $2,199 | [ResMed NZ shop](https://shop.resmed.co.nz/products/resmed-airsense-11-autoset) |
+| AirSense 11 AutoSet bundle | $2,249 | [ResMed NZ shop](https://shop.resmed.co.nz/products/airsense-11-autoset-bundle) |
+| AirSense 11 Elite (fixed pressure) | NZ$1,949 | [ResMed NZ shop](https://shop.resmed.co.nz/products/resmed-airsense-11-elite) |
+| AirSense 10 AutoSet | NZ$1,839 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airsense-10-autoset-machine) |
+| AirSense 10 AutoSet 4G bundle | $1,999 | [ResMed NZ shop](https://shop.resmed.co.nz/products/airsense-10-bundle) |
+
+The same AirSense 11 AutoSet was **$324 cheaper** at Awakenz than on ResMed’s own shop.
+
+## Fisher & Paykel and Yuwell
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| F&P SleepStyle Plus 4G Auto (5-year warranty) | $1,776 | [CPAP Sales](https://www.cpapsales.co.nz/products/f-p-sleepstyle-4g-auto-5-yr-warranty-2024-model) |
+| F&P SleepStyle+ Auto | $1,845 | [The Sleep Spot](https://thesleepspot.co.nz/products/fisher-paykel-sleepstyle-auto-machine) |
+| F&P SleepStyle+ Auto (with modem) | $1,895 | [Awakenz](https://awakenz.co.nz/products/fandp-sleepstyle-auto-cpap-with-modem) |
+| Yuwell BreathCare III Auto (Wi-Fi) | $1,561 | [CPAP Sales](https://www.cpapsales.co.nz/products/yuwell-breathcare-iii-auto-cpap-device-wifi-black-shell) |
+| Yuwell YH480 Auto (Wi-Fi) | $1,324 | [CPAP Sales](https://www.cpapsales.co.nz/products/yuwell-automatic-cpap-machine-yh480-wifi-black-shell) |
+
+Fisher & Paykel Healthcare is based in New Zealand.
+
+## Travel machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirMini AutoSet (device only) | NZ$1,380 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airmini-autoset-machine-device-only) |
+| ResMed AirMini HumidX starter kit (with mask) | $1,599 | [CPAP Sales](https://www.cpapsales.co.nz/products/resmed-airmini-humidx-starter-kit-airfit-p10-mask) |
+| ResMed AirMini starter kit (with mask) | $1,759.50 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airmini-bedside-travel-starter-kit-with-airfit-p10-mask) |
+| Yuwell Pocket S (pre-order) | $1,268 | [CPAP Sales](https://www.cpapsales.co.nz/products/yuwell-pocket-s-travel-cpap-machine) |
+
+## Bilevel
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | NZ$2,499 | [ResMed NZ shop](https://shop.resmed.co.nz/products/aircurve-11-vauto) |
+
+## Trials and rentals
+
+ResMed’s NZ shop lists a **CPAP trial of the AirSense 11 AutoSet at $35** and an AirSense 10 Elite rental at $35. The listings don’t state the period, so ask before you book.
+
+New Zealand has no pre-market approval for devices; see [Medsafe and WAND](/nz/guides/medsafe-wand-medical-devices-nz/).
+
+---
+
+# CPAP mask prices in New Zealand (2026)
+
+Source: https://homehealthzone.com/nz/guides/cpap-masks-nz/
+
+All prices are in New Zealand dollars, read from retailer store data on 14 October 2026. Health NZ Canterbury gives hospital-funded CPAP users **one replacement mask a year** ([Health NZ](https://www.healthnz.govt.nz/hospitals-services/hospitals/canterbury/respiratory-services-canterbury/long-term-cpap-therapy-in-canterbury-waitaha)).
+
+## Nasal pillow masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| Fisher & Paykel Nova Micro | NZ$229 | [Awakenz](https://awakenz.co.nz/products/fisher-paykel-nova-micro) |
+| ResMed AirFit P30i | NZ$275 | [Awakenz](https://awakenz.co.nz/products/resmed-airfit-p30i-nasal-pillows-mask) |
+| Fisher & Paykel Brevida | NZ$281.50 | [The Sleep Spot](https://thesleepspot.co.nz/products/f-p-brevida-nasal-pillows-mask) |
+| ResMed AirFit P10 | NZ$285 | [Awakenz](https://awakenz.co.nz/products/resmed-airfit-p10-nasal-pillows-mask) |
+| ResMed AirFit P10 | $289 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airfit-p10-nasal-pillows-mask) |
+
+## Nasal and cradle masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| Fisher & Paykel Nova Nasal | $228 | [CPAP Sales](https://www.cpapsales.co.nz/products/fisher-paykel-nova-nasal-cpap-mask) |
+| Fisher & Paykel Eson 2 | NZ$241 | [The Sleep Spot](https://thesleepspot.co.nz/products/f-p-eson-2-nasal-mask) |
+| ResMed AirFit N20 | $234 | [CPAP Sales](https://www.cpapsales.co.nz/products/resmed-airfit-n20-nasal-cpap-mask) |
+| ResMed AirFit N20 | NZ$279 | [Awakenz](https://awakenz.co.nz/products/resmed-airfit-n20-nasal-mask) |
+| ResMed AirTouch N30i | $234 | [CPAP Sales](https://www.cpapsales.co.nz/products/airtouch-n30i-nasal-cradle-mask) |
+| ResMed AirTouch N30i | NZ$284 | [Awakenz](https://awakenz.co.nz/products/resmed-airtouch-n30i-cpap-nasal-mask) |
+| ResMed AirFit N30i | NZ$275 | [Awakenz](https://awakenz.co.nz/products/resmed-airfit-n30i-nasal-cradle-mask) |
+| ResMed AirFit N30 | NZ$285 | [Awakenz](https://awakenz.co.nz/products/resmed-airfit-n30-nasal-mask) |
+
+The same AirTouch N30i was **$50 cheaper** at CPAP Sales ($234) than at Awakenz ($284).
+
+## Full face masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit F30i | NZ$238.90 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airfit-f30i-full-face-mask-copy) |
+| ResMed AirTouch F30i | NZ$279 | [Awakenz](https://awakenz.co.nz/products/resmed-airtouch-f30i-comfort-full-face-mask) |
+| ResMed AirFit F40 | NZ$285 | [Awakenz](https://awakenz.co.nz/products/resmed-f40) |
+| Fisher & Paykel Evora Full | NZ$285.60 | [The Sleep Spot](https://thesleepspot.co.nz/products/copy-of-fisher-paykel-evora%E2%84%A2-full-compact-full-face-mask) |
+| ResMed AirFit F20 | NZ$286.60 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airfit-f20-full-face-mask) |
+| ResMed AirFit F40 | $295 | [ResMed NZ shop](https://shop.resmed.co.nz/products/resmed-airfit-f40-full-face-cpap-mask) |
+| Fisher & Paykel Vitera | NZ$300 | [Awakenz](https://awakenz.co.nz/products/fisher-paykel-vitera-full-face-mask) |
+
+For keeping a mask working longer, see [CPAP cleaning and troubleshooting](/nz/guides/cpap-cleaning-troubleshooting-nz/).
+
+---
+
+# Flying with CPAP or oxygen on Air New Zealand
+
+Source: https://homehealthzone.com/nz/guides/flying-with-cpap-oxygen-nz/
+
+This guide is written from Air New Zealand’s [medical equipment and special assistance page](https://www.airnewzealand.com/en-nz/travel-info/special-assistance-medical-equipment), read on 14 October 2026. Confirm with the airline before you fly.
+
+## Airline oxygen
+
+- Complete **Parts 1 and 2 of the MEDA** medical clearance form and send it at least **72 hours** before travel (48 hours if you are using your own POC).
+- You **can’t use your own oxygen bottles** on the aircraft.
+- **Domestic flights:** Air New Zealand refers you to an authorised oxygen provider where possible.
+- **International flights:** Air New Zealand supplies oxygen on board (not on the ground or in transit). The standard supply is 2 L/min by nasal prongs from an Avia Pulse bottle, at **NZD $150 per bottle**. Flow rates above 4 L/min need a fixed oxygen rig at extra cost.
+
+## Your own portable oxygen concentrator (POC)
+
+- There is **no charge** for a POC you bring.
+- It must be an **Air New Zealand approved model**, or meet FAA requirements and carry the manufacturer’s label saying so.
+- Medical clearance is required to use it in flight.
+- Give **48 hours’ notice** to use aircraft power, and check in **1 hour before** general check-in.
+- Air New Zealand’s battery-approved list names models including the AirSep FreeStyle, SeQual Eclipse, Inogen One G2v and Philips SimplyGo. Newer models depend on the FAA label.
+
+## CPAP
+
+- Complete **MEDA Part 1**, even if your model isn’t listed, and give **48 hours’ notice**. Check in 1 hour before general check-in.
+- Use is limited to the **cruise** phase.
+- The approved list on Air New Zealand’s page names older models (ResMed S8 and S9, F&P Icon, Philips Remstar, Transcend). It doesn’t name the AirSense 10 or 11, so ask about your machine.
+- **In-seat power** (110 V, 60 Hz, maximum 1.2 A) is approved only for listed CPAPs, some only in low-power mode with the humidifier off.
+
+## Aircraft medical power
+
+| Aircraft | Medical outlet |
+| --- | --- |
+| Domestic flights | None |
+| Boeing 787-9 | 230 V, 50 Hz |
+| Boeing 777 | 115 V, 400 Hz; allow at least two weeks for Air New Zealand Engineering to assess your device |
+
+Air New Zealand recommends battery power where possible. If your device doesn’t meet its requirements, it suggests hiring one for the trip; see [oxygen concentrator prices](/nz/guides/oxygen-concentrator-price-nz/) for local hire.
+
+## Power in New Zealand
+
+New Zealand uses **230 V, 50 Hz** with **Type I** plugs (two flat pins in a V plus an earth pin) ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/safety-advice/travel-advice/new-zealand/)). Visitors from the US or Canada need a plug adaptor. A device rated only for 120 V also needs a converter. An adaptor doesn’t change voltage.
+
+---
+
+# Funded CPAP in New Zealand: how it works
+
+Source: https://homehealthzone.com/nz/guides/funded-cpap-new-zealand/
+
+This guide is written from Health NZ’s [long-term CPAP therapy in Canterbury Waitaha](https://www.healthnz.govt.nz/hospitals-services/hospitals/canterbury/respiratory-services-canterbury/long-term-cpap-therapy-in-canterbury-waitaha) page, read on 14 October 2026. Each region runs its own sleep service, so ask yours about local rules.
+
+## Canterbury example
+
+- After a **successful CPAP trial** through Christchurch Hospital Sleep Health Services, **you keep the machine** to use long term.
+- Sleep Health Services sets the pressure. Use CPAP every time you sleep. **If you are not using it, you will be asked to return it.**
+- Take the machine on holiday and into hospital with you.
+
+## Masks
+
+If you have hospital-funded CPAP, you are eligible for **one replacement mask a year**. More often than that, you may need to pay. Health NZ names USL Medical, Cansleep and Sleep Well Clinic as places to buy masks. For retail mask prices, see [CPAP masks in New Zealand](/nz/guides/cpap-masks-nz/). They cost $229–$300 on 14 October 2026.
+
+## Driving and pilot checks
+
+Some people need a medical review under **NZTA** (driving) or **CAA** (aviation) guidelines, which may include checking CPAP usage. Health NZ says these people are given a **cloud-connected** machine and asked to download a monitoring app.
+
+## Buying privately
+
+If you don’t qualify, or don’t want to wait, the AirSense 11 AutoSet cost from NZ$1,875 at Awakenz to $2,199 on ResMed’s NZ shop on 14 October 2026. ResMed’s shop also lists a **$35 CPAP trial** of the AirSense 11 AutoSet; the listing doesn’t say how long that covers. See [CPAP machine prices in New Zealand](/nz/guides/cpap-machine-price-nz/).
+
+For cleaning and fixing problems, see [CPAP cleaning and troubleshooting](/nz/guides/cpap-cleaning-troubleshooting-nz/).
+
+---
+
+# Medically dependent consumers: power and oxygen
+
+Source: https://homehealthzone.com/nz/guides/medically-dependent-power-nz/
+
+This guide is written from the Electricity Authority’s page [if you rely on electricity for medical reasons](https://www.ea.govt.nz/your-power/consumer-care-obligations/if-you-rely-on-electricity-for-medical-reasons/), read on 14 October 2026.
+
+## Register with your power company
+
+If you, or someone in your home, relies on electricity to prevent serious harm to health (for example a home oxygen concentrator), **tell your power company**. It must help you register as a **medically dependent consumer**.
+
+Your power company may ask a health practitioner to confirm this. Take the **Confirmation of Medically Dependent Consumer Status** form and your emergency plan to your doctor so they can sign the form and help with the plan.
+
+## Protection from disconnection
+
+Your power company **can’t disconnect you** if it knows you or someone in your household:
+
+- is registered as a medically dependent consumer
+- is applying to register
+- is disputing the power company’s decision on your status
+
+You still have to **pay your bills**. The Authority advises choosing a **postpay** plan.
+
+## Power cuts still happen
+
+Even if you are medically dependent, a constant supply **can’t be guaranteed**. The Authority says to:
+
+- get an emergency response plan template from your power company
+- make the plan with your healthcare providers and support people, and share it
+- talk to your doctor about **backup power** for medical equipment
+
+For CPAP, Health NZ Canterbury says that if the power goes off during the night, take the mask off and sleep without CPAP; the mask vents let you breathe room air. Restart when the power returns. See [CPAP cleaning and troubleshooting](/nz/guides/cpap-cleaning-troubleshooting-nz/).
+
+For home oxygen funding, see [funded home oxygen](/nz/guides/home-oxygen-funding-new-zealand/).
+
+---
+
+# Medsafe and WAND: are CPAP machines approved?
+
+Source: https://homehealthzone.com/nz/guides/medsafe-wand-medical-devices-nz/
+
+This guide is written from Medsafe’s pages on [the WAND database](https://www.medsafe.govt.nz/Regulatory/DevicesNew/3WAND.asp), [what WAND is](https://www.medsafe.govt.nz/Regulatory/DevicesNew/3-2Explanation.asp) and [importing medical devices](https://www.medsafe.govt.nz/Regulatory/DevicesNew/4Importing.asp), read on 14 October 2026. It isn’t legal advice.
+
+## No pre-market approval
+
+Medsafe says:
+
+- There is **no approval system** for medical devices under the *Medicines Act 1981*.
+- There is **no mandatory requirement** for devices to be approved by any regulator before being supplied in New Zealand.
+- Notification to WAND **does not mean** Medsafe has assessed the device for quality, safety or efficacy.
+
+This differs from Australia, where devices must be included on the ARTG, and Canada, where Class II and higher devices need a Health Canada licence before sale.
+
+## What WAND is
+
+The Web Assisted Notification of Devices (**WAND**) database was set up by the *Medicines (Database of Medical Devices) Regulations 2003*.
+
+- Devices must be notified to WAND to be **legally supplied** in New Zealand.
+- Notification is **free**, with no ongoing fees.
+- It must happen within **30 calendar days** of a person or organisation becoming the device’s sponsor.
+- Importers, exporters and local manufacturers must all notify their devices.
+
+## Every importer notifies separately
+
+A WAND notification covers one sponsor and one device. If several companies import the same CPAP machine, **each one must notify it**; one importer can’t rely on another’s notification. Sponsors must keep supply records so they can trace customers in a recall.
+
+## What this means for you
+
+1. Buy from a New Zealand supplier that can tell you it has notified the device.
+2. Medsafe uses WAND to contact sponsors when there is a safety problem, so a machine bought overseas may not be traced in a recall.
+3. Check Medsafe’s online recalls database for your model.
+
+For devices sold here, see [CPAP machine prices](/nz/guides/cpap-machine-price-nz/) and [oxygen concentrator prices](/nz/guides/oxygen-concentrator-price-nz/).
+
+---
+
+# Oxygen concentrator prices in New Zealand (2026)
+
+Source: https://homehealthzone.com/nz/guides/oxygen-concentrator-price-nz/
+
+All prices are in New Zealand dollars, read on 14 October 2026. These are prescription devices; ask your respiratory team which flow you need. For funded oxygen, see [funded home oxygen in New Zealand](/nz/guides/home-oxygen-funding-new-zealand/).
+
+## Portable concentrators
+
+| Concentrator | Price | Retailer |
+| --- | --- | --- |
+| Inogen Rove 6 (8-cell battery) | NZ$5,550 | [Oxygen Plus](https://www.oxygenplus.co.nz/Inogen-Rove+6.html) |
+| Inogen Rove 6 (16-cell battery) | $5,850 | [Oxygen Plus](https://www.oxygenplus.co.nz/Inogen-Rove+6.html) |
+| Philips SimplyGo system | $6,200 | [Oxygen Plus](https://www.oxygenplus.co.nz/Simply+Go+Original.html) |
+
+Oxygen Plus prices include GST. Spare batteries for the Rove 6 were **$745 (8-cell)** and **$1,045 (16-cell)**. Oxygen Plus also says it can arrange **hire** for short-term travel, flights and cruises.
+
+## Home concentrators
+
+| Concentrator | Price | Retailer |
+| --- | --- | --- |
+| Nidek Lite 5 L | $1,750 + GST | [Orange NZ](https://orangenz.co.nz/shop/medical/oxygen-concentrators/nidek-lite-oxygen-concentrator/) |
+| DeVilbiss 5 L Compact | $3,999.99 | [Pakuranga Pharmacy](https://pakurangapharmacy.co.nz/products/devilbiss-compact-oxygen-concentrator) |
+
+## Flying with a concentrator
+
+Air New Zealand accepts approved or FAA-labelled POCs with medical clearance; see [flying with CPAP or oxygen](/nz/guides/flying-with-cpap-oxygen-nz/).
+
+## Regulation
+
+New Zealand has no pre-market approval for devices, only WAND notification; see [Medsafe and WAND](/nz/guides/medsafe-wand-medical-devices-nz/).
+
+---
+
 # APAP algorithms compared — ResMed AutoSet, Philips Auto, BMC Auto, DreamStation, AirSense
 
 Source: https://homehealthzone.com/clinical/apap-algorithms-compared/

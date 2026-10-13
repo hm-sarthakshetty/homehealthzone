@@ -6,7 +6,8 @@
   "category": "",
   "price_symbol": "",
   "countries": [
-    "GB"
+    "GB",
+    "NZ"
   ],
   "device_type": "cpap-mask",
   "prices": {
@@ -15,10 +16,17 @@
       "currency": "GBP",
       "source_url": "https://shop.resmed.com/GB/en/cpap-masks/airfit-f30i/p/63310",
       "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 238.9,
+      "currency": "NZD",
+      "source_url": "https://thesleepspot.co.nz/products/resmed-airfit-f30i-full-face-mask-copy",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
-    "uk": "cpap-masks-uk"
+    "uk": "cpap-masks-uk",
+    "nz": "cpap-masks-nz"
   },
   "images": []
 }

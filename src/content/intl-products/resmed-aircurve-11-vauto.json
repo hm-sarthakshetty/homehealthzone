@@ -8,7 +8,8 @@
   "countries": [
     "SG",
     "AU",
-    "CA"
+    "CA",
+    "NZ"
   ],
   "device_type": "bipap",
   "prices": {
@@ -29,12 +30,19 @@
       "currency": "CAD",
       "source_url": "https://cpapmachinescanada.ca/products/aircurve-10-vauto-copy",
       "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 2499,
+      "currency": "NZD",
+      "source_url": "https://shop.resmed.co.nz/products/aircurve-11-vauto",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
     "sg": "cpap-machine-price-singapore",
     "au": "cpap-machine-price-australia",
-    "ca": "cpap-machine-price-canada"
+    "ca": "cpap-machine-price-canada",
+    "nz": "cpap-machine-price-nz"
   },
   "images": []
 }

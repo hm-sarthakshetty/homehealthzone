@@ -14,6 +14,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [Singapore](https://homehealthzone.com/sg/): HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.
 - [Australia](https://homehealthzone.com/au/): HHZ for Australia: state equipment schemes, Medicare, TGA rules, and devices sold in Australia with AUD prices from named retailers.
 - [Canada](https://homehealthzone.com/ca/): HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and devices sold in Canada with CAD prices from named retailers.
+- [New Zealand](https://homehealthzone.com/nz/): HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and devices sold in NZ with NZD prices from named retailers.
 
 ## Editorial policies
 
@@ -351,6 +352,21 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [Ontario ADP funding for CPAP machines](https://homehealthzone.com/ca/guides/ontario-adp-cpap-funding/): How Ontario’s Assistive Devices Program pays 75% of a CPAP, APAP or bilevel machine: eligibility, the sleep-clinic route, what is excluded and when it pays 100%.
 - [Ontario home oxygen funding through ADP](https://homehealthzone.com/ca/guides/ontario-adp-home-oxygen/): Ontario’s ADP home oxygen benefit: who qualifies, what it covers, when ADP pays 100% (including everyone 65+), the yearly renewal and how vendors handle repairs.
 - [Portable oxygen concentrators in Canada (2026)](https://homehealthzone.com/ca/guides/portable-oxygen-concentrator-canada/): CAD prices for portable oxygen concentrators at Canadian retailers: Inogen Rove 6, Philips SimplyGo Mini, CAIRE FreeStyle Comfort and Eclipse 5, with licence numbers.
+
+
+## New Zealand guides
+
+- [New Zealand hub](https://homehealthzone.com/nz/): HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and devices sold in NZ with NZD prices from named retailers.
+- [ACC and respiratory equipment after an injury](https://homehealthzone.com/nz/guides/acc-equipment-respiratory-new-zealand/): When ACC pays for aids, equipment and respiratory consumables after a covered injury in New Zealand, how to apply, ACC’s timeframes and how it differs from Health NZ funding.
+- [CPAP cleaning and troubleshooting (NZ guide)](https://homehealthzone.com/nz/guides/cpap-cleaning-troubleshooting-nz/): Health NZ’s CPAP cleaning schedule and fixes for common problems: water in the tube, dry mouth, leaks, noisy hose, sore eyes, pressure too high and machines that won’t start.
+- [CPAP machine prices in New Zealand (2026)](https://homehealthzone.com/nz/guides/cpap-machine-price-nz/): Live NZD prices for CPAP machines at New Zealand retailers: ResMed AirSense 11 and 10, AirMini, F&P SleepStyle, Yuwell and the AirCurve 11 VAuto, plus ResMed’s $35 trial.
+- [CPAP mask prices in New Zealand (2026)](https://homehealthzone.com/nz/guides/cpap-masks-nz/): NZD prices for ResMed and Fisher & Paykel CPAP masks at New Zealand retailers, by type, and how many masks funded CPAP users get each year.
+- [Flying with CPAP or oxygen on Air New Zealand](https://homehealthzone.com/nz/guides/flying-with-cpap-oxygen-nz/): Air New Zealand rules for CPAP and oxygen: MEDA clearance, 48- and 72-hour notice, the $150 oxygen bottle fee, approved POCs, in-seat and medical power, and NZ plugs.
+- [Funded CPAP in New Zealand: how it works](https://homehealthzone.com/nz/guides/funded-cpap-new-zealand/): How publicly funded CPAP works in New Zealand, using Health NZ Canterbury as the example: the trial, keeping the machine, the yearly mask, returning it if unused, and costs.
+- [Funded home oxygen in New Zealand](https://homehealthzone.com/nz/guides/home-oxygen-funding-new-zealand/): How Health NZ | Te Whatu Ora funds home oxygen: eligibility, the 16-hour rule, smoking rules, portable oxygen funding, how Pharmac contracts concentrators, and retail prices.
+- [Medically dependent consumers: power and oxygen](https://homehealthzone.com/nz/guides/medically-dependent-power-nz/): If you rely on an oxygen concentrator or other powered medical equipment in New Zealand, how to register as a medically dependent consumer and plan for power cuts.
+- [Medsafe and WAND: are CPAP machines approved?](https://homehealthzone.com/nz/guides/medsafe-wand-medical-devices-nz/): New Zealand has no pre-market approval for medical devices. What Medsafe’s WAND notification means for CPAP machines and oxygen concentrators, and what to check.
+- [Oxygen concentrator prices in New Zealand (2026)](https://homehealthzone.com/nz/guides/oxygen-concentrator-price-nz/): NZD prices for portable and home oxygen concentrators in New Zealand: Inogen Rove 6, Philips SimplyGo, Nidek Lite and DeVilbiss, with spare batteries and travel hire.
 
 
 ## Written comparison pages

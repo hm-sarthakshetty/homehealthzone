@@ -9,7 +9,8 @@
     "GB",
     "SG",
     "AU",
-    "CA"
+    "CA",
+    "NZ"
   ],
   "device_type": "cpap",
   "prices": {
@@ -36,13 +37,20 @@
       "currency": "CAD",
       "source_url": "https://canadiancpapstore.com/products/airsense-11-autoset%E2%84%A2-with-humidair-and-climateline%E2%84%A2air-11-tube",
       "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 1875,
+      "currency": "NZD",
+      "source_url": "https://awakenz.co.nz/products/resmed-airsense-11-autoset-cpap",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
     "uk": "buying-cpap-privately-uk",
     "sg": "cpap-machine-price-singapore",
     "au": "cpap-machine-price-australia",
-    "ca": "cpap-machine-price-canada"
+    "ca": "cpap-machine-price-canada",
+    "nz": "cpap-machine-price-nz"
   },
   "images": [],
   "normalized_specs": {

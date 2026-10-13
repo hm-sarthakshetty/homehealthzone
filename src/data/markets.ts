@@ -70,14 +70,14 @@ export const INTL_MARKETS: Market[] = [
     clusters: ['Provincial funding', 'CPAP', 'Oxygen', 'Regulation', 'Travel and power'],
   },
   {
-    code: 'nz', country: 'NZ', currency: 'NZD', lang: 'en-NZ', label: 'New Zealand', short: 'New Zealand', live: false,
+    code: 'nz', country: 'NZ', currency: 'NZD', lang: 'en-NZ', label: 'New Zealand', short: 'New Zealand', live: true,
     hubTitle: 'Oxygen concentrators and CPAP in New Zealand',
     hubDescription: 'HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and devices sold in NZ with NZD prices from named retailers.',
     hubLead: 'How home oxygen and CPAP are funded and regulated in New Zealand. Prices are in New Zealand dollars, taken from the named retailer listing on the date shown in each guide.',
     guidesTitle: 'New Zealand buyer’s guides',
     guidesDescription: 'New Zealand guides to home oxygen and CPAP: Health NZ routes, ACC, Medsafe, travel, masks, machines and troubleshooting, with NZD prices.',
     guidesLead: 'Plain-English guides to getting, paying for and using respiratory equipment in New Zealand. Every guide is reviewed and timestamped.',
-    clusters: [],
+    clusters: ['Funding', 'CPAP', 'Oxygen', 'Regulation', 'Travel and power'],
   },
 ];
 
