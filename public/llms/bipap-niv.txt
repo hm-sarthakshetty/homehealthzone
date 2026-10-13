@@ -13,9 +13,9 @@ Source: https://homehealthzone.com/about/
 # About HHZ Respiratory Review
 
 
-      HHZ Respiratory Review catalogues the home-respiratory equipment sold in India — oxygen
-      concentrators, CPAP machines, BiPAP devices, and nebulizers — and scores every device
-      against the same published rubric. We lead with specifications, measure what we can on
+      HHZ Respiratory Review catalogues home-respiratory equipment — oxygen concentrators,
+      CPAP machines, BiPAP devices, and nebulizers — for two markets, India and
+      the United States, and scores every device against the same published rubric. We lead with specifications, measure what we can on
       a bench, and document every claim against the source it came from.
 
 
@@ -31,6 +31,12 @@ Source: https://homehealthzone.com/about/
       bench measurements (purity at multiple flow rates, sound pressure at one metre, pressure
       accuracy via calibrated manometer, leak compensation under load). The measurement
       protocol is documented in full on our methodology page.
+
+
+
+      Our US section covers oxygen concentrators and CPAP sold in the United
+      States. US reviews are written from manufacturer documents and primary US sources, and say
+      so on the page; USD prices come from named retailers with the date they were checked.
 
 
 
@@ -678,7 +684,7 @@ Source: https://homehealthzone.com/editorial-policy/
 
 ---
 
-# Top 5 10 LPM Oxygen Concentrators in India (2026) — HHZ
+# Best 10 LPM Oxygen Concentrators in India (2026)
 
 Source: https://homehealthzone.com/top-5/10-lpm-oxygen-concentrators/
 
@@ -845,11 +851,13 @@ Consult your prescribing physician before finalising any 10 LPM purchase — con
 
 ---
 
-# Top 5 BiPAP Machines in India (2026) — HHZ
+# Best BiPAP Machines in India (2026)
 
 Source: https://homehealthzone.com/top-5/bipap-machines/
 
 The BiPAP (bilevel positive airway pressure) machine is the correct class for patients whose clinical picture is not served by a CPAP — central sleep apnoea, CPAP-failure OSA, obesity hypoventilation syndrome (OHS), COPD-OSA overlap with hypercapnia, neuromuscular disease with preserved spontaneous breathing, and severe hypoventilation that needs volume-assured pressure support (iVAPS, AVAPS, TVAPS). It is not a default upgrade from CPAP. This listicle ranks the five BiPAP machines HHZ considers the strongest buys for Indian households in 2026 by editorial score. The default pick for any patient with documented nocturnal hypoventilation is the ResMed Lumis 150 VPAP ST — the only iVAPS-capable unit in the list with native cloud connectivity.
+
+For live market bands and a complete-cost checklist, see the [BiPAP machine price guide for India](/bipap/price-india/). This ranking answers **which BiPAP is best**; the price page answers **what each mode and package should cost**.
 
 ## How we ranked
 
@@ -1027,7 +1035,7 @@ Consult your prescribing respiratory physician before finalising any BiPAP purch
 
 ---
 
-# Top 5 CPAP Machines in India (2026) — HHZ
+# Best CPAP Machines in India (2026)
 
 Source: https://homehealthzone.com/top-5/cpap-machines/
 
@@ -2773,15 +2781,22 @@ Last reviewed April 2026; next scheduled review October 2026.
 
 ---
 
-# Oxygen Concentrator Price in India (2026 Tracker)
+# Oxygen Concentrator Price in India (2026)
 
 Source: https://homehealthzone.com/oxygen-concentrators/price-india/
 
-# Oxygen Concentrator Price in India (2026 Tracker)
+# Oxygen Concentrator Price in India (2026)
 
 ## Quick price answer
 
-For buyers searching **oxygen machine price for home**, the practical India bands are approximately **₹30,000–₹60,000 for a stationary 5 LPM concentrator**, **₹55,000–₹1.1 lakh for mainstream 10 LPM machines**, and **₹1.2–₹2.4 lakh for most medical portable oxygen concentrators**. A very low quote is not automatically value: compare the complete invoice, continuous-flow rating, purity at maximum flow, stock age, warranty, and service route. For ranked choices, use the [best 5 LPM concentrators](/top-5/5-lpm-oxygen-concentrators/), [best 10 LPM concentrators](/top-5/10-lpm-oxygen-concentrators/), and [portable shortlist](/top-5/portable-oxygen-concentrators/).
+For buyers searching **oxygen machine price for home**, the practical India bands are approximately **₹30,000–₹60,000 for a stationary 5 LPM concentrator**, **₹55,000–₹1.1 lakh for mainstream 10 LPM machines**, and **₹1.2–₹2.4 lakh for most medical portable oxygen concentrators**. A very low quote is not automatically value: compare the complete invoice, continuous-flow rating, purity at maximum flow, stock age, warranty, and service route.
+
+| Machine type | Typical India price | Best next step |
+| --- | ---: | --- |
+| 5 LPM home concentrator | ₹30,000–₹60,000 | Compare the [best 5 LPM concentrators](/top-5/5-lpm-oxygen-concentrators/) |
+| 10 LPM stationary | ₹55,000–₹1.1 lakh | Compare the [best 10 LPM concentrators](/top-5/10-lpm-oxygen-concentrators/) |
+| Portable oxygen concentrator | ₹1.2–₹2.4 lakh | Use the [portable shortlist](/top-5/portable-oxygen-concentrators/) |
+| Short-term home need | Monthly rental may be cheaper | Check [rental prices and breakeven](/oxygen-concentrators/rental/) |
 
 Oxygen concentrator prices in India are more stable post-2024 than they were during the 2020–2022 COVID-era chaos, but the market is still characterised by aggressive MRP inflation, wide dealer-to-dealer dispersion, and a non-trivial grey-market layer. This guide is a price tracker and buyer's framework: the current bands by LPM class and tier, the structural factors that drive price gaps, channel-level pricing differences (hospital vs online vs authorised dealer), GST handling, how to verify MRP claims, and how to spot parallel-imported grey-market stock.
 
@@ -2789,7 +2804,7 @@ The numbers below are indicative and change with dealer-specific offers, festiva
 
 ---
 
-## Current price bands — April 2026 snapshot
+## Current price bands — 2026 snapshot
 
 ### 5 LPM stationary
 
@@ -3526,15 +3541,24 @@ If the patient has central events, hypercapnia, or any ventilation indication, n
 
 ---
 
-# CPAP Price in India (2026): Brackets, Drivers, and Channel Tracker
+# CPAP Machine Price in India (2026)
 
 Source: https://homehealthzone.com/cpap/price-india/
 
-# CPAP Price in India (2026): Brackets, Drivers, and Channel Tracker
+# CPAP Machine Price in India (2026)
 
 ## Quick price answer
 
 The practical **CPAP machine price in India** starts around **₹17,000–₹30,000 for basic fixed or auto CPAP**, moves to roughly **₹30,000–₹50,000 for stronger mid-tier APAP packages**, and reaches **₹50,000–₹85,000 for premium connected machines**; dedicated travel CPAP kits can cost more. Compare the complete sleep-apnoea-machine setup—not the blower alone—because a humidifier, compatible mask, heated tubing, filters, reporting access, and warranty can materially change the final cost. See the [best auto CPAP under ₹30,000](/guides/best-auto-cpap-under-30000-india/) and [complete CPAP starter-kit cost](/guides/cpap-starter-kit-cost-india/) for purchase-ready shortlists.
+
+| CPAP category | Typical machine price | Purchase path |
+| --- | ---: | --- |
+| Fixed / basic auto CPAP | ₹17,000–₹30,000 | Compare value models and complete mask bundle |
+| Mid-tier APAP | ₹30,000–₹50,000 | Mainstream home-therapy range |
+| Premium connected APAP | ₹50,000–₹85,000 | Pay for algorithm, comfort and data ecosystem |
+| Travel CPAP kit | ₹50,000–₹1.8 lakh | Compare full kit, battery and mask compatibility |
+
+If bilevel, ST or volume-assured therapy is prescribed, use the separate [BiPAP machine price guide](/bipap/price-india/) rather than treating BiPAP models as premium CPAP machines.
 
 CPAP pricing in India in 2026 spans a roughly 10x range — from sub-₹18,000 entry-tier APAPs to ₹1.8 lakh travel-APAP kits — reflecting a market where several distinct value propositions coexist. Understanding what you are actually paying for at each bracket matters, because the spec differences that explain a 3x price gap are not always what the brochure emphasizes. This guide breaks down the 2026 Indian CPAP market by price bracket, explains what drives the gap, and walks through channel pricing reality, GST, customs, and typical dealer markup.
 
@@ -3561,7 +3585,6 @@ This bracket is where the Indian market concentrates — mid-tier APAPs with fun
 Representative devices:
 
 - **[BPL Harmony Auto CPAP](/cpap/bpl-harmony-auto-cpap-machine/)**: ₹35,519 (MRP ₹62,400). 4–20 cmH₂O, 28 dB, 1.55 kg, Indian-manufactured (BPL Bengaluru), 2-year warranty, detachable humidifier, leak compensation.
-- **[Oxymed AirSmart Bi-Level Auto](/bipap/oxymed-airsmart-auto/)**: ₹33,990 (MRP ₹65,000). Auto bilevel — a step up from APAP for patients with CPAP intolerance. 4–30 cmH₂O, 3-year warranty.
 - **[BMC M1 Mini Travel Auto CPAP](/cpap/bmc-m1-mini-travel-auto-cpap-machine/)**: ₹42,230 (MRP ₹72,000). Travel APAP, 400 g, 30 dB, waterless humidification, Bluetooth.
 - **[ResMed AirStart 10 Auto](/cpap/resmed-airstart-10-auto-cpap/)**: ₹24,430 (MRP ₹45,120). Entry-level ResMed; straddles entry-tier and mid-tier by price but mid-tier by brand and build quality. Published specs: 4–20 cmH₂O, 26.6 dB, 1.1 kg, heated humidifier. Standard-tier algorithm (not AutoSet).
 - **[ResMed AirSense 10 AutoSet](/cpap/resmed-airsense-10-autoset-cpap/)**: ₹45,999 (MRP ₹82,560). Top of this bracket — often discounted into the ₹40,000s during campaign pricing. Advanced AutoSet algorithm, 25 dB, 1.24 kg, ClimateLineAir compatibility, 3-year warranty.
@@ -3653,7 +3676,7 @@ Three trends visible in late 2025/early 2026 pricing:
 
 1. **AirSense 11 channel price is compressing**: the flagship has moved from a launch channel price near ₹80,000 to current ~₹63,000, reflecting maturity and competitive pressure from the AirSense 10 (still in channel) and from lower-tier APAPs offering functional therapy.
 
-2. **TVAPS and volume-targeted bilevel prices are becoming accessible**: the BMC G3 B30VT at ₹39,744 and the Oxymed AirSmart BPAP ST with VAPS at ₹37,490 bring volume-assured bilevel therapy into the sub-₹40,000 bracket — which ResMed and Philips equivalents (Lumis 150 VPAP ST Tripack at ₹63,490, DreamStation BiPAP AVAPS at ₹77,952) do not match. This is a structural shift; see our [TVAPS guide](/bipap/tvaps/) for the clinical implications.
+2. **Volume-assured bilevel has its own price market**: value VAPS machines now overlap premium CPAP pricing, but they answer a different prescription. Compare them on the dedicated [BiPAP price page](/bipap/price-india/) and [TVAPS guide](/bipap/tvaps/) rather than inside the APAP shortlist.
 
 3. **Oxymed's 3-year PAN-India warranty model is pressuring the market**: 2-year imported-device warranties are starting to look thin against a 3-year domestic warranty with home service. Expect ResMed and Philips India to extend warranty terms or bundle service contracts in response.
 
@@ -3720,8 +3743,7 @@ The used/refurbished market in India is likely to grow as the 2018–2020 cohort
 
 Work backwards from clinical requirement and budget:
 
-- **Need volume-assured bilevel (TVAPS/AVAPS/iVAPS) on a tight budget?** BMC G3 B30VT at ₹39,744 or Oxymed AirSmart BPAP ST at ₹37,490. See the [TVAPS guide](/bipap/tvaps/).
-- **Need auto-bilevel for CPAP intolerance, budget ₹30,000–₹45,000?** Oxymed AirSmart Bi-Level Auto at ₹33,990.
+- **Need bilevel, ST or volume-assured therapy?** Leave the CPAP market and use the [BiPAP price guide](/bipap/price-india/) with the [TVAPS guide](/bipap/tvaps/).
 - **Need flagship APAP, budget ₹60,000+?** ResMed AirSense 11 AutoSet.
 - **Need mid-tier APAP with AutoSet algorithm, budget ₹45,000?** ResMed AirSense 10 AutoSet.
 - **Need basic APAP, budget ₹28,000 with 3-year service?** Oxymed SleepEasy.
@@ -4101,6 +4123,116 @@ For **Indian-manufactured Auto BiPAP with bundled volume assurance** at mid-tier
 Patients with Auto-bilevel indications should not default to fixed BiPAP on cost grounds without understanding the clinical match. Variable-pressure OSA on fixed bilevel produces residual events during REM or supine sleep; intermittent CSA on fixed ST produces over-breath burden during stable phases. The Auto functionality is clinically consequential, not a luxury feature, when the indication is there.
 
 See our [BiPAP ST guide](/bipap/st/) for the fixed-ST alternative and the [TVAPS guide](/bipap/tvaps/) for volume-assured bilevel.
+
+---
+
+# BiPAP Machine Price in India (2026)
+
+Source: https://homehealthzone.com/bipap/price-india/
+
+# BiPAP Machine Price in India (2026)
+
+## Quick price answer
+
+A **BiPAP machine in India generally costs ₹23,000–₹40,000 for entry and mid-range auto-bilevel or ST models, ₹40,000–₹70,000 for stronger ST and volume-assured machines, and ₹70,000–₹1.4 lakh for premium imported systems**. The blower price is not the complete cost: allow for a compatible mask, humidifier, heated tube where required, filters, data access, setup and follow-up.
+
+| BiPAP category | Practical machine-price band | Typical use case |
+| --- | ---: | --- |
+| Auto BiPAP / bilevel | ₹23,000–₹40,000 | Pressure support where CPAP is not tolerated or bilevel is prescribed |
+| BiPAP ST | ₹35,000–₹70,000 | Spontaneous/timed backup rate when prescribed |
+| VAPS / AVAPS / iVAPS | ₹38,000–₹85,000 | Volume-assured ventilation when prescribed |
+| Premium imported ST / VAPS | ₹65,000–₹1.4 lakh | Advanced modes, established data ecosystem or specific clinical requirement |
+
+Do not select a BiPAP mode from price alone. Auto bilevel, ST and volume-assured ventilation are not interchangeable; the prescription and titration settings should determine the category before the brand shortlist.
+
+## Current BiPAP price examples in India
+
+These are indicative observed listing prices, not dealer quotations. Stock, included humidifier, mask bundle, warranty and promotions can change the payable amount.
+
+| Model | Mode / positioning | Indicative listed price |
+| --- | --- | ---: |
+| [BMC RESmart GII Y30T](/bipap/bmc-resmart-gii-auto-bipap-with-humidifier/) | Entry bilevel | ₹23,440 |
+| [BMC RESmart GII Y25T](/bipap/bmc-resmart-bipap-machine/) | Entry bilevel | ₹25,823 |
+| [Deckmount VT 200](/bipap/deckmount-vt-200/) | VAPS value option | ₹27,552 |
+| [Oxymed AirSmart Bi-Level Auto](/bipap/oxymed-airsmart-auto/) | Auto bilevel | ₹33,990 |
+| [Oxymed AirSmart BPAP ST with VAPS](/bipap/oxymed-bipap-i-series-p1/) | ST + VAPS | ₹37,490 |
+| [Home Medix HM-BV-30](/bipap/home-medix-bv-30/) | Volume-assured value option | ₹38,000 |
+| [BMC G3 B30VT](/bipap/bmc-g3-b30vt-bipap-machine/) | Volume-assured bilevel | ₹39,744 |
+| [ResMed Lumis 100 VPAP ST](/bipap/resmed-lumis-100-vpap-st-bipap/) | Premium ST | ₹47,900 |
+| [ResMed Lumis 150 VPAP ST](/bipap/resmed-lumis-vpap-st-bipap-tripack/) | Premium iVAPS / ST | ₹63,490 |
+| [ResMed AirCurve 10 VAuto](/bipap/resmed-aircurve-v-auto/) | Premium auto bilevel | ₹66,800 |
+| [Philips DreamStation BiPAP AVAPS](/bipap/philips-dreamstation-bipap-avaps/) | Premium AVAPS | ₹77,952 |
+
+For a ranked purchase shortlist, use the [best BiPAP machines in India](/top-5/bipap-machines/). For mode selection, start with the [CPAP vs BiPAP indications guide](/guides/cpap-vs-bipap-indications/) and the [TVAPS and volume-assured ventilation guide](/bipap/tvaps/).
+
+## What changes the final BiPAP cost
+
+### Therapy mode
+
+ST adds a timed backup rate. VAPS, AVAPS, iVAPS and TVAPS add a volume-targeting layer. Those modes cost more because the machine, setup and follow-up are more complex. Paying for them is justified only when the prescription calls for them.
+
+### Included humidifier and mask
+
+A listing that looks ₹5,000 cheaper may omit the heated humidifier or include no mask. Ask for a line-item quotation showing the blower, humidifier, power supply, tube, carry bag, SD card or modem, mask and warranty.
+
+### Service and data support
+
+The useful warranty is the one a local provider can execute. Confirm who will read therapy data, correct settings under clinician direction, diagnose alarms and provide a loaner if a ventilation-dependent user cannot wait for repair.
+
+### Imported stock and warranty status
+
+For imported ResMed or Philips models, verify serial number, manufacturing/import date, Indian warranty eligibility and the exact service route. A low grey-market price can become expensive if the machine has no local warranty or compatible spares.
+
+## Complete first-year BiPAP budget
+
+| Cost item | Typical planning range |
+| --- | ---: |
+| BiPAP machine | ₹23,000–₹1.4 lakh |
+| Full-face or nasal mask | ₹3,000–₹15,000 |
+| Heated tube, if separate | ₹2,500–₹5,500 |
+| Replacement cushions and filters | ₹1,500–₹6,000 per year |
+| Setup, titration or follow-up | Varies by provider and clinical pathway |
+| Backup power, if clinically needed | Varies by required runtime and load |
+
+The cheapest safe purchase is therefore not always the machine with the lowest sticker price. Compare the **complete first-year cost** and the provider's ability to support the prescribed mode.
+
+## BiPAP rental versus buying
+
+Rental can make sense for a supervised short-term trial, post-discharge bridge or while the prescription is being finalised. For long-term therapy, repeated monthly rent often overtakes purchase, and the user may still receive an older fleet unit.
+
+Before renting, record the machine model, mode capability, blower hours, humidifier condition, mask status, deposit, monthly charge, service response time and replacement-unit policy. Never accept an ST or VAPS prescription on a machine that only provides ordinary auto bilevel.
+
+## Buying checklist
+
+1. Get the exact mode and settings from the treating team.
+2. Compare only machines that support that prescribed mode.
+3. Request a complete written quote, including humidifier and mask.
+4. Verify serial number, stock age and Indian warranty before payment.
+5. Confirm local setup, data review, spare parts and loaner support.
+6. Check mask fit while lying down at therapy pressure.
+7. Plan backup power and an escalation route if therapy interruption is unsafe.
+
+## Frequently asked questions
+
+### What is the lowest BiPAP machine price in India?
+
+Entry listings begin around ₹23,000–₹28,000, but the lowest price should not decide the purchase. Confirm that the machine supports the prescribed mode, includes the required humidifier and has a real Indian service path.
+
+### Why is BiPAP more expensive than CPAP?
+
+BiPAP independently controls inspiratory and expiratory pressure. ST and volume-assured systems add backup-rate or ventilation-targeting functions, which increase hardware, software and setup complexity. See the separate [CPAP price guide](/cpap/price-india/) for a clean comparison.
+
+### Which BiPAP is best under ₹40,000?
+
+The answer depends on required mode. Oxymed AirSmart Auto is a price candidate for auto bilevel; Oxymed ST with VAPS, Home Medix HM-BV-30, BMC G3 B30VT and Deckmount VT 200 are value candidates when a compatible volume-assured mode is prescribed. Compare them using the [BiPAP ranking](/top-5/bipap-machines/) and local service proof.
+
+### Can I buy a BiPAP without a sleep study or prescription?
+
+Do not self-select bilevel mode or pressures. A sleep or ventilation assessment and clinician-directed setup are important because the wrong mode or settings can leave events untreated or create a different ventilation problem.
+
+## Bottom line
+
+Budget **₹23,000–₹40,000 for value bilevel, ₹40,000–₹70,000 for stronger ST/VAPS options, and ₹70,000+ for premium imported systems**. Decide the required therapy mode first, then compare complete package cost, data access, Indian warranty and local service—not the headline discount.
 
 ---
 
@@ -8255,6 +8387,76 @@ Consult your treating pulmonologist before finalising the prescription flow rate
 
 ---
 
+# GVS Oxypure 5 LPM vs Oxymed Mini: cheaper isn't always better
+
+Source: https://homehealthzone.com/compare/gvs-oxypure-5-lpm-vs-oxymed-mini-5-lpm/
+
+The GVS Oxypure 5 LPM and the Oxymed Mini are closely priced — ₹33,599 for the Oxypure against ₹35,400 for the Mini, a gap of just ₹1,801. At that small a price difference, the buyer's decision essentially comes down to which machine offers better specs, better service support, and better Indian market fit. On every one of those axes, the Oxymed Mini wins. The GVS Oxypure has a thinner monitoring envelope, no OPI, no alarms flagged on its spec sheet, heavier weight, and a much shallower Indian service footprint. The Mini's ₹1,801 premium buys substantial additional value.
+
+## At-a-glance
+
+Weight is 13.9 kg on the Mini versus 16 kg on the GVS — a 2.1 kg Mini advantage. Flow range is 1–5 LPM on the Mini and 0.5–5 LPM on the GVS — a marginal GVS edge for paediatric or low-flow use. Purity is 90–96% on the Mini and 90–95% on the GVS — equivalent. Noise is 45 dB on the Mini versus 43 dB on the GVS — a small 2 dB GVS advantage, close to the perceptual threshold. Power consumption is 390 W on the Mini versus 300 W on the GVS — a 90 W GVS advantage, translating to roughly ₹1,100–1,600 per year of electricity savings at typical Indian tariffs and 10–12 hour daily use.
+
+Monitoring is where the gap widens sharply. The Mini has "Yes" on OPI, "Yes" on live oxygen purity analyzer, and "Yes" on all three alarms (loss of power, system malfunction, no flow). The GVS has empty rows on OPI, purity analyzer, loss-of-power alarm, system-malfunction alarm, and no-flow alarm — that is zero flagged monitoring features on the GVS spec sheet. CE certification is "Yes" on both. Company HQ is India for the Mini, China for the GVS. Stock is In Stock for the Mini, Out of Stock for the GVS.
+
+## Where the Oxymed Mini wins
+
+The monitoring gap is the most consequential difference. The Mini's OPI alarms below ~86% purity and the live purity analyzer displays real-time percentage on the digital screen — the caregiver can glance at the machine and confirm the sieve beds are delivering prescribed purity. The GVS shows empty rows on OPI, purity analyzer, and all three alarms. This is a significant safety gap for sustained home oxygen therapy. Sieve-bed degradation, compressor faults, tubing disconnections, power loss with failed backup — none of these failure modes generate alerts on the GVS according to its published spec. The Mini's own description also confirms the purity analyzer feature directly: "Oxymed Mini comes with an inbuilt oxygen purity analyzer through which users can get to know the oxygen purity level that is being delivered in real-time."
+
+For clinical home oxygen — meaning the patient's SpO2 is being actively managed against the concentrator's output — this monitoring delta is hard to overstate. Silent purity decline on the GVS means the caregiver will only detect the problem via patient symptoms. The Mini catches it directly.
+
+The GVS's own listing acknowledges the monitoring shortfall in its "things we don't like" section: "Does not have oxygen purity analyzer" is flagged explicitly. The spec sheet backs this up. The Mini does have it, and it is a material advantage.
+
+Weight is a practical Mini win: 13.9 kg versus 16 kg, 13% lighter. For single-caregiver room moves, between-floor transfers, and general positioning flexibility, the Mini's weight is more manageable.
+
+Service network is the structural Mini advantage. Oxymed's 40+ Indian service centres, factory-trained technicians, and home installation in 50+ cities are the deepest concentrator service footprint in the country. The GVS is distributed through third-party channels with a thinner network; the GVS listing itself acknowledges this with "Poor network dealer" flagged in its own "things we don't like" section. For year-2 and year-3 service events — which are routine for any PSA concentrator in Indian residential conditions — this service delta compounds into meaningful differences in turnaround time, parts availability, and effective ownership cost.
+
+The Mini's published 3-year warranty versus the GVS's unspecified warranty length is another Mini win. Over a 3-year ownership horizon, a compressor-level service event that is covered on the Mini can be a ₹12,000–18,000 bill on the GVS, enough to erase the ₹1,801 upfront price advantage and more.
+
+Outlet pressure is 10 psi on both — a wash. Operating altitude is 7,500 ft on both — also a wash.
+
+The Mini's active purity display is an underappreciated ergonomic win. It means the caregiver does not need a separate spot oxygen analyser to verify the machine is delivering prescribed purity; the display reads out the live percentage. For households without a separate O2 analyser (which is most), this is real value.
+
+## Where the GVS Oxypure wins
+
+The GVS's honest advantages are narrower than the Mini's. Price is ₹1,801 cheaper — genuine but small. Power draw is 90 W lower (300 W versus 390 W), which over 12 hours per day of typical use saves roughly 390 kWh per year or ₹2,800–3,900 at typical Indian slab tariffs. Over 3 years that is ₹8,400–11,700 of electricity savings, which could offset the price delta and tip the operating-cost comparison in the GVS's favour.
+
+The 0.5 LPM flow minimum is a legitimate advantage over the Mini's 1 LPM floor for paediatric prescriptions or low-flow overnight titration regimens.
+
+Noise is 2 dB quieter on the GVS (43 dB versus 45 dB) — close to the perceptual threshold and not a meaningful differentiator for most users.
+
+The GVS's own listing highlights three positives: "virtual support for set up" (useful for self-installing buyers), "compact" form factor, and "screen displays the oxygen outlet pressure being delivered in real time" (an ergonomic feature the Mini's screen does not offer — the Mini's screen shows flow, purity, timer, and hour meter but not outlet pressure).
+
+Beyond these — price, power draw, flow floor, mild noise advantage, and the pressure display — the GVS does not beat the Mini on any significant dimension.
+
+## Indian-market context
+
+The electricity math is worth being honest about. At 90 W power advantage and 12 hours per day of use, the GVS saves roughly 390 kWh per year. At Indian domestic slab 2+ tariffs of ₹7–10 per kWh, that is ₹2,800–3,900 per year. Over 3 years, ₹8,400–11,700. Combined with the ₹1,801 upfront price advantage, total savings of ₹10,200–13,500 over 3 years. That is real money and a reasonable buyer should factor it in. However, that savings must be offset against: (a) the cost of silent sieve-bed degradation on a machine without OPI — potentially the value of detecting purity decline early and extending sieve-bed life, (b) the cost of a single out-of-warranty service event (₹12,000–18,000) that the Mini's 3-year warranty would cover, and (c) the monitoring-safety value of full alarm coverage on the Mini that the GVS lacks. Net, the financial case for the GVS is not nearly as clean as the headline saving suggests.
+
+The service-network delta cuts hard here. The GVS's own listing flags "poor dealer network" as an honest drawback. For an Indian buyer in a tier-2 or tier-3 city, service reachability over a 3–5 year horizon is a primary concern. The Mini's 40+ centres mean a service call in Coimbatore, Indore, or Patna is answered by a factory-trained technician within 48–72 hours. The GVS may require a longer wait, or a part shipment from a distant distributor, or the machine simply being unserviceable and replaced.
+
+Indian ambient stress — summer 35–42°C, monsoon 60–80% RH, high dust loads — affects both machines equally in physical terms, but affects them very differently in service terms. The Mini has a well-documented service path for these stressors; the GVS does not.
+
+Stock position: Mini is In Stock, GVS is Out of Stock. For immediate prescriptions this is dispositive.
+
+Resale: Mini's strong secondary-market presence (1,000+ rating sample, routine transactions at ₹22,000–28,000 for 2-year-old units) is absent for the GVS.
+
+## Home Medix HM-KV: the quieter third choice
+
+The [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) is the third option for buyers who like the Oxymed's monitoring completeness but want a quieter, lighter bedside machine. Its 13 kg chassis, field-verified sound at or below 40 dB, live purity display, full alarms, integrated nebulization, and 3-year / 10,000-hour warranty create a more complete home-LTOT package than the GVS documentation supports.
+
+Do not treat the HM-KV as a universal replacement for Oxymed: local service remains the deciding variable. In cities where Home Medix support is proven, compare the two directly in [HM-KV vs Oxymed Mini](/compare/home-medix-5-lpm-vs-oxymed-mini-5-lpm/); elsewhere Oxymed's broader network remains the safer ownership proposition.
+
+## Verdict
+
+The Oxymed Mini 5 LPM wins this matchup for the typical Indian buyer. The ₹1,801 price premium is small; the GVS's 90 W power-draw advantage (worth roughly ₹2,800–3,900 per year) is legitimate but does not offset the monitoring gaps (no OPI, no purity analyzer, no alarms), the 2.1 kg weight penalty, the weaker Indian service network, the unspecified warranty length, and the Out of Stock position. The Mini's combination of OPI plus live purity analyzer, full alarm suite, Indian manufacturer HQ, 40+ service centres, and published 3-year warranty makes it a better long-term buy for sustained clinical home oxygen.
+
+The GVS Oxypure has a narrow case: if the buyer is strictly power-efficiency-driven, has a long prescribed horizon (3+ years) where electricity savings compound meaningfully, is comfortable with silent purity-decline risk, and has local service access (e.g., a metropolitan buyer with known GVS dealer presence), the operating-cost math can work. Outside that specific profile, the Mini is the better pick.
+
+A wider note on the Indian 5 LPM segment at this price point: the sub-₹40,000 band is crowded — the Mini, the GVS, the Vandelay, the BPL Oxy 5 Neo, the Home Medix all live here. The Mini is the one among these that ships with the complete monitoring envelope — OPI plus purity analyzer plus all three alarms. That is the feature that most distinguishes clinical-grade home oxygen from consumer-grade oxygen generation, and at ₹35,400 it is a remarkably complete offering. Against the GVS specifically, the Mini's premium is earned.
+
+---
+
 # Home Medix HM-KX 10 LPM vs Nidek Nuvo 10 LPM: the closest 10 LPM matchup in India
 
 Source: https://homehealthzone.com/compare/home-medix-10-lpm-vs-nidek-nuvo-10-litre/
@@ -8803,6 +9005,12 @@ Stock availability in Q1 2026: both units show thin stock on major Indian e-comm
 
 GST applies at 12% on both. CDSCO registration: Oxymed products are registered under the domestic-manufacturer route; Vandelay imports are registered under the importer route, which requires renewal per importer rather than per manufacturer — a weaker paper trail ([CDSCO](https://cdsco.gov.in/opencms/opencms/en/Medical-Device-Diagnostics/Medical-Device-Diagnostics/)). Indian voltage handling is consistent on both; a 1.5–2 kVA servo stabiliser is still recommended for Tier-2 city buyers with 160–260V mains variance.
 
+## Want nebulization without the monitoring trade-off? Compare HM-KV
+
+The bundled nebulizer is not a reason to accept Vandelay's missing monitoring when the [Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/) also integrates nebulization and adds a live purity display, complete alarm coverage, a 13 kg chassis, field-verified sound at or below 40 dB, and a 3-year / 10,000-hour warranty.
+
+That makes HM-KV the more coherent third option for bedroom use where Home Medix service is available. Oxymed remains the service-first choice across its larger authorised footprint. Compare the two supported Indian-brand options in [HM-KV vs Oxymed Mini](/compare/home-medix-5-lpm-vs-oxymed-mini-5-lpm/).
+
 ## Verdict — who should pick which
 
 **Pick the Oxymed Mini 5 LPM if:** you're buying for any prescription longer than 60 days, you value a live purity readout and a full alarm suite, you need clean CDSCO paperwork and a manufacturer-invoice trail for insurance reimbursement, or you live anywhere on Oxymed's 40+ authorised-centre service map. At ₹35,400 the Oxymed Mini is priced within ₹1,800 of the Vandelay and delivers a meaningfully more complete medical-device package. The power-draw penalty (roughly ₹220 per month) is the real cost of ownership of the Oxymed — over a 3-year prescription it amounts to ₹7,900, which is non-trivial. But that cost is the cost of running a concentrator with working alarms and a purity monitor. Cutting that to save ₹220 per month is not a saving most pulmonologists would sign off on.
@@ -8812,6 +9020,1526 @@ GST applies at 12% on both. CDSCO registration: Oxymed products are registered u
 **Skip both and step up if:** the prescription is 24-hour continuous flow for indefinite LTOT and the budget allows. The Philips Everflo at ₹43,699 adds FDA approval and Philips Respironics India service for an ₹8,300 premium over the Oxymed; the Drive DeVilbiss at ₹45,984 adds an FDA-approved US-origin build and 13,123 ft altitude envelope for ₹10,600 more. For any buyer whose ceiling is comfortably above ₹40,000, the imported options pull ahead.
 
 HHZ's firm pick at this price point is the Oxymed Mini 5 LPM. The Vandelay is not a bad concentrator — it is a badge-cheaper concentrator that trades measurable safety features and serviceability for roughly ₹220 per month of power saving. In an Indian home-oxygen context with 160–260V mains variance, night-time prescriptions, and Tier-2 service realities, that trade is not defensible. Consult your treating pulmonologist before finalising the flow-rate prescription; the choice between these two is about which device delivers the prescribed therapy with the least monitoring gap.
+
+---
+
+# United States: oxygen concentrators and CPAP
+
+Source: https://homehealthzone.com/us/
+
+HHZ for US buyers: oxygen concentrators and CPAP machines sold in the US, with USD prices from named retailers, FDA prescription rules and Medicare basics.
+
+US guides:
+
+- [5 LPM vs 10 LPM oxygen concentrator: which to buy](https://homehealthzone.com/us/guides/5-lpm-vs-10-lpm/)
+- [Advance Beneficiary Notice (ABN) for CPAP and oxygen](https://homehealthzone.com/us/guides/advance-beneficiary-notice-dme/)
+- [ResMed AirCurve 11 VAuto review: specs and price](https://homehealthzone.com/us/guides/aircurve-11-vauto-review/)
+- [ResMed AirFit F20 vs F30i: full-face masks compared](https://homehealthzone.com/us/guides/airfit-f20-vs-f30i/)
+- [AirFit F30i vs AirTouch F30i vs X30i compared](https://homehealthzone.com/us/guides/airfit-f30i-vs-x30i-vs-airtouch-f30i/)
+- [ResMed AirFit F40 review: specs and price](https://homehealthzone.com/us/guides/airfit-f40-review/)
+- [ResMed AirFit N20 vs N30: nasal mask vs cradle](https://homehealthzone.com/us/guides/airfit-n20-vs-n30/)
+- [ResMed AirFit P10 vs N30i: pillows vs cradle](https://homehealthzone.com/us/guides/airfit-p10-vs-n30i/)
+- [ResMed AirSense 11 AutoSet review: specs and price](https://homehealthzone.com/us/guides/airsense-11-review/)
+- [AirSense 11 settings explained: Ramp, EPR and more](https://homehealthzone.com/us/guides/airsense-11-settings/)
+- [AirSense 11 vs AirSense 10: what changed (2026)](https://homehealthzone.com/us/guides/airsense-11-vs-airsense-10/)
+- [AirTouch N20 vs AirFit N20: foam vs silicone](https://homehealthzone.com/us/guides/airtouch-n20-vs-airfit-n20/)
+- [CPAP and oxygen in Albuquerque: altitude and heat](https://homehealthzone.com/us/guides/albuquerque-altitude-cpap-oxygen/)
+- [APAP vs CPAP vs BiPAP: which do you need? (2026)](https://homehealthzone.com/us/guides/apap-vs-cpap-vs-bipap/)
+- [Best CPAP masks in the US (2026)](https://homehealthzone.com/us/guides/best-cpap-masks/)
+- [Best portable oxygen concentrator in the US (2026)](https://homehealthzone.com/us/guides/best-portable-oxygen-concentrator/)
+- [Best travel CPAP machines in the US (2026)](https://homehealthzone.com/us/guides/best-travel-cpap-machines/)
+- [BiPAP and ASV: Medicare coverage rules (2026)](https://homehealthzone.com/us/guides/bipap-asv-medicare-coverage/)
+- [Buying a CPAP online or used: what to check](https://homehealthzone.com/us/guides/buying-cpap-online-or-used/)
+- [CAIRE Companion 5 review: specs and price](https://homehealthzone.com/us/guides/caire-companion-5-review/)
+- [CAIRE FreeStyle Comfort review: specs and price](https://homehealthzone.com/us/guides/caire-freestyle-comfort-review/)
+- [ClimateLineAir 11 heated tubing vs SlimLine](https://homehealthzone.com/us/guides/climatelineair-heated-tubing/)
+- [CPAP aerophagia (swallowing air): causes and fixes](https://homehealthzone.com/us/guides/cpap-aerophagia/)
+- [CPAP batteries and camping power (2026)](https://homehealthzone.com/us/guides/cpap-battery-camping-power/)
+- [Best auto CPAP machine in the US: buyer's guide (2026)](https://homehealthzone.com/us/guides/cpap-buyers-guide/)
+- [CPAP chin strap vs mouth taping (2026)](https://homehealthzone.com/us/guides/cpap-chin-strap-mouth-taping/)
+- [CPAP dry mouth: causes and fixes that work (2026)](https://homehealthzone.com/us/guides/cpap-dry-mouth/)
+- [CPAP mask leaks: how much is too much (2026)](https://homehealthzone.com/us/guides/cpap-mask-leak/)
+- [CPAP nasal congestion: how to fix a stuffy nose](https://homehealthzone.com/us/guides/cpap-nasal-congestion/)
+- [CPAP prescription online: what's legitimate](https://homehealthzone.com/us/guides/cpap-prescription-online/)
+- [CPAP rainout: how to stop water in your tube](https://homehealthzone.com/us/guides/cpap-rainout/)
+- [CPAP supplies replacement schedule (2026)](https://homehealthzone.com/us/guides/cpap-supplies-replacement-schedule/)
+- [CPAP with oxygen (bleed-in): safety rules (2026)](https://homehealthzone.com/us/guides/cpap-with-oxygen/)
+- [CPAP cost without insurance (2026 US prices)](https://homehealthzone.com/us/guides/cpap-without-insurance-cost/)
+- [Cruising with oxygen: cruise line rules (2026)](https://homehealthzone.com/us/guides/cruising-with-oxygen/)
+- [DeVilbiss 1025DS review: 10 LPM specs and price](https://homehealthzone.com/us/guides/devilbiss-1025ds-review/)
+- [CPAP and oxygen in El Paso heat (2026)](https://homehealthzone.com/us/guides/el-paso-heat-cpap-oxygen/)
+- [F&P Evora Full vs ResMed AirFit F40 compared](https://homehealthzone.com/us/guides/evora-full-vs-airfit-f40/)
+- [F&P Evora Full vs Vitera: full-face masks compared](https://homehealthzone.com/us/guides/evora-full-vs-vitera/)
+- [FAA portable oxygen concentrator rules (2026)](https://homehealthzone.com/us/guides/faa-portable-oxygen-concentrator-rules/)
+- [Flying with a CPAP: TSA and carry-on rules (2026)](https://homehealthzone.com/us/guides/flying-with-cpap-tsa/)
+- [F&P Evora Full review: specs, sound and price](https://homehealthzone.com/us/guides/fp-evora-full-review/)
+- [F&P Evora Nasal review: specs, sound and price](https://homehealthzone.com/us/guides/fp-evora-nasal-review/)
+- [F&P Nova Micro review: specs, sound and price](https://homehealthzone.com/us/guides/fp-nova-micro-review/)
+- [F&P Simplus review: specs, sound and price](https://homehealthzone.com/us/guides/fp-simplus-review/)
+- [F&P Simplus vs Vitera: full-face masks compared](https://homehealthzone.com/us/guides/fp-simplus-vs-vitera/)
+- [F&P Solo review: 2-in-1 nasal mask specs and price](https://homehealthzone.com/us/guides/fp-solo-review/)
+- [F&P Solo vs Evora Nasal: compact nasal masks](https://homehealthzone.com/us/guides/fp-solo-vs-evora-nasal/)
+- [F&P Vitera review: specs, sound and price](https://homehealthzone.com/us/guides/fp-vitera-review/)
+- [High AHI on CPAP: what it means and what to do](https://homehealthzone.com/us/guides/high-ahi-on-cpap/)
+- [Home oxygen fire safety checklist (2026)](https://homehealthzone.com/us/guides/home-oxygen-fire-safety/)
+- [Home sleep test vs in-lab sleep study (2026)](https://homehealthzone.com/us/guides/home-sleep-test-vs-in-lab/)
+- [How to clean a CPAP machine, mask and tubing](https://homehealthzone.com/us/guides/how-to-clean-cpap/)
+- [HSA and FSA eligibility for CPAP and oxygen (2026)](https://homehealthzone.com/us/guides/hsa-fsa-cpap-oxygen-eligibility/)
+- [Hurricane plan for CPAP and oxygen (2026)](https://homehealthzone.com/us/guides/hurricane-plan-cpap-oxygen/)
+- [Inogen One G5 vs Rove 6: what changed (2026)](https://homehealthzone.com/us/guides/inogen-one-g5-vs-rove-6/)
+- [Inogen Rove 4 review: specs, battery and price](https://homehealthzone.com/us/guides/inogen-rove-4-review/)
+- [Inogen Rove 4 vs Rove 6: weight, output and battery](https://homehealthzone.com/us/guides/inogen-rove-4-vs-rove-6/)
+- [Inogen Rove 6 review: specs, battery and price](https://homehealthzone.com/us/guides/inogen-rove-6-review/)
+- [Inogen Rove 6 vs CAIRE FreeStyle Comfort (2026)](https://homehealthzone.com/us/guides/inogen-rove-6-vs-caire-freestyle-comfort/)
+- [CPAP and oxygen in Las Vegas heat (2026)](https://homehealthzone.com/us/guides/las-vegas-heat-cpap-oxygen/)
+- [Medicaid coverage for CPAP, oxygen and DME (2026)](https://homehealthzone.com/us/guides/medicaid-dme-coverage/)
+- [Medicare Advantage appeal for CPAP or oxygen (2026)](https://homehealthzone.com/us/guides/medicare-advantage-dme-appeal/)
+- [Medicare Advantage prior authorization for CPAP](https://homehealthzone.com/us/guides/medicare-advantage-prior-authorization-cpap/)
+- [Medicare Advantage vs Original Medicare for DME](https://homehealthzone.com/us/guides/medicare-advantage-vs-original-dme/)
+- [Medicare CPAP coverage and the 90-day rule (2026)](https://homehealthzone.com/us/guides/medicare-cpap-coverage-compliance/)
+- [Medicare DME appeal: CPAP and oxygen step by step](https://homehealthzone.com/us/guides/medicare-dme-appeal/)
+- [Medicare DME assignment explained (2026)](https://homehealthzone.com/us/guides/medicare-dme-assignment-explained/)
+- [Medicare DME competitive bidding explained (2026)](https://homehealthzone.com/us/guides/medicare-dme-competitive-bidding/)
+- [Medicare home oxygen coverage: who qualifies](https://homehealthzone.com/us/guides/medicare-oxygen-coverage/)
+- [Medicare Savings Programs and DME costs (2026)](https://homehealthzone.com/us/guides/medicare-savings-programs-dme/)
+- [Medicare Summary Notice for DME: how to read it](https://homehealthzone.com/us/guides/medicare-summary-notice-dme/)
+- [Medigap and DME: CPAP and oxygen costs (2026)](https://homehealthzone.com/us/guides/medigap-cpap-oxygen-costs/)
+- [myAir vs OSCAR: understanding your CPAP data (2026)](https://homehealthzone.com/us/guides/myair-vs-oscar-cpap-data/)
+- [NewLife Intensity 10 review: specs and price](https://homehealthzone.com/us/guides/newlife-intensity-10-review/)
+- [Oxlife Independence review: 3 LPM portable oxygen](https://homehealthzone.com/us/guides/oxlife-independence-review/)
+- [Oxygen at altitude: COPD travel to Denver (2026)](https://homehealthzone.com/us/guides/oxygen-at-altitude-denver/)
+- [Home oxygen concentrator buyer's guide (US, 2026)](https://homehealthzone.com/us/guides/oxygen-concentrator-buyers-guide/)
+- [Oxygen concentrator electricity cost by state](https://homehealthzone.com/us/guides/oxygen-concentrator-electricity-cost/)
+- [Oxygen cylinders vs concentrators vs liquid oxygen](https://homehealthzone.com/us/guides/oxygen-cylinders-vs-concentrators/)
+- [Oxygen saturation targets for COPD (2026)](https://homehealthzone.com/us/guides/oxygen-saturation-targets-copd/)
+- [OxyGo NEXT review: specs, battery and price](https://homehealthzone.com/us/guides/oxygo-next-review/)
+- [Philips CPAP recall: what US owners should do](https://homehealthzone.com/us/guides/philips-cpap-recall-consent-decree/)
+- [Philips DreamStation alternatives in the US (2026)](https://homehealthzone.com/us/guides/philips-dreamstation-cpap-alternatives/)
+- [CPAP and oxygen in Phoenix heat (2026)](https://homehealthzone.com/us/guides/phoenix-heat-cpap-oxygen/)
+- [Portable oxygen concentrator battery life (2026)](https://homehealthzone.com/us/guides/portable-oxygen-concentrator-battery-life/)
+- [Portable oxygen concentrator for sleeping (2026)](https://homehealthzone.com/us/guides/portable-oxygen-concentrator-for-sleeping/)
+- [Portable oxygen concentrator warranties compared](https://homehealthzone.com/us/guides/portable-oxygen-concentrator-warranties/)
+- [Power outage plan for CPAP and home oxygen (2026)](https://homehealthzone.com/us/guides/power-outage-plan-cpap-oxygen/)
+- [Pulse dose vs continuous flow oxygen (2026)](https://homehealthzone.com/us/guides/pulse-dose-vs-continuous-flow/)
+- [React Health G3 X review: specs and price](https://homehealthzone.com/us/guides/react-health-g3-x-review/)
+- [Renting a portable oxygen concentrator for travel](https://homehealthzone.com/us/guides/rent-portable-oxygen-concentrator-travel/)
+- [Replacing CPAP or oxygen after a disaster (2026)](https://homehealthzone.com/us/guides/replace-cpap-oxygen-after-disaster/)
+- [ResMed AirMini review: specs, masks and price](https://homehealthzone.com/us/guides/resmed-airmini-review/)
+- [CPAP and oxygen in Salt Lake City (2026)](https://homehealthzone.com/us/guides/salt-lake-city-altitude-cpap-oxygen/)
+- [Sleep apnea alternatives to CPAP (2026)](https://homehealthzone.com/us/guides/sleep-apnea-alternatives-to-cpap/)
+- [Switch your Medicare oxygen supplier (2026)](https://homehealthzone.com/us/guides/switch-medicare-oxygen-supplier/)
+- [Transcend Micro 510 review: specs and price](https://homehealthzone.com/us/guides/transcend-micro-510-review/)
+- [CPAP and oxygen in Tucson heat (2026)](https://homehealthzone.com/us/guides/tucson-heat-cpap-oxygen/)
+- [Used or refurbished oxygen concentrator checklist](https://homehealthzone.com/us/guides/used-refurbished-oxygen-concentrator/)
+- [VA CPAP and sleep apnea benefits (2026)](https://homehealthzone.com/us/guides/va-cpap-sleep-apnea-benefits/)
+
+---
+
+# ResMed AirCurve 11 VAuto review: specs and price
+
+Source: https://homehealthzone.com/us/guides/aircurve-11-vauto-review/
+
+> **How we reviewed this:** HHZ didn't test this device hands-on. This review is written from the manufacturer's user manual and published specifications, linked below, plus a U.S. retail price checked on 13 October 2026. We don't report comfort, noise or reliability impressions we haven't measured.
+
+## Key specs
+
+| Spec | AirCurve 11 VAuto | Source |
+| --- | --- | --- |
+| Price (U.S.) | $1,796 | [cpap.com](https://www.cpap.com/products/resmed-aircurve-11-vauto-bilevel-machine-with-humidair) |
+| Indication | OSA in patients over 66 lb | [AirCurve 11 user guide](https://document.resmed.com/documents/products/machine/aircurve-11/user-guide/398195_aircurve-11_user-guide_amer_multi.pdf) |
+| Modes | VAuto, S, CPAP | User guide |
+| VAuto pressures | IPAP 4–25; EPAP 4–25; pressure support 0–10; max 25 cmH2O | User guide |
+| S mode | IPAP 4–25; EPAP 3–25; max 25 cmH2O | User guide |
+| CPAP mode | 4–20 cmH2O, with EPR 1–3 | User guide |
+| Humidifier | HumidAir 11, 380 mL | User guide |
+| Climate Control | With ClimateLineAir 11 heated tubing | User guide |
+| Sound pressure | 26 dBA (side cover); 27 dBA (with tub) | User guide |
+| Weight with tub | 43 oz (1,229 g) | User guide |
+| Power supply | 90 W; typical consumption 65.3 W | User guide |
+| Operating temperature | 41–95°F | User guide |
+| Operating altitude | Sea level to 9,870 ft | User guide |
+| Warranty | Device 2 years; humidifier 1 year; masks and tubing 90 days | User guide |
+
+## AirCurve 11 VAuto vs AirSense 11 AutoSet
+
+| | AirCurve 11 VAuto | [AirSense 11 AutoSet](/us/guides/airsense-11-review/) |
+| --- | --- | --- |
+| Price, cpap.com (13 Oct 2026) | $1,796 | $1,004 |
+| Pressure type | Separate inhale and exhale pressures | Single pressure (EPR lowers exhale by up to 3) |
+| Max pressure | 25 cmH2O | 20 cmH2O |
+| Exhale relief | Pressure support up to 10 cmH2O | EPR up to 3 cmH2O |
+| Weight with tub | 43 oz | 40 oz |
+| Power supply | 90 W | 65 W |
+| Altitude | 9,870 ft | 9,870 ft |
+
+## Who it's for
+
+For obstructive sleep apnea, Medicare covers a bilevel without backup rate only after CPAP has been tried and proven ineffective ([BiPAP and ASV coverage](/us/guides/bipap-asv-medicare-coverage/)). The device's higher ceiling (25 vs 20 cmH2O) and larger exhale drop are the documented differences; whether you need them is your clinician's call. See [APAP vs CPAP vs BiPAP](/us/guides/apap-vs-cpap-vs-bipap/). It isn't an ASV: ResMed's guide indicates only the AirCurve 11 ASV for central or mixed apneas.
+
+## Verdict
+
+From the documents, the AirCurve 11 VAuto is an AirSense 11 platform with true bilevel pressure up to 25 cmH2O and up to 10 cmH2O of pressure support. It costs about $790 more at the retailer we checked, so it makes sense only when your clinician prescribes bilevel therapy. Check your coverage first in our [BiPAP and ASV Medicare guide](/us/guides/bipap-asv-medicare-coverage/).
+
+Related: [high AHI on CPAP](/us/guides/high-ahi-on-cpap/), [AirSense 11 settings](/us/guides/airsense-11-settings/), [CPAP with oxygen](/us/guides/cpap-with-oxygen/).
+
+---
+
+# AirSense 11 settings explained: Ramp, EPR and more
+
+Source: https://homehealthzone.com/us/guides/airsense-11-settings/
+
+Everything here comes from ResMed's [AirSense 11 US user guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf). It covers what you can change yourself. Your prescribed pressure, therapy mode and pressure limits are set by your care provider.
+
+## The settings at a glance
+
+| Setting | Where | Options | What it's for |
+| --- | --- | --- | --- |
+| Ramp Time | MY OPTIONS | Off, 5–45 min (5-minute steps), Auto | Starts low and rises to your prescribed pressure |
+| Pressure Relief (EPR)* | MY OPTIONS | Off, Level 1, 2, 3 (1/2/3 cmH₂O) | Lowers pressure as you breathe out |
+| SmartStart* | MY OPTIONS | On/Off | Therapy starts when you breathe into the mask |
+| SmartStop* | MY OPTIONS | On/Off | Therapy stops a few seconds after you take the mask off |
+| Climate Control | MY OPTIONS | Auto, Manual | Controls tube temperature and humidity together (needs ClimateLineAir 11 and HumidAir 11) |
+| Tube Temperature | MY OPTIONS | 60–86°F (16–30°C), Off; Auto = 80°F in Climate Control Auto | Warms the air in the heated tube |
+| Humidity Level | MY OPTIONS | Off, 1–8 | Humidifier output |
+| Mask Fit | MORE | Run test | Checks for leaks around the mask |
+| Airplane mode | MORE | On/Off | Turns off wireless transmission for flights |
+
+*ResMed marks these as "features enabled by your care provider". If you don't see one, ask your provider.
+
+## Ramp
+
+Ramp is the period during which the pressure climbs from a low start pressure to your prescribed pressure. Choose a fixed time of 5 to 45 minutes, or **Auto**, where the machine raises the pressure once it detects you're asleep. ResMed's AirSense 10 quick-start guide suggests Auto Ramp or a longer ramp if high pressure keeps you awake or you feel bloated from swallowing air, and turning Ramp off if you feel you're not getting enough air ([AirSense 10 quick-start guide](https://document.resmed.com/documents/products/machine/airsense-series/patient-quicksetup-guide/airsense10_autoset_afh_elite_cpap_patient-qsg_amer_eng.pdf)). See [aerophagia](/us/guides/cpap-aerophagia/).
+
+## EPR (Expiratory Pressure Relief)
+
+EPR drops the pressure while you breathe out: 1 cmH₂O at level 1, 2 at level 2, 3 at level 3. ResMed's specifications say the delivered pressure won't go below 4 cmH₂O. It's available in CPAP mode and in AutoSet / AutoSet for Her modes. ResMed says it "can help you get used to therapy".
+
+## SmartStart and SmartStop
+
+With SmartStart on, breathing into the mask starts therapy. If it doesn't trigger, take a deep breath in and out through the mask. SmartStop ends therapy a few seconds after you take the mask off. ResMed says SmartStop may not work, and should be disabled, with nasal pillows below 7 cmH₂O or with conduit masks.
+
+## Climate Control, tube temperature and humidity
+
+Climate Control works only when both the **ClimateLineAir 11** heated tube and the **HumidAir 11** tub are attached.
+
+| Mode | What it does | Rainout |
+| --- | --- | --- |
+| **Auto** (recommended, default) | Tube at 80°F (27°C); humidifier keeps 85% relative humidity | ResMed says it protects against rainout |
+| **Manual** | You set temperature and humidity separately | "Rainout protection is not guaranteed" |
+
+In Auto you can still nudge the tube temperature (60–86°F) if the air feels too warm or too cold. In Manual, if rainout happens, ResMed says to raise the tube temperature first. Then lower the humidity if the air gets too warm and rainout continues.
+
+Without heated tubing, you only have **Humidity Level** (Off, 1–8). ResMed's rule: turn it up for a dry nose or mouth, down for moisture in the mask.
+
+| Problem | ResMed's suggested change | Guide |
+| --- | --- | --- |
+| Dry nose or mouth | Raise Humidity Level | [CPAP dry mouth](/us/guides/cpap-dry-mouth/) |
+| Water in tube or mask | Raise Tube Temperature, then lower humidity | [CPAP rainout](/us/guides/cpap-rainout/) |
+| Air leaks | Run Mask Fit; refit the mask | [CPAP mask leak](/us/guides/cpap-mask-leak/) |
+| Hard to fall asleep at pressure | Ramp Auto or longer ramp; ask about EPR | [Aerophagia](/us/guides/cpap-aerophagia/) |
+
+## Mask Fit, Airplane mode and data
+
+**Mask Fit** (under MORE) helps you find leaks around the mask. **Airplane mode** turns off wireless transmission. ResMed's guide says the AirSense 11 meets FAA requirements for all phases of flight, and that the water tub should be empty in transit.
+
+For data to reach your care provider, keep the machine plugged in and out of Airplane mode. ResMed notes that wireless transfer may not work outside the region where you bought the machine. Your care provider may instead ask for the SD card. The myAir app is optional. See [myAir and OSCAR explained](/us/guides/myair-vs-oscar-cpap-data/).
+
+## Settings you can't change yourself
+
+Treatment pressure, the minimum and maximum pressure in AutoSet mode, and the therapy mode are set by your care provider. If your [AHI stays high](/us/guides/high-ahi-on-cpap/) or the pressure feels wrong, talk to your sleep clinician. Don't look for workarounds to change the prescription.
+
+## Verdict
+
+Start with Climate Control Auto and Ramp Auto. If breathing out feels hard, ask your provider to enable EPR. If you're getting a dry mouth or water in the tube, adjust humidity and tube temperature as above. Leave pressure to your clinician.
+
+Related: [AirSense 11 vs AirSense 10](/us/guides/airsense-11-vs-airsense-10/), [APAP vs CPAP vs BiPAP](/us/guides/apap-vs-cpap-vs-bipap/), [how to clean a CPAP](/us/guides/how-to-clean-cpap/).
+
+See also: [AirSense 11 review](/us/guides/airsense-11-review/) and [ClimateLineAir heated tubing explained](/us/guides/climatelineair-heated-tubing/).
+
+---
+
+# AirSense 11 vs AirSense 10: what changed (2026)
+
+Source: https://homehealthzone.com/us/guides/airsense-11-vs-airsense-10/
+
+ResMed sells both machines in the US. The AirSense 11 is the newer one, but the AirSense 10 is still on ResMed's own shop. Here's what differs, taken from ResMed's US user guides ([AirSense 11](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf), [AirSense 10](https://document.resmed.com/en-us/documents/products/machine/airsense-series/user-guide/airsense-10-device-with-humidifier_user-guide_amer_eng.pdf)).
+
+## Side by side
+
+| | AirSense 11 AutoSet | AirSense 10 AutoSet |
+| --- | --- | --- |
+| Pressure range | 4–20 cmH₂O | 4–20 cmH₂O |
+| Models | AutoSet, AutoSet for Her, Elite, CPAP | AutoSet, AutoSet for Her, Elite, CPAP |
+| Ramp | Off, 5–45 min, or Auto | Off, 5–45 min, or Auto |
+| Humidity level | Off, 1–8 | Off, 1–8 |
+| Water tub | 380 mL | 380 mL |
+| Sound, with humidifier | 27 dBA | 27 dBA |
+| Weight | 40 oz (1,130 g) | 44 oz (1,248 g), with water tub |
+| Power supply DC output | 24 V, 2.71 A (65 W) | 24 V, 3.75 A |
+| Typical / peak power | 56.1 W / 73.2 W | 53 W / 104 W |
+| Max supplemental oxygen | 15 L/min | 4 L/min |
+| Operating altitude | Sea level to 9,870 ft | Sea level to 8,500 ft |
+| Bluetooth to myAir app | Yes | No (myAir gets data via ResMed's cloud) |
+| Personal Therapy Assistant, Test Drive | Yes | No |
+| FAA in-flight use | Yes | Yes |
+| Design life (device) | 5 years | 5 years |
+| ResMed US shop price, 13 Oct 2026 | [$1,054](https://eshop.resmed.com/products/airsense-11-autoset-machine-with-humidair-and-standard-tubing) (standard tube), [$1,096](https://eshop.resmed.com/products/airsense-11-autoset-machine-with-humidair-and-climatelineair-tubing) (ClimateLineAir) | [$1,008](https://eshop.resmed.com/products/airsense-10-autoset-machine) (with ClimateLineAir) |
+| cpap.com price | $1,004 ([cpap.com](https://www.cpap.com/products/resmed-airsense-11-autoset)) | not verified |
+
+Sources: the two ResMed user guides above, the [myAir user guide](https://document.resmed.com/documents/products/data-management/myair/user-guide/myair_user-guide_amer-anz_eng-fre.pdf), and ResMed's US shop. HHZ didn't measure noise or power.
+
+## What's the same
+
+The core therapy hasn't changed. Both AutoSet models are prescription-only auto CPAPs for obstructive sleep apnea in patients weighing more than 66 lb. Both offer AutoSet for Her mode for women with mild to moderate OSA. Both have SmartStart, Mask Fit, the same humidity scale, the same 380 mL tub and the same ramp options. Both send therapy data to your care provider wirelessly, with an SD card as the alternative.
+
+## What the AirSense 11 adds
+
+- **Bluetooth and the myAir app.** ResMed's myAir guide says Bluetooth features are only on the AirSense 11. Those include Personal Therapy Assistant (guided setup videos) and **Test Drive**, which introduces pressure gradually (7 and 10 cmH₂O) before your first night ([myAir user guide](https://document.resmed.com/documents/products/data-management/myair/user-guide/myair_user-guide_amer-anz_eng-fre.pdf)). See [myAir and OSCAR explained](/us/guides/myair-vs-oscar-cpap-data/).
+- **Higher oxygen limit.** 15 L/min vs 4 L/min. This matters if you need [oxygen bled into your CPAP](/us/guides/cpap-with-oxygen/).
+- **Smaller power supply.** 65 W vs a 3.75 A (90 W class) supply, with a lower peak draw (73.2 W vs 104 W). Typical draw is similar.
+- **Slightly lighter.** 40 oz vs 44 oz.
+
+## What the AirSense 10 still has going for it
+
+It's the cheaper ResMed listing ($1,008 with heated tubing, vs $1,096 for the AirSense 11 with heated tubing on the same day). Its comfort settings are the same. If you already own one, nothing in ResMed's guides suggests you need to upgrade for therapy reasons. ResMed lists a 5-year design life for the device, so age is a better reason to replace than features.
+
+## Who should pick which
+
+| You are... | Pick |
+| --- | --- |
+| New to CPAP and want guided setup | AirSense 11 (Personal Therapy Assistant, Test Drive) |
+| On supplemental oxygen above 4 L/min | AirSense 11 |
+| Paying cash and want the lowest ResMed price | AirSense 10 |
+| Replacing an AirSense 10 that's 5+ years old | Either; AirSense 11 if you want myAir Bluetooth features |
+| Mostly traveling | Consider a travel CPAP instead ([travel CPAP guide](/us/guides/best-travel-cpap-machines/)) |
+
+Settings are explained in [AirSense 11 settings explained](/us/guides/airsense-11-settings/). Both need a prescription in the US. Medicare rules are in [Medicare CPAP coverage](/us/guides/medicare-cpap-coverage-compliance/), and cash costs in [CPAP cost without insurance](/us/guides/cpap-without-insurance-cost/).
+
+## Verdict
+
+Buy the AirSense 11 if you're new to CPAP, use high-flow oxygen, or want myAir's Bluetooth features. The AirSense 10 delivers the same pressure and comfort settings for less, so it's a fair choice on a budget. Neither is a reason to give up a working machine early.
+
+Related: [best auto CPAP machine](/us/guides/cpap-buyers-guide/), [APAP vs CPAP vs BiPAP](/us/guides/apap-vs-cpap-vs-bipap/), [CPAP batteries and camping power](/us/guides/cpap-battery-camping-power/).
+
+---
+
+# APAP vs CPAP vs BiPAP: which do you need? (2026)
+
+Source: https://homehealthzone.com/us/guides/apap-vs-cpap-vs-bipap/
+
+Three acronyms, one goal: keep your airway open with air pressure. Here's how they differ and what the guidelines say.
+
+## How each one works
+
+| | CPAP | APAP (auto-CPAP) | BiPAP / bilevel |
+| --- | --- | --- | --- |
+| Pressure | One fixed pressure | Varies between a min and max | Two pressures: IPAP (in) and EPAP (out) |
+| Set by | Prescription, often from an in-lab titration | Prescription with pressure limits | Prescription with IPAP and EPAP |
+| AASM view for routine adult OSA | Recommended (strong) | Recommended (strong) | CPAP or APAP suggested over bilevel |
+| Medicare HCPCS | E0601 | E0601 | E0470 (no backup rate), E0471 (backup rate) |
+| Medicare for OSA | Covered when criteria are met | Covered when criteria are met | E0470 only after E0601 tried and proven ineffective; E0471 not covered for OSA |
+| Example machine | ResMed AirSense 11 (CPAP mode) | ResMed AirSense 11 AutoSet | ResMed AirCurve 11 VAuto |
+
+Sources: [AASM 2019 PAP guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC6374094/), [AASM titration guideline](https://aasm.org/resources/clinicalguidelines/040210.pdf), [CMS LCD L33718](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33718), [AirSense 11 user guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf).
+
+## What the AASM recommends
+
+From the AASM's 2019 clinical practice guideline on PAP for adult OSA ([Patil et al., J Clin Sleep Med 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6374094/)):
+
+| Recommendation | Strength |
+| --- | --- |
+| Use PAP, vs no therapy, for OSA with excessive sleepiness | Strong |
+| Start PAP with either APAP at home or in-lab titration in adults with OSA and no significant comorbidities | Strong |
+| Use either CPAP or APAP for ongoing treatment of OSA | Strong |
+| Use CPAP or APAP over bilevel in routine OSA treatment | Conditional |
+| Give education when starting PAP | Strong |
+| Use telemonitoring-guided interventions early in therapy | Conditional |
+
+In short: CPAP and APAP are equal first choices. Bilevel isn't the default for plain OSA.
+
+## When bilevel comes in
+
+The AASM's manual titration guideline says that if a patient is "uncomfortable or intolerant of high pressures on CPAP, the patient may be tried on BPAP", and that if obstructive events continue at 15 cmH₂O of CPAP during titration, the patient may be switched to BPAP. It recommends an IPAP–EPAP difference of 4 to 10 cmH₂O, and a maximum IPAP of 30 cmH₂O for patients 12 and older ([AASM titration guideline](https://aasm.org/resources/clinicalguidelines/040210.pdf)).
+
+Bilevel devices are also used for conditions other than OSA, such as neuromuscular disease, central sleep apnea and hypoventilation. Those have their own Medicare rules, explained in [BiPAP and ASV: Medicare rules](/us/guides/bipap-asv-medicare-coverage/).
+
+## APAP vs CPAP in practice
+
+Most modern home machines do both. The AirSense 11 runs CPAP mode or AutoSet, each at 4–20 cmH₂O, with optional EPR, which lowers pressure by up to 3 cmH₂O on exhale ([AirSense 11 user guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf)). EPR isn't true bilevel, but it can ease breathing out. Your clinician decides the mode and the limits. The AASM's 2019 guideline supports starting with APAP at home for adults without significant comorbidities.
+
+## Medicare and cost
+
+- CPAP and APAP are both billed as E0601 and follow the same rules: a 90-day trial, and use of at least 4 hours a night on 70% of nights in a consecutive 30-day period ([Medicare CPAP guide](/us/guides/medicare-cpap-coverage-compliance/)).
+- For OSA, a bilevel without backup rate (E0470) is covered only if CPAP was tried and proven ineffective. A bilevel with backup rate (E0471) isn't covered for OSA ([LCD L33718](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33718)).
+- Cash prices for auto CPAPs are in [CPAP cost without insurance](/us/guides/cpap-without-insurance-cost/). The AirSense 11 AutoSet was $1,004 at [cpap.com](https://www.cpap.com/products/resmed-airsense-11-autoset). HHZ didn't verify current US bilevel prices for this guide.
+
+## Which one fits you
+
+| Situation | Usual starting point |
+| --- | --- |
+| New OSA diagnosis, no major other conditions | APAP at home or CPAP after titration |
+| Can't tolerate high CPAP pressure | Ask about EPR first, then bilevel |
+| Central sleep apnea, hypoventilation, neuromuscular disease | Specialist assessment; bilevel or ASV may be considered |
+
+## Verdict
+
+For plain obstructive sleep apnea, start with CPAP or APAP. The AASM treats them as equals. Bilevel is the step up when high pressure can't be tolerated or CPAP fails, and Medicare covers it for OSA only after CPAP has been tried. Choosing between modes is a prescription decision; the machine just follows it.
+
+Related: [AirSense 11 settings explained](/us/guides/airsense-11-settings/), [high AHI on CPAP](/us/guides/high-ahi-on-cpap/), [best auto CPAP machine](/us/guides/cpap-buyers-guide/).
+
+Model reviews: [AirSense 11 AutoSet](/us/guides/airsense-11-review/), [AirCurve 11 VAuto](/us/guides/aircurve-11-vauto-review/).
+
+---
+
+# Best travel CPAP machines in the US (2026)
+
+Source: https://homehealthzone.com/us/guides/best-travel-cpap-machines/
+
+A travel CPAP is a second machine, light enough to throw in a carry-on, that runs the same auto-CPAP therapy as your bedside unit. In the US the choice comes down to two models: the ResMed AirMini and the Transcend Micro 510.
+
+## Head to head
+
+| | Transcend Micro 510 | ResMed AirMini AutoSet |
+| --- | --- | --- |
+| US price (cpap.com) | $829 | $919 |
+| Pressure range | 4–20 cmH₂O | 4–20 cmH₂O |
+| Weight | 0.48 lb (223 g) | 0.3 kg |
+| Sound | 27 dBA | 27 dB |
+| Humidification | AirMist HME (waterless), included | Waterless only |
+| Masks | Universal mask compatibility | AirMini-specific mask kits / setup packs |
+| Battery | Optional PowerAway battery | Not compared |
+| Max altitude | 8,000 ft | Not compared |
+| Warranty | 3 years | Not compared |
+
+Prices are cpap.com's listed cash prices on 13 October 2026 ([Micro 510](https://www.cpap.com/products/transcend-micro-510-travel-cpap-machine), [AirMini](https://www.cpap.com/products/resmed-airmini-autoset-travel-cpap-machine)). ResMed's own shop also listed the AirMini at [$919](https://eshop.resmed.com/products/airmini-autoset). Micro 510 specs are from [Transcend's product page](https://www.mytranscend.com/products/transcend-micro-510-auto-cpap) and its [user manual](https://mytranscend.com/wp-content/uploads/2026/02/104347-Rev-B-Transcend-Micro-510-User-Manual.pdf). AirMini specs are as published by ResMed. HHZ didn't measure either.
+
+## Transcend Micro 510: best for most travelers
+
+Transcend's comparison table lists "Universal Mask Compatibility" for the 510, so you can take your usual mask. The 510 also includes a hard-shell travel case, the AirMist waterless humidification adapter, a muffler, and standard and hypoallergenic filters. It is compatible with the PowerAway battery ([Transcend](https://mytranscend.com/product/transcend-micro-510-auto-cpap/)). Its user manual gives a 5-year design life and says the device is for adults weighing over 66 lb (30 kg).
+
+**Trade-offs:** an 8,000 ft maximum altitude, which matters for high mountain towns, and no water humidifier.
+
+## ResMed AirMini: best if you're already on ResMed
+
+The AirMini covers the same 4–20 cmH₂O range. Its catch is masks: ResMed sells AirMini-specific mask kits and setup packs for the P10, N20, N30 and F20 ([ResMed shop](https://eshop.resmed.com/)). cpap.com notes the AirMini version of the P10 "is compatible with the AirMini AutoSet Travel CPAP Machine only" ([cpap.com](https://www.cpap.com/products/airfit-p10-complete-mask-airmini-mask-setup-pack)). If you already use one of those masks at home, a matching AirMini kit keeps the fit you know. ResMed listed the P10 kit at $165 and the F20 kit at $211 on 13 October 2026.
+
+## Flying with a CPAP
+
+- **Screening.** TSA allows CPAPs, BiPAPs and APAPs in carry-on and checked bags. In standard screening, the machine, mask and tubing may stay in the carrying case for X-ray, but you may have to take them out of your carry-on. In PreCheck they can stay in the carry-on. Devices with lithium batteries should be carried in carry-on ([TSA](https://www.tsa.gov/travel/security-screening/whatcanibring/items/nebulizers-cpaps-bipaps-and-apaps)).
+- **Carry-on limits.** Under [14 CFR 382.121](https://www.ecfr.gov/current/title-14/section-382.121), airlines must let passengers with a disability bring assistive devices into the cabin, and must not count them toward carry-on limits.
+- **In-flight use.** Transcend's manual says the 510 meets FAA requirements for in-flight use and asks you to put it in airplane mode (Bluetooth off). Compliance letters are on Transcend's website. Check in-flight use and power with your airline before you fly.
+- **Oxygen users.** If you also travel with oxygen, see [FAA rules for portable oxygen concentrators](/us/guides/faa-portable-oxygen-concentrator-rules/).
+
+## Paying for a travel unit
+
+Medicare and most insurers cover one machine. A travel CPAP is usually a cash purchase, and it's a common HSA/FSA purchase ([eligibility guide](/us/guides/hsa-fsa-cpap-oxygen-eligibility/)). Both machines need a prescription before they ship.
+
+## Verdict
+
+Buy the Transcend Micro 510 if you want the lighter, cheaper machine that works with the mask you already own. Buy the AirMini if you already use a ResMed P10, N20, N30 or F20 and want the matching kit. Either way, keep your full-size machine with its heated humidifier for home. Our [auto CPAP guide](/us/guides/cpap-buyers-guide/) and [DreamStation alternatives](/us/guides/philips-dreamstation-cpap-alternatives/) cover the home machine.
+
+## Power off the grid
+
+For batteries, DC converters and FAA battery limits, see [CPAP batteries and camping power](/us/guides/cpap-battery-camping-power/).
+
+Model reviews: [ResMed AirMini](/us/guides/resmed-airmini-review/), [Transcend Micro 510](/us/guides/transcend-micro-510-review/).
+
+See also: [Flying with a CPAP: TSA rules](/us/guides/flying-with-cpap-tsa/).
+
+---
+
+# BiPAP and ASV: Medicare coverage rules (2026)
+
+Source: https://homehealthzone.com/us/guides/bipap-asv-medicare-coverage/
+
+Bilevel (often called BiPAP) and adaptive servo-ventilation (ASV) are prescribed for specific conditions, and Medicare's rules depend on which condition you have. This guide summarizes the two CMS policies: [LCD L33718](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33718) for obstructive sleep apnea and [LCD L33800, Respiratory Assist Devices](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33800) for everything else. It isn't a substitute for your supplier's or practitioner's reading of the policy.
+
+## The codes
+
+| HCPCS | Device | Covered for OSA? |
+| --- | --- | --- |
+| E0601 | CPAP (including auto-CPAP) | Yes, when criteria are met |
+| E0470 | Bilevel **without** backup rate | Only after E0601 tried and proven ineffective (L33718) |
+| E0471 | Bilevel **with** backup rate | No (L33718) |
+
+## Obstructive sleep apnea: CPAP first
+
+Under [L33718](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33718), Medicare covers E0470 for OSA only after CPAP has been tried and proven ineffective. This matches the AASM's 2019 guidance, which suggests CPAP or APAP over bilevel for routine OSA ([AASM 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6374094/)). See [APAP vs CPAP vs BiPAP](/us/guides/apap-vs-cpap-vs-bipap/) and the [Medicare CPAP guide](/us/guides/medicare-cpap-coverage-compliance/).
+
+## Other conditions: LCD L33800
+
+L33800 (latest revision listed as effective 9 June 2025) covers E0470 and E0471 for restrictive thoracic disorders, central sleep apnea (CSA) or complex sleep apnea (CompSA), hypoventilation syndrome, and chronic respiratory failure consequent to COPD.
+
+| Condition | Key initial criteria (summary of L33800) | Device |
+| --- | --- | --- |
+| Restrictive thoracic disorders (neuromuscular disease such as ALS, or severe thoracic cage abnormality) | Documented diagnosis; **and** awake PaCO₂ ≥ 45 mm Hg, **or** sleep oximetry SpO₂ ≤ 88% for ≥ 5 minutes (2-hour minimum recording), **or** for neuromuscular disease only, maximal inspiratory pressure under 60 cmH₂O or FVC under 50% predicted; **and** COPD doesn't contribute significantly | E0470 or E0471 (practitioner's choice) |
+| Central or complex sleep apnea | Complete facility-based, attended PSG documenting CSA/CompSA **and** significant improvement on the home settings, on your prescribed oxygen | E0470 or E0471 (practitioner's choice) |
+| Hypoventilation syndrome | Awake PaCO₂ ≥ 45 mm Hg **and** FEV1/FVC ≥ 70%, **plus** either PaCO₂ worsening ≥ 7 mm Hg during or right after sleep, **or** SpO₂ ≤ 88% for ≥ 5 minutes not caused by obstructive events (AHI under 5) | E0470 first; E0471 only with further criteria while on E0470 |
+| Chronic respiratory failure from COPD | Separate criteria in L33800 | See the LCD |
+
+Source: [CMS LCD L33800](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33800), read 13 October 2026. If the criteria aren't met, the LCD says the device and accessories will be denied as not reasonable and necessary.
+
+## Months 1–3, then the 61-day re-evaluation
+
+For restrictive thoracic disorders, CSA/CompSA and hypoventilation, coverage starts with the **first three months**. To continue, L33800 requires:
+
+1. A re-evaluation by the treating practitioner **no sooner than 61 days** after starting therapy.
+2. Documentation of how symptoms are progressing and how you're using the device.
+3. Use averaging **4 hours per 24 hours** by the time of the re-evaluation. Less is treated as non-compliant use and is reason to deny continued coverage.
+4. A signed, dated practitioner statement, made no sooner than 61 days in, that you're using the device compliantly and benefiting.
+
+Medicare won't pay for month 4 onward until this is done.
+
+## ASV: who it is and isn't for
+
+ASV is prescribed for central sleep apnea patterns. The safety warnings matter:
+
+- ResMed's [AirCurve 10 ASV user guide](https://document.resmed.com/documents/products/machine/aircurve-series/user-guide/aircurve-10-asv_user-guide_amer_eng.pdf) says ASV therapy **is contraindicated** in patients with chronic, symptomatic heart failure (NYHA 2–4) with reduced left ventricular ejection fraction (LVEF ≤ 45%) and moderate to severe predominant central sleep apnea.
+- The AASM's updated recommendation says ASV targeted to normalize AHI **should not be used** for CHF-related central sleep apnea in adults with LVEF ≤ 45% and moderate or severe CSA-predominant sleep-disordered breathing, because of evidence of an increased risk of death. It **can be used** with LVEF above 45% or mild CHF-related CSA ([AASM ASV update](https://aasm.org/resources/practiceparameters/asv.pdf)).
+- The AASM's safety notice advises assessing every patient for heart failure before ASV, and measuring LVEF objectively if symptoms are present ([AASM safety notice](https://aasm.org/special-safety-notice-asv-therapy-for-central-sleep-apnea-patients-with-heart-failure/)).
+
+The AirCurve 10 ASV guide lists a maximum supplemental oxygen flow of 15 L/min in CPAP and ASV modes and 4 L/min in ASVAuto ([AirCurve 10 ASV user guide](https://document.resmed.com/documents/products/machine/aircurve-series/user-guide/aircurve-10-asv_user-guide_amer_eng.pdf)). See [CPAP with oxygen](/us/guides/cpap-with-oxygen/).
+
+## Checklist before you order
+
+| Step | Why |
+| --- | --- |
+| Confirm the diagnosis code and condition category | Decides which LCD applies |
+| Make sure the required test is done (PSG, ABG, oximetry, spirometry) | The criteria are test-based |
+| Ask whether E0470 or E0471 is being ordered and why | E0471 isn't covered for OSA |
+| Diary the 61-day re-evaluation | Coverage for month 4 onward depends on it |
+| Use the device at least 4 hours a night on average | Below that counts as non-compliant |
+| For ASV: get an LVEF assessment if you have heart failure symptoms | Contraindication and AASM guidance |
+
+## Verdict
+
+For obstructive sleep apnea, Medicare wants CPAP tried first, and bilevel with a backup rate isn't covered. For other conditions, the criteria are test-driven, with a 61-day check before month 4. ASV can help some central sleep apnea patients, but it must not be used in symptomatic heart failure with LVEF ≤ 45%. Make sure that's been checked.
+
+Related: [Medicare home oxygen coverage](/us/guides/medicare-oxygen-coverage/), [HSA/FSA eligibility](/us/guides/hsa-fsa-cpap-oxygen-eligibility/), [AirSense 11 vs AirSense 10](/us/guides/airsense-11-vs-airsense-10/).
+
+Device review: [ResMed AirCurve 11 VAuto](/us/guides/aircurve-11-vauto-review/).
+
+---
+
+# Buying a CPAP online or used: what to check
+
+Source: https://homehealthzone.com/us/guides/buying-cpap-online-or-used/
+
+Buying a CPAP yourself can save money and hassle, but where you buy affects your warranty, your safety and whether you're getting the right machine. Here's what to check, based on FDA rules and ResMed's own documentation.
+
+## Rule 1: it's a prescription device
+
+ResMed's AirSense 11 guide: "In the US, Federal law restricts this device to sale by or on the order of a physician" ([AirSense 11 guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf)). Under FDA's prescription-device rule, such devices are sold on a licensed practitioner's order ([21 CFR 801.109](https://www.ecfr.gov/current/title-21/chapter-I/subchapter-H/part-801/subpart-D/section-801.109)). Your prescription also sets your pressure. See [getting a CPAP prescription online](/us/guides/cpap-prescription-online/).
+
+## Rule 2: the warranty only follows the first buyer
+
+From ResMed's limited warranty ([AirSense 11 guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf)):
+
+| Item | Warranty |
+| --- | --- |
+| CPAP, bilevel and ventilation devices (incl. power supply) | 2 years |
+| Humidifiers and cleanable water tubs | 1 year |
+| Batteries for ResMed battery systems | 6 months |
+| Masks (frame, cushion, headgear, tubing), accessories and standard water tubs | 90 days |
+
+Conditions that matter when buying online or used:
+
+- "This warranty is only available to the initial consumer. It is not transferable."
+- "Warranty claims on defective product must be made by the initial consumer at the point of purchase."
+- "Warranty is void on product sold, or resold, outside the region of original purchase."
+- Repairs by unauthorized service organizations, and damage from smoke or from ozone or activated oxygen, aren't covered.
+
+In practice: buy a **U.S.-region** unit, from a seller you can go back to, that sells new devices. A grey-market import or a resale may have no warranty at all.
+
+## Buying on a marketplace (Amazon and others)
+
+| Check | Why |
+| --- | --- |
+| Seller asks for your prescription | Required for a prescription device |
+| Seller identity: the manufacturer or an authorized dealer | The point of purchase handles warranty claims |
+| U.S.-region model and power supply | Warranty void outside region of purchase |
+| New, sealed, with full accessories | Avoid unknown history |
+| Return policy in writing | You may need to exchange a mask that doesn't fit |
+| Price compared with known sellers | The ResMed AirSense 11 AutoSet we track: $1,004 |
+
+## Buying used
+
+| Risk | What to do |
+| --- | --- |
+| No warranty | ResMed's isn't transferable; price that in |
+| Unknown hygiene | ResMed says the HumidAir 11 standard tub is single-patient re-use and can't be reprocessed; multi-patient reprocessing must follow ResMed's instructions. Buy a new tub, mask, tubing and filters |
+| Recalls | Check the model and serial against recall notices, especially Philips devices ([Philips recall](/us/guides/philips-cpap-recall-consent-decree/), [alternatives](/us/guides/philips-dreamstation-cpap-alternatives/)) |
+| "Refurbished" claims | The FDA distinguishes servicing (restoring the maker's specs) from remanufacturing ([FDA](https://www.fda.gov/medical-devices/quality-and-compliance-medical-devices/remanufacturing-and-servicing-medical-devices)). Ask who did the work |
+| Wrong settings | Have the pressure set to your prescription ([AirSense 11 settings](/us/guides/airsense-11-settings/)) |
+| Smoke exposure | Ask whether the machine was used around smokers: smoke damage isn't covered by ResMed's warranty |
+
+Cleaning tips for any machine: [how to clean a CPAP](/us/guides/how-to-clean-cpap/).
+
+## Insurance and Medicare
+
+A private purchase doesn't go through Medicare's supplier process. Medicare covers CPAP through enrolled suppliers when you meet its criteria ([Medicare CPAP coverage](/us/guides/medicare-cpap-coverage-compliance/)). HSA/FSA funds can be used for prescribed equipment ([HSA/FSA guide](/us/guides/hsa-fsa-cpap-oxygen-eligibility/)). Cash price comparisons: [CPAP without insurance](/us/guides/cpap-without-insurance-cost/).
+
+## Verdict
+
+Buy new, U.S.-region, from an authorized seller that asks for your prescription. That's how you keep ResMed's 2-year device warranty. A used CPAP can work as a budget or backup machine, but treat it as warranty-free, check recall status, replace every part that touches your air, and have it set to your prescription.
+
+Related: [CPAP buyer's guide](/us/guides/cpap-buyers-guide/), [best travel CPAP machines](/us/guides/best-travel-cpap-machines/), [AirSense 11 vs AirSense 10](/us/guides/airsense-11-vs-airsense-10/).
+
+---
+
+# CPAP aerophagia (swallowing air): causes and fixes
+
+Source: https://homehealthzone.com/us/guides/cpap-aerophagia/
+
+Waking up bloated, burping or with stomach pain after a night on CPAP has a name: aerophagia, literally "air swallowing". The AASM describes it as air passing into the throat and stomach, producing "bloating, belching, and/or flatulence" ([AASM PAP troubleshooting FAQ](https://sleepeducation.org/wp-content/uploads/2023/01/PAP-FAQs.pdf)).
+
+## What the guidance says to try
+
+| Approach | Source | Who changes it |
+| --- | --- | --- |
+| Treat nasal congestion | AASM | You and your clinician |
+| Try a full face mask, which allows mouth breathing | AASM | You and your supplier |
+| Switch from a face mask to nasal pillows or a nasal mask | ATS | You and your supplier |
+| Change sleep position and/or number of pillows | ATS | You |
+| Use expiratory pressure relief | ATS | You (on many machines) |
+| Lower overall pressure, or expiratory pressure on BiPAP | AASM | Your clinician |
+| Ask whether auto-PAP or bilevel suits you better | ATS | Your clinician |
+| Over-the-counter or prescribed gas/bloating remedies | AASM | You and your clinician |
+
+Sources: [AASM PAP troubleshooting FAQ](https://sleepeducation.org/wp-content/uploads/2023/01/PAP-FAQs.pdf), [American Thoracic Society tip sheet](https://site.thoracic.org/advocacy-patients/patient-resources/pap-therapy-quick-tips-for-troubleshooting-to-address-problems-with-use).
+
+The two societies point in opposite directions on mask type: the AASM suggests a full face mask, the ATS suggests nasal pillows or a nasal mask. Which helps depends on how the air is getting in, so try one change at a time and note the result.
+
+## Comfort settings you can usually change yourself
+
+On the ResMed AirSense 11, two comfort settings are in **My Options** ([ResMed AirSense 11 user guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf)):
+
+- **Expiratory Pressure Relief (EPR).** "When EPR is enabled, you may find it easier to breathe out." Your care provider must have enabled it on the machine.
+- **Ramp.** Starts at a lower pressure and rises to your prescribed pressure over Off, 5–45 minutes, or Auto. That helps you fall asleep, but it doesn't change the pressure later in the night.
+
+## Changes your clinician must make
+
+Your treatment pressure is prescribed. If aerophagia continues after the self-help steps, ask your clinician to review your therapy data. Depending on your case, they may lower or narrow the pressure range, switch you to auto-PAP, or consider bilevel. Under Medicare, a bilevel device without backup rate is covered for OSA only after CPAP has been tried and proven ineffective ([LCD L33718](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=33718)). Our [Medicare CPAP guide](/us/guides/medicare-cpap-coverage-compliance/) explains the rules.
+
+## Self-check before your appointment
+
+1. **When does it happen?** Every night, or only at higher pressures or in certain positions?
+2. **What mask?** Bring the mask, or its name, to the appointment.
+3. **Is your nose blocked?** If so, see [nasal congestion](/us/guides/cpap-nasal-congestion/).
+4. **Bring your data.** Usage, leak and pressure from the machine or its app.
+
+## When to call your doctor promptly
+
+Stomach pain that is severe, gets worse, or comes with vomiting isn't something to troubleshoot alone. Contact your healthcare provider.
+
+## Verdict
+
+Start with what you control: sleep position and pillows, expiratory pressure relief if it's enabled, and any nasal congestion. Then try a different mask style. If bloating continues, take your therapy data to your clinician and ask about pressure, auto-PAP or bilevel. Don't stop using CPAP while you work it out unless your clinician agrees.
+
+---
+
+# Best auto CPAP machine in the US: buyer's guide (2026)
+
+Source: https://homehealthzone.com/us/guides/cpap-buyers-guide/
+
+In the US, a CPAP purchase starts with a sleep study and a prescription. US retailers will not ship a CPAP without one. [cpap.com's AirSense 11 listing](https://www.cpap.com/products/resmed-airsense-11-autoset) states that it "requires a prescription before shipment". Once you have it, the decision is mostly about how you pay: through a Medicare or insurance supplier, or in cash.
+
+## Medicare: a 12-week trial, then a 13-month rental
+
+[Medicare Part B may cover CPAP therapy](https://www.medicare.gov/coverage/continuous-positive-airway-pressure-devices) after an obstructive sleep apnea diagnosis:
+
+- Coverage starts with a 12-week trial of the device and accessories.
+- To keep coverage, you meet your provider in person and they document that you meet the conditions and the therapy is helping. CMS guidance for suppliers ties this to [documented adherence and symptom improvement](https://www.cms.gov/training-education/medicare-learning-networkr-mln/compliance/medicare-provider-compliance-tips/cpap-devices-accessories).
+- Medicare pays the supplier to rent the machine for 13 continuous months. After that, you own it.
+- You pay 20% of the Medicare-approved amount after the Part B deductible, if the supplier accepts assignment.
+
+Use the machine every night from day one. Your adherence data, which the machine records, is what keeps coverage going after the trial.
+
+## The shortlist
+
+| Model | US price (retailer) | Type | Pressure range | Weight | Sound | Humidifier |
+| --- | --- | --- | --- | --- | --- | --- |
+| ResMed AirSense 11 AutoSet | $1,004 ([cpap.com](https://www.cpap.com/products/resmed-airsense-11-autoset)) | Auto CPAP | 4–20 cmH₂O | 1.1 kg | 27 dB | Heated, built-in |
+| ResMed AirMini AutoSet | $919 ([cpap.com](https://www.cpap.com/products/resmed-airmini-autoset-travel-cpap-machine)) | Travel auto CPAP | 4–20 cmH₂O | 0.3 kg | 27 dB | Waterless only |
+
+Prices are the listed cash price on 13 October 2026, before tax. ResMed's own shop listed the AirSense 11 with HumidAir at $1,054 on the same day. Specs are as published by the manufacturer.
+
+### ResMed AirSense 11 AutoSet
+
+The AirSense 11 is the primary home machine. It runs CPAP, AutoSet and AutoSet for Her modes across 4–20 cmH₂O, with a built-in heated humidifier, climate control, and support for a heated tube, per published spec. The US retail SKU is the AirSense 11 AutoSet with HumidAir.
+
+### ResMed AirMini AutoSet
+
+The AirMini weighs 0.3 kg, which makes it the travel unit. It covers the same 4–20 cmH₂O range but has no water humidifier, only waterless humidification. Buy it as a second machine for flights and trips, not as your only CPAP.
+
+## Philips in the US
+
+After the June 2021 foam recall, a [2024 federal consent decree](https://www.fda.gov/news-events/press-announcements/federal-court-enters-consent-decree-against-philips-respironics-following-recall-certain-sleep) restricts Philips Respironics, with limited exceptions, from making and selling new CPAP and BiPAP machines from several US facilities until it meets FDA requirements. Owners of recalled devices should follow the remediation steps on the FDA page.
+
+## Verdict
+
+Buy the ResMed AirSense 11 AutoSet as the home machine, through your Medicare or insurance supplier if you are covered, or for cash at around $1,000 if you are not. Add the AirMini only if you travel often enough to justify a second device. Bring the prescription and sleep study to whichever channel you use, and settle the pressure settings with your sleep physician.
+
+## If you have problems in the first weeks
+
+See our troubleshooting guides: [dry mouth](/us/guides/cpap-dry-mouth/), [mask leaks](/us/guides/cpap-mask-leak/), [stuffy nose](/us/guides/cpap-nasal-congestion/), [rainout](/us/guides/cpap-rainout/), [swallowing air](/us/guides/cpap-aerophagia/), [high AHI](/us/guides/high-ahi-on-cpap/) and [cleaning](/us/guides/how-to-clean-cpap/).
+
+## Machines and settings
+
+Compare the two ResMed home machines in [AirSense 11 vs AirSense 10](/us/guides/airsense-11-vs-airsense-10/), learn the menus in [AirSense 11 settings explained](/us/guides/airsense-11-settings/), and see [APAP vs CPAP vs BiPAP](/us/guides/apap-vs-cpap-vs-bipap/) for which mode fits. Track your nights with [myAir or OSCAR](/us/guides/myair-vs-oscar-cpap-data/).
+
+## Before you buy
+
+See [getting a CPAP prescription online](/us/guides/cpap-prescription-online/), [buying a CPAP online or used](/us/guides/buying-cpap-online-or-used/) and [alternatives to CPAP](/us/guides/sleep-apnea-alternatives-to-cpap/).
+
+Model reviews: [React Health G3 X](/us/guides/react-health-g3-x-review/), [ResMed AirMini](/us/guides/resmed-airmini-review/), [Transcend Micro 510](/us/guides/transcend-micro-510-review/).
+
+Also reviewed: [ResMed AirSense 11](/us/guides/airsense-11-review/), [AirCurve 11 VAuto](/us/guides/aircurve-11-vauto-review/).
+
+---
+
+# CPAP with oxygen (bleed-in): safety rules (2026)
+
+Source: https://homehealthzone.com/us/guides/cpap-with-oxygen/
+
+Some people need extra oxygen at night as well as CPAP. Oxygen from a concentrator or tank is added to the CPAP airflow ("bleed-in"). Here's what the manufacturer rules say. Your clinician decides whether you need it and at what flow.
+
+## Maximum oxygen flow by machine
+
+| Machine | Max supplemental oxygen flow | Source |
+| --- | --- | --- |
+| ResMed AirSense 11 | 15 L/min | [AirSense 11 user guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf) |
+| ResMed AirSense 10 | 4 L/min | [AirSense 10 user guide](https://document.resmed.com/en-us/documents/products/machine/airsense-series/user-guide/airsense-10-device-with-humidifier_user-guide_amer_eng.pdf) |
+| ResMed AirCurve 10 ASV | 15 L/min (CPAP, ASV modes); 4 L/min (ASVAuto) | [AirCurve 10 ASV user guide](https://document.resmed.com/documents/products/machine/aircurve-series/user-guide/aircurve-10-asv_user-guide_amer_eng.pdf) |
+
+If your oxygen prescription is above your machine's limit, tell your clinician or supplier. It's one of the real differences between the [AirSense 11 and AirSense 10](/us/guides/airsense-11-vs-airsense-10/).
+
+## The on/off order (fire safety)
+
+ResMed's AirSense 11 guide says:
+
+| Step | Do this |
+| --- | --- |
+| Starting therapy | Make sure the CPAP is **on and blowing air** before you turn on the oxygen |
+| Stopping therapy | Turn the **oxygen off first**, then the CPAP |
+| Why | So oxygen doesn't accumulate inside the device and create a risk of fire |
+| Always | No supplemental oxygen while smoking or near an open flame |
+
+The AirSense 10 guide gives the same instruction ([AirSense 10 user guide](https://document.resmed.com/en-us/documents/products/machine/airsense-series/user-guide/airsense-10-device-with-humidifier_user-guide_amer_eng.pdf)).
+
+A practical habit: if you get up in the night, turn the oxygen off before you stop the CPAP, and turn it back on only once the CPAP is running again. SmartStop ends therapy a few seconds after you take the mask off, so with oxygen bleed-in, follow your clinician's advice on whether to keep SmartStop on.
+
+## Your data may be off
+
+ResMed notes that some AirSense 11 measurements "may be inaccurate in the presence of leaks or supplemental oxygen". The AirSense 10 guide says accuracy may be reduced by supplemental oxygen. Bear that in mind when reading your [AHI](/us/guides/high-ahi-on-cpap/) or leak figures in myAir or OSCAR ([myAir and OSCAR explained](/us/guides/myair-vs-oscar-cpap-data/)).
+
+## Bilevel and ASV
+
+For Medicare, the bilevel criteria in LCD L33800 are measured while breathing your prescribed oxygen (FIO₂). For example, central sleep apnea coverage requires improvement on the home settings while on that oxygen ([LCD L33800](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33800)). See [BiPAP and ASV: Medicare rules](/us/guides/bipap-asv-medicare-coverage/).
+
+## Getting the oxygen
+
+Home oxygen comes from a stationary concentrator, cylinders, or a portable concentrator. For nighttime bleed-in, the setup and flow are your clinician's and supplier's call. Medicare's oxygen benefit has its own qualifying tests and a rental structure: see [Medicare home oxygen coverage](/us/guides/medicare-oxygen-coverage/). For choosing equipment, see the [oxygen concentrator buyer's guide](/us/guides/oxygen-concentrator-buyers-guide/) and [5 LPM vs 10 LPM](/us/guides/5-lpm-vs-10-lpm/).
+
+## Checklist
+
+| Check | Done? |
+| --- | --- |
+| Oxygen flow is prescribed and within your CPAP's maximum | |
+| You know the order: CPAP on first, oxygen off first | |
+| No smoking, candles or open flames in the room | |
+| Supplier has set up the connection to your CPAP | |
+| Clinician knows your CPAP data may be less accurate | |
+
+## Verdict
+
+CPAP with oxygen is common and workable. Stay within your machine's limit (15 L/min on the AirSense 11, 4 L/min on the AirSense 10). Always start the CPAP before the oxygen and stop the oxygen before the CPAP. Keep flames away, and don't treat the machine's AHI as exact while on oxygen.
+
+Related: [APAP vs CPAP vs BiPAP](/us/guides/apap-vs-cpap-vs-bipap/), [AirSense 11 settings explained](/us/guides/airsense-11-settings/).
+
+---
+
+# Flying with a CPAP: TSA and carry-on rules (2026)
+
+Source: https://homehealthzone.com/us/guides/flying-with-cpap-tsa/
+
+> **Sources:** TSA [CPAP FAQ](https://www.tsa.gov/travel/frequently-asked-questions/am-i-allowed-carry-my-cpap-machine-onboard-plane-do-i-have-remove) and [CPAP/BiPAP/APAP item page](https://www.tsa.gov/travel/security-screening/whatcanibring/items/nebulizers-cpaps-bipaps-and-apaps); ResMed [AirSense 11 user guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf). Checked 13 October 2026. Airline policies vary; check yours.
+
+## TSA screening: what each page says
+
+| Question | TSA FAQ | TSA item page (updated 15 Jul 2026) |
+| --- | --- | --- |
+| Allowed in carry-on? | Yes | Yes |
+| Remove from its case? | Yes, for X-ray | May stay in case; may need to come out of the carry-on |
+| With TSA PreCheck | Not stated | Can stay in its case and in the carry-on |
+| Lithium-battery devices | Not stated | Should be carried on |
+
+The two pages disagree on the case. Pack so the device comes out easily, and follow the officer's instructions.
+
+## On the plane (AirSense 11 example)
+
+| Item | What ResMed says |
+| --- | --- |
+| Carry-on allowance | Medical devices don't count toward the carry-on limit |
+| In-flight use | Meets FAA requirements; air travel compliance letters at resmed.com |
+| Humidifier | Must be empty, but the tub or side cover must be inserted or the device won't run |
+| Airplane mode | Switch on when airline staff require it |
+| Aircraft power | Power supply rated 115 V, 400 Hz, 1.5 A for aircraft use |
+
+Other models have their own documents; check yours before you fly.
+
+## Packing checklist
+
+- Device, mask, tubing and power supply in the travel bag (ResMed advises using it to prevent damage)
+- Humidifier tub emptied and packed separately
+- The right power cord for your destination
+- The airline's compliance letter, printed
+- Batteries in your carry-on ([CPAP battery options](/us/guides/cpap-battery-camping-power/))
+
+## Verdict
+
+Carry your CPAP on, empty the humidifier, and be ready to take it out of the case at screening. For lighter options see [best travel CPAP machines](/us/guides/best-travel-cpap-machines/); if you use oxygen, read [FAA portable oxygen concentrator rules](/us/guides/faa-portable-oxygen-concentrator-rules/).
+
+Related: [Salt Lake City altitude guide](/us/guides/salt-lake-city-altitude-cpap-oxygen/), [Phoenix heat guide](/us/guides/phoenix-heat-cpap-oxygen/).
+
+---
+
+# Home oxygen fire safety checklist (2026)
+
+Source: https://homehealthzone.com/us/guides/home-oxygen-fire-safety/
+
+Medical oxygen isn't flammable itself, but it changes how fires behave. The NFPA puts it simply: "Fire needs oxygen to burn. If a fire should start in an oxygen-enriched area, the material burning will burn more quickly" ([NFPA](https://www.nfpa.org/downloadable-resources/safety-tip-sheets/medical-oxygen-safety-tip-sheet)). The VA adds that oxygen "acts as an accelerant, which causes nearby material to ignite more easily and burn more intensely", and that concentrators, cylinders and liquid oxygen all carry this risk ([VA Patient Safety Alert AL18-01](https://www.patientsafety.va.gov/docs/alerts/INTERNET_AL18-01.pdf)).
+
+## How common are home oxygen fires?
+
+Between October 2006 and October 2016 the VA's National Center for Patient Safety received 746 reports of burns or fires involving home oxygen. It has had over 70 reports a year since 2010. Smoking is the leading ignition source. The other reported sources are listed below in the VA's order, from most to least reported ([VA](https://www.patientsafety.va.gov/docs/alerts/INTERNET_AL18-01.pdf)):
+
+| Rank | Reported ignition source |
+| --- | --- |
+| 1 | Smoking |
+| 2 | Open flames (candles, gas stoves, incense) |
+| 3 | Power tools |
+| 4 | Power strips |
+| 5 | Static electricity |
+| 6 | Portable electronic devices |
+| 7 | Grills/barbecues |
+| 8 | Welding |
+| 9 | Electric heaters |
+| 10 | CPAP devices |
+| 11 | Pilot lights |
+| 12 | Firearms |
+
+## Smoking: no safe way
+
+Massachusetts' fire services: "There is no safe way to smoke around home oxygen. Turning off the oxygen is not enough because your clothes, hair, bedding and the tubing are oxygen-enriched." Until someone can quit, they advise: disconnect the oxygen, wait ten minutes, and go outside. They add that this "is not a safe way to smoke" but lowers the danger ([Mass.gov](https://www.mass.gov/info-details/home-oxygen-safety)). Inogen's Rove 6 manual likewise says smoking during oxygen therapy "is likely to result in facial burns or death" ([Rove 6 manual](https://www.inogen.com/rove6-user-manuals/pdf/96-13595-00-01%20A%20Inogen%20Rove%206%20US%20User%20Manual_EN_ES_February%202026.pdf)). MedlinePlus says no one should smoke in a room where oxygen is used, and suggests a NO SMOKING sign in every such room ([MedlinePlus](https://medlineplus.gov/ency/patientinstructions/000049.htm)).
+
+## Distance from heat and flame
+
+| Source | Distance | Applies to |
+| --- | --- | --- |
+| [MedlinePlus](https://medlineplus.gov/ency/patientinstructions/000049.htm) | 6 feet (about 2 m) | Electric-motor toys, baseboard or space heaters, wood stoves, fireplaces, candles, electric blankets, hairdryers, electric razors, electric toothbrushes; also stoves and tabletop candles in restaurants |
+| [Mass.gov](https://www.mass.gov/info-details/home-oxygen-safety) | 10 feet | Oxygen and tubing from candles, matches, lighters, heaters, wood stoves, electric razors, hair dryers, cooking stoves and smoking materials |
+| [Inogen Rove 6 manual](https://www.inogen.com/rove6-user-manuals/pdf/96-13595-00-01%20A%20Inogen%20Rove%206%20US%20User%20Manual_EN_ES_February%202026.pdf) | 2 m (6.56 ft) | Smoking or open flames near the device while in use |
+
+Check your own device manual. When sources differ, the larger distance gives the bigger margin.
+
+## Home checklist
+
+| Area | What to do | Source |
+| --- | --- | --- |
+| Alarms | Working smoke alarms; test monthly | MedlinePlus, Mass.gov |
+| Extinguisher | Keep a working one; more than one if you move around the house with oxygen | MedlinePlus |
+| Escape plan | 2 ways out of every room plus an outdoor meeting place; practice twice a year | Mass.gov |
+| Kitchen | Keep oxygen away from the stovetop and oven; watch for grease splatter; a microwave is usually OK | MedlinePlus |
+| Storage | Not in a trunk, box or small closet; under the bed is OK if air moves freely | MedlinePlus |
+| Flammable liquids | Keep oil-, grease- or alcohol-based cleaners away from oxygen | MedlinePlus |
+| Skin and lips | No petroleum-based creams or oil-based lip balms unless your provider approves; aloe vera and water-based products are safe | MedlinePlus, Mass.gov |
+| Device | Don't oil or grease fittings; avoid aerosol sprays near the device; use only the maker's power supplies | Rove 6 manual |
+| Tubing | Avoid trip hazards; tape tubing to the back of your shirt; teach children not to get tangled | MedlinePlus |
+
+## Thermal fuses (firebreaks)
+
+A thermal fuse sits in line with the tubing. It "melts when heated and blocks the flow of oxygen" in a fire, removing a major accelerant. The VA requires them in its home oxygen contracts. But the VA stresses the limits: a fuse "will not prevent burns to the face, neck, and airways if the ignition occurs at or near the nasal cannula", doesn't start or stop a fire, and "does not make it safe to smoke while using oxygen" ([VA](https://www.patientsafety.va.gov/docs/alerts/INTERNET_AL18-01.pdf)). Ask your supplier whether your tubing has one.
+
+## With CPAP and other equipment
+
+CPAP devices appear on the VA's list of reported ignition sources. If you bleed oxygen into a CPAP, follow your clinician's setup and the CPAP manual's oxygen warnings. See [CPAP with oxygen](/us/guides/cpap-with-oxygen/).
+
+## Verdict
+
+The rules come down to five habits: no smoking, distance from heat and flame (at least 6 feet, 10 for more margin), no petroleum products, ventilated storage, and working smoke alarms with an escape plan. Add a thermal fuse, but don't treat it as permission to smoke. The ATS guideline recommends patient and caregiver education on safety ([ATS](https://pmc.ncbi.nlm.nih.gov/articles/PMC7667898/)), so ask for a home safety check.
+
+Related: [oxygen cylinders vs concentrators](/us/guides/oxygen-cylinders-vs-concentrators/), [oxygen concentrator electricity cost](/us/guides/oxygen-concentrator-electricity-cost/), [Medicare home oxygen coverage](/us/guides/medicare-oxygen-coverage/).
+
+---
+
+# Home sleep test vs in-lab sleep study (2026)
+
+Source: https://homehealthzone.com/us/guides/home-sleep-test-vs-in-lab/
+
+You can't get CPAP covered, or prescribed responsibly, without a sleep test. The choice is a home sleep apnea test (HSAT) or an attended polysomnogram (PSG) in a sleep lab. Here's what the American Academy of Sleep Medicine (AASM) and Medicare say.
+
+## The AASM 2017 diagnostic guideline
+
+| # | Recommendation | Strength |
+| --- | --- | --- |
+| 1 | Don't use questionnaires, clinical tools or prediction algorithms to diagnose OSA without PSG or HSAT | Strong |
+| 2 | Use PSG, or HSAT with a technically adequate device, for uncomplicated adults with signs and symptoms of increased risk of moderate to severe OSA | Strong |
+| 3 | If a single HSAT is negative, inconclusive or technically inadequate, do PSG | Strong |
+| 4 | Use PSG rather than HSAT with significant cardiorespiratory disease, potential respiratory muscle weakness from neuromuscular conditions, awake hypoventilation or suspected sleep-related hypoventilation, chronic opioid use, history of stroke, or severe insomnia | Strong |
+| 5 | If clinically appropriate, a split-night PSG (diagnosis and CPAP titration in one night) rather than full-night diagnostic PSG | Weak |
+| 6 | If the first PSG is negative and suspicion remains, consider a second PSG | Weak |
+
+Source: [Kapur et al., AASM clinical practice guideline, 2017](https://pmc.ncbi.nlm.nih.gov/articles/PMC5337595/).
+
+## Home vs lab at a glance
+
+| | Home sleep apnea test | In-lab polysomnography |
+| --- | --- | --- |
+| Where | Your own bed | Sleep lab, attended by a technologist |
+| Best for | Uncomplicated adults with likely moderate to severe OSA (AASM) | Complex cases (list above), negative/inconclusive HSAT, other suspected sleep disorders |
+| Can titrate CPAP the same night | No | Yes, with a split-night protocol |
+| Detects non-respiratory sleep disorders | No | Yes |
+| Accepted by Medicare for CPAP | Yes: Type II, III or IV with at least 3 channels | Yes (Type I) |
+
+Medicare details from [NCD 240.4](https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=226) and the [PAP LCD L33718](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33718).
+
+## What Medicare requires around the test
+
+Under the DME MAC PAP policy ([L33718](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33718)):
+
+| Requirement | Detail |
+| --- | --- |
+| Before the test | An in-person clinical evaluation by your treating practitioner to assess for OSA |
+| Test | A Medicare-valid sleep test (Type I, II, III, IV or Other), FDA-approved as a diagnostic device |
+| Qualifying result | AHI or RDI of 15 or more per hour (minimum 30 events), or 5–14 per hour (minimum 10 events) with documented sleepiness, impaired cognition, mood disorders or insomnia, or hypertension, ischemic heart disease or history of stroke |
+| After starting CPAP | 12-week trial: use at least 4 hours a night on 70% of nights in a consecutive 30-day period during the first 3 months, plus a re-evaluation showing benefit |
+| If you fail the trial | In-person re-evaluation and a repeat sleep test in a facility (Type I) to requalify |
+
+More in [Medicare CPAP coverage and the 90-day rule](/us/guides/medicare-cpap-coverage-compliance/).
+
+## Which should you ask for?
+
+- **Healthy apart from snoring, sleepiness and witnessed apneas?** A home test is reasonable under AASM guidance and usually more convenient.
+- **Heart failure, COPD, neuromuscular disease, opioids, stroke or severe insomnia?** Ask for an in-lab study (AASM recommendation 4). Central apnea and hypoventilation can need different treatment; see [APAP vs CPAP vs BiPAP](/us/guides/apap-vs-cpap-vs-bipap/) and [ASV coverage](/us/guides/bipap-asv-medicare-coverage/).
+- **Home test negative but still symptomatic?** Ask for PSG (recommendation 3).
+
+## Verdict
+
+A home sleep test is a valid first test for most uncomplicated adults, and Medicare accepts it for CPAP. In-lab PSG is the right call for complex medical histories and whenever a home test comes back negative or inconclusive. Either way, see your practitioner in person first if you're on Medicare, and don't rely on a questionnaire alone.
+
+Related: [getting a CPAP prescription online](/us/guides/cpap-prescription-online/), [sleep apnea treatment alternatives to CPAP](/us/guides/sleep-apnea-alternatives-to-cpap/), [CPAP buyer's guide](/us/guides/cpap-buyers-guide/).
+
+---
+
+# Medicare CPAP coverage and the 90-day rule (2026)
+
+Source: https://homehealthzone.com/us/guides/medicare-cpap-coverage-compliance/
+
+Medicare coverage for CPAP comes with a probation period. The first 12 weeks are a trial. Whether Medicare keeps paying depends on two things: data your machine records, and an in-person visit inside a fixed window. This guide sets out the rules from [medicare.gov](https://www.medicare.gov/coverage/continuous-positive-airway-pressure-devices) and the DME contractors' Local Coverage Determination, [LCD L33718, Positive Airway Pressure (PAP) Devices for the Treatment of Obstructive Sleep Apnea](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=33718).
+
+## Step 1: qualifying for the trial
+
+Under [L33718](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=33718), a CPAP device (E0601) is covered for obstructive sleep apnea when all three of these are met:
+
+1. **In-person evaluation first.** Your treating practitioner sees you in person, *before* the sleep test, to assess you for OSA.
+2. **A qualifying sleep test.** One of:
+   - AHI or RDI **≥ 15** events per hour with at least 30 events; or
+   - AHI or RDI **5–14** with at least 10 events, plus documented excessive daytime sleepiness, impaired cognition, mood disorders or insomnia, *or* hypertension, ischemic heart disease or a history of stroke.
+3. **Instruction.** The supplier has shown you or your caregiver how to use and care for the equipment.
+
+CMS's supplier guidance lists the sleep tests that count: an attended in-lab polysomnogram, or an unattended home sleep test on a Type II, Type III, or Type IV device measuring at least 3 channels ([CMS MLN](https://www.cms.gov/training-education/medicare-learning-networkr-mln/compliance/medicare-provider-compliance-tips/cpap-devices-accessories)).
+
+## Step 2: the 12-week trial and the adherence rule
+
+[Medicare.gov](https://www.medicare.gov/coverage/continuous-positive-airway-pressure-devices) says Medicare may cover a 12-week trial of CPAP, including devices and accessories. It continues coverage afterwards only if you meet your provider in person and they document that you meet certain conditions and the therapy is helping.
+
+The LCD spells out those conditions. **No sooner than day 31 and no later than day 91** after starting therapy, your treating practitioner must re-evaluate you and document that you are benefiting. That requires both of these ([L33718](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=33718)):
+
+1. **An in-person clinical re-evaluation** documenting that your OSA symptoms improved; and
+2. **Objective evidence of adherence**, reviewed by the practitioner. The LCD defines adherence as:
+
+> use of PAP ≥4 hours per night on 70% of nights during a consecutive thirty (30) day period anytime during the first three (3) months of initial usage.
+
+In practice, that is at least 21 nights at 4 hours or more within any 30-day stretch. If the re-evaluation happens after day 91 but shows both criteria are met, coverage resumes from the date of that visit. If the criteria aren't met, continued coverage of the device and accessories is denied.
+
+### How to pass
+
+- **Use it every night from night one.** The 30-day window can be any consecutive 30 days in the first three months, so a bad first week isn't fatal. Waiting is the risk.
+- **Count hours, not nights.** A night under 4 hours doesn't count toward the 70%.
+- **Fix mask problems early.** Leaks and discomfort are the usual reason people stop. Ask your supplier for a refit in the first two weeks.
+- **Book the follow-up for day 31 or later.** A visit before day 31 doesn't satisfy the window.
+
+## If you fail the trial
+
+Under [L33718](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=33718), you can re-qualify, but you need both an in-person re-evaluation to find the cause of the failure *and* a repeat sleep test in a facility (Type 1 study). That repeat can be a diagnostic, titration or split-night study.
+
+## When Medicare covers BiPAP instead
+
+A bi-level device without backup rate (E0470) is covered for OSA only if you meet the CPAP criteria above **and** a CPAP (E0601) "has been tried and proven ineffective". That trial can be in a facility titration or at home, despite proper mask fitting and pressure settings. A bi-level device *with* a backup rate (E0471) is not covered when the primary diagnosis is OSA ([L33718](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=33718)).
+
+## What you pay and when you own it
+
+Per [medicare.gov](https://www.medicare.gov/coverage/continuous-positive-airway-pressure-devices):
+
+- You pay **20%** of the Medicare-approved amount after the Part B deductible, if the supplier accepts assignment. This covers the machine rental and related supplies such as masks and tubing.
+- Medicare pays the supplier to rent the machine for **13 continuous months**. After that, **you own the machine**.
+- If a supplier doesn't participate in Medicare or won't accept assignment, you may be charged more, and may have to pay upfront and be reimbursed later.
+
+## Already had CPAP before joining Medicare
+
+Medicare.gov says Medicare may cover a rental or replacement machine or accessories if you had CPAP before Medicare and meet certain requirements. CMS's supplier guidance says you need documentation of a sleep test from before enrollment that meets current criteria, plus an in-person evaluation after enrolling that documents your OSA diagnosis and that you still use the device ([CMS MLN](https://www.cms.gov/training-education/medicare-learning-networkr-mln/compliance/medicare-provider-compliance-tips/cpap-devices-accessories)).
+
+## Replacing a machine
+
+CMS's supplier guidance states that a PAP device lost, stolen or irreparably damaged in a specific incident during its 5-year reasonable useful lifetime can be replaced without a new evaluation, sleep test or trial. After 5 years, replacement needs an in-person evaluation documenting continued use and benefit, but no new sleep test or trial ([CMS MLN](https://www.cms.gov/training-education/medicare-learning-networkr-mln/compliance/medicare-provider-compliance-tips/cpap-devices-accessories)).
+
+## Verdict
+
+Treat the first 90 days as the part that decides your coverage. Get the in-person evaluation before the sleep test, and use the machine at least 4 hours a night from the first night. Book the follow-up visit between day 31 and day 91, and bring the usage data. Get those right and Medicare covers 80% of the approved rental, and the machine is yours after 13 months. HHZ's [US CPAP guide](/us/guides/cpap-buyers-guide/) covers which machines to ask your supplier about.
+
+## Comfort problems that threaten adherence
+
+If something is stopping you reaching 4 hours a night, fix it early: [dry mouth](/us/guides/cpap-dry-mouth/), [mask leaks](/us/guides/cpap-mask-leak/), [stuffy nose](/us/guides/cpap-nasal-congestion/), [swallowing air](/us/guides/cpap-aerophagia/), [rainout](/us/guides/cpap-rainout/). If your machine reports a high AHI, see [high AHI on CPAP](/us/guides/high-ahi-on-cpap/).
+
+## Bilevel and ASV
+
+If CPAP doesn't work for you, Medicare's bilevel and ASV rules are in [BiPAP and ASV: Medicare rules](/us/guides/bipap-asv-medicare-coverage/). For tracking your usage hours, see [myAir vs OSCAR](/us/guides/myair-vs-oscar-cpap-data/).
+
+## Related diagnosis and coverage guides
+
+See [home sleep test vs in-lab](/us/guides/home-sleep-test-vs-in-lab/), [Medicare Advantage vs Original Medicare for DME](/us/guides/medicare-advantage-vs-original-dme/), [Medicaid DME coverage](/us/guides/medicaid-dme-coverage/) and [VA CPAP benefits](/us/guides/va-cpap-sleep-apnea-benefits/).
+
+See also: [Medigap and DME costs](/us/guides/medigap-cpap-oxygen-costs/) and [DME assignment explained](/us/guides/medicare-dme-assignment-explained/).
+
+See also: [How to appeal a Medicare DME denial](/us/guides/medicare-dme-appeal/).
+
+---
+
+# Oxlife Independence review: 3 LPM portable oxygen
+
+Source: https://homehealthzone.com/us/guides/oxlife-independence-review/
+
+> **How we reviewed this:** HHZ didn't test this concentrator hands-on. This review is written from the manufacturer's user manual, spec sheet and product page, linked below, plus a U.S. retail price checked on 13 October 2026. We don't report comfort, noise or reliability impressions we haven't measured. Your prescriber decides whether a pulse-dose or continuous-flow device meets your needs.
+
+## Key specs
+
+| Spec | Oxlife Independence | Source |
+| --- | --- | --- |
+| Price (U.S.) | $3,195 | [The CPAP Shop](https://www.thecpapshop.com/o2-concepts-oxlife-independence-portable-oxygen-concentrator) |
+| Continuous flow | 0.5–3.0 LPM in 0.5 steps (±10%) | [Manual 800-1097 Rev C](https://www.o2-concepts.com/s/800-1097-Rev-C-Oxlife-Independence-User-Manual.pdf) |
+| Pulse dose | 0.5–6.0 in 0.5 steps (8–96 mL per breath, ±15%) | Manual |
+| Oxygen purity | 91% ±4% (87–95%), 0.5–3.0 LPM | Manual |
+| Device weight | 16.7 lb (cart kit adds 2.17 lb; battery 1.4 lb each) | Manual |
+| Size with handle and wheels | 20.29 x 10.85 x 9.45 in | Manual |
+| Sound | About 38.6 dBA at pulse 2; about 46.6 dBA at max | Manual |
+| Max cannula length | 7 ft in pulse mode; 50 ft in continuous mode | Manual |
+| Operating altitude | 0–13,123 ft, no purity variation stated | Manual |
+| Operating temperature | 50–104°F | Manual |
+| Duty | 24 h a day on AC or DC power | Manual |
+| FAA | Approved; turn off the cellular connection (Airplane Mode) before flying | Manual |
+| Connectivity | DNA Technology cellular link on some units | Manual |
+| Service life | Device 5 years; accessories 1 year | Manual |
+| Warranty | 5 years new; 2 years refurbished; batteries 1 year | [Warranty statement](https://www.o2-concepts.com/s/Independence-Warranty-Statement-800-1040-Rev-D-Final-31424.pdf) |
+
+## Battery life (manual, 20 breaths per minute)
+
+| Setting | Continuous, 1 battery | Continuous, 2 batteries | Pulse, 1 battery | Pulse, 2 batteries |
+| --- | --- | --- | --- | --- |
+| 0.5 | 2.4 h | 4.75 h | 2.5 h | 5 h |
+| 1.0 | 1.9 h | 3.75 h | 2.25 h | 4.5 h |
+| 2.0 | 1.25 h | 2.25 h | 1.9 h | 3.75 h |
+| 3.0 | 0.75 h | 1.5 h | 1.5 h | 3 h |
+| 6.0 | — | — | 0.9 h | 1.75 h |
+
+Times are ±10% for a new battery. Recharge is about 1.5 h for one battery and 2.5 h for two, with the device plugged in.
+
+## Source conflicts we found
+
+| Claim | Manual | Spec sheet / product page |
+| --- | --- | --- |
+| Battery at pulse 2, two batteries | 3.75 h | 5.75 h ([spec sheet](https://www.o2-concepts.com/s/O2-Concepts_Independence_SpecSheet_Rd3_031423_1_1.pdf)) |
+| Battery at 2 LPM continuous, two batteries | 2.25 h | 2.5 h (spec sheet) |
+| Longest battery life | 5 h (pulse 0.5, two batteries) | "up to six hours" ([product page](https://www.o2-concepts.com/products)) |
+| CPAP use | Not described | "Compatible for use in conjunction with CPAP and BiPAP" |
+
+We use the manual's figures, which are lower, for planning.
+
+## Who it suits
+
+| You... | Fit |
+| --- | --- |
+| Need continuous flow up to 3 LPM away from home | Good |
+| Need oxygen with CPAP while traveling | Possibly; confirm setup with your provider ([CPAP with oxygen](/us/guides/cpap-with-oxygen/)) |
+| Live at or travel to high altitude | Rated to 13,123 ft |
+| Need more than 3 LPM continuous | Not suitable |
+| Want to carry it on your shoulder | Not suitable at 16.7 lb |
+| Plan long days on battery at 2–3 LPM | Plan for AC/DC power; batteries run 1.5–2.25 h |
+
+## Verdict
+
+From the documents, the Independence fills a gap that lightweight pulse-only POCs don't: real continuous flow up to 3 LPM, 24/7 duty, a high altitude rating and a 5-year warranty. The costs are weight and short battery life at continuous settings. Plan around the manual's battery table, not the marketing numbers.
+
+Related: [pulse dose vs continuous flow](/us/guides/pulse-dose-vs-continuous-flow/), [POC for sleeping](/us/guides/portable-oxygen-concentrator-for-sleeping/), [POC warranties compared](/us/guides/portable-oxygen-concentrator-warranties/), [cruising with oxygen](/us/guides/cruising-with-oxygen/).
+
+---
+
+# Oxygen at altitude: COPD travel to Denver (2026)
+
+Source: https://homehealthzone.com/us/guides/oxygen-at-altitude-denver/
+
+Denver is the "Mile High City": the 13th step on the west side of the Colorado State Capitol is exactly 5,280 feet (about 1,609 m) above sea level ([Visit Denver](https://visitdenver.com/about-denver/resources/denver-facts/)). Mountain towns and passes are much higher. With COPD, the lower oxygen pressure at altitude can push saturation down. The FDA notes saturation is "generally slightly lower for those living at higher altitudes" ([FDA](https://www.fda.gov/consumers/consumer-updates/pulse-oximeter-basics)).
+
+This guide summarizes a 2023 review, ["Counseling Patients with COPD Traveling to High Altitude"](https://pmc.ncbi.nlm.nih.gov/articles/PMC10516222/) (Bloch et al.), and device manuals. It's for planning conversations with your clinician, not a substitute for them.
+
+## Who needs extra planning
+
+| Situation | What the review says |
+| --- | --- |
+| Very severe airflow obstruction, hypoxemia or hypercapnia near sea level | Shouldn't travel to high altitude without supplemental oxygen |
+| Hypoxemic GOLD 3–4 patients meeting low-altitude oxygen criteria | Travel only with adequate oxygen |
+| After an exacerbation | Be clinically stable, at least 1 month after an exacerbation (at least 2 weeks stable) |
+| Resting SpO2 under 92% at low altitude | Arterial blood gas assessment suggested before travel |
+| At altitude, resting SpO2 under 85% and/or more than mild altitude-sickness symptoms | Start oxygen or descend |
+| On noninvasive ventilation | Target SpO2 88–92% |
+
+## Oxygen at night
+
+In a randomized trial cited by the review, at 2,050 m (about 6,730 ft), nocturnal oxygen at 3 L/min cut altitude-related adverse health effects in lowlanders with COPD from 26% to 4%. The review suggests nocturnal oxygen at 2–3 L/min for patients at risk ([Bloch et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10516222/)). Many POCs aren't designed for sleep; see [POCs for sleeping](/us/guides/portable-oxygen-concentrator-for-sleeping/).
+
+## Pulse vs continuous at altitude
+
+The review prefers **continuous flow** over pulse mode at altitude, because pulse devices may fail to trigger with nasal obstruction or mouth breathing ([Bloch et al.](https://pmc.ncbi.nlm.nih.gov/articles/PMC10516222/)). Pulse settings aren't liters per minute; see [pulse dose vs continuous flow](/us/guides/pulse-dose-vs-continuous-flow/).
+
+## Device altitude limits
+
+| Device | Rated operating altitude | Source |
+| --- | --- | --- |
+| Inogen Rove 6 (POC) | Up to 10,000 ft | [Rove 6 manual](https://www.inogen.com/rove6-user-manuals/pdf/96-13595-00-01%20A%20Inogen%20Rove%206%20US%20User%20Manual_EN_ES_February%202026.pdf) |
+| OxyGo NEXT (POC) | Up to 10,000 ft | [NEXT manual](https://virteomdevcdn.blob.core.windows.net/site-oxygo-com/uploaded_media/oxygo_com/Marketing_Resources/96-08857-00-01UserManualOxyGoNext-English-Spanish-French-REDUX__1741716006.pdf) |
+| CAIRE FreeStyle Comfort (POC) | Up to 10,000 ft | [FreeStyle Comfort manual](https://files.caireinc.com/Manuals/MN232-0_B.pdf) |
+| CAIRE Companion 5 (stationary) | Up to 9,879 ft (retailer listing) | [DME Supply USA](https://dmesupplyusa.com/caire-companion-5tm-stationary-oxygen-concentrator.html) |
+| ResMed AirSense 11 (CPAP) | Up to 9,870 ft | [AirSense 11 guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf) |
+| ResMed AirSense 10 (CPAP) | Up to 8,500 ft | [AirSense 10 guide](https://document.resmed.com/en-us/documents/products/machine/airsense-series/user-guide/airsense-10-device-with-humidifier_user-guide_amer_eng.pdf) |
+
+Denver is well within these limits. High mountain passes may not be. Check the manual for your exact model.
+
+## Other tips from the review
+
+- **Medicines:** acetazolamide is discussed for selected patients only, on medical advice. Don't start anything without your clinician.
+- **Nasal dryness:** dry mountain air plus oxygen can irritate the nose. Ask your clinician how to manage it, and avoid petroleum products with oxygen ([fire safety](/us/guides/home-oxygen-fire-safety/)).
+- **Pace yourself:** watch for symptoms and check SpO2 with a reliable oximeter ([saturation targets](/us/guides/oxygen-saturation-targets-copd/)).
+
+## Medicare and your supplier
+
+Under Medicare policy article A52514, during rental months 1–36 your home supplier must cover the rest of the month it has already billed, either itself or by arranging another supplier. For later months of a longer stay it's encouraged to provide or help find a local supplier, and it can't bill for months it doesn't provide or arrange service. In months 37–60 it must provide or arrange service. Medicare pays only one supplier per rental month ([CMS A52514](https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleId=52514)). Call your supplier weeks ahead with your dates and address. Flying in? See [FAA POC rules](/us/guides/faa-portable-oxygen-concentrator-rules/) and [renting a POC for travel](/us/guides/rent-portable-oxygen-concentrator-travel/).
+
+## Pre-trip checklist
+
+| Task | Why |
+| --- | --- |
+| Clinician visit; ask for an altitude plan (rest, exertion, sleep) | Your needs may change at altitude |
+| Confirm device altitude rating | Manuals above |
+| Arrange supply with your Medicare supplier | A52514 travel rules |
+| Pack batteries and a backup plan | [Battery life](/us/guides/portable-oxygen-concentrator-battery-life/) |
+| Know when to descend or seek care | Resting SpO2 under 85% or worsening symptoms (review) |
+
+## Verdict
+
+Denver is manageable for many people with COPD if they plan. If you're hypoxemic at home, assume you'll need more support at altitude, especially at night, and get specific settings from your clinician. Prefer continuous flow if you're at risk, confirm your devices' altitude ratings, and line up your supplier before you go.
+
+Related: [cruising with oxygen](/us/guides/cruising-with-oxygen/), [switching Medicare oxygen suppliers](/us/guides/switch-medicare-oxygen-supplier/), [Medicare home oxygen coverage](/us/guides/medicare-oxygen-coverage/).
+
+See also: [Salt Lake City altitude guide](/us/guides/salt-lake-city-altitude-cpap-oxygen/).
+
+---
+
+# Philips CPAP recall: what US owners should do
+
+Source: https://homehealthzone.com/us/guides/philips-cpap-recall-consent-decree/
+
+The Philips Respironics recall is the largest PAP recall US patients have dealt with. The FDA says it affected 15 million devices worldwide ([FDA](https://www.fda.gov/medical-devices/respiratory-devices/recalled-philips-ventilators-bipap-machines-and-cpap-machines)). Five years on, it still shapes what US buyers can get, because a 2024 court order limits Philips' ability to sell new machines. This guide summarizes the FDA's published information. The FDA's pages are the authority, so check them for updates.
+
+## What was recalled and why
+
+In June 2021, Philips recalled certain ventilators, BiPAP machines and CPAP machines because the polyester-based polyurethane (PE-PUR) foam used to reduce sound and vibration can break down. If it does, "black pieces of foam, or certain chemicals that are not visible, could be breathed in or swallowed by the person using the device." The FDA says breakdown may be caused by hot and humid conditions and worsened by ozone cleaners or other cleaning methods the manufacturer doesn't recommend ([FDA](https://www.fda.gov/medical-devices/respiratory-devices/recalled-philips-ventilators-bipap-machines-and-cpap-machines)).
+
+### Affected devices (made 2009 – April 26, 2021)
+
+Per the [FDA's recall page](https://www.fda.gov/medical-devices/respiratory-devices/recalled-philips-ventilators-bipap-machines-and-cpap-machines):
+
+| Sleep therapy (CPAP / BiPAP) | Ventilators and other |
+| --- | --- |
+| DreamStation | A-Series BiPAP A40 (ventilator) |
+| DreamStation Go | A-Series BiPAP V30 Auto (ventilator) |
+| DreamStation ASV | C-Series ASV (ventilator) |
+| DreamStation ST, AVAPS | Garbin Plus, Aeris, LifeVent (ventilator) |
+| SystemOne (Q-Series) | Trilogy 100 and Trilogy 200 (ventilator) |
+| SystemOne ASV4 | OmniLab Advanced+ |
+| REMstar SE Auto | Certain Trilogy Evo units distributed Apr 15 – May 24, 2021 |
+| A-Series BiPAP A30, BiPAP Hybrid A30 | |
+| C-Series S/T and AVAPS | |
+| Dorma 400, Dorma 500, E30 | |
+
+## The health risks the FDA lists
+
+The [FDA's recommendations page](https://www.fda.gov/medical-devices/recalled-philips-ventilators-bipap-machines-and-cpap-machines/recommendations-recalled-philips-ventilators-bipap-machines-and-cpap-machines) lists the potential risks of inhaling or swallowing foam pieces: irritation of the skin, eyes, nose and airway, inflammatory response, headache, asthma, and toxic or cancer-causing effects. For chemicals released from the foam, it lists headache, dizziness, irritation, hypersensitivity reactions, nausea or vomiting, and toxic and cancer-causing effects.
+
+## What to do if you own a recalled device
+
+From the [FDA's recommendations](https://www.fda.gov/medical-devices/recalled-philips-ventilators-bipap-machines-and-cpap-machines/recommendations-recalled-philips-ventilators-bipap-machines-and-cpap-machines):
+
+1. **Talk to your health care provider before changing anything.** The FDA says that "for some patients, stopping use of the recalled device may involve greater risk than continuing its use". With your provider you may decide to stop, switch to a device that isn't recalled, keep using it, or try other sleep apnea treatments.
+2. **Find the serial number and register.** Register on Philips' recall website, or call Philips at **877-907-7508** (press 2 for Spanish). If your model isn't on the list, your DME supplier can check whether your device was recalled.
+3. **Keep your confirmation number.** Keep it with the serial number. Philips asks for both, and you can check status on the Philips patient portal.
+4. **Expect a remedy notice.** Under the consent decree's Recall Remediation Plan, registered owners receive notice of their options: a repaired device, a replacement, or for certain devices a partial refund.
+5. **Report problems** to the FDA through the MedWatch Voluntary Reporting Form.
+
+### Cleaning and filters: the FDA's do-nots
+
+- **Don't use ozone or UV light cleaners.** The FDA says ozone cleaners may worsen foam breakdown even when you can't see foam pieces.
+- **Don't add a filter to a CPAP or BiPAP.** A filter may change how the device works and won't reduce contact with chemicals from the foam. (Ventilator users get separate guidance: talk to your provider about an inline bacterial filter.)
+- **Don't try to remove the foam yourself.** It may damage the device or release more foam and chemicals.
+
+### If you got a repaired or replacement unit
+
+The FDA says to **keep using your repaired or replaced device** and talk to your provider if you have concerns. It notes that one silicone-based foam used in a similar device marketed outside the US failed a test for volatile organic compounds. Testing Philips provided on US-authorized devices showed acceptable results, and the FDA asked for independent laboratory testing ([FDA](https://www.fda.gov/medical-devices/recalled-philips-ventilators-bipap-machines-and-cpap-machines/recommendations-recalled-philips-ventilators-bipap-machines-and-cpap-machines)).
+
+## The April 2024 consent decree
+
+On April 9, 2024, a federal court entered a consent decree against Philips Respironics ([FDA press release](https://www.fda.gov/news-events/press-announcements/federal-court-enters-consent-decree-against-philips-respironics-following-recall-certain-sleep)). According to the FDA, it:
+
+- **restricts, with limited exceptions, production and sale of new CPAP, BiPAP and other devices** at several Philips Respironics facilities in Pennsylvania and California until certain requirements are met;
+- requires Philips to receive **written notice from the FDA** that it complies before resuming those operations;
+- lets Philips keep making and distributing certain devices the FDA determined to be "medically necessary", plus replacement parts and accessories for devices people already have;
+- requires a **Recall Remediation Plan** (repair, replacement, or for some devices a partial refund);
+- generally bars exporting recall-remediation CPAP and BiPAP devices for commercial sale until US patients have been prioritized; and
+- requires independent testing of the replacement silicone-based foam.
+
+In the same release, the FDA said it believes "there is adequate supply and that alternative manufacturers are able to handle patient demand for CPAP and BiPAP machines."
+
+## What this means if you are buying now
+
+If you need a new CPAP or BiPAP in the US, assume a new Philips sleep-therapy device won't be offered until the FDA's position changes. Check the FDA pages for updates. HHZ's [US CPAP buyer's guide](/us/guides/cpap-buyers-guide/) covers current alternatives. If you're on Medicare, the [CPAP coverage guide](/us/guides/medicare-cpap-coverage-compliance/) explains replacement rules.
+
+## Verdict
+
+If you still use a recalled Philips device, don't stop on your own. Talk to your provider, register the serial number with Philips, and follow the FDA's do-nots on ozone and UV cleaners, filters and foam removal. If you're buying new, plan around a different manufacturer, and recheck the FDA's recall page before you decide, since the consent decree's restrictions last until the FDA confirms compliance.
+
+---
+
+# Philips DreamStation alternatives in the US (2026)
+
+Source: https://homehealthzone.com/us/guides/philips-dreamstation-cpap-alternatives/
+
+If you are one of the people who received a Philips DreamStation, you're probably deciding between waiting for a recall remedy and replacing the machine. For new purchases, US buyers have one constraint the rest of the world doesn't: a 2024 court order limits Philips' ability to sell new sleep machines here.
+
+## Why new Philips machines are hard to buy in the US
+
+In June 2021 Philips Respironics recalled certain CPAP, BiPAP and ventilator devices, including the DreamStation, because their PE-PUR sound-abatement foam can break down ([FDA](https://www.fda.gov/medical-devices/respiratory-devices/recalled-philips-ventilators-bipap-machines-and-cpap-machines)). On 9 April 2024, a federal court entered a consent decree that restricts, with limited exceptions, production and sale of new CPAP, BiPAP and other devices at several Philips Respironics facilities in Pennsylvania and California. Philips can't resume those operations until it meets the decree's requirements and the FDA confirms compliance in writing ([FDA press release](https://www.fda.gov/news-events/press-announcements/federal-court-enters-consent-decree-against-philips-respironics-following-recall-certain-sleep)).
+
+If you still use a recalled DreamStation, the FDA says to talk to your provider before you stop using it. For some patients stopping may involve greater risk than continuing ([FDA recommendations](https://www.fda.gov/medical-devices/recalled-philips-ventilators-bipap-machines-and-cpap-machines/recommendations-recalled-philips-ventilators-bipap-machines-and-cpap-machines)). Our [Philips recall guide](/us/guides/philips-cpap-recall-consent-decree/) covers registration and the remedy options.
+
+## The shortlist
+
+| Model | US price (retailer) | Type | Pressure | Humidifier | Weight | Sound | Warranty |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| ResMed AirSense 11 AutoSet | $1,004 ([cpap.com](https://www.cpap.com/products/resmed-airsense-11-autoset)) | Auto CPAP | 4–20 cmH₂O | Heated, built-in | 1.1 kg | 27 dB | Not compared |
+| React Health G3 X APAP | $873 ([cpap.com](https://www.cpap.com/products/react-health-g3-x-auto-cpap-machine)) | Auto CPAP | 4–20 cmH₂O | Integrated, 360 mL | 3.75 lb (1.7 kg) | under 28 dB at 10 hPa | 5 years |
+| ResMed AirMini AutoSet | $919 ([cpap.com](https://www.cpap.com/products/resmed-airmini-autoset-travel-cpap-machine)) | Travel auto CPAP | 4–20 cmH₂O | Waterless only | 0.3 kg | 27 dB | Not compared |
+| Transcend Micro 510 | $829 ([cpap.com](https://www.cpap.com/products/transcend-micro-510-travel-cpap-machine)) | Travel auto CPAP | 4–20 cmH₂O | Waterless HME | 0.48 lb | 27 dBA | 3 years |
+
+Prices are cpap.com's listed cash prices on 13 October 2026, before tax. ResMed's own shop listed the AirSense 11 with HumidAir and standard tubing at [$1,054](https://eshop.resmed.com/products/airsense-11-autoset-machine-with-humidair-and-standard-tubing) the same day. Specs are as published by each manufacturer ([React Health](https://www.reacthealth.com/product/g3x-apap-device), [Transcend](https://www.mytranscend.com/products/transcend-micro-510-auto-cpap)), not measured by HHZ.
+
+## ResMed AirSense 11 AutoSet: the default replacement
+
+The AirSense 11 is the closest like-for-like swap for a DreamStation Auto. It is a full-size auto CPAP with a built-in heated humidifier, CPAP, AutoSet and AutoSet for Her modes, and support for heated tubing. Your clinician will need to set your prescribed pressures on the new machine.
+
+**Choose it if** you want the mainstream option your supplier and clinician are most likely to support.
+
+## React Health G3 X APAP: the lower-cost option
+
+React Health lists the G3 X (G4600) with CPAP and AutoCPAP modes across 4–20 cmH₂O, an integrated humidifier with a 360 mL chamber, integrated heated tubing, and a 5-year warranty ([React Health](https://www.reacthealth.com/product/g3x-apap-device)). React Health describes it as the first standard-size foam-free PAP available in the US. For DreamStation owners worried about foam, that is the obvious attraction, but it is the manufacturer's claim. HHZ hasn't tested it.
+
+**Choose it if** price and warranty length matter most and you're comfortable with a less common brand.
+
+## Travel units are not a home replacement
+
+The ResMed AirMini and Transcend Micro 510 cover the same pressure range in a much smaller body. Neither has a water humidifier: both rely on waterless (HME) humidification. Use one as a second machine for travel, not as your only CPAP. Our [travel CPAP guide](/us/guides/best-travel-cpap-machines/) compares them.
+
+## What to carry over from your DreamStation
+
+1. **Your prescription and settings.** Every machine on this list needs a prescription before it ships.
+2. **Your mask, if it works.** React Health states the G3 X is compatible with standard CPAP masks and tubing. Heated tubing is matched to each machine (ResMed sells its ClimateLineAir tubing per device family), so budget for a new tube. See [CPAP masks](/us/guides/best-cpap-masks/) if your mask needs replacing anyway.
+3. **Your adherence history.** If you're on Medicare and still inside the first 90 days, the [compliance rule](/us/guides/medicare-cpap-coverage-compliance/) applies whatever machine you use.
+
+## Paying for it
+
+- **Medicare:** under CMS supplier guidance, a PAP device that is lost, stolen or irreparably damaged during its 5-year reasonable useful lifetime can be replaced without a new sleep test or trial. After 5 years, you need an in-person evaluation documenting continued use and benefit ([CMS MLN](https://www.cms.gov/training-education/medicare-learning-networkr-mln/compliance/medicare-provider-compliance-tips/cpap-devices-accessories)).
+- **HSA or FSA:** see [HSA/FSA eligibility for CPAP and oxygen](/us/guides/hsa-fsa-cpap-oxygen-eligibility/).
+- **Cash:** see [CPAP cost without insurance](/us/guides/cpap-without-insurance-cost/).
+
+## Verdict
+
+Replace a DreamStation with the ResMed AirSense 11 AutoSet unless price is the deciding factor. If it is, the React Health G3 X costs $131 less at the same retailer and comes with a 5-year warranty. Keep using a recalled machine only after you've talked it through with your provider. Register it with Philips either way, so you don't lose your place in the remedy program.
+
+## Related
+
+See [buying a CPAP online or used](/us/guides/buying-cpap-online-or-used/) and [alternatives to CPAP therapy](/us/guides/sleep-apnea-alternatives-to-cpap/).
+
+See also the [React Health G3 X review](/us/guides/react-health-g3-x-review/).
+
+---
+
+# Power outage plan for CPAP and home oxygen (2026)
+
+Source: https://homehealthzone.com/us/guides/power-outage-plan-cpap-oxygen/
+
+> **Sources:** [Ready.gov power outages](https://www.ready.gov/power-outages); [HHS emPOWER](https://empowermap.hhs.gov/); manufacturer documents in our linked guides. Checked 13 October 2026. This isn't medical advice; make your plan with your clinician and supplier.
+
+## Before an outage
+
+| Step | Why (source) |
+| --- | --- |
+| Talk to your clinician and supplier about an outage plan | Ready.gov advises it for electric medical devices |
+| Plan batteries and alternatives | Ready.gov |
+| Ask your oxygen supplier about backup | Suppliers handle equipment and contents; see [Medicare oxygen coverage](/us/guides/medicare-oxygen-coverage/) |
+| Install carbon monoxide detectors | Ready.gov (generator safety) |
+| Know a community location with power | Ready.gov, for extreme heat or cold |
+
+## Who counts as electricity-dependent
+
+HHS emPOWER's electricity-dependent DME list includes oxygen concentrators and BiPAP machines (among other devices). CPAP isn't on it, but if you rely on CPAP nightly, plan as if it were.
+
+## Backup options
+
+| Option | Notes |
+| --- | --- |
+| POC batteries | Runtimes vary by setting; see [Inogen Rove 6](/us/guides/inogen-rove-6-review/), [FreeStyle Comfort](/us/guides/caire-freestyle-comfort-review/) and [Independence](/us/guides/oxlife-independence-review/) reviews |
+| CPAP batteries and power stations | Humidifier and heated tubing use more power; see [CPAP battery options](/us/guides/cpap-battery-camping-power/) |
+| Generator | Outdoors only, at least 20 ft from windows (Ready.gov) |
+| Leave for a community location | In extreme heat or cold (Ready.gov) |
+
+## Heat and cold during an outage
+
+Device operating ranges are typically 41–95°F for CPAP and 41–104°F for portable concentrators; see our [Phoenix heat](/us/guides/phoenix-heat-cpap-oxygen/) and [Salt Lake City](/us/guides/salt-lake-city-altitude-cpap-oxygen/) guides.
+
+## Verdict
+
+Write the plan down: who to call, how long your batteries last at your setting, where your backup oxygen is, and where you'll go if it's too hot or cold. Never run a generator indoors.
+
+Related: [home oxygen fire safety](/us/guides/home-oxygen-fire-safety/), [flying with a CPAP](/us/guides/flying-with-cpap-tsa/).
+
+See also: hurricane plans for [Miami](/us/guides/hurricane-plan-cpap-oxygen/#miami) and [Houston](/us/guides/hurricane-plan-cpap-oxygen/#houston).
+
+---
+
+# Pulse dose vs continuous flow oxygen (2026)
+
+Source: https://homehealthzone.com/us/guides/pulse-dose-vs-continuous-flow/
+
+If you've been prescribed oxygen, the type of delivery matters as much as the number on the dial. Here's how pulse dose and continuous flow differ, using manufacturers' manuals.
+
+## The basics
+
+| | Continuous flow | Pulse dose |
+| --- | --- | --- |
+| How it delivers | Steady stream all the time | A bolus at the start of each inhalation |
+| Measured in | Liters per minute (LPM) | mL per breath; total mL per minute |
+| Typical devices | Home stationary concentrators; some larger portables | Small portables (Rove 6, FreeStyle Comfort, OxyGo NEXT) |
+| Needs your breath to trigger | No | Yes |
+| Battery and size | More power, larger | CAIRE: "conserves oxygen and extends battery life" |
+| Use with CPAP bleed-in | CPAP oxygen limits are given in L/min (e.g. ResMed AirSense 11: 15 L/min) | Rove 6 manual: don't use with CPAP; NEXT: not to be connected with other equipment |
+
+Sources: [CAIRE FreeStyle Comfort manual](https://files.caireinc.com/Manuals/MN232-0_B.pdf), [Inogen Rove 6 manual](https://www.inogen.com/rove6-user-manuals/pdf/96-13595-00-01%20A%20Inogen%20Rove%206%20US%20User%20Manual_EN_ES_February%202026.pdf), [OxyGo NEXT manual](https://virteomdevcdn.blob.core.windows.net/site-oxygo-com/uploaded_media/oxygo_com/Marketing_Resources/96-08857-00-01UserManualOxyGoNext-English-Spanish-French-REDUX__1741716006.pdf).
+
+## How much oxygen a pulse setting delivers
+
+Inogen's Rove 6 delivers a fixed total per minute at each setting, split across your breaths:
+
+| Setting | 1 | 2 | 3 | 4 | 5 | 6 |
+| --- | --- | --- | --- | --- | --- | --- |
+| mL per minute | 210 | 420 | 630 | 840 | 1,050 | 1,260 |
+| mL per breath at 15 breaths/min | 14 | 28 | 42 | 56 | 70 | 84 |
+| mL per breath at 30 breaths/min | 7 | 14 | 21 | 28 | 35 | 42 |
+
+Source: [Rove 6 manual](https://www.inogen.com/rove6-user-manuals/pdf/96-13595-00-01%20A%20Inogen%20Rove%206%20US%20User%20Manual_EN_ES_February%202026.pdf), ±15%. The OxyGo NEXT lists the same 210–1,260 mL/min totals, and the FreeStyle Comfort lists 210–1,050 mL/min over 5 settings.
+
+So on a minute-volume unit, breathing faster means **smaller** puffs. CAIRE's FreeStyle Comfort offers an alternative, **autoSAT**, on by default, which keeps the dose per breath the same as your breathing rate rises (up to 40 breaths a minute), so more oxygen per minute is delivered during activity ([FreeStyle Comfort manual](https://files.caireinc.com/Manuals/MN232-0_B.pdf)).
+
+## Pulse settings are not liters
+
+Inogen's manual cautions: "The settings of this device may not correspond with the setting for devices that provide continuous flow oxygen", and settings of other brands may not correspond either ([Rove 6 manual](https://www.inogen.com/rove6-user-manuals/pdf/96-13595-00-01%20A%20Inogen%20Rove%206%20US%20User%20Manual_EN_ES_February%202026.pdf)). CAIRE says pulse settings "must be determined for each user individually for their needs at rest, during exercise, and when traveling" ([FreeStyle Comfort manual](https://files.caireinc.com/Manuals/MN232-0_B.pdf)). Don't convert a "2 LPM" prescription to "setting 2" yourself.
+
+## Triggering and no-breath alerts
+
+Pulse units must sense your breath:
+
+- Inogen says the Rove 6 is contraindicated if your normal resting breathing can't trigger it.
+- CAIRE notes that "some respiratory efforts of the patient might not trigger the conserving function".
+- If no breath is detected, the Rove 6 and OxyGo NEXT start automatic pulses after **60 seconds**, and the FreeStyle Comfort after **15 seconds**, at 20 pulses a minute, until a breath is detected again.
+
+Those backups are safety features, not a substitute for proper triggering. This matters most during [sleep](/us/guides/portable-oxygen-concentrator-for-sleeping/).
+
+## Which fits you
+
+| Situation | Likely fit (your clinician decides) |
+| --- | --- |
+| Active during the day, low to moderate prescription, tested on pulse | Pulse portable |
+| Need oxygen with CPAP or BiPAP | Continuous source ([CPAP with oxygen](/us/guides/cpap-with-oxygen/)) |
+| Breathing too shallow to trigger reliably | Ask about continuous flow |
+| Higher flow needs at home | Stationary continuous, e.g. 5 or 10 LPM ([5 vs 10 LPM](/us/guides/5-lpm-vs-10-lpm/)) |
+| Flying | Either type, if FAA-labeled ([FAA rules](/us/guides/faa-portable-oxygen-concentrator-rules/)) |
+
+## Medicare
+
+Medicare covers home oxygen equipment, including portable equipment, when its testing criteria are met. See [Medicare home oxygen coverage](/us/guides/medicare-oxygen-coverage/). The FDA says you shouldn't use an oxygen concentrator at home unless a health care provider has prescribed it ([FDA](https://content.govdelivery.com/accounts/USFDA/bulletins/2a8d8e8)).
+
+## Verdict
+
+Pulse dose makes small, light portables possible and stretches battery life. It only works if your breathing triggers it, and its settings aren't liters per minute. Continuous flow is the safer default with CPAP, for shallow breathers, and for higher prescriptions. Ask your clinician to test you on the exact device and setting you'll use.
+
+Related: [battery life by model](/us/guides/portable-oxygen-concentrator-battery-life/), [Rove 6 vs FreeStyle Comfort](/us/guides/inogen-rove-6-vs-caire-freestyle-comfort/), [oxygen concentrator buyer's guide](/us/guides/oxygen-concentrator-buyers-guide/).
+
+Continuous-flow portable example: [Oxlife Independence review](/us/guides/oxlife-independence-review/).
+
+---
+
+# Sleep apnea alternatives to CPAP (2026)
+
+Source: https://homehealthzone.com/us/guides/sleep-apnea-alternatives-to-cpap/
+
+If CPAP isn't working for you, you have options. This guide sticks to what FDA approvals, AASM guidelines and Medicare policy actually say. Your sleep physician decides which fits you.
+
+## The options at a glance
+
+| Option | What it is | Who it's for (per source) | Source |
+| --- | --- | --- | --- |
+| Inspire (upper airway stimulation) | Implanted hypoglossal nerve stimulator with a patient remote | Moderate to severe OSA (AHI 15–100), age 22+, failed or intolerant of PAP, no complete concentric soft-palate collapse | [FDA SSED](https://www.accessdata.fda.gov/cdrh_docs/pdf13/P130008S090b.pdf) |
+| Oral appliance | Custom mouthpiece that advances the lower jaw | OSA patients intolerant of CPAP or preferring an alternative | [AASM/AADSM 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4481062/) |
+| Zepbound (tirzepatide) | Prescription injection | Moderate to severe OSA in adults with obesity, with diet and exercise | [FDA](https://content.govdelivery.com/accounts/USFDA/bulletins/3c8eb6e) |
+| Other PAP modes | Auto CPAP, BiPAP | When standard CPAP is uncomfortable or ineffective | [APAP vs CPAP vs BiPAP](/us/guides/apap-vs-cpap-vs-bipap/) |
+
+## Inspire: FDA criteria
+
+The FDA's June 2023 approval (P130008/S090) raised the upper AHI limit from 65 to 100 and the BMI warning limit from 32 to 40 ([FDA](https://www.fda.gov/medical-devices/recently-approved-devices/inspire-upper-airway-stimulation-p130008s090)).
+
+| Criterion | FDA labeling |
+| --- | --- |
+| Severity | AHI 15 to 100 |
+| Age | 22 and older; also 18–21 under conditions; 13–18 with Down syndrome (AHI 10–50) under further conditions |
+| PAP | Confirmed to fail (AHI over 15 despite PAP) or can't tolerate PAP |
+| Anatomy | No complete concentric collapse at the soft palate |
+| BMI | Safety and effectiveness data available up to BMI 40 |
+
+Sources: [FDA SSED](https://www.accessdata.fda.gov/cdrh_docs/pdf13/P130008S090b.pdf), [FDA approval summary](https://www.fda.gov/medical-devices/recently-approved-devices/inspire-upper-airway-stimulation-p130008s090). Candidacy is decided by your clinicians, including whether the soft-palate criterion is met.
+
+## Oral appliances: AASM/AADSM guideline
+
+| # | Recommendation | Strength |
+| --- | --- | --- |
+| 1 | Oral appliances rather than no therapy for primary snoring (without OSA) | Standard |
+| 2 | When prescribed for OSA, a qualified dentist should use a custom, titratable appliance over non-custom devices | Guideline |
+| 3 | Consider oral appliances, rather than no treatment, for OSA patients intolerant of CPAP or preferring alternate therapy | Standard |
+| 4 | Qualified dentists should provide follow-up to watch for dental side effects or bite changes | Guideline |
+| 5 | Follow-up sleep testing to confirm or improve efficacy | Guideline |
+
+Source: [Ramar et al., 2015](https://pmc.ncbi.nlm.nih.gov/articles/PMC4481062/).
+
+### Medicare coverage of oral appliances
+
+Medicare's DME policy ([LCD L33611](https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?lcdid=33611)) covers a **custom-fabricated mandibular advancement appliance (E0486)** when all of these are met:
+
+| Criterion | Requirement |
+| --- | --- |
+| A | In-person clinical evaluation by the treating practitioner before the sleep test |
+| B | Medicare-covered sleep test: AHI/RDI of 15 or more (min 30 events), or 5–14 with qualifying symptoms or conditions, or over 30 with PAP not tolerated or contraindicated |
+| C | Ordered by the treating practitioner after reviewing the sleep test report |
+| D | Provided and billed by a licensed dentist (DDS or DMD) |
+
+A **prefabricated** appliance (E0485) is denied as not reasonable and necessary.
+
+## Zepbound (tirzepatide)
+
+On December 20, 2024, the FDA approved Zepbound "for the treatment of moderate to severe obstructive sleep apnea (OSA) in adults with obesity, to be used in combination with a reduced-calorie diet and increased physical activity" ([FDA](https://content.govdelivery.com/accounts/USFDA/bulletins/3c8eb6e)). Side effects listed by the FDA include nausea, diarrhea, vomiting, constipation, abdominal pain, injection-site reactions, fatigue, allergic reactions, burping, hair loss and reflux. It causes thyroid C-cell tumors in rats, and the FDA says it shouldn't be used by people with a personal or family history of medullary thyroid cancer or MEN 2. Other GLP-1 drugs aren't covered by this approval. Insurance coverage for this use varies; HHZ hasn't verified Medicare coverage.
+
+## How to choose
+
+| If you... | Discuss |
+| --- | --- |
+| Find the mask the problem | Try mask changes first ([best CPAP masks](/us/guides/best-cpap-masks/), [mask leak](/us/guides/cpap-mask-leak/)) |
+| Find the pressure uncomfortable | Auto CPAP or BiPAP ([APAP vs CPAP vs BiPAP](/us/guides/apap-vs-cpap-vs-bipap/)) |
+| Can't tolerate CPAP or prefer an alternative | Custom oral appliance (AASM) |
+| Have moderate to severe OSA and truly can't use PAP | Inspire evaluation |
+| Have OSA and obesity | Zepbound, with your clinician deciding how it fits with PAP |
+
+## Verdict
+
+Don't just stop CPAP. Fix comfort problems first, then work through the alternatives with your sleep physician. A custom oral appliance has guideline support and Medicare coverage criteria. Inspire is for moderate to severe OSA after PAP failure, with specific FDA criteria. Zepbound is now an FDA-approved option for OSA with obesity. Whatever you choose, confirm it works with follow-up testing.
+
+Related: [home vs in-lab sleep test](/us/guides/home-sleep-test-vs-in-lab/), [CPAP prescription online](/us/guides/cpap-prescription-online/), [high AHI on CPAP](/us/guides/high-ahi-on-cpap/).
+
+---
+
+# Transcend Micro 510 review: specs and price
+
+Source: https://homehealthzone.com/us/guides/transcend-micro-510-review/
+
+> **How we reviewed this:** HHZ didn't test this device hands-on. This review is written from the manufacturer's user manual and published specifications, linked below, plus a U.S. retail price checked on 13 October 2026. We don't report comfort, noise or reliability impressions we haven't measured.
+
+## Key specs
+
+| Spec | Transcend Micro 510 | Source |
+| --- | --- | --- |
+| Price (U.S.) | $829 | [cpap.com](https://www.cpap.com/products/transcend-micro-510-travel-cpap-machine); [Transcend](https://www.mytranscend.com/products/transcend-micro-510-auto-cpap) also lists $829 |
+| Ventilator mode (manual) | CPAP; Ramp and AirRelief are comfort features | [User manual 104347 Rev B](https://cdn.shopify.com/s/files/1/0670/0272/8513/files/104347-Rev-B-Transcend-Micro-510-User-Manual.pdf) |
+| Marketing name | "Micro 510 Auto CPAP", "auto-adjusting pressure" | [Transcend product page](https://www.mytranscend.com/products/transcend-micro-510-auto-cpap) |
+| Pressure range | 4–20 cmH2O | Manual |
+| Weight | 0.49 lb (223.4 g) | Manual |
+| Dimensions | 3.6 x 3.6 x 2.4 in | Manual |
+| Sound pressure (ISO 80601-2-70) | 31 dBA ±2 at 10 cmH2O | Manual |
+| Sound pressure (Transcend "typical use" test) | 27 dBA ±2 | Manual |
+| Exhale relief | AirRelief (EZEX): Off, 1, 2, 3 | Manual |
+| Ramp | 0–45 min, auto-ramp option | Manual |
+| Humidification | Optional AirMist HME (waterless) | Manual |
+| Battery | Optional PowerAway (14.8 V, 4,800 mAh) | Manual |
+| Altitude | 0–8,000 ft, automatically adjusted | Manual |
+| Operating temperature | 41–95°F | Manual |
+| Design life | 5 years | Manual |
+| FAA | Meets FAA requirements; RTCA/DO-160 section 21 category M | Manual |
+| Warranty | 3 years device; 90 days accessories; 1 year batteries | Manual |
+| Indication | OSA in adults over 66 lb | Manual |
+
+## The "auto" question
+
+Transcend's product page calls the Micro 510 an "Auto CPAP" with "auto-adjusting pressure". The performance table in the Micro 510 manual we downloaded from that page lists "Ventilator Mode: CPAP", with a note that Ramp and AirRelief "do not represent separate ventilation modes". We can't resolve that from the documents. If you need auto-adjusting pressure ([APAP vs CPAP](/us/guides/apap-vs-cpap-vs-bipap/)), ask Transcend or your prescriber to confirm before buying.
+
+## Strengths on paper
+
+- **Lightest we've documented:** 0.49 lb, lighter than the [AirMini](/us/guides/resmed-airmini-review/) (10.6 oz).
+- **Battery option:** the PowerAway battery attaches directly ([CPAP battery power](/us/guides/cpap-battery-camping-power/)).
+- **Longer warranty than the AirMini:** 3 years vs ResMed's 2.
+- **Data:** the MySleepDash app for therapy data.
+
+## Limitations
+
+| Limitation | Detail |
+| --- | --- |
+| Mode ambiguity | See above |
+| Humidity | HME only; no heated humidifier |
+| Altitude | 8,000 ft, lower than the AirMini (8,500 ft) |
+| Warranty | Non-transferable; void outside the country of purchase |
+| Sound | The standards-based figure (31 dBA) is higher than the 27 dBA in marketing |
+
+## Flying
+
+The manual says it meets FAA requirements (RTCA/DO-160 section 21, category M). Check your airline's carry-on and in-flight power policy before you fly.
+
+## Verdict
+
+From the documents, the Micro 510 is the lightest and cheapest of the two main travel CPAPs we track, with a battery option and a 3-year warranty. The mode question is the key issue: if your prescription is for auto-adjusting pressure, get written confirmation that this unit provides it. For a confirmed auto machine, compare the [ResMed AirMini](/us/guides/resmed-airmini-review/).
+
+Related: [best travel CPAP machines](/us/guides/best-travel-cpap-machines/), [buying CPAP online or used](/us/guides/buying-cpap-online-or-used/), [CPAP dry mouth](/us/guides/cpap-dry-mouth/).
 
 ---
 
@@ -12669,6 +14397,8 @@ An interface change is reasonable when:
 
 Changing interface without reassessment can hide deterioration. A patient who suddenly needs substantially more oxygen, becomes drowsy or develops increasing work of breathing needs urgent evaluation.
 
+For the wider device taxonomy, including controlled-FiO₂ Venturi masks and high-concentration non-rebreathers, use the [oxygen delivery devices comparison chart](/clinical/nasal-cannula-vs-simple-mask-vs-non-rebreather-vs-venturi/).
+
 ## Takeaway
 
 A nasal cannula is usually the practical choice for stable low-flow home oxygen. A simple face mask can provide a moderate concentration when a cannula is unsuitable, but it must run at its minimum safe flow and remains a variable-delivery device. Venturi and non-rebreather masks are separate categories with different purposes.
@@ -12679,7 +14409,7 @@ Use the interface and flow on the prescription. If the prescribed setup no longe
 
 ---
 
-# Nasal cannula vs simple mask vs non-rebreather vs Venturi: choosing the right oxygen delivery device
+# Oxygen Delivery Devices: Cannula, Masks and Venturi
 
 Source: https://homehealthzone.com/clinical/nasal-cannula-vs-simple-mask-vs-non-rebreather-vs-venturi/
 
@@ -12687,12 +14417,12 @@ Choosing the right oxygen delivery device is the second decision a prescriber ma
 
 This article covers the four most common oxygen delivery devices in Indian clinical and home practice — nasal cannula, simple face mask, non-rebreather mask, and Venturi mask — with clear flow ranges, delivered FiO₂ estimates, indications, and the practical considerations that matter for home oxygen patients in the Indian context. The target reader: the respiratory therapist, primary-care physician, emergency medicine trainee, home-care provider, and engaged patient or family caregiver setting up a home oxygen system.
 
-## Focused comparisons
+## Focused device comparisons
 
 Use this page for the complete overview. For a direct answer about two interfaces or one Venturi setting, use the focused guides:
 
 - [Venturi mask vs non-rebreather mask](/clinical/venturi-mask-vs-non-rebreather-mask/)
-- [Nasal cannula vs oxygen mask](/clinical/nasal-cannula-vs-oxygen-mask/)
+- [Nasal cannula vs oxygen mask](/clinical/nasal-cannula-vs-oxygen-mask/) for that exact two-device decision
 - [Simple oxygen mask vs non-rebreather](/clinical/simple-oxygen-mask-vs-non-rebreather/)
 - [Venturi mask colour, flow and FiO₂ chart](/clinical/venturi-mask-colour-chart-flow-rate-fio2/)
 

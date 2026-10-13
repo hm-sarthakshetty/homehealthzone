@@ -101,11 +101,44 @@ def clean_output(text: str) -> str:
     return re.sub(r"[ \t]+$", "", text, flags=re.MULTILINE).rstrip() + "\n"
 
 
+PRICE_TAG = re.compile(r"<Price\s+([^>]*?)/>")
+PRICE_ATTR = re.compile(r'(\w+)="([^"]*)"')
+PRICE_DIRS = ("products", "cpap-bipap", "us-products")
+
+
+def _price_text(attrs: str) -> str:
+    """Resolve an inline <Price slug=... country="US" /> to the text it renders.
+
+    Mirrors src/components/Price.astro for non-IN markets: prices[country].amount,
+    formatted like Intl en-US currency; falls back to the component's fallback.
+    """
+    a = dict(PRICE_ATTR.findall(attrs))
+    country = a.get("country", "IN")
+    fallback = a.get("fallback", "price not verified")
+    dirs = (a["collection"],) if a.get("collection") else PRICE_DIRS
+    for d in dirs:
+        f = SITE / "src/content" / d / f"{a.get('slug', '')}.json"
+        if f.exists():
+            entry = (json.loads(f.read_text(encoding="utf-8")).get("prices") or {}).get(country) or {}
+            amount = entry.get("amount")
+            if amount is None or country == "IN" or entry.get("currency", "USD") != "USD":
+                return fallback
+            frac = round(amount * 100) % 100 != 0
+            return "$" + (f"{amount:,.2f}" if frac else f"{int(round(amount)):,}")
+    return fallback
+
+
+def strip_mdx_components(body: str) -> str:
+    """Drop MDX import lines and resolve inline <Price /> tags."""
+    body = re.sub(r"^import .*?;?\s*$\n?", "", body, flags=re.M)
+    return PRICE_TAG.sub(lambda m: _price_text(m.group(1)), body)
+
+
 def section(url: str, title: str, body: str) -> str:
     return (
         f"# {title}\n\n"
         f"Source: {url}\n\n"
-        f"{strip_citations(body).strip()}\n\n"
+        f"{strip_citations(strip_mdx_components(body)).strip()}\n\n"
         "---\n\n"
     )
 
@@ -563,6 +596,12 @@ def generate_llms_index() -> str:
         suffix = f": {entry['description']}" if entry["description"] else ""
         lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
 
+    lines += ["", "## US guides", ""]
+    lines.append(f"- [United States hub]({SITE_URL}/us/): oxygen concentrators and CPAP sold in the US")
+    for entry in content_entries(SITE / "src/content/us-guides", "/us/guides/"):
+        suffix = f": {entry['description']}" if entry["description"] else ""
+        lines.append(f"- [{entry['title']}]({entry['url']}){suffix}")
+
     lines += ["", "## Written comparison pages", ""]
     for entry in content_entries(comparison_writeups_dir, "/compare/"):
         suffix = f": {entry['description']}" if entry["description"] else ""
@@ -651,6 +690,21 @@ def main() -> int:
 
     # Written product comparison pages
     parts += read_mdx_sections(SITE / "src/content/comparison-writeups", "/compare/")
+
+    # US section: /us/ hub and US guides (src/content/us-guides)
+    us_guides_dir = SITE / "src/content/us-guides"
+    us_entries = content_entries(us_guides_dir, "/us/guides/")
+    parts.append(
+        section(
+            f"{SITE_URL}/us/",
+            "United States: oxygen concentrators and CPAP",
+            "HHZ for US buyers: oxygen concentrators and CPAP machines sold in the US, with USD prices "
+            "from named retailers, FDA prescription rules and Medicare basics.\n\n"
+            "US guides:\n\n"
+            + "\n".join(f"- [{e['title']}]({e['url']})" for e in us_entries),
+        )
+    )
+    parts += read_mdx_sections(us_guides_dir, "/us/guides/")
 
     # Clinical articles
     clinical_sections = read_mdx_sections(SITE / "src/content/clinical", "/clinical/")
