@@ -1,0 +1,38 @@
+{
+  "slug": "airsep-visionaire-5",
+  "source_url": "https://www.portableoxygen.co.uk/oxygen-concentrators/visionaire/",
+  "product_name": "AirSep VisionAire 5",
+  "brand": "AirSep",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB",
+    "AU"
+  ],
+  "device_type": "oxygen-concentrator",
+  "prices": {
+    "GB": {
+      "amount": 840,
+      "currency": "GBP",
+      "source_url": "https://www.portableoxygen.co.uk/oxygen-concentrators/visionaire/",
+      "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 1149,
+      "currency": "AUD",
+      "source_url": "https://www.megamedical.com.au/products/visionaire-5-oxygen-concentrator",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "home-oxygen-concentrator-uk",
+    "au": "home-oxygen-concentrator-australia"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 13.6,
+    "flow_max_lpm": 5,
+    "power_w": 290,
+    "noise_db": 39
+  }
+}

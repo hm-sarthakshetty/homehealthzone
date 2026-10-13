@@ -1,0 +1,51 @@
+{
+  "slug": "inogen-rove-6",
+  "source_url": "https://www.portableoxygen.co.uk/inogen-rove-6-16-cell-portable-oxygen-concentrator/",
+  "product_name": "Inogen Rove 6 (16-cell battery)",
+  "brand": "Inogen",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB",
+    "AU",
+    "CA",
+    "NZ"
+  ],
+  "device_type": "portable-oxygen-concentrator",
+  "prices": {
+    "GB": {
+      "amount": 2150,
+      "currency": "GBP",
+      "source_url": "https://www.portableoxygen.co.uk/inogen-rove-6-16-cell-portable-oxygen-concentrator/",
+      "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 2899,
+      "currency": "AUD",
+      "source_url": "https://store.airliquidehealthcare.com.au/products/rove6",
+      "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 2350,
+      "currency": "CAD",
+      "source_url": "https://cpapsupplycanada.ca/products/inogen-rove-6-portable-oxygen-concentrator-standard-battery",
+      "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 5550,
+      "currency": "NZD",
+      "source_url": "https://www.oxygenplus.co.nz/Inogen-Rove+6.html",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "best-portable-oxygen-concentrator-uk",
+    "au": "portable-oxygen-concentrator-australia",
+    "ca": "portable-oxygen-concentrator-canada",
+    "nz": "oxygen-concentrator-price-nz"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 2.6
+  }
+}

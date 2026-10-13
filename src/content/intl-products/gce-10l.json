@@ -1,0 +1,24 @@
+{
+  "slug": "gce-10l",
+  "source_url": "https://www.megamedical.com.au/products/gce-10l-oxygen-concentrator",
+  "product_name": "GCE 10L oxygen concentrator",
+  "brand": "GCE",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU"
+  ],
+  "device_type": "oxygen-concentrator",
+  "prices": {
+    "AU": {
+      "amount": 1798,
+      "currency": "AUD",
+      "source_url": "https://www.megamedical.com.au/products/gce-10l-oxygen-concentrator",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "home-oxygen-concentrator-australia"
+  },
+  "images": []
+}

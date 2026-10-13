@@ -1,0 +1,40 @@
+{
+  "slug": "resmed-airfit-f20",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-masks/full-face-cpap-masks/airfit-f20/p/64005",
+  "product_name": "ResMed AirFit F20",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB",
+    "AU",
+    "NZ"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "GB": {
+      "amount": 129,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-masks/full-face-cpap-masks/airfit-f20/p/64005",
+      "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 179,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/resmed-airfit-f20-full-face-mask",
+      "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 286.6,
+      "currency": "NZD",
+      "source_url": "https://thesleepspot.co.nz/products/resmed-airfit-f20-full-face-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "cpap-masks-uk",
+    "au": "cpap-masks-australia",
+    "nz": "cpap-masks-nz"
+  },
+  "images": []
+}

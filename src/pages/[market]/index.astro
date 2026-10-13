@@ -1,0 +1,82 @@
+---
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import ArticleCard from '../../components/ArticleCard.astro';
+import { getCollection } from 'astro:content';
+import { resolvePrice } from '../../lib/price';
+import { LIVE_MARKETS, type Market } from '../../data/markets';
+
+export const getStaticPaths = (() =>
+  LIVE_MARKETS.map((market) => ({ params: { market: market.code }, props: { market } }))) satisfies GetStaticPaths;
+
+interface Props {
+  market: Market;
+}
+const { market } = Astro.props;
+
+const [guides, products] = await Promise.all([getCollection('intl-guides'), getCollection('intl-products')]);
+const marketGuides = guides
+  .filter((g) => g.id.startsWith(`${market.code}/`))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title, 'en'));
+const hrefFor = (id: string) => `/${market.code}/guides/${id.split('/').slice(1).join('/')}/`;
+const guideIds = new Set(marketGuides.map((g) => g.id.split('/').slice(1).join('/')));
+
+// Only products marked as sold in this market AND carrying a verified local price.
+const listed = products.filter(
+  (e) => e.data.countries.includes(market.country) && resolvePrice(e.data as any, market.country).amount !== null
+);
+const cardHref = (e: (typeof listed)[number]) => {
+  const g = e.data.guides[market.code];
+  return g && guideIds.has(g) ? `/${market.code}/guides/${g}/` : `/${market.code}/guides/`;
+};
+const groups = [
+  { id: 'o2', title: 'Home oxygen concentrators', types: ['oxygen-concentrator'] },
+  { id: 'poc', title: 'Portable oxygen concentrators', types: ['portable-oxygen-concentrator'] },
+  { id: 'pap', title: 'CPAP and bilevel machines', types: ['cpap', 'bipap'] },
+  { id: 'mask', title: 'CPAP masks', types: ['cpap-mask'] },
+]
+  .map((g) => ({ ...g, items: listed.filter((e) => g.types.includes(e.data.device_type)) }))
+  .filter((g) => g.items.length > 0);
+
+const crumbs = [
+  { href: '/', label: 'Home' },
+  { href: `/${market.code}/`, label: market.label },
+];
+---
+<BaseLayout title={market.hubTitle} description={market.hubDescription} lang={market.lang}>
+  <Breadcrumbs items={crumbs} />
+  <header class="hub-header">
+    <h1>{market.hubTitle}</h1>
+    <p class="lead">{market.hubLead}</p>
+  </header>
+
+  <section aria-labelledby="mk-guides-heading">
+    <h2 id="mk-guides-heading">{market.guidesTitle}</h2>
+    <p><a href={`/${market.code}/guides/`}>All {market.short} guides →</a></p>
+    <div class="grid-2">
+      {marketGuides.map((g) => <ArticleCard entry={g} href={hrefFor(g.id)} />)}
+    </div>
+  </section>
+
+  {groups.map((g) => (
+    <section aria-labelledby={`mk-${g.id}-heading`}>
+      <h2 id={`mk-${g.id}-heading`}>{g.title}</h2>
+      <div class="grid">
+        {g.items.map((entry) => <ProductCard entry={entry} country={market.country} href={cardHref(entry)} />)}
+      </div>
+    </section>
+  ))}
+
+  <p class="note">
+    Retail prices change often and are shown as indicative prices from the named retailer on the date
+    checked. The India catalogue, with rupee pricing, remains at <a href="/">homehealthzone.com</a>.
+  </p>
+</BaseLayout>
+
+<style>
+  .hub-header { margin-bottom: var(--space-8); }
+  section { margin-bottom: var(--space-8); }
+  .note { color: var(--color-text-muted); }
+</style>

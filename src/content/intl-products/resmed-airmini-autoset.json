@@ -1,0 +1,51 @@
+{
+  "slug": "resmed-airmini-autoset",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-machines/travel-cpap-machines/airmini-with-p10/p/3812212GB",
+  "product_name": "ResMed AirMini AutoSet",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB",
+    "AU",
+    "CA",
+    "NZ"
+  ],
+  "device_type": "cpap",
+  "prices": {
+    "GB": {
+      "amount": 820,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-machines/travel-cpap-machines/airmini-with-p10/p/3812212GB",
+      "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 1195,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/resmed-airmini-n30-starter-kit",
+      "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 1270,
+      "currency": "CAD",
+      "source_url": "https://canadiancpapstore.com/products/airmini-auto-ultra-portable-apap-machine",
+      "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 1380,
+      "currency": "NZD",
+      "source_url": "https://thesleepspot.co.nz/products/resmed-airmini-autoset-machine-device-only",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "buying-cpap-privately-uk",
+    "au": "cpap-machine-price-australia",
+    "ca": "cpap-machine-price-canada",
+    "nz": "cpap-machine-price-nz"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 0.3
+  }
+}

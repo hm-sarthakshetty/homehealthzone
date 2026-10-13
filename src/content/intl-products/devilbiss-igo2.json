@@ -1,0 +1,24 @@
+{
+  "slug": "devilbiss-igo2",
+  "source_url": "https://www.portableoxygen.co.uk/oxygen-concentrators/drive-devilbiss-igo2-portable-oxygen-concentrator/",
+  "product_name": "Drive DeVilbiss iGo2",
+  "brand": "Drive DeVilbiss",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB"
+  ],
+  "device_type": "portable-oxygen-concentrator",
+  "prices": {
+    "GB": {
+      "amount": 1995,
+      "currency": "GBP",
+      "source_url": "https://www.portableoxygen.co.uk/oxygen-concentrators/drive-devilbiss-igo2-portable-oxygen-concentrator/",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "best-portable-oxygen-concentrator-uk"
+  },
+  "images": []
+}

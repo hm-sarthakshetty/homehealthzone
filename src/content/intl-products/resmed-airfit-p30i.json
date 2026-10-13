@@ -1,0 +1,48 @@
+{
+  "slug": "resmed-airfit-p30i",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-masks/nasal-pillows-cpap-masks/airfit-p30i/p/63866",
+  "product_name": "ResMed AirFit P30i",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB",
+    "SG",
+    "CA",
+    "NZ"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "GB": {
+      "amount": 119,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-masks/nasal-pillows-cpap-masks/airfit-p30i/p/63866",
+      "checked_at": "2026-10-14"
+    },
+    "SG": {
+      "amount": 250,
+      "currency": "SGD",
+      "source_url": "https://yescpap.com/products/resmed-p30i-cpap-mask",
+      "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 150,
+      "currency": "CAD",
+      "source_url": "https://canadiancpapstore.com/products/airfit-p30i-starter-pack",
+      "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 275,
+      "currency": "NZD",
+      "source_url": "https://awakenz.co.nz/products/resmed-airfit-p30i-nasal-pillows-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "cpap-masks-uk",
+    "sg": "cpap-masks-singapore",
+    "ca": "cpap-masks-canada",
+    "nz": "cpap-masks-nz"
+  },
+  "images": []
+}

@@ -1,0 +1,32 @@
+{
+  "slug": "philips-simplygo-mini",
+  "source_url": "https://www.rapidmedicalsupplies.com.au/products/philips-simplygo-mini-portable-oxygen-concentrator",
+  "product_name": "Philips SimplyGo Mini",
+  "brand": "Philips",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU",
+    "CA"
+  ],
+  "device_type": "portable-oxygen-concentrator",
+  "prices": {
+    "AU": {
+      "amount": 2399,
+      "currency": "AUD",
+      "source_url": "https://www.rapidmedicalsupplies.com.au/products/philips-simplygo-mini-portable-oxygen-concentrator",
+      "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 2950,
+      "currency": "CAD",
+      "source_url": "https://thecpapstore.ca/products/simplygo-mini-portable-oxygen-concentrator-bundle",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "portable-oxygen-concentrator-australia",
+    "ca": "portable-oxygen-concentrator-canada"
+  },
+  "images": []
+}

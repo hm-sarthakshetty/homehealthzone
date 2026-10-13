@@ -25629,6 +25629,2843 @@ Related: [Medicare Advantage vs Original Medicare for DME](/us/guides/medicare-a
 
 ---
 
+# United Kingdom: oxygen concentrators and CPAP
+
+Source: https://homehealthzone.com/uk/
+
+HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.
+
+United Kingdom guides:
+
+- [Portable oxygen concentrators in the UK (2026)](https://homehealthzone.com/uk/guides/best-portable-oxygen-concentrator-uk/)
+- [Buying a CPAP privately in the UK (2026 prices)](https://homehealthzone.com/uk/guides/buying-cpap-privately-uk/)
+- [CPAP masks in the UK: ResMed prices compared (2026)](https://homehealthzone.com/uk/guides/cpap-masks-uk/)
+- [Sleep apnoea and driving: DVLA rules (2026)](https://homehealthzone.com/uk/guides/dvla-sleep-apnoea-driving/)
+- [Flying with CPAP or oxygen from the UK (2026)](https://homehealthzone.com/uk/guides/flying-with-cpap-oxygen-uk/)
+- [Home oxygen abroad from the UK: GHIC rules (2026)](https://homehealthzone.com/uk/guides/home-oxygen-abroad-ghic/)
+- [Home oxygen concentrators in the UK: prices (2026)](https://homehealthzone.com/uk/guides/home-oxygen-concentrator-uk/)
+- [Getting CPAP on the NHS: sleep apnoea route (2026)](https://homehealthzone.com/uk/guides/nhs-cpap-sleep-apnoea/)
+- [NHS home oxygen service: how it works (2026)](https://homehealthzone.com/uk/guides/nhs-home-oxygen-service/)
+- [Power cuts with home oxygen or CPAP in the UK (2026)](https://homehealthzone.com/uk/guides/power-cuts-priority-services-register/)
+- [VAT relief on CPAP and oxygen in the UK (2026)](https://homehealthzone.com/uk/guides/vat-relief-cpap-oxygen-uk/)
+
+---
+
+# Portable oxygen concentrators in the UK (2026)
+
+Source: https://homehealthzone.com/uk/guides/best-portable-oxygen-concentrator-uk/
+
+The NHS provides home oxygen free after assessment. Its portable option is small cylinders: the [NHS](https://www.nhs.uk/tests-and-treatments/home-oxygen-treatment/) says most weigh 2–3 kg and hold up to 3 hours of oxygen. A portable oxygen concentrator (POC) makes its own oxygen from room air, so it doesn't run out while the battery lasts. This guide covers buying one privately, for example for flying, longer days out or holidays.
+
+## UK prices
+
+| Model | Price before VAT | Type | Weight | Battery (published) |
+| --- | --- | --- | --- | --- |
+| Inogen Rove 6, 16-cell battery | £2,150 ([portableoxygen.co.uk](https://www.portableoxygen.co.uk/inogen-rove-6-16-cell-portable-oxygen-concentrator/)) | Pulse dose, 6 settings | 2.6 kg with 16-cell battery | Up to 13 hours (lowest setting); 8-cell up to 6½ hours |
+| Drive DeVilbiss iGo2 | £1,995 ([portableoxygen.co.uk](https://www.portableoxygen.co.uk/oxygen-concentrators/drive-devilbiss-igo2-portable-oxygen-concentrator/)) | Pulse dose (SmartDose, auto-adjusting), 6 settings | 2.2 kg | Minimum 3.5 hours at setting 2 |
+
+Prices and specifications are from the retailer's listings, read 14 October 2026. The retailer showed the Rove 6 (16-cell) at £2,580 including VAT, or £2,150 with VAT relief. It lists both models as FAA-compliant or approved for in-flight use. Other models on the same site, including the CAIRE FreeStyle Comfort, Inogen One G5 and Philips SimplyGo, had no price shown or were out of stock that day, so we haven't listed them.
+
+## Pulse dose isn't the same as NHS continuous flow
+
+Both machines above deliver oxygen in pulses as you breathe in, measured in settings rather than litres per minute. A setting number isn't equivalent to a litre-per-minute flow. If your NHS prescription is continuous flow, or you need oxygen while asleep, ask your oxygen team whether a pulse-dose machine suits you. If it doesn't, you need a continuous-flow model.
+
+## VAT relief
+
+[HMRC Notice 701/7](https://www.gov.uk/guidance/reliefs-from-vat-for-disabled-and-older-people-notice-7017) names oxygen concentrators as zero-rated medical appliances. This applies when they are supplied to someone chronically sick or disabled for personal or domestic use. Spare batteries designed solely for the device can also qualify, but general-purpose batteries don't. See our [VAT relief guide](/uk/guides/vat-relief-cpap-oxygen-uk/).
+
+## Flying
+
+The [CAA](https://caa.co.uk/air-passengers/about-your-trip/health-and-medical/travelling-with-medicines-mobility-and-medical-equipment/) says:
+
+- contact the airline before your trip
+- carry a doctor's letter or your prescription
+- expect the device to go through the X-ray scanner in a separate tray
+
+Most airlines don't provide aircraft power for passenger medical equipment, so plan enough battery for the whole journey. All batteries, including spares, must meet the airline's rules. See [flying with CPAP or oxygen](/uk/guides/flying-with-cpap-oxygen-uk/).
+
+## The verdict
+
+If you fly or travel often and your clinic agrees a pulse-dose setting is right, the Rove 6 with the 16-cell battery (£2,150 before VAT) is the longer-running choice. The iGo2 (£1,995) is lighter. If your NHS prescription is continuous flow, neither replaces it, so speak to your oxygen team before buying.
+
+---
+
+# Buying a CPAP privately in the UK (2026 prices)
+
+Source: https://homehealthzone.com/uk/guides/buying-cpap-privately-uk/
+
+In the UK, [CPAP is free on the NHS](https://www.nhs.uk/conditions/obstructive-sleep-apnoea/) if you need it. So most private buyers are after a second machine, a travel machine or a newer model. This guide uses prices from ResMed's own UK shop, read on 14 October 2026.
+
+## UK prices
+
+| Model | Price on ResMed UK shop | What it is |
+| --- | --- | --- |
+| AirSense 11 AutoSet | £669 + VAT ([ResMed](https://shop.resmed.com/GB/en/cpap-machines/airsense-11-autoset/p/39172)) | Auto CPAP machine |
+| AirSense 11 AutoSet complete device package | £766 + VAT ([ResMed](https://shop.resmed.com/GB/en/cpap-machines/home-cpap-machines/airsense-11-autoset-complete-device-package/p/39174)) | Machine sold as a package |
+| AirMini AutoSet with AirFit P10 mask | £820 + VAT ([ResMed](https://shop.resmed.com/GB/en/cpap-machines/travel-cpap-machines/airmini-with-p10/p/3812212GB)) | Travel auto CPAP bundle |
+| AirMini with AirFit F20 mask | £855 + VAT ([ResMed](https://shop.resmed.com/GB/en/cpap-machines/travel-cpap-machines/airmini-with-f20/p/3812201GB)) | Travel bundle with a full-face mask |
+
+ResMed shows these prices "plus VAT". A buyer who qualifies for [VAT relief](/uk/guides/vat-relief-cpap-oxygen-uk/) pays the listed figure. Other buyers add 20%.
+
+Published specifications: the AirSense 11 weighs about 1.1 kg with a 4–20 cmH₂O pressure range. The AirMini weighs about 0.3 kg and has no water tub. It uses waterless HumidX humidification instead.
+
+## Running costs and consumables
+
+From the same shop on the same date:
+
+| Item | Price + VAT |
+| --- | --- |
+| HumidAir 11 heated humidifier | £79 |
+| ClimateLineAir 11 heated tube | £32.50 |
+| AirSense 11 filters, 2-pack | £4.50 |
+| AirSense 11 filters, 12-pack | £22 |
+| AirSense 11 power supply unit | £77 |
+| HumidX Plus (AirMini), 6-pack | £48 |
+
+Masks cost about £104–£137 + VAT. See [CPAP masks in the UK](/uk/guides/cpap-masks-uk/).
+
+Electricity costs little. At the Ofgem price cap of [26.32p per kWh](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/energy-price-cap-unit-rates-and-standing-charges) (October to December 2026, Direct Debit average), every 100 W drawn for 8 hours costs about 21p. A CPAP's draw rises with humidification and a heated tube.
+
+## AirSense 11 or AirMini?
+
+- **AirSense 11** is the bedside machine. It has a water-tub humidifier option (HumidAir 11) and costs less.
+- **AirMini** is for travel. It is very light, but there's no water tub and the bundle price is higher. Buy one only if you travel often. The CAA says airlines don't guarantee in-flight power, so check before you fly (see [flying with CPAP or oxygen](/uk/guides/flying-with-cpap-oxygen-uk/)).
+
+## Before you buy
+
+- **Check the NHS route.** It is free if you need CPAP. Use our [NHS CPAP guide](/uk/guides/nhs-cpap-sleep-apnoea/).
+- **Use your prescribed pressure.** Ask your sleep clinic for your settings, or whether to use auto mode.
+- **Claim VAT relief at checkout, not afterwards.** ResMed's shop says it can't refund VAT paid in error.
+
+## The verdict
+
+For a private bedside machine, the AirSense 11 AutoSet at £669 + VAT is the default. Buy an AirMini bundle (from £820 + VAT) only as a travel second unit. Either way, claim VAT relief if you have sleep apnoea.
+
+---
+
+# CPAP masks in the UK: ResMed prices compared (2026)
+
+Source: https://homehealthzone.com/uk/guides/cpap-masks-uk/
+
+All prices below are from [ResMed's UK shop](https://shop.resmed.com/GB/en/), read 14 October 2026. ResMed lists them "plus VAT". A buyer who qualifies for [VAT relief](/uk/guides/vat-relief-cpap-oxygen-uk/) pays the listed price.
+
+## Full-face masks
+
+For mouth breathers, or anyone whose mouth falls open at night.
+
+| Mask | Price + VAT |
+| --- | --- |
+| AirFit F20 | £129 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/full-face-cpap-masks/airfit-f20/p/64005)) |
+| AirFit F20 for Her | £129 |
+| AirTouch F20 (memory-foam cushion) | £135 |
+| AirFit F30i (tube connects at the top of the head) | £135 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/airfit-f30i/p/63310)) |
+| AirFit F40 | £137 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/full-face-cpap-masks/airfit-f40/p/64614)) |
+| Quattro Air / Quattro Air for Her | £129 |
+| Mirage Quattro | £130 |
+
+## Nasal masks and nasal cradles
+
+For nose breathers who want a cushion that sits around or under the nose.
+
+| Mask | Price + VAT |
+| --- | --- |
+| Mirage FX / FX for Her | £104 |
+| AirFit N20 for Her | £110 |
+| AirTouch N20 | £110 |
+| AirFit N30i (cradle, top-of-head tube) | £110 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/airfit-n30i-nasal-cradle-mask/p/63817)) |
+| AirTouch N30i | £132.50 |
+
+## Nasal pillows
+
+The lightest option. Pillows sit at the nostrils. Not suited to mouth breathing unless you use a chin strap.
+
+| Mask | Price + VAT |
+| --- | --- |
+| AirFit P10 / P10 for Her | £107.50 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/nasal-pillows-cpap-masks/airfit-p10-pillow-mask/p/62901)) |
+| AirFit P30i (top-of-head tube) | £119 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/nasal-pillows-cpap-masks/airfit-p30i/p/63866)) |
+
+## AirMini users
+
+The AirMini needs mask-specific kits. ResMed's UK shop lists:
+
+- AirFit N30 kit for AirMini: £142 + VAT
+- AirFit P10 kit for AirMini: £139 + VAT
+- AirMini set-up pack for an existing N20 mask (no mask or device): £39 + VAT
+
+## Cheaper than a new mask
+
+Often you only need a part. On the same shop:
+
+- AirFit F20 headgear: £39 + VAT
+- AirFit F20 frame: £43 + VAT
+- AirFit F20 soft sleeves: £7 + VAT
+- QuietAir vent for AirFit F20/F30: £35 + VAT
+- ResMed mask wipes, 62 pack: £12 + VAT
+
+## How to choose
+
+1. **Mouth breathing or a dry mouth in the morning?** Start with full face. The F20 is the standard choice; the F40 and F30i are more minimal.
+2. **Nose breather?** Pillows (P10, P30i) feel the lightest. A nasal cushion (N20, N30i) suits people who find pillows irritating.
+3. **Sleep on your side or move around?** Top-of-head tube designs (F30i, N30i, P30i) keep the hose out of the way.
+4. **Sizing.** Most of these masks come in several cushion sizes, so use the manufacturer's fitting guide.
+
+## The verdict
+
+If you're on NHS CPAP, ask your sleep clinic about replacement masks first. If you buy privately, the F20 (£129 + VAT) and P10 (£107.50 + VAT) are the safest starting points for mouth and nose breathers. Replacing a cushion or headgear is often much cheaper than buying a new mask.
+
+---
+
+# Sleep apnoea and driving: DVLA rules (2026)
+
+Source: https://homehealthzone.com/uk/guides/dvla-sleep-apnoea-driving/
+
+Obstructive sleep apnoea (OSA) affects your driving because of the daytime sleepiness it causes. The rules below come from [GOV.UK: excessive sleepiness and driving](https://www.gov.uk/sleep-apnoea-and-driving), read on 14 October 2026.
+
+## When you must tell the DVLA
+
+GOV.UK says you must tell the DVLA if you have:
+
+- confirmed **moderate or severe** obstructive sleep apnoea syndrome **with excessive sleepiness**
+- narcolepsy, cataplexy, or both
+- **any other sleep condition** that has caused excessive sleepiness for **at least 3 months**, including suspected or confirmed **mild** OSA
+
+The severity bands come from your sleep study. The [NHS](https://www.nhs.uk/conditions/obstructive-sleep-apnoea/) classes an apnoea–hypopnoea index (AHI) of 5–14 as mild, 15–30 as moderate and over 30 as severe.
+
+| Your situation | Tell the DVLA? |
+| --- | --- |
+| Moderate or severe OSA with excessive sleepiness | Yes |
+| Mild OSA, or suspected OSA, with excessive sleepiness for 3 months or more | Yes |
+| Snoring or a diagnosis without excessive sleepiness | Not under the conditions GOV.UK lists. Ask your doctor if unsure |
+
+## When you must stop driving
+
+You must not drive until you're free from excessive sleepiness, or until your symptoms are under control and you're strictly following any necessary treatment. GOV.UK suggests asking your doctor if you're not sure whether your sleepiness affects your driving.
+
+For most people with moderate or severe OSA, the treatment is CPAP. The [NHS](https://www.nhs.uk/conditions/obstructive-sleep-apnoea/) says you'll get a CPAP machine free on the NHS if you need one.
+
+## How to tell the DVLA
+
+| Licence | How to report |
+| --- | --- |
+| Car or motorcycle | Online, or form SL1 by post |
+| Bus, coach or lorry | Form SL1V by post |
+
+The address is on each form.
+
+## Penalties
+
+You can be fined up to £1,000 if you don't tell the DVLA about a medical condition that affects your driving. You may be prosecuted if you're involved in an accident as a result.
+
+## While you wait for a sleep study
+
+Until your sleepiness is assessed and controlled, the GOV.UK rule still applies: if you are excessively sleepy, don't drive. GOV.UK points drivers to its "Tiredness can kill" guidance on driving while tired.
+
+## The verdict
+
+If you are excessively sleepy, tell the DVLA and stop driving until treatment has your symptoms under control. If you've been prescribed CPAP, use it every night as prescribed. A diagnosis without excessive sleepiness doesn't fall under the conditions GOV.UK lists, but confirm with your doctor.
+
+See also: [getting CPAP on the NHS](/uk/guides/nhs-cpap-sleep-apnoea/).
+
+---
+
+# Flying with CPAP or oxygen from the UK (2026)
+
+Source: https://homehealthzone.com/uk/guides/flying-with-cpap-oxygen-uk/
+
+The rules for medical devices on flights from the UK are set mostly by each airline, within international safety requirements. The [UK Civil Aviation Authority's guidance](https://caa.co.uk/air-passengers/about-your-trip/health-and-medical/travelling-with-medicines-mobility-and-medical-equipment/) is the common starting point. This guide summarises it, read on 14 October 2026.
+
+## CPAP machines
+
+- **Check with the airline before booking** about taking your CPAP on board. Ask whether it needs a letter from your GP confirming you need it.
+- **Power isn't guaranteed.** The CAA says there's no guarantee of a power source on board, so the airline may suggest a dry-cell battery-operated device.
+- **Security.** Electrically powered medical equipment is usually X-rayed in a separate tray. Carry a doctor's letter or your prescription in case security staff ask.
+
+A small travel CPAP such as the ResMed AirMini can make battery use easier. See [buying a CPAP privately](/uk/guides/buying-cpap-privately-uk/).
+
+## Portable oxygen concentrators
+
+- **Tell the airline in advance** and check its requirements. The CAA says this applies to any electrically powered medical equipment you take on board.
+- **Bring enough battery.** Most airlines don't provide aircraft power for passenger medical equipment, so to use it in flight it must run on battery. All batteries, including spares, must meet the airline's carriage rules.
+- **Take-off and landing.** You usually can't use electronic equipment during take-off and landing. Some devices are tested and approved for use throughout the flight, but you must agree this with the airline well before travel.
+
+Battery life varies a lot by setting. See [portable oxygen concentrators in the UK](/uk/guides/best-portable-oxygen-concentrator-uk/).
+
+## Oxygen cylinders
+
+International requirements allow small oxygen or air cylinders for medical use, but **only with the airline's prior agreement**. Some airlines let you bring your own. Others supply special cylinders, usually for a fee. Some don't allow either.
+
+## Damage and insurance
+
+Airlines are liable for damage to mobility equipment, but the CAA says compensation is often limited to around £1,300. For an expensive concentrator, consider extra insurance.
+
+## Planning timeline
+
+| When | Action |
+| --- | --- |
+| Before booking | Ask the airline about your device, battery rules, forms and fees |
+| A few weeks ahead | Get a doctor's letter. Arrange any airline medical clearance it asks for |
+| Before you fly | Charge all batteries. Pack the device and spares in hand luggage as the airline directs |
+| At the airport | Expect the device to be X-rayed separately. Have the letter ready |
+| At your destination | If you use NHS oxygen, arrange local supply in advance. See [home oxygen abroad](/uk/guides/home-oxygen-abroad-ghic/) |
+
+## The verdict
+
+Before you book, ask the airline about your device and its batteries, and get its answer in writing. Plan to run on battery for the whole flight. Carry a doctor's letter. Arrange oxygen at your destination before you leave.
+
+---
+
+# Home oxygen abroad from the UK: GHIC rules (2026)
+
+Source: https://homehealthzone.com/uk/guides/home-oxygen-abroad-ghic/
+
+## Holidays in the UK
+
+The [NHS](https://www.nhs.uk/tests-and-treatments/home-oxygen-treatment/) says to talk to your oxygen supplier about delivering oxygen to your holiday destination, giving as much notice as possible. [Air Liquide](https://uk.healthcare.airliquide.com/respiratory/our-solutions/home-oxygen-service) lists delivery to holiday and temporary-stay destinations within the UK as part of its service.
+
+## Holidays abroad
+
+The NHS advises speaking to your local clinic as soon as possible if you're planning a holiday abroad. You'll also need travel insurance.
+
+The key rules come from [NHS Business Services Authority guidance](https://faq.nhsbsa.nhs.uk/knowledgebase/article/KA-26797/en-us), read 14 October 2026:
+
+- A UK Global Health Insurance Card (GHIC) or UK European Health Insurance Card (EHIC) **covers the provision of oxygen**.
+- You must use the **authorised oxygen company for the country you're visiting**. To find it, contact that country's health authority.
+- You must **arrange it before you travel**. Your home supplier will usually not be able to provide oxygen for you abroad.
+- **Canary Islands:** you need a minimum of **15 hours a day** of prescribed oxygen to have treatment organised through the Spanish health authorities. Below that, you may be expected to pay privately.
+
+## A checklist
+
+| When | What to do |
+| --- | --- |
+| As soon as you plan the trip | Speak to your oxygen clinic about whether you're fit to travel and what you'll need |
+| Before booking flights | Contact the airline. The [CAA](https://caa.co.uk/air-passengers/about-your-trip/health-and-medical/travelling-with-medicines-mobility-and-medical-equipment/) says oxygen cylinders are carried only with the airline's prior agreement |
+| Weeks ahead | Contact the destination country's health authority to identify its authorised oxygen supplier, and arrange supply using your GHIC or EHIC |
+| Before you go | Get travel insurance that covers your condition. Carry your prescription and a doctor's letter |
+| If you use a portable concentrator | Plan enough battery for the journey. The CAA says most airlines don't provide aircraft power for passenger medical equipment |
+
+## Private alternatives
+
+If you don't qualify, for example under the Canary Islands 15-hour rule, you can pay a private oxygen provider at your destination. Or you can take a portable concentrator if your clinic agrees a pulse-dose setting suits you. See [portable oxygen concentrators in the UK](/uk/guides/best-portable-oxygen-concentrator-uk/).
+
+## The verdict
+
+For trips in the UK, your NHS supplier delivers. For trips abroad, start early. Your GHIC covers oxygen only through the destination's authorised supplier, arranged before you leave, and the Canary Islands have a 15-hour minimum. Arrange flights and insurance separately.
+
+---
+
+# Home oxygen concentrators in the UK: prices (2026)
+
+Source: https://homehealthzone.com/uk/guides/home-oxygen-concentrator-uk/
+
+Most people in the UK should get home oxygen through the NHS. The [NHS](https://www.nhs.uk/tests-and-treatments/home-oxygen-treatment/) assesses you, and a contracted supplier installs, services and supports the equipment. NHS guidance also says the supplier arranges payment for the electricity a concentrator uses. See [how the NHS home oxygen service works](/uk/guides/nhs-home-oxygen-service/).
+
+The NHS warns that buying oxygen online and using it without a prescription can be dangerous. It can damage the brain, heart and lungs, or even kill. If you do buy privately, for example as a backup or for a second home, use only the flow your clinician prescribed.
+
+## UK prices
+
+All from [portableoxygen.co.uk](https://www.portableoxygen.co.uk/oxygen-concentrators/domestic-oxygen-concentrators/) (Intermedical Homecare), read 14 October 2026, before VAT. Specifications are as listed by the retailer.
+
+| Model | Price before VAT | Flow | Weight | Power | Sound |
+| --- | --- | --- | --- | --- | --- |
+| Philips Oxygenate 5 | £785 | 0.5–5 L/min | approx. 18 kg | under 360 W | — |
+| Drive DeVilbiss 525 | £810 | 0.5–5 L/min | 16.3 kg | 290–312 W | 40 dBA |
+| AirSep VisionAire 5 | £840 | 1–5 L/min | 13.6 kg | 290 W | 39 dB(A) |
+| Drive DeVilbiss 1025 | £990 | 2–10 L/min | 19 kg | 670 W | 57 dBA |
+| NewLife Intensity 10 | £1,595 | 2–10 L/min | 26.4 kg | 590 W | — |
+
+The same retailer showed the Philips EverFlo (£795) and Nidek Nuvo Lite 5 (£945) as out of stock, so we left them out.
+
+## Running cost
+
+At the [Ofgem price cap](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/energy-price-cap-unit-rates-and-standing-charges) of 26.32p per kWh (October to December 2026, Direct Debit average for England, Scotland and Wales):
+
+| Power draw | Per day (24 h) | Per month (30 days) |
+| --- | --- | --- |
+| 290 W (VisionAire 5) | £1.83 | £54.96 |
+| 312 W (DeVilbiss 525, top of range) | £1.97 | £59.13 |
+| 590 W (NewLife Intensity 10) | £3.73 | £111.81 |
+| 670 W (DeVilbiss 1025) | £4.23 | £126.97 |
+
+These figures assume the maximum listed draw, all day. Many machines draw less at low flow. The retailer says the DeVilbiss 525 draws less below 2.5 L/min. On the NHS, the supplier arranges payment for this electricity. If you buy privately, you pay it yourself.
+
+## VAT relief
+
+[HMRC Notice 701/7](https://www.gov.uk/guidance/reliefs-from-vat-for-disabled-and-older-people-notice-7017) lists oxygen concentrators as zero-rated medical appliances for a chronically sick or disabled person buying for personal or domestic use. See [VAT relief on CPAP and oxygen](/uk/guides/vat-relief-cpap-oxygen-uk/).
+
+## 5 or 10 litres?
+
+Buy for your prescription, not the maximum. A 5-litre machine covers prescriptions up to 5 L/min. A 10-litre machine is only needed above that, and it costs more to run, weighs more and is louder: the DeVilbiss 1025 is listed at 57 dBA against 40 dBA for the 525.
+
+## The verdict
+
+Use the NHS route if you need home oxygen. It covers the equipment, servicing and electricity. If you have a specific reason to buy, a 5-litre machine such as the DeVilbiss 525 (£810 before VAT) or VisionAire 5 (£840) covers most prescriptions. Buy a 10-litre machine only if your prescription is above 5 L/min.
+
+---
+
+# Getting CPAP on the NHS: sleep apnoea route (2026)
+
+Source: https://homehealthzone.com/uk/guides/nhs-cpap-sleep-apnoea/
+
+Most people in the UK who use CPAP got it through the NHS. This is the route as the [NHS sleep apnoea page](https://www.nhs.uk/conditions/obstructive-sleep-apnoea/) describes it, read 14 October 2026, with the NICE position alongside.
+
+## 1. See your GP
+
+The NHS suggests seeing a GP if your breathing stops and starts while you sleep, you make gasping, snorting or choking noises, or you always feel very tired during the day. Someone who has watched you sleep can help by coming to the appointment with you.
+
+## 2. Sleep clinic tests
+
+If the GP thinks you might have sleep apnoea, they may refer you to a specialist sleep clinic. The clinic gives you devices that record things like your breathing and heartbeat overnight. You can usually do this at home, but sometimes you may need to stay in the clinic.
+
+The result is your apnoea–hypopnoea index (AHI), the number of breathing pauses per hour:
+
+| AHI | NHS severity |
+| --- | --- |
+| 5–14 | Mild |
+| 15–30 | Moderate |
+| Over 30 | Severe |
+
+## 3. Treatment
+
+The NHS says many people need a CPAP machine and that **you'll be given one for free on the NHS if you need it**. CPAP pumps air through a mask over your nose, or nose and mouth, while you sleep. It can improve your breathing and sleep quality, and reduce the risk of problems linked to sleep apnoea such as high blood pressure. The NHS adds that it works best if you use it every night.
+
+[NICE technology appraisal TA139](https://www.nice.org.uk/guidance/ta139/chapter/1-Guidance) recommends CPAP as a treatment option for adults with moderate or severe symptomatic obstructive sleep apnoea/hypopnoea syndrome. Its recommendation on mild OSA has been replaced by recommendation 1.5.2 of NICE guideline NG202 (2021).
+
+The NHS also lists these other treatments:
+
+- a mandibular advancement device, which looks like a gum shield
+- surgery, such as removing large tonsils
+- exercises for the mouth and facial muscles
+- hypoglossal nerve stimulation
+
+For mild sleep apnoea, lifestyle changes may be enough. These include losing weight, stopping smoking, drinking less alcohol, regular exercise and sleeping on your side.
+
+## 4. Driving
+
+If you have excessive sleepiness, you may have to tell the DVLA and stop driving until it is under control. See [sleep apnoea and driving](/uk/guides/dvla-sleep-apnoea-driving/).
+
+## Buying privately alongside the NHS
+
+People buy privately for a travel machine, a second unit, or a newer model. If you do:
+
+- **Claim VAT relief.** A UK seller can zero-rate VAT for someone with a chronic illness buying for personal use. See [VAT relief on CPAP and oxygen](/uk/guides/vat-relief-cpap-oxygen-uk/).
+- **Use your prescribed settings.** Tell your sleep clinic you're using a second machine, so they can confirm the pressure settings.
+- **Compare prices.** UK prices for the AirSense 11 and AirMini are in our [private CPAP guide](/uk/guides/buying-cpap-privately-uk/).
+
+## The verdict
+
+Start with your GP. On the NHS route, the CPAP machine itself is free. Buy privately only for a second or travel machine, and claim VAT relief if you have a chronic condition.
+
+---
+
+# NHS home oxygen service: how it works (2026)
+
+Source: https://homehealthzone.com/uk/guides/nhs-home-oxygen-service/
+
+In the UK most people who need long-term oxygen get it free through the NHS, not from a shop. A GP or hospital team refers you for assessment. If oxygen is prescribed, a contracted supplier installs the equipment, services it and arranges payment for the electricity it uses. This guide follows that route step by step. It also covers where buying privately fits.
+
+## 1. Assessment
+
+The [NHS says](https://www.nhs.uk/tests-and-treatments/home-oxygen-treatment/) your doctor refers you to a specialist clinic if oxygen might help. The clinic checks your blood oxygen with a blood test and a finger or earlobe sensor (pulse oximetry). It may also do an exercise or walking test. Conditions where home oxygen can help include:
+
+- COPD
+- pulmonary fibrosis
+- heart failure
+- severe long-term asthma
+- pulmonary hypertension
+- cystic fibrosis
+
+The NHS also warns that buying oxygen online and using it without a prescription can be dangerous. It can damage your brain, heart and lungs, or even kill you.
+
+## 2. The order form (HOOF) and consent (HOCF)
+
+Your clinician orders equipment on a Home Oxygen Order Form (HOOF). [NHS guidance for Norfolk and Waveney](https://nwknowledgenow.nhs.uk/wp-content/uploads/2025/04/Home-oxygen-therapy-service.pdf) describes two versions:
+
+| Form | Who uses it | What it can order |
+| --- | --- | --- |
+| HOOF A | Non-specialist clinicians, or a temporary order while you wait for assessment | A static concentrator and cylinders for use at home |
+| HOOF B | Specialist home oxygen assessment and review teams (HOS-AR) and paediatric teams | Long-term oxygen therapy (LTOT), cylinders and ambulatory (portable) oxygen |
+
+You also sign a Home Oxygen Consent Form (HOCF). [Air Liquide's guidance for prescribers](https://uk.healthcare.airliquide.com/chronic-respiratory-diseases/our-solutions/ordering-home-oxygen) says this consent lets your details go to the oxygen supplier and other parties, including the fire and rescue service and electricity distributors. Before ordering, the clinician also does a risk assessment covering smoking and e-cigarettes near the equipment.
+
+## 3. Who supplies your region
+
+| Region (NHS list) | Supplier |
+| --- | --- |
+| South West of England | Air Liquide |
+| East of England, London, North West, Yorkshire and the Humber, West Midlands, Wales | Baywater Healthcare |
+| East Midlands, Northern Ireland | BOC |
+| North East and South East of England | Vivisol |
+| Scotland | Dolby Vivisol ([Asthma + Lung UK](https://www.asthmaandlung.org.uk/symptoms-tests-treatments/treatments/home-oxygen-therapy/how-home-oxygen-delivered)) |
+
+The regions come from the [NHS home oxygen page](https://www.nhs.uk/tests-and-treatments/home-oxygen-treatment/), read 14 October 2026. Asthma + Lung UK lists a separate Air Liquide number for London, while the NHS page lists London under Baywater. If you live in London, check the supplier named on your paperwork.
+
+## 4. What you get
+
+The NHS describes three kinds of equipment:
+
+- **Oxygen concentrator.** Recommended if you need oxygen for most of the day, including while asleep. It is about the size of a bedside table and plugs into the mains.
+- **Large cylinders.** Usually for short periods, for example to relieve sudden breathlessness.
+- **Portable cylinders (ambulatory oxygen).** Most weigh about 2–3 kg and hold up to 3 hours of oxygen. They are not suitable for everyone.
+
+Standard installation takes about 3 working days, according to the Norfolk and Waveney guidance. Urgent orders can be delivered within 4 hours at a higher service cost.
+
+[Air Liquide](https://uk.healthcare.airliquide.com/respiratory/our-solutions/home-oxygen-service) lists these service commitments:
+
+- equipment servicing every 3 to 6 months
+- a 24-hour call centre
+- next-working-day delivery of ambulatory cylinders and liquid oxygen base units
+- oxygen delivered to holiday addresses within the UK
+
+## 5. Electricity
+
+A concentrator runs on your mains electricity. The Norfolk and Waveney guidance says the supplier is responsible for arranging payment of the electricity costs of the concentrator it supplies. Each supplier runs its own refund process, so ask yours how it works. Our [home concentrator guide](/uk/guides/home-oxygen-concentrator-uk/#running-cost) shows what a concentrator uses at the current price cap.
+
+## 6. Safety at home
+
+The NHS asks you to:
+
+- tell your local fire service you have oxygen at home, so it can arrange a free fire safety check
+- keep the equipment at least 3 metres from open flames such as a gas cooker or gas fire
+- keep it at least 1.5 metres from other electrical appliances and heat sources such as radiators
+- never smoke, or let anyone smoke near you, while using it
+- avoid flammable liquids, aerosols and oil-based emollients such as Vaseline
+
+Your consent form also lets your details be shared with the fire and rescue service, so a home fire safety visit can be arranged.
+
+## 7. Holidays
+
+- **In the UK:** ask your supplier to deliver oxygen to your destination, giving as much notice as possible.
+- **Abroad:** speak to your clinic early. Your UK Global Health Insurance Card (GHIC) can cover state-provided oxygen, but you must arrange it with the country's authorised supplier before you go. See [travelling abroad with home oxygen](/uk/guides/home-oxygen-abroad-ghic/).
+
+## Where private buying fits
+
+Some people buy a portable concentrator privately for extra freedom, such as flying or longer days out, on top of their NHS supply. If you do, agree the flow setting with your clinician. A pulse-dose portable is not a like-for-like swap for continuous-flow NHS equipment. Our [portable oxygen concentrator guide](/uk/guides/best-portable-oxygen-concentrator-uk/) lists UK prices and VAT relief.
+
+## The verdict
+
+For long-term home oxygen in the UK, start with the NHS route through your GP or specialist. Oxygen is prescribed after assessment, installed, serviced and supported 24 hours a day, and the supplier arranges payment for the electricity. Buy privately only for needs the NHS supply doesn't meet, and only at a prescribed setting.
+
+---
+
+# Power cuts with home oxygen or CPAP in the UK (2026)
+
+Source: https://homehealthzone.com/uk/guides/power-cuts-priority-services-register/
+
+A concentrator or CPAP stops when the power goes off. In the UK, the main protection is the **Priority Services Register (PSR)**, plus a backup plan agreed with your NHS oxygen supplier.
+
+## The Priority Services Register
+
+From [Ofgem](https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/join-your-suppliers-priority-services-register), read 14 October 2026:
+
+- **Two registers.** Your energy supplier (the company that bills you) and your network operator (the company responsible for the wires) each keep a PSR. Contact both directly.
+- **Who can join.** People who have reached state pension age. People with a disability or long-term medical condition, including those who use medical equipment that needs a power supply.
+- **What you get:**
+  - priority support in an emergency
+  - wherever possible, advance notice of scheduled power cuts
+  - an identification and password scheme, so you know a caller or visitor is genuine
+
+The PSR doesn't guarantee your power stays on. It means you're known and prioritised for help.
+
+## NHS home oxygen consent
+
+When NHS home oxygen starts, you sign a Home Oxygen Consent Form. [Air Liquide's prescriber guidance](https://uk.healthcare.airliquide.com/chronic-respiratory-diseases/our-solutions/ordering-home-oxygen) says it covers sharing your details with the oxygen supplier and other parties, including fire and rescue services and electricity distributors. Registering with your own supplier and network operator as well means you're on both lists.
+
+## A power-cut plan
+
+| Equipment | Plan |
+| --- | --- |
+| NHS oxygen concentrator | Ask your oxygen supplier what backup it provides, such as cylinders, and how to switch over. Suppliers run a 24-hour helpline: [Air Liquide](https://uk.healthcare.airliquide.com/respiratory/our-solutions/home-oxygen-service) lists a 24-hour, 7-day call centre |
+| Portable concentrator | Keep batteries charged. Battery life depends on the setting. See [portable concentrators](/uk/guides/best-portable-oxygen-concentrator-uk/) |
+| CPAP | Ask your sleep clinic whether you can safely skip a night. For a battery option, check what the manufacturer supports for your model |
+
+## Supplier phone numbers
+
+From the [NHS home oxygen page](https://www.nhs.uk/tests-and-treatments/home-oxygen-treatment/) and [Asthma + Lung UK](https://www.asthmaandlung.org.uk/symptoms-tests-treatments/treatments/home-oxygen-therapy/how-home-oxygen-delivered):
+
+| Supplier | Number |
+| --- | --- |
+| Air Liquide (South West) | 0808 143 9999 |
+| Baywater Healthcare | 0800 373 580 |
+| BOC | 0800 136 603 |
+| Vivisol (North East and South East England) | 0800 917 9840 |
+| Dolby Vivisol (Scotland) | 0800 833 531 |
+
+## The verdict
+
+Join both Priority Services Registers today. Agree a backup with your oxygen supplier. Keep the supplier's 24-hour number by the concentrator.
+
+---
+
+# VAT relief on CPAP and oxygen in the UK (2026)
+
+Source: https://homehealthzone.com/uk/guides/vat-relief-cpap-oxygen-uk/
+
+UK retailers list most CPAP machines, masks and oxygen concentrators at two prices: with and without VAT. The lower price is what you pay if you qualify for VAT relief for disabled people and people with chronic illness. The rules are in [HMRC VAT Notice 701/7](https://www.gov.uk/guidance/reliefs-from-vat-for-disabled-and-older-people-notice-7017). This guide sets out what they mean for respiratory equipment.
+
+## Who qualifies
+
+Under the notice, "disabled" means disabled or chronically sick. A person qualifies if they have either:
+
+- a physical or mental impairment with a long-term and substantial effect on everyday activities, or
+- a condition the medical profession treats as a chronic sickness. HMRC's example is diabetes.
+
+The relief is not means-tested and doesn't depend on benefits. You don't need to be registered disabled. It does not cover an older person who isn't chronically sick, or someone who is only temporarily incapacitated. A parent, spouse or guardian can buy on the person's behalf.
+
+[ResMed's UK shop](https://shop.resmed.com/GB/en/vatinfo) and [Intus Healthcare](https://www.cpap.co.uk/vat-relief-for-cpap/) both give obstructive sleep apnoea as an example of a chronic sickness. HMRC itself won't rule on individual customers. The supplier is responsible for deciding.
+
+## Which equipment qualifies
+
+| Item | Position under Notice 701/7 |
+| --- | --- |
+| Oxygen concentrators | Named in paragraph 4.2.2 as a zero-rated medical appliance |
+| Artificial respirators | Named in the same list |
+| Parts and accessories | Zero-rated if designed solely for use with an eligible item (paragraph 4.9) |
+| General-purpose batteries | Not eligible on their own, even if bought for an eligible device (paragraph 4.9) |
+| Hire or lease | Hire or lease of eligible goods to an eligible person can be zero-rated (paragraph 4.12) |
+| Repair and maintenance | Can be zero-rated for eligible goods (paragraph 5.2) |
+
+CPAP machines and masks aren't named in the notice's example list. UK sleep retailers mark which products they treat as eligible. On ResMed's UK shop, the VAT-relief checkbox only appears next to eligible items.
+
+## Conditions that apply to every purchase
+
+All three must be true:
+
+1. **Eligible customer.** You are chronically sick or disabled, as above.
+2. **Personal or domestic use.** Business use doesn't qualify. Neither do supplies to hospital inpatients or nursing-home residents for care given there.
+3. **Eligible goods.** The item is designed for, and relates to, your condition.
+
+The notice adds one more restriction for medical appliances. They are zero-rated only if sold without you needing to attend a hospital or nursing home for their fitting.
+
+## The declaration
+
+HMRC doesn't issue exemption certificates. Instead, you give the supplier a written declaration that you are eligible. It must be separate from, or clearly distinguishable from, the order form. Electronic declarations are allowed, which is why online shops use a checkbox or a short form. HMRC publishes a [template declaration](https://www.gov.uk/government/publications/vat-reliefs-for-disabled-people-eligibility-declaration-by-a-disabled-person).
+
+The notice warns that there are penalties for false declarations. If someone can't sign, for example a child, a parent, guardian or doctor can sign for them.
+
+## What it's worth
+
+[UK standard-rate VAT is 20%](https://www.gov.uk/vat-rates). As an example, ResMed's UK shop lists the AirSense 11 AutoSet at £669 "plus VAT" ([ResMed](https://shop.resmed.com/GB/en/cpap-machines/airsense-11-autoset/p/39172), 14 October 2026). An eligible buyer pays the listed figure. Anyone else pays the listed figure plus 20%.
+
+## Mistakes and refunds
+
+HMRC can't make refunds directly to customers. If a supplier charged VAT when it shouldn't have, the supplier corrects its records and refunds you. ResMed's UK shop says it can't refund VAT paid in error. Claim the relief at checkout, before you pay.
+
+## Imports
+
+The relief also applies to goods imported from outside the UK, under the same conditions. You lodge the declaration with the import entry before the import takes place. This applies to purchases by eligible individuals. When a supplier imports stock, it pays the VAT itself.
+
+## The verdict
+
+If you have sleep apnoea, COPD or another chronic condition and are buying for your own use, claim VAT relief at checkout. On a CPAP machine or concentrator it is one of the biggest savings available. Read the declaration before you sign it, and keep a copy.
+
+---
+
+# Singapore: oxygen concentrators and CPAP
+
+Source: https://homehealthzone.com/sg/
+
+HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.
+
+Singapore guides:
+
+- [CPAP in Singapore's humidity: rainout and supplies](https://homehealthzone.com/sg/guides/cpap-humidity-singapore/)
+- [CPAP machine prices in Singapore (2026)](https://homehealthzone.com/sg/guides/cpap-machine-price-singapore/)
+- [CPAP masks in Singapore: prices compared (2026)](https://homehealthzone.com/sg/guides/cpap-masks-singapore/)
+- [CPAP subsidy in Singapore: the 2026 ACE rules](https://homehealthzone.com/sg/guides/cpap-subsidy-singapore/)
+- [Flying from Singapore with CPAP or oxygen](https://homehealthzone.com/sg/guides/flying-with-cpap-oxygen-singapore/)
+- [Home oxygen concentrators in Singapore (2026)](https://homehealthzone.com/sg/guides/home-oxygen-concentrator-singapore/)
+- [HSA rules for CPAP and oxygen devices in Singapore](https://homehealthzone.com/sg/guides/hsa-medical-device-rules-singapore/)
+- [MediSave, MediFund and CHAS for CPAP and oxygen](https://homehealthzone.com/sg/guides/medisave-medifund-chas-cpap-oxygen/)
+- [Oxygen concentrator subsidies in Singapore (SMF, ERS)](https://homehealthzone.com/sg/guides/oxygen-concentrator-subsidy-singapore/)
+- [Portable oxygen concentrators in Singapore](https://homehealthzone.com/sg/guides/portable-oxygen-concentrator-singapore/)
+
+---
+
+# CPAP in Singapore's humidity: rainout and supplies
+
+Source: https://homehealthzone.com/sg/guides/cpap-humidity-singapore/
+
+## Singapore's climate in numbers
+
+The Meteorological Service Singapore's [climate summary](https://www.weather.gov.sg/climate-climate-of-singapore/) describes a climate that barely changes through the year:
+
+- **Humidity:** more than 90% in the early morning before sunrise, falling to around 60% on dry afternoons. The annual mean is about **82%**, and it often reaches 100% during long spells of rain.
+- **Temperature:** nights usually stay at 23 to 25°C; days peak at 31 to 33°C. May is the warmest month, with a 24-hour mean of 28.6°C.
+- **Rain:** it rains on an average of 171 days a year.
+
+For a CPAP user the important gap is between the warm, humid air outside and the cool, air-conditioned bedroom where the tube runs.
+
+## Why water collects in the tube
+
+The humidifier warms and moistens the air. As that air travels down the hose it cools towards room temperature, and the moisture condenses into droplets, which is called rainout. The bigger the gap between the humidified air and a cold room, the more water you get. Air-conditioning blowing directly on the tube makes it worse. Our [rainout explainer](/clinical/cpap-rainout-water-in-hose/) covers the physics in detail.
+
+## ResMed's settings
+
+From ResMed's [AirSense 11 user guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf):
+
+| Problem | ResMed's suggestion |
+| --- | --- |
+| Dry or blocked nose | Increase the humidity level |
+| Water droplets on your nose, in the mask or tubing | Decrease humidity, or increase tube temperature |
+| Very dry mouth | Air may be escaping through your mouth; consider a chin strap or full-face mask |
+
+With a ClimateLineAir heated tube and HumidAir tub on an AirSense 11, **Climate Control Auto** is the default. ResMed says it sets the tube to 27°C (80°F), holds 85% relative humidity and is designed to prevent rainout. Without a heated tube you can only change the humidity level, so you cannot raise the tube temperature.
+
+Other practical steps:
+
+- Keep the machine lower than your head, so water runs back rather than into the mask.
+- Point the air-conditioner away from the bed and the hose.
+- Use the cleanable water tub with distilled water if your machine's guide calls for it, and empty it each morning.
+
+## Tubes, tubs and filters: Singapore prices
+
+Medbitz prices, read 14 October 2026:
+
+| Item | Price |
+| --- | --- |
+| ResMed Air11 ClimateLine Air heated tube | [S$125](https://wearemedbitz.com/products/resmed-air11-climateline-air-tube) |
+| ResMed Air10 ClimateLine Air heated tube | [S$108](https://wearemedbitz.com/products/resmed-air10-climateline-air-tube) |
+| ResMed Air10 ClimateLine Air Oxy tube | [S$168](https://wearemedbitz.com/products/resmed-air10-climateline-air-oxy-tube) |
+| ResMed SlimLine tube (unheated) | [S$58](https://wearemedbitz.com/products/resmed-slimline-tube) |
+| ResMed Air11 water tub | [S$105](https://wearemedbitz.com/products/resmed-air11-water-tub-1) |
+| ResMed Air10 / HumidAir water tub | [S$108](https://wearemedbitz.com/products/resmed-humidair-water-tub) |
+| ResMed Air11 hypoallergenic filters, 12 pack | [S$58](https://wearemedbitz.com/products/resmed-air11-hypoallergenic-filters-12pc) |
+| Philips CPAP heated tube | [S$118](https://wearemedbitz.com/products/philips-cpap-heated-tube) |
+| ResMed AirMini HumidX / HumidX Plus | [S$43.20](https://wearemedbitz.com/products/airmini-humidx-humidx-plus) |
+
+Medbitz also sells bundles, such as an Air10 ClimateLine Air tube with 12 hypoallergenic filters for S$108.
+
+## Why the ACE package matters here
+
+The government-subsidised AirSense 10 AutoSet package includes a **ClimateLineAir heated tube** and a **HumidAir cleanable tub** ([ACE annex](/sg/guides/cpap-subsidy-singapore/)). If you qualify for the subsidy you get the heated tube without buying it separately.
+
+---
+
+# CPAP machine prices in Singapore (2026)
+
+Source: https://homehealthzone.com/sg/guides/cpap-machine-price-singapore/
+
+All prices are in Singapore dollars and were read from each retailer's own website on 14 October 2026. Comooz states its prices are nett and include GST. Check the retailer's page before you buy, because prices and promotions change.
+
+## Check the subsidy first
+
+Since April 2026, people aged 16+ with moderate-to-severe sleep apnoea who pass a one-month adherence trial can get a **one-time government subsidy** for the ResMed AirSense 10 AutoSet. See [CPAP subsidy in Singapore](/sg/guides/cpap-subsidy-singapore/). It is the only model on the list, so it changes the maths for anyone eligible.
+
+## Auto-CPAP machines
+
+| Machine | Price | Retailer | Notes |
+| --- | --- | --- | --- |
+| ResMed AirSense 11 AutoSet | S$1,880 | [Comooz](https://comooz.sg/cpap-price-singapore) | Nett, GST included; touchscreen, myAir app |
+| ResMed AirSense 10 AutoSet | S$1,680 | [Comooz](https://comooz.sg/cpap-price-singapore) | Nett, GST included; the subsidised model |
+| ResMed AirSense 10 AutoSet | S$1,800 | [Medbitz](https://wearemedbitz.com/products/resmed-airsense-10-auto-cpap) | |
+| Resvent iBreeze Auto | S$1,400 | [Yes CPAP](https://yescpap.com/products/ibreeze) | Heated humidifier and heated tube included; 4 to 20 cmH2O |
+| Resvent iBreeze Pro Auto | S$1,500 | [Yes CPAP](https://yescpap.com/products/resvent-ibreeze-pro-auto-cpap-w-humidifier-and-heated-tubing) | Adds a breathing algorithm Yes CPAP describes as designed for women |
+
+Comooz says the price differences in Singapore come down to three things: whether the machine is auto-adjusting, whether a mask and humidifier are bundled, and whether setup, fitting and follow-up are charged separately. Its advice is to compare the total of machine, mask and setup, not the headline price.
+
+## Machine and mask bundles
+
+| Bundle | Price | Retailer |
+| --- | --- | --- |
+| AirSense 10 AutoSet + any ResMed mask | S$1,868 nett | [Comooz](https://comooz.sg/cpap-price-singapore) |
+| AirSense 11 AutoSet + any ResMed mask | S$2,068 nett | Comooz |
+| AirSense 11 AutoSet + BMC mask | S$2,230 | [Medbitz](https://wearemedbitz.com/products/resmed-airsense-11-autoset-philips-mask) |
+| AirSense 11 AutoSet + ResMed mask | S$2,280 | [Medbitz](https://wearemedbitz.com/products/resmed-airsense-11-autoset-resmed-mask) |
+| AirSense 11 AutoSet + Philips mask | S$2,300 | [Medbitz](https://wearemedbitz.com/products/resmed-airsense-11-autoset-philips-mask-1) |
+
+Comooz's bundle adds a ResMed mask for S$188, against S$240 for a mask bought on its own.
+
+## Bilevel
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | S$2,800 | [Medbitz](https://wearemedbitz.com/products/resmed-aircurve-11-vauto) |
+
+Bilevel is for patients whose doctor prescribes separate inhale and exhale pressures. It is not covered by the ACE subsidy.
+
+## Renting and trying first
+
+Comooz's published rental and trial terms:
+
+| Option | Cost |
+| --- | --- |
+| AirSense 10, 3-month plan | S$50 a month (S$150 upfront) |
+| AirSense 11, 3-month plan | S$85 a month (S$255 upfront) |
+| AirSense 10, 1 month | S$85, plus S$240 mask and S$360 refundable deposit |
+| AirSense 11, 1 month | S$125, plus S$240 mask and S$360 refundable deposit |
+| 5-night home trial | S$240 mask (yours to keep) + S$360 refundable deposit; S$98 processing fee if you return the machine |
+
+Rent paid in the first three months is offset against the purchase price. Comooz works out that after a 5-night trial, the balance to buy is S$1,268 for the AirSense 10 bundle and S$1,468 for the AirSense 11 bundle. By its own figures, buying is cheaper than renting beyond roughly six months of nightly use.
+
+## What is included
+
+- **Medbitz** lists ResMed machines with a ClimateLineAir heated tube, a filter, the power adaptor, a travel bag and a two-year manufacturer's warranty. It includes a consultation with a Registered Polysomnographic Technologist (RPSGT).
+- **Yes CPAP** lists the iBreeze Auto with heated humidifier, heated tube, SD card, a two-year warranty and a power brick with a Singapore/UK three-pin plug rated 100 to 240 V.
+- **Comooz** says delivery, setup, mask fitting and follow-up are free.
+
+## Before you buy
+
+- **Prescription.** Your pressure settings come from your doctor.
+- **Humidity.** Singapore's air is humid all year. If water collects in your tube, see [CPAP in Singapore's humidity](/sg/guides/cpap-humidity-singapore/).
+- **Running costs.** Masks and parts are recurring costs; see [CPAP masks](/sg/guides/cpap-masks-singapore/) and [CPAP tubes and filters](/sg/guides/cpap-humidity-singapore/).
+- **Bringing one in from abroad.** Personal imports need HSA approval; see [HSA medical device rules](/sg/guides/hsa-medical-device-rules-singapore/).
+
+---
+
+# CPAP masks in Singapore: prices compared (2026)
+
+Source: https://homehealthzone.com/sg/guides/cpap-masks-singapore/
+
+Prices are in Singapore dollars, read from each retailer's site on 14 October 2026. Each retailer's own product page is linked. Some listings were out of stock; those are marked.
+
+## Pick the type first
+
+- **Full-face**: covers nose and mouth. For mouth breathers.
+- **Nasal or cradle**: sits over or under the nose.
+- **Nasal pillows**: small cushions that sit in the nostrils. The lightest option.
+
+Comooz sells any ResMed nasal, pillows or full-face mask for a flat **S$240**, or **S$188** when bought with a machine. That makes it a useful ceiling when comparing.
+
+## Full-face masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit F40 | S$280 | [Medbitz](https://wearemedbitz.com/products/resmed-airfit-f40-full-face-mask) |
+| ResMed AirTouch F20 (memory-foam cushion) | S$300 | [Medbitz](https://wearemedbitz.com/products/resmed-airtouch-f20-full-face-mask) |
+| ResMed AirFit F20 for Her | S$320 | [Medworx](https://www.medworx-intl.com/products/resmed-airfit-f20-full-face-mask-for-her) |
+| BMC F5A+ | S$155 | [Medworx](https://www.medworx-intl.com/products/bmc-n5a-mask-copy) |
+| BMC F6 | S$155 | [Medworx](https://www.medworx-intl.com/products/bmc-f2-nv2-full-mask-copy) |
+
+## Nasal and cradle masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit N30i | S$290 | [Medworx](https://www.medworx-intl.com/products/resmed-airfit-n30i-quiet-nasal-mask-copy) |
+| ResMed AirTouch N30i | S$280 | [Medbitz](https://wearemedbitz.com/products/resmed-airtouch-n30i-cradle-nasal-mask) |
+| Philips DreamWear Under the Nose | S$200 | [Yes CPAP](https://yescpap.com/products/philips-dreamwear-under-the-nose-mask) |
+| Philips DreamWisp | S$200 | [Yes CPAP](https://yescpap.com/products/philips-dreamwisp-cpap-mask) |
+| BMC N6s cradle | S$190 | [Medbitz](https://wearemedbitz.com/products/bmc-ns-cradle-nasal-mask) |
+| BMC N5A+ | S$145 | [Medworx](https://www.medworx-intl.com/products/bmc-f6-full-face-mask-copy) |
+| BMC N5 (fitpack S, M, L) | S$120 | [Medworx](https://www.medworx-intl.com/products/bmc-n5-nasal-mask-fitpack-s-m-l) |
+
+## Nasal pillows
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit P30i | S$250 | [Yes CPAP](https://yescpap.com/products/resmed-p30i-cpap-mask) |
+| ResMed AirFit P30i | S$290 | [Medworx](https://www.medworx-intl.com/products/resmed-airfit-p30i-nasal-pillow-mask) |
+| ResMed AirFit P10 | S$260 | [Medbitz](https://wearemedbitz.com/products/resmed-airfit-p10-nasal-pillow-mask) |
+| Philips DreamWear Silicone Pillows | S$200 | [Yes CPAP](https://yescpap.com/products/philips-dreamwear-silicone-pillows-cpap-mask) |
+| BMC P6s | S$190 | [Medbitz](https://wearemedbitz.com/products/bmc-p6s-nasal-pillow-mask) |
+
+The same P30i is S$250 at Yes CPAP and S$290 at Medworx: a S$40 gap on an identical mask. Compare before you buy.
+
+## Replace the part, not the mask
+
+When a cushion wears out, Singapore retailers sell the parts separately. Medbitz prices:
+
+| Part | Price |
+| --- | --- |
+| AirFit F20 / AirTouch F20 replacement part | [S$98](https://wearemedbitz.com/products/resmed-airfit-airtouch-f20-replacement-part) |
+| AirFit F40 replacement parts | [S$98](https://wearemedbitz.com/products/resmed-airfit-f40-replacement-parts) |
+| AirFit P10 replacement parts | [S$95](https://wearemedbitz.com/products/resmed-p10-nasal-pillow-mask) |
+| AirFit N20 replacement parts | [S$89](https://wearemedbitz.com/products/resmed-airfit-n20-nasal-mask-replacement-parts) |
+| AirFit 30i-series replacement parts | [S$65](https://wearemedbitz.com/products/resmed-airfit-p30i-replacement-parts) |
+| Philips DreamWear pillow, under-the-nose or full-face parts | [S$68](https://wearemedbitz.com/products/philips-dreamwear-nasal-pillow-mask-replacement-parts) |
+| BMC F5 / F5A parts | [S$58.80](https://wearemedbitz.com/products/bmc-f5-f5a-mask-replacement-parts) |
+| BMC P2 / P6 parts | [S$52.80](https://wearemedbitz.com/products/bmc-n5a-n5-mask-replacement-parts-copy) |
+
+A 30i-series replacement part at S$65 is about a quarter of the cost of a new P30i.
+
+## Compatibility
+
+The ResMed AirMini travel machine uses mask-specific setup packs rather than a standard mask connection. Medworx lists an AirMini N30 setup pack at S$310 (out of stock on 14 October 2026).
+
+For machines, see [CPAP machine prices in Singapore](/sg/guides/cpap-machine-price-singapore/). For tubes, filters and water tubs, see [CPAP tubes, tubs and filters in Singapore](/sg/guides/cpap-humidity-singapore/).
+
+---
+
+# CPAP subsidy in Singapore: the 2026 ACE rules
+
+Source: https://homehealthzone.com/sg/guides/cpap-subsidy-singapore/
+
+This guide is written from Singapore government documents, not from hands-on testing. The source is the Agency for Care Effectiveness (ACE) medical technology guidance [Positive airway pressure for moderate-to-severe obstructive sleep apnoea](https://www.ace-hta.gov.sg/healthcare-professionals/ace-technology-guidance/medical-technology-guidance/positive-airway-pressure-for-moderate-to-severe-obstructive-sleep-apnoea/), published 1 April 2026, with its annex and plain-English summary. ACE is the Ministry of Health's health technology assessment agency.
+
+## What changed in April 2026
+
+The Ministry of Health's Medical Technology Advisory Committee recommended positive airway pressure (PAP) for government subsidy for people with moderate-to-severe obstructive sleep apnoea (OSA).
+
+## Who qualifies
+
+ACE sets three conditions. You need all of them:
+
+1. **Age 16 or over, with moderate-to-severe OSA.** ACE uses the apnoea-hypopnoea index (AHI) from a sleep study: moderate is 15 to 30 events an hour, severe is more than 30. Mild OSA (AHI 5 to under 15) is not covered.
+2. **A one-month trial you actually stick to.** You must use APAP or CPAP for at least 4 hours a night on at least 70% of nights during a one-month trial. ACE's plain-English summary puts that at about 21 of 30 nights.
+3. **Specialist review.** You must be assessed and reviewed by a specialist trained in sleep medicine, under the hospital's own clinical privileging rules.
+
+If you meet them, the subsidy is one-time.
+
+## The only subsidised machine
+
+The ACE annex lists one model: the **ResMed AirSense 10 AutoSet**, supplied by **Junnimed Service Pte. Ltd.** and **Easmed Pte Ltd**. The subsidised package includes:
+
+- one AirSense 10 standard filter
+- a ClimateLineAir heated tube
+- a HumidAir cleanable water tub
+- the 90 W power supply and cord
+- the Air10 travel bag
+
+The annex says it will be updated as models are revised. The newer AirSense 11 is not on it.
+
+For comparison, one Singapore retailer listed the AirSense 10 AutoSet at S$1,680 nett on 14 October 2026 (GST included). The ACE documents do not publish the subsidy amount, so ask your hospital what your share would be after means testing.
+
+## What is not covered
+
+- **BiPAP.** The committee left bilevel PAP out of scope. It says bilevel suits a small group, such as people with severe OSA who cannot tolerate CPAP or APAP because they need pressures above 20 cmH2O.
+- **Masks bought later.** The annex covers the machine package. It does not list replacement masks or parts. See [CPAP masks in Singapore](/sg/guides/cpap-masks-singapore/) and [CPAP tubes, tubs and filters in Singapore](/sg/guides/cpap-humidity-singapore/) for retail prices.
+- **Other brands.** Only the listed model attracts the subsidy.
+
+## How to use it
+
+1. Get a sleep study and a diagnosis from a sleep-trained specialist. ACE writes its guidance for Singapore's public hospitals and institutions, so start with a public sleep clinic.
+2. Do the one-month trial. The test is nightly use: at least 4 hours on at least 70% of nights.
+3. Ask the clinic how it orders the subsidised AirSense 10 AutoSet from one of the two listed distributors.
+
+If the remaining bill is still hard to pay, ask the hospital's medical social worker about [MediFund](/sg/guides/medisave-medifund-chas-cpap-oxygen/).
+
+## Why ACE recommended it
+
+ACE says its committee looked at clinical need, effectiveness, cost-effectiveness and the estimated annual cost. It found PAP gave clinically and statistically significant improvements in OSA severity and daytime sleepiness, measured on the Epworth Sleepiness Scale. The committee also considered 29 testimonials from patients and carers. Some said the device improved their blood pressure and made them less irritable during the day.
+
+If you are choosing a machine privately instead, compare prices in [CPAP machine prices in Singapore](/sg/guides/cpap-machine-price-singapore/).
+
+---
+
+# Flying from Singapore with CPAP or oxygen
+
+Source: https://homehealthzone.com/sg/guides/flying-with-cpap-oxygen-singapore/
+
+This guide is written from [Singapore Airlines' medical information page](https://www.singaporeair.com/en_UK/sg/travel-info/special-assistance/medical-information/) and the Health Sciences Authority's personal-import rules, read 14 October 2026. Other airlines flying from Changi set their own rules; check with them directly.
+
+## Singapore Airlines: what you can use on board
+
+SIA requires approval for electrical medical equipment used in flight, **except** for:
+
+- CPAP machines (all models)
+- FAA-approved portable oxygen concentrators (POC)
+- portable hearing aids, heart pacemakers and nebulisers
+
+You do not need approval to use these. You do need to operate them yourself; cabin crew will not help, and may ask you to switch off a device that causes interference.
+
+## Batteries: the 150% rule
+
+SIA says it **may not provide in-seat power** on every flight. Your CPAP or POC must run on a gel or dry battery for **at least 150% of the flight time**:
+
+| Flight time | Battery needed |
+| --- | --- |
+| 2 hours | 3 hours |
+| 6 hours | 9 hours |
+| 10 hours | 15 hours |
+| 13 hours | 19.5 hours |
+
+Lithium batteries also fall under SIA's separate lithium-battery baggage rules. For a POC, check the battery hours for your flow setting: Philips, for example, rates the SimplyGo Mini at up to 9 hours on a new battery, and says battery time falls with age and use.
+
+## Where the device goes
+
+- **POC:** stowed under the seat in front of you while in use. SIA makes an exception for the AirSep Lifestyle and Freestyle, which may sit on the seat or be held.
+- **CPAP:** must fit under the seat in front to be used in flight. If it doesn't fit, you can carry it on board but it goes in the overhead bin, unused.
+- **Seats:** bulkhead and emergency exit row seats are not available to you.
+
+## Before you fly
+
+1. Contact SIA **at least 48 hours** before the flight to confirm flight duration and arrangements.
+2. Carry a **medical certificate** from your doctor stating you are fit to travel.
+3. Check in **2 to 3 hours** before departure.
+
+## If you need oxygen from the airline
+
+SIA's **Supplementary Oxygen Kit** can be provided, subject to the rules of the departure and arrival countries.
+
+- Ask at least **5 working days** before the flight, with a medical certificate.
+- You may need one or more extra seats for the bottle, and charges apply.
+- Depending on flow and flight time, you may need more than one bottle.
+- You may **not** bring or use your own oxygen bottle, or your own mask with the kit.
+
+Where your fitness to fly is in doubt, SIA uses its Medical Information Form (MEDIF) for medical clearance.
+
+## Arriving in Singapore with a device
+
+The Health Sciences Authority says [you need its approval](https://www.hsa.gov.sg/travelling-with-medication-and-medical-devices/personal-import/) before bringing a medical device into Singapore for personal use. Apply at least 10 working days before you arrive. Staying inside the airport transit zones needs no approval. Full details: [HSA medical device rules](/sg/guides/hsa-medical-device-rules-singapore/).
+
+## Power at your destination
+
+Singapore uses 230 V, 50 Hz and UK-style Type G sockets ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/guidance/advice-for-you/when-travelling/travel-adaptor-for-singapore/)). A travel adaptor changes the plug shape, not the voltage. Check whether your power supply is rated for 230 V. Yes CPAP, for example, lists its iBreeze power brick as 100 to 240 V with a Singapore/UK plug. Check your own power supply's label.
+
+---
+
+# Home oxygen concentrators in Singapore (2026)
+
+Source: https://homehealthzone.com/sg/guides/home-oxygen-concentrator-singapore/
+
+Prices and specifications are from each retailer's product page, read 14 October 2026. Specifications are as the retailer lists them; we have not tested these machines.
+
+## Prices and specifications
+
+| Model | Price | Flow | Oxygen concentration | Noise | Weight | Rated input |
+| --- | --- | --- | --- | --- | --- | --- |
+| Yuwell 8F-5A | S$699 ([Bion](https://bion.sg/products/yuwell-oxygen-concentrator-8f-5a)) | 0.5 to 5 L/min | 95.5% to 87% | 54 dB(A) or less at 5 L/min | 16.5 kg | 350 VA |
+| Yuwell 7F-5 | S$1,635 ([Fu Kang Healthcare](https://rehabshop.com.sg/7f-5-oxygen-concentrator)) | up to 5 L/min | 90% or more | 60 dB(A) or less | 28 kg | not listed |
+| Yuwell 9F-5AW (with nebuliser) | S$2,234.50 ([Fu Kang Healthcare](https://rehabshop.com.sg/7f-5-oxygen-concentrator)) | 5 L/min | | | | |
+| Yuwell 7F-10 | S$2,398 ([Fu Kang Healthcare](https://rehabshop.com.sg/yuwell-7f-10-oxygen-concentrator)) | 1 to 10 L/min | 95.5% to 87% | 60 dB(A) or less | 37.5 kg | 850 VA |
+
+Other suppliers sell on enquiry only. E-xclusif lists the Scaleo S5 stationary concentrator and the Inogen Rove 6 portable for sale or rental, with prices on request. Medworx lists an Olive 5L concentrator without a price.
+
+**5 or 10 L/min?** Your prescription decides. A 10 L/min machine is for patients prescribed higher flows. In the table above, the 5 L/min models are lighter, and the 8F-5A's rated input is less than half the 7F-10's.
+
+## Running costs at Singapore's tariff
+
+SP Group's [regulated household tariff](https://www.spgroup.com.sg/our-services/utilities/tariff-information) for 1 October to 31 December 2026 is **31.16 cents/kWh including GST** (28.59 cents before GST).
+
+A rating in volt-amperes (VA) is the maximum the machine draws, and the real power used is usually lower, so these are ceilings:
+
+| Rated input | 24 hours a day | 30 days, 24 h | 30 days, 8 h a night |
+| --- | --- | --- | --- |
+| 350 VA (Yuwell 8F-5A) | up to S$2.62 | up to S$78.52 | up to S$26.17 |
+| 850 VA (Yuwell 7F-10) | up to S$6.36 | up to S$190.70 | up to S$63.57 |
+
+SP Group sets the tariff quarterly, so recalculate when the next quarter's rate is published.
+
+## Power and plugs
+
+Singapore runs on **230 V, 50 Hz** with **Type G** three-pin sockets, the same as the UK ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/guidance/advice-for-you/when-travelling/travel-adaptor-for-singapore/)). Fu Kang Healthcare lists the Yuwell 7F-5's supply as 220 V ±22 V, 50 Hz ±1 Hz, and says it has a power-cut warning function. Check the plate on any machine bought overseas before plugging it in.
+
+## Paying less
+
+- **Seniors 60+:** AIC's Seniors' Mobility and Enabling Fund pays up to 90%, capped per device. You must be approved before buying. See [oxygen concentrator subsidies](/sg/guides/oxygen-concentrator-subsidy-singapore/).
+- **Serious illness, under a year's prognosis:** AIC's Equipment Rental Scheme pays up to 80% of weekly rental.
+- **Under 60 with a disability:** SG Enable's Assistive Technology Fund.
+
+## Safety and paperwork
+
+- Bion states an oxygen concentrator is a medical device that needs a doctor's prescription.
+- Medical devices supplied in Singapore are regulated by the Health Sciences Authority. Bringing one in from abroad needs HSA approval; see [HSA medical device rules](/sg/guides/hsa-medical-device-rules-singapore/).
+- For a machine you can carry and fly with, see [portable oxygen concentrators in Singapore](/sg/guides/portable-oxygen-concentrator-singapore/).
+
+---
+
+# HSA rules for CPAP and oxygen devices in Singapore
+
+Source: https://homehealthzone.com/sg/guides/hsa-medical-device-rules-singapore/
+
+This guide is written from HSA's pages on [personal import of medical devices](https://www.hsa.gov.sg/travelling-with-medication-and-medical-devices/personal-import/) (updated 30 April 2026) and [medical device registration](https://www.hsa.gov.sg/medical-devices/registration-of-medical-devices/register-your-device/overview/), read 14 October 2026. It is not legal advice.
+
+## Bringing a device in for personal use
+
+**You need HSA approval before you travel.** HSA's rules:
+
+| Rule | Detail |
+| --- | --- |
+| When to apply | At least **10 working days** before you arrive |
+| How | HSA's online form at go.gov.sg/hsamdpersonalimport2 |
+| Prescription devices | A letter from your doctor confirming and justifying the need |
+| Quantity | Up to **3 months' supply** per approval; more is rejected |
+| Repeat shipments | Several shipments of the same device within 3 months are not allowed |
+| On arrival | No declaration needed, but carry the documents and approval email for customs checks |
+| Leaving | Take the device with you when you leave Singapore |
+| Resale | Not allowed, except to the family members the device was for |
+
+**Exceptions:**
+
+- Devices already in use when you arrive, such as implants or devices already in contact with your skin or eyes.
+- Transit passengers who stay inside the transit zones.
+
+HSA does not allow personal import of devices meant to be used by a qualified practitioner, radiation-emitting devices for trained staff, or HIV test kits.
+
+### What this means for CPAP and oxygen users
+
+- **Anyone flying in with a CPAP or POC** should apply before travelling, with a doctor's letter. HSA's page does not distinguish visitors from residents, and it reviews each application case by case.
+- **Buying overseas** to save money is a personal import too. HSA may refuse it if the import looks commercial.
+- **Selling a used machine** that came in this way is not allowed.
+
+## Devices sold in Singapore
+
+Commercial suppliers face a different regime. HSA classes medical devices from **Class A** (lowest risk) to **Class D**.
+
+- **Class A** devices are exempt from product registration, but the importer or manufacturer must notify HSA through its SHARE system.
+- **Class B, C and D** devices must be registered with HSA. HSA offers faster evaluation routes for devices already approved by reference regulators overseas, on the same labelled use.
+
+HSA's registration pages do not give a class for CPAP machines or concentrators, so ask the retailer whether the model is registered with HSA.
+
+## The ACE subsidy and approved distributors
+
+The government's CPAP subsidy names its supply route: the ResMed AirSense 10 AutoSet through Junnimed Service Pte. Ltd. or Easmed Pte Ltd. See [CPAP subsidy in Singapore](/sg/guides/cpap-subsidy-singapore/).
+
+## Related
+
+- [Flying from Singapore with CPAP or oxygen](/sg/guides/flying-with-cpap-oxygen-singapore/)
+- [CPAP machine prices in Singapore](/sg/guides/cpap-machine-price-singapore/)
+
+---
+
+# MediSave, MediFund and CHAS for CPAP and oxygen
+
+Source: https://homehealthzone.com/sg/guides/medisave-medifund-chas-cpap-oxygen/
+
+This guide is written from Ministry of Health and CHAS documents, read on 14 October 2026. It explains which scheme pays for what. It does not replace advice from a hospital's financial counsellor or medical social worker.
+
+## The short version
+
+| Need | Scheme to ask about |
+| --- | --- |
+| A CPAP machine, if you have moderate-to-severe sleep apnoea | [ACE one-time CPAP subsidy](/sg/guides/cpap-subsidy-singapore/) |
+| Outpatient COPD or asthma care at a GP or polyclinic | MediSave500/700, CHAS, Healthier SG |
+| Buying an oxygen concentrator, age 60+ | [AIC Seniors' Mobility and Enabling Fund](/sg/guides/oxygen-concentrator-subsidy-singapore/) |
+| Renting a concentrator for someone with under a year to live | [AIC Equipment Rental Scheme](/sg/guides/oxygen-concentrator-subsidy-singapore/) |
+| A bill you still cannot pay after all of the above | MediFund |
+
+## MediSave: treatment, not equipment
+
+MOH's [MediSave outpatient page](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medisave/outpatient-care/) lists what MediSave can pay for outside hospital. The items relevant to breathing patients are:
+
+- **MediSave500/700.** Up to $500 a year per patient, or $700 for complex chronic conditions, for outpatient treatment of the 23 conditions in the Chronic Disease Management Programme (CDMP). The list includes **asthma** and **chronic obstructive pulmonary disease (COPD)**. Obstructive sleep apnoea is not on it.
+- **Flexi-MediSave.** $400 a year for outpatient treatment for patients aged 60 and above. A patient can use a spouse's MediSave if both are 60 or older. It can be combined with MediSave500/700.
+- **Outpatient hyperbaric oxygen therapy.** Up to $80 per session. This is a clinic treatment, not home oxygen.
+
+None of the listed items is the purchase of a CPAP, mask or oxygen concentrator. That gap is why the device-specific schemes below matter.
+
+## CHAS: cheaper GP visits for chronic conditions
+
+The [Community Health Assist Scheme](https://www.chas.sg/Using-CHAS/Whats-Covered/Chronic-Conditions) subsidises visits to participating GP clinics for the same 23 chronic conditions, including asthma. All Singapore Citizens are eligible. The card tier depends on household monthly income per person:
+
+| CHAS card | Household monthly income per person | Home annual value (no income) |
+| --- | --- | --- |
+| Blue | $1,500 and below | $21,000 and below |
+| Orange | $1,501 to $2,300 | $21,001 to $31,000 |
+| Green | above $2,300 | above $31,000 |
+
+CHAS says CDMP patients enrolled with a Healthier SG GP can now use MediSave to pay their whole chronic-care bill there, up to the MediSave500/700 limit, without the 15% cash co-payment. CHAS also offers a Healthier SG Chronic Tier for common chronic medicines at prices comparable to polyclinics. Only one tier can be used per visit.
+
+CHAS pays towards the GP visit and medicines. It does not buy equipment.
+
+## MediFund: the safety net
+
+[MediFund](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/) is a government endowment fund for Singaporeans who still cannot pay their bill after subsidies, insurance and MediSave. MOH says:
+
+- You must have received, or need, treatment at a MediFund-approved institution: a public healthcare institution, community hospital or approved long-term care facility.
+- Each institution has its own MediFund Committee, which decides whether to help and how much.
+- The committee looks at your family's financial, health and social circumstances and the size of the bill.
+- You apply through the **medical social workers** at that institution. They will also check other ways to pay.
+
+MediFund Silver and MediFund Junior are parts of MediFund aimed at needy seniors and children.
+
+## A worked example
+
+A 68-year-old CHAS Blue cardholder with COPD is prescribed a home concentrator at a public hospital.
+
+1. Her GP visits for COPD can use CHAS and MediSave500/700.
+2. For the concentrator she can apply to AIC under the Seniors' Mobility and Enabling Fund, which MOH has named as covering oxygen concentrators. She must be approved **before** buying, because AIC does not reimburse purchases made in advance.
+3. If her co-payment is still unaffordable, the hospital's medical social worker can assess her for MediFund.
+
+For CPAP users, start with [the ACE subsidy](/sg/guides/cpap-subsidy-singapore/) and compare retail prices in [CPAP machine prices in Singapore](/sg/guides/cpap-machine-price-singapore/).
+
+---
+
+# Oxygen concentrator subsidies in Singapore (SMF, ERS)
+
+Source: https://homehealthzone.com/sg/guides/oxygen-concentrator-subsidy-singapore/
+
+This guide is written from Agency for Integrated Care (AIC) and Ministry of Health pages read on 14 October 2026. AIC is the Singapore agency that runs these subsidies.
+
+## Which scheme fits
+
+| Situation | Scheme | Run by |
+| --- | --- | --- |
+| Aged 60+, buying a concentrator | Seniors' Mobility and Enabling Fund (SMF) | AIC |
+| Person with disabilities who first used ATF before 60 | Assistive Technology Fund (ATF) | SG Enable |
+| Serious illness, prognosis under a year, needs a concentrator at home now | Equipment Rental Scheme (ERS) | AIC, through the care team |
+
+MOH's announcement of changes from 14 February 2022 explains the split. People who tapped the ATF before 60 stay on the ATF for life, and the ATF can now pay for items once covered only by the SMF, naming **oxygen concentrators**, suction pumps and spectacles. Everyone else is supported by the SMF from age 60.
+
+## Seniors' Mobility and Enabling Fund
+
+From [AIC's SMF page](https://www.aic.sg/Financial-Assistance/Seniors-Mobility-and-Enabling-Fund---Mobility-and-Assistive-Devices):
+
+**Who qualifies**
+
+- Singapore Citizen or Permanent Resident, aged 60 or older.
+- Not living in a nursing home or sheltered home.
+- Household monthly income per person of **$4,800 or less**. If the household has no income, the home's annual value must be under **$21,000**. AIC says 2026 subsidies use 2025 annual values.
+
+**What it pays**
+
+- Up to **90%** of the device cost, or the device's subsidy cap, whichever is lower.
+- Your exact share depends on means testing, so there is always a co-payment.
+- Worn-out devices can be replaced once a set "blackout period" has passed.
+
+**How to apply**
+
+1. Ask your doctor for a prescription. AIC's SMF page also links a Certification of Medical Need form for the doctor to fill in. Singapore retailers such as Bion also say a concentrator needs a doctor's prescription.
+2. Apply online with Singpass. Without Singpass, use AIC's alternative online form, or email subsidies.application@aic.sg or visit an AIC Link for a paper form. AIC warns paper forms take longer.
+3. AIC may ask for a further assessment, at a centre or at home. The assessment fee is $10 to $180 depending on your subsidy tier.
+4. Wait for the letter. AIC takes up to 15 working days once the application is complete.
+5. **Only then buy the device.** AIC will not reimburse a purchase made before approval.
+
+AIC also runs a separate SMF stream for home healthcare items such as nasal tubing, catheters and milk feeds.
+
+## Equipment Rental Scheme
+
+From [AIC's ERS page](https://www.aic.sg/financial-assistance/equipment-rental-scheme):
+
+- For patients with a serious illness and a prognosis of **less than a year**, cared for at home.
+- An **oxygen concentrator** is on the list of rental equipment, with weekly rental fees.
+- ERS pays up to **80%** of the rental cost, means-tested.
+- The care team applies and orders from AIC's approved suppliers. AIC lists supplier helplines as open 24/7 for oxygen, compared with 9am to 9pm for other equipment.
+
+ERS suits short, urgent needs: it avoids buying a machine that may only be used for weeks.
+
+## What a concentrator costs before subsidy
+
+Singapore retail prices read on 14 October 2026:
+
+| Model | Flow | Price |
+| --- | --- | --- |
+| Yuwell 8F-5A | 0.5 to 5 L/min | S$699 ([Bion](https://bion.sg/products/yuwell-oxygen-concentrator-8f-5a)) |
+| Yuwell 7F-5 | up to 5 L/min | S$1,635 ([Fu Kang Healthcare](https://rehabshop.com.sg/7f-5-oxygen-concentrator)) |
+| Yuwell 7F-10 | 1 to 10 L/min | S$2,398 ([Fu Kang Healthcare](https://rehabshop.com.sg/yuwell-7f-10-oxygen-concentrator)) |
+
+A 90% subsidy is capped per device, so on a pricier model your share may be more than 10%. Ask AIC for the cap before you choose. More on models in [Home oxygen concentrators in Singapore](/sg/guides/home-oxygen-concentrator-singapore/).
+
+## Contacts
+
+- AIC: 1800 650 6060, enquiries@aic.sg
+- SG Enable (ATF): 1800 8585 885, ATF@sgenable.sg
+
+If you still face a bill you cannot pay, see [MediSave, MediFund and CHAS](/sg/guides/medisave-medifund-chas-cpap-oxygen/).
+
+---
+
+# Portable oxygen concentrators in Singapore
+
+Source: https://homehealthzone.com/sg/guides/portable-oxygen-concentrator-singapore/
+
+Supplier information was read from each website on 14 October 2026. We have not tested these devices.
+
+## Who sells what
+
+| Model | Supplier | Price |
+| --- | --- | --- |
+| O2genes portable concentrator (1.98 kg, pulse-dose, 5 settings) | [O2genes](https://o2genes.com/portable-oxygen-concentrator) | S$3,990 |
+| Inogen Rove 6 | [E-xclusif](https://www.e-xclusif.com/Products/Oxygen-Concentrators) (sale or rental) | On request, (+65) 6738 3525 |
+| Inogen Rove 6 | [Medworx](https://www.medworx-intl.com/products/inogen-rove-6-portable-oxygen-concentrator) | Not shown |
+| Scaleo P5 | E-xclusif | On request |
+| Philips SimplyGo Mini | [Philips Singapore](https://www.philips.com.sg/c-e/breathe-easier/src-dtc-oxygen.html) | Brochure on request |
+
+O2genes does not name the manufacturer of its unit on the product page, so ask before buying, especially if you plan to fly with it.
+
+Philips Singapore says the SimplyGo Mini can be used 24/7 at home or away when used as its manual describes, that its battery lasts up to 9 hours (on a new, fully charged battery, falling with age and use) and that it meets FAA requirements for air travel.
+
+### Accessories
+
+Medworx lists SimplyGo accessories in SGD: a mobile cart for S$75, an AC power supply for S$320 and an extra battery for S$650 (the last two out of stock on 14 October 2026). Spare batteries are a real cost for long-haul flights.
+
+## Pulse-dose versus continuous flow
+
+O2genes describes its unit as pulse-dose: it releases a burst of oxygen each time you breathe in. A home concentrator such as the [Yuwell models sold in Singapore](/sg/guides/home-oxygen-concentrator-singapore/) delivers a continuous flow in litres per minute. Pulse settings are not litres per minute, so a portable is only a substitute if your doctor prescribes it for you.
+
+## Flying with it
+
+Singapore Airlines accepts only **FAA-approved** portable concentrators. Its rules:
+
+- No approval needed to use an FAA-approved POC on board.
+- Stowed under the seat in front while in use.
+- Batteries for **150% of flight time**, because in-seat power is not guaranteed.
+- Contact SIA at least 48 hours ahead; bring a doctor's fitness-to-travel certificate.
+- No bulkhead or exit-row seats.
+
+Full rules: [flying from Singapore with CPAP or oxygen](/sg/guides/flying-with-cpap-oxygen-singapore/).
+
+**Battery planning, worked example.** For a 13-hour flight, SIA's rule means 19.5 hours of battery. At Philips' rated maximum of 9 hours per new SimplyGo Mini battery, that is three batteries, and actual run time at your setting may be shorter.
+
+## Bringing one into Singapore
+
+A POC bought abroad and brought in for personal use needs [HSA approval](/sg/guides/hsa-medical-device-rules-singapore/) before you arrive.
+
+## Paying for it
+
+AIC's subsidy schemes are written around home devices and rental. [Oxygen concentrator subsidies](/sg/guides/oxygen-concentrator-subsidy-singapore/) explains the Seniors' Mobility and Enabling Fund and the Equipment Rental Scheme; ask AIC whether a portable model qualifies for your case.
+
+---
+
+# Australia: oxygen concentrators and CPAP
+
+Source: https://homehealthzone.com/au/
+
+HHZ for Australia: state equipment schemes, Medicare, TGA rules, and devices sold in Australia with AUD prices from named retailers.
+
+Australia guides:
+
+- [CPAP machine prices in Australia (2026)](https://homehealthzone.com/au/guides/cpap-machine-price-australia/)
+- [CPAP masks in Australia: prices compared (2026)](https://homehealthzone.com/au/guides/cpap-masks-australia/)
+- [EnableNSW home oxygen and CPAP: who qualifies](https://homehealthzone.com/au/guides/enablensw-home-respiratory-program/)
+- [Flying with CPAP or oxygen from Australia](https://homehealthzone.com/au/guides/flying-with-cpap-oxygen-australia/)
+- [GST-free CPAP and oxygen equipment in Australia](https://homehealthzone.com/au/guides/gst-free-cpap-oxygen-australia/)
+- [Home oxygen concentrators in Australia (2026)](https://homehealthzone.com/au/guides/home-oxygen-concentrator-australia/)
+- [Home oxygen funding in Victoria and Queensland](https://homehealthzone.com/au/guides/home-oxygen-funding-victoria-queensland/)
+- [Life support registration for CPAP and oxygen (AU)](https://homehealthzone.com/au/guides/life-support-electricity-australia/)
+- [Medicare, sleep studies and CPAP costs in Australia](https://homehealthzone.com/au/guides/medicare-sleep-study-cpap-australia/)
+- [Portable oxygen concentrators in Australia (2026)](https://homehealthzone.com/au/guides/portable-oxygen-concentrator-australia/)
+- [TGA rules for CPAP and oxygen devices in Australia](https://homehealthzone.com/au/guides/tga-artg-cpap-oxygen-australia/)
+
+---
+
+# CPAP machine prices in Australia (2026)
+
+Source: https://homehealthzone.com/au/guides/cpap-machine-price-australia/
+
+All prices are in Australian dollars, read from each retailer's site on 14 October 2026. cpap.com.au shows "Tax included" on its machine pages. CPAP machines are listed in Schedule 3 of the GST Act, so they can be sold GST-free; see [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/).
+
+## Auto-CPAP machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 AutoSet (4G) | A$1,495 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-11-autoset-device-4g) |
+| ResMed AirSense 11 AutoSet | $1,689 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-autoset) |
+| ResMed AirSense 11 AutoSet bundle | $1,699 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-autoset-bundle-1) |
+| ResMed AirSense 10 AutoSet (4G) | A$1,295 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-10-autoset) |
+| ResMed AirSense 10 AutoSet 4G bundle | $1,449 | [ResMed shop](https://shop.resmed.com.au/products/resmed-airsense-10-4g-mask-bundle) |
+| Fisher & Paykel SleepStyle Auto | A$1,395 | [cpap.com.au](https://cpap.com.au/products/fp-sleepstyle-auto-device) |
+| Yuwell Breathcare III YH-680B | A$749 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-breathcare-iii-yh-680b-wifi-cpap-white) |
+
+The same AirSense 11 AutoSet was **$194 cheaper** at cpap.com.au than on ResMed's own shop.
+
+## Fixed-pressure machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 Elite (4G) | A$1,295 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-11-elite-device-4g) |
+| ResMed AirSense 11 Elite | $1,549 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-elite) |
+| ResMed AirSense 10 Elite (4G) | A$995 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense10-elite) |
+
+An Elite runs at one fixed pressure. Only buy one if your clinician has given you a fixed pressure.
+
+## Travel machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirMini (N30, P10 or N20 kit) | A$1,195 | [cpap.com.au](https://cpap.com.au/products/resmed-airmini-n30-starter-kit) |
+| ResMed AirMini + mask bundle | $1,249 | [ResMed shop](https://shop.resmed.com.au/products/airmini-mask-bundle) |
+| Yuwell Pocket S travel package | $849 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-pocket-s-travel-cpap-package) |
+
+The AirMini uses mask-specific setup packs; check the kit matches your mask. For flying, see [flying with CPAP or oxygen from Australia](/au/guides/flying-with-cpap-oxygen-australia/).
+
+## Bilevel and ASV
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | A$1,995 | [ResMed shop](https://shop.resmed.com.au/products/aircurve-11-vauto) |
+| ResMed AirCurve 11 ASV | $2,899 | [cpap.com.au](https://cpap.com.au/products/resmed-aircurve-11-asv) |
+| ResMed AirCurve 11 ASV | $3,099 | [ResMed shop](https://shop.resmed.com.au/products/aircurve-11-asv) |
+
+These need a specialist prescription for bilevel or adaptive servo-ventilation.
+
+## Paying less
+
+- **State programs.** NSW's [EnableNSW](/au/guides/enablensw-home-respiratory-program/) supplies CPAP for a $100 annual co-payment to pensioners and lower earners.
+- **Private health extras.** ResMed Australia says extras cover may rebate part of the cost; check with your fund. See [Medicare, sleep studies and CPAP](/au/guides/medicare-sleep-study-cpap-australia/).
+- **Trial first.** ResMed's shop lists an AirSense 11 AutoSet trial with up to two masks.
+
+## Running accessories
+
+cpap.com.au prices: ResMed ClimateLine heated tube for AirSense 11, $75; AirSense 11 filters, $24 for 12 or $99 for 50; AirSense 11 DC/DC converter, $189; 65 W power supply, $80. Masks are in [CPAP masks in Australia](/au/guides/cpap-masks-australia/).
+
+---
+
+# CPAP masks in Australia: prices compared (2026)
+
+Source: https://homehealthzone.com/au/guides/cpap-masks-australia/
+
+Prices are in Australian dollars, read from each retailer's site on 14 October 2026. Out-of-stock listings are marked.
+
+## The $179 standard
+
+cpap.com.au prices most branded masks at **$179**. ResMed's own Australian shop charges more for the same masks:
+
+| Mask | cpap.com.au | ResMed shop |
+| --- | --- | --- |
+| AirFit F40 full face | A$179 | [$229](https://shop.resmed.com.au/products/resmed-airfit-f40-full-face-cpap-mask) |
+| AirTouch N30i nasal | A$179 | [$229](https://shop.resmed.com.au/products/airtouch-n30i-cpap-nasal-mask) |
+| AirTouch F30i full face | A$179 | [$229](https://shop.resmed.com.au/products/airtouch-f30i-comfort) |
+| AirFit F20 non-magnetic | – | [$229](https://shop.resmed.com.au/products/resmed-airfit-f20-non-magnetic-full-face-mask) |
+| AirFit F30i non-magnetic | [$179](https://cpap.com.au/products/resmed-airfit-f30i-nm-mask) | [$249](https://shop.resmed.com.au/products/resmed-airfit-f30i-non-magnetic-full-face-mask) |
+
+ResMed sells non-magnetic versions of some masks; ask your clinician whether you need one.
+
+## Full-face masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit F20 | A$179 | [cpap.com.au](https://cpap.com.au/products/resmed-airfit-f20-full-face-mask) |
+| ResMed AirTouch F20 starter kit | $179 | [cpap.com.au](https://cpap.com.au/products/resmed-airtouch-f20-starter-kits) |
+| Fisher & Paykel Evora Full (fit pack) | A$179 | [cpap.com.au](https://cpap.com.au/products/fp-evora-full-face-mask-fitpack) |
+| Fisher & Paykel Vitera | A$179 | [cpap.com.au](https://cpap.com.au/products/f-p-vitera-full-face-mask) |
+| Fisher & Paykel Simplus | $179 | [cpap.com.au](https://cpap.com.au/products/simplusfullfacemask) |
+| Philips DreamWear Full Face | A$179 | [cpap.com.au](https://cpap.com.au/products/dreamwear-full-cpap-mask) |
+| Yuwell Breathewear I YF-02 | $95 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-breathewear-i-yf-02-full-face-cpap-mask) |
+
+## Nasal masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit N20 | A$179 | [cpap.com.au](https://cpap.com.au/products/resmed-n20-nasal-mask) |
+| ResMed AirFit N30 | A$179 | [cpap.com.au](https://cpap.com.au/products/resmed-airfit-n30-nasal-mask) |
+| Fisher & Paykel Eson 2 | A$179 | [cpap.com.au](https://cpap.com.au/products/fisher-paykel-eson-2-nasal-mask) |
+| Fisher & Paykel Evora Compact (fit pack) | $179 | [cpap.com.au](https://cpap.com.au/products/fp-evora-compact-nasal-mask-fitpack) |
+| Fisher & Paykel Solo Nasal (fit pack) | A$149 | [cpap.com.au](https://cpap.com.au/products/f-p-solo-nasal-mask-fit-pack) |
+| Philips DreamWear Under the Nose | A$179 | [cpap.com.au](https://cpap.com.au/products/philips-dreamwear-nasal-mask) |
+| Yuwell Breathewear II YN-06 | $139 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-breathewear-ii-yn-06-nasal-cpap-mask) |
+| Yuwell Breathewear I YN-03 | $95 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-breathewear-i-yn-03-nasal-cpap-mask) |
+
+## Nasal pillows
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit P10 | A$179 | [cpap.com.au](https://cpap.com.au/products/resmed-airfit-p10-nasal-pillow-mask) |
+| Fisher & Paykel Nova Micro (fit pack) | A$179 | [cpap.com.au](https://cpap.com.au/products/nova-micro-pillow-mask-fitpack) |
+| Fisher & Paykel Brevida | A$179 | [cpap.com.au](https://cpap.com.au/products/fisher-paykel-brevida-pillow-mask) |
+| Fisher & Paykel Opus | $179 | [cpap.com.au](https://cpap.com.au/products/fisher-paykel-opus) |
+| Fisher & Paykel Solo Pillows (fit pack) | $149 | [cpap.com.au](https://cpap.com.au/products/f-p-solo-pillow-mask-fit-pack) |
+| Philips DreamWear Silicone Pillows | A$179 | [cpap.com.au](https://cpap.com.au/products/dreamwear-silicone-pillow-mask) |
+| Yuwell Breathewear II YP-06 | $169 (out of stock) | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-breathewear-ii-yp-06-nasal-pillow-cpap-mask) |
+
+## Spare parts cost less than a mask
+
+cpap.com.au sells spares such as the Philips DreamWear silicone pillow cushion for $89, the F&P Brevida pillow seal for $65 and F&P Solo pillows for $75. ResMed's shop lists the AirFit F40 QuietAir vent at $12.95. Purpose-designed spare parts for a GST-free item are GST-free too.
+
+## Who pays
+
+State programs often supply the machine but not the mask. EnableNSW, for example, expects Home Respiratory Program clients to buy CPAP masks themselves ([EnableNSW guide](/au/guides/enablensw-home-respiratory-program/)). ResMed Australia says some private health funds contribute to masks.
+
+Machines: [CPAP machine prices in Australia](/au/guides/cpap-machine-price-australia/).
+
+---
+
+# EnableNSW home oxygen and CPAP: who qualifies
+
+Source: https://homehealthzone.com/au/guides/enablensw-home-respiratory-program/
+
+This guide is written from EnableNSW's [Home Respiratory Program fact sheet](https://www.enable.health.nsw.gov.au/about/publications/fact-sheets/home-respiratory-program) and its [eligibility and financial criteria](https://enable.health.nsw.gov.au/for_individuals/applying-to-EnableNSW/eligibility-and-financial-criteria) page. EnableNSW's site blocks scripted access, so we read archived 2026 copies of both pages; check the live pages before applying.
+
+## What the program supplies
+
+The Home Respiratory Program (HRP) provides:
+
+- home oxygen equipment, typically an oxygen concentrator
+- continuous positive airway pressure (CPAP) and other respiratory support devices
+- ventilators
+- some respiratory consumables
+
+Each product has its own clinical criteria, and a prescriber applies on your behalf.
+
+**Priority and waiting.** EnableNSW funds the primary oxygen equipment used at home first. Waiting periods vary for CPAP, respiratory support devices, ventilators and consumables. Equipment is bought and supplied "as funding becomes available".
+
+## Who is eligible
+
+You must:
+
+- live in NSW or on Lord Howe Island, or be an asylum seeker, refugee or humanitarian visa holder living there
+- be enrolled with Medicare
+- not be receiving, or eligible for, the equipment through insurance or another government scheme, such as the NDIS
+
+## The co-payment
+
+EnableNSW charges a co-payment each financial year you receive equipment, consumable re-orders or repairs.
+
+| Band | Who | Co-payment |
+| --- | --- | --- |
+| 1 | Adults on a full pension; children under 16 | $100 a financial year |
+| 2 | Taxable income up to $42,000 (single) or $70,000 (couple), plus $2,100 per dependant | $100 a financial year |
+| 3 | Taxable income above those limits | 20% of equipment costing $800 or more |
+
+Band 3 consumers are **not eligible** for equipment that costs under $800. EnableNSW says its income bands come from the former Program for Appliances for Disabled People, adjusted for inflation since December 1998.
+
+Short-term oxygen therapy has **no co-payment**.
+
+### What 20% means in dollars
+
+For a Band 3 adult, 20% of an oxygen concentrator listed at $999 (the Philips EverFlo at Air Liquide's online store on 14 October 2026) would be about $200, and 20% of a $1,495 auto-CPAP would be $299. EnableNSW's own equipment costs may differ from retail.
+
+## Your responsibilities
+
+To keep HRP equipment you must:
+
+- have stopped smoking for at least **four weeks**
+- follow the supplier's safety precautions
+- use the therapy as prescribed, including the hours of use
+- buy some products and accessories yourself, **such as CPAP masks**
+- return the device when you no longer need it or are not using it as prescribed
+
+For mask prices, see [CPAP masks in Australia](/au/guides/cpap-masks-australia/).
+
+## How an application runs
+
+1. **Application.** Your prescriber sends EnableNSW the application.
+2. **Review.** EnableNSW checks it against the program guidelines.
+3. **Decision.** You and your prescriber are told in writing whether it is approved or declined.
+4. **Purchase.** As funding becomes available, the device is bought and supplied.
+
+## Electricity help
+
+EnableNSW notes HRP clients may also qualify for the NSW Government's Life Support Rebate, claimed through the electricity retailer. See [life support electricity registration and rebates](/au/guides/life-support-electricity-australia/).
+
+Other states run their own programs; see [home oxygen funding in Victoria and Queensland](/au/guides/home-oxygen-funding-victoria-queensland/).
+
+---
+
+# Flying with CPAP or oxygen from Australia
+
+Source: https://homehealthzone.com/au/guides/flying-with-cpap-oxygen-australia/
+
+This guide is written from Qantas's [medical equipment page](https://www.qantas.com/en-au/travel-information/specific-needs-assistance/medical-equipment-medications-onboard), its [oxygen page](https://www.qantas.com/hk/en/travel-info/specific-needs/travelling-with-specific-needs/travelling-with-oxygen.html) and [authorised equipment list](https://www.qantas.com/content/dam/qantas/pdfs/fly/specific-needs/qantas-medical-support-equipment.pdf), and Virgin Australia's [medical conditions](https://www.virginaustralia.com/au/en/travel-info/specific-travel/specific-needs-assistance/medical-conditions/) and [oxygen](https://www.virginaustralia.com/au/en/travel-info/specific-travel/specific-needs-assistance/oxygen/) pages, read 14 October 2026. Qantas's oxygen page was read on its Hong Kong site, as the Australian page blocks scripted access.
+
+## Qantas: CPAP
+
+- **No approval needed** to travel with or use a CPAP or PAP, but Qantas recommends a letter from a medical professional explaining why you need it.
+- **In-seat power** can be used where fitted, limited to **150 W**. It is not available in all cabins or on all aircraft and cannot be guaranteed.
+- **Batteries** are allowed on all Qantas aircraft and must meet dangerous goods rules.
+- **Aircraft medical power**, if you rely on it, needs a Travel Clearance Form and an Accessibility, Medical and Inclusion Request Form at least **5 days** before departure.
+- If you need CPAP to avoid serious deterioration in flight, bring enough battery for the whole journey, including transits and delays.
+- You can bring the device as an **extra carry-on piece at no charge**.
+
+## Qantas: portable oxygen concentrators
+
+- Medical equipment used onboard must be on the [authorised list](https://www.qantas.com/content/dam/qantas/pdfs/fly/specific-needs/qantas-medical-support-equipment.pdf) and be cleared with a Travel Clearance Form. "No other equipment can be accepted."
+- Equipment used on **domestic** flights must be battery operated.
+- Make the device available for inspection a few hours before departure. Qantas asks for clearances up to 72 hours before the flight.
+- Doctor-signed Travel Clearance Form and an Accessibility, Medical and Inclusion Request at least **5 days** before travel, or you may be denied boarding.
+- Qantas does not supply concentrators. If your daily use exceeds 80% of the device's capacity, Qantas says it may not be enough for international travel and you may need supplementary oxygen.
+
+The list, downloaded 14 October 2026, includes the Philips SimplyGo Mini, GCE Zen-O, Caire Eclipse 5 and Kingon P2, and Inogen's One and G2 to G5. It does **not** list the Inogen Rove 6. See [portable concentrators in Australia](/au/guides/portable-oxygen-concentrator-australia/).
+
+## Qantas: batteries
+
+| Lithium battery | Rule |
+| --- | --- |
+| Under 101 Wh | No restriction |
+| 101 to 160 Wh | Dangerous goods approval at check-in or by email; at most two spares |
+| Over 160 Wh | Forbidden, in the device or as a spare |
+
+Spare batteries and power banks go in carry-on only, with terminals protected, for example taped.
+
+## Qantas: oxygen cylinders
+
+You can book Qantas-supplied cylinders for a fee, which Qantas recommends on international flights, or bring your own under strict rules: from an approved supplier and no more than 5 kg each.
+
+## Virgin Australia
+
+- **Medical Clearance Form** if there is reasonable doubt you can complete the flight without extraordinary medical help. A registered doctor must complete it, dated within **10 days** of the first flight, and you should send it at least **72 hours** before departure. Crew will ask to see a copy when you board.
+- **Long-Standing Medical Clearance** is available for stable chronic conditions. Request it at least 7 days before travel at VA.Medical@virginaustralia.com, then notify Virgin 48 hours before each trip.
+- **Oxygen in flight:** bring your own portable concentrator or a cylinder pre-booked from a selected supplier (BOC, Air Liquide or Linde Gas in Australia), booked through the Guest Contact Centre.
+- **Cylinders** can't be used in Business or Premium Economy, are not permitted on flights to or from the US, and need prior approval on other international long-haul flights. Concentrator users are not affected by the cabin limit.
+
+## Power on arrival
+
+Australia uses **230 V, 50 Hz** with **Type I** sockets ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/guidance/advice-for-you/when-travelling/travel-adaptor-for-australia/)). Visitors from the US and Canada need an adaptor, and a machine rated only for 120 V needs a converter; check your power supply's label.
+
+---
+
+# GST-free CPAP and oxygen equipment in Australia
+
+Source: https://homehealthzone.com/au/guides/gst-free-cpap-oxygen-australia/
+
+This guide is written from the ATO's guidance on [GST-free medical aids and appliances](https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/in-detail/your-industry/gst-and-health/medical-aids-and-appliances) and Schedule 3 of the *A New Tax System (Goods and Services Tax) Act 1999* ([AustLII](http://www5.austlii.edu.au/au/legis/cth/consol_act/antsasta1999402/sch3.html)), read 14 October 2026. Both pages block scripted access, so we read archived copies; check the live pages for any change. It is not tax advice.
+
+## The three conditions
+
+The ATO says the sale of a medical aid or appliance is GST-free only if **all three** apply:
+
+1. It is listed in Schedule 3 of the GST Act, or in regulation 38-45.01(1) of the GST regulations.
+2. It is specifically designed for people with an illness or disability.
+3. It is not widely used by people without an illness or disability.
+
+The test is about the product. The ATO page describes no declaration for the buyer to sign, unlike the UK's VAT relief.
+
+## What Schedule 3 lists for breathing equipment
+
+Under "Respiratory appliances", Schedule 3 lists:
+
+| Item | Covers |
+| --- | --- |
+| Continuous positive airway pressure (CPAP) appliances | CPAP and auto-CPAP machines |
+| Sleep apnoea machines | Other machines for sleep apnoea |
+| Respiratory appliance mask assemblies, complete | CPAP masks |
+| Respiratory appliance mask assemblies, components | Cushions, frames, headgear |
+| Nebulisers | |
+| Respirators | |
+| Bottled oxygen and associated hardware | Cylinders and regulators |
+| Oxygen concentrators | Home and portable concentrators |
+
+## Spare parts, batteries and repairs
+
+- **Purpose-designed spare parts** for a GST-free item are GST-free.
+- **Generic parts** are taxable. The ATO's own example is that generic batteries for an electric wheelchair are taxable because they are not designed for the wheelchair.
+- When a GST-free item is repaired with a purpose-designed part, incidental labour and incidental parts are GST-free too.
+
+For CPAP and oxygen users, the line falls between parts made for a particular mask or machine and general-purpose items such as a power bank, which the ATO's battery example suggests are taxable.
+
+## Hire
+
+The ATO says items that qualify to be sold GST-free can also be **hired out GST-free**. That covers concentrator and CPAP rentals.
+
+## What you will see at checkout
+
+Retailers set their own price display. cpap.com.au, for example, shows "Tax included" on its machine pages. If a CPAP or concentrator receipt shows GST, ask the retailer why, quoting the ATO's three conditions.
+
+## Related
+
+- [CPAP machine prices in Australia](/au/guides/cpap-machine-price-australia/)
+- [Home oxygen concentrators in Australia](/au/guides/home-oxygen-concentrator-australia/)
+
+---
+
+# Home oxygen concentrators in Australia (2026)
+
+Source: https://homehealthzone.com/au/guides/home-oxygen-concentrator-australia/
+
+Prices are in Australian dollars from each retailer's own page, read 14 October 2026. We have not tested these machines.
+
+## 5 L/min home concentrators
+
+| Model | Price | Retailer |
+| --- | --- | --- |
+| Secure Plus 5 L (ARTG 524233) | $749 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/secure-plus-5-litre-stationary-oxygen-concentrator-artg-524233) |
+| Yuwell 8F-5A (1 to 5 L/min) | A$849 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-8f-5a-oxygen-concentrator-1-5l-min) |
+| Yuwell 9F-5B (1 to 5 L/min) | A$950 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-9f-5b-oxygen-concentrator-1-5l-min) |
+| Philips EverFlo | $985 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/philips-everflo-stationary-oxygen-concentrator) |
+| Philips EverFlo | A$999 | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/philips-everflo) |
+| Caire VisionAire 5 | A$1,149 | [Mega Medical](https://www.megamedical.com.au/products/visionaire-5-oxygen-concentrator) |
+| Philips Oxygenate 5 | $1,350 (out of stock) | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/philips-oxygenate-5-stationary-oxygen-concentrator-5l) |
+| DeVilbiss 5 L | $2,268 (out of stock) | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/devilbis-5l-oxygen-concentrator) |
+
+## 10 L/min concentrators
+
+| Model | Price | Retailer |
+| --- | --- | --- |
+| GCE 10 L | A$1,798 | [Mega Medical](https://www.megamedical.com.au/products/gce-10l-oxygen-concentrator) |
+| Caire NewLife Intensity 10 (single flow) | A$2,799 | [Mega Medical](https://www.megamedical.com.au/products/newlife-intensity-10l-single-flow-oxygen-concentrator) |
+| Caire NewLife Intensity 10 (dual flow) | $2,916.99 | [Mega Medical](https://www.megamedical.com.au/products/newlife-intensity-10l-dual-flow-oxygen-concentrator) |
+| DeVilbiss 10 L | $3,799 (out of stock) | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/devilbissoxygenconcentrator) |
+
+Your prescription sets the flow. A 10 L/min machine is for patients prescribed higher flows.
+
+## Check it is on the ARTG
+
+Medical devices supplied in Australia must be included on the TGA's Australian Register of Therapeutic Goods (ARTG). Rapid Medical prints the ARTG number in the Secure Plus listing; for other models, ask the seller or search the ARTG yourself. See [TGA rules](/au/guides/tga-artg-cpap-oxygen-australia/).
+
+## GST
+
+Oxygen concentrators are listed in Schedule 3 of the GST Act, so they can be sold and hired GST-free. See [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/).
+
+## Funded instead of bought
+
+| State | Program | Guide |
+| --- | --- | --- |
+| NSW | EnableNSW Home Respiratory Program: $100 a year for pensioners and lower earners | [EnableNSW](/au/guides/enablensw-home-respiratory-program/) |
+| Victoria | SWEP Domiciliary Oxygen Program | [Victoria and Queensland](/au/guides/home-oxygen-funding-victoria-queensland/) |
+| Queensland | Medical Aids Subsidy Scheme | [Victoria and Queensland](/au/guides/home-oxygen-funding-victoria-queensland/) |
+
+## Electricity
+
+A concentrator counts as life support equipment for your electricity company, which gives you protections against disconnection and notice of planned outages. In NSW, the [Social Programs for Energy Code](https://gazette.nsw.gov.au/gazette/2026/7/2026-7_307-gazette.pdf) (version 8.4, from 24 August 2026) sets the Life Support Rebate for a concentrator at **$3.1096 a day** for 24-hour use (about $1,135 a year) and **$1.8493 a day** for less than 24 hours (about $675 a year). See [life support electricity](/au/guides/life-support-electricity-australia/).
+
+For portable machines, see [portable oxygen concentrators in Australia](/au/guides/portable-oxygen-concentrator-australia/).
+
+---
+
+# Home oxygen funding in Victoria and Queensland
+
+Source: https://homehealthzone.com/au/guides/home-oxygen-funding-victoria-queensland/
+
+This guide is written from the [SWEP Domiciliary Oxygen Program page](https://www.swep.bhs.org.au/domiciliary-oxygen-program-dop.php) and Queensland Health's [MASS home oxygen page](https://www.health.qld.gov.au/mass/prescribe/oxygen) (last updated 14 July 2026), read 14 October 2026. For NSW, see [EnableNSW](/au/guides/enablensw-home-respiratory-program/).
+
+## Victoria: SWEP Domiciliary Oxygen Program
+
+SWEP (the State-wide Equipment Program) runs the Domiciliary Oxygen Program (DOP). It gives subsidised funding towards oxygen equipment for adults and children who qualify under the Thoracic Society of Australia and New Zealand (TSANZ) guidelines and Victoria's Aids and Equipment Program guidelines.
+
+### Equipment
+
+| Equipment | SWEP's use limit |
+| --- | --- |
+| Cylinders | Intermittent use only |
+| Stationary concentrators | Up to 24 hours a day |
+| Portable concentrators | Intermittent use only |
+
+### Eligibility
+
+You are eligible if you:
+
+- are a permanent Victorian resident, hold a temporary or permanent protection visa, or are an asylum seeker
+- have a long-term condition or disability, or are frail aged
+- receive no other government funding for the equipment
+- are not a hospital inpatient or a permanent resident of a residential care facility
+- cannot claim the full cost through private health insurance
+- have not been discharged from a public hospital or extended care centre in the last 30 days, where the equipment relates to that admission
+
+You must be assessed by a **consultant physician in respiratory (thoracic) medicine, cardiology or oncology**. SWEP's oxygen team is at swepoxy@gh.org.au.
+
+## Queensland: Medical Aids Subsidy Scheme (MASS)
+
+MASS provides a mix of concentrator and cylinder packages for eligible Queensland adults and children, with supplementary packages of portable and backup cylinders.
+
+### What MASS does not fund
+
+- oxygen needed only for nebulising
+- portable oxygen for getting around the community, except in special circumstances
+- oxygen for breathlessness without low blood oxygen (dyspnoea without hypoxaemia)
+- oxygen for new or existing clients who are **current smokers**
+
+You also cannot already be getting oxygen through a local health service or a Home Care Package.
+
+### Who can prescribe
+
+- thoracic physician, specialist physician, oncologist or palliative care physician
+- respiratory nurse practitioner with designated specialist endorsement
+- in rural and remote areas, a GP with designated specialist endorsement
+
+Prescribers apply through MASS-eApply, MASS's online system, or on paper forms.
+
+### Reassessment
+
+| Patient | Reassessment |
+| --- | --- |
+| Adults | After 4 months, then every 12 months |
+| Children under 6 | Every 6 months |
+| Children 6 to 15 | After 6 months, then every 12 months |
+
+MASS must receive the re-application **two weeks** before the current approval ends, or the subsidy may lapse.
+
+### Power failure plan
+
+MASS says every client should have a **Power Failure Emergency Plan**, using its form MASS 48. That pairs with registering as a life support customer with your electricity company: see [life support electricity registration](/au/guides/life-support-electricity-australia/).
+
+Queensland Health says the new Aged Care Act, which started on 1 November 2025, has not changed MASS guidelines or eligibility.
+
+## If you are not eligible
+
+Buying privately is the alternative. Concentrators are GST-free when they meet the ATO's conditions; see [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/) and [home oxygen concentrator prices](/au/guides/home-oxygen-concentrator-australia/).
+
+---
+
+# Life support registration for CPAP and oxygen (AU)
+
+Source: https://homehealthzone.com/au/guides/life-support-electricity-australia/
+
+This guide is written from the Australian Energy Regulator's [Energy Made Easy guidance](https://www.energymadeeasy.gov.au/article/customers-using-life-support-equipment), the NSW Government's [Life Support Rebate page](https://www.energy.nsw.gov.au/households/grants-rebates/life-support-rebate) and the [NSW Social Programs for Energy Code](https://gazette.nsw.gov.au/gazette/2026/7/2026-7_307-gazette.pdf), read 14 October 2026.
+
+## Register as a life support customer
+
+Energy Made Easy lists life support equipment as including:
+
+- an oxygen concentrator
+- a chronic positive airways pressure (CPAP) respirator
+- a ventilator for life support
+- any other equipment a doctor says is needed for life support
+
+**How:** tell your energy retailer or your distributor as soon as possible. They send you a form for you and your doctor to complete. Return it to them.
+
+**What you get:** they must not disconnect you for any reason, and must give you at least **4 days' notice** of a planned interruption.
+
+Tell your retailer and distributor if your address or phone number changes.
+
+## Make a power-cut plan
+
+Registration does not prevent unplanned outages. Energy Made Easy says to plan:
+
+- where you will go, and how you will get there with your equipment
+- how you will contact people; cordless phones need mains power
+- who you will call, with a written list of your doctor, nearest hospital and a helper
+- backup equipment, kept fully charged
+- where you could get a temporary generator; ask your energy provider whether it can supply one
+
+Queensland's MASS asks every home oxygen client to have a Power Failure Emergency Plan (form MASS 48). See [Victoria and Queensland funding](/au/guides/home-oxygen-funding-victoria-queensland/).
+
+## NSW Life Support Rebate
+
+The rebate helps households where someone uses approved energy-intensive life support equipment at home. A registered medical practitioner must confirm the need and complete the declaration on the application form; you send it to your electricity retailer. Service NSW can help on 13 77 88.
+
+Rates in the Social Programs for Energy Code version 8.4, effective 24 August 2026:
+
+| Equipment | Per day | About per year |
+| --- | --- | --- |
+| PAP device (CPAP), 24-hour use | $0.7096 | $259 |
+| PAP device (CPAP), under 24 hours | $0.3589 | $131 |
+| Oxygen concentrator, 24-hour use | $3.1096 | $1,135 |
+| Oxygen concentrator, under 24 hours | $1.8493 | $675 |
+
+The rebate is paid per billing day for each approved device, so a household with both a CPAP and a concentrator gets both rates. Eligibility lasts four years from the application date, and you can reapply.
+
+EnableNSW notes its Home Respiratory Program clients may be eligible: see [EnableNSW](/au/guides/enablensw-home-respiratory-program/).
+
+## Other states
+
+Energy Made Easy is run by the Australian Energy Regulator. Rebates outside NSW are set by each state or territory; ask your retailer how registration and rebates work where you live.
+
+---
+
+# Medicare, sleep studies and CPAP costs in Australia
+
+Source: https://homehealthzone.com/au/guides/medicare-sleep-study-cpap-australia/
+
+This guide is written from the Medicare Benefits Schedule (MBS) entries for [item 12250](https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=12250) and [item 12203](https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=12203), and ResMed Australia's [guidance on funding](https://www.resmed.com.au/knowledge-hub/are-cpap-machines-covered-by-medicare-or-private-health-insurance), read 14 October 2026.
+
+## The sleep study
+
+### Home study: MBS item 12250
+
+Item 12250 covers an **unattended** adult sleep study, the kind usually done at home.
+
+| | Amount |
+| --- | --- |
+| Schedule fee | $401.25 |
+| Medicare benefit at 75% | $300.95 |
+| Medicare benefit at 85% | $341.10 |
+| Frequency | Once in any 12-month period |
+
+### Lab study: MBS item 12203
+
+Item 12203 covers an **attended** study, with a sleep technician in continuous attendance under a sleep physician's supervision. It applies, for example, where suspected obstructive sleep apnoea makes you unsuitable for an unattended study.
+
+| | Amount |
+| --- | --- |
+| Schedule fee | $703.80 |
+| Medicare benefit at 75% | $527.85 |
+| Medicare benefit at 85% | $599.30 |
+
+Any gap between what the provider charges and the Medicare benefit is yours to pay.
+
+## Getting referred
+
+Item 12250 can be claimed in two ways:
+
+1. **Screening route.** Your doctor refers you to a qualified adult sleep medicine practitioner or a consultant respiratory physician, who decides you have a high probability of symptomatic moderate-to-severe OSA. That needs an **Epworth Sleepiness Scale score of 8 or more**, plus one of:
+   - a **STOP-Bang** score of 3 or more
+   - an **OSA50** score of 5 or more
+   - a high-risk result on the **Berlin Questionnaire**
+2. **Specialist route.** After seeing you, in person or by video, the sleep or respiratory specialist decides a study is needed to confirm the diagnosis.
+
+The study must be supervised and reported by a qualified adult sleep medicine practitioner who reviews the raw data. The MBS notes the questionnaires are available from Sleep Central.
+
+## Paying for the CPAP
+
+The MBS items cover the investigation, not the machine. Funding for the equipment comes from elsewhere:
+
+- **State programs.** ResMed Australia says public funding of CPAP differs between states, each with its own criteria. In NSW, [EnableNSW](/au/guides/enablensw-home-respiratory-program/) supplies CPAP for a $100 annual co-payment for pensioners and lower earners, though waiting periods vary.
+- **Private health insurance extras.** ResMed says extras cover may pay a rebate towards a CPAP and sometimes a mask. The amount varies widely; some funds want a doctor's letter, and all need an eligible invoice. Ask your fund for a quote before buying.
+- **Buying.** CPAP machines and masks can be sold GST-free; see [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/) and [CPAP machine prices in Australia](/au/guides/cpap-machine-price-australia/).
+
+## Renting or trialling first
+
+ResMed's Australian online shop lists an [AirSense 11 AutoSet trial](https://shop.resmed.com.au/products/airsense-11-autoset-cpap-trial) at $35, with a separate ongoing-fee listing. ResMed says the rented machine comes with up to two masks to try and check-ins from its sleep coaches, and asks you to contact its team to book. The listing does not state the billing period, so confirm the full cost before you start.
+
+---
+
+# Portable oxygen concentrators in Australia (2026)
+
+Source: https://homehealthzone.com/au/guides/portable-oxygen-concentrator-australia/
+
+Prices and specifications are from each retailer's page, read 14 October 2026. We have not tested these machines.
+
+## Prices and specs
+
+| Model | Price | Retailer | Delivery | Battery (retailer figures) | On Qantas list? |
+| --- | --- | --- | --- | --- | --- |
+| Kingon P2-E | A$2,350 | [Mega Medical](https://www.megamedical.com.au/products/kingon-p2-e-portable-oxygen-concentrator) | Pulse, 5 settings; 1.98 kg | not stated | "Kingon P2" listed; check the P2-E variant with Qantas |
+| Philips SimplyGo Mini | A$2,399 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/philips-simplygo-mini-portable-oxygen-concentrator) | Pulse | not stated | Yes |
+| Inogen Rove 6 (16-cell) | A$2,899 | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/rove6) | Pulse only, 6 settings, up to 1,260 mL/min | about 13.5 h on setting 1, over 10 h on setting 2 | **No** |
+| GCE Zen-O | A$3,950 | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/zen-o) | Pulse 1 to 6; continuous 0.5 to 2 L/min | up to 8 h with two 12-cell batteries (at 18 breaths a minute) | Yes |
+| Caire Eclipse 5 | A$4,599 | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/eclipse5) | Pulse; continuous up to 3 L/min | not stated | Yes |
+
+Other listings: Kingon P2-E7 at $3,999 (Mega Medical) and $3,899 (Rapid Medical), Kingon P2-E6 at $3,199 and the P2 transportable continuous-flow model at $3,750 (Rapid Medical), and Rove 6 bundles from $4,072 (Rapid Medical).
+
+Air Liquide says the Rove 6 carries a five-year device warranty, three years on sieve beds and one year on battery and accessories.
+
+## Pulse or continuous?
+
+Air Liquide's pages make three points worth knowing:
+
+- Pulse settings **do not equal litres per minute**. Your clinician sets them using oximetry during activity.
+- Pulse-dose machines suit **nose breathers**, and may not suit overnight use because they rely on detecting each breath.
+- The Eclipse 5 switches to continuous flow if it detects no breath, and works with CPAP and bilevel.
+
+If you need oxygen with CPAP at night, a continuous-flow model or a home concentrator is the likelier fit. Ask your prescriber.
+
+## Flying
+
+Qantas's [authorised medical support equipment list](https://www.qantas.com/content/dam/qantas/pdfs/fly/specific-needs/qantas-medical-support-equipment.pdf) names these portable concentrators, among others: AirSep Freestyle, Lifestyle and Focus; DeVilbiss iGo; Inogen One, G2, G3, G4 and G5; Invacare XPO2, Solo 2 and Platinum Mobile; OxyGO NEXT; Philips SimplyGo and SimplyGo Mini; SeQual Eclipse 5 and eQuinox; Precision Medical EasyPulse; Kingon P2; and GCE Zen-O and Zen-O lite. Qantas says no other equipment can be accepted for use on board.
+
+Qantas also says all its accepted devices except the Inogen One use lithium batteries under 101 Wh. Batteries of 101 to 160 Wh need dangerous goods approval, with at most two spares. More in [flying with CPAP or oxygen from Australia](/au/guides/flying-with-cpap-oxygen-australia/).
+
+## Prescription and funding
+
+Air Liquide says you need a prescription to buy a concentrator. Victoria's SWEP funds portable concentrators for intermittent use; Queensland's MASS does not fund portable oxygen for community access except in special circumstances. See [home oxygen funding in Victoria and Queensland](/au/guides/home-oxygen-funding-victoria-queensland/).
+
+---
+
+# TGA rules for CPAP and oxygen devices in Australia
+
+Source: https://homehealthzone.com/au/guides/tga-artg-cpap-oxygen-australia/
+
+This guide is written from the TGA's pages on the [Personal Importation Scheme](https://www.tga.gov.au/products/unapproved-therapeutic-goods/access-pathways/personal-importation-scheme) and [importing and supplying medical devices](https://www.tga.gov.au/products/medical-devices/importing-and-supplying-medical-devices). The TGA site blocks scripted access, so we read archived 2026 copies; check the live pages. It is not legal advice.
+
+## The ARTG
+
+The Australian Register of Therapeutic Goods (ARTG) lists devices that may be supplied in Australia. The TGA says:
+
+- A **sponsor** must apply to have each kind of medical device included on the ARTG.
+- Each ARTG entry is unique to the **sponsor, manufacturer and kind of device**. A second importer of the same model needs its own entry.
+- A condition of inclusion is that the device keeps meeting the TGA's Essential Principles for safety and performance.
+
+Some Australian retailers print the ARTG number in the listing; Rapid Medical, for example, names ARTG 524233 for the Secure Plus 5 L concentrator. Otherwise, ask the seller, or search the ARTG on the TGA's site.
+
+## Personal Importation Scheme
+
+The scheme lets individuals import therapeutic goods **not** on the ARTG, usually by post or courier, if the conditions are met:
+
+| Rule | Detail |
+| --- | --- |
+| Who uses it | You or an immediate family member: children, parents, grandparents, grandchildren, siblings, spouse or de facto partner |
+| Quantity | A three-month supply in any one importation |
+| TGA approval | Not required, if the other conditions are met |
+| Resale | Not allowed: you cannot sell, supply or give the goods to others |
+| Counterfeits | Prohibited in all circumstances |
+| Health professionals | May import a device for personal use, but not for use in their practice |
+
+### What it means for CPAP and oxygen users
+
+- A machine bought overseas for your own use can come in under the scheme. Repeated or bulk orders are outside "three months' supply".
+- A personally imported machine **cannot be resold** in Australia.
+- The scheme is separate from **GST** and from **airline** rules. See [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/) and [flying from Australia](/au/guides/flying-with-cpap-oxygen-australia/).
+
+## Penalties
+
+The TGA warns sponsors and health professionals who break the import and supply rules face civil or criminal penalties of up to **five years' imprisonment and/or 5,000 penalty units**, with one penalty unit valued at $330 under the Crimes Act 1914.
+
+## Related
+
+- [CPAP machine prices in Australia](/au/guides/cpap-machine-price-australia/)
+- [Home oxygen concentrators in Australia](/au/guides/home-oxygen-concentrator-australia/)
+
+---
+
+# Canada: oxygen concentrators and CPAP
+
+Source: https://homehealthzone.com/ca/
+
+HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and devices sold in Canada with CAD prices from named retailers.
+
+Canada guides:
+
+- [Alberta AADL home oxygen and respiratory benefits](https://homehealthzone.com/ca/guides/alberta-aadl-home-oxygen/)
+- [BC CPAP funding on income or disability assistance](https://homehealthzone.com/ca/guides/bc-cpap-funding-income-assistance/)
+- [BC Home Oxygen Program: who qualifies](https://homehealthzone.com/ca/guides/bc-home-oxygen-program/)
+- [CPAP machine prices in Canada (2026)](https://homehealthzone.com/ca/guides/cpap-machine-price-canada/)
+- [CPAP mask prices in Canada (2026)](https://homehealthzone.com/ca/guides/cpap-masks-canada/)
+- [Flying with CPAP or oxygen from Canada](https://homehealthzone.com/ca/guides/flying-with-cpap-oxygen-canada/)
+- [Health Canada licences for CPAP and oxygen devices](https://homehealthzone.com/ca/guides/health-canada-licence-cpap-oxygen/)
+- [Home oxygen concentrators in Canada (2026)](https://homehealthzone.com/ca/guides/home-oxygen-concentrator-canada/)
+- [Ontario ADP funding for CPAP machines](https://homehealthzone.com/ca/guides/ontario-adp-cpap-funding/)
+- [Ontario home oxygen funding through ADP](https://homehealthzone.com/ca/guides/ontario-adp-home-oxygen/)
+- [Portable oxygen concentrators in Canada (2026)](https://homehealthzone.com/ca/guides/portable-oxygen-concentrator-canada/)
+
+---
+
+# Alberta AADL home oxygen and respiratory benefits
+
+Source: https://homehealthzone.com/ca/guides/alberta-aadl-home-oxygen/
+
+This guide is written from Alberta.ca’s [AADL benefits covered](https://www.alberta.ca/aadl-benefits-covered) and [AADL cost sharing](https://www.alberta.ca/aadl-cost-sharing-of-benefits) pages, read on 14 October 2026.
+
+## What AADL covers
+
+AADL’s list of benefits includes **oxygen** and **respiratory equipment and supplies**. Alberta notes that respiratory equipment might not be new.
+
+## No cost-share for respiratory benefits
+
+Most AADL benefits have a cost-share: clients pay **25%** of the cost up to **$500 per family per benefit year** (1 July to 30 June). Alberta says **respiratory benefits do not have a cost-share requirement**.
+
+## How you get it
+
+1. A health professional carries out a clinical assessment and decides what equipment and supplies you can get through AADL.
+2. An AADL authorizer gives you a list of **up to three approved vendors**.
+3. You get the equipment from one of those vendors.
+
+You are responsible for reasonable care of AADL-supplied equipment, and for replacing equipment that is lost, stolen or damaged through misuse.
+
+## What we could not confirm
+
+Section R of the AADL Program Manual sets out respiratory benefits in detail, including any oxygen thresholds and whether CPAP is covered. We could not download it, so this guide doesn’t give AADL’s medical criteria or CPAP rules. Ask your authorizer.
+
+For buying privately, see [home oxygen concentrators in Canada](/ca/guides/home-oxygen-concentrator-canada/).
+
+---
+
+# BC CPAP funding on income or disability assistance
+
+Source: https://homehealthzone.com/ca/guides/bc-cpap-funding-income-assistance/
+
+This guide is written from the BC government’s [medical equipment and devices policy for service providers](https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/access-services/service-providers/medical-equipment-therapies), read on 14 October 2026. Check with the ministry before you buy.
+
+## Who it is for
+
+- People receiving **disability assistance**
+- People on **income assistance** who have a life-threatening health need
+- Some non-ministry clients who have a life-threatening health need
+
+## Requirements
+
+- **Pre-approval is a legal requirement.** The ministry needs a quote from the supplier.
+- **Baseline overnight testing** within the previous six months.
+- A **30-day compliance report** showing the machine was used at least **80% of the time**, for at least **4 hours a night**.
+
+## What can be funded
+
+- The CPAP trial and mask fitting
+- Purchase of the machine
+- Yearly supplies
+- Repairs and warranty administration
+- Loaner equipment
+
+## Other sources first
+
+The ministry funds equipment only when no other resource can pay. Those resources include Fair PharmaCare, health authorities, ICBC, WorkSafeBC, Veterans Affairs Canada and private insurance.
+
+## Prices for comparison
+
+Retail CPAP prices on 14 October 2026 started at C$870 for an AirSense 10 AutoSet; see [CPAP machine prices in Canada](/ca/guides/cpap-machine-price-canada/). For BC home oxygen, see [the BC Home Oxygen Program](/ca/guides/bc-home-oxygen-program/).
+
+---
+
+# BC Home Oxygen Program: who qualifies
+
+Source: https://homehealthzone.com/ca/guides/bc-home-oxygen-program/
+
+This guide is written from BC’s [COPD guideline Appendix C on home oxygen](https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/bc-guidelines/copd_appendix_c.pdf) and [Fraser Health’s Home Oxygen Program page](https://www.fraserhealth.ca/health-topics-a-to-z/home-oxygen-program), read on 14 October 2026. It is not medical advice.
+
+## Medical criteria (BC guideline)
+
+The guideline notes that criteria may vary between health authorities. In every case you must be on optimal treatment and **not actively smoking**.
+
+| Type | Threshold |
+| --- | --- |
+| Resting | PaO2 ≤ 55 mmHg on room air, **or** SpO2 below 88% continuously for 6 minutes |
+| Resting with heart failure or pulmonary hypertension | PaO2 ≤ 60 mmHg |
+| Walking (ambulatory) | SpO2 below 88% for at least 1 minute while walking on a **flat surface** (not a treadmill) |
+| Night-time (nocturnal) | SpO2 below 88% for more than 30% of at least 4 hours of oximetry |
+
+If you can’t walk for one minute, ambulatory oxygen is not funded on that basis. People with sleep apnoea get oxygen only if they meet the nocturnal criteria **despite optimal CPAP**.
+
+## Applying: Fraser Health example
+
+Each health authority runs its own programme. Fraser Health says:
+
+- You need to be a BC resident with Medical Services Plan (MSP) coverage, live in the Fraser Health region, and not be in acute or residential care.
+- Your doctor or nurse practitioner sends an application and prescription to **Community Respiratory Services** (fax 604-514-6079). A respirologist decides.
+- The programme does not fund you if WorkSafeBC (WCB), ICBC, Non-Insured Health Benefits (NIHB), the RCMP or Veterans Affairs Canada covers you.
+- Palliative patients must also meet the criteria.
+- If you are not approved, you can pay privately or use extended health benefits.
+
+## Paying privately
+
+Retail concentrator prices are in [home oxygen concentrators in Canada](/ca/guides/home-oxygen-concentrator-canada/). For CPAP help for people on income or disability assistance in BC, see [BC CPAP funding on income assistance](/ca/guides/bc-cpap-funding-income-assistance/).
+
+---
+
+# CPAP machine prices in Canada (2026)
+
+Source: https://homehealthzone.com/ca/guides/cpap-machine-price-canada/
+
+All prices are in Canadian dollars, read from each retailer’s store data on 14 October 2026. They exclude shipping, and tax is added at checkout. A prescription is usually needed. In Ontario, ADP pays 75% if you go through a registered sleep clinic and vendor; see [Ontario ADP CPAP funding](/ca/guides/ontario-adp-cpap-funding/).
+
+## Auto-CPAP machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 AutoSet (with ClimateLineAir 11 tube) | C$1,300 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airsense-11-autoset%E2%84%A2-with-humidair-and-climateline%E2%84%A2air-11-tube) |
+| ResMed AirSense 11 AutoSet (3-year warranty) | $1,435 | [Air Voel](https://airvoel.ca/products/resmed-airsense-11-autoset-cpap) |
+| ResMed AirSense 11 AutoSet (5-year extended) | $1,535 | [Air Voel](https://airvoel.ca/products/resmed-airsense-11-autoset-cpap) |
+| ResMed AirSense 11 AutoSet (SlimLine tube) | $1,435 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-11-autoset-cpap-with-integrated-humidifier) |
+| ResMed AirSense 11 AutoSet (heated tube) | $1,557 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-11-autoset-cpap-with-integrated-humidifier) |
+| ResMed AirSense 10 AutoSet | C$870 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airsense-10-autoset%E2%84%A2-with-humidair-and-climateline%E2%84%A2air) |
+| ResMed AirSense 10 AutoSet (with heated tube) | $1,444 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-10-autoset) |
+
+Air Voel and CPAP Machines Canada both showed “compare at” prices of $1,895–$1,900 next to the $1,435 price. We list the selling price.
+
+The same AirSense 10 AutoSet was **$574 cheaper** at Canadian CPAP Store than at CPAP Machines Canada, although the bundles differ. Compare what’s in the box.
+
+## Travel machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirMini AutoSet | C$1,270 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airmini-auto-ultra-portable-apap-machine) |
+| ResMed AirMini AutoSet | $1,313 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airmini-cpap-system) |
+| ResMed AirMini AutoSet | $1,313 | [Air Voel](https://airvoel.ca/products/resmed-airmini-autoset-travel-cpap) |
+
+The AirMini needs a mask-specific setup pack. Canadian CPAP Store listed these at $75–$83.
+
+## Bilevel
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | C$2,623 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/aircurve-10-vauto-copy) |
+| ResMed AirCurve 11 VAuto | $2,623 | [Air Voel](https://airvoel.ca/products/resmed-aircurve-11-vauto-bipap-device) |
+
+## Renting first
+
+Air Voel listed rentals of the AirSense 11 AutoSet, AirSense 10 AutoSet and AirMini at **$278** each. The page didn’t state the rental period.
+
+## Check the licence
+
+Canadian CPAP Store says its AirSense 11 is ResMed’s Canadian model, licensed by Health Canada. The AirSense 11 appears in Health Canada’s licence database as licence 106650. See [Health Canada licensing for CPAP and oxygen](/ca/guides/health-canada-licence-cpap-oxygen/).
+
+---
+
+# CPAP mask prices in Canada (2026)
+
+Source: https://homehealthzone.com/ca/guides/cpap-masks-canada/
+
+All prices are in Canadian dollars, read from each retailer’s store data on 14 October 2026, before shipping and tax. Ontario’s ADP funds the machine but **not replacement masks or headgear** ([Ontario](https://www.ontario.ca/page/respiratory-equipment-and-supplies)), so check your private plan.
+
+## Nasal pillow masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit P10 | C$120 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-p10-cpap-mask) |
+| ResMed AirFit P30i | C$150 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-p30i-starter-pack) |
+| ResMed AirFit P30i | $154 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airfit-p30i) |
+| Fisher & Paykel Nova Micro | C$130 | [Canadian CPAP Store](https://canadiancpapstore.com/products/nova-micro-mask) |
+| Fisher & Paykel Nova Micro | $115 | [Air Voel](https://airvoel.ca/products/nova-micro-nasal-pillows-cpap-mask-fisher-paykel) |
+| Philips DreamWear Silicone Pillows | $120 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/dreamwear-silicone-pillows-fitpack) |
+
+## Nasal and cradle masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit N20 | C$120 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-n20-with-headgear) |
+| ResMed AirFit N30 | C$136 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-n30-with-headgear) |
+| ResMed AirFit N30i | C$150 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-n30i-starter-pack-small-medium-and-large-cushions) |
+| ResMed AirTouch N30i | C$175 | [Canadian CPAP Store](https://canadiancpapstore.com/products/resmed-airtouch-n30i) |
+| ResMed AirTouch N30i (StarterPack) | $186 | [Air Voel](https://airvoel.ca/products/resmed-airtouch-n30i-nasal-cpap-mask-starterpack) |
+| Fisher & Paykel Nova Nasal | $115 | [Canadian CPAP Store](https://canadiancpapstore.com/products/nova-nasal-mask) |
+| Fisher & Paykel Evora Nasal | $170 | [Canadian CPAP Store](https://canadiancpapstore.com/products/evora-nasal-mask-with-headgear) |
+| Philips DreamWear Under the Nose | $105 | [Air Voel](https://airvoel.ca/products/respironics-dreamwear-under-the-nose-nasal-mask) |
+
+## Full face masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit F40 | C$207 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-f40-full-face-mask) |
+| ResMed AirTouch F30i | C$236 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airtouch-f30i-full-face-mask) |
+| ResMed AirFit X30i | C$334 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-x30i-full-face-mask) |
+| ResMed AirFit X30i (Starter Pack) | $236 | [Air Voel](https://airvoel.ca/products/resmed-airfit-x30i-oral-nasal-full-face-cpap-mask) |
+| Fisher & Paykel Evora Full Face | C$180 | [Canadian CPAP Store](https://canadiancpapstore.com/products/evora-full-face-mask-with-headgear) |
+| Fisher & Paykel Vitera | C$180 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/vitera) |
+| Philips DreamWear Full Face | C$215 | [Canadian CPAP Store](https://canadiancpapstore.com/products/dreamwear-full-face-mask-with-headgear) |
+| Philips DreamWear Full Face (fit pack) | $159 | [Air Voel](https://airvoel.ca/products/respironics-dreamwear-full-face-mask-fit-pack) |
+
+The AirFit X30i was **$98 cheaper** at Air Voel ($236) than at Canadian CPAP Store ($334). Air Voel lists a Starter Pack, which may include different cushion sizes.
+
+## Licensing
+
+The masks we checked appear in Health Canada’s licence database: AirFit F40 (licence 111649, first licensed 12 August 2024), AirFit P30i (101688), F&P Nova Micro (110189), F&P Evora (67268) and DreamWear Full Face (100043). See [Health Canada licensing](/ca/guides/health-canada-licence-cpap-oxygen/).
+
+---
+
+# Flying with CPAP or oxygen from Canada
+
+Source: https://homehealthzone.com/ca/guides/flying-with-cpap-oxygen-canada/
+
+This guide is written from Air Canada’s [international tariff Rule 45](https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/en/general-conditions-of-carriage/tarif-international/int_rule_50.pdf) and Fitness for Air Travel form, and WestJet’s [oxygen](https://www.westjet.com/en-ca/accessible-travel/oxygen) and [medical equipment](https://www.westjet.com/en-ca/accessible-travel/medication) pages, read on 14 October 2026. Confirm with the airline before you fly.
+
+## Air Canada
+
+The rules apply to Air Canada, Air Canada Express and Air Canada Rouge.
+
+**Portable oxygen concentrators (POCs)**
+
+- Tell Air Canada at least **48 hours** before departure.
+- A **medical certificate** is needed for transborder (Canada–US) trips. For other trips you need medical clearance from Air Canada.
+- The POC must be a type **approved by Air Canada** and free of oil and grease.
+- Bring spare batteries in carry-on, enough for the **entire itinerary**, including check-in, connections and a buffer. Batteries can’t be checked.
+- **Aircraft power can’t be used** to run the POC or recharge batteries.
+- The POC and spare batteries travel **free**, in addition to your carry-on allowance, if they fit under the seat.
+- You can’t check in online or at a kiosk; see an airport agent.
+- Using any battery-powered medical device on board, including a CPAP, needs prior approval from Air Canada Accessibility Services. The Fitness for Air Travel form gives the same 48-hour notice for CPAP.
+
+**Air Canada-supplied oxygen**
+
+The tariff says you can’t bring your own oxygen, except dry D-type cylinders under 22 inches on flights within Canada. However, Air Canada’s [restricted items page](https://www.aircanada.com/ca/en/aco/home/plan/baggage/restricted-and-prohibited-items.html) lists personal oxygen cylinders as not allowed, so don’t plan on the exception without written confirmation. Liquid oxygen is banned on all aircraft. Air Canada supplies cylinder oxygen with 48 hours’ notice (72 hours at some stations, including Sydney, Hong Kong and Seoul). It is delivered by nasal prongs only. Fees from the tariff:
+
+| Scheduled flight time | 2 LPM | 3 LPM | 4 LPM | 5 LPM |
+| --- | --- | --- | --- | --- |
+| Under 2 h | $220 | $220 | $220 | $390 |
+| 2–3:59 h | $390 | $390 | $390 | $560 |
+| 6–7:59 h | $390 | $560 | $730 | $900 |
+| 13:37–16 h | $730 | $900 | N/A | N/A |
+
+The fee isn’t discounted and isn’t refundable if you cancel within 72 hours of departure.
+
+## WestJet
+
+- **Only portable oxygen concentrators** are accepted where oxygen is needed in flight.
+- Send the Air Travel Requirements Assessment Form for medical clearance to MedDesk@WestJet.com or fax 1-866-737-1202.
+- The POC must carry the manufacturer’s label saying it meets FAA acceptance criteria, or be on WestJet’s short approved list. Other POCs may be used **only during cruise**.
+- The POC must run on **battery** only. Batteries, including spares, may not exceed **100 Wh**. WestJet suggests enough charged batteries for **1.5 times** your total travel time.
+- Spares travel in carry-on only, with terminals protected. Up to 20 spare batteries are allowed.
+- The seat-side charging ports are **not designed for medical devices**.
+- WestJet doesn’t charge for medical equipment, but a CPAP or other portable medical device with batteries must be approved for air travel.
+
+The battery limits differ: WestJet allows at most 100 Wh, while Air Canada’s [baggage rules](https://www.aircanada.com/ca/en/aco/home/plan/baggage/restricted-and-prohibited-items.html) allow up to two spare lithium-ion batteries of 100–160 Wh, subject to approval by airport agents. Check your battery’s Wh rating before booking.
+
+## Power in Canada
+
+Canada uses **120 V, 60 Hz** with **Type A and B** plugs ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/safety-advice/travel-advice/canada/)). Visitors from the UK, Europe, Australia or New Zealand need a plug adaptor. A device rated only for 230 V also needs a converter. An adaptor doesn’t change voltage. Check the rating on your machine’s power supply.
+
+For machines that travel well, see [CPAP machine prices in Canada](/ca/guides/cpap-machine-price-canada/) (AirMini) and [portable oxygen concentrators](/ca/guides/portable-oxygen-concentrator-canada/).
+
+---
+
+# Health Canada licences for CPAP and oxygen devices
+
+Source: https://homehealthzone.com/ca/guides/health-canada-licence-cpap-oxygen/
+
+This guide is written from Health Canada’s [MDALL page](https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/licences/medical-devices-active-licence-listing.html), and from licence records retrieved from Health Canada’s medical devices database on 14 October 2026. It is not legal advice.
+
+## How licensing works
+
+Health Canada licenses medical devices under the *Food and Drugs Act* and the *Medical Devices Regulations*. It says:
+
+- MDALL lists **all licensed Class II, III and IV** medical devices offered for sale in Canada.
+- **Class I** devices don’t need a medical device licence. They are monitored through establishment licensing.
+- **Only products in the listing may be offered for general marketing in Canada.**
+- You can search by company name, licence name or number, device name or device identifier (often the catalogue number).
+
+## Licence records for popular devices
+
+| Device | Licence | Class | First licensed | Licence holder |
+| --- | --- | --- | --- | --- |
+| ResMed AirSense 11 (AutoSet, CPAP, Elite) | 106650 | II | 7 Sep 2021 | ResMed Pty Ltd (Australia) |
+| ResMed AirSense 10 AutoSet | 93717 | II | 12 Aug 2014 | ResMed Pty Ltd |
+| ResMed AirMini | 99052 | II | 26 Apr 2017 | ResMed Pty Ltd |
+| ResMed AirFit F40 | 111649 | II | 12 Aug 2024 | ResMed Pty Ltd |
+| Inogen Rove 6 | 109185 | II | 11 Apr 2023 | Inogen, Inc. (US) |
+| Inogen Rove 4 | 111230 | II | 14 May 2024 | Inogen, Inc. |
+| Philips SimplyGo Mini | 95321 | II | 30 Jul 2015 | Philips Respironics |
+| CAIRE FreeStyle Comfort | 101643 | II | 21 Aug 2018 | CAIRE |
+| Yuwell oxygen concentrator | 111620 | II | 8 Aug 2024 | Yuwell |
+| F&P Nova Micro | 110189 | II | 5 Mar 2024 | Fisher & Paykel |
+
+Dates are the first licence date for each device in the record.
+
+## Checking before you buy
+
+1. Search MDALL for the exact model name.
+2. Check the licence has no end date. For example, one Evora nasal mask record under licence 67268 ended on 28 March 2023, while newer Evora records under the same licence remain active.
+3. For connected machines, Canadian CPAP Store points out that its AirSense 11 is ResMed’s Canadian model, with a cellular connection certified for use in Canada. A model bought abroad may differ.
+
+For prices on licensed devices, see [CPAP machine prices](/ca/guides/cpap-machine-price-canada/) and [portable oxygen concentrators](/ca/guides/portable-oxygen-concentrator-canada/).
+
+---
+
+# Home oxygen concentrators in Canada (2026)
+
+Source: https://homehealthzone.com/ca/guides/home-oxygen-concentrator-canada/
+
+All prices are in Canadian dollars, read from each retailer’s store data on 14 October 2026.
+
+## Prices
+
+| Concentrator | Price | Retailer |
+| --- | --- | --- |
+| Yuwell 5L stationary | $775 | [SleepEh](https://sleepeh.ca/products/yuwell-5l-stationary-concentrator-8f-5a) |
+| Yuwell 5 L (Inogen Voxi 5), 8F-5A | C$1,200 | [The CPAP Store](https://thecpapstore.ca/products/yuwell-5-liter-oxygen-concentrator-inogen-voxi-5) |
+| DeVilbiss 5L Compact | $899 | [SleepEh](https://sleepeh.ca/products/5l-compact-oxygen-concentrator) |
+| Inogen At Home | C$2,392 | [SleepEh](https://sleepeh.ca/products/inogen-at-home-oxygen-concentrator) |
+| Yuwell 10L stationary | $2,500 | [SleepEh](https://sleepeh.ca/products/yuwell-10l-stationary-concentrator) |
+
+Yuwell 5-litre units were listed at **$775 at SleepEh and $1,200 at The CPAP Store**. SleepEh’s listing URL also references model 8F-5A, but its title doesn’t name the model, so check before you compare. SleepEh also offered a $100 gift card with it.
+
+## Check the licence
+
+Health Canada’s licence listing includes a Yuwell oxygen concentrator (licence 111620, first licensed 8 August 2024). Search the listing for any other model before you buy; see [Health Canada licensing](/ca/guides/health-canada-licence-cpap-oxygen/).
+
+## Power
+
+Canada uses **120 V, 60 Hz** with **Type A and B** sockets ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/safety-advice/travel-advice/canada/)). A concentrator bought abroad for 230 V won’t run safely here without the correct rating. Check the label.
+
+## Funded oxygen
+
+If you meet your province’s criteria, the province usually pays a vendor to supply and maintain the concentrator. See [Ontario ADP home oxygen](/ca/guides/ontario-adp-home-oxygen/), [BC Home Oxygen Program](/ca/guides/bc-home-oxygen-program/) and [Alberta AADL](/ca/guides/alberta-aadl-home-oxygen/).
+
+---
+
+# Ontario ADP funding for CPAP machines
+
+Source: https://homehealthzone.com/ca/guides/ontario-adp-cpap-funding/
+
+This guide is written from Ontario government pages: [Assistive Devices Program](https://www.ontario.ca/page/assistive-devices-program) and [respiratory equipment and supplies](https://www.ontario.ca/page/respiratory-equipment-and-supplies), read on 14 October 2026. Rules change, so check the pages before you buy.
+
+## Who qualifies
+
+Ontario’s Assistive Devices Program (ADP) helps people who:
+
+- live in Ontario and have a valid Ontario health card
+- have a physical disability that needs the equipment for **six months or longer**
+- meet the device’s clinical criteria
+
+Income is not considered. You are not eligible through ADP if the Workplace Safety and Insurance Board (WSIB) covers the same equipment, or if you are a Group A veteran receiving the same benefit from Veterans Affairs Canada.
+
+## What ADP covers for sleep apnoea
+
+| Covered | Not covered |
+| --- | --- |
+| CPAP, APAP and BPAP machines | Replacement masks and headgear for CPAP |
+| | Adaptive servo-ventilation (ASV) |
+| | Oral appliances for obstructive sleep apnoea |
+| | Stand-alone humidifiers |
+
+Hospital in-patients are excluded. People living in long-term care homes are generally excluded from ADP respiratory funding, but **can** get PAP funding.
+
+## Who pays what
+
+ADP pays **75%** of the ADP-approved price directly to the vendor and you pay **25%**. ADP pays **100%** if you receive Ontario Works (OW), the Ontario Disability Support Program (ODSP) or Assistance for Children with Severe Disabilities (ACSD). Private plans may cover some or all of your 25% share; check your policy.
+
+## The steps, in order
+
+1. **See a doctor at an ADP-registered sleep clinic.** ADP can send the list of registered clinics (email adp@ontario.ca).
+2. **Choose an ADP-registered business** to supply the machine.
+3. **The business submits the application** for you. Ontario says it aims to review applications within eight weeks.
+4. **Pay your 25%** and collect the machine.
+
+If you buy before completing these steps, you pay the full price.
+
+## Replacement
+
+ADP may fund a replacement if your condition has changed, or the machine is worn out, out of warranty and can’t reasonably be repaired. It does not replace lost machines or machines damaged by misuse.
+
+## What a machine costs without ADP
+
+For comparison, Canadian retailers listed the ResMed AirSense 11 AutoSet between C$1,300 and $1,435 on 14 October 2026; see [CPAP machine prices in Canada](/ca/guides/cpap-machine-price-canada/). The ADP price and your 25% share are set by ADP, not by these retail prices. Masks are not funded by ADP, so see [CPAP masks in Canada](/ca/guides/cpap-masks-canada/) for what they cost.
+
+---
+
+# Ontario home oxygen funding through ADP
+
+Source: https://homehealthzone.com/ca/guides/ontario-adp-home-oxygen/
+
+This guide is written from Ontario’s [home oxygen therapy page](https://www.ontario.ca/page/home-oxygen-therapy), last updated 10 July 2025 and read on 14 October 2026. It is not medical advice.
+
+## Who qualifies
+
+- Ontario resident with a valid health card
+- Meets ADP’s medical criteria for home oxygen, such as **hypoxemia (low blood oxygen) at rest**
+- Income is not considered
+
+## What is covered
+
+ADP funds the oxygen itself and the equipment and supplies to use it (concentrators or tanks, tubing and masks), plus delivery, set-up and maintenance. The vendor maintains, repairs and replaces the equipment, unless it was damaged by misuse.
+
+## Who pays what
+
+| Situation | ADP pays | You pay |
+| --- | --- | --- |
+| Most adults | 75% | 25% |
+| Aged 65 or older | 100% | Nothing |
+| Living in a long-term care home | 100% | Nothing |
+| On Ontario Works, ODSP or ACSD | 100% | Nothing |
+| Receiving professional services through Ontario Health atHome | 100% | Nothing |
+
+## How to apply
+
+1. Your doctor or nurse practitioner arranges the tests that show you meet the criteria.
+2. They complete the application form.
+3. You choose an ADP-registered home oxygen business.
+4. The business completes its part of the form.
+5. The business submits the application electronically.
+
+Funding must be **renewed every year**. The vendor arranges the testing.
+
+## Buying a concentrator privately
+
+You can buy a concentrator yourself, for example a portable unit for travel, but ADP funding goes through registered vendors. Prices we found are in [home oxygen concentrators in Canada](/ca/guides/home-oxygen-concentrator-canada/) and [portable oxygen concentrators in Canada](/ca/guides/portable-oxygen-concentrator-canada/). Bought privately, a portable unit cost from C$2,350 on 14 October 2026.
+
+---
+
+# Portable oxygen concentrators in Canada (2026)
+
+Source: https://homehealthzone.com/ca/guides/portable-oxygen-concentrator-canada/
+
+All prices are in Canadian dollars, read from each retailer’s store data on 14 October 2026, before tax and shipping. These are prescription devices; your prescriber sets the flow setting.
+
+## Prices
+
+| Concentrator | Price | Retailer |
+| --- | --- | --- |
+| Inogen Rove 6 (standard battery) | C$2,350 | [CPAP Supply Canada](https://cpapsupplycanada.ca/products/inogen-rove-6-portable-oxygen-concentrator-standard-battery) |
+| Inogen Rove 6 (single battery) | $2,695 | [The CPAP Store](https://thecpapstore.ca/products/inogen-rove-6-portable-oxygen-concentrator) |
+| Inogen Rove 6 (double battery) | $2,895 | [The CPAP Store](https://thecpapstore.ca/products/inogen-rove-6-portable-oxygen-concentrator) |
+| CAIRE FreeStyle Comfort (8-cell) | C$2,732.03 | [SleepEh](https://sleepeh.ca/products/caire-freestyle%C2%AE-comfort-portable-oxygen-concentrator) |
+| CAIRE FreeStyle Comfort (16-cell) | $2,951.03 | [SleepEh](https://sleepeh.ca/products/caire-freestyle%C2%AE-comfort-portable-oxygen-concentrator) |
+| Philips SimplyGo Mini bundle | C$2,950 | [The CPAP Store](https://thecpapstore.ca/products/simplygo-mini-portable-oxygen-concentrator-bundle) |
+| CAIRE Eclipse 5 (one battery) | C$3,504 | [SleepEh](https://sleepeh.ca/products/sequal-eclipse-5) |
+| CAIRE Eclipse 5 (two batteries) | $3,723 | [SleepEh](https://sleepeh.ca/products/sequal-eclipse-5) |
+
+The same Rove 6 was **$345 cheaper** at CPAP Supply Canada than at The CPAP Store. Check what battery and accessories each includes.
+
+## Health Canada licences
+
+| Model | Licence | First licensed |
+| --- | --- | --- |
+| Inogen Rove 6 | 109185 | 11 April 2023 |
+| Philips SimplyGo Mini | 95321 | 30 July 2015 |
+| CAIRE FreeStyle Comfort | 101643 | 21 August 2018 |
+
+All three are Class II. Source: Health Canada’s Medical Devices Active Licence Listing, queried 14 October 2026.
+
+## Flying
+
+Air Canada and WestJet have different battery and approval rules. See [flying with CPAP or oxygen in Canada](/ca/guides/flying-with-cpap-oxygen-canada/).
+
+## Funding
+
+Provinces fund home oxygen through their own programmes, usually through a contracted vendor rather than a retail purchase. See [Ontario ADP home oxygen](/ca/guides/ontario-adp-home-oxygen/), [BC Home Oxygen Program](/ca/guides/bc-home-oxygen-program/) and [Alberta AADL](/ca/guides/alberta-aadl-home-oxygen/).
+
+---
+
+# New Zealand: oxygen concentrators and CPAP
+
+Source: https://homehealthzone.com/nz/
+
+HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and devices sold in NZ with NZD prices from named retailers.
+
+New Zealand guides:
+
+- [ACC and respiratory equipment after an injury](https://homehealthzone.com/nz/guides/acc-equipment-respiratory-new-zealand/)
+- [CPAP cleaning and troubleshooting (NZ guide)](https://homehealthzone.com/nz/guides/cpap-cleaning-troubleshooting-nz/)
+- [CPAP machine prices in New Zealand (2026)](https://homehealthzone.com/nz/guides/cpap-machine-price-nz/)
+- [CPAP mask prices in New Zealand (2026)](https://homehealthzone.com/nz/guides/cpap-masks-nz/)
+- [Flying with CPAP or oxygen on Air New Zealand](https://homehealthzone.com/nz/guides/flying-with-cpap-oxygen-nz/)
+- [Funded CPAP in New Zealand: how it works](https://homehealthzone.com/nz/guides/funded-cpap-new-zealand/)
+- [Funded home oxygen in New Zealand](https://homehealthzone.com/nz/guides/home-oxygen-funding-new-zealand/)
+- [Medically dependent consumers: power and oxygen](https://homehealthzone.com/nz/guides/medically-dependent-power-nz/)
+- [Medsafe and WAND: are CPAP machines approved?](https://homehealthzone.com/nz/guides/medsafe-wand-medical-devices-nz/)
+- [Oxygen concentrator prices in New Zealand (2026)](https://homehealthzone.com/nz/guides/oxygen-concentrator-price-nz/)
+
+---
+
+# ACC and respiratory equipment after an injury
+
+Source: https://homehealthzone.com/nz/guides/acc-equipment-respiratory-new-zealand/
+
+This guide is written from ACC’s [aids and equipment page](https://www.acc.co.nz/im-injured/types-of-ongoing-support/aids-equipment) (last published 14 March 2024) and its [Medical Consumables operational guidelines](https://www.acc.co.nz/assets/contracts/medical-consumables-op-guidelines.pdf) (May 2023), read on 14 October 2026.
+
+## ACC or Health NZ?
+
+ACC covers **injuries**. If your breathing problem is caused by an injury ACC has accepted, ACC may pay for the equipment and consumables you need. Long-term conditions such as COPD or sleep apnoea that aren’t injury-related are funded through Health NZ instead. See [funded home oxygen](/nz/guides/home-oxygen-funding-new-zealand/) and [funded CPAP](/nz/guides/funded-cpap-new-zealand/).
+
+## What ACC pays for
+
+- **Aids and equipment** you need to recover from your covered injury. If you paid for some while waiting for cover, ask your recovery team about a refund.
+- **Medical consumables** through a separate service. Respiratory products are one category, for example cough-assist masks, suction catheters and cannulas. You need an accepted claim, an entitlement, and an injury-related need confirmed by a specialist, GP, nurse or other health professional.
+
+The consumables service excludes rehabilitation equipment, and consumables already paid for under publicly funded health services.
+
+## How to apply
+
+You can apply any time after ACC accepts your injury:
+
+- ask your doctor to send ACC a letter of recommendation
+- contact the claims team (0800 101 996) with your claim number
+- send the **ACC001** form by email or drop it at an ACC office
+- contact your recovery team, or use **MyACC**
+
+ACC may ask for an assessment, which it pays for. It says it will tell you its decision **within 21 days** of receiving the report.
+
+## Timeframes
+
+- Basic equipment: **3–5 days** after approval
+- More complex equipment: **2–3 weeks**
+- After a hospital stay, the hospital provides equipment for **up to six weeks** after discharge. Talk to ACC if you need it for longer.
+
+When you no longer need the equipment, contact Enable New Zealand (0800 362 253) to collect it. You can take equipment overseas, but you pay any baggage costs.
+
+---
+
+# CPAP cleaning and troubleshooting (NZ guide)
+
+Source: https://homehealthzone.com/nz/guides/cpap-cleaning-troubleshooting-nz/
+
+This guide is written from Health NZ’s [long-term CPAP therapy in Canterbury Waitaha](https://www.healthnz.govt.nz/hospitals-services/hospitals/canterbury/respiratory-services-canterbury/long-term-cpap-therapy-in-canterbury-waitaha) page, read on 14 October 2026. Follow your own sleep service’s and manufacturer’s instructions if they differ.
+
+## Cleaning schedule
+
+| When | Part | What to do |
+| --- | --- | --- |
+| Daily | Mask seal | Wash in warm soapy water; dishwashing detergent is best |
+| Daily | Water chamber | Remove from the machine, rinse and refill |
+| Weekly | Water chamber | Wash in warm soapy water, rinse, dry; soak 1 hour in 1 part white vinegar to 4 parts warm water |
+| Weekly | Hose | Rinse and leave to dry |
+| Weekly | Headgear | Machine-wash in a wash bag or pillowcase |
+| Monthly | Filter | Check it and brush off dust |
+
+Avoid very hot water, harsh chemicals and sunlight, which damage seals and plastic. Keep the mask away from children and pets. Only your sleep service should change the pressure.
+
+## Troubleshooting
+
+| Problem | What Health NZ suggests |
+| --- | --- |
+| Water building up in the tube or mask | Turn humidity down one setting at a time |
+| Dry nose or mouth | Turn humidity up one setting at a time, or try a full face mask |
+| Machine blowing cold air | Warm the room |
+| Mask leaking around the seal | Refit and adjust the straps; practise in front of a mirror; clean the mask |
+| Noisy hose | Air is probably escaping; check for holes and connections |
+| Sore eyes | Reposition the mask to stop air leaking towards your eyes |
+| Pressure too high to fall asleep | Use the ramp feature if your machine has one |
+| Still snoring with CPAP | The pressure may need changing; contact your sleep service |
+| Machine not working | Check the wall switch and power cable, and that the filter is clean |
+
+## Power cuts
+
+If the power goes off while you are using CPAP, take the mask off and sleep without it; the vents let you breathe room air. Restart CPAP when power returns. Don’t drive or operate heavy machinery if you are sleepy. If you rely on powered equipment, see [medically dependent consumers](/nz/guides/medically-dependent-power-nz/).
+
+Replacement masks cost $228–$300 in New Zealand; see [CPAP masks in New Zealand](/nz/guides/cpap-masks-nz/).
+
+---
+
+# CPAP machine prices in New Zealand (2026)
+
+Source: https://homehealthzone.com/nz/guides/cpap-machine-price-nz/
+
+All prices are in New Zealand dollars, read from each retailer’s store data on 14 October 2026. You may be able to get a machine through a public sleep service instead; see [funded CPAP in New Zealand](/nz/guides/funded-cpap-new-zealand/).
+
+## ResMed AirSense
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| AirSense 11 AutoSet | NZ$1,875 | [Awakenz](https://awakenz.co.nz/products/resmed-airsense-11-autoset-cpap) |
+| AirSense 11 AutoSet | $1,889 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airsense-11-autoset-machine) |
+| AirSense 11 AutoSet 4G | $1,945 | [CPAP Sales](https://www.cpapsales.co.nz/products/resmed-airsense-11-autoset-cpap-machine-4g) |
+| AirSense 11 AutoSet | $2,199 | [ResMed NZ shop](https://shop.resmed.co.nz/products/resmed-airsense-11-autoset) |
+| AirSense 11 AutoSet bundle | $2,249 | [ResMed NZ shop](https://shop.resmed.co.nz/products/airsense-11-autoset-bundle) |
+| AirSense 11 Elite (fixed pressure) | NZ$1,949 | [ResMed NZ shop](https://shop.resmed.co.nz/products/resmed-airsense-11-elite) |
+| AirSense 10 AutoSet | NZ$1,839 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airsense-10-autoset-machine) |
+| AirSense 10 AutoSet 4G bundle | $1,999 | [ResMed NZ shop](https://shop.resmed.co.nz/products/airsense-10-bundle) |
+
+The same AirSense 11 AutoSet was **$324 cheaper** at Awakenz than on ResMed’s own shop.
+
+## Fisher & Paykel and Yuwell
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| F&P SleepStyle Plus 4G Auto (5-year warranty) | $1,776 | [CPAP Sales](https://www.cpapsales.co.nz/products/f-p-sleepstyle-4g-auto-5-yr-warranty-2024-model) |
+| F&P SleepStyle+ Auto | $1,845 | [The Sleep Spot](https://thesleepspot.co.nz/products/fisher-paykel-sleepstyle-auto-machine) |
+| F&P SleepStyle+ Auto (with modem) | $1,895 | [Awakenz](https://awakenz.co.nz/products/fandp-sleepstyle-auto-cpap-with-modem) |
+| Yuwell BreathCare III Auto (Wi-Fi) | $1,561 | [CPAP Sales](https://www.cpapsales.co.nz/products/yuwell-breathcare-iii-auto-cpap-device-wifi-black-shell) |
+| Yuwell YH480 Auto (Wi-Fi) | $1,324 | [CPAP Sales](https://www.cpapsales.co.nz/products/yuwell-automatic-cpap-machine-yh480-wifi-black-shell) |
+
+Fisher & Paykel Healthcare is based in New Zealand.
+
+## Travel machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirMini AutoSet (device only) | NZ$1,380 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airmini-autoset-machine-device-only) |
+| ResMed AirMini HumidX starter kit (with mask) | $1,599 | [CPAP Sales](https://www.cpapsales.co.nz/products/resmed-airmini-humidx-starter-kit-airfit-p10-mask) |
+| ResMed AirMini starter kit (with mask) | $1,759.50 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airmini-bedside-travel-starter-kit-with-airfit-p10-mask) |
+| Yuwell Pocket S (pre-order) | $1,268 | [CPAP Sales](https://www.cpapsales.co.nz/products/yuwell-pocket-s-travel-cpap-machine) |
+
+## Bilevel
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | NZ$2,499 | [ResMed NZ shop](https://shop.resmed.co.nz/products/aircurve-11-vauto) |
+
+## Trials and rentals
+
+ResMed’s NZ shop lists a **CPAP trial of the AirSense 11 AutoSet at $35** and an AirSense 10 Elite rental at $35. The listings don’t state the period, so ask before you book.
+
+New Zealand has no pre-market approval for devices; see [Medsafe and WAND](/nz/guides/medsafe-wand-medical-devices-nz/).
+
+---
+
+# CPAP mask prices in New Zealand (2026)
+
+Source: https://homehealthzone.com/nz/guides/cpap-masks-nz/
+
+All prices are in New Zealand dollars, read from retailer store data on 14 October 2026. Health NZ Canterbury gives hospital-funded CPAP users **one replacement mask a year** ([Health NZ](https://www.healthnz.govt.nz/hospitals-services/hospitals/canterbury/respiratory-services-canterbury/long-term-cpap-therapy-in-canterbury-waitaha)).
+
+## Nasal pillow masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| Fisher & Paykel Nova Micro | NZ$229 | [Awakenz](https://awakenz.co.nz/products/fisher-paykel-nova-micro) |
+| ResMed AirFit P30i | NZ$275 | [Awakenz](https://awakenz.co.nz/products/resmed-airfit-p30i-nasal-pillows-mask) |
+| Fisher & Paykel Brevida | NZ$281.50 | [The Sleep Spot](https://thesleepspot.co.nz/products/f-p-brevida-nasal-pillows-mask) |
+| ResMed AirFit P10 | NZ$285 | [Awakenz](https://awakenz.co.nz/products/resmed-airfit-p10-nasal-pillows-mask) |
+| ResMed AirFit P10 | $289 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airfit-p10-nasal-pillows-mask) |
+
+## Nasal and cradle masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| Fisher & Paykel Nova Nasal | $228 | [CPAP Sales](https://www.cpapsales.co.nz/products/fisher-paykel-nova-nasal-cpap-mask) |
+| Fisher & Paykel Eson 2 | NZ$241 | [The Sleep Spot](https://thesleepspot.co.nz/products/f-p-eson-2-nasal-mask) |
+| ResMed AirFit N20 | $234 | [CPAP Sales](https://www.cpapsales.co.nz/products/resmed-airfit-n20-nasal-cpap-mask) |
+| ResMed AirFit N20 | NZ$279 | [Awakenz](https://awakenz.co.nz/products/resmed-airfit-n20-nasal-mask) |
+| ResMed AirTouch N30i | $234 | [CPAP Sales](https://www.cpapsales.co.nz/products/airtouch-n30i-nasal-cradle-mask) |
+| ResMed AirTouch N30i | NZ$284 | [Awakenz](https://awakenz.co.nz/products/resmed-airtouch-n30i-cpap-nasal-mask) |
+| ResMed AirFit N30i | NZ$275 | [Awakenz](https://awakenz.co.nz/products/resmed-airfit-n30i-nasal-cradle-mask) |
+| ResMed AirFit N30 | NZ$285 | [Awakenz](https://awakenz.co.nz/products/resmed-airfit-n30-nasal-mask) |
+
+The same AirTouch N30i was **$50 cheaper** at CPAP Sales ($234) than at Awakenz ($284).
+
+## Full face masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit F30i | NZ$238.90 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airfit-f30i-full-face-mask-copy) |
+| ResMed AirTouch F30i | NZ$279 | [Awakenz](https://awakenz.co.nz/products/resmed-airtouch-f30i-comfort-full-face-mask) |
+| ResMed AirFit F40 | NZ$285 | [Awakenz](https://awakenz.co.nz/products/resmed-f40) |
+| Fisher & Paykel Evora Full | NZ$285.60 | [The Sleep Spot](https://thesleepspot.co.nz/products/copy-of-fisher-paykel-evora%E2%84%A2-full-compact-full-face-mask) |
+| ResMed AirFit F20 | NZ$286.60 | [The Sleep Spot](https://thesleepspot.co.nz/products/resmed-airfit-f20-full-face-mask) |
+| ResMed AirFit F40 | $295 | [ResMed NZ shop](https://shop.resmed.co.nz/products/resmed-airfit-f40-full-face-cpap-mask) |
+| Fisher & Paykel Vitera | NZ$300 | [Awakenz](https://awakenz.co.nz/products/fisher-paykel-vitera-full-face-mask) |
+
+For keeping a mask working longer, see [CPAP cleaning and troubleshooting](/nz/guides/cpap-cleaning-troubleshooting-nz/).
+
+---
+
+# Flying with CPAP or oxygen on Air New Zealand
+
+Source: https://homehealthzone.com/nz/guides/flying-with-cpap-oxygen-nz/
+
+This guide is written from Air New Zealand’s [medical equipment and special assistance page](https://www.airnewzealand.com/en-nz/travel-info/special-assistance-medical-equipment), read on 14 October 2026. Confirm with the airline before you fly.
+
+## Airline oxygen
+
+- Complete **Parts 1 and 2 of the MEDA** medical clearance form and send it at least **72 hours** before travel (48 hours if you are using your own POC).
+- You **can’t use your own oxygen bottles** on the aircraft.
+- **Domestic flights:** Air New Zealand refers you to an authorised oxygen provider where possible.
+- **International flights:** Air New Zealand supplies oxygen on board (not on the ground or in transit). The standard supply is 2 L/min by nasal prongs from an Avia Pulse bottle, at **NZD $150 per bottle**. Flow rates above 4 L/min need a fixed oxygen rig at extra cost.
+
+## Your own portable oxygen concentrator (POC)
+
+- There is **no charge** for a POC you bring.
+- It must be an **Air New Zealand approved model**, or meet FAA requirements and carry the manufacturer’s label saying so.
+- Medical clearance is required to use it in flight.
+- Give **48 hours’ notice** to use aircraft power, and check in **1 hour before** general check-in.
+- Air New Zealand’s battery-approved list names models including the AirSep FreeStyle, SeQual Eclipse, Inogen One G2v and Philips SimplyGo. Newer models depend on the FAA label.
+
+## CPAP
+
+- Complete **MEDA Part 1**, even if your model isn’t listed, and give **48 hours’ notice**. Check in 1 hour before general check-in.
+- Use is limited to the **cruise** phase.
+- The approved list on Air New Zealand’s page names older models (ResMed S8 and S9, F&P Icon, Philips Remstar, Transcend). It doesn’t name the AirSense 10 or 11, so ask about your machine.
+- **In-seat power** (110 V, 60 Hz, maximum 1.2 A) is approved only for listed CPAPs, some only in low-power mode with the humidifier off.
+
+## Aircraft medical power
+
+| Aircraft | Medical outlet |
+| --- | --- |
+| Domestic flights | None |
+| Boeing 787-9 | 230 V, 50 Hz |
+| Boeing 777 | 115 V, 400 Hz; allow at least two weeks for Air New Zealand Engineering to assess your device |
+
+Air New Zealand recommends battery power where possible. If your device doesn’t meet its requirements, it suggests hiring one for the trip; see [oxygen concentrator prices](/nz/guides/oxygen-concentrator-price-nz/) for local hire.
+
+## Power in New Zealand
+
+New Zealand uses **230 V, 50 Hz** with **Type I** plugs (two flat pins in a V plus an earth pin) ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/safety-advice/travel-advice/new-zealand/)). Visitors from the US or Canada need a plug adaptor. A device rated only for 120 V also needs a converter. An adaptor doesn’t change voltage.
+
+---
+
+# Funded CPAP in New Zealand: how it works
+
+Source: https://homehealthzone.com/nz/guides/funded-cpap-new-zealand/
+
+This guide is written from Health NZ’s [long-term CPAP therapy in Canterbury Waitaha](https://www.healthnz.govt.nz/hospitals-services/hospitals/canterbury/respiratory-services-canterbury/long-term-cpap-therapy-in-canterbury-waitaha) page, read on 14 October 2026. Each region runs its own sleep service, so ask yours about local rules.
+
+## Canterbury example
+
+- After a **successful CPAP trial** through Christchurch Hospital Sleep Health Services, **you keep the machine** to use long term.
+- Sleep Health Services sets the pressure. Use CPAP every time you sleep. **If you are not using it, you will be asked to return it.**
+- Take the machine on holiday and into hospital with you.
+
+## Masks
+
+If you have hospital-funded CPAP, you are eligible for **one replacement mask a year**. More often than that, you may need to pay. Health NZ names USL Medical, Cansleep and Sleep Well Clinic as places to buy masks. For retail mask prices, see [CPAP masks in New Zealand](/nz/guides/cpap-masks-nz/). They cost $229–$300 on 14 October 2026.
+
+## Driving and pilot checks
+
+Some people need a medical review under **NZTA** (driving) or **CAA** (aviation) guidelines, which may include checking CPAP usage. Health NZ says these people are given a **cloud-connected** machine and asked to download a monitoring app.
+
+## Buying privately
+
+If you don’t qualify, or don’t want to wait, the AirSense 11 AutoSet cost from NZ$1,875 at Awakenz to $2,199 on ResMed’s NZ shop on 14 October 2026. ResMed’s shop also lists a **$35 CPAP trial** of the AirSense 11 AutoSet; the listing doesn’t say how long that covers. See [CPAP machine prices in New Zealand](/nz/guides/cpap-machine-price-nz/).
+
+For cleaning and fixing problems, see [CPAP cleaning and troubleshooting](/nz/guides/cpap-cleaning-troubleshooting-nz/).
+
+---
+
+# Funded home oxygen in New Zealand
+
+Source: https://homehealthzone.com/nz/guides/home-oxygen-funding-new-zealand/
+
+This guide is written from [Healthify’s home oxygen page](https://healthify.nz/health-a-z/h/home-oxygen-therapy), Health NZ’s [Wellington home oxygen leaflet](https://www.healthnz.govt.nz/assets/Locations/Wellington-Hutt-Kapiti/patient-information/pre-load-291.pdf) (issued August 2017, still hosted by Health NZ) and [Pharmac’s NIV equipment page (archived)](https://web.archive.org/web/20260513105502/https://www.pharmac.govt.nz/hospital-devices/whats-happening-in-each-category/non-invasive-ventilation-equipment). Pharmac’s page now returns “not found”, so we read an archived copy from 13 May 2026. This isn’t medical advice.
+
+## Who is funded
+
+- Healthify says home oxygen is a **funded service** if you meet the eligibility criteria, and you will be **reviewed regularly**.
+- Your oxygen dose is set by a **blood-gas test**. Don’t change it unless a doctor or the respiratory service tells you to.
+- Health NZ’s leaflet says oxygen is **not given for breathlessness** alone. It is for persistently low blood oxygen from a long-term lung condition.
+
+## The 16-hour rule
+
+The Wellington leaflet says long-term oxygen should be used for **at least 16 hours in every 24**, ideally including a continuous block of 12–14 hours that covers the night. Going out without oxygen occasionally is acceptable.
+
+## Smoking
+
+Smokers are not eligible, because of the fire risk. The Wellington leaflet says people who smoke at assessment must prove they have been **smoke-free for at least 4 weeks** before oxygen is reconsidered. Oxygen is **removed immediately** if there is evidence of continued smoking. Healthify adds that nobody may smoke or vape near the equipment.
+
+## Portable oxygen
+
+If you need oxygen to keep working or studying, Healthify says to discuss portable options with your oxygen service provider; **funding varies**. Prices for buying a portable concentrator yourself are in [oxygen concentrator prices in New Zealand](/nz/guides/oxygen-concentrator-price-nz/).
+
+## Who buys the equipment
+
+Pharmac runs national contracting for non-invasive ventilation equipment, **oxygen concentrators** and humidifiers bought by Health NZ | Te Whatu Ora. The concentrator you are given usually comes from that contract, not from a shop.
+
+## Buying a home concentrator privately
+
+| Concentrator | Price | Retailer |
+| --- | --- | --- |
+| Nidek Lite 5 L | $1,750 + GST | [Orange NZ](https://orangenz.co.nz/shop/medical/oxygen-concentrators/nidek-lite-oxygen-concentrator/) |
+| DeVilbiss 5 L Compact | $3,999.99 | [Pakuranga Pharmacy](https://pakurangapharmacy.co.nz/products/devilbiss-compact-oxygen-concentrator) |
+
+Prices read on 14 October 2026. Orange NZ shows prices excluding GST.
+
+## If the concentrator alarms
+
+Health NZ’s leaflet suggests checking for a power cut, a loose plug, kinked or blocked tubing, and overheating (some rooms are too hot). Wash the two filters weekly in warm soapy water. If you rely on the concentrator, register with your power company; see [medically dependent consumers](/nz/guides/medically-dependent-power-nz/).
+
+---
+
+# Medically dependent consumers: power and oxygen
+
+Source: https://homehealthzone.com/nz/guides/medically-dependent-power-nz/
+
+This guide is written from the Electricity Authority’s page [if you rely on electricity for medical reasons](https://www.ea.govt.nz/your-power/consumer-care-obligations/if-you-rely-on-electricity-for-medical-reasons/), read on 14 October 2026.
+
+## Register with your power company
+
+If you, or someone in your home, relies on electricity to prevent serious harm to health (for example a home oxygen concentrator), **tell your power company**. It must help you register as a **medically dependent consumer**.
+
+Your power company may ask a health practitioner to confirm this. Take the **Confirmation of Medically Dependent Consumer Status** form and your emergency plan to your doctor so they can sign the form and help with the plan.
+
+## Protection from disconnection
+
+Your power company **can’t disconnect you** if it knows you or someone in your household:
+
+- is registered as a medically dependent consumer
+- is applying to register
+- is disputing the power company’s decision on your status
+
+You still have to **pay your bills**. The Authority advises choosing a **postpay** plan.
+
+## Power cuts still happen
+
+Even if you are medically dependent, a constant supply **can’t be guaranteed**. The Authority says to:
+
+- get an emergency response plan template from your power company
+- make the plan with your healthcare providers and support people, and share it
+- talk to your doctor about **backup power** for medical equipment
+
+For CPAP, Health NZ Canterbury says that if the power goes off during the night, take the mask off and sleep without CPAP; the mask vents let you breathe room air. Restart when the power returns. See [CPAP cleaning and troubleshooting](/nz/guides/cpap-cleaning-troubleshooting-nz/).
+
+For home oxygen funding, see [funded home oxygen](/nz/guides/home-oxygen-funding-new-zealand/).
+
+---
+
+# Medsafe and WAND: are CPAP machines approved?
+
+Source: https://homehealthzone.com/nz/guides/medsafe-wand-medical-devices-nz/
+
+This guide is written from Medsafe’s pages on [the WAND database](https://www.medsafe.govt.nz/Regulatory/DevicesNew/3WAND.asp), [what WAND is](https://www.medsafe.govt.nz/Regulatory/DevicesNew/3-2Explanation.asp) and [importing medical devices](https://www.medsafe.govt.nz/Regulatory/DevicesNew/4Importing.asp), read on 14 October 2026. It isn’t legal advice.
+
+## No pre-market approval
+
+Medsafe says:
+
+- There is **no approval system** for medical devices under the *Medicines Act 1981*.
+- There is **no mandatory requirement** for devices to be approved by any regulator before being supplied in New Zealand.
+- Notification to WAND **does not mean** Medsafe has assessed the device for quality, safety or efficacy.
+
+This differs from Australia, where devices must be included on the ARTG, and Canada, where Class II and higher devices need a Health Canada licence before sale.
+
+## What WAND is
+
+The Web Assisted Notification of Devices (**WAND**) database was set up by the *Medicines (Database of Medical Devices) Regulations 2003*.
+
+- Devices must be notified to WAND to be **legally supplied** in New Zealand.
+- Notification is **free**, with no ongoing fees.
+- It must happen within **30 calendar days** of a person or organisation becoming the device’s sponsor.
+- Importers, exporters and local manufacturers must all notify their devices.
+
+## Every importer notifies separately
+
+A WAND notification covers one sponsor and one device. If several companies import the same CPAP machine, **each one must notify it**; one importer can’t rely on another’s notification. Sponsors must keep supply records so they can trace customers in a recall.
+
+## What this means for you
+
+1. Buy from a New Zealand supplier that can tell you it has notified the device.
+2. Medsafe uses WAND to contact sponsors when there is a safety problem, so a machine bought overseas may not be traced in a recall.
+3. Check Medsafe’s online recalls database for your model.
+
+For devices sold here, see [CPAP machine prices](/nz/guides/cpap-machine-price-nz/) and [oxygen concentrator prices](/nz/guides/oxygen-concentrator-price-nz/).
+
+---
+
+# Oxygen concentrator prices in New Zealand (2026)
+
+Source: https://homehealthzone.com/nz/guides/oxygen-concentrator-price-nz/
+
+All prices are in New Zealand dollars, read on 14 October 2026. These are prescription devices; ask your respiratory team which flow you need. For funded oxygen, see [funded home oxygen in New Zealand](/nz/guides/home-oxygen-funding-new-zealand/).
+
+## Portable concentrators
+
+| Concentrator | Price | Retailer |
+| --- | --- | --- |
+| Inogen Rove 6 (8-cell battery) | NZ$5,550 | [Oxygen Plus](https://www.oxygenplus.co.nz/Inogen-Rove+6.html) |
+| Inogen Rove 6 (16-cell battery) | $5,850 | [Oxygen Plus](https://www.oxygenplus.co.nz/Inogen-Rove+6.html) |
+| Philips SimplyGo system | $6,200 | [Oxygen Plus](https://www.oxygenplus.co.nz/Simply+Go+Original.html) |
+
+Oxygen Plus prices include GST. Spare batteries for the Rove 6 were **$745 (8-cell)** and **$1,045 (16-cell)**. Oxygen Plus also says it can arrange **hire** for short-term travel, flights and cruises.
+
+## Home concentrators
+
+| Concentrator | Price | Retailer |
+| --- | --- | --- |
+| Nidek Lite 5 L | $1,750 + GST | [Orange NZ](https://orangenz.co.nz/shop/medical/oxygen-concentrators/nidek-lite-oxygen-concentrator/) |
+| DeVilbiss 5 L Compact | $3,999.99 | [Pakuranga Pharmacy](https://pakurangapharmacy.co.nz/products/devilbiss-compact-oxygen-concentrator) |
+
+## Flying with a concentrator
+
+Air New Zealand accepts approved or FAA-labelled POCs with medical clearance; see [flying with CPAP or oxygen](/nz/guides/flying-with-cpap-oxygen-nz/).
+
+## Regulation
+
+New Zealand has no pre-market approval for devices, only WAND notification; see [Medsafe and WAND](/nz/guides/medsafe-wand-medical-devices-nz/).
+
+---
+
 # APAP algorithms compared — ResMed AutoSet, Philips Auto, BMC Auto, DreamStation, AirSense
 
 Source: https://homehealthzone.com/clinical/apap-algorithms-compared/

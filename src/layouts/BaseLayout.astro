@@ -1,6 +1,7 @@
 ---
 import '../styles/global.css';
 import hreflangData from '../data/hreflang.json';
+import { LIVE_MARKETS, marketForPath } from '../data/markets';
 
 export interface Props {
   title?: string;
@@ -94,9 +95,11 @@ const footerNav = [
 
 const currentPath = Astro.url.pathname;
 const isUS = currentPath === '/us/' || currentPath.startsWith('/us/');
+const intlMarket = marketForPath(currentPath);
 const markets = [
-  { href: '/', label: 'India', current: !isUS },
+  { href: '/', label: 'India', current: !isUS && !intlMarket },
   { href: '/us/', label: 'United States', current: isUS },
+  ...LIVE_MARKETS.map((m) => ({ href: `/${m.code}/`, label: m.short, current: intlMarket?.code === m.code })),
 ];
 const isCurrent = (href: string) =>
   currentPath === href || (href !== '/' && currentPath.startsWith(href));
@@ -111,7 +114,7 @@ const hreflangLinks = hreflangPair
         hreflang,
         href: new URL(path, Astro.site).toString(),
       })),
-      { hreflang: 'x-default', href: new URL(hreflangPair['en-IN'], Astro.site).toString() },
+      { hreflang: 'x-default', href: new URL(hreflangPair['en-IN'] ?? Object.values(hreflangPair)[0], Astro.site).toString() },
     ]
   : [];
 ---
@@ -214,7 +217,9 @@ const hreflangLinks = hreflangPair
           ))}
         </nav>
         <p>
-          Choose your market: <a href="/">India</a> | <a href="/us/">United States</a>
+          Choose your market: {markets.map((m, i) => (
+            <>{i > 0 && ' | '}<a href={m.href}>{m.label}</a></>
+          ))}
         </p>
         <p>
           © {new Date().getFullYear()} {SITE_NAME}. Respiratory equipment sold in India and the US, scored

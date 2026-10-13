@@ -10543,6 +10543,394 @@ Related: [best travel CPAP machines](/us/guides/best-travel-cpap-machines/), [bu
 
 ---
 
+# CPAP subsidy in Singapore: the 2026 ACE rules
+
+Source: https://homehealthzone.com/sg/guides/cpap-subsidy-singapore/
+
+This guide is written from Singapore government documents, not from hands-on testing. The source is the Agency for Care Effectiveness (ACE) medical technology guidance [Positive airway pressure for moderate-to-severe obstructive sleep apnoea](https://www.ace-hta.gov.sg/healthcare-professionals/ace-technology-guidance/medical-technology-guidance/positive-airway-pressure-for-moderate-to-severe-obstructive-sleep-apnoea/), published 1 April 2026, with its annex and plain-English summary. ACE is the Ministry of Health's health technology assessment agency.
+
+## What changed in April 2026
+
+The Ministry of Health's Medical Technology Advisory Committee recommended positive airway pressure (PAP) for government subsidy for people with moderate-to-severe obstructive sleep apnoea (OSA).
+
+## Who qualifies
+
+ACE sets three conditions. You need all of them:
+
+1. **Age 16 or over, with moderate-to-severe OSA.** ACE uses the apnoea-hypopnoea index (AHI) from a sleep study: moderate is 15 to 30 events an hour, severe is more than 30. Mild OSA (AHI 5 to under 15) is not covered.
+2. **A one-month trial you actually stick to.** You must use APAP or CPAP for at least 4 hours a night on at least 70% of nights during a one-month trial. ACE's plain-English summary puts that at about 21 of 30 nights.
+3. **Specialist review.** You must be assessed and reviewed by a specialist trained in sleep medicine, under the hospital's own clinical privileging rules.
+
+If you meet them, the subsidy is one-time.
+
+## The only subsidised machine
+
+The ACE annex lists one model: the **ResMed AirSense 10 AutoSet**, supplied by **Junnimed Service Pte. Ltd.** and **Easmed Pte Ltd**. The subsidised package includes:
+
+- one AirSense 10 standard filter
+- a ClimateLineAir heated tube
+- a HumidAir cleanable water tub
+- the 90 W power supply and cord
+- the Air10 travel bag
+
+The annex says it will be updated as models are revised. The newer AirSense 11 is not on it.
+
+For comparison, one Singapore retailer listed the AirSense 10 AutoSet at S$1,680 nett on 14 October 2026 (GST included). The ACE documents do not publish the subsidy amount, so ask your hospital what your share would be after means testing.
+
+## What is not covered
+
+- **BiPAP.** The committee left bilevel PAP out of scope. It says bilevel suits a small group, such as people with severe OSA who cannot tolerate CPAP or APAP because they need pressures above 20 cmH2O.
+- **Masks bought later.** The annex covers the machine package. It does not list replacement masks or parts. See [CPAP masks in Singapore](/sg/guides/cpap-masks-singapore/) and [CPAP tubes, tubs and filters in Singapore](/sg/guides/cpap-humidity-singapore/) for retail prices.
+- **Other brands.** Only the listed model attracts the subsidy.
+
+## How to use it
+
+1. Get a sleep study and a diagnosis from a sleep-trained specialist. ACE writes its guidance for Singapore's public hospitals and institutions, so start with a public sleep clinic.
+2. Do the one-month trial. The test is nightly use: at least 4 hours on at least 70% of nights.
+3. Ask the clinic how it orders the subsidised AirSense 10 AutoSet from one of the two listed distributors.
+
+If the remaining bill is still hard to pay, ask the hospital's medical social worker about [MediFund](/sg/guides/medisave-medifund-chas-cpap-oxygen/).
+
+## Why ACE recommended it
+
+ACE says its committee looked at clinical need, effectiveness, cost-effectiveness and the estimated annual cost. It found PAP gave clinically and statistically significant improvements in OSA severity and daytime sleepiness, measured on the Epworth Sleepiness Scale. The committee also considered 29 testimonials from patients and carers. Some said the device improved their blood pressure and made them less irritable during the day.
+
+If you are choosing a machine privately instead, compare prices in [CPAP machine prices in Singapore](/sg/guides/cpap-machine-price-singapore/).
+
+---
+
+# CPAP machine prices in Australia (2026)
+
+Source: https://homehealthzone.com/au/guides/cpap-machine-price-australia/
+
+All prices are in Australian dollars, read from each retailer's site on 14 October 2026. cpap.com.au shows "Tax included" on its machine pages. CPAP machines are listed in Schedule 3 of the GST Act, so they can be sold GST-free; see [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/).
+
+## Auto-CPAP machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 AutoSet (4G) | A$1,495 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-11-autoset-device-4g) |
+| ResMed AirSense 11 AutoSet | $1,689 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-autoset) |
+| ResMed AirSense 11 AutoSet bundle | $1,699 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-autoset-bundle-1) |
+| ResMed AirSense 10 AutoSet (4G) | A$1,295 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-10-autoset) |
+| ResMed AirSense 10 AutoSet 4G bundle | $1,449 | [ResMed shop](https://shop.resmed.com.au/products/resmed-airsense-10-4g-mask-bundle) |
+| Fisher & Paykel SleepStyle Auto | A$1,395 | [cpap.com.au](https://cpap.com.au/products/fp-sleepstyle-auto-device) |
+| Yuwell Breathcare III YH-680B | A$749 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-breathcare-iii-yh-680b-wifi-cpap-white) |
+
+The same AirSense 11 AutoSet was **$194 cheaper** at cpap.com.au than on ResMed's own shop.
+
+## Fixed-pressure machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 Elite (4G) | A$1,295 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-11-elite-device-4g) |
+| ResMed AirSense 11 Elite | $1,549 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-elite) |
+| ResMed AirSense 10 Elite (4G) | A$995 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense10-elite) |
+
+An Elite runs at one fixed pressure. Only buy one if your clinician has given you a fixed pressure.
+
+## Travel machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirMini (N30, P10 or N20 kit) | A$1,195 | [cpap.com.au](https://cpap.com.au/products/resmed-airmini-n30-starter-kit) |
+| ResMed AirMini + mask bundle | $1,249 | [ResMed shop](https://shop.resmed.com.au/products/airmini-mask-bundle) |
+| Yuwell Pocket S travel package | $849 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-pocket-s-travel-cpap-package) |
+
+The AirMini uses mask-specific setup packs; check the kit matches your mask. For flying, see [flying with CPAP or oxygen from Australia](/au/guides/flying-with-cpap-oxygen-australia/).
+
+## Bilevel and ASV
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | A$1,995 | [ResMed shop](https://shop.resmed.com.au/products/aircurve-11-vauto) |
+| ResMed AirCurve 11 ASV | $2,899 | [cpap.com.au](https://cpap.com.au/products/resmed-aircurve-11-asv) |
+| ResMed AirCurve 11 ASV | $3,099 | [ResMed shop](https://shop.resmed.com.au/products/aircurve-11-asv) |
+
+These need a specialist prescription for bilevel or adaptive servo-ventilation.
+
+## Paying less
+
+- **State programs.** NSW's [EnableNSW](/au/guides/enablensw-home-respiratory-program/) supplies CPAP for a $100 annual co-payment to pensioners and lower earners.
+- **Private health extras.** ResMed Australia says extras cover may rebate part of the cost; check with your fund. See [Medicare, sleep studies and CPAP](/au/guides/medicare-sleep-study-cpap-australia/).
+- **Trial first.** ResMed's shop lists an AirSense 11 AutoSet trial with up to two masks.
+
+## Running accessories
+
+cpap.com.au prices: ResMed ClimateLine heated tube for AirSense 11, $75; AirSense 11 filters, $24 for 12 or $99 for 50; AirSense 11 DC/DC converter, $189; 65 W power supply, $80. Masks are in [CPAP masks in Australia](/au/guides/cpap-masks-australia/).
+
+---
+
+# EnableNSW home oxygen and CPAP: who qualifies
+
+Source: https://homehealthzone.com/au/guides/enablensw-home-respiratory-program/
+
+This guide is written from EnableNSW's [Home Respiratory Program fact sheet](https://www.enable.health.nsw.gov.au/about/publications/fact-sheets/home-respiratory-program) and its [eligibility and financial criteria](https://enable.health.nsw.gov.au/for_individuals/applying-to-EnableNSW/eligibility-and-financial-criteria) page. EnableNSW's site blocks scripted access, so we read archived 2026 copies of both pages; check the live pages before applying.
+
+## What the program supplies
+
+The Home Respiratory Program (HRP) provides:
+
+- home oxygen equipment, typically an oxygen concentrator
+- continuous positive airway pressure (CPAP) and other respiratory support devices
+- ventilators
+- some respiratory consumables
+
+Each product has its own clinical criteria, and a prescriber applies on your behalf.
+
+**Priority and waiting.** EnableNSW funds the primary oxygen equipment used at home first. Waiting periods vary for CPAP, respiratory support devices, ventilators and consumables. Equipment is bought and supplied "as funding becomes available".
+
+## Who is eligible
+
+You must:
+
+- live in NSW or on Lord Howe Island, or be an asylum seeker, refugee or humanitarian visa holder living there
+- be enrolled with Medicare
+- not be receiving, or eligible for, the equipment through insurance or another government scheme, such as the NDIS
+
+## The co-payment
+
+EnableNSW charges a co-payment each financial year you receive equipment, consumable re-orders or repairs.
+
+| Band | Who | Co-payment |
+| --- | --- | --- |
+| 1 | Adults on a full pension; children under 16 | $100 a financial year |
+| 2 | Taxable income up to $42,000 (single) or $70,000 (couple), plus $2,100 per dependant | $100 a financial year |
+| 3 | Taxable income above those limits | 20% of equipment costing $800 or more |
+
+Band 3 consumers are **not eligible** for equipment that costs under $800. EnableNSW says its income bands come from the former Program for Appliances for Disabled People, adjusted for inflation since December 1998.
+
+Short-term oxygen therapy has **no co-payment**.
+
+### What 20% means in dollars
+
+For a Band 3 adult, 20% of an oxygen concentrator listed at $999 (the Philips EverFlo at Air Liquide's online store on 14 October 2026) would be about $200, and 20% of a $1,495 auto-CPAP would be $299. EnableNSW's own equipment costs may differ from retail.
+
+## Your responsibilities
+
+To keep HRP equipment you must:
+
+- have stopped smoking for at least **four weeks**
+- follow the supplier's safety precautions
+- use the therapy as prescribed, including the hours of use
+- buy some products and accessories yourself, **such as CPAP masks**
+- return the device when you no longer need it or are not using it as prescribed
+
+For mask prices, see [CPAP masks in Australia](/au/guides/cpap-masks-australia/).
+
+## How an application runs
+
+1. **Application.** Your prescriber sends EnableNSW the application.
+2. **Review.** EnableNSW checks it against the program guidelines.
+3. **Decision.** You and your prescriber are told in writing whether it is approved or declined.
+4. **Purchase.** As funding becomes available, the device is bought and supplied.
+
+## Electricity help
+
+EnableNSW notes HRP clients may also qualify for the NSW Government's Life Support Rebate, claimed through the electricity retailer. See [life support electricity registration and rebates](/au/guides/life-support-electricity-australia/).
+
+Other states run their own programs; see [home oxygen funding in Victoria and Queensland](/au/guides/home-oxygen-funding-victoria-queensland/).
+
+---
+
+# Life support registration for CPAP and oxygen (AU)
+
+Source: https://homehealthzone.com/au/guides/life-support-electricity-australia/
+
+This guide is written from the Australian Energy Regulator's [Energy Made Easy guidance](https://www.energymadeeasy.gov.au/article/customers-using-life-support-equipment), the NSW Government's [Life Support Rebate page](https://www.energy.nsw.gov.au/households/grants-rebates/life-support-rebate) and the [NSW Social Programs for Energy Code](https://gazette.nsw.gov.au/gazette/2026/7/2026-7_307-gazette.pdf), read 14 October 2026.
+
+## Register as a life support customer
+
+Energy Made Easy lists life support equipment as including:
+
+- an oxygen concentrator
+- a chronic positive airways pressure (CPAP) respirator
+- a ventilator for life support
+- any other equipment a doctor says is needed for life support
+
+**How:** tell your energy retailer or your distributor as soon as possible. They send you a form for you and your doctor to complete. Return it to them.
+
+**What you get:** they must not disconnect you for any reason, and must give you at least **4 days' notice** of a planned interruption.
+
+Tell your retailer and distributor if your address or phone number changes.
+
+## Make a power-cut plan
+
+Registration does not prevent unplanned outages. Energy Made Easy says to plan:
+
+- where you will go, and how you will get there with your equipment
+- how you will contact people; cordless phones need mains power
+- who you will call, with a written list of your doctor, nearest hospital and a helper
+- backup equipment, kept fully charged
+- where you could get a temporary generator; ask your energy provider whether it can supply one
+
+Queensland's MASS asks every home oxygen client to have a Power Failure Emergency Plan (form MASS 48). See [Victoria and Queensland funding](/au/guides/home-oxygen-funding-victoria-queensland/).
+
+## NSW Life Support Rebate
+
+The rebate helps households where someone uses approved energy-intensive life support equipment at home. A registered medical practitioner must confirm the need and complete the declaration on the application form; you send it to your electricity retailer. Service NSW can help on 13 77 88.
+
+Rates in the Social Programs for Energy Code version 8.4, effective 24 August 2026:
+
+| Equipment | Per day | About per year |
+| --- | --- | --- |
+| PAP device (CPAP), 24-hour use | $0.7096 | $259 |
+| PAP device (CPAP), under 24 hours | $0.3589 | $131 |
+| Oxygen concentrator, 24-hour use | $3.1096 | $1,135 |
+| Oxygen concentrator, under 24 hours | $1.8493 | $675 |
+
+The rebate is paid per billing day for each approved device, so a household with both a CPAP and a concentrator gets both rates. Eligibility lasts four years from the application date, and you can reapply.
+
+EnableNSW notes its Home Respiratory Program clients may be eligible: see [EnableNSW](/au/guides/enablensw-home-respiratory-program/).
+
+## Other states
+
+Energy Made Easy is run by the Australian Energy Regulator. Rebates outside NSW are set by each state or territory; ask your retailer how registration and rebates work where you live.
+
+---
+
+# CPAP machine prices in Canada (2026)
+
+Source: https://homehealthzone.com/ca/guides/cpap-machine-price-canada/
+
+All prices are in Canadian dollars, read from each retailer’s store data on 14 October 2026. They exclude shipping, and tax is added at checkout. A prescription is usually needed. In Ontario, ADP pays 75% if you go through a registered sleep clinic and vendor; see [Ontario ADP CPAP funding](/ca/guides/ontario-adp-cpap-funding/).
+
+## Auto-CPAP machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 AutoSet (with ClimateLineAir 11 tube) | C$1,300 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airsense-11-autoset%E2%84%A2-with-humidair-and-climateline%E2%84%A2air-11-tube) |
+| ResMed AirSense 11 AutoSet (3-year warranty) | $1,435 | [Air Voel](https://airvoel.ca/products/resmed-airsense-11-autoset-cpap) |
+| ResMed AirSense 11 AutoSet (5-year extended) | $1,535 | [Air Voel](https://airvoel.ca/products/resmed-airsense-11-autoset-cpap) |
+| ResMed AirSense 11 AutoSet (SlimLine tube) | $1,435 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-11-autoset-cpap-with-integrated-humidifier) |
+| ResMed AirSense 11 AutoSet (heated tube) | $1,557 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-11-autoset-cpap-with-integrated-humidifier) |
+| ResMed AirSense 10 AutoSet | C$870 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airsense-10-autoset%E2%84%A2-with-humidair-and-climateline%E2%84%A2air) |
+| ResMed AirSense 10 AutoSet (with heated tube) | $1,444 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-10-autoset) |
+
+Air Voel and CPAP Machines Canada both showed “compare at” prices of $1,895–$1,900 next to the $1,435 price. We list the selling price.
+
+The same AirSense 10 AutoSet was **$574 cheaper** at Canadian CPAP Store than at CPAP Machines Canada, although the bundles differ. Compare what’s in the box.
+
+## Travel machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirMini AutoSet | C$1,270 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airmini-auto-ultra-portable-apap-machine) |
+| ResMed AirMini AutoSet | $1,313 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airmini-cpap-system) |
+| ResMed AirMini AutoSet | $1,313 | [Air Voel](https://airvoel.ca/products/resmed-airmini-autoset-travel-cpap) |
+
+The AirMini needs a mask-specific setup pack. Canadian CPAP Store listed these at $75–$83.
+
+## Bilevel
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | C$2,623 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/aircurve-10-vauto-copy) |
+| ResMed AirCurve 11 VAuto | $2,623 | [Air Voel](https://airvoel.ca/products/resmed-aircurve-11-vauto-bipap-device) |
+
+## Renting first
+
+Air Voel listed rentals of the AirSense 11 AutoSet, AirSense 10 AutoSet and AirMini at **$278** each. The page didn’t state the rental period.
+
+## Check the licence
+
+Canadian CPAP Store says its AirSense 11 is ResMed’s Canadian model, licensed by Health Canada. The AirSense 11 appears in Health Canada’s licence database as licence 106650. See [Health Canada licensing for CPAP and oxygen](/ca/guides/health-canada-licence-cpap-oxygen/).
+
+---
+
+# Ontario ADP funding for CPAP machines
+
+Source: https://homehealthzone.com/ca/guides/ontario-adp-cpap-funding/
+
+This guide is written from Ontario government pages: [Assistive Devices Program](https://www.ontario.ca/page/assistive-devices-program) and [respiratory equipment and supplies](https://www.ontario.ca/page/respiratory-equipment-and-supplies), read on 14 October 2026. Rules change, so check the pages before you buy.
+
+## Who qualifies
+
+Ontario’s Assistive Devices Program (ADP) helps people who:
+
+- live in Ontario and have a valid Ontario health card
+- have a physical disability that needs the equipment for **six months or longer**
+- meet the device’s clinical criteria
+
+Income is not considered. You are not eligible through ADP if the Workplace Safety and Insurance Board (WSIB) covers the same equipment, or if you are a Group A veteran receiving the same benefit from Veterans Affairs Canada.
+
+## What ADP covers for sleep apnoea
+
+| Covered | Not covered |
+| --- | --- |
+| CPAP, APAP and BPAP machines | Replacement masks and headgear for CPAP |
+| | Adaptive servo-ventilation (ASV) |
+| | Oral appliances for obstructive sleep apnoea |
+| | Stand-alone humidifiers |
+
+Hospital in-patients are excluded. People living in long-term care homes are generally excluded from ADP respiratory funding, but **can** get PAP funding.
+
+## Who pays what
+
+ADP pays **75%** of the ADP-approved price directly to the vendor and you pay **25%**. ADP pays **100%** if you receive Ontario Works (OW), the Ontario Disability Support Program (ODSP) or Assistance for Children with Severe Disabilities (ACSD). Private plans may cover some or all of your 25% share; check your policy.
+
+## The steps, in order
+
+1. **See a doctor at an ADP-registered sleep clinic.** ADP can send the list of registered clinics (email adp@ontario.ca).
+2. **Choose an ADP-registered business** to supply the machine.
+3. **The business submits the application** for you. Ontario says it aims to review applications within eight weeks.
+4. **Pay your 25%** and collect the machine.
+
+If you buy before completing these steps, you pay the full price.
+
+## Replacement
+
+ADP may fund a replacement if your condition has changed, or the machine is worn out, out of warranty and can’t reasonably be repaired. It does not replace lost machines or machines damaged by misuse.
+
+## What a machine costs without ADP
+
+For comparison, Canadian retailers listed the ResMed AirSense 11 AutoSet between C$1,300 and $1,435 on 14 October 2026; see [CPAP machine prices in Canada](/ca/guides/cpap-machine-price-canada/). The ADP price and your 25% share are set by ADP, not by these retail prices. Masks are not funded by ADP, so see [CPAP masks in Canada](/ca/guides/cpap-masks-canada/) for what they cost.
+
+---
+
+# Funded home oxygen in New Zealand
+
+Source: https://homehealthzone.com/nz/guides/home-oxygen-funding-new-zealand/
+
+This guide is written from [Healthify’s home oxygen page](https://healthify.nz/health-a-z/h/home-oxygen-therapy), Health NZ’s [Wellington home oxygen leaflet](https://www.healthnz.govt.nz/assets/Locations/Wellington-Hutt-Kapiti/patient-information/pre-load-291.pdf) (issued August 2017, still hosted by Health NZ) and [Pharmac’s NIV equipment page (archived)](https://web.archive.org/web/20260513105502/https://www.pharmac.govt.nz/hospital-devices/whats-happening-in-each-category/non-invasive-ventilation-equipment). Pharmac’s page now returns “not found”, so we read an archived copy from 13 May 2026. This isn’t medical advice.
+
+## Who is funded
+
+- Healthify says home oxygen is a **funded service** if you meet the eligibility criteria, and you will be **reviewed regularly**.
+- Your oxygen dose is set by a **blood-gas test**. Don’t change it unless a doctor or the respiratory service tells you to.
+- Health NZ’s leaflet says oxygen is **not given for breathlessness** alone. It is for persistently low blood oxygen from a long-term lung condition.
+
+## The 16-hour rule
+
+The Wellington leaflet says long-term oxygen should be used for **at least 16 hours in every 24**, ideally including a continuous block of 12–14 hours that covers the night. Going out without oxygen occasionally is acceptable.
+
+## Smoking
+
+Smokers are not eligible, because of the fire risk. The Wellington leaflet says people who smoke at assessment must prove they have been **smoke-free for at least 4 weeks** before oxygen is reconsidered. Oxygen is **removed immediately** if there is evidence of continued smoking. Healthify adds that nobody may smoke or vape near the equipment.
+
+## Portable oxygen
+
+If you need oxygen to keep working or studying, Healthify says to discuss portable options with your oxygen service provider; **funding varies**. Prices for buying a portable concentrator yourself are in [oxygen concentrator prices in New Zealand](/nz/guides/oxygen-concentrator-price-nz/).
+
+## Who buys the equipment
+
+Pharmac runs national contracting for non-invasive ventilation equipment, **oxygen concentrators** and humidifiers bought by Health NZ | Te Whatu Ora. The concentrator you are given usually comes from that contract, not from a shop.
+
+## Buying a home concentrator privately
+
+| Concentrator | Price | Retailer |
+| --- | --- | --- |
+| Nidek Lite 5 L | $1,750 + GST | [Orange NZ](https://orangenz.co.nz/shop/medical/oxygen-concentrators/nidek-lite-oxygen-concentrator/) |
+| DeVilbiss 5 L Compact | $3,999.99 | [Pakuranga Pharmacy](https://pakurangapharmacy.co.nz/products/devilbiss-compact-oxygen-concentrator) |
+
+Prices read on 14 October 2026. Orange NZ shows prices excluding GST.
+
+## If the concentrator alarms
+
+Health NZ’s leaflet suggests checking for a power cut, a loose plug, kinked or blocked tubing, and overheating (some rooms are too hot). Wash the two filters weekly in warm soapy water. If you rely on the concentrator, register with your power company; see [medically dependent consumers](/nz/guides/medically-dependent-power-nz/).
+
+---
+
 # APAP algorithms compared — ResMed AutoSet, Philips Auto, BMC Auto, DreamStation, AirSense
 
 Source: https://homehealthzone.com/clinical/apap-algorithms-compared/

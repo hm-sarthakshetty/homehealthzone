@@ -1,0 +1,32 @@
+{
+  "slug": "resmed-airsense-11-elite",
+  "source_url": "https://cpap.com.au/products/resmed-airsense-11-elite-device-4g",
+  "product_name": "ResMed AirSense 11 Elite",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU",
+    "NZ"
+  ],
+  "device_type": "cpap",
+  "prices": {
+    "AU": {
+      "amount": 1295,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/resmed-airsense-11-elite-device-4g",
+      "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 1949,
+      "currency": "NZD",
+      "source_url": "https://shop.resmed.co.nz/products/resmed-airsense-11-elite",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "cpap-machine-price-australia",
+    "nz": "cpap-machine-price-nz"
+  },
+  "images": []
+}

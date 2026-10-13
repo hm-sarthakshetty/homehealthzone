@@ -1,0 +1,32 @@
+{
+  "slug": "fp-eson-2",
+  "source_url": "https://cpap.com.au/products/fisher-paykel-eson-2-nasal-mask",
+  "product_name": "Fisher & Paykel Eson 2",
+  "brand": "Fisher & Paykel",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU",
+    "NZ"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "AU": {
+      "amount": 179,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/fisher-paykel-eson-2-nasal-mask",
+      "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 241,
+      "currency": "NZD",
+      "source_url": "https://thesleepspot.co.nz/products/f-p-eson-2-nasal-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "cpap-masks-australia",
+    "nz": "cpap-masks-nz"
+  },
+  "images": []
+}

@@ -1,0 +1,44 @@
+{
+  "slug": "yuwell-8f-5a",
+  "source_url": "https://bion.sg/products/yuwell-oxygen-concentrator-8f-5a",
+  "product_name": "Yuwell 8F-5A 5 LPM",
+  "brand": "Yuwell",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG",
+    "AU",
+    "CA"
+  ],
+  "device_type": "oxygen-concentrator",
+  "prices": {
+    "SG": {
+      "amount": 699,
+      "currency": "SGD",
+      "source_url": "https://bion.sg/products/yuwell-oxygen-concentrator-8f-5a",
+      "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 849,
+      "currency": "AUD",
+      "source_url": "https://www.rapidmedicalsupplies.com.au/products/yuwell-8f-5a-oxygen-concentrator-1-5l-min",
+      "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 1200,
+      "currency": "CAD",
+      "source_url": "https://thecpapstore.ca/products/yuwell-5-liter-oxygen-concentrator-inogen-voxi-5",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "home-oxygen-concentrator-singapore",
+    "au": "home-oxygen-concentrator-australia",
+    "ca": "home-oxygen-concentrator-canada"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 16.5,
+    "max_flow_lpm": 5
+  }
+}

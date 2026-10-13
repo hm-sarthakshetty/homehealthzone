@@ -1,0 +1,48 @@
+{
+  "slug": "resmed-aircurve-11-vauto",
+  "source_url": "https://wearemedbitz.com/products/resmed-aircurve-11-vauto",
+  "product_name": "ResMed AirCurve 11 VAuto",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG",
+    "AU",
+    "CA",
+    "NZ"
+  ],
+  "device_type": "bipap",
+  "prices": {
+    "SG": {
+      "amount": 2800,
+      "currency": "SGD",
+      "source_url": "https://wearemedbitz.com/products/resmed-aircurve-11-vauto",
+      "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 1995,
+      "currency": "AUD",
+      "source_url": "https://shop.resmed.com.au/products/aircurve-11-vauto",
+      "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 2623,
+      "currency": "CAD",
+      "source_url": "https://cpapmachinescanada.ca/products/aircurve-10-vauto-copy",
+      "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 2499,
+      "currency": "NZD",
+      "source_url": "https://shop.resmed.co.nz/products/aircurve-11-vauto",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "cpap-machine-price-singapore",
+    "au": "cpap-machine-price-australia",
+    "ca": "cpap-machine-price-canada",
+    "nz": "cpap-machine-price-nz"
+  },
+  "images": []
+}

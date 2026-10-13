@@ -1,0 +1,37 @@
+{
+  "slug": "caire-newlife-intensity-10",
+  "source_url": "https://www.portableoxygen.co.uk/oxygen-concentrators/newlife-intensity-10/",
+  "product_name": "CAIRE NewLife Intensity 10",
+  "brand": "CAIRE",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB",
+    "AU"
+  ],
+  "device_type": "oxygen-concentrator",
+  "prices": {
+    "GB": {
+      "amount": 1595,
+      "currency": "GBP",
+      "source_url": "https://www.portableoxygen.co.uk/oxygen-concentrators/newlife-intensity-10/",
+      "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 2799,
+      "currency": "AUD",
+      "source_url": "https://www.megamedical.com.au/products/newlife-intensity-10l-single-flow-oxygen-concentrator",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "home-oxygen-concentrator-uk",
+    "au": "home-oxygen-concentrator-australia"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 26.4,
+    "flow_max_lpm": 10,
+    "power_w": 590
+  }
+}

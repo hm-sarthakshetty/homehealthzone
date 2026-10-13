@@ -1,0 +1,40 @@
+{
+  "slug": "fp-nova-micro",
+  "source_url": "https://cpap.com.au/products/nova-micro-pillow-mask-fitpack",
+  "product_name": "Fisher & Paykel Nova Micro",
+  "brand": "Fisher & Paykel",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU",
+    "CA",
+    "NZ"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "AU": {
+      "amount": 179,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/nova-micro-pillow-mask-fitpack",
+      "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 130,
+      "currency": "CAD",
+      "source_url": "https://canadiancpapstore.com/products/nova-micro-mask",
+      "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 229,
+      "currency": "NZD",
+      "source_url": "https://awakenz.co.nz/products/fisher-paykel-nova-micro",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "cpap-masks-australia",
+    "ca": "cpap-masks-canada",
+    "nz": "cpap-masks-nz"
+  },
+  "images": []
+}

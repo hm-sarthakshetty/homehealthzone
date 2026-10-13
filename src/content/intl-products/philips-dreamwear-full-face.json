@@ -1,0 +1,32 @@
+{
+  "slug": "philips-dreamwear-full-face",
+  "source_url": "https://cpap.com.au/products/dreamwear-full-cpap-mask",
+  "product_name": "Philips DreamWear Full Face",
+  "brand": "Philips",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU",
+    "CA"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "AU": {
+      "amount": 179,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/dreamwear-full-cpap-mask",
+      "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 215,
+      "currency": "CAD",
+      "source_url": "https://canadiancpapstore.com/products/dreamwear-full-face-mask-with-headgear",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "cpap-masks-australia",
+    "ca": "cpap-masks-canada"
+  },
+  "images": []
+}

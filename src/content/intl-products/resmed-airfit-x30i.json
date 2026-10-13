@@ -1,0 +1,24 @@
+{
+  "slug": "resmed-airfit-x30i",
+  "source_url": "https://canadiancpapstore.com/products/airfit-x30i-full-face-mask",
+  "product_name": "ResMed AirFit X30i",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "CA"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "CA": {
+      "amount": 334,
+      "currency": "CAD",
+      "source_url": "https://canadiancpapstore.com/products/airfit-x30i-full-face-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "ca": "cpap-masks-canada"
+  },
+  "images": []
+}

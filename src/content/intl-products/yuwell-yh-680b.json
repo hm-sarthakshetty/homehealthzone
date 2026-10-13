@@ -1,0 +1,24 @@
+{
+  "slug": "yuwell-yh-680b",
+  "source_url": "https://www.rapidmedicalsupplies.com.au/products/yuwell-breathcare-iii-yh-680b-wifi-cpap-white",
+  "product_name": "Yuwell Breathcare III YH-680B",
+  "brand": "Yuwell",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU"
+  ],
+  "device_type": "cpap",
+  "prices": {
+    "AU": {
+      "amount": 749,
+      "currency": "AUD",
+      "source_url": "https://www.rapidmedicalsupplies.com.au/products/yuwell-breathcare-iii-yh-680b-wifi-cpap-white",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "cpap-machine-price-australia"
+  },
+  "images": []
+}

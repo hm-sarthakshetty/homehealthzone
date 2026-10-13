@@ -1,0 +1,32 @@
+{
+  "slug": "philips-dreamwear-under-the-nose",
+  "source_url": "https://yescpap.com/products/philips-dreamwear-under-the-nose-mask",
+  "product_name": "Philips DreamWear Under the Nose",
+  "brand": "Philips",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG",
+    "AU"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "SG": {
+      "amount": 200,
+      "currency": "SGD",
+      "source_url": "https://yescpap.com/products/philips-dreamwear-under-the-nose-mask",
+      "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 179,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/philips-dreamwear-nasal-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "cpap-masks-singapore",
+    "au": "cpap-masks-australia"
+  },
+  "images": []
+}

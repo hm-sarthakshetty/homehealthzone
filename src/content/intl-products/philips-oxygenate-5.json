@@ -1,0 +1,29 @@
+{
+  "slug": "philips-oxygenate-5",
+  "source_url": "https://www.portableoxygen.co.uk/philips-oxygenate-5-domestic-oxygen-concentrator/",
+  "product_name": "Philips Oxygenate 5",
+  "brand": "Philips",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB"
+  ],
+  "device_type": "oxygen-concentrator",
+  "prices": {
+    "GB": {
+      "amount": 785,
+      "currency": "GBP",
+      "source_url": "https://www.portableoxygen.co.uk/philips-oxygenate-5-domestic-oxygen-concentrator/",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "home-oxygen-concentrator-uk"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 18,
+    "flow_max_lpm": 5,
+    "power_w": 360
+  }
+}

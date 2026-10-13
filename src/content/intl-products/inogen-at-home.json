@@ -1,0 +1,24 @@
+{
+  "slug": "inogen-at-home",
+  "source_url": "https://sleepeh.ca/products/inogen-at-home-oxygen-concentrator",
+  "product_name": "Inogen At Home",
+  "brand": "Inogen",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "CA"
+  ],
+  "device_type": "oxygen-concentrator",
+  "prices": {
+    "CA": {
+      "amount": 2392,
+      "currency": "CAD",
+      "source_url": "https://sleepeh.ca/products/inogen-at-home-oxygen-concentrator",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "ca": "home-oxygen-concentrator-canada"
+  },
+  "images": []
+}

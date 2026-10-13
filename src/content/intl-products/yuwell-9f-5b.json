@@ -1,0 +1,24 @@
+{
+  "slug": "yuwell-9f-5b",
+  "source_url": "https://www.rapidmedicalsupplies.com.au/products/yuwell-9f-5b-oxygen-concentrator-1-5l-min",
+  "product_name": "Yuwell 9F-5B",
+  "brand": "Yuwell",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU"
+  ],
+  "device_type": "oxygen-concentrator",
+  "prices": {
+    "AU": {
+      "amount": 950,
+      "currency": "AUD",
+      "source_url": "https://www.rapidmedicalsupplies.com.au/products/yuwell-9f-5b-oxygen-concentrator-1-5l-min",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "home-oxygen-concentrator-australia"
+  },
+  "images": []
+}

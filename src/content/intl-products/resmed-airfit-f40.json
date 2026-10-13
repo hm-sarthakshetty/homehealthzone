@@ -1,0 +1,56 @@
+{
+  "slug": "resmed-airfit-f40",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-masks/full-face-cpap-masks/airfit-f40/p/64614",
+  "product_name": "ResMed AirFit F40",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB",
+    "SG",
+    "AU",
+    "CA",
+    "NZ"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "GB": {
+      "amount": 137,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-masks/full-face-cpap-masks/airfit-f40/p/64614",
+      "checked_at": "2026-10-14"
+    },
+    "SG": {
+      "amount": 280,
+      "currency": "SGD",
+      "source_url": "https://wearemedbitz.com/products/resmed-airfit-f40-full-face-mask",
+      "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 179,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/resmed-airfit-f40-full-face-mask",
+      "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 207,
+      "currency": "CAD",
+      "source_url": "https://canadiancpapstore.com/products/airfit-f40-full-face-mask",
+      "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 285,
+      "currency": "NZD",
+      "source_url": "https://awakenz.co.nz/products/resmed-f40",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "cpap-masks-uk",
+    "sg": "cpap-masks-singapore",
+    "au": "cpap-masks-australia",
+    "ca": "cpap-masks-canada",
+    "nz": "cpap-masks-nz"
+  },
+  "images": []
+}

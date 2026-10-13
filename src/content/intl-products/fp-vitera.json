@@ -1,0 +1,40 @@
+{
+  "slug": "fp-vitera",
+  "source_url": "https://cpap.com.au/products/f-p-vitera-full-face-mask",
+  "product_name": "Fisher & Paykel Vitera",
+  "brand": "Fisher & Paykel",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU",
+    "CA",
+    "NZ"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "AU": {
+      "amount": 179,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/f-p-vitera-full-face-mask",
+      "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 180,
+      "currency": "CAD",
+      "source_url": "https://cpapmachinescanada.ca/products/vitera",
+      "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 300,
+      "currency": "NZD",
+      "source_url": "https://awakenz.co.nz/products/fisher-paykel-vitera-full-face-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "cpap-masks-australia",
+    "ca": "cpap-masks-canada",
+    "nz": "cpap-masks-nz"
+  },
+  "images": []
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "philips-everflo",
+  "source_url": "https://store.airliquidehealthcare.com.au/products/philips-everflo",
+  "product_name": "Philips EverFlo",
+  "brand": "Philips",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU"
+  ],
+  "device_type": "oxygen-concentrator",
+  "prices": {
+    "AU": {
+      "amount": 999,
+      "currency": "AUD",
+      "source_url": "https://store.airliquidehealthcare.com.au/products/philips-everflo",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "home-oxygen-concentrator-australia"
+  },
+  "images": []
+}

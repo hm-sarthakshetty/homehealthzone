@@ -12,7 +12,7 @@ const HREFLANG_PAIRS = JSON.parse(readFileSync('./src/data/hreflang.json', 'utf8
 const HREFLANG_BY_URL = new Map();
 for (const pair of HREFLANG_PAIRS) {
   const links = Object.entries(pair).map(([lang, path]) => ({ lang, url: `${SITE_URL}${path}` }));
-  links.push({ lang: 'x-default', url: `${SITE_URL}${pair['en-IN']}` });
+  links.push({ lang: 'x-default', url: `${SITE_URL}${pair['en-IN'] ?? Object.values(pair)[0]}` });
   for (const path of Object.values(pair)) HREFLANG_BY_URL.set(`${SITE_URL}${path}`, links);
 }
 
@@ -81,6 +81,13 @@ function buildLastmodMap() {
   addFromMdx('./src/content/clinical', (slug) => `${SITE_URL}/clinical/${slug}/`);
   addFromMdx('./src/content/guides', (slug) => `${SITE_URL}/guides/${slug}/`);
   addFromMdx('./src/content/us-guides', (slug) => `${SITE_URL}/us/guides/${slug}/`);
+  // Regional markets: src/content/intl-guides/{code}/{slug}.mdx -> /{code}/guides/{slug}/
+  if (existsSync('./src/content/intl-guides')) {
+    for (const d of readdirSync('./src/content/intl-guides', { withFileTypes: true })) {
+      if (!d.isDirectory()) continue;
+      addFromMdx(`./src/content/intl-guides/${d.name}`, (slug) => `${SITE_URL}/${d.name}/guides/${slug}/`);
+    }
+  }
   addFromMdx('./src/content/comparison-writeups', (slug) => `${SITE_URL}/compare/${slug}/`);
 
   // City and city-intent pages share the explicit date on their source record.

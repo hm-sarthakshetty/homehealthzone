@@ -1,0 +1,60 @@
+{
+  "slug": "resmed-airsense-11-autoset",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-machines/airsense-11-autoset/p/39172",
+  "product_name": "ResMed AirSense 11 AutoSet",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB",
+    "SG",
+    "AU",
+    "CA",
+    "NZ"
+  ],
+  "device_type": "cpap",
+  "prices": {
+    "GB": {
+      "amount": 669,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-machines/airsense-11-autoset/p/39172",
+      "checked_at": "2026-10-14"
+    },
+    "SG": {
+      "amount": 1880,
+      "currency": "SGD",
+      "source_url": "https://comooz.sg/cpap-price-singapore",
+      "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 1495,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/resmed-airsense-11-autoset-device-4g",
+      "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 1300,
+      "currency": "CAD",
+      "source_url": "https://canadiancpapstore.com/products/airsense-11-autoset%E2%84%A2-with-humidair-and-climateline%E2%84%A2air-11-tube",
+      "checked_at": "2026-10-14"
+    },
+    "NZ": {
+      "amount": 1875,
+      "currency": "NZD",
+      "source_url": "https://awakenz.co.nz/products/resmed-airsense-11-autoset-cpap",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "buying-cpap-privately-uk",
+    "sg": "cpap-machine-price-singapore",
+    "au": "cpap-machine-price-australia",
+    "ca": "cpap-machine-price-canada",
+    "nz": "cpap-machine-price-nz"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 1.1,
+    "noise_db": 27.0
+  }
+}
