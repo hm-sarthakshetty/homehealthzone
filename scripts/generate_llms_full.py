@@ -501,7 +501,7 @@ def generate_llms_index() -> str:
     lines: list[str] = [
         "# HHZ Respiratory Review",
         "",
-        "> India's independent respiratory-equipment reference for oxygen concentrators, CPAP, and BiPAP devices sold in India. Products are scored against a published rubric. No sponsored placement and no brand veto.",
+        "> Respiratory-equipment reference for oxygen concentrators, CPAP, and BiPAP devices sold in India and the US. Products are scored against a published rubric.",
         "",
         (
             f"HHZ currently tracks {product_count} oxygen concentrator product records, "
@@ -515,6 +515,11 @@ def generate_llms_index() -> str:
         ),
         "",
         "Home Medix models in the catalogue: " + ", ".join(hm_products) + ". They are scored in the same product and comparison framework as Philips, Oxymed, ResMed, Nidek, DeVilbiss, BMC, Yuwell, and other brands.",
+        "",
+        "## Markets",
+        "",
+        f"- [India]({SITE_URL}/): oxygen concentrators, CPAP, and BiPAP sold in India, with prices in rupees",
+        f"- [United States]({SITE_URL}/us/): oxygen concentrators and CPAP sold in the US, with USD prices, FDA prescription rules and Medicare basics",
         "",
         "## Editorial policies",
         "",

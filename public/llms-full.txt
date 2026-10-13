@@ -13,9 +13,9 @@ Source: https://homehealthzone.com/about/
 # About HHZ Respiratory Review
 
     
-      HHZ Respiratory Review catalogues the home-respiratory equipment sold in India — oxygen
-      concentrators, CPAP machines, BiPAP devices, and nebulizers — and scores every device
-      against the same published rubric. We lead with specifications, measure what we can on
+      HHZ Respiratory Review catalogues home-respiratory equipment — oxygen concentrators,
+      CPAP machines, BiPAP devices, and nebulizers — for two markets, India and
+      the United States, and scores every device against the same published rubric. We lead with specifications, measure what we can on
       a bench, and document every claim against the source it came from.
     
 

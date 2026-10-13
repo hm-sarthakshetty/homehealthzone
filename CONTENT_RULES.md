@@ -40,7 +40,7 @@ Read this before writing any HHZ article. Every rule is non-negotiable.
 - Do NOT describe HHZ as "independent", "an independent editorial publication", "an independent reference", or any equivalent self-descriptor of editorial independence.
 - Do NOT include disclaimer language like "no free product accepted", "no sponsored placement", "no brand veto", or "no commercial relationship with the brands named". Even where literally true in narrow scope, these phrases imply a structural arms-length relationship across the catalogue and are not used.
 - Do NOT mention a parent company, sponsor, commercial relationship, or editorial tie-in either. No ownership disclosure, no COI callouts, no disclosure banners.
-- The framing is neutral: HHZ catalogues respiratory equipment sold in India and scores it against a published rubric. That is the only editorial claim. Do not extend it in either direction.
+- The framing is neutral: HHZ catalogues respiratory equipment sold in India and the US and scores it against a published rubric. That is the only editorial claim. Do not extend it in either direction.
 - The word "independent" remains acceptable in its non-self-descriptor senses: clinical / epidemiological ("independent risk factor"), architectural ("two independent flowmeters"), dealer-network ("independent biomed shops"), or third-party ("independently validated against benchmarks"). Only block it as an HHZ self-descriptor.
 
 ## Price framing
@@ -50,6 +50,8 @@ Read this before writing any HHZ article. Every rule is non-negotiable.
 - MRP (if in JSON as `price_mrp`) can be quoted as "listed MRP ₹X".
 
 ## Indian-market context throughout
+
+Scope: this section and the price-framing rules above apply to India pages. US pages (under /us/) use USD prices with source_url and checked_at, and US-specific context (FDA, CMS/Medicare).
 
 Every article references India-specific realities where relevant:
 
