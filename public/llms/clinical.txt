@@ -5174,6 +5174,8 @@ An interface change is reasonable when:
 
 Changing interface without reassessment can hide deterioration. A patient who suddenly needs substantially more oxygen, becomes drowsy or develops increasing work of breathing needs urgent evaluation.
 
+For the wider device taxonomy, including controlled-FiO₂ Venturi masks and high-concentration non-rebreathers, use the [oxygen delivery devices comparison chart](/clinical/nasal-cannula-vs-simple-mask-vs-non-rebreather-vs-venturi/).
+
 ## Takeaway
 
 A nasal cannula is usually the practical choice for stable low-flow home oxygen. A simple face mask can provide a moderate concentration when a cannula is unsuitable, but it must run at its minimum safe flow and remains a variable-delivery device. Venturi and non-rebreather masks are separate categories with different purposes.
@@ -5184,7 +5186,7 @@ Use the interface and flow on the prescription. If the prescribed setup no longe
 
 ---
 
-# Nasal cannula vs simple mask vs non-rebreather vs Venturi: choosing the right oxygen delivery device
+# Oxygen Delivery Devices: Cannula, Masks and Venturi
 
 Source: https://homehealthzone.com/clinical/nasal-cannula-vs-simple-mask-vs-non-rebreather-vs-venturi/
 
@@ -5192,12 +5194,12 @@ Choosing the right oxygen delivery device is the second decision a prescriber ma
 
 This article covers the four most common oxygen delivery devices in Indian clinical and home practice — nasal cannula, simple face mask, non-rebreather mask, and Venturi mask — with clear flow ranges, delivered FiO₂ estimates, indications, and the practical considerations that matter for home oxygen patients in the Indian context. The target reader: the respiratory therapist, primary-care physician, emergency medicine trainee, home-care provider, and engaged patient or family caregiver setting up a home oxygen system.
 
-## Focused comparisons
+## Focused device comparisons
 
 Use this page for the complete overview. For a direct answer about two interfaces or one Venturi setting, use the focused guides:
 
 - [Venturi mask vs non-rebreather mask](/clinical/venturi-mask-vs-non-rebreather-mask/)
-- [Nasal cannula vs oxygen mask](/clinical/nasal-cannula-vs-oxygen-mask/)
+- [Nasal cannula vs oxygen mask](/clinical/nasal-cannula-vs-oxygen-mask/) for that exact two-device decision
 - [Simple oxygen mask vs non-rebreather](/clinical/simple-oxygen-mask-vs-non-rebreather/)
 - [Venturi mask colour, flow and FiO₂ chart](/clinical/venturi-mask-colour-chart-flow-rate-fio2/)
 
