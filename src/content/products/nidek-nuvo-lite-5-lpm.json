@@ -13,8 +13,15 @@
       "amount": 57599.04,
       "currency": "INR",
       "mrp": 66240
+    },
+    "US": {
+      "amount": 737.6,
+      "currency": "USD",
+      "source_url": "https://www.vitalitymedical.com/nuvo-lite-oxygen-concentrator-mark-5.html",
+      "checked_at": "2026-10-13"
     }
   },
+  "countries": ["IN", "US"],
   "rating_value": "4.5 (12)",
   "rating_count": "12",
   "stock": "In Stock",

@@ -13,8 +13,15 @@
       "amount": 45984,
       "currency": "INR",
       "mrp": 86400
+    },
+    "US": {
+      "amount": 749,
+      "currency": "USD",
+      "source_url": "https://medexsupply.com/devilbiss-5-liter-oxygen-concentrator/",
+      "checked_at": "2026-10-13"
     }
   },
+  "countries": ["IN", "US"],
   "rating_value": "4.6 (24)",
   "rating_count": "24",
   "stock": "In Stock",

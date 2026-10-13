@@ -13,8 +13,15 @@
       "amount": 49990,
       "currency": "INR",
       "mrp": 62400
+    },
+    "US": {
+      "amount": 919,
+      "currency": "USD",
+      "source_url": "https://www.cpap.com/products/resmed-airmini-autoset-travel-cpap-machine",
+      "checked_at": "2026-10-13"
     }
   },
+  "countries": ["IN", "US"],
   "rating_value": "4.9 (39)",
   "rating_count": "39",
   "stock": "In Stock",
