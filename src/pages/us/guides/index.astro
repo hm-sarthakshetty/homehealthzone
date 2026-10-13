@@ -16,7 +16,7 @@ const sorted = guides.slice().sort((a, b) => {
 
 const pageTitle = "US buyer's guides";
 const description =
-  'Buying guides for US patients: home and portable oxygen concentrators, CPAP machines and masks, supplies, costs, HSA/FSA, Medicare coverage, FAA rules for flying with oxygen, and the Philips recall.';
+  'Buying guides for US patients: home and portable oxygen concentrators, CPAP machines and masks, troubleshooting, supplies, costs, HSA/FSA, Medicare coverage, FAA rules for flying with oxygen, and the Philips recall.';
 
 const crumbs = [
   { href: '/', label: 'Home' },
@@ -52,6 +52,19 @@ const clusterDefs: Array<{ title: string; links: Array<[string, string]> }> = [
       ['Best travel CPAP machines', 'best-travel-cpap-machines'],
       ['CPAP cost without insurance', 'cpap-without-insurance-cost'],
       ['Philips CPAP recall and consent decree', 'philips-cpap-recall-consent-decree'],
+    ],
+  },
+  {
+    title: 'CPAP troubleshooting',
+    links: [
+      ['CPAP dry mouth', 'cpap-dry-mouth'],
+      ['CPAP mask leaks', 'cpap-mask-leak'],
+      ['High AHI on CPAP', 'high-ahi-on-cpap'],
+      ['Stuffy nose on CPAP', 'cpap-nasal-congestion'],
+      ['CPAP rainout', 'cpap-rainout'],
+      ['Swallowing air (aerophagia)', 'cpap-aerophagia'],
+      ['How to clean a CPAP', 'how-to-clean-cpap'],
+      ['Chin strap vs mouth taping', 'cpap-chin-strap-mouth-taping'],
     ],
   },
   {
