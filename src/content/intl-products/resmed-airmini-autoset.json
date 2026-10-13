@@ -1,0 +1,27 @@
+{
+  "slug": "resmed-airmini-autoset",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-machines/travel-cpap-machines/airmini-with-p10/p/3812212GB",
+  "product_name": "ResMed AirMini AutoSet",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB"
+  ],
+  "device_type": "cpap",
+  "prices": {
+    "GB": {
+      "amount": 820,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-machines/travel-cpap-machines/airmini-with-p10/p/3812212GB",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "buying-cpap-privately-uk"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 0.3
+  }
+}

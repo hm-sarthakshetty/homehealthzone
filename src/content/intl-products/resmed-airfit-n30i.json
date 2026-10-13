@@ -1,0 +1,24 @@
+{
+  "slug": "resmed-airfit-n30i",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-masks/airfit-n30i-nasal-cradle-mask/p/63817",
+  "product_name": "ResMed AirFit N30i",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "GB": {
+      "amount": 110,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-masks/airfit-n30i-nasal-cradle-mask/p/63817",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "cpap-masks-uk"
+  },
+  "images": []
+}

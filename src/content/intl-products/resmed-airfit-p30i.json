@@ -1,0 +1,24 @@
+{
+  "slug": "resmed-airfit-p30i",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-masks/nasal-pillows-cpap-masks/airfit-p30i/p/63866",
+  "product_name": "ResMed AirFit P30i",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "GB": {
+      "amount": 119,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-masks/nasal-pillows-cpap-masks/airfit-p30i/p/63866",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "cpap-masks-uk"
+  },
+  "images": []
+}

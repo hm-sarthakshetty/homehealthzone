@@ -12000,6 +12000,508 @@ Related: [Medicare Advantage vs Original Medicare for DME](/us/guides/medicare-a
 
 ---
 
+# United Kingdom: oxygen concentrators and CPAP
+
+Source: https://homehealthzone.com/uk/
+
+HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.
+
+United Kingdom guides:
+
+- [Portable oxygen concentrators in the UK (2026)](https://homehealthzone.com/uk/guides/best-portable-oxygen-concentrator-uk/)
+- [Buying a CPAP privately in the UK (2026 prices)](https://homehealthzone.com/uk/guides/buying-cpap-privately-uk/)
+- [CPAP masks in the UK: ResMed prices compared (2026)](https://homehealthzone.com/uk/guides/cpap-masks-uk/)
+- [Sleep apnoea and driving: DVLA rules (2026)](https://homehealthzone.com/uk/guides/dvla-sleep-apnoea-driving/)
+- [Flying with CPAP or oxygen from the UK (2026)](https://homehealthzone.com/uk/guides/flying-with-cpap-oxygen-uk/)
+- [Home oxygen abroad from the UK: GHIC rules (2026)](https://homehealthzone.com/uk/guides/home-oxygen-abroad-ghic/)
+- [Home oxygen concentrators in the UK: prices (2026)](https://homehealthzone.com/uk/guides/home-oxygen-concentrator-uk/)
+- [Getting CPAP on the NHS: sleep apnoea route (2026)](https://homehealthzone.com/uk/guides/nhs-cpap-sleep-apnoea/)
+- [NHS home oxygen service: how it works (2026)](https://homehealthzone.com/uk/guides/nhs-home-oxygen-service/)
+- [Power cuts with home oxygen or CPAP in the UK (2026)](https://homehealthzone.com/uk/guides/power-cuts-priority-services-register/)
+- [VAT relief on CPAP and oxygen in the UK (2026)](https://homehealthzone.com/uk/guides/vat-relief-cpap-oxygen-uk/)
+
+---
+
+# Portable oxygen concentrators in the UK (2026)
+
+Source: https://homehealthzone.com/uk/guides/best-portable-oxygen-concentrator-uk/
+
+The NHS provides home oxygen free after assessment. Its portable option is small cylinders: the [NHS](https://www.nhs.uk/tests-and-treatments/home-oxygen-treatment/) says most weigh 2–3 kg and hold up to 3 hours of oxygen. A portable oxygen concentrator (POC) makes its own oxygen from room air, so it doesn't run out while the battery lasts. This guide covers buying one privately, for example for flying, longer days out or holidays.
+
+## UK prices
+
+| Model | Price before VAT | Type | Weight | Battery (published) |
+| --- | --- | --- | --- | --- |
+| Inogen Rove 6, 16-cell battery | £2,150 ([portableoxygen.co.uk](https://www.portableoxygen.co.uk/inogen-rove-6-16-cell-portable-oxygen-concentrator/)) | Pulse dose, 6 settings | 2.6 kg with 16-cell battery | Up to 13 hours (lowest setting); 8-cell up to 6½ hours |
+| Drive DeVilbiss iGo2 | £1,995 ([portableoxygen.co.uk](https://www.portableoxygen.co.uk/oxygen-concentrators/drive-devilbiss-igo2-portable-oxygen-concentrator/)) | Pulse dose (SmartDose, auto-adjusting), 6 settings | 2.2 kg | Minimum 3.5 hours at setting 2 |
+
+Prices and specifications are from the retailer's listings, read 14 October 2026. The retailer showed the Rove 6 (16-cell) at £2,580 including VAT, or £2,150 with VAT relief. It lists both models as FAA-compliant or approved for in-flight use. Other models on the same site, including the CAIRE FreeStyle Comfort, Inogen One G5 and Philips SimplyGo, had no price shown or were out of stock that day, so we haven't listed them.
+
+## Pulse dose isn't the same as NHS continuous flow
+
+Both machines above deliver oxygen in pulses as you breathe in, measured in settings rather than litres per minute. A setting number isn't equivalent to a litre-per-minute flow. If your NHS prescription is continuous flow, or you need oxygen while asleep, ask your oxygen team whether a pulse-dose machine suits you. If it doesn't, you need a continuous-flow model.
+
+## VAT relief
+
+[HMRC Notice 701/7](https://www.gov.uk/guidance/reliefs-from-vat-for-disabled-and-older-people-notice-7017) names oxygen concentrators as zero-rated medical appliances. This applies when they are supplied to someone chronically sick or disabled for personal or domestic use. Spare batteries designed solely for the device can also qualify, but general-purpose batteries don't. See our [VAT relief guide](/uk/guides/vat-relief-cpap-oxygen-uk/).
+
+## Flying
+
+The [CAA](https://caa.co.uk/air-passengers/about-your-trip/health-and-medical/travelling-with-medicines-mobility-and-medical-equipment/) says:
+
+- contact the airline before your trip
+- carry a doctor's letter or your prescription
+- expect the device to go through the X-ray scanner in a separate tray
+
+Most airlines don't provide aircraft power for passenger medical equipment, so plan enough battery for the whole journey. All batteries, including spares, must meet the airline's rules. See [flying with CPAP or oxygen](/uk/guides/flying-with-cpap-oxygen-uk/).
+
+## The verdict
+
+If you fly or travel often and your clinic agrees a pulse-dose setting is right, the Rove 6 with the 16-cell battery (£2,150 before VAT) is the longer-running choice. The iGo2 (£1,995) is lighter. If your NHS prescription is continuous flow, neither replaces it, so speak to your oxygen team before buying.
+
+---
+
+# Buying a CPAP privately in the UK (2026 prices)
+
+Source: https://homehealthzone.com/uk/guides/buying-cpap-privately-uk/
+
+In the UK, [CPAP is free on the NHS](https://www.nhs.uk/conditions/obstructive-sleep-apnoea/) if you need it. So most private buyers are after a second machine, a travel machine or a newer model. This guide uses prices from ResMed's own UK shop, read on 14 October 2026.
+
+## UK prices
+
+| Model | Price on ResMed UK shop | What it is |
+| --- | --- | --- |
+| AirSense 11 AutoSet | £669 + VAT ([ResMed](https://shop.resmed.com/GB/en/cpap-machines/airsense-11-autoset/p/39172)) | Auto CPAP machine |
+| AirSense 11 AutoSet complete device package | £766 + VAT ([ResMed](https://shop.resmed.com/GB/en/cpap-machines/home-cpap-machines/airsense-11-autoset-complete-device-package/p/39174)) | Machine sold as a package |
+| AirMini AutoSet with AirFit P10 mask | £820 + VAT ([ResMed](https://shop.resmed.com/GB/en/cpap-machines/travel-cpap-machines/airmini-with-p10/p/3812212GB)) | Travel auto CPAP bundle |
+| AirMini with AirFit F20 mask | £855 + VAT ([ResMed](https://shop.resmed.com/GB/en/cpap-machines/travel-cpap-machines/airmini-with-f20/p/3812201GB)) | Travel bundle with a full-face mask |
+
+ResMed shows these prices "plus VAT". A buyer who qualifies for [VAT relief](/uk/guides/vat-relief-cpap-oxygen-uk/) pays the listed figure. Other buyers add 20%.
+
+Published specifications: the AirSense 11 weighs about 1.1 kg with a 4–20 cmH₂O pressure range. The AirMini weighs about 0.3 kg and has no water tub. It uses waterless HumidX humidification instead.
+
+## Running costs and consumables
+
+From the same shop on the same date:
+
+| Item | Price + VAT |
+| --- | --- |
+| HumidAir 11 heated humidifier | £79 |
+| ClimateLineAir 11 heated tube | £32.50 |
+| AirSense 11 filters, 2-pack | £4.50 |
+| AirSense 11 filters, 12-pack | £22 |
+| AirSense 11 power supply unit | £77 |
+| HumidX Plus (AirMini), 6-pack | £48 |
+
+Masks cost about £104–£137 + VAT. See [CPAP masks in the UK](/uk/guides/cpap-masks-uk/).
+
+Electricity costs little. At the Ofgem price cap of [26.32p per kWh](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/energy-price-cap-unit-rates-and-standing-charges) (October to December 2026, Direct Debit average), every 100 W drawn for 8 hours costs about 21p. A CPAP's draw rises with humidification and a heated tube.
+
+## AirSense 11 or AirMini?
+
+- **AirSense 11** is the bedside machine. It has a water-tub humidifier option (HumidAir 11) and costs less.
+- **AirMini** is for travel. It is very light, but there's no water tub and the bundle price is higher. Buy one only if you travel often. The CAA says airlines don't guarantee in-flight power, so check before you fly (see [flying with CPAP or oxygen](/uk/guides/flying-with-cpap-oxygen-uk/)).
+
+## Before you buy
+
+- **Check the NHS route.** It is free if you need CPAP. Use our [NHS CPAP guide](/uk/guides/nhs-cpap-sleep-apnoea/).
+- **Use your prescribed pressure.** Ask your sleep clinic for your settings, or whether to use auto mode.
+- **Claim VAT relief at checkout, not afterwards.** ResMed's shop says it can't refund VAT paid in error.
+
+## The verdict
+
+For a private bedside machine, the AirSense 11 AutoSet at £669 + VAT is the default. Buy an AirMini bundle (from £820 + VAT) only as a travel second unit. Either way, claim VAT relief if you have sleep apnoea.
+
+---
+
+# CPAP masks in the UK: ResMed prices compared (2026)
+
+Source: https://homehealthzone.com/uk/guides/cpap-masks-uk/
+
+All prices below are from [ResMed's UK shop](https://shop.resmed.com/GB/en/), read 14 October 2026. ResMed lists them "plus VAT". A buyer who qualifies for [VAT relief](/uk/guides/vat-relief-cpap-oxygen-uk/) pays the listed price.
+
+## Full-face masks
+
+For mouth breathers, or anyone whose mouth falls open at night.
+
+| Mask | Price + VAT |
+| --- | --- |
+| AirFit F20 | £129 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/full-face-cpap-masks/airfit-f20/p/64005)) |
+| AirFit F20 for Her | £129 |
+| AirTouch F20 (memory-foam cushion) | £135 |
+| AirFit F30i (tube connects at the top of the head) | £135 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/airfit-f30i/p/63310)) |
+| AirFit F40 | £137 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/full-face-cpap-masks/airfit-f40/p/64614)) |
+| Quattro Air / Quattro Air for Her | £129 |
+| Mirage Quattro | £130 |
+
+## Nasal masks and nasal cradles
+
+For nose breathers who want a cushion that sits around or under the nose.
+
+| Mask | Price + VAT |
+| --- | --- |
+| Mirage FX / FX for Her | £104 |
+| AirFit N20 for Her | £110 |
+| AirTouch N20 | £110 |
+| AirFit N30i (cradle, top-of-head tube) | £110 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/airfit-n30i-nasal-cradle-mask/p/63817)) |
+| AirTouch N30i | £132.50 |
+
+## Nasal pillows
+
+The lightest option. Pillows sit at the nostrils. Not suited to mouth breathing unless you use a chin strap.
+
+| Mask | Price + VAT |
+| --- | --- |
+| AirFit P10 / P10 for Her | £107.50 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/nasal-pillows-cpap-masks/airfit-p10-pillow-mask/p/62901)) |
+| AirFit P30i (top-of-head tube) | £119 ([ResMed](https://shop.resmed.com/GB/en/cpap-masks/nasal-pillows-cpap-masks/airfit-p30i/p/63866)) |
+
+## AirMini users
+
+The AirMini needs mask-specific kits. ResMed's UK shop lists:
+
+- AirFit N30 kit for AirMini: £142 + VAT
+- AirFit P10 kit for AirMini: £139 + VAT
+- AirMini set-up pack for an existing N20 mask (no mask or device): £39 + VAT
+
+## Cheaper than a new mask
+
+Often you only need a part. On the same shop:
+
+- AirFit F20 headgear: £39 + VAT
+- AirFit F20 frame: £43 + VAT
+- AirFit F20 soft sleeves: £7 + VAT
+- QuietAir vent for AirFit F20/F30: £35 + VAT
+- ResMed mask wipes, 62 pack: £12 + VAT
+
+## How to choose
+
+1. **Mouth breathing or a dry mouth in the morning?** Start with full face. The F20 is the standard choice; the F40 and F30i are more minimal.
+2. **Nose breather?** Pillows (P10, P30i) feel the lightest. A nasal cushion (N20, N30i) suits people who find pillows irritating.
+3. **Sleep on your side or move around?** Top-of-head tube designs (F30i, N30i, P30i) keep the hose out of the way.
+4. **Sizing.** Most of these masks come in several cushion sizes, so use the manufacturer's fitting guide.
+
+## The verdict
+
+If you're on NHS CPAP, ask your sleep clinic about replacement masks first. If you buy privately, the F20 (£129 + VAT) and P10 (£107.50 + VAT) are the safest starting points for mouth and nose breathers. Replacing a cushion or headgear is often much cheaper than buying a new mask.
+
+---
+
+# Sleep apnoea and driving: DVLA rules (2026)
+
+Source: https://homehealthzone.com/uk/guides/dvla-sleep-apnoea-driving/
+
+Obstructive sleep apnoea (OSA) affects your driving because of the daytime sleepiness it causes. The rules below come from [GOV.UK: excessive sleepiness and driving](https://www.gov.uk/sleep-apnoea-and-driving), read on 14 October 2026.
+
+## When you must tell the DVLA
+
+GOV.UK says you must tell the DVLA if you have:
+
+- confirmed **moderate or severe** obstructive sleep apnoea syndrome **with excessive sleepiness**
+- narcolepsy, cataplexy, or both
+- **any other sleep condition** that has caused excessive sleepiness for **at least 3 months**, including suspected or confirmed **mild** OSA
+
+The severity bands come from your sleep study. The [NHS](https://www.nhs.uk/conditions/obstructive-sleep-apnoea/) classes an apnoea–hypopnoea index (AHI) of 5–14 as mild, 15–30 as moderate and over 30 as severe.
+
+| Your situation | Tell the DVLA? |
+| --- | --- |
+| Moderate or severe OSA with excessive sleepiness | Yes |
+| Mild OSA, or suspected OSA, with excessive sleepiness for 3 months or more | Yes |
+| Snoring or a diagnosis without excessive sleepiness | Not under the conditions GOV.UK lists. Ask your doctor if unsure |
+
+## When you must stop driving
+
+You must not drive until you're free from excessive sleepiness, or until your symptoms are under control and you're strictly following any necessary treatment. GOV.UK suggests asking your doctor if you're not sure whether your sleepiness affects your driving.
+
+For most people with moderate or severe OSA, the treatment is CPAP. The [NHS](https://www.nhs.uk/conditions/obstructive-sleep-apnoea/) says you'll get a CPAP machine free on the NHS if you need one.
+
+## How to tell the DVLA
+
+| Licence | How to report |
+| --- | --- |
+| Car or motorcycle | Online, or form SL1 by post |
+| Bus, coach or lorry | Form SL1V by post |
+
+The address is on each form.
+
+## Penalties
+
+You can be fined up to £1,000 if you don't tell the DVLA about a medical condition that affects your driving. You may be prosecuted if you're involved in an accident as a result.
+
+## While you wait for a sleep study
+
+Until your sleepiness is assessed and controlled, the GOV.UK rule still applies: if you are excessively sleepy, don't drive. GOV.UK points drivers to its "Tiredness can kill" guidance on driving while tired.
+
+## The verdict
+
+If you are excessively sleepy, tell the DVLA and stop driving until treatment has your symptoms under control. If you've been prescribed CPAP, use it every night as prescribed. A diagnosis without excessive sleepiness doesn't fall under the conditions GOV.UK lists, but confirm with your doctor.
+
+See also: [getting CPAP on the NHS](/uk/guides/nhs-cpap-sleep-apnoea/).
+
+---
+
+# Flying with CPAP or oxygen from the UK (2026)
+
+Source: https://homehealthzone.com/uk/guides/flying-with-cpap-oxygen-uk/
+
+The rules for medical devices on flights from the UK are set mostly by each airline, within international safety requirements. The [UK Civil Aviation Authority's guidance](https://caa.co.uk/air-passengers/about-your-trip/health-and-medical/travelling-with-medicines-mobility-and-medical-equipment/) is the common starting point. This guide summarises it, read on 14 October 2026.
+
+## CPAP machines
+
+- **Check with the airline before booking** about taking your CPAP on board. Ask whether it needs a letter from your GP confirming you need it.
+- **Power isn't guaranteed.** The CAA says there's no guarantee of a power source on board, so the airline may suggest a dry-cell battery-operated device.
+- **Security.** Electrically powered medical equipment is usually X-rayed in a separate tray. Carry a doctor's letter or your prescription in case security staff ask.
+
+A small travel CPAP such as the ResMed AirMini can make battery use easier. See [buying a CPAP privately](/uk/guides/buying-cpap-privately-uk/).
+
+## Portable oxygen concentrators
+
+- **Tell the airline in advance** and check its requirements. The CAA says this applies to any electrically powered medical equipment you take on board.
+- **Bring enough battery.** Most airlines don't provide aircraft power for passenger medical equipment, so to use it in flight it must run on battery. All batteries, including spares, must meet the airline's carriage rules.
+- **Take-off and landing.** You usually can't use electronic equipment during take-off and landing. Some devices are tested and approved for use throughout the flight, but you must agree this with the airline well before travel.
+
+Battery life varies a lot by setting. See [portable oxygen concentrators in the UK](/uk/guides/best-portable-oxygen-concentrator-uk/).
+
+## Oxygen cylinders
+
+International requirements allow small oxygen or air cylinders for medical use, but **only with the airline's prior agreement**. Some airlines let you bring your own. Others supply special cylinders, usually for a fee. Some don't allow either.
+
+## Damage and insurance
+
+Airlines are liable for damage to mobility equipment, but the CAA says compensation is often limited to around £1,300. For an expensive concentrator, consider extra insurance.
+
+## Planning timeline
+
+| When | Action |
+| --- | --- |
+| Before booking | Ask the airline about your device, battery rules, forms and fees |
+| A few weeks ahead | Get a doctor's letter. Arrange any airline medical clearance it asks for |
+| Before you fly | Charge all batteries. Pack the device and spares in hand luggage as the airline directs |
+| At the airport | Expect the device to be X-rayed separately. Have the letter ready |
+| At your destination | If you use NHS oxygen, arrange local supply in advance. See [home oxygen abroad](/uk/guides/home-oxygen-abroad-ghic/) |
+
+## The verdict
+
+Before you book, ask the airline about your device and its batteries, and get its answer in writing. Plan to run on battery for the whole flight. Carry a doctor's letter. Arrange oxygen at your destination before you leave.
+
+---
+
+# Home oxygen concentrators in the UK: prices (2026)
+
+Source: https://homehealthzone.com/uk/guides/home-oxygen-concentrator-uk/
+
+Most people in the UK should get home oxygen through the NHS. The [NHS](https://www.nhs.uk/tests-and-treatments/home-oxygen-treatment/) assesses you, and a contracted supplier installs, services and supports the equipment. NHS guidance also says the supplier arranges payment for the electricity a concentrator uses. See [how the NHS home oxygen service works](/uk/guides/nhs-home-oxygen-service/).
+
+The NHS warns that buying oxygen online and using it without a prescription can be dangerous. It can damage the brain, heart and lungs, or even kill. If you do buy privately, for example as a backup or for a second home, use only the flow your clinician prescribed.
+
+## UK prices
+
+All from [portableoxygen.co.uk](https://www.portableoxygen.co.uk/oxygen-concentrators/domestic-oxygen-concentrators/) (Intermedical Homecare), read 14 October 2026, before VAT. Specifications are as listed by the retailer.
+
+| Model | Price before VAT | Flow | Weight | Power | Sound |
+| --- | --- | --- | --- | --- | --- |
+| Philips Oxygenate 5 | £785 | 0.5–5 L/min | approx. 18 kg | under 360 W | — |
+| Drive DeVilbiss 525 | £810 | 0.5–5 L/min | 16.3 kg | 290–312 W | 40 dBA |
+| AirSep VisionAire 5 | £840 | 1–5 L/min | 13.6 kg | 290 W | 39 dB(A) |
+| Drive DeVilbiss 1025 | £990 | 2–10 L/min | 19 kg | 670 W | 57 dBA |
+| NewLife Intensity 10 | £1,595 | 2–10 L/min | 26.4 kg | 590 W | — |
+
+The same retailer showed the Philips EverFlo (£795) and Nidek Nuvo Lite 5 (£945) as out of stock, so we left them out.
+
+## Running cost
+
+At the [Ofgem price cap](https://www.ofgem.gov.uk/information-consumers/energy-advice-households/energy-price-cap-unit-rates-and-standing-charges) of 26.32p per kWh (October to December 2026, Direct Debit average for England, Scotland and Wales):
+
+| Power draw | Per day (24 h) | Per month (30 days) |
+| --- | --- | --- |
+| 290 W (VisionAire 5) | £1.83 | £54.96 |
+| 312 W (DeVilbiss 525, top of range) | £1.97 | £59.13 |
+| 590 W (NewLife Intensity 10) | £3.73 | £111.81 |
+| 670 W (DeVilbiss 1025) | £4.23 | £126.97 |
+
+These figures assume the maximum listed draw, all day. Many machines draw less at low flow. The retailer says the DeVilbiss 525 draws less below 2.5 L/min. On the NHS, the supplier arranges payment for this electricity. If you buy privately, you pay it yourself.
+
+## VAT relief
+
+[HMRC Notice 701/7](https://www.gov.uk/guidance/reliefs-from-vat-for-disabled-and-older-people-notice-7017) lists oxygen concentrators as zero-rated medical appliances for a chronically sick or disabled person buying for personal or domestic use. See [VAT relief on CPAP and oxygen](/uk/guides/vat-relief-cpap-oxygen-uk/).
+
+## 5 or 10 litres?
+
+Buy for your prescription, not the maximum. A 5-litre machine covers prescriptions up to 5 L/min. A 10-litre machine is only needed above that, and it costs more to run, weighs more and is louder: the DeVilbiss 1025 is listed at 57 dBA against 40 dBA for the 525.
+
+## The verdict
+
+Use the NHS route if you need home oxygen. It covers the equipment, servicing and electricity. If you have a specific reason to buy, a 5-litre machine such as the DeVilbiss 525 (£810 before VAT) or VisionAire 5 (£840) covers most prescriptions. Buy a 10-litre machine only if your prescription is above 5 L/min.
+
+---
+
+# Getting CPAP on the NHS: sleep apnoea route (2026)
+
+Source: https://homehealthzone.com/uk/guides/nhs-cpap-sleep-apnoea/
+
+Most people in the UK who use CPAP got it through the NHS. This is the route as the [NHS sleep apnoea page](https://www.nhs.uk/conditions/obstructive-sleep-apnoea/) describes it, read 14 October 2026, with the NICE position alongside.
+
+## 1. See your GP
+
+The NHS suggests seeing a GP if your breathing stops and starts while you sleep, you make gasping, snorting or choking noises, or you always feel very tired during the day. Someone who has watched you sleep can help by coming to the appointment with you.
+
+## 2. Sleep clinic tests
+
+If the GP thinks you might have sleep apnoea, they may refer you to a specialist sleep clinic. The clinic gives you devices that record things like your breathing and heartbeat overnight. You can usually do this at home, but sometimes you may need to stay in the clinic.
+
+The result is your apnoea–hypopnoea index (AHI), the number of breathing pauses per hour:
+
+| AHI | NHS severity |
+| --- | --- |
+| 5–14 | Mild |
+| 15–30 | Moderate |
+| Over 30 | Severe |
+
+## 3. Treatment
+
+The NHS says many people need a CPAP machine and that **you'll be given one for free on the NHS if you need it**. CPAP pumps air through a mask over your nose, or nose and mouth, while you sleep. It can improve your breathing and sleep quality, and reduce the risk of problems linked to sleep apnoea such as high blood pressure. The NHS adds that it works best if you use it every night.
+
+[NICE technology appraisal TA139](https://www.nice.org.uk/guidance/ta139/chapter/1-Guidance) recommends CPAP as a treatment option for adults with moderate or severe symptomatic obstructive sleep apnoea/hypopnoea syndrome. Its recommendation on mild OSA has been replaced by recommendation 1.5.2 of NICE guideline NG202 (2021).
+
+The NHS also lists these other treatments:
+
+- a mandibular advancement device, which looks like a gum shield
+- surgery, such as removing large tonsils
+- exercises for the mouth and facial muscles
+- hypoglossal nerve stimulation
+
+For mild sleep apnoea, lifestyle changes may be enough. These include losing weight, stopping smoking, drinking less alcohol, regular exercise and sleeping on your side.
+
+## 4. Driving
+
+If you have excessive sleepiness, you may have to tell the DVLA and stop driving until it is under control. See [sleep apnoea and driving](/uk/guides/dvla-sleep-apnoea-driving/).
+
+## Buying privately alongside the NHS
+
+People buy privately for a travel machine, a second unit, or a newer model. If you do:
+
+- **Claim VAT relief.** A UK seller can zero-rate VAT for someone with a chronic illness buying for personal use. See [VAT relief on CPAP and oxygen](/uk/guides/vat-relief-cpap-oxygen-uk/).
+- **Use your prescribed settings.** Tell your sleep clinic you're using a second machine, so they can confirm the pressure settings.
+- **Compare prices.** UK prices for the AirSense 11 and AirMini are in our [private CPAP guide](/uk/guides/buying-cpap-privately-uk/).
+
+## The verdict
+
+Start with your GP. On the NHS route, the CPAP machine itself is free. Buy privately only for a second or travel machine, and claim VAT relief if you have a chronic condition.
+
+---
+
+# Power cuts with home oxygen or CPAP in the UK (2026)
+
+Source: https://homehealthzone.com/uk/guides/power-cuts-priority-services-register/
+
+A concentrator or CPAP stops when the power goes off. In the UK, the main protection is the **Priority Services Register (PSR)**, plus a backup plan agreed with your NHS oxygen supplier.
+
+## The Priority Services Register
+
+From [Ofgem](https://www.ofgem.gov.uk/your-energy-supply/how-manage-your-energy-supply/join-your-suppliers-priority-services-register), read 14 October 2026:
+
+- **Two registers.** Your energy supplier (the company that bills you) and your network operator (the company responsible for the wires) each keep a PSR. Contact both directly.
+- **Who can join.** People who have reached state pension age. People with a disability or long-term medical condition, including those who use medical equipment that needs a power supply.
+- **What you get:**
+  - priority support in an emergency
+  - wherever possible, advance notice of scheduled power cuts
+  - an identification and password scheme, so you know a caller or visitor is genuine
+
+The PSR doesn't guarantee your power stays on. It means you're known and prioritised for help.
+
+## NHS home oxygen consent
+
+When NHS home oxygen starts, you sign a Home Oxygen Consent Form. [Air Liquide's prescriber guidance](https://uk.healthcare.airliquide.com/chronic-respiratory-diseases/our-solutions/ordering-home-oxygen) says it covers sharing your details with the oxygen supplier and other parties, including fire and rescue services and electricity distributors. Registering with your own supplier and network operator as well means you're on both lists.
+
+## A power-cut plan
+
+| Equipment | Plan |
+| --- | --- |
+| NHS oxygen concentrator | Ask your oxygen supplier what backup it provides, such as cylinders, and how to switch over. Suppliers run a 24-hour helpline: [Air Liquide](https://uk.healthcare.airliquide.com/respiratory/our-solutions/home-oxygen-service) lists a 24-hour, 7-day call centre |
+| Portable concentrator | Keep batteries charged. Battery life depends on the setting. See [portable concentrators](/uk/guides/best-portable-oxygen-concentrator-uk/) |
+| CPAP | Ask your sleep clinic whether you can safely skip a night. For a battery option, check what the manufacturer supports for your model |
+
+## Supplier phone numbers
+
+From the [NHS home oxygen page](https://www.nhs.uk/tests-and-treatments/home-oxygen-treatment/) and [Asthma + Lung UK](https://www.asthmaandlung.org.uk/symptoms-tests-treatments/treatments/home-oxygen-therapy/how-home-oxygen-delivered):
+
+| Supplier | Number |
+| --- | --- |
+| Air Liquide (South West) | 0808 143 9999 |
+| Baywater Healthcare | 0800 373 580 |
+| BOC | 0800 136 603 |
+| Vivisol (North East and South East England) | 0800 917 9840 |
+| Dolby Vivisol (Scotland) | 0800 833 531 |
+
+## The verdict
+
+Join both Priority Services Registers today. Agree a backup with your oxygen supplier. Keep the supplier's 24-hour number by the concentrator.
+
+---
+
+# VAT relief on CPAP and oxygen in the UK (2026)
+
+Source: https://homehealthzone.com/uk/guides/vat-relief-cpap-oxygen-uk/
+
+UK retailers list most CPAP machines, masks and oxygen concentrators at two prices: with and without VAT. The lower price is what you pay if you qualify for VAT relief for disabled people and people with chronic illness. The rules are in [HMRC VAT Notice 701/7](https://www.gov.uk/guidance/reliefs-from-vat-for-disabled-and-older-people-notice-7017). This guide sets out what they mean for respiratory equipment.
+
+## Who qualifies
+
+Under the notice, "disabled" means disabled or chronically sick. A person qualifies if they have either:
+
+- a physical or mental impairment with a long-term and substantial effect on everyday activities, or
+- a condition the medical profession treats as a chronic sickness. HMRC's example is diabetes.
+
+The relief is not means-tested and doesn't depend on benefits. You don't need to be registered disabled. It does not cover an older person who isn't chronically sick, or someone who is only temporarily incapacitated. A parent, spouse or guardian can buy on the person's behalf.
+
+[ResMed's UK shop](https://shop.resmed.com/GB/en/vatinfo) and [Intus Healthcare](https://www.cpap.co.uk/vat-relief-for-cpap/) both give obstructive sleep apnoea as an example of a chronic sickness. HMRC itself won't rule on individual customers. The supplier is responsible for deciding.
+
+## Which equipment qualifies
+
+| Item | Position under Notice 701/7 |
+| --- | --- |
+| Oxygen concentrators | Named in paragraph 4.2.2 as a zero-rated medical appliance |
+| Artificial respirators | Named in the same list |
+| Parts and accessories | Zero-rated if designed solely for use with an eligible item (paragraph 4.9) |
+| General-purpose batteries | Not eligible on their own, even if bought for an eligible device (paragraph 4.9) |
+| Hire or lease | Hire or lease of eligible goods to an eligible person can be zero-rated (paragraph 4.12) |
+| Repair and maintenance | Can be zero-rated for eligible goods (paragraph 5.2) |
+
+CPAP machines and masks aren't named in the notice's example list. UK sleep retailers mark which products they treat as eligible. On ResMed's UK shop, the VAT-relief checkbox only appears next to eligible items.
+
+## Conditions that apply to every purchase
+
+All three must be true:
+
+1. **Eligible customer.** You are chronically sick or disabled, as above.
+2. **Personal or domestic use.** Business use doesn't qualify. Neither do supplies to hospital inpatients or nursing-home residents for care given there.
+3. **Eligible goods.** The item is designed for, and relates to, your condition.
+
+The notice adds one more restriction for medical appliances. They are zero-rated only if sold without you needing to attend a hospital or nursing home for their fitting.
+
+## The declaration
+
+HMRC doesn't issue exemption certificates. Instead, you give the supplier a written declaration that you are eligible. It must be separate from, or clearly distinguishable from, the order form. Electronic declarations are allowed, which is why online shops use a checkbox or a short form. HMRC publishes a [template declaration](https://www.gov.uk/government/publications/vat-reliefs-for-disabled-people-eligibility-declaration-by-a-disabled-person).
+
+The notice warns that there are penalties for false declarations. If someone can't sign, for example a child, a parent, guardian or doctor can sign for them.
+
+## What it's worth
+
+[UK standard-rate VAT is 20%](https://www.gov.uk/vat-rates). As an example, ResMed's UK shop lists the AirSense 11 AutoSet at £669 "plus VAT" ([ResMed](https://shop.resmed.com/GB/en/cpap-machines/airsense-11-autoset/p/39172), 14 October 2026). An eligible buyer pays the listed figure. Anyone else pays the listed figure plus 20%.
+
+## Mistakes and refunds
+
+HMRC can't make refunds directly to customers. If a supplier charged VAT when it shouldn't have, the supplier corrects its records and refunds you. ResMed's UK shop says it can't refund VAT paid in error. Claim the relief at checkout, before you pay.
+
+## Imports
+
+The relief also applies to goods imported from outside the UK, under the same conditions. You lodge the declaration with the import entry before the import takes place. This applies to purchases by eligible individuals. When a supplier imports stock, it pays the VAT itself.
+
+## The verdict
+
+If you have sleep apnoea, COPD or another chronic condition and are buying for your own use, claim VAT relief at checkout. On a CPAP machine or concentrator it is one of the biggest savings available. Read the declaration before you sign it, and keep a copy.
+
+---
+
 # APAP algorithms compared — ResMed AutoSet, Philips Auto, BMC Auto, DreamStation, AirSense
 
 Source: https://homehealthzone.com/clinical/apap-algorithms-compared/

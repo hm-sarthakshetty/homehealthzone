@@ -30,14 +30,14 @@ export interface Market {
 
 export const INTL_MARKETS: Market[] = [
   {
-    code: 'uk', country: 'GB', currency: 'GBP', lang: 'en-GB', label: 'United Kingdom', short: 'UK', live: false,
+    code: 'uk', country: 'GB', currency: 'GBP', lang: 'en-GB', label: 'United Kingdom', short: 'UK', live: true,
     hubTitle: 'Oxygen concentrators and CPAP in the UK',
-    hubDescription: 'HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, MHRA rules, and devices sold in the UK with GBP prices from named retailers.',
+    hubDescription: 'HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.',
     hubLead: 'How home oxygen and CPAP work in the UK, through the NHS and privately. Prices are in pounds sterling, taken from the named retailer listing on the date shown in each guide.',
     guidesTitle: 'UK buyer’s guides',
     guidesDescription: 'UK guides to home oxygen and CPAP: NHS routes, VAT relief, MHRA rules, travel, masks, machines and troubleshooting, with GBP prices from named retailers.',
     guidesLead: 'Plain-English guides to getting, buying and using respiratory equipment in the UK. Every guide is reviewed and timestamped.',
-    clusters: [],
+    clusters: ['NHS and funding', 'Home oxygen', 'CPAP', 'Travel and power'],
   },
   {
     code: 'sg', country: 'SG', currency: 'SGD', lang: 'en-SG', label: 'Singapore', short: 'Singapore', live: false,

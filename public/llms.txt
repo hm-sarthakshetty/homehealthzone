@@ -10,6 +10,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 
 - [India](https://homehealthzone.com/): oxygen concentrators, CPAP, and BiPAP sold in India, with prices in rupees
 - [United States](https://homehealthzone.com/us/): oxygen concentrators and CPAP sold in the US, with USD prices, FDA prescription rules and Medicare basics
+- [United Kingdom](https://homehealthzone.com/uk/): HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.
 
 ## Editorial policies
 
@@ -285,6 +286,22 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [CPAP and oxygen in Tucson heat (2026)](https://homehealthzone.com/us/guides/tucson-heat-cpap-oxygen/): Tucson, Arizona summer highs vs CPAP and oxygen concentrator limits: NOAA 1991–2020 normals, elevation, operating temperature and humidity ranges from manufacturer manuals, hot cars and outages.
 - [Used or refurbished oxygen concentrator checklist](https://homehealthzone.com/us/guides/used-refurbished-oxygen-concentrator/): How to buy a used or refurbished portable oxygen concentrator safely: what the FDA says about prescriptions, servicing vs remanufacturing, manufacturers' service-life, sieve-bed and battery limits, warranty transfer, and a pre-purchase checklist.
 - [VA CPAP and sleep apnea benefits (2026)](https://homehealthzone.com/us/guides/va-cpap-sleep-apnea-benefits/): How Veterans get CPAP machines and free CPAP supplies from the VA: eligibility, ordering online, by phone or with VA Form 2346b, what supplies are available, delivery times, and the 38 CFR 4.97 sleep apnea rating schedule.
+
+## United Kingdom guides
+
+- [United Kingdom hub](https://homehealthzone.com/uk/): HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.
+- [Portable oxygen concentrators in the UK (2026)](https://homehealthzone.com/uk/guides/best-portable-oxygen-concentrator-uk/): UK prices for the Inogen Rove 6 and Drive DeVilbiss iGo2 portable oxygen concentrators, battery life, VAT relief, how a private POC fits with NHS oxygen, and flying.
+- [Buying a CPAP privately in the UK (2026 prices)](https://homehealthzone.com/uk/guides/buying-cpap-privately-uk/): UK prices for the ResMed AirSense 11 and AirMini from ResMed's UK shop, what the packages include, VAT relief, running costs at the price cap, and when to buy at all.
+- [CPAP masks in the UK: ResMed prices compared (2026)](https://homehealthzone.com/uk/guides/cpap-masks-uk/): UK prices for ResMed full-face, nasal and pillows CPAP masks from ResMed's UK shop, how the three types differ, replacement-part costs and VAT relief.
+- [Sleep apnoea and driving: DVLA rules (2026)](https://homehealthzone.com/uk/guides/dvla-sleep-apnoea-driving/): When you must tell the DVLA about obstructive sleep apnoea, the SL1 and SL1V forms, when you must stop driving, the £1,000 fine, and how CPAP fits in.
+- [Flying with CPAP or oxygen from the UK (2026)](https://homehealthzone.com/uk/guides/flying-with-cpap-oxygen-uk/): UK Civil Aviation Authority guidance on flying with a CPAP, portable oxygen concentrator or oxygen cylinder: airline approval, batteries, letters, security screening and power.
+- [Home oxygen abroad from the UK: GHIC rules (2026)](https://homehealthzone.com/uk/guides/home-oxygen-abroad-ghic/): Taking NHS home oxygen on holiday: UK deliveries, how a UK GHIC or EHIC covers oxygen abroad, the Canary Islands 15-hour rule, and what to arrange before you go.
+- [Home oxygen concentrators in the UK: prices (2026)](https://homehealthzone.com/uk/guides/home-oxygen-concentrator-uk/): UK prices for 5- and 10-litre home oxygen concentrators from Drive DeVilbiss, AirSep, Philips and NewLife, power use and running cost, VAT relief, and the NHS route.
+- [Getting CPAP on the NHS: sleep apnoea route (2026)](https://homehealthzone.com/uk/guides/nhs-cpap-sleep-apnoea/): How to get a CPAP machine on the NHS: GP referral, home sleep tests, AHI severity bands, what NICE recommends, other treatments, and when buying privately makes sense.
+- [NHS home oxygen service: how it works (2026)](https://homehealthzone.com/uk/guides/nhs-home-oxygen-service/): How NHS home oxygen works: assessment, HOOF order forms, which company supplies your region, consent, servicing, electricity refunds and holidays.
+- [Power cuts with home oxygen or CPAP in the UK (2026)](https://homehealthzone.com/uk/guides/power-cuts-priority-services-register/): Join the Priority Services Register with your energy supplier and network operator, what help it gives in a power cut, how NHS oxygen consent links in, and backup planning.
+- [VAT relief on CPAP and oxygen in the UK (2026)](https://homehealthzone.com/uk/guides/vat-relief-cpap-oxygen-uk/): When CPAP machines, masks and oxygen concentrators can be bought VAT-free in the UK under HMRC Notice 701/7, who qualifies and how the declaration works.
+
 
 ## Written comparison pages
 

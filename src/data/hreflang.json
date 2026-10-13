@@ -3,15 +3,18 @@
   "pairs": [
     {
       "en-IN": "/",
-      "en-US": "/us/"
+      "en-US": "/us/",
+      "en-GB": "/uk/"
     },
     {
       "en-IN": "/guides/oxygen-concentrators-buyers-guide-india/",
-      "en-US": "/us/guides/oxygen-concentrator-buyers-guide/"
+      "en-US": "/us/guides/oxygen-concentrator-buyers-guide/",
+      "en-GB": "/uk/guides/home-oxygen-concentrator-uk/"
     },
     {
       "en-IN": "/guides/",
-      "en-US": "/us/guides/"
+      "en-US": "/us/guides/",
+      "en-GB": "/uk/guides/"
     },
     {
       "en-IN": "/guides/5-lpm-vs-10-lpm/",
@@ -23,7 +26,8 @@
     },
     {
       "en-IN": "/guides/best-cpap-masks-india/",
-      "en-US": "/us/guides/best-cpap-masks/"
+      "en-US": "/us/guides/best-cpap-masks/",
+      "en-GB": "/uk/guides/cpap-masks-uk/"
     },
     {
       "en-IN": "/guides/best-travel-cpap-machines-india/",
@@ -44,6 +48,14 @@
     {
       "en-IN": "/guides/oxygen-cylinder-vs-concentrator/",
       "en-US": "/us/guides/oxygen-cylinders-vs-concentrators/"
+    },
+    {
+      "en-US": "/us/guides/best-portable-oxygen-concentrator/",
+      "en-GB": "/uk/guides/best-portable-oxygen-concentrator-uk/"
+    },
+    {
+      "en-US": "/us/guides/cpap-buyers-guide/",
+      "en-GB": "/uk/guides/buying-cpap-privately-uk/"
     }
   ]
 }

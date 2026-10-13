@@ -1,0 +1,24 @@
+{
+  "slug": "resmed-airfit-p10",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-masks/nasal-pillows-cpap-masks/airfit-p10-pillow-mask/p/62901",
+  "product_name": "ResMed AirFit P10",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "GB": {
+      "amount": 107.5,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-masks/nasal-pillows-cpap-masks/airfit-p10-pillow-mask/p/62901",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "cpap-masks-uk"
+  },
+  "images": []
+}

@@ -1,0 +1,24 @@
+{
+  "slug": "resmed-airfit-f30i",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-masks/airfit-f30i/p/63310",
+  "product_name": "ResMed AirFit F30i",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "GB": {
+      "amount": 135,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-masks/airfit-f30i/p/63310",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "cpap-masks-uk"
+  },
+  "images": []
+}

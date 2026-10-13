@@ -1,0 +1,24 @@
+{
+  "slug": "resmed-airfit-f40",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-masks/full-face-cpap-masks/airfit-f40/p/64614",
+  "product_name": "ResMed AirFit F40",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "GB": {
+      "amount": 137,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-masks/full-face-cpap-masks/airfit-f40/p/64614",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "cpap-masks-uk"
+  },
+  "images": []
+}

@@ -1,0 +1,27 @@
+{
+  "slug": "inogen-rove-6",
+  "source_url": "https://www.portableoxygen.co.uk/inogen-rove-6-16-cell-portable-oxygen-concentrator/",
+  "product_name": "Inogen Rove 6 (16-cell battery)",
+  "brand": "Inogen",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB"
+  ],
+  "device_type": "portable-oxygen-concentrator",
+  "prices": {
+    "GB": {
+      "amount": 2150,
+      "currency": "GBP",
+      "source_url": "https://www.portableoxygen.co.uk/inogen-rove-6-16-cell-portable-oxygen-concentrator/",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "best-portable-oxygen-concentrator-uk"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 2.6
+  }
+}

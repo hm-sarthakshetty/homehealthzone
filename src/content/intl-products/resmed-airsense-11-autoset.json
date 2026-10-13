@@ -1,0 +1,28 @@
+{
+  "slug": "resmed-airsense-11-autoset",
+  "source_url": "https://shop.resmed.com/GB/en/cpap-machines/airsense-11-autoset/p/39172",
+  "product_name": "ResMed AirSense 11 AutoSet",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB"
+  ],
+  "device_type": "cpap",
+  "prices": {
+    "GB": {
+      "amount": 669,
+      "currency": "GBP",
+      "source_url": "https://shop.resmed.com/GB/en/cpap-machines/airsense-11-autoset/p/39172",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "buying-cpap-privately-uk"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 1.1,
+    "noise_db": 27.0
+  }
+}

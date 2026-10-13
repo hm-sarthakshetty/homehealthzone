@@ -1,0 +1,30 @@
+{
+  "slug": "devilbiss-1025",
+  "source_url": "https://www.portableoxygen.co.uk/top-brands/drive-devilbiss-compact-1025/",
+  "product_name": "Drive DeVilbiss 1025 (10 L)",
+  "brand": "Drive DeVilbiss",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "GB"
+  ],
+  "device_type": "oxygen-concentrator",
+  "prices": {
+    "GB": {
+      "amount": 990,
+      "currency": "GBP",
+      "source_url": "https://www.portableoxygen.co.uk/top-brands/drive-devilbiss-compact-1025/",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "uk": "home-oxygen-concentrator-uk"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 19,
+    "flow_max_lpm": 10,
+    "power_w": 670,
+    "noise_db": 57
+  }
+}
