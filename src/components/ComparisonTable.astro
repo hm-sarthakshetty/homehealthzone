@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { formatPrice, resolvePrice } from '../lib/price';
 
 type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
 
@@ -23,6 +24,9 @@ const sanitize = (v: string | null | undefined): string => {
   return s;
 };
 
+const priceA = resolvePrice(productA);
+const priceB = resolvePrice(productB);
+
 const rows: Row[] = [];
 
 // Basic fields
@@ -31,14 +35,11 @@ const basicPairs: Array<[string, string, string]> = [
   ['Category', sanitize(productA.category), sanitize(productB.category)],
   [
     'Price',
-    sanitize(productA.price_current)
-      ? `${productA.price_symbol}${sanitize(productA.price_current)}`
-      : '',
-    sanitize(productB.price_current)
-      ? `${productB.price_symbol}${sanitize(productB.price_current)}`
-      : '',
+    formatPrice(priceA, 'current', 'raw') ?? '',
+    formatPrice(priceB, 'current', 'raw') ?? '',
   ],
-  ['MRP', sanitize(productA.price_mrp), sanitize(productB.price_mrp)],
+  // Legacy behaviour: MRP cell carries no currency symbol.
+  ['MRP', formatPrice(priceA, 'mrp', 'bare') ?? '', formatPrice(priceB, 'mrp', 'bare') ?? ''],
   ['Stock', sanitize(productA.stock), sanitize(productB.stock)],
 ];
 

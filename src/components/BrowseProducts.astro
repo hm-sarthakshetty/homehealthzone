@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { formatAmount, parsePriceText } from '../lib/price';
 import ProductCard from './ProductCard.astro';
 
 type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
@@ -35,9 +36,7 @@ function hrefFor(entry: ProductEntry): string {
 }
 
 function priceNum(p?: string | null): number {
-  if (!p) return 0;
-  const n = parseFloat(p.replace(/,/g, ''));
-  return Number.isFinite(n) ? n : 0;
+  return parsePriceText(p) ?? 0;
 }
 
 function ratingNum(r?: string | null): number {
@@ -179,7 +178,7 @@ function datasetFor(entry: ProductEntry): Record<string, string> {
 }
 
 function fmtINR(n: number): string {
-  return n.toLocaleString('en-IN');
+  return formatAmount(n, 'IN');
 }
 ---
 <section class="browse" aria-labelledby="browse-heading">

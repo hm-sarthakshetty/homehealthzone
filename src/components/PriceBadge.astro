@@ -1,34 +1,36 @@
 ---
+import { formatPrice, resolvePrice, type Country, type PricedProduct } from '../lib/price';
+
 export interface Props {
+  /** Preferred: pass the product data and the market to render. */
+  product?: PricedProduct;
+  country?: Country;
+  /** Legacy props (India text prices). */
   current?: string | null;
   mrp?: string | null;
   symbol?: string;
   stock?: string | null;
 }
 
-const { current, mrp, symbol = '₹', stock } = Astro.props;
+const { product, country = 'IN', current, mrp, symbol = '₹', stock } = Astro.props;
 
+const resolved = resolvePrice(
+  product ?? { price_current: current, price_mrp: mrp, price_symbol: symbol },
+  country
+);
 const isDiscontinued = (stock ?? '').toLowerCase().includes('discontinued');
-const hasCurrent = current !== null && current !== undefined && String(current).trim() !== '';
-const hasMrp = mrp !== null && mrp !== undefined && String(mrp).trim() !== '';
-
-const formatPrice = (value: string) => {
-  let trimmed = String(value).trim();
-  // Strip trailing .00 / .0 — INR whole-rupee convention, no paise on medical-device pricing.
-  trimmed = trimmed.replace(/\.0+$/, '');
-  // If the string already contains a currency symbol, pass through.
-  if (/[₹$€£]/.test(trimmed)) return trimmed;
-  return `${symbol}${trimmed}`;
-};
+// Trailing .00 stripped for legacy INR text — whole-rupee convention.
+const currentText = formatPrice(resolved, 'current', 'badge');
+const mrpText = formatPrice(resolved, 'mrp', 'badge');
 ---
 {isDiscontinued ? (
   <p class="price-badge">
     <span class="price-badge__discontinued" aria-label="Discontinued — no longer sold">Discontinued</span>
   </p>
-) : hasCurrent ? (
+) : currentText ? (
   <p class="price-badge">
-    <span class="price-badge__current">{formatPrice(current!)}</span>
-    {hasMrp && <span class="price-badge__mrp">{formatPrice(mrp!)}</span>}
+    <span class="price-badge__current">{currentText}</span>
+    {mrpText && <span class="price-badge__mrp">{mrpText}</span>}
   </p>
 ) : (
   <p class="price-badge">
