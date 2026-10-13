@@ -8,6 +8,13 @@
   "price_current": "40,000.00",
   "price_mrp": "53,760.00",
   "price_symbol": "₹",
+  "prices": {
+    "IN": {
+      "amount": 40000,
+      "currency": "INR",
+      "mrp": 53760
+    }
+  },
   "rating_value": "4.2 (15)",
   "rating_count": "15",
   "stock": "Discontinued",

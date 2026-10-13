@@ -8,6 +8,13 @@
   "price_current": "39,744.00",
   "price_mrp": "48,000.00",
   "price_symbol": "₹",
+  "prices": {
+    "IN": {
+      "amount": 39744,
+      "currency": "INR",
+      "mrp": 48000
+    }
+  },
   "rating_value": null,
   "rating_count": null,
   "stock": "In Stock",
