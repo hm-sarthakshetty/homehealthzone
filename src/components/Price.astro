@@ -1,0 +1,28 @@
+---
+/**
+ * Inline price for MDX prose: <Price slug="devilbiss-5-lpm" country="US" />.
+ * Reads the product's prices map so prose never hard-codes a number that the
+ * data (or a price-update job) can change. Renders a fallback when the market
+ * has no verified price.
+ */
+import { getEntry } from 'astro:content';
+import { formatPrice, resolvePrice, type Country } from '../lib/price';
+
+export interface Props {
+  slug: string;
+  country?: Country;
+  collection?: 'products' | 'cpap-bipap';
+  fallback?: string;
+}
+
+const { slug, country = 'IN', collection, fallback = 'price not verified' } = Astro.props;
+const entry =
+  collection === 'cpap-bipap'
+    ? await getEntry('cpap-bipap', slug)
+    : collection === 'products'
+      ? await getEntry('products', slug)
+      : ((await getEntry('products', slug)) ?? (await getEntry('cpap-bipap', slug)));
+if (!entry) throw new Error(`<Price>: unknown product slug "${slug}"`);
+const text = formatPrice(resolvePrice(entry.data, country), 'current', 'badge') ?? fallback;
+---
+<span class="price-inline">{text}</span>

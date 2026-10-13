@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css';
+import hreflangData from '../data/hreflang.json';
 
 export interface Props {
   title?: string;
@@ -14,6 +15,8 @@ export interface Props {
    * contentful paint element on the page (product hero, first compare card, etc.).
    */
   preloadImage?: string;
+  /** <html lang>. Defaults to "en" (India pages); US pages pass "en-US". */
+  lang?: string;
   frontmatter?: {
     title?: string;
     description?: string;
@@ -33,6 +36,7 @@ const canonicalURL = props.canonicalURL ?? fm.canonicalURL;
 const ogImage = props.ogImage ?? fm.ogImage;
 const noindex = props.noindex ?? fm.noindex;
 const preloadImage = props.preloadImage;
+const lang = props.lang ?? 'en';
 
 // If preloadImage points at /images/products/<file>.jpg|png, prefer the AVIF variant
 // from /images/opt/ — most modern browsers support AVIF and it's typically 5–8×
@@ -91,9 +95,23 @@ const footerNav = [
 const currentPath = Astro.url.pathname;
 const isCurrent = (href: string) =>
   currentPath === href || (href !== '/' && currentPath.startsWith(href));
+
+// hreflang: emit alternates only for pages that have a declared regional twin.
+const hreflangPair = (hreflangData.pairs as Array<Record<string, string>>).find((pair) =>
+  Object.values(pair).includes(currentPath)
+);
+const hreflangLinks = hreflangPair
+  ? [
+      ...Object.entries(hreflangPair).map(([hreflang, path]) => ({
+        hreflang,
+        href: new URL(path, Astro.site).toString(),
+      })),
+      { hreflang: 'x-default', href: new URL(hreflangPair['en-IN'], Astro.site).toString() },
+    ]
+  : [];
 ---
 <!DOCTYPE html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -101,6 +119,7 @@ const isCurrent = (href: string) =>
     <title>{fullTitle}</title>
     {description && <meta name="description" content={description} />}
     <link rel="canonical" href={resolvedCanonical} />
+    {hreflangLinks.map((l) => <link rel="alternate" hreflang={l.hreflang} href={l.href} />)}
     {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     {/* Open Graph */}

@@ -1,7 +1,10 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 
-type ArticleEntry = CollectionEntry<'guides'> | CollectionEntry<'clinical'>;
+type ArticleEntry =
+  | CollectionEntry<'guides'>
+  | CollectionEntry<'clinical'>
+  | CollectionEntry<'us-guides'>;
 
 export interface Props {
   entry: ArticleEntry;
@@ -11,12 +14,17 @@ export interface Props {
 const { entry, href: hrefOverride } = Astro.props;
 const data = entry.data;
 
-const basePath = entry.collection === 'clinical' ? '/clinical' : '/guides';
+const basePath =
+  entry.collection === 'clinical'
+    ? '/clinical'
+    : entry.collection === 'us-guides'
+      ? '/us/guides'
+      : '/guides';
 const fallbackHref = `${basePath}/${entry.id.replace(/\.(md|mdx)$/, '')}/`;
 const href = hrefOverride ?? fallbackHref;
 
 const formattedDate = data.lastReviewed
-  ? new Date(data.lastReviewed).toLocaleDateString('en-IN', {
+  ? new Date(data.lastReviewed).toLocaleDateString(entry.collection === 'us-guides' ? 'en-US' : 'en-IN', {
       year: 'numeric',
       month: 'long',
       day: 'numeric',

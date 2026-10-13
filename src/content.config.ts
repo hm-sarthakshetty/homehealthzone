@@ -189,6 +189,12 @@ const cpapBipapReviews = defineCollection({
   schema: productReviewSchema,
 });
 
+// US-market buyer's guides, rendered under /us/guides/{slug}/.
+const usGuides = defineCollection({
+  loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/us-guides' }),
+  schema: editorialSchema,
+});
+
 const comparisonWriteups = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/comparison-writeups' }),
   schema: comparisonWriteupSchema,
@@ -203,4 +209,5 @@ export const collections = {
   'product-reviews': productReviews,
   'cpap-bipap-reviews': cpapBipapReviews,
   'comparison-writeups': comparisonWriteups,
+  'us-guides': usGuides,
 };
