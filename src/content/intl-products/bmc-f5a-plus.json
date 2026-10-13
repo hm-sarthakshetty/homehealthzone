@@ -1,0 +1,24 @@
+{
+  "slug": "bmc-f5a-plus",
+  "source_url": "https://www.medworx-intl.com/products/bmc-n5a-mask-copy",
+  "product_name": "BMC F5A+ full face mask",
+  "brand": "BMC",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "SG": {
+      "amount": 155,
+      "currency": "SGD",
+      "source_url": "https://www.medworx-intl.com/products/bmc-n5a-mask-copy",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "cpap-masks-singapore"
+  },
+  "images": []
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "yuwell-7f-5",
+  "source_url": "https://rehabshop.com.sg/7f-5-oxygen-concentrator",
+  "product_name": "Yuwell 7F-5 5 LPM",
+  "brand": "Yuwell",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG"
+  ],
+  "device_type": "oxygen-concentrator",
+  "prices": {
+    "SG": {
+      "amount": 1635,
+      "currency": "SGD",
+      "source_url": "https://rehabshop.com.sg/7f-5-oxygen-concentrator",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "home-oxygen-concentrator-singapore"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 28,
+    "max_flow_lpm": 5,
+    "noise_db": 60
+  }
+}

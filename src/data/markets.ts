@@ -40,14 +40,14 @@ export const INTL_MARKETS: Market[] = [
     clusters: ['NHS and funding', 'Home oxygen', 'CPAP', 'Travel and power'],
   },
   {
-    code: 'sg', country: 'SG', currency: 'SGD', lang: 'en-SG', label: 'Singapore', short: 'Singapore', live: false,
+    code: 'sg', country: 'SG', currency: 'SGD', lang: 'en-SG', label: 'Singapore', short: 'Singapore', live: true,
     hubTitle: 'Oxygen concentrators and CPAP in Singapore',
     hubDescription: 'HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.',
     hubLead: 'How home oxygen and CPAP are funded and regulated in Singapore. Prices are in Singapore dollars, taken from the named retailer listing on the date shown in each guide.',
     guidesTitle: 'Singapore buyer’s guides',
     guidesDescription: 'Singapore guides to home oxygen and CPAP: subsidies, MediSave, HSA rules, travel, masks, machines and troubleshooting, with SGD prices.',
     guidesLead: 'Plain-English guides to getting, paying for and using respiratory equipment in Singapore. Every guide is reviewed and timestamped.',
-    clusters: [],
+    clusters: ['Subsidies and schemes', 'CPAP', 'Oxygen', 'Regulation', 'Travel and power'],
   },
   {
     code: 'au', country: 'AU', currency: 'AUD', lang: 'en-AU', label: 'Australia', short: 'Australia', live: false,

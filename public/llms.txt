@@ -11,6 +11,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [India](https://homehealthzone.com/): oxygen concentrators, CPAP, and BiPAP sold in India, with prices in rupees
 - [United States](https://homehealthzone.com/us/): oxygen concentrators and CPAP sold in the US, with USD prices, FDA prescription rules and Medicare basics
 - [United Kingdom](https://homehealthzone.com/uk/): HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.
+- [Singapore](https://homehealthzone.com/sg/): HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.
 
 ## Editorial policies
 
@@ -301,6 +302,21 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [NHS home oxygen service: how it works (2026)](https://homehealthzone.com/uk/guides/nhs-home-oxygen-service/): How NHS home oxygen works: assessment, HOOF order forms, which company supplies your region, consent, servicing, electricity refunds and holidays.
 - [Power cuts with home oxygen or CPAP in the UK (2026)](https://homehealthzone.com/uk/guides/power-cuts-priority-services-register/): Join the Priority Services Register with your energy supplier and network operator, what help it gives in a power cut, how NHS oxygen consent links in, and backup planning.
 - [VAT relief on CPAP and oxygen in the UK (2026)](https://homehealthzone.com/uk/guides/vat-relief-cpap-oxygen-uk/): When CPAP machines, masks and oxygen concentrators can be bought VAT-free in the UK under HMRC Notice 701/7, who qualifies and how the declaration works.
+
+
+## Singapore guides
+
+- [Singapore hub](https://homehealthzone.com/sg/): HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.
+- [CPAP in Singapore's humidity: rainout and supplies](https://homehealthzone.com/sg/guides/cpap-humidity-singapore/): Why Singapore's humid nights and air-conditioned bedrooms matter for CPAP users, ResMed's humidifier and heated-tube settings, and SGD prices for tubes, tubs and filters.
+- [CPAP machine prices in Singapore (2026)](https://homehealthzone.com/sg/guides/cpap-machine-price-singapore/): Live SGD prices for CPAP machines from Singapore retailers: ResMed AirSense 11 and 10, Resvent iBreeze and the AirCurve 11 bilevel, plus rental and home-trial costs.
+- [CPAP masks in Singapore: prices compared (2026)](https://homehealthzone.com/sg/guides/cpap-masks-singapore/): SGD prices for ResMed, Philips and BMC CPAP masks from Singapore retailers, sorted by full-face, nasal and pillows, with replacement-part costs.
+- [CPAP subsidy in Singapore: the 2026 ACE rules](https://homehealthzone.com/sg/guides/cpap-subsidy-singapore/): Singapore's one-time government subsidy for APAP/CPAP from April 2026: who qualifies, the one-month adherence trial, the only subsidised model and its distributors.
+- [Flying from Singapore with CPAP or oxygen](https://homehealthzone.com/sg/guides/flying-with-cpap-oxygen-singapore/): Singapore Airlines' rules for CPAP machines, portable oxygen concentrators and supplementary oxygen, the 150% battery rule, plus HSA rules for bringing a device into Singapore.
+- [Home oxygen concentrators in Singapore (2026)](https://homehealthzone.com/sg/guides/home-oxygen-concentrator-singapore/): SGD prices and specs for home oxygen concentrators sold in Singapore, what they cost to run at SP Group's Q4 2026 tariff, and how to get them subsidised or rented.
+- [HSA rules for CPAP and oxygen devices in Singapore](https://homehealthzone.com/sg/guides/hsa-medical-device-rules-singapore/): How Singapore's Health Sciences Authority regulates CPAP machines and oxygen concentrators: personal-import approval, the 3-month limit, transit, resale and device registration.
+- [MediSave, MediFund and CHAS for CPAP and oxygen](https://homehealthzone.com/sg/guides/medisave-medifund-chas-cpap-oxygen/): What Singapore's MediSave, MediFund and CHAS do and do not pay for when you need a CPAP or home oxygen, with the 2026 limits and income tiers from MOH and CHAS.
+- [Oxygen concentrator subsidies in Singapore (SMF, ERS)](https://homehealthzone.com/sg/guides/oxygen-concentrator-subsidy-singapore/): How Singapore's AIC schemes help pay for a home oxygen concentrator: the Seniors' Mobility and Enabling Fund, the Assistive Technology Fund and the Equipment Rental Scheme.
+- [Portable oxygen concentrators in Singapore](https://homehealthzone.com/sg/guides/portable-oxygen-concentrator-singapore/): Which portable oxygen concentrators Singapore suppliers sell, the few published SGD prices, Singapore Airlines' FAA-approval rule and battery planning for tropical travel.
 
 
 ## Written comparison pages

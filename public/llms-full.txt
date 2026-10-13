@@ -26260,6 +26260,642 @@ If you have sleep apnoea, COPD or another chronic condition and are buying for y
 
 ---
 
+# Singapore: oxygen concentrators and CPAP
+
+Source: https://homehealthzone.com/sg/
+
+HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.
+
+Singapore guides:
+
+- [CPAP in Singapore's humidity: rainout and supplies](https://homehealthzone.com/sg/guides/cpap-humidity-singapore/)
+- [CPAP machine prices in Singapore (2026)](https://homehealthzone.com/sg/guides/cpap-machine-price-singapore/)
+- [CPAP masks in Singapore: prices compared (2026)](https://homehealthzone.com/sg/guides/cpap-masks-singapore/)
+- [CPAP subsidy in Singapore: the 2026 ACE rules](https://homehealthzone.com/sg/guides/cpap-subsidy-singapore/)
+- [Flying from Singapore with CPAP or oxygen](https://homehealthzone.com/sg/guides/flying-with-cpap-oxygen-singapore/)
+- [Home oxygen concentrators in Singapore (2026)](https://homehealthzone.com/sg/guides/home-oxygen-concentrator-singapore/)
+- [HSA rules for CPAP and oxygen devices in Singapore](https://homehealthzone.com/sg/guides/hsa-medical-device-rules-singapore/)
+- [MediSave, MediFund and CHAS for CPAP and oxygen](https://homehealthzone.com/sg/guides/medisave-medifund-chas-cpap-oxygen/)
+- [Oxygen concentrator subsidies in Singapore (SMF, ERS)](https://homehealthzone.com/sg/guides/oxygen-concentrator-subsidy-singapore/)
+- [Portable oxygen concentrators in Singapore](https://homehealthzone.com/sg/guides/portable-oxygen-concentrator-singapore/)
+
+---
+
+# CPAP in Singapore's humidity: rainout and supplies
+
+Source: https://homehealthzone.com/sg/guides/cpap-humidity-singapore/
+
+## Singapore's climate in numbers
+
+The Meteorological Service Singapore's [climate summary](https://www.weather.gov.sg/climate-climate-of-singapore/) describes a climate that barely changes through the year:
+
+- **Humidity:** more than 90% in the early morning before sunrise, falling to around 60% on dry afternoons. The annual mean is about **82%**, and it often reaches 100% during long spells of rain.
+- **Temperature:** nights usually stay at 23 to 25°C; days peak at 31 to 33°C. May is the warmest month, with a 24-hour mean of 28.6°C.
+- **Rain:** it rains on an average of 171 days a year.
+
+For a CPAP user the important gap is between the warm, humid air outside and the cool, air-conditioned bedroom where the tube runs.
+
+## Why water collects in the tube
+
+The humidifier warms and moistens the air. As that air travels down the hose it cools towards room temperature, and the moisture condenses into droplets, which is called rainout. The bigger the gap between the humidified air and a cold room, the more water you get. Air-conditioning blowing directly on the tube makes it worse. Our [rainout explainer](/clinical/cpap-rainout-water-in-hose/) covers the physics in detail.
+
+## ResMed's settings
+
+From ResMed's [AirSense 11 user guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf):
+
+| Problem | ResMed's suggestion |
+| --- | --- |
+| Dry or blocked nose | Increase the humidity level |
+| Water droplets on your nose, in the mask or tubing | Decrease humidity, or increase tube temperature |
+| Very dry mouth | Air may be escaping through your mouth; consider a chin strap or full-face mask |
+
+With a ClimateLineAir heated tube and HumidAir tub on an AirSense 11, **Climate Control Auto** is the default. ResMed says it sets the tube to 27°C (80°F), holds 85% relative humidity and is designed to prevent rainout. Without a heated tube you can only change the humidity level, so you cannot raise the tube temperature.
+
+Other practical steps:
+
+- Keep the machine lower than your head, so water runs back rather than into the mask.
+- Point the air-conditioner away from the bed and the hose.
+- Use the cleanable water tub with distilled water if your machine's guide calls for it, and empty it each morning.
+
+## Tubes, tubs and filters: Singapore prices
+
+Medbitz prices, read 14 October 2026:
+
+| Item | Price |
+| --- | --- |
+| ResMed Air11 ClimateLine Air heated tube | [S$125](https://wearemedbitz.com/products/resmed-air11-climateline-air-tube) |
+| ResMed Air10 ClimateLine Air heated tube | [S$108](https://wearemedbitz.com/products/resmed-air10-climateline-air-tube) |
+| ResMed Air10 ClimateLine Air Oxy tube | [S$168](https://wearemedbitz.com/products/resmed-air10-climateline-air-oxy-tube) |
+| ResMed SlimLine tube (unheated) | [S$58](https://wearemedbitz.com/products/resmed-slimline-tube) |
+| ResMed Air11 water tub | [S$105](https://wearemedbitz.com/products/resmed-air11-water-tub-1) |
+| ResMed Air10 / HumidAir water tub | [S$108](https://wearemedbitz.com/products/resmed-humidair-water-tub) |
+| ResMed Air11 hypoallergenic filters, 12 pack | [S$58](https://wearemedbitz.com/products/resmed-air11-hypoallergenic-filters-12pc) |
+| Philips CPAP heated tube | [S$118](https://wearemedbitz.com/products/philips-cpap-heated-tube) |
+| ResMed AirMini HumidX / HumidX Plus | [S$43.20](https://wearemedbitz.com/products/airmini-humidx-humidx-plus) |
+
+Medbitz also sells bundles, such as an Air10 ClimateLine Air tube with 12 hypoallergenic filters for S$108.
+
+## Why the ACE package matters here
+
+The government-subsidised AirSense 10 AutoSet package includes a **ClimateLineAir heated tube** and a **HumidAir cleanable tub** ([ACE annex](/sg/guides/cpap-subsidy-singapore/)). If you qualify for the subsidy you get the heated tube without buying it separately.
+
+---
+
+# CPAP machine prices in Singapore (2026)
+
+Source: https://homehealthzone.com/sg/guides/cpap-machine-price-singapore/
+
+All prices are in Singapore dollars and were read from each retailer's own website on 14 October 2026. Comooz states its prices are nett and include GST. Check the retailer's page before you buy, because prices and promotions change.
+
+## Check the subsidy first
+
+Since April 2026, people aged 16+ with moderate-to-severe sleep apnoea who pass a one-month adherence trial can get a **one-time government subsidy** for the ResMed AirSense 10 AutoSet. See [CPAP subsidy in Singapore](/sg/guides/cpap-subsidy-singapore/). It is the only model on the list, so it changes the maths for anyone eligible.
+
+## Auto-CPAP machines
+
+| Machine | Price | Retailer | Notes |
+| --- | --- | --- | --- |
+| ResMed AirSense 11 AutoSet | S$1,880 | [Comooz](https://comooz.sg/cpap-price-singapore) | Nett, GST included; touchscreen, myAir app |
+| ResMed AirSense 10 AutoSet | S$1,680 | [Comooz](https://comooz.sg/cpap-price-singapore) | Nett, GST included; the subsidised model |
+| ResMed AirSense 10 AutoSet | S$1,800 | [Medbitz](https://wearemedbitz.com/products/resmed-airsense-10-auto-cpap) | |
+| Resvent iBreeze Auto | S$1,400 | [Yes CPAP](https://yescpap.com/products/ibreeze) | Heated humidifier and heated tube included; 4 to 20 cmH2O |
+| Resvent iBreeze Pro Auto | S$1,500 | [Yes CPAP](https://yescpap.com/products/resvent-ibreeze-pro-auto-cpap-w-humidifier-and-heated-tubing) | Adds a breathing algorithm Yes CPAP describes as designed for women |
+
+Comooz says the price differences in Singapore come down to three things: whether the machine is auto-adjusting, whether a mask and humidifier are bundled, and whether setup, fitting and follow-up are charged separately. Its advice is to compare the total of machine, mask and setup, not the headline price.
+
+## Machine and mask bundles
+
+| Bundle | Price | Retailer |
+| --- | --- | --- |
+| AirSense 10 AutoSet + any ResMed mask | S$1,868 nett | [Comooz](https://comooz.sg/cpap-price-singapore) |
+| AirSense 11 AutoSet + any ResMed mask | S$2,068 nett | Comooz |
+| AirSense 11 AutoSet + BMC mask | S$2,230 | [Medbitz](https://wearemedbitz.com/products/resmed-airsense-11-autoset-philips-mask) |
+| AirSense 11 AutoSet + ResMed mask | S$2,280 | [Medbitz](https://wearemedbitz.com/products/resmed-airsense-11-autoset-resmed-mask) |
+| AirSense 11 AutoSet + Philips mask | S$2,300 | [Medbitz](https://wearemedbitz.com/products/resmed-airsense-11-autoset-philips-mask-1) |
+
+Comooz's bundle adds a ResMed mask for S$188, against S$240 for a mask bought on its own.
+
+## Bilevel
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | S$2,800 | [Medbitz](https://wearemedbitz.com/products/resmed-aircurve-11-vauto) |
+
+Bilevel is for patients whose doctor prescribes separate inhale and exhale pressures. It is not covered by the ACE subsidy.
+
+## Renting and trying first
+
+Comooz's published rental and trial terms:
+
+| Option | Cost |
+| --- | --- |
+| AirSense 10, 3-month plan | S$50 a month (S$150 upfront) |
+| AirSense 11, 3-month plan | S$85 a month (S$255 upfront) |
+| AirSense 10, 1 month | S$85, plus S$240 mask and S$360 refundable deposit |
+| AirSense 11, 1 month | S$125, plus S$240 mask and S$360 refundable deposit |
+| 5-night home trial | S$240 mask (yours to keep) + S$360 refundable deposit; S$98 processing fee if you return the machine |
+
+Rent paid in the first three months is offset against the purchase price. Comooz works out that after a 5-night trial, the balance to buy is S$1,268 for the AirSense 10 bundle and S$1,468 for the AirSense 11 bundle. By its own figures, buying is cheaper than renting beyond roughly six months of nightly use.
+
+## What is included
+
+- **Medbitz** lists ResMed machines with a ClimateLineAir heated tube, a filter, the power adaptor, a travel bag and a two-year manufacturer's warranty. It includes a consultation with a Registered Polysomnographic Technologist (RPSGT).
+- **Yes CPAP** lists the iBreeze Auto with heated humidifier, heated tube, SD card, a two-year warranty and a power brick with a Singapore/UK three-pin plug rated 100 to 240 V.
+- **Comooz** says delivery, setup, mask fitting and follow-up are free.
+
+## Before you buy
+
+- **Prescription.** Your pressure settings come from your doctor.
+- **Humidity.** Singapore's air is humid all year. If water collects in your tube, see [CPAP in Singapore's humidity](/sg/guides/cpap-humidity-singapore/).
+- **Running costs.** Masks and parts are recurring costs; see [CPAP masks](/sg/guides/cpap-masks-singapore/) and [CPAP tubes and filters](/sg/guides/cpap-humidity-singapore/).
+- **Bringing one in from abroad.** Personal imports need HSA approval; see [HSA medical device rules](/sg/guides/hsa-medical-device-rules-singapore/).
+
+---
+
+# CPAP masks in Singapore: prices compared (2026)
+
+Source: https://homehealthzone.com/sg/guides/cpap-masks-singapore/
+
+Prices are in Singapore dollars, read from each retailer's site on 14 October 2026. Each retailer's own product page is linked. Some listings were out of stock; those are marked.
+
+## Pick the type first
+
+- **Full-face**: covers nose and mouth. For mouth breathers.
+- **Nasal or cradle**: sits over or under the nose.
+- **Nasal pillows**: small cushions that sit in the nostrils. The lightest option.
+
+Comooz sells any ResMed nasal, pillows or full-face mask for a flat **S$240**, or **S$188** when bought with a machine. That makes it a useful ceiling when comparing.
+
+## Full-face masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit F40 | S$280 | [Medbitz](https://wearemedbitz.com/products/resmed-airfit-f40-full-face-mask) |
+| ResMed AirTouch F20 (memory-foam cushion) | S$300 | [Medbitz](https://wearemedbitz.com/products/resmed-airtouch-f20-full-face-mask) |
+| ResMed AirFit F20 for Her | S$320 | [Medworx](https://www.medworx-intl.com/products/resmed-airfit-f20-full-face-mask-for-her) |
+| BMC F5A+ | S$155 | [Medworx](https://www.medworx-intl.com/products/bmc-n5a-mask-copy) |
+| BMC F6 | S$155 | [Medworx](https://www.medworx-intl.com/products/bmc-f2-nv2-full-mask-copy) |
+
+## Nasal and cradle masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit N30i | S$290 | [Medworx](https://www.medworx-intl.com/products/resmed-airfit-n30i-quiet-nasal-mask-copy) |
+| ResMed AirTouch N30i | S$280 | [Medbitz](https://wearemedbitz.com/products/resmed-airtouch-n30i-cradle-nasal-mask) |
+| Philips DreamWear Under the Nose | S$200 | [Yes CPAP](https://yescpap.com/products/philips-dreamwear-under-the-nose-mask) |
+| Philips DreamWisp | S$200 | [Yes CPAP](https://yescpap.com/products/philips-dreamwisp-cpap-mask) |
+| BMC N6s cradle | S$190 | [Medbitz](https://wearemedbitz.com/products/bmc-ns-cradle-nasal-mask) |
+| BMC N5A+ | S$145 | [Medworx](https://www.medworx-intl.com/products/bmc-f6-full-face-mask-copy) |
+| BMC N5 (fitpack S, M, L) | S$120 | [Medworx](https://www.medworx-intl.com/products/bmc-n5-nasal-mask-fitpack-s-m-l) |
+
+## Nasal pillows
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit P30i | S$250 | [Yes CPAP](https://yescpap.com/products/resmed-p30i-cpap-mask) |
+| ResMed AirFit P30i | S$290 | [Medworx](https://www.medworx-intl.com/products/resmed-airfit-p30i-nasal-pillow-mask) |
+| ResMed AirFit P10 | S$260 | [Medbitz](https://wearemedbitz.com/products/resmed-airfit-p10-nasal-pillow-mask) |
+| Philips DreamWear Silicone Pillows | S$200 | [Yes CPAP](https://yescpap.com/products/philips-dreamwear-silicone-pillows-cpap-mask) |
+| BMC P6s | S$190 | [Medbitz](https://wearemedbitz.com/products/bmc-p6s-nasal-pillow-mask) |
+
+The same P30i is S$250 at Yes CPAP and S$290 at Medworx: a S$40 gap on an identical mask. Compare before you buy.
+
+## Replace the part, not the mask
+
+When a cushion wears out, Singapore retailers sell the parts separately. Medbitz prices:
+
+| Part | Price |
+| --- | --- |
+| AirFit F20 / AirTouch F20 replacement part | [S$98](https://wearemedbitz.com/products/resmed-airfit-airtouch-f20-replacement-part) |
+| AirFit F40 replacement parts | [S$98](https://wearemedbitz.com/products/resmed-airfit-f40-replacement-parts) |
+| AirFit P10 replacement parts | [S$95](https://wearemedbitz.com/products/resmed-p10-nasal-pillow-mask) |
+| AirFit N20 replacement parts | [S$89](https://wearemedbitz.com/products/resmed-airfit-n20-nasal-mask-replacement-parts) |
+| AirFit 30i-series replacement parts | [S$65](https://wearemedbitz.com/products/resmed-airfit-p30i-replacement-parts) |
+| Philips DreamWear pillow, under-the-nose or full-face parts | [S$68](https://wearemedbitz.com/products/philips-dreamwear-nasal-pillow-mask-replacement-parts) |
+| BMC F5 / F5A parts | [S$58.80](https://wearemedbitz.com/products/bmc-f5-f5a-mask-replacement-parts) |
+| BMC P2 / P6 parts | [S$52.80](https://wearemedbitz.com/products/bmc-n5a-n5-mask-replacement-parts-copy) |
+
+A 30i-series replacement part at S$65 is about a quarter of the cost of a new P30i.
+
+## Compatibility
+
+The ResMed AirMini travel machine uses mask-specific setup packs rather than a standard mask connection. Medworx lists an AirMini N30 setup pack at S$310 (out of stock on 14 October 2026).
+
+For machines, see [CPAP machine prices in Singapore](/sg/guides/cpap-machine-price-singapore/). For tubes, filters and water tubs, see [CPAP tubes, tubs and filters in Singapore](/sg/guides/cpap-humidity-singapore/).
+
+---
+
+# CPAP subsidy in Singapore: the 2026 ACE rules
+
+Source: https://homehealthzone.com/sg/guides/cpap-subsidy-singapore/
+
+This guide is written from Singapore government documents, not from hands-on testing. The source is the Agency for Care Effectiveness (ACE) medical technology guidance [Positive airway pressure for moderate-to-severe obstructive sleep apnoea](https://www.ace-hta.gov.sg/healthcare-professionals/ace-technology-guidance/medical-technology-guidance/positive-airway-pressure-for-moderate-to-severe-obstructive-sleep-apnoea/), published 1 April 2026, with its annex and plain-English summary. ACE is the Ministry of Health's health technology assessment agency.
+
+## What changed in April 2026
+
+The Ministry of Health's Medical Technology Advisory Committee recommended positive airway pressure (PAP) for government subsidy for people with moderate-to-severe obstructive sleep apnoea (OSA).
+
+## Who qualifies
+
+ACE sets three conditions. You need all of them:
+
+1. **Age 16 or over, with moderate-to-severe OSA.** ACE uses the apnoea-hypopnoea index (AHI) from a sleep study: moderate is 15 to 30 events an hour, severe is more than 30. Mild OSA (AHI 5 to under 15) is not covered.
+2. **A one-month trial you actually stick to.** You must use APAP or CPAP for at least 4 hours a night on at least 70% of nights during a one-month trial. ACE's plain-English summary puts that at about 21 of 30 nights.
+3. **Specialist review.** You must be assessed and reviewed by a specialist trained in sleep medicine, under the hospital's own clinical privileging rules.
+
+If you meet them, the subsidy is one-time.
+
+## The only subsidised machine
+
+The ACE annex lists one model: the **ResMed AirSense 10 AutoSet**, supplied by **Junnimed Service Pte. Ltd.** and **Easmed Pte Ltd**. The subsidised package includes:
+
+- one AirSense 10 standard filter
+- a ClimateLineAir heated tube
+- a HumidAir cleanable water tub
+- the 90 W power supply and cord
+- the Air10 travel bag
+
+The annex says it will be updated as models are revised. The newer AirSense 11 is not on it.
+
+For comparison, one Singapore retailer listed the AirSense 10 AutoSet at S$1,680 nett on 14 October 2026 (GST included). The ACE documents do not publish the subsidy amount, so ask your hospital what your share would be after means testing.
+
+## What is not covered
+
+- **BiPAP.** The committee left bilevel PAP out of scope. It says bilevel suits a small group, such as people with severe OSA who cannot tolerate CPAP or APAP because they need pressures above 20 cmH2O.
+- **Masks bought later.** The annex covers the machine package. It does not list replacement masks or parts. See [CPAP masks in Singapore](/sg/guides/cpap-masks-singapore/) and [CPAP tubes, tubs and filters in Singapore](/sg/guides/cpap-humidity-singapore/) for retail prices.
+- **Other brands.** Only the listed model attracts the subsidy.
+
+## How to use it
+
+1. Get a sleep study and a diagnosis from a sleep-trained specialist. ACE writes its guidance for Singapore's public hospitals and institutions, so start with a public sleep clinic.
+2. Do the one-month trial. The test is nightly use: at least 4 hours on at least 70% of nights.
+3. Ask the clinic how it orders the subsidised AirSense 10 AutoSet from one of the two listed distributors.
+
+If the remaining bill is still hard to pay, ask the hospital's medical social worker about [MediFund](/sg/guides/medisave-medifund-chas-cpap-oxygen/).
+
+## Why ACE recommended it
+
+ACE says its committee looked at clinical need, effectiveness, cost-effectiveness and the estimated annual cost. It found PAP gave clinically and statistically significant improvements in OSA severity and daytime sleepiness, measured on the Epworth Sleepiness Scale. The committee also considered 29 testimonials from patients and carers. Some said the device improved their blood pressure and made them less irritable during the day.
+
+If you are choosing a machine privately instead, compare prices in [CPAP machine prices in Singapore](/sg/guides/cpap-machine-price-singapore/).
+
+---
+
+# Flying from Singapore with CPAP or oxygen
+
+Source: https://homehealthzone.com/sg/guides/flying-with-cpap-oxygen-singapore/
+
+This guide is written from [Singapore Airlines' medical information page](https://www.singaporeair.com/en_UK/sg/travel-info/special-assistance/medical-information/) and the Health Sciences Authority's personal-import rules, read 14 October 2026. Other airlines flying from Changi set their own rules; check with them directly.
+
+## Singapore Airlines: what you can use on board
+
+SIA requires approval for electrical medical equipment used in flight, **except** for:
+
+- CPAP machines (all models)
+- FAA-approved portable oxygen concentrators (POC)
+- portable hearing aids, heart pacemakers and nebulisers
+
+You do not need approval to use these. You do need to operate them yourself; cabin crew will not help, and may ask you to switch off a device that causes interference.
+
+## Batteries: the 150% rule
+
+SIA says it **may not provide in-seat power** on every flight. Your CPAP or POC must run on a gel or dry battery for **at least 150% of the flight time**:
+
+| Flight time | Battery needed |
+| --- | --- |
+| 2 hours | 3 hours |
+| 6 hours | 9 hours |
+| 10 hours | 15 hours |
+| 13 hours | 19.5 hours |
+
+Lithium batteries also fall under SIA's separate lithium-battery baggage rules. For a POC, check the battery hours for your flow setting: Philips, for example, rates the SimplyGo Mini at up to 9 hours on a new battery, and says battery time falls with age and use.
+
+## Where the device goes
+
+- **POC:** stowed under the seat in front of you while in use. SIA makes an exception for the AirSep Lifestyle and Freestyle, which may sit on the seat or be held.
+- **CPAP:** must fit under the seat in front to be used in flight. If it doesn't fit, you can carry it on board but it goes in the overhead bin, unused.
+- **Seats:** bulkhead and emergency exit row seats are not available to you.
+
+## Before you fly
+
+1. Contact SIA **at least 48 hours** before the flight to confirm flight duration and arrangements.
+2. Carry a **medical certificate** from your doctor stating you are fit to travel.
+3. Check in **2 to 3 hours** before departure.
+
+## If you need oxygen from the airline
+
+SIA's **Supplementary Oxygen Kit** can be provided, subject to the rules of the departure and arrival countries.
+
+- Ask at least **5 working days** before the flight, with a medical certificate.
+- You may need one or more extra seats for the bottle, and charges apply.
+- Depending on flow and flight time, you may need more than one bottle.
+- You may **not** bring or use your own oxygen bottle, or your own mask with the kit.
+
+Where your fitness to fly is in doubt, SIA uses its Medical Information Form (MEDIF) for medical clearance.
+
+## Arriving in Singapore with a device
+
+The Health Sciences Authority says [you need its approval](https://www.hsa.gov.sg/travelling-with-medication-and-medical-devices/personal-import/) before bringing a medical device into Singapore for personal use. Apply at least 10 working days before you arrive. Staying inside the airport transit zones needs no approval. Full details: [HSA medical device rules](/sg/guides/hsa-medical-device-rules-singapore/).
+
+## Power at your destination
+
+Singapore uses 230 V, 50 Hz and UK-style Type G sockets ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/guidance/advice-for-you/when-travelling/travel-adaptor-for-singapore/)). A travel adaptor changes the plug shape, not the voltage. Check whether your power supply is rated for 230 V. Yes CPAP, for example, lists its iBreeze power brick as 100 to 240 V with a Singapore/UK plug. Check your own power supply's label.
+
+---
+
+# Home oxygen concentrators in Singapore (2026)
+
+Source: https://homehealthzone.com/sg/guides/home-oxygen-concentrator-singapore/
+
+Prices and specifications are from each retailer's product page, read 14 October 2026. Specifications are as the retailer lists them; we have not tested these machines.
+
+## Prices and specifications
+
+| Model | Price | Flow | Oxygen concentration | Noise | Weight | Rated input |
+| --- | --- | --- | --- | --- | --- | --- |
+| Yuwell 8F-5A | S$699 ([Bion](https://bion.sg/products/yuwell-oxygen-concentrator-8f-5a)) | 0.5 to 5 L/min | 95.5% to 87% | 54 dB(A) or less at 5 L/min | 16.5 kg | 350 VA |
+| Yuwell 7F-5 | S$1,635 ([Fu Kang Healthcare](https://rehabshop.com.sg/7f-5-oxygen-concentrator)) | up to 5 L/min | 90% or more | 60 dB(A) or less | 28 kg | not listed |
+| Yuwell 9F-5AW (with nebuliser) | S$2,234.50 ([Fu Kang Healthcare](https://rehabshop.com.sg/7f-5-oxygen-concentrator)) | 5 L/min | | | | |
+| Yuwell 7F-10 | S$2,398 ([Fu Kang Healthcare](https://rehabshop.com.sg/yuwell-7f-10-oxygen-concentrator)) | 1 to 10 L/min | 95.5% to 87% | 60 dB(A) or less | 37.5 kg | 850 VA |
+
+Other suppliers sell on enquiry only. E-xclusif lists the Scaleo S5 stationary concentrator and the Inogen Rove 6 portable for sale or rental, with prices on request. Medworx lists an Olive 5L concentrator without a price.
+
+**5 or 10 L/min?** Your prescription decides. A 10 L/min machine is for patients prescribed higher flows. In the table above, the 5 L/min models are lighter, and the 8F-5A's rated input is less than half the 7F-10's.
+
+## Running costs at Singapore's tariff
+
+SP Group's [regulated household tariff](https://www.spgroup.com.sg/our-services/utilities/tariff-information) for 1 October to 31 December 2026 is **31.16 cents/kWh including GST** (28.59 cents before GST).
+
+A rating in volt-amperes (VA) is the maximum the machine draws, and the real power used is usually lower, so these are ceilings:
+
+| Rated input | 24 hours a day | 30 days, 24 h | 30 days, 8 h a night |
+| --- | --- | --- | --- |
+| 350 VA (Yuwell 8F-5A) | up to S$2.62 | up to S$78.52 | up to S$26.17 |
+| 850 VA (Yuwell 7F-10) | up to S$6.36 | up to S$190.70 | up to S$63.57 |
+
+SP Group sets the tariff quarterly, so recalculate when the next quarter's rate is published.
+
+## Power and plugs
+
+Singapore runs on **230 V, 50 Hz** with **Type G** three-pin sockets, the same as the UK ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/guidance/advice-for-you/when-travelling/travel-adaptor-for-singapore/)). Fu Kang Healthcare lists the Yuwell 7F-5's supply as 220 V ±22 V, 50 Hz ±1 Hz, and says it has a power-cut warning function. Check the plate on any machine bought overseas before plugging it in.
+
+## Paying less
+
+- **Seniors 60+:** AIC's Seniors' Mobility and Enabling Fund pays up to 90%, capped per device. You must be approved before buying. See [oxygen concentrator subsidies](/sg/guides/oxygen-concentrator-subsidy-singapore/).
+- **Serious illness, under a year's prognosis:** AIC's Equipment Rental Scheme pays up to 80% of weekly rental.
+- **Under 60 with a disability:** SG Enable's Assistive Technology Fund.
+
+## Safety and paperwork
+
+- Bion states an oxygen concentrator is a medical device that needs a doctor's prescription.
+- Medical devices supplied in Singapore are regulated by the Health Sciences Authority. Bringing one in from abroad needs HSA approval; see [HSA medical device rules](/sg/guides/hsa-medical-device-rules-singapore/).
+- For a machine you can carry and fly with, see [portable oxygen concentrators in Singapore](/sg/guides/portable-oxygen-concentrator-singapore/).
+
+---
+
+# HSA rules for CPAP and oxygen devices in Singapore
+
+Source: https://homehealthzone.com/sg/guides/hsa-medical-device-rules-singapore/
+
+This guide is written from HSA's pages on [personal import of medical devices](https://www.hsa.gov.sg/travelling-with-medication-and-medical-devices/personal-import/) (updated 30 April 2026) and [medical device registration](https://www.hsa.gov.sg/medical-devices/registration-of-medical-devices/register-your-device/overview/), read 14 October 2026. It is not legal advice.
+
+## Bringing a device in for personal use
+
+**You need HSA approval before you travel.** HSA's rules:
+
+| Rule | Detail |
+| --- | --- |
+| When to apply | At least **10 working days** before you arrive |
+| How | HSA's online form at go.gov.sg/hsamdpersonalimport2 |
+| Prescription devices | A letter from your doctor confirming and justifying the need |
+| Quantity | Up to **3 months' supply** per approval; more is rejected |
+| Repeat shipments | Several shipments of the same device within 3 months are not allowed |
+| On arrival | No declaration needed, but carry the documents and approval email for customs checks |
+| Leaving | Take the device with you when you leave Singapore |
+| Resale | Not allowed, except to the family members the device was for |
+
+**Exceptions:**
+
+- Devices already in use when you arrive, such as implants or devices already in contact with your skin or eyes.
+- Transit passengers who stay inside the transit zones.
+
+HSA does not allow personal import of devices meant to be used by a qualified practitioner, radiation-emitting devices for trained staff, or HIV test kits.
+
+### What this means for CPAP and oxygen users
+
+- **Anyone flying in with a CPAP or POC** should apply before travelling, with a doctor's letter. HSA's page does not distinguish visitors from residents, and it reviews each application case by case.
+- **Buying overseas** to save money is a personal import too. HSA may refuse it if the import looks commercial.
+- **Selling a used machine** that came in this way is not allowed.
+
+## Devices sold in Singapore
+
+Commercial suppliers face a different regime. HSA classes medical devices from **Class A** (lowest risk) to **Class D**.
+
+- **Class A** devices are exempt from product registration, but the importer or manufacturer must notify HSA through its SHARE system.
+- **Class B, C and D** devices must be registered with HSA. HSA offers faster evaluation routes for devices already approved by reference regulators overseas, on the same labelled use.
+
+HSA's registration pages do not give a class for CPAP machines or concentrators, so ask the retailer whether the model is registered with HSA.
+
+## The ACE subsidy and approved distributors
+
+The government's CPAP subsidy names its supply route: the ResMed AirSense 10 AutoSet through Junnimed Service Pte. Ltd. or Easmed Pte Ltd. See [CPAP subsidy in Singapore](/sg/guides/cpap-subsidy-singapore/).
+
+## Related
+
+- [Flying from Singapore with CPAP or oxygen](/sg/guides/flying-with-cpap-oxygen-singapore/)
+- [CPAP machine prices in Singapore](/sg/guides/cpap-machine-price-singapore/)
+
+---
+
+# MediSave, MediFund and CHAS for CPAP and oxygen
+
+Source: https://homehealthzone.com/sg/guides/medisave-medifund-chas-cpap-oxygen/
+
+This guide is written from Ministry of Health and CHAS documents, read on 14 October 2026. It explains which scheme pays for what. It does not replace advice from a hospital's financial counsellor or medical social worker.
+
+## The short version
+
+| Need | Scheme to ask about |
+| --- | --- |
+| A CPAP machine, if you have moderate-to-severe sleep apnoea | [ACE one-time CPAP subsidy](/sg/guides/cpap-subsidy-singapore/) |
+| Outpatient COPD or asthma care at a GP or polyclinic | MediSave500/700, CHAS, Healthier SG |
+| Buying an oxygen concentrator, age 60+ | [AIC Seniors' Mobility and Enabling Fund](/sg/guides/oxygen-concentrator-subsidy-singapore/) |
+| Renting a concentrator for someone with under a year to live | [AIC Equipment Rental Scheme](/sg/guides/oxygen-concentrator-subsidy-singapore/) |
+| A bill you still cannot pay after all of the above | MediFund |
+
+## MediSave: treatment, not equipment
+
+MOH's [MediSave outpatient page](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medisave/outpatient-care/) lists what MediSave can pay for outside hospital. The items relevant to breathing patients are:
+
+- **MediSave500/700.** Up to $500 a year per patient, or $700 for complex chronic conditions, for outpatient treatment of the 23 conditions in the Chronic Disease Management Programme (CDMP). The list includes **asthma** and **chronic obstructive pulmonary disease (COPD)**. Obstructive sleep apnoea is not on it.
+- **Flexi-MediSave.** $400 a year for outpatient treatment for patients aged 60 and above. A patient can use a spouse's MediSave if both are 60 or older. It can be combined with MediSave500/700.
+- **Outpatient hyperbaric oxygen therapy.** Up to $80 per session. This is a clinic treatment, not home oxygen.
+
+None of the listed items is the purchase of a CPAP, mask or oxygen concentrator. That gap is why the device-specific schemes below matter.
+
+## CHAS: cheaper GP visits for chronic conditions
+
+The [Community Health Assist Scheme](https://www.chas.sg/Using-CHAS/Whats-Covered/Chronic-Conditions) subsidises visits to participating GP clinics for the same 23 chronic conditions, including asthma. All Singapore Citizens are eligible. The card tier depends on household monthly income per person:
+
+| CHAS card | Household monthly income per person | Home annual value (no income) |
+| --- | --- | --- |
+| Blue | $1,500 and below | $21,000 and below |
+| Orange | $1,501 to $2,300 | $21,001 to $31,000 |
+| Green | above $2,300 | above $31,000 |
+
+CHAS says CDMP patients enrolled with a Healthier SG GP can now use MediSave to pay their whole chronic-care bill there, up to the MediSave500/700 limit, without the 15% cash co-payment. CHAS also offers a Healthier SG Chronic Tier for common chronic medicines at prices comparable to polyclinics. Only one tier can be used per visit.
+
+CHAS pays towards the GP visit and medicines. It does not buy equipment.
+
+## MediFund: the safety net
+
+[MediFund](https://www.moh.gov.sg/managing-expenses/schemes-and-subsidies/medifund/) is a government endowment fund for Singaporeans who still cannot pay their bill after subsidies, insurance and MediSave. MOH says:
+
+- You must have received, or need, treatment at a MediFund-approved institution: a public healthcare institution, community hospital or approved long-term care facility.
+- Each institution has its own MediFund Committee, which decides whether to help and how much.
+- The committee looks at your family's financial, health and social circumstances and the size of the bill.
+- You apply through the **medical social workers** at that institution. They will also check other ways to pay.
+
+MediFund Silver and MediFund Junior are parts of MediFund aimed at needy seniors and children.
+
+## A worked example
+
+A 68-year-old CHAS Blue cardholder with COPD is prescribed a home concentrator at a public hospital.
+
+1. Her GP visits for COPD can use CHAS and MediSave500/700.
+2. For the concentrator she can apply to AIC under the Seniors' Mobility and Enabling Fund, which MOH has named as covering oxygen concentrators. She must be approved **before** buying, because AIC does not reimburse purchases made in advance.
+3. If her co-payment is still unaffordable, the hospital's medical social worker can assess her for MediFund.
+
+For CPAP users, start with [the ACE subsidy](/sg/guides/cpap-subsidy-singapore/) and compare retail prices in [CPAP machine prices in Singapore](/sg/guides/cpap-machine-price-singapore/).
+
+---
+
+# Oxygen concentrator subsidies in Singapore (SMF, ERS)
+
+Source: https://homehealthzone.com/sg/guides/oxygen-concentrator-subsidy-singapore/
+
+This guide is written from Agency for Integrated Care (AIC) and Ministry of Health pages read on 14 October 2026. AIC is the Singapore agency that runs these subsidies.
+
+## Which scheme fits
+
+| Situation | Scheme | Run by |
+| --- | --- | --- |
+| Aged 60+, buying a concentrator | Seniors' Mobility and Enabling Fund (SMF) | AIC |
+| Person with disabilities who first used ATF before 60 | Assistive Technology Fund (ATF) | SG Enable |
+| Serious illness, prognosis under a year, needs a concentrator at home now | Equipment Rental Scheme (ERS) | AIC, through the care team |
+
+MOH's announcement of changes from 14 February 2022 explains the split. People who tapped the ATF before 60 stay on the ATF for life, and the ATF can now pay for items once covered only by the SMF, naming **oxygen concentrators**, suction pumps and spectacles. Everyone else is supported by the SMF from age 60.
+
+## Seniors' Mobility and Enabling Fund
+
+From [AIC's SMF page](https://www.aic.sg/Financial-Assistance/Seniors-Mobility-and-Enabling-Fund---Mobility-and-Assistive-Devices):
+
+**Who qualifies**
+
+- Singapore Citizen or Permanent Resident, aged 60 or older.
+- Not living in a nursing home or sheltered home.
+- Household monthly income per person of **$4,800 or less**. If the household has no income, the home's annual value must be under **$21,000**. AIC says 2026 subsidies use 2025 annual values.
+
+**What it pays**
+
+- Up to **90%** of the device cost, or the device's subsidy cap, whichever is lower.
+- Your exact share depends on means testing, so there is always a co-payment.
+- Worn-out devices can be replaced once a set "blackout period" has passed.
+
+**How to apply**
+
+1. Ask your doctor for a prescription. AIC's SMF page also links a Certification of Medical Need form for the doctor to fill in. Singapore retailers such as Bion also say a concentrator needs a doctor's prescription.
+2. Apply online with Singpass. Without Singpass, use AIC's alternative online form, or email subsidies.application@aic.sg or visit an AIC Link for a paper form. AIC warns paper forms take longer.
+3. AIC may ask for a further assessment, at a centre or at home. The assessment fee is $10 to $180 depending on your subsidy tier.
+4. Wait for the letter. AIC takes up to 15 working days once the application is complete.
+5. **Only then buy the device.** AIC will not reimburse a purchase made before approval.
+
+AIC also runs a separate SMF stream for home healthcare items such as nasal tubing, catheters and milk feeds.
+
+## Equipment Rental Scheme
+
+From [AIC's ERS page](https://www.aic.sg/financial-assistance/equipment-rental-scheme):
+
+- For patients with a serious illness and a prognosis of **less than a year**, cared for at home.
+- An **oxygen concentrator** is on the list of rental equipment, with weekly rental fees.
+- ERS pays up to **80%** of the rental cost, means-tested.
+- The care team applies and orders from AIC's approved suppliers. AIC lists supplier helplines as open 24/7 for oxygen, compared with 9am to 9pm for other equipment.
+
+ERS suits short, urgent needs: it avoids buying a machine that may only be used for weeks.
+
+## What a concentrator costs before subsidy
+
+Singapore retail prices read on 14 October 2026:
+
+| Model | Flow | Price |
+| --- | --- | --- |
+| Yuwell 8F-5A | 0.5 to 5 L/min | S$699 ([Bion](https://bion.sg/products/yuwell-oxygen-concentrator-8f-5a)) |
+| Yuwell 7F-5 | up to 5 L/min | S$1,635 ([Fu Kang Healthcare](https://rehabshop.com.sg/7f-5-oxygen-concentrator)) |
+| Yuwell 7F-10 | 1 to 10 L/min | S$2,398 ([Fu Kang Healthcare](https://rehabshop.com.sg/yuwell-7f-10-oxygen-concentrator)) |
+
+A 90% subsidy is capped per device, so on a pricier model your share may be more than 10%. Ask AIC for the cap before you choose. More on models in [Home oxygen concentrators in Singapore](/sg/guides/home-oxygen-concentrator-singapore/).
+
+## Contacts
+
+- AIC: 1800 650 6060, enquiries@aic.sg
+- SG Enable (ATF): 1800 8585 885, ATF@sgenable.sg
+
+If you still face a bill you cannot pay, see [MediSave, MediFund and CHAS](/sg/guides/medisave-medifund-chas-cpap-oxygen/).
+
+---
+
+# Portable oxygen concentrators in Singapore
+
+Source: https://homehealthzone.com/sg/guides/portable-oxygen-concentrator-singapore/
+
+Supplier information was read from each website on 14 October 2026. We have not tested these devices.
+
+## Who sells what
+
+| Model | Supplier | Price |
+| --- | --- | --- |
+| O2genes portable concentrator (1.98 kg, pulse-dose, 5 settings) | [O2genes](https://o2genes.com/portable-oxygen-concentrator) | S$3,990 |
+| Inogen Rove 6 | [E-xclusif](https://www.e-xclusif.com/Products/Oxygen-Concentrators) (sale or rental) | On request, (+65) 6738 3525 |
+| Inogen Rove 6 | [Medworx](https://www.medworx-intl.com/products/inogen-rove-6-portable-oxygen-concentrator) | Not shown |
+| Scaleo P5 | E-xclusif | On request |
+| Philips SimplyGo Mini | [Philips Singapore](https://www.philips.com.sg/c-e/breathe-easier/src-dtc-oxygen.html) | Brochure on request |
+
+O2genes does not name the manufacturer of its unit on the product page, so ask before buying, especially if you plan to fly with it.
+
+Philips Singapore says the SimplyGo Mini can be used 24/7 at home or away when used as its manual describes, that its battery lasts up to 9 hours (on a new, fully charged battery, falling with age and use) and that it meets FAA requirements for air travel.
+
+### Accessories
+
+Medworx lists SimplyGo accessories in SGD: a mobile cart for S$75, an AC power supply for S$320 and an extra battery for S$650 (the last two out of stock on 14 October 2026). Spare batteries are a real cost for long-haul flights.
+
+## Pulse-dose versus continuous flow
+
+O2genes describes its unit as pulse-dose: it releases a burst of oxygen each time you breathe in. A home concentrator such as the [Yuwell models sold in Singapore](/sg/guides/home-oxygen-concentrator-singapore/) delivers a continuous flow in litres per minute. Pulse settings are not litres per minute, so a portable is only a substitute if your doctor prescribes it for you.
+
+## Flying with it
+
+Singapore Airlines accepts only **FAA-approved** portable concentrators. Its rules:
+
+- No approval needed to use an FAA-approved POC on board.
+- Stowed under the seat in front while in use.
+- Batteries for **150% of flight time**, because in-seat power is not guaranteed.
+- Contact SIA at least 48 hours ahead; bring a doctor's fitness-to-travel certificate.
+- No bulkhead or exit-row seats.
+
+Full rules: [flying from Singapore with CPAP or oxygen](/sg/guides/flying-with-cpap-oxygen-singapore/).
+
+**Battery planning, worked example.** For a 13-hour flight, SIA's rule means 19.5 hours of battery. At Philips' rated maximum of 9 hours per new SimplyGo Mini battery, that is three batteries, and actual run time at your setting may be shorter.
+
+## Bringing one into Singapore
+
+A POC bought abroad and brought in for personal use needs [HSA approval](/sg/guides/hsa-medical-device-rules-singapore/) before you arrive.
+
+## Paying for it
+
+AIC's subsidy schemes are written around home devices and rental. [Oxygen concentrator subsidies](/sg/guides/oxygen-concentrator-subsidy-singapore/) explains the Seniors' Mobility and Enabling Fund and the Equipment Rental Scheme; ask AIC whether a portable model qualifies for your case.
+
+---
+
 # APAP algorithms compared — ResMed AutoSet, Philips Auto, BMC Auto, DreamStation, AirSense
 
 Source: https://homehealthzone.com/clinical/apap-algorithms-compared/

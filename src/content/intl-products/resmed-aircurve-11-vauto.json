@@ -1,0 +1,24 @@
+{
+  "slug": "resmed-aircurve-11-vauto",
+  "source_url": "https://wearemedbitz.com/products/resmed-aircurve-11-vauto",
+  "product_name": "ResMed AirCurve 11 VAuto",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG"
+  ],
+  "device_type": "bipap",
+  "prices": {
+    "SG": {
+      "amount": 2800,
+      "currency": "SGD",
+      "source_url": "https://wearemedbitz.com/products/resmed-aircurve-11-vauto",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "cpap-machine-price-singapore"
+  },
+  "images": []
+}

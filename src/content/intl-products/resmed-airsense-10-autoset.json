@@ -1,0 +1,24 @@
+{
+  "slug": "resmed-airsense-10-autoset",
+  "source_url": "https://comooz.sg/cpap-price-singapore",
+  "product_name": "ResMed AirSense 10 AutoSet",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG"
+  ],
+  "device_type": "cpap",
+  "prices": {
+    "SG": {
+      "amount": 1680,
+      "currency": "SGD",
+      "source_url": "https://comooz.sg/cpap-price-singapore",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "cpap-subsidy-singapore"
+  },
+  "images": []
+}

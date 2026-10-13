@@ -1,0 +1,24 @@
+{
+  "slug": "bmc-n6s",
+  "source_url": "https://wearemedbitz.com/products/bmc-ns-cradle-nasal-mask",
+  "product_name": "BMC N6s nasal cradle mask",
+  "brand": "BMC",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "SG": {
+      "amount": 190,
+      "currency": "SGD",
+      "source_url": "https://wearemedbitz.com/products/bmc-ns-cradle-nasal-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "cpap-masks-singapore"
+  },
+  "images": []
+}

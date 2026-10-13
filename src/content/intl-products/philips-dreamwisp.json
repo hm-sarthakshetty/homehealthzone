@@ -1,0 +1,24 @@
+{
+  "slug": "philips-dreamwisp",
+  "source_url": "https://yescpap.com/products/philips-dreamwisp-cpap-mask",
+  "product_name": "Philips DreamWisp",
+  "brand": "Philips",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "SG": {
+      "amount": 200,
+      "currency": "SGD",
+      "source_url": "https://yescpap.com/products/philips-dreamwisp-cpap-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "cpap-masks-singapore"
+  },
+  "images": []
+}

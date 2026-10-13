@@ -1,0 +1,24 @@
+{
+  "slug": "resmed-airtouch-n30i",
+  "source_url": "https://wearemedbitz.com/products/resmed-airtouch-n30i-cradle-nasal-mask",
+  "product_name": "ResMed AirTouch N30i",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "SG": {
+      "amount": 280,
+      "currency": "SGD",
+      "source_url": "https://wearemedbitz.com/products/resmed-airtouch-n30i-cradle-nasal-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "cpap-masks-singapore"
+  },
+  "images": []
+}

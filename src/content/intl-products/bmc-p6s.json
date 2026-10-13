@@ -1,0 +1,24 @@
+{
+  "slug": "bmc-p6s",
+  "source_url": "https://wearemedbitz.com/products/bmc-p6s-nasal-pillow-mask",
+  "product_name": "BMC P6s nasal pillow mask",
+  "brand": "BMC",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "SG": {
+      "amount": 190,
+      "currency": "SGD",
+      "source_url": "https://wearemedbitz.com/products/bmc-p6s-nasal-pillow-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "cpap-masks-singapore"
+  },
+  "images": []
+}

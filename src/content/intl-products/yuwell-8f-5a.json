@@ -1,0 +1,28 @@
+{
+  "slug": "yuwell-8f-5a",
+  "source_url": "https://bion.sg/products/yuwell-oxygen-concentrator-8f-5a",
+  "product_name": "Yuwell 8F-5A 5 LPM",
+  "brand": "Yuwell",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "SG"
+  ],
+  "device_type": "oxygen-concentrator",
+  "prices": {
+    "SG": {
+      "amount": 699,
+      "currency": "SGD",
+      "source_url": "https://bion.sg/products/yuwell-oxygen-concentrator-8f-5a",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "sg": "home-oxygen-concentrator-singapore"
+  },
+  "images": [],
+  "normalized_specs": {
+    "weight_kg": 16.5,
+    "max_flow_lpm": 5
+  }
+}
