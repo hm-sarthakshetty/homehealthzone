@@ -1,0 +1,24 @@
+{
+  "slug": "philips-dreamwear-silicone-pillows",
+  "source_url": "https://cpap.com.au/products/dreamwear-silicone-pillow-mask",
+  "product_name": "Philips DreamWear Silicone Pillows",
+  "brand": "Philips",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "AU": {
+      "amount": 179,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/dreamwear-silicone-pillow-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "cpap-masks-australia"
+  },
+  "images": []
+}

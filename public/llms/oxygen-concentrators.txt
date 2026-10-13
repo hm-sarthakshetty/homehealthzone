@@ -22214,6 +22214,597 @@ AIC's subsidy schemes are written around home devices and rental. [Oxygen concen
 
 ---
 
+# Australia: oxygen concentrators and CPAP
+
+Source: https://homehealthzone.com/au/
+
+HHZ for Australia: state equipment schemes, Medicare, TGA rules, and devices sold in Australia with AUD prices from named retailers.
+
+Australia guides:
+
+- [CPAP machine prices in Australia (2026)](https://homehealthzone.com/au/guides/cpap-machine-price-australia/)
+- [CPAP masks in Australia: prices compared (2026)](https://homehealthzone.com/au/guides/cpap-masks-australia/)
+- [EnableNSW home oxygen and CPAP: who qualifies](https://homehealthzone.com/au/guides/enablensw-home-respiratory-program/)
+- [Flying with CPAP or oxygen from Australia](https://homehealthzone.com/au/guides/flying-with-cpap-oxygen-australia/)
+- [GST-free CPAP and oxygen equipment in Australia](https://homehealthzone.com/au/guides/gst-free-cpap-oxygen-australia/)
+- [Home oxygen concentrators in Australia (2026)](https://homehealthzone.com/au/guides/home-oxygen-concentrator-australia/)
+- [Home oxygen funding in Victoria and Queensland](https://homehealthzone.com/au/guides/home-oxygen-funding-victoria-queensland/)
+- [Life support registration for CPAP and oxygen (AU)](https://homehealthzone.com/au/guides/life-support-electricity-australia/)
+- [Medicare, sleep studies and CPAP costs in Australia](https://homehealthzone.com/au/guides/medicare-sleep-study-cpap-australia/)
+- [Portable oxygen concentrators in Australia (2026)](https://homehealthzone.com/au/guides/portable-oxygen-concentrator-australia/)
+- [TGA rules for CPAP and oxygen devices in Australia](https://homehealthzone.com/au/guides/tga-artg-cpap-oxygen-australia/)
+
+---
+
+# CPAP machine prices in Australia (2026)
+
+Source: https://homehealthzone.com/au/guides/cpap-machine-price-australia/
+
+All prices are in Australian dollars, read from each retailer's site on 14 October 2026. cpap.com.au shows "Tax included" on its machine pages. CPAP machines are listed in Schedule 3 of the GST Act, so they can be sold GST-free; see [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/).
+
+## Auto-CPAP machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 AutoSet (4G) | A$1,495 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-11-autoset-device-4g) |
+| ResMed AirSense 11 AutoSet | $1,689 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-autoset) |
+| ResMed AirSense 11 AutoSet bundle | $1,699 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-autoset-bundle-1) |
+| ResMed AirSense 10 AutoSet (4G) | A$1,295 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-10-autoset) |
+| ResMed AirSense 10 AutoSet 4G bundle | $1,449 | [ResMed shop](https://shop.resmed.com.au/products/resmed-airsense-10-4g-mask-bundle) |
+| Fisher & Paykel SleepStyle Auto | A$1,395 | [cpap.com.au](https://cpap.com.au/products/fp-sleepstyle-auto-device) |
+| Yuwell Breathcare III YH-680B | A$749 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-breathcare-iii-yh-680b-wifi-cpap-white) |
+
+The same AirSense 11 AutoSet was **$194 cheaper** at cpap.com.au than on ResMed's own shop.
+
+## Fixed-pressure machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 Elite (4G) | A$1,295 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-11-elite-device-4g) |
+| ResMed AirSense 11 Elite | $1,549 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-elite) |
+| ResMed AirSense 10 Elite (4G) | A$995 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense10-elite) |
+
+An Elite runs at one fixed pressure. Only buy one if your clinician has given you a fixed pressure.
+
+## Travel machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirMini (N30, P10 or N20 kit) | A$1,195 | [cpap.com.au](https://cpap.com.au/products/resmed-airmini-n30-starter-kit) |
+| ResMed AirMini + mask bundle | $1,249 | [ResMed shop](https://shop.resmed.com.au/products/airmini-mask-bundle) |
+| Yuwell Pocket S travel package | $849 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-pocket-s-travel-cpap-package) |
+
+The AirMini uses mask-specific setup packs; check the kit matches your mask. For flying, see [flying with CPAP or oxygen from Australia](/au/guides/flying-with-cpap-oxygen-australia/).
+
+## Bilevel and ASV
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | A$1,995 | [ResMed shop](https://shop.resmed.com.au/products/aircurve-11-vauto) |
+| ResMed AirCurve 11 ASV | $2,899 | [cpap.com.au](https://cpap.com.au/products/resmed-aircurve-11-asv) |
+| ResMed AirCurve 11 ASV | $3,099 | [ResMed shop](https://shop.resmed.com.au/products/aircurve-11-asv) |
+
+These need a specialist prescription for bilevel or adaptive servo-ventilation.
+
+## Paying less
+
+- **State programs.** NSW's [EnableNSW](/au/guides/enablensw-home-respiratory-program/) supplies CPAP for a $100 annual co-payment to pensioners and lower earners.
+- **Private health extras.** ResMed Australia says extras cover may rebate part of the cost; check with your fund. See [Medicare, sleep studies and CPAP](/au/guides/medicare-sleep-study-cpap-australia/).
+- **Trial first.** ResMed's shop lists an AirSense 11 AutoSet trial with up to two masks.
+
+## Running accessories
+
+cpap.com.au prices: ResMed ClimateLine heated tube for AirSense 11, $75; AirSense 11 filters, $24 for 12 or $99 for 50; AirSense 11 DC/DC converter, $189; 65 W power supply, $80. Masks are in [CPAP masks in Australia](/au/guides/cpap-masks-australia/).
+
+---
+
+# EnableNSW home oxygen and CPAP: who qualifies
+
+Source: https://homehealthzone.com/au/guides/enablensw-home-respiratory-program/
+
+This guide is written from EnableNSW's [Home Respiratory Program fact sheet](https://www.enable.health.nsw.gov.au/about/publications/fact-sheets/home-respiratory-program) and its [eligibility and financial criteria](https://enable.health.nsw.gov.au/for_individuals/applying-to-EnableNSW/eligibility-and-financial-criteria) page. EnableNSW's site blocks scripted access, so we read archived 2026 copies of both pages; check the live pages before applying.
+
+## What the program supplies
+
+The Home Respiratory Program (HRP) provides:
+
+- home oxygen equipment, typically an oxygen concentrator
+- continuous positive airway pressure (CPAP) and other respiratory support devices
+- ventilators
+- some respiratory consumables
+
+Each product has its own clinical criteria, and a prescriber applies on your behalf.
+
+**Priority and waiting.** EnableNSW funds the primary oxygen equipment used at home first. Waiting periods vary for CPAP, respiratory support devices, ventilators and consumables. Equipment is bought and supplied "as funding becomes available".
+
+## Who is eligible
+
+You must:
+
+- live in NSW or on Lord Howe Island, or be an asylum seeker, refugee or humanitarian visa holder living there
+- be enrolled with Medicare
+- not be receiving, or eligible for, the equipment through insurance or another government scheme, such as the NDIS
+
+## The co-payment
+
+EnableNSW charges a co-payment each financial year you receive equipment, consumable re-orders or repairs.
+
+| Band | Who | Co-payment |
+| --- | --- | --- |
+| 1 | Adults on a full pension; children under 16 | $100 a financial year |
+| 2 | Taxable income up to $42,000 (single) or $70,000 (couple), plus $2,100 per dependant | $100 a financial year |
+| 3 | Taxable income above those limits | 20% of equipment costing $800 or more |
+
+Band 3 consumers are **not eligible** for equipment that costs under $800. EnableNSW says its income bands come from the former Program for Appliances for Disabled People, adjusted for inflation since December 1998.
+
+Short-term oxygen therapy has **no co-payment**.
+
+### What 20% means in dollars
+
+For a Band 3 adult, 20% of an oxygen concentrator listed at $999 (the Philips EverFlo at Air Liquide's online store on 14 October 2026) would be about $200, and 20% of a $1,495 auto-CPAP would be $299. EnableNSW's own equipment costs may differ from retail.
+
+## Your responsibilities
+
+To keep HRP equipment you must:
+
+- have stopped smoking for at least **four weeks**
+- follow the supplier's safety precautions
+- use the therapy as prescribed, including the hours of use
+- buy some products and accessories yourself, **such as CPAP masks**
+- return the device when you no longer need it or are not using it as prescribed
+
+For mask prices, see [CPAP masks in Australia](/au/guides/cpap-masks-australia/).
+
+## How an application runs
+
+1. **Application.** Your prescriber sends EnableNSW the application.
+2. **Review.** EnableNSW checks it against the program guidelines.
+3. **Decision.** You and your prescriber are told in writing whether it is approved or declined.
+4. **Purchase.** As funding becomes available, the device is bought and supplied.
+
+## Electricity help
+
+EnableNSW notes HRP clients may also qualify for the NSW Government's Life Support Rebate, claimed through the electricity retailer. See [life support electricity registration and rebates](/au/guides/life-support-electricity-australia/).
+
+Other states run their own programs; see [home oxygen funding in Victoria and Queensland](/au/guides/home-oxygen-funding-victoria-queensland/).
+
+---
+
+# Flying with CPAP or oxygen from Australia
+
+Source: https://homehealthzone.com/au/guides/flying-with-cpap-oxygen-australia/
+
+This guide is written from Qantas's [medical equipment page](https://www.qantas.com/en-au/travel-information/specific-needs-assistance/medical-equipment-medications-onboard), its [oxygen page](https://www.qantas.com/hk/en/travel-info/specific-needs/travelling-with-specific-needs/travelling-with-oxygen.html) and [authorised equipment list](https://www.qantas.com/content/dam/qantas/pdfs/fly/specific-needs/qantas-medical-support-equipment.pdf), and Virgin Australia's [medical conditions](https://www.virginaustralia.com/au/en/travel-info/specific-travel/specific-needs-assistance/medical-conditions/) and [oxygen](https://www.virginaustralia.com/au/en/travel-info/specific-travel/specific-needs-assistance/oxygen/) pages, read 14 October 2026. Qantas's oxygen page was read on its Hong Kong site, as the Australian page blocks scripted access.
+
+## Qantas: CPAP
+
+- **No approval needed** to travel with or use a CPAP or PAP, but Qantas recommends a letter from a medical professional explaining why you need it.
+- **In-seat power** can be used where fitted, limited to **150 W**. It is not available in all cabins or on all aircraft and cannot be guaranteed.
+- **Batteries** are allowed on all Qantas aircraft and must meet dangerous goods rules.
+- **Aircraft medical power**, if you rely on it, needs a Travel Clearance Form and an Accessibility, Medical and Inclusion Request Form at least **5 days** before departure.
+- If you need CPAP to avoid serious deterioration in flight, bring enough battery for the whole journey, including transits and delays.
+- You can bring the device as an **extra carry-on piece at no charge**.
+
+## Qantas: portable oxygen concentrators
+
+- Medical equipment used onboard must be on the [authorised list](https://www.qantas.com/content/dam/qantas/pdfs/fly/specific-needs/qantas-medical-support-equipment.pdf) and be cleared with a Travel Clearance Form. "No other equipment can be accepted."
+- Equipment used on **domestic** flights must be battery operated.
+- Make the device available for inspection a few hours before departure. Qantas asks for clearances up to 72 hours before the flight.
+- Doctor-signed Travel Clearance Form and an Accessibility, Medical and Inclusion Request at least **5 days** before travel, or you may be denied boarding.
+- Qantas does not supply concentrators. If your daily use exceeds 80% of the device's capacity, Qantas says it may not be enough for international travel and you may need supplementary oxygen.
+
+The list, downloaded 14 October 2026, includes the Philips SimplyGo Mini, GCE Zen-O, Caire Eclipse 5 and Kingon P2, and Inogen's One and G2 to G5. It does **not** list the Inogen Rove 6. See [portable concentrators in Australia](/au/guides/portable-oxygen-concentrator-australia/).
+
+## Qantas: batteries
+
+| Lithium battery | Rule |
+| --- | --- |
+| Under 101 Wh | No restriction |
+| 101 to 160 Wh | Dangerous goods approval at check-in or by email; at most two spares |
+| Over 160 Wh | Forbidden, in the device or as a spare |
+
+Spare batteries and power banks go in carry-on only, with terminals protected, for example taped.
+
+## Qantas: oxygen cylinders
+
+You can book Qantas-supplied cylinders for a fee, which Qantas recommends on international flights, or bring your own under strict rules: from an approved supplier and no more than 5 kg each.
+
+## Virgin Australia
+
+- **Medical Clearance Form** if there is reasonable doubt you can complete the flight without extraordinary medical help. A registered doctor must complete it, dated within **10 days** of the first flight, and you should send it at least **72 hours** before departure. Crew will ask to see a copy when you board.
+- **Long-Standing Medical Clearance** is available for stable chronic conditions. Request it at least 7 days before travel at VA.Medical@virginaustralia.com, then notify Virgin 48 hours before each trip.
+- **Oxygen in flight:** bring your own portable concentrator or a cylinder pre-booked from a selected supplier (BOC, Air Liquide or Linde Gas in Australia), booked through the Guest Contact Centre.
+- **Cylinders** can't be used in Business or Premium Economy, are not permitted on flights to or from the US, and need prior approval on other international long-haul flights. Concentrator users are not affected by the cabin limit.
+
+## Power on arrival
+
+Australia uses **230 V, 50 Hz** with **Type I** sockets ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/guidance/advice-for-you/when-travelling/travel-adaptor-for-australia/)). Visitors from the US and Canada need an adaptor, and a machine rated only for 120 V needs a converter; check your power supply's label.
+
+---
+
+# GST-free CPAP and oxygen equipment in Australia
+
+Source: https://homehealthzone.com/au/guides/gst-free-cpap-oxygen-australia/
+
+This guide is written from the ATO's guidance on [GST-free medical aids and appliances](https://www.ato.gov.au/businesses-and-organisations/gst-excise-and-indirect-taxes/gst/in-detail/your-industry/gst-and-health/medical-aids-and-appliances) and Schedule 3 of the *A New Tax System (Goods and Services Tax) Act 1999* ([AustLII](http://www5.austlii.edu.au/au/legis/cth/consol_act/antsasta1999402/sch3.html)), read 14 October 2026. Both pages block scripted access, so we read archived copies; check the live pages for any change. It is not tax advice.
+
+## The three conditions
+
+The ATO says the sale of a medical aid or appliance is GST-free only if **all three** apply:
+
+1. It is listed in Schedule 3 of the GST Act, or in regulation 38-45.01(1) of the GST regulations.
+2. It is specifically designed for people with an illness or disability.
+3. It is not widely used by people without an illness or disability.
+
+The test is about the product. The ATO page describes no declaration for the buyer to sign, unlike the UK's VAT relief.
+
+## What Schedule 3 lists for breathing equipment
+
+Under "Respiratory appliances", Schedule 3 lists:
+
+| Item | Covers |
+| --- | --- |
+| Continuous positive airway pressure (CPAP) appliances | CPAP and auto-CPAP machines |
+| Sleep apnoea machines | Other machines for sleep apnoea |
+| Respiratory appliance mask assemblies, complete | CPAP masks |
+| Respiratory appliance mask assemblies, components | Cushions, frames, headgear |
+| Nebulisers | |
+| Respirators | |
+| Bottled oxygen and associated hardware | Cylinders and regulators |
+| Oxygen concentrators | Home and portable concentrators |
+
+## Spare parts, batteries and repairs
+
+- **Purpose-designed spare parts** for a GST-free item are GST-free.
+- **Generic parts** are taxable. The ATO's own example is that generic batteries for an electric wheelchair are taxable because they are not designed for the wheelchair.
+- When a GST-free item is repaired with a purpose-designed part, incidental labour and incidental parts are GST-free too.
+
+For CPAP and oxygen users, the line falls between parts made for a particular mask or machine and general-purpose items such as a power bank, which the ATO's battery example suggests are taxable.
+
+## Hire
+
+The ATO says items that qualify to be sold GST-free can also be **hired out GST-free**. That covers concentrator and CPAP rentals.
+
+## What you will see at checkout
+
+Retailers set their own price display. cpap.com.au, for example, shows "Tax included" on its machine pages. If a CPAP or concentrator receipt shows GST, ask the retailer why, quoting the ATO's three conditions.
+
+## Related
+
+- [CPAP machine prices in Australia](/au/guides/cpap-machine-price-australia/)
+- [Home oxygen concentrators in Australia](/au/guides/home-oxygen-concentrator-australia/)
+
+---
+
+# Home oxygen concentrators in Australia (2026)
+
+Source: https://homehealthzone.com/au/guides/home-oxygen-concentrator-australia/
+
+Prices are in Australian dollars from each retailer's own page, read 14 October 2026. We have not tested these machines.
+
+## 5 L/min home concentrators
+
+| Model | Price | Retailer |
+| --- | --- | --- |
+| Secure Plus 5 L (ARTG 524233) | $749 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/secure-plus-5-litre-stationary-oxygen-concentrator-artg-524233) |
+| Yuwell 8F-5A (1 to 5 L/min) | A$849 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-8f-5a-oxygen-concentrator-1-5l-min) |
+| Yuwell 9F-5B (1 to 5 L/min) | A$950 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-9f-5b-oxygen-concentrator-1-5l-min) |
+| Philips EverFlo | $985 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/philips-everflo-stationary-oxygen-concentrator) |
+| Philips EverFlo | A$999 | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/philips-everflo) |
+| Caire VisionAire 5 | A$1,149 | [Mega Medical](https://www.megamedical.com.au/products/visionaire-5-oxygen-concentrator) |
+| Philips Oxygenate 5 | $1,350 (out of stock) | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/philips-oxygenate-5-stationary-oxygen-concentrator-5l) |
+| DeVilbiss 5 L | $2,268 (out of stock) | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/devilbis-5l-oxygen-concentrator) |
+
+## 10 L/min concentrators
+
+| Model | Price | Retailer |
+| --- | --- | --- |
+| GCE 10 L | A$1,798 | [Mega Medical](https://www.megamedical.com.au/products/gce-10l-oxygen-concentrator) |
+| Caire NewLife Intensity 10 (single flow) | A$2,799 | [Mega Medical](https://www.megamedical.com.au/products/newlife-intensity-10l-single-flow-oxygen-concentrator) |
+| Caire NewLife Intensity 10 (dual flow) | $2,916.99 | [Mega Medical](https://www.megamedical.com.au/products/newlife-intensity-10l-dual-flow-oxygen-concentrator) |
+| DeVilbiss 10 L | $3,799 (out of stock) | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/devilbissoxygenconcentrator) |
+
+Your prescription sets the flow. A 10 L/min machine is for patients prescribed higher flows.
+
+## Check it is on the ARTG
+
+Medical devices supplied in Australia must be included on the TGA's Australian Register of Therapeutic Goods (ARTG). Rapid Medical prints the ARTG number in the Secure Plus listing; for other models, ask the seller or search the ARTG yourself. See [TGA rules](/au/guides/tga-artg-cpap-oxygen-australia/).
+
+## GST
+
+Oxygen concentrators are listed in Schedule 3 of the GST Act, so they can be sold and hired GST-free. See [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/).
+
+## Funded instead of bought
+
+| State | Program | Guide |
+| --- | --- | --- |
+| NSW | EnableNSW Home Respiratory Program: $100 a year for pensioners and lower earners | [EnableNSW](/au/guides/enablensw-home-respiratory-program/) |
+| Victoria | SWEP Domiciliary Oxygen Program | [Victoria and Queensland](/au/guides/home-oxygen-funding-victoria-queensland/) |
+| Queensland | Medical Aids Subsidy Scheme | [Victoria and Queensland](/au/guides/home-oxygen-funding-victoria-queensland/) |
+
+## Electricity
+
+A concentrator counts as life support equipment for your electricity company, which gives you protections against disconnection and notice of planned outages. In NSW, the [Social Programs for Energy Code](https://gazette.nsw.gov.au/gazette/2026/7/2026-7_307-gazette.pdf) (version 8.4, from 24 August 2026) sets the Life Support Rebate for a concentrator at **$3.1096 a day** for 24-hour use (about $1,135 a year) and **$1.8493 a day** for less than 24 hours (about $675 a year). See [life support electricity](/au/guides/life-support-electricity-australia/).
+
+For portable machines, see [portable oxygen concentrators in Australia](/au/guides/portable-oxygen-concentrator-australia/).
+
+---
+
+# Home oxygen funding in Victoria and Queensland
+
+Source: https://homehealthzone.com/au/guides/home-oxygen-funding-victoria-queensland/
+
+This guide is written from the [SWEP Domiciliary Oxygen Program page](https://www.swep.bhs.org.au/domiciliary-oxygen-program-dop.php) and Queensland Health's [MASS home oxygen page](https://www.health.qld.gov.au/mass/prescribe/oxygen) (last updated 14 July 2026), read 14 October 2026. For NSW, see [EnableNSW](/au/guides/enablensw-home-respiratory-program/).
+
+## Victoria: SWEP Domiciliary Oxygen Program
+
+SWEP (the State-wide Equipment Program) runs the Domiciliary Oxygen Program (DOP). It gives subsidised funding towards oxygen equipment for adults and children who qualify under the Thoracic Society of Australia and New Zealand (TSANZ) guidelines and Victoria's Aids and Equipment Program guidelines.
+
+### Equipment
+
+| Equipment | SWEP's use limit |
+| --- | --- |
+| Cylinders | Intermittent use only |
+| Stationary concentrators | Up to 24 hours a day |
+| Portable concentrators | Intermittent use only |
+
+### Eligibility
+
+You are eligible if you:
+
+- are a permanent Victorian resident, hold a temporary or permanent protection visa, or are an asylum seeker
+- have a long-term condition or disability, or are frail aged
+- receive no other government funding for the equipment
+- are not a hospital inpatient or a permanent resident of a residential care facility
+- cannot claim the full cost through private health insurance
+- have not been discharged from a public hospital or extended care centre in the last 30 days, where the equipment relates to that admission
+
+You must be assessed by a **consultant physician in respiratory (thoracic) medicine, cardiology or oncology**. SWEP's oxygen team is at swepoxy@gh.org.au.
+
+## Queensland: Medical Aids Subsidy Scheme (MASS)
+
+MASS provides a mix of concentrator and cylinder packages for eligible Queensland adults and children, with supplementary packages of portable and backup cylinders.
+
+### What MASS does not fund
+
+- oxygen needed only for nebulising
+- portable oxygen for getting around the community, except in special circumstances
+- oxygen for breathlessness without low blood oxygen (dyspnoea without hypoxaemia)
+- oxygen for new or existing clients who are **current smokers**
+
+You also cannot already be getting oxygen through a local health service or a Home Care Package.
+
+### Who can prescribe
+
+- thoracic physician, specialist physician, oncologist or palliative care physician
+- respiratory nurse practitioner with designated specialist endorsement
+- in rural and remote areas, a GP with designated specialist endorsement
+
+Prescribers apply through MASS-eApply, MASS's online system, or on paper forms.
+
+### Reassessment
+
+| Patient | Reassessment |
+| --- | --- |
+| Adults | After 4 months, then every 12 months |
+| Children under 6 | Every 6 months |
+| Children 6 to 15 | After 6 months, then every 12 months |
+
+MASS must receive the re-application **two weeks** before the current approval ends, or the subsidy may lapse.
+
+### Power failure plan
+
+MASS says every client should have a **Power Failure Emergency Plan**, using its form MASS 48. That pairs with registering as a life support customer with your electricity company: see [life support electricity registration](/au/guides/life-support-electricity-australia/).
+
+Queensland Health says the new Aged Care Act, which started on 1 November 2025, has not changed MASS guidelines or eligibility.
+
+## If you are not eligible
+
+Buying privately is the alternative. Concentrators are GST-free when they meet the ATO's conditions; see [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/) and [home oxygen concentrator prices](/au/guides/home-oxygen-concentrator-australia/).
+
+---
+
+# Life support registration for CPAP and oxygen (AU)
+
+Source: https://homehealthzone.com/au/guides/life-support-electricity-australia/
+
+This guide is written from the Australian Energy Regulator's [Energy Made Easy guidance](https://www.energymadeeasy.gov.au/article/customers-using-life-support-equipment), the NSW Government's [Life Support Rebate page](https://www.energy.nsw.gov.au/households/grants-rebates/life-support-rebate) and the [NSW Social Programs for Energy Code](https://gazette.nsw.gov.au/gazette/2026/7/2026-7_307-gazette.pdf), read 14 October 2026.
+
+## Register as a life support customer
+
+Energy Made Easy lists life support equipment as including:
+
+- an oxygen concentrator
+- a chronic positive airways pressure (CPAP) respirator
+- a ventilator for life support
+- any other equipment a doctor says is needed for life support
+
+**How:** tell your energy retailer or your distributor as soon as possible. They send you a form for you and your doctor to complete. Return it to them.
+
+**What you get:** they must not disconnect you for any reason, and must give you at least **4 days' notice** of a planned interruption.
+
+Tell your retailer and distributor if your address or phone number changes.
+
+## Make a power-cut plan
+
+Registration does not prevent unplanned outages. Energy Made Easy says to plan:
+
+- where you will go, and how you will get there with your equipment
+- how you will contact people; cordless phones need mains power
+- who you will call, with a written list of your doctor, nearest hospital and a helper
+- backup equipment, kept fully charged
+- where you could get a temporary generator; ask your energy provider whether it can supply one
+
+Queensland's MASS asks every home oxygen client to have a Power Failure Emergency Plan (form MASS 48). See [Victoria and Queensland funding](/au/guides/home-oxygen-funding-victoria-queensland/).
+
+## NSW Life Support Rebate
+
+The rebate helps households where someone uses approved energy-intensive life support equipment at home. A registered medical practitioner must confirm the need and complete the declaration on the application form; you send it to your electricity retailer. Service NSW can help on 13 77 88.
+
+Rates in the Social Programs for Energy Code version 8.4, effective 24 August 2026:
+
+| Equipment | Per day | About per year |
+| --- | --- | --- |
+| PAP device (CPAP), 24-hour use | $0.7096 | $259 |
+| PAP device (CPAP), under 24 hours | $0.3589 | $131 |
+| Oxygen concentrator, 24-hour use | $3.1096 | $1,135 |
+| Oxygen concentrator, under 24 hours | $1.8493 | $675 |
+
+The rebate is paid per billing day for each approved device, so a household with both a CPAP and a concentrator gets both rates. Eligibility lasts four years from the application date, and you can reapply.
+
+EnableNSW notes its Home Respiratory Program clients may be eligible: see [EnableNSW](/au/guides/enablensw-home-respiratory-program/).
+
+## Other states
+
+Energy Made Easy is run by the Australian Energy Regulator. Rebates outside NSW are set by each state or territory; ask your retailer how registration and rebates work where you live.
+
+---
+
+# Medicare, sleep studies and CPAP costs in Australia
+
+Source: https://homehealthzone.com/au/guides/medicare-sleep-study-cpap-australia/
+
+This guide is written from the Medicare Benefits Schedule (MBS) entries for [item 12250](https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=12250) and [item 12203](https://www9.health.gov.au/mbs/fullDisplay.cfm?type=item&q=12203), and ResMed Australia's [guidance on funding](https://www.resmed.com.au/knowledge-hub/are-cpap-machines-covered-by-medicare-or-private-health-insurance), read 14 October 2026.
+
+## The sleep study
+
+### Home study: MBS item 12250
+
+Item 12250 covers an **unattended** adult sleep study, the kind usually done at home.
+
+| | Amount |
+| --- | --- |
+| Schedule fee | $401.25 |
+| Medicare benefit at 75% | $300.95 |
+| Medicare benefit at 85% | $341.10 |
+| Frequency | Once in any 12-month period |
+
+### Lab study: MBS item 12203
+
+Item 12203 covers an **attended** study, with a sleep technician in continuous attendance under a sleep physician's supervision. It applies, for example, where suspected obstructive sleep apnoea makes you unsuitable for an unattended study.
+
+| | Amount |
+| --- | --- |
+| Schedule fee | $703.80 |
+| Medicare benefit at 75% | $527.85 |
+| Medicare benefit at 85% | $599.30 |
+
+Any gap between what the provider charges and the Medicare benefit is yours to pay.
+
+## Getting referred
+
+Item 12250 can be claimed in two ways:
+
+1. **Screening route.** Your doctor refers you to a qualified adult sleep medicine practitioner or a consultant respiratory physician, who decides you have a high probability of symptomatic moderate-to-severe OSA. That needs an **Epworth Sleepiness Scale score of 8 or more**, plus one of:
+   - a **STOP-Bang** score of 3 or more
+   - an **OSA50** score of 5 or more
+   - a high-risk result on the **Berlin Questionnaire**
+2. **Specialist route.** After seeing you, in person or by video, the sleep or respiratory specialist decides a study is needed to confirm the diagnosis.
+
+The study must be supervised and reported by a qualified adult sleep medicine practitioner who reviews the raw data. The MBS notes the questionnaires are available from Sleep Central.
+
+## Paying for the CPAP
+
+The MBS items cover the investigation, not the machine. Funding for the equipment comes from elsewhere:
+
+- **State programs.** ResMed Australia says public funding of CPAP differs between states, each with its own criteria. In NSW, [EnableNSW](/au/guides/enablensw-home-respiratory-program/) supplies CPAP for a $100 annual co-payment for pensioners and lower earners, though waiting periods vary.
+- **Private health insurance extras.** ResMed says extras cover may pay a rebate towards a CPAP and sometimes a mask. The amount varies widely; some funds want a doctor's letter, and all need an eligible invoice. Ask your fund for a quote before buying.
+- **Buying.** CPAP machines and masks can be sold GST-free; see [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/) and [CPAP machine prices in Australia](/au/guides/cpap-machine-price-australia/).
+
+## Renting or trialling first
+
+ResMed's Australian online shop lists an [AirSense 11 AutoSet trial](https://shop.resmed.com.au/products/airsense-11-autoset-cpap-trial) at $35, with a separate ongoing-fee listing. ResMed says the rented machine comes with up to two masks to try and check-ins from its sleep coaches, and asks you to contact its team to book. The listing does not state the billing period, so confirm the full cost before you start.
+
+---
+
+# Portable oxygen concentrators in Australia (2026)
+
+Source: https://homehealthzone.com/au/guides/portable-oxygen-concentrator-australia/
+
+Prices and specifications are from each retailer's page, read 14 October 2026. We have not tested these machines.
+
+## Prices and specs
+
+| Model | Price | Retailer | Delivery | Battery (retailer figures) | On Qantas list? |
+| --- | --- | --- | --- | --- | --- |
+| Kingon P2-E | A$2,350 | [Mega Medical](https://www.megamedical.com.au/products/kingon-p2-e-portable-oxygen-concentrator) | Pulse, 5 settings; 1.98 kg | not stated | "Kingon P2" listed; check the P2-E variant with Qantas |
+| Philips SimplyGo Mini | A$2,399 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/philips-simplygo-mini-portable-oxygen-concentrator) | Pulse | not stated | Yes |
+| Inogen Rove 6 (16-cell) | A$2,899 | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/rove6) | Pulse only, 6 settings, up to 1,260 mL/min | about 13.5 h on setting 1, over 10 h on setting 2 | **No** |
+| GCE Zen-O | A$3,950 | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/zen-o) | Pulse 1 to 6; continuous 0.5 to 2 L/min | up to 8 h with two 12-cell batteries (at 18 breaths a minute) | Yes |
+| Caire Eclipse 5 | A$4,599 | [Air Liquide store](https://store.airliquidehealthcare.com.au/products/eclipse5) | Pulse; continuous up to 3 L/min | not stated | Yes |
+
+Other listings: Kingon P2-E7 at $3,999 (Mega Medical) and $3,899 (Rapid Medical), Kingon P2-E6 at $3,199 and the P2 transportable continuous-flow model at $3,750 (Rapid Medical), and Rove 6 bundles from $4,072 (Rapid Medical).
+
+Air Liquide says the Rove 6 carries a five-year device warranty, three years on sieve beds and one year on battery and accessories.
+
+## Pulse or continuous?
+
+Air Liquide's pages make three points worth knowing:
+
+- Pulse settings **do not equal litres per minute**. Your clinician sets them using oximetry during activity.
+- Pulse-dose machines suit **nose breathers**, and may not suit overnight use because they rely on detecting each breath.
+- The Eclipse 5 switches to continuous flow if it detects no breath, and works with CPAP and bilevel.
+
+If you need oxygen with CPAP at night, a continuous-flow model or a home concentrator is the likelier fit. Ask your prescriber.
+
+## Flying
+
+Qantas's [authorised medical support equipment list](https://www.qantas.com/content/dam/qantas/pdfs/fly/specific-needs/qantas-medical-support-equipment.pdf) names these portable concentrators, among others: AirSep Freestyle, Lifestyle and Focus; DeVilbiss iGo; Inogen One, G2, G3, G4 and G5; Invacare XPO2, Solo 2 and Platinum Mobile; OxyGO NEXT; Philips SimplyGo and SimplyGo Mini; SeQual Eclipse 5 and eQuinox; Precision Medical EasyPulse; Kingon P2; and GCE Zen-O and Zen-O lite. Qantas says no other equipment can be accepted for use on board.
+
+Qantas also says all its accepted devices except the Inogen One use lithium batteries under 101 Wh. Batteries of 101 to 160 Wh need dangerous goods approval, with at most two spares. More in [flying with CPAP or oxygen from Australia](/au/guides/flying-with-cpap-oxygen-australia/).
+
+## Prescription and funding
+
+Air Liquide says you need a prescription to buy a concentrator. Victoria's SWEP funds portable concentrators for intermittent use; Queensland's MASS does not fund portable oxygen for community access except in special circumstances. See [home oxygen funding in Victoria and Queensland](/au/guides/home-oxygen-funding-victoria-queensland/).
+
+---
+
+# TGA rules for CPAP and oxygen devices in Australia
+
+Source: https://homehealthzone.com/au/guides/tga-artg-cpap-oxygen-australia/
+
+This guide is written from the TGA's pages on the [Personal Importation Scheme](https://www.tga.gov.au/products/unapproved-therapeutic-goods/access-pathways/personal-importation-scheme) and [importing and supplying medical devices](https://www.tga.gov.au/products/medical-devices/importing-and-supplying-medical-devices). The TGA site blocks scripted access, so we read archived 2026 copies; check the live pages. It is not legal advice.
+
+## The ARTG
+
+The Australian Register of Therapeutic Goods (ARTG) lists devices that may be supplied in Australia. The TGA says:
+
+- A **sponsor** must apply to have each kind of medical device included on the ARTG.
+- Each ARTG entry is unique to the **sponsor, manufacturer and kind of device**. A second importer of the same model needs its own entry.
+- A condition of inclusion is that the device keeps meeting the TGA's Essential Principles for safety and performance.
+
+Some Australian retailers print the ARTG number in the listing; Rapid Medical, for example, names ARTG 524233 for the Secure Plus 5 L concentrator. Otherwise, ask the seller, or search the ARTG on the TGA's site.
+
+## Personal Importation Scheme
+
+The scheme lets individuals import therapeutic goods **not** on the ARTG, usually by post or courier, if the conditions are met:
+
+| Rule | Detail |
+| --- | --- |
+| Who uses it | You or an immediate family member: children, parents, grandparents, grandchildren, siblings, spouse or de facto partner |
+| Quantity | A three-month supply in any one importation |
+| TGA approval | Not required, if the other conditions are met |
+| Resale | Not allowed: you cannot sell, supply or give the goods to others |
+| Counterfeits | Prohibited in all circumstances |
+| Health professionals | May import a device for personal use, but not for use in their practice |
+
+### What it means for CPAP and oxygen users
+
+- A machine bought overseas for your own use can come in under the scheme. Repeated or bulk orders are outside "three months' supply".
+- A personally imported machine **cannot be resold** in Australia.
+- The scheme is separate from **GST** and from **airline** rules. See [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/) and [flying from Australia](/au/guides/flying-with-cpap-oxygen-australia/).
+
+## Penalties
+
+The TGA warns sponsors and health professionals who break the import and supply rules face civil or criminal penalties of up to **five years' imprisonment and/or 5,000 penalty units**, with one penalty unit valued at $330 under the Crimes Act 1914.
+
+## Related
+
+- [CPAP machine prices in Australia](/au/guides/cpap-machine-price-australia/)
+- [Home oxygen concentrators in Australia](/au/guides/home-oxygen-concentrator-australia/)
+
+---
+
 # BiPAP-ST mode and indications: when a backup rate is essential
 
 Source: https://homehealthzone.com/clinical/bipap-st-mode-and-indications/

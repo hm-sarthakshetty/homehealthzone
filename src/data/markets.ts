@@ -50,14 +50,14 @@ export const INTL_MARKETS: Market[] = [
     clusters: ['Subsidies and schemes', 'CPAP', 'Oxygen', 'Regulation', 'Travel and power'],
   },
   {
-    code: 'au', country: 'AU', currency: 'AUD', lang: 'en-AU', label: 'Australia', short: 'Australia', live: false,
+    code: 'au', country: 'AU', currency: 'AUD', lang: 'en-AU', label: 'Australia', short: 'Australia', live: true,
     hubTitle: 'Oxygen concentrators and CPAP in Australia',
     hubDescription: 'HHZ for Australia: state equipment schemes, Medicare, TGA rules, and devices sold in Australia with AUD prices from named retailers.',
     hubLead: 'How home oxygen and CPAP are funded and regulated in Australia. Prices are in Australian dollars, taken from the named retailer listing on the date shown in each guide.',
     guidesTitle: 'Australia buyer’s guides',
     guidesDescription: 'Australian guides to home oxygen and CPAP: state schemes, Medicare, TGA rules, travel, masks, machines and troubleshooting, with AUD prices.',
     guidesLead: 'Plain-English guides to getting, paying for and using respiratory equipment in Australia. Every guide is reviewed and timestamped.',
-    clusters: [],
+    clusters: ['Funding and tax', 'CPAP', 'Oxygen', 'Regulation', 'Travel and power'],
   },
   {
     code: 'ca', country: 'CA', currency: 'CAD', lang: 'en-CA', label: 'Canada', short: 'Canada', live: false,

@@ -6,7 +6,8 @@
   "category": "",
   "price_symbol": "",
   "countries": [
-    "GB"
+    "GB",
+    "AU"
   ],
   "device_type": "oxygen-concentrator",
   "prices": {
@@ -15,10 +16,17 @@
       "currency": "GBP",
       "source_url": "https://www.portableoxygen.co.uk/oxygen-concentrators/newlife-intensity-10/",
       "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 2799,
+      "currency": "AUD",
+      "source_url": "https://www.megamedical.com.au/products/newlife-intensity-10l-single-flow-oxygen-concentrator",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
-    "uk": "home-oxygen-concentrator-uk"
+    "uk": "home-oxygen-concentrator-uk",
+    "au": "home-oxygen-concentrator-australia"
   },
   "images": [],
   "normalized_specs": {

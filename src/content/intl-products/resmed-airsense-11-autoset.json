@@ -7,7 +7,8 @@
   "price_symbol": "",
   "countries": [
     "GB",
-    "SG"
+    "SG",
+    "AU"
   ],
   "device_type": "cpap",
   "prices": {
@@ -22,11 +23,18 @@
       "currency": "SGD",
       "source_url": "https://comooz.sg/cpap-price-singapore",
       "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 1495,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/resmed-airsense-11-autoset-device-4g",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
     "uk": "buying-cpap-privately-uk",
-    "sg": "cpap-machine-price-singapore"
+    "sg": "cpap-machine-price-singapore",
+    "au": "cpap-machine-price-australia"
   },
   "images": [],
   "normalized_specs": {

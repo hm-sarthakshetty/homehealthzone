@@ -1,0 +1,24 @@
+{
+  "slug": "resmed-airsense-10-elite",
+  "source_url": "https://cpap.com.au/products/resmed-airsense10-elite",
+  "product_name": "ResMed AirSense 10 Elite",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU"
+  ],
+  "device_type": "cpap",
+  "prices": {
+    "AU": {
+      "amount": 995,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/resmed-airsense10-elite",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "cpap-machine-price-australia"
+  },
+  "images": []
+}

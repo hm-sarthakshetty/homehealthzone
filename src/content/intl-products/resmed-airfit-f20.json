@@ -6,7 +6,8 @@
   "category": "",
   "price_symbol": "",
   "countries": [
-    "GB"
+    "GB",
+    "AU"
   ],
   "device_type": "cpap-mask",
   "prices": {
@@ -15,10 +16,17 @@
       "currency": "GBP",
       "source_url": "https://shop.resmed.com/GB/en/cpap-masks/full-face-cpap-masks/airfit-f20/p/64005",
       "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 179,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/resmed-airfit-f20-full-face-mask",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
-    "uk": "cpap-masks-uk"
+    "uk": "cpap-masks-uk",
+    "au": "cpap-masks-australia"
   },
   "images": []
 }

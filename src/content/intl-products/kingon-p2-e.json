@@ -1,0 +1,24 @@
+{
+  "slug": "kingon-p2-e",
+  "source_url": "https://www.megamedical.com.au/products/kingon-p2-e-portable-oxygen-concentrator",
+  "product_name": "Kingon P2-E",
+  "brand": "Kingon",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU"
+  ],
+  "device_type": "portable-oxygen-concentrator",
+  "prices": {
+    "AU": {
+      "amount": 2350,
+      "currency": "AUD",
+      "source_url": "https://www.megamedical.com.au/products/kingon-p2-e-portable-oxygen-concentrator",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "portable-oxygen-concentrator-australia"
+  },
+  "images": []
+}

@@ -10599,6 +10599,196 @@ If you are choosing a machine privately instead, compare prices in [CPAP machine
 
 ---
 
+# CPAP machine prices in Australia (2026)
+
+Source: https://homehealthzone.com/au/guides/cpap-machine-price-australia/
+
+All prices are in Australian dollars, read from each retailer's site on 14 October 2026. cpap.com.au shows "Tax included" on its machine pages. CPAP machines are listed in Schedule 3 of the GST Act, so they can be sold GST-free; see [GST-free CPAP and oxygen](/au/guides/gst-free-cpap-oxygen-australia/).
+
+## Auto-CPAP machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 AutoSet (4G) | A$1,495 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-11-autoset-device-4g) |
+| ResMed AirSense 11 AutoSet | $1,689 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-autoset) |
+| ResMed AirSense 11 AutoSet bundle | $1,699 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-autoset-bundle-1) |
+| ResMed AirSense 10 AutoSet (4G) | A$1,295 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-10-autoset) |
+| ResMed AirSense 10 AutoSet 4G bundle | $1,449 | [ResMed shop](https://shop.resmed.com.au/products/resmed-airsense-10-4g-mask-bundle) |
+| Fisher & Paykel SleepStyle Auto | A$1,395 | [cpap.com.au](https://cpap.com.au/products/fp-sleepstyle-auto-device) |
+| Yuwell Breathcare III YH-680B | A$749 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-breathcare-iii-yh-680b-wifi-cpap-white) |
+
+The same AirSense 11 AutoSet was **$194 cheaper** at cpap.com.au than on ResMed's own shop.
+
+## Fixed-pressure machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 Elite (4G) | A$1,295 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense-11-elite-device-4g) |
+| ResMed AirSense 11 Elite | $1,549 | [ResMed shop](https://shop.resmed.com.au/products/airsense-11-elite) |
+| ResMed AirSense 10 Elite (4G) | A$995 | [cpap.com.au](https://cpap.com.au/products/resmed-airsense10-elite) |
+
+An Elite runs at one fixed pressure. Only buy one if your clinician has given you a fixed pressure.
+
+## Travel machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirMini (N30, P10 or N20 kit) | A$1,195 | [cpap.com.au](https://cpap.com.au/products/resmed-airmini-n30-starter-kit) |
+| ResMed AirMini + mask bundle | $1,249 | [ResMed shop](https://shop.resmed.com.au/products/airmini-mask-bundle) |
+| Yuwell Pocket S travel package | $849 | [Rapid Medical](https://www.rapidmedicalsupplies.com.au/products/yuwell-pocket-s-travel-cpap-package) |
+
+The AirMini uses mask-specific setup packs; check the kit matches your mask. For flying, see [flying with CPAP or oxygen from Australia](/au/guides/flying-with-cpap-oxygen-australia/).
+
+## Bilevel and ASV
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | A$1,995 | [ResMed shop](https://shop.resmed.com.au/products/aircurve-11-vauto) |
+| ResMed AirCurve 11 ASV | $2,899 | [cpap.com.au](https://cpap.com.au/products/resmed-aircurve-11-asv) |
+| ResMed AirCurve 11 ASV | $3,099 | [ResMed shop](https://shop.resmed.com.au/products/aircurve-11-asv) |
+
+These need a specialist prescription for bilevel or adaptive servo-ventilation.
+
+## Paying less
+
+- **State programs.** NSW's [EnableNSW](/au/guides/enablensw-home-respiratory-program/) supplies CPAP for a $100 annual co-payment to pensioners and lower earners.
+- **Private health extras.** ResMed Australia says extras cover may rebate part of the cost; check with your fund. See [Medicare, sleep studies and CPAP](/au/guides/medicare-sleep-study-cpap-australia/).
+- **Trial first.** ResMed's shop lists an AirSense 11 AutoSet trial with up to two masks.
+
+## Running accessories
+
+cpap.com.au prices: ResMed ClimateLine heated tube for AirSense 11, $75; AirSense 11 filters, $24 for 12 or $99 for 50; AirSense 11 DC/DC converter, $189; 65 W power supply, $80. Masks are in [CPAP masks in Australia](/au/guides/cpap-masks-australia/).
+
+---
+
+# EnableNSW home oxygen and CPAP: who qualifies
+
+Source: https://homehealthzone.com/au/guides/enablensw-home-respiratory-program/
+
+This guide is written from EnableNSW's [Home Respiratory Program fact sheet](https://www.enable.health.nsw.gov.au/about/publications/fact-sheets/home-respiratory-program) and its [eligibility and financial criteria](https://enable.health.nsw.gov.au/for_individuals/applying-to-EnableNSW/eligibility-and-financial-criteria) page. EnableNSW's site blocks scripted access, so we read archived 2026 copies of both pages; check the live pages before applying.
+
+## What the program supplies
+
+The Home Respiratory Program (HRP) provides:
+
+- home oxygen equipment, typically an oxygen concentrator
+- continuous positive airway pressure (CPAP) and other respiratory support devices
+- ventilators
+- some respiratory consumables
+
+Each product has its own clinical criteria, and a prescriber applies on your behalf.
+
+**Priority and waiting.** EnableNSW funds the primary oxygen equipment used at home first. Waiting periods vary for CPAP, respiratory support devices, ventilators and consumables. Equipment is bought and supplied "as funding becomes available".
+
+## Who is eligible
+
+You must:
+
+- live in NSW or on Lord Howe Island, or be an asylum seeker, refugee or humanitarian visa holder living there
+- be enrolled with Medicare
+- not be receiving, or eligible for, the equipment through insurance or another government scheme, such as the NDIS
+
+## The co-payment
+
+EnableNSW charges a co-payment each financial year you receive equipment, consumable re-orders or repairs.
+
+| Band | Who | Co-payment |
+| --- | --- | --- |
+| 1 | Adults on a full pension; children under 16 | $100 a financial year |
+| 2 | Taxable income up to $42,000 (single) or $70,000 (couple), plus $2,100 per dependant | $100 a financial year |
+| 3 | Taxable income above those limits | 20% of equipment costing $800 or more |
+
+Band 3 consumers are **not eligible** for equipment that costs under $800. EnableNSW says its income bands come from the former Program for Appliances for Disabled People, adjusted for inflation since December 1998.
+
+Short-term oxygen therapy has **no co-payment**.
+
+### What 20% means in dollars
+
+For a Band 3 adult, 20% of an oxygen concentrator listed at $999 (the Philips EverFlo at Air Liquide's online store on 14 October 2026) would be about $200, and 20% of a $1,495 auto-CPAP would be $299. EnableNSW's own equipment costs may differ from retail.
+
+## Your responsibilities
+
+To keep HRP equipment you must:
+
+- have stopped smoking for at least **four weeks**
+- follow the supplier's safety precautions
+- use the therapy as prescribed, including the hours of use
+- buy some products and accessories yourself, **such as CPAP masks**
+- return the device when you no longer need it or are not using it as prescribed
+
+For mask prices, see [CPAP masks in Australia](/au/guides/cpap-masks-australia/).
+
+## How an application runs
+
+1. **Application.** Your prescriber sends EnableNSW the application.
+2. **Review.** EnableNSW checks it against the program guidelines.
+3. **Decision.** You and your prescriber are told in writing whether it is approved or declined.
+4. **Purchase.** As funding becomes available, the device is bought and supplied.
+
+## Electricity help
+
+EnableNSW notes HRP clients may also qualify for the NSW Government's Life Support Rebate, claimed through the electricity retailer. See [life support electricity registration and rebates](/au/guides/life-support-electricity-australia/).
+
+Other states run their own programs; see [home oxygen funding in Victoria and Queensland](/au/guides/home-oxygen-funding-victoria-queensland/).
+
+---
+
+# Life support registration for CPAP and oxygen (AU)
+
+Source: https://homehealthzone.com/au/guides/life-support-electricity-australia/
+
+This guide is written from the Australian Energy Regulator's [Energy Made Easy guidance](https://www.energymadeeasy.gov.au/article/customers-using-life-support-equipment), the NSW Government's [Life Support Rebate page](https://www.energy.nsw.gov.au/households/grants-rebates/life-support-rebate) and the [NSW Social Programs for Energy Code](https://gazette.nsw.gov.au/gazette/2026/7/2026-7_307-gazette.pdf), read 14 October 2026.
+
+## Register as a life support customer
+
+Energy Made Easy lists life support equipment as including:
+
+- an oxygen concentrator
+- a chronic positive airways pressure (CPAP) respirator
+- a ventilator for life support
+- any other equipment a doctor says is needed for life support
+
+**How:** tell your energy retailer or your distributor as soon as possible. They send you a form for you and your doctor to complete. Return it to them.
+
+**What you get:** they must not disconnect you for any reason, and must give you at least **4 days' notice** of a planned interruption.
+
+Tell your retailer and distributor if your address or phone number changes.
+
+## Make a power-cut plan
+
+Registration does not prevent unplanned outages. Energy Made Easy says to plan:
+
+- where you will go, and how you will get there with your equipment
+- how you will contact people; cordless phones need mains power
+- who you will call, with a written list of your doctor, nearest hospital and a helper
+- backup equipment, kept fully charged
+- where you could get a temporary generator; ask your energy provider whether it can supply one
+
+Queensland's MASS asks every home oxygen client to have a Power Failure Emergency Plan (form MASS 48). See [Victoria and Queensland funding](/au/guides/home-oxygen-funding-victoria-queensland/).
+
+## NSW Life Support Rebate
+
+The rebate helps households where someone uses approved energy-intensive life support equipment at home. A registered medical practitioner must confirm the need and complete the declaration on the application form; you send it to your electricity retailer. Service NSW can help on 13 77 88.
+
+Rates in the Social Programs for Energy Code version 8.4, effective 24 August 2026:
+
+| Equipment | Per day | About per year |
+| --- | --- | --- |
+| PAP device (CPAP), 24-hour use | $0.7096 | $259 |
+| PAP device (CPAP), under 24 hours | $0.3589 | $131 |
+| Oxygen concentrator, 24-hour use | $3.1096 | $1,135 |
+| Oxygen concentrator, under 24 hours | $1.8493 | $675 |
+
+The rebate is paid per billing day for each approved device, so a household with both a CPAP and a concentrator gets both rates. Eligibility lasts four years from the application date, and you can reapply.
+
+EnableNSW notes its Home Respiratory Program clients may be eligible: see [EnableNSW](/au/guides/enablensw-home-respiratory-program/).
+
+## Other states
+
+Energy Made Easy is run by the Australian Energy Regulator. Rebates outside NSW are set by each state or territory; ask your retailer how registration and rebates work where you live.
+
+---
+
 # APAP algorithms compared — ResMed AutoSet, Philips Auto, BMC Auto, DreamStation, AirSense
 
 Source: https://homehealthzone.com/clinical/apap-algorithms-compared/

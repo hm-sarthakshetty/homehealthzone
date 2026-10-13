@@ -12,6 +12,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [United States](https://homehealthzone.com/us/): oxygen concentrators and CPAP sold in the US, with USD prices, FDA prescription rules and Medicare basics
 - [United Kingdom](https://homehealthzone.com/uk/): HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.
 - [Singapore](https://homehealthzone.com/sg/): HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.
+- [Australia](https://homehealthzone.com/au/): HHZ for Australia: state equipment schemes, Medicare, TGA rules, and devices sold in Australia with AUD prices from named retailers.
 
 ## Editorial policies
 
@@ -317,6 +318,22 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [MediSave, MediFund and CHAS for CPAP and oxygen](https://homehealthzone.com/sg/guides/medisave-medifund-chas-cpap-oxygen/): What Singapore's MediSave, MediFund and CHAS do and do not pay for when you need a CPAP or home oxygen, with the 2026 limits and income tiers from MOH and CHAS.
 - [Oxygen concentrator subsidies in Singapore (SMF, ERS)](https://homehealthzone.com/sg/guides/oxygen-concentrator-subsidy-singapore/): How Singapore's AIC schemes help pay for a home oxygen concentrator: the Seniors' Mobility and Enabling Fund, the Assistive Technology Fund and the Equipment Rental Scheme.
 - [Portable oxygen concentrators in Singapore](https://homehealthzone.com/sg/guides/portable-oxygen-concentrator-singapore/): Which portable oxygen concentrators Singapore suppliers sell, the few published SGD prices, Singapore Airlines' FAA-approval rule and battery planning for tropical travel.
+
+
+## Australia guides
+
+- [Australia hub](https://homehealthzone.com/au/): HHZ for Australia: state equipment schemes, Medicare, TGA rules, and devices sold in Australia with AUD prices from named retailers.
+- [CPAP machine prices in Australia (2026)](https://homehealthzone.com/au/guides/cpap-machine-price-australia/): Live AUD prices for CPAP machines from Australian retailers: ResMed AirSense 11 and 10, AirMini, Fisher & Paykel SleepStyle, Yuwell and the AirCurve 11 bilevel.
+- [CPAP masks in Australia: prices compared (2026)](https://homehealthzone.com/au/guides/cpap-masks-australia/): AUD prices for ResMed, Fisher & Paykel, Philips and Yuwell CPAP masks from Australian retailers, by full-face, nasal and pillows, plus spare-part costs and GST.
+- [EnableNSW home oxygen and CPAP: who qualifies](https://homehealthzone.com/au/guides/enablensw-home-respiratory-program/): How NSW's EnableNSW Home Respiratory Program supplies home oxygen and CPAP: eligibility, the $100 or 20% co-payment, income bands, smoking rules and what you still buy yourself.
+- [Flying with CPAP or oxygen from Australia](https://homehealthzone.com/au/guides/flying-with-cpap-oxygen-australia/): Qantas and Virgin Australia rules for CPAP machines, portable oxygen concentrators and oxygen cylinders: approvals, notice periods, battery limits, in-seat power and forms.
+- [GST-free CPAP and oxygen equipment in Australia](https://homehealthzone.com/au/guides/gst-free-cpap-oxygen-australia/): Why CPAP machines, masks and oxygen concentrators can be sold GST-free in Australia: the three ATO conditions, the Schedule 3 items, spare parts and hire.
+- [Home oxygen concentrators in Australia (2026)](https://homehealthzone.com/au/guides/home-oxygen-concentrator-australia/): AUD prices for home oxygen concentrators sold in Australia, from Philips EverFlo and Yuwell to 10 L/min models, plus GST, state funding and the NSW life support rebate.
+- [Home oxygen funding in Victoria and Queensland](https://homehealthzone.com/au/guides/home-oxygen-funding-victoria-queensland/): How Victoria's SWEP Domiciliary Oxygen Program and Queensland's Medical Aids Subsidy Scheme fund home oxygen: eligibility, prescribers, exclusions, smoking rules and reassessment.
+- [Life support registration for CPAP and oxygen (AU)](https://homehealthzone.com/au/guides/life-support-electricity-australia/): How to register a CPAP or oxygen concentrator as life support equipment with your Australian electricity company, the protections you get, a power-cut plan, and NSW rebate rates.
+- [Medicare, sleep studies and CPAP costs in Australia](https://homehealthzone.com/au/guides/medicare-sleep-study-cpap-australia/): What Medicare pays for an adult sleep study in Australia (MBS items 12250 and 12203), the questionnaire scores you need for a referral, and how CPAP equipment is funded instead.
+- [Portable oxygen concentrators in Australia (2026)](https://homehealthzone.com/au/guides/portable-oxygen-concentrator-australia/): AUD prices for portable oxygen concentrators sold in Australia, battery and flow specs, and which models are on Qantas's authorised medical equipment list.
+- [TGA rules for CPAP and oxygen devices in Australia](https://homehealthzone.com/au/guides/tga-artg-cpap-oxygen-australia/): How the TGA regulates CPAP machines and oxygen concentrators: ARTG inclusion, sponsors, the Personal Importation Scheme's three-month limit and what you can't resell.
 
 
 ## Written comparison pages

@@ -1,0 +1,24 @@
+{
+  "slug": "resmed-airfit-n30",
+  "source_url": "https://cpap.com.au/products/resmed-airfit-n30-nasal-mask",
+  "product_name": "ResMed AirFit N30",
+  "brand": "ResMed",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU"
+  ],
+  "device_type": "cpap-mask",
+  "prices": {
+    "AU": {
+      "amount": 179,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/resmed-airfit-n30-nasal-mask",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "cpap-masks-australia"
+  },
+  "images": []
+}

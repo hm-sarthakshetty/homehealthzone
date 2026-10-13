@@ -1,0 +1,24 @@
+{
+  "slug": "caire-eclipse-5",
+  "source_url": "https://store.airliquidehealthcare.com.au/products/eclipse5",
+  "product_name": "Caire Eclipse 5",
+  "brand": "Caire",
+  "category": "",
+  "price_symbol": "",
+  "countries": [
+    "AU"
+  ],
+  "device_type": "portable-oxygen-concentrator",
+  "prices": {
+    "AU": {
+      "amount": 4599,
+      "currency": "AUD",
+      "source_url": "https://store.airliquidehealthcare.com.au/products/eclipse5",
+      "checked_at": "2026-10-14"
+    }
+  },
+  "guides": {
+    "au": "portable-oxygen-concentrator-australia"
+  },
+  "images": []
+}

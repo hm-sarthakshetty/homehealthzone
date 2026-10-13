@@ -6,7 +6,8 @@
   "category": "",
   "price_symbol": "",
   "countries": [
-    "GB"
+    "GB",
+    "AU"
   ],
   "device_type": "portable-oxygen-concentrator",
   "prices": {
@@ -15,10 +16,17 @@
       "currency": "GBP",
       "source_url": "https://www.portableoxygen.co.uk/inogen-rove-6-16-cell-portable-oxygen-concentrator/",
       "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 2899,
+      "currency": "AUD",
+      "source_url": "https://store.airliquidehealthcare.com.au/products/rove6",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
-    "uk": "best-portable-oxygen-concentrator-uk"
+    "uk": "best-portable-oxygen-concentrator-uk",
+    "au": "portable-oxygen-concentrator-australia"
   },
   "images": [],
   "normalized_specs": {

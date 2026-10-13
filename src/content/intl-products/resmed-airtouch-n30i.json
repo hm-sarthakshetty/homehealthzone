@@ -6,7 +6,8 @@
   "category": "",
   "price_symbol": "",
   "countries": [
-    "SG"
+    "SG",
+    "AU"
   ],
   "device_type": "cpap-mask",
   "prices": {
@@ -15,10 +16,17 @@
       "currency": "SGD",
       "source_url": "https://wearemedbitz.com/products/resmed-airtouch-n30i-cradle-nasal-mask",
       "checked_at": "2026-10-14"
+    },
+    "AU": {
+      "amount": 179,
+      "currency": "AUD",
+      "source_url": "https://cpap.com.au/products/resmed-airtouchn30i-nasal-mask",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
-    "sg": "cpap-masks-singapore"
+    "sg": "cpap-masks-singapore",
+    "au": "cpap-masks-australia"
   },
   "images": []
 }
