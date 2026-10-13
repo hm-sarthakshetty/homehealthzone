@@ -10892,7 +10892,7 @@ For comparison, Canadian retailers listed the ResMed AirSense 11 AutoSet between
 
 Source: https://homehealthzone.com/nz/guides/home-oxygen-funding-new-zealand/
 
-This guide is written from [Healthify’s home oxygen page](https://healthify.nz/health-a-z/h/home-oxygen-therapy), Health NZ’s [Wellington home oxygen leaflet](https://www.healthnz.govt.nz/assets/Locations/Wellington-Hutt-Kapiti/patient-information/pre-load-291.pdf) (issued August 2017, still hosted by Health NZ) and [Pharmac’s NIV equipment page](https://www.pharmac.govt.nz/hospital-devices/whats-happening-in-each-category/non-invasive-ventilation-equipment). Pharmac’s page now returns “not found”, so we read an archived copy from 13 May 2026. This isn’t medical advice.
+This guide is written from [Healthify’s home oxygen page](https://healthify.nz/health-a-z/h/home-oxygen-therapy), Health NZ’s [Wellington home oxygen leaflet](https://www.healthnz.govt.nz/assets/Locations/Wellington-Hutt-Kapiti/patient-information/pre-load-291.pdf) (issued August 2017, still hosted by Health NZ) and [Pharmac’s NIV equipment page (archived)](https://web.archive.org/web/20260513105502/https://www.pharmac.govt.nz/hospital-devices/whats-happening-in-each-category/non-invasive-ventilation-equipment). Pharmac’s page now returns “not found”, so we read an archived copy from 13 May 2026. This isn’t medical advice.
 
 ## Who is funded
 
