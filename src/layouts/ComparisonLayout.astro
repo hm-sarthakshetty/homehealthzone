@@ -4,6 +4,7 @@ import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import PriceBadge from '../components/PriceBadge.astro';
 import PriceDisclaimer from '../components/PriceDisclaimer.astro';
+import { formatPrice, resolvePrice } from '../lib/price';
 import ComparisonTable from '../components/ComparisonTable.astro';
 import ProductImage from '../components/ProductImage.astro';
 import { getCollection, getEntry } from 'astro:content';
@@ -219,9 +220,7 @@ const topFive = topFivePillar(productA.category);
           )}
         </dl>
         <PriceBadge
-          current={productA.price_current}
-          mrp={productA.price_mrp}
-          symbol={productA.price_symbol}
+          product={productA}
           stock={productA.stock}
         />
         <PriceDisclaimer />
@@ -263,9 +262,7 @@ const topFive = topFivePillar(productA.category);
           )}
         </dl>
         <PriceBadge
-          current={productB.price_current}
-          mrp={productB.price_mrp}
-          symbol={productB.price_symbol}
+          product={productB}
           stock={productB.stock}
         />
         <PriceDisclaimer />
@@ -319,7 +316,7 @@ const topFive = topFivePillar(productA.category);
           <dl class="compare__third-option-facts">
             <div>
               <dt>Indicative price</dt>
-              <dd>{homeMedixEntry.data.price_symbol}{homeMedixEntry.data.price_current}</dd>
+              <dd>{formatPrice(resolvePrice(homeMedixEntry.data), 'current', 'raw')}</dd>
             </div>
             <div>
               <dt>Continuous flow</dt>

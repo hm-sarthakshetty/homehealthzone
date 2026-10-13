@@ -1,20 +1,27 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import type { Country } from '../lib/price';
 import PriceBadge from './PriceBadge.astro';
 import ProductImage from './ProductImage.astro';
 
-type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
+type ProductEntry =
+  | CollectionEntry<'products'>
+  | CollectionEntry<'cpap-bipap'>
+  | CollectionEntry<'us-products'>;
 
 export interface Props {
   entry: ProductEntry;
   href?: string;
+  country?: Country;
 }
 
-const { entry, href: hrefOverride } = Astro.props;
+const { entry, href: hrefOverride, country = 'IN' } = Astro.props;
 const data = entry.data;
 
 const getHref = (): string => {
   if (hrefOverride) return hrefOverride;
+  // US-only catalogue has no review pages yet; callers pass an href to a guide.
+  if (entry.collection === 'us-products') return '/us/guides/';
   if (entry.collection === 'cpap-bipap') {
     const deviceType = (data as CollectionEntry<'cpap-bipap'>['data']).device_type;
     if (deviceType === 'bipap') return `/bipap/${data.slug}/`;
@@ -36,10 +43,6 @@ const imageAlt = firstImage ? firstImage.alt || data.product_name : data.product
     {data.brand && <span class="product-card__brand">{data.brand}</span>}
     <h3 class="product-card__name">{data.product_name}</h3>
     {data.category && <span class="product-card__category">{data.category}</span>}
-    <PriceBadge
-      current={data.price_current}
-      mrp={data.price_mrp}
-      symbol={data.price_symbol}
-    />
+    <PriceBadge product={data} country={country} />
   </div>
 </a>

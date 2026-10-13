@@ -1,0 +1,40 @@
+{
+  "slug": "resmed-airfit-x30i",
+  "source_url": "https://eshop.resmed.com/products/airfit-x30i-starter-pack",
+  "product_name": "ResMed AirFit X30i",
+  "brand": "ResMed",
+  "brand_href": "https://eshop.resmed.com/products/airfit-x30i-starter-pack",
+  "category": "CPAP mask",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 185,
+      "currency": "USD",
+      "source_url": "https://eshop.resmed.com/products/airfit-x30i-starter-pack",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Oral-nasal (pillows + oral cushion)"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Type": "Oral-nasal (pillows + oral cushion)",
+      "Notes": "ResMed eShop price; specs from ResMed U.S. user guide."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {},
+  "device_type": "cpap-mask"
+}

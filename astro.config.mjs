@@ -7,6 +7,15 @@ import remarkResolveCitations from './scripts/remark-resolve-citations.mjs';
 
 const SITE_URL = 'https://homehealthzone.com';
 
+// Regional twins (hreflang). Shared with BaseLayout.astro.
+const HREFLANG_PAIRS = JSON.parse(readFileSync('./src/data/hreflang.json', 'utf8')).pairs;
+const HREFLANG_BY_URL = new Map();
+for (const pair of HREFLANG_PAIRS) {
+  const links = Object.entries(pair).map(([lang, path]) => ({ lang, url: `${SITE_URL}${path}` }));
+  links.push({ lang: 'x-default', url: `${SITE_URL}${pair['en-IN']}` });
+  for (const path of Object.values(pair)) HREFLANG_BY_URL.set(`${SITE_URL}${path}`, links);
+}
+
 /**
  * Parse the YAML frontmatter block at the top of a markdown/MDX file.
  * Returns only the scalar top-level fields we care about for sitemap lastmod.
@@ -71,6 +80,7 @@ function buildLastmodMap() {
   addFromMdx('./src/content/cpap-bipap-reviews', (slug) => `${SITE_URL}/${deviceTypeForSlug(slug)}/${slug}/`);
   addFromMdx('./src/content/clinical', (slug) => `${SITE_URL}/clinical/${slug}/`);
   addFromMdx('./src/content/guides', (slug) => `${SITE_URL}/guides/${slug}/`);
+  addFromMdx('./src/content/us-guides', (slug) => `${SITE_URL}/us/guides/${slug}/`);
   addFromMdx('./src/content/comparison-writeups', (slug) => `${SITE_URL}/compare/${slug}/`);
 
   // City and city-intent pages share the explicit date on their source record.
@@ -128,6 +138,10 @@ export default defineConfig({
     '/clinical/understanding-spo2-vs-pao2-vs-sao2/': '/clinical/spo2-vs-pao2-vs-sao2/',
     '/clinical/stabiliser-vs-ups-vs-inverter-for-concentrators/': '/clinical/stabilizer-ups-vs-inverter-for-concentrator/',
     '/clinical/traveling-with-oxygen-concentrator-india/': '/clinical/traveling-with-oxygen-indian-railways-indigo-air-india/',
+    '/us/guides/houston-hurricane-cpap-oxygen/': '/us/guides/hurricane-plan-cpap-oxygen/',
+    '/us/guides/miami-hurricane-cpap-oxygen/': '/us/guides/hurricane-plan-cpap-oxygen/',
+    '/us/guides/new-orleans-hurricane-cpap-oxygen/': '/us/guides/hurricane-plan-cpap-oxygen/',
+    '/us/guides/tampa-hurricane-cpap-oxygen/': '/us/guides/hurricane-plan-cpap-oxygen/',
   },
   integrations: [
     sitemap({
@@ -136,6 +150,8 @@ export default defineConfig({
       serialize(item) {
         const lastmod = LASTMOD_MAP.get(item.url);
         if (lastmod) item.lastmod = lastmod;
+        const links = HREFLANG_BY_URL.get(item.url);
+        if (links) item.links = links;
         return item;
       },
     }),

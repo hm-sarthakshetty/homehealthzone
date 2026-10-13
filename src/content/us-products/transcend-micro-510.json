@@ -1,0 +1,60 @@
+{
+  "slug": "transcend-micro-510",
+  "source_url": "https://www.mytranscend.com/products/transcend-micro-510-auto-cpap",
+  "product_name": "Transcend Micro 510 Auto CPAP",
+  "brand": "Transcend",
+  "brand_href": "https://www.mytranscend.com/products/transcend-micro-510-auto-cpap",
+  "category": "Travel CPAP",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 829,
+      "currency": "USD",
+      "source_url": "https://www.cpap.com/products/transcend-micro-510-travel-cpap-machine",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Travel auto CPAP",
+    "Pressure": "4-20 cmH2O",
+    "Weight": "0.48 lb",
+    "Humidification": "Waterless (AirMist HME)"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Pressure range": "4-20 cmH2O",
+      "Sound level": "27 dBA",
+      "Weight": "0.48 lb",
+      "Dimensions": "3.6 x 3.6 x 2.4 in",
+      "Max altitude": "8,000 ft",
+      "Humidification": "AirMist HME (waterless)",
+      "Battery": "Optional PowerAway battery",
+      "Warranty": "3 years",
+      "FAA compliant": "Yes (manufacturer)",
+      "Notes": "Specs from Transcend. Prescription required."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "pressure_min_cmh2o": 4,
+    "pressure_max_cmh2o": 20,
+    "noise_db": 27,
+    "weight_kg": 0.22,
+    "has_humidifier": false,
+    "faa_approved": true,
+    "warranty_years": 3,
+    "altitude_ft": 8000
+  },
+  "device_type": "cpap"
+}

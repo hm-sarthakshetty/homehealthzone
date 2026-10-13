@@ -1,0 +1,60 @@
+{
+  "slug": "resmed-airmini-autoset",
+  "source_url": "https://document.resmed.com/documents/products/machine/airmini/user-guide/airmini_user-guide_amer_eng.pdf",
+  "product_name": "ResMed AirMini AutoSet",
+  "brand": "ResMed",
+  "brand_href": "https://eshop.resmed.com/products/airmini-autoset",
+  "category": "Travel CPAP",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 919,
+      "currency": "USD",
+      "source_url": "https://eshop.resmed.com/products/airmini-autoset",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Travel auto CPAP",
+    "Pressure": "4-20 cmH2O",
+    "Weight": "10.6 oz",
+    "Humidification": "Waterless (HumidX/HumidX Plus)"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Modes": "AutoSet, AutoSet for Her, CPAP",
+      "Pressure range": "4-20 cmH2O",
+      "Sound pressure level": "29 dBA (ISO 80601-2-70, CPAP mode)",
+      "Weight": "10.6 oz (300 g)",
+      "Dimensions": "5.4 x 3.3 x 2.1 in",
+      "Operating altitude": "Sea level to 8,500 ft",
+      "Typical power consumption": "6.3 W",
+      "Warranty": "2 years (machine)",
+      "FAA": "Meets FAA RTCA/DO-160 section 21, category M (manufacturer)",
+      "Notes": "Specs from the ResMed AirMini user guide. Prescription required."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "pressure_min_cmh2o": 4,
+    "pressure_max_cmh2o": 20,
+    "noise_db": 29,
+    "weight_kg": 0.3,
+    "has_humidifier": false,
+    "faa_approved": true,
+    "warranty_years": 2,
+    "altitude_ft": 8500
+  },
+  "device_type": "cpap"
+}

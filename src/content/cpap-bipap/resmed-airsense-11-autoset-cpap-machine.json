@@ -8,6 +8,20 @@
   "price_current": "63,390.00",
   "price_mrp": "105,600.00",
   "price_symbol": "₹",
+  "prices": {
+    "IN": {
+      "amount": 63390,
+      "currency": "INR",
+      "mrp": 105600
+    },
+    "US": {
+      "amount": 1004,
+      "currency": "USD",
+      "source_url": "https://www.cpap.com/products/resmed-airsense-11-autoset",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": ["IN", "US"],
   "rating_value": "4.9 (244)",
   "rating_count": "244",
   "stock": "In Stock",

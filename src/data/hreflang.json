@@ -1,0 +1,49 @@
+{
+  "_comment": "Pages with a regional twin. Each entry maps hreflang locale -> path. India (en-IN) is the unprefixed default and the x-default. Only pair pages that serve the same intent. Read by BaseLayout.astro and the sitemap serializer in astro.config.mjs.",
+  "pairs": [
+    {
+      "en-IN": "/",
+      "en-US": "/us/"
+    },
+    {
+      "en-IN": "/guides/oxygen-concentrators-buyers-guide-india/",
+      "en-US": "/us/guides/oxygen-concentrator-buyers-guide/"
+    },
+    {
+      "en-IN": "/guides/",
+      "en-US": "/us/guides/"
+    },
+    {
+      "en-IN": "/guides/5-lpm-vs-10-lpm/",
+      "en-US": "/us/guides/5-lpm-vs-10-lpm/"
+    },
+    {
+      "en-IN": "/guides/philips-dreamstation-cpap-alternatives-india/",
+      "en-US": "/us/guides/philips-dreamstation-cpap-alternatives/"
+    },
+    {
+      "en-IN": "/guides/best-cpap-masks-india/",
+      "en-US": "/us/guides/best-cpap-masks/"
+    },
+    {
+      "en-IN": "/guides/best-travel-cpap-machines-india/",
+      "en-US": "/us/guides/best-travel-cpap-machines/"
+    },
+    {
+      "en-IN": "/guides/resmed-airsense-10-vs-airsense-11-india/",
+      "en-US": "/us/guides/airsense-11-vs-airsense-10/"
+    },
+    {
+      "en-IN": "/guides/cpap-vs-bipap-indications/",
+      "en-US": "/us/guides/apap-vs-cpap-vs-bipap/"
+    },
+    {
+      "en-IN": "/guides/how-to-check-new-vs-refurbished-oxygen-concentrator/",
+      "en-US": "/us/guides/used-refurbished-oxygen-concentrator/"
+    },
+    {
+      "en-IN": "/guides/oxygen-cylinder-vs-concentrator/",
+      "en-US": "/us/guides/oxygen-cylinders-vs-concentrators/"
+    }
+  ]
+}

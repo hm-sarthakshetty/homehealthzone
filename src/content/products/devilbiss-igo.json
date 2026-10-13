@@ -8,6 +8,13 @@
   "price_current": "120,000.00",
   "price_mrp": "211,200.00",
   "price_symbol": "₹",
+  "prices": {
+    "IN": {
+      "amount": 120000,
+      "currency": "INR",
+      "mrp": 211200
+    }
+  },
   "rating_value": null,
   "rating_count": null,
   "stock": "Discontinued",

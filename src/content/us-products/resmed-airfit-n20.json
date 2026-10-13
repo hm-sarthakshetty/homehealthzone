@@ -1,0 +1,42 @@
+{
+  "slug": "resmed-airfit-n20",
+  "source_url": "https://eshop.resmed.com/products/airfit-n20-complete-mask-system",
+  "product_name": "ResMed AirFit N20",
+  "brand": "ResMed",
+  "brand_href": "https://eshop.resmed.com/products/airfit-n20-complete-mask-system",
+  "category": "CPAP mask",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 105,
+      "currency": "USD",
+      "source_url": "https://eshop.resmed.com/products/airfit-n20-complete-mask-system",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Nasal mask",
+    "Medicare code": "A7034 (nasal interface)"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Style": "Nasal mask",
+      "Medicare HCPCS": "A7034 (nasal interface)",
+      "Notes": "Price is ResMed's own US shop list price. Prescription required."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {},
+  "device_type": "cpap-mask"
+}

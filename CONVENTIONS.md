@@ -97,3 +97,11 @@ JSON-LD schema (emit `<script type="application/ld+json">`):
 - Don't invent products not in the content collections.
 - Don't use inline styles for anything reusable.
 - Don't hardcode `https://homehealthzone.com` — use `Astro.site`.
+
+## Markets and prices (multi-country)
+
+- India stays the unprefixed default. Other markets live under a path prefix: `/us/` hub, `/us/guides/{slug}/` (collection `us-guides`, MDX in `src/content/us-guides/`).
+- Prices: read through `src/lib/price.ts` (`resolvePrice` / `formatPrice`), never by concatenating `price_symbol + price_current`. Canonical numeric store is `prices.{IN,US,GB}` in the product JSON; legacy `price_*` text fields remain for India during the transition.
+- A product appears in a market only when `countries` includes it AND `prices.<CC>` has a verified `amount`, `source_url` and `checked_at`. Never guess a price — leave it out.
+- In MDX prose use `<Price slug="..." country="US" />` instead of typing a number.
+- hreflang: declare regional twins in `src/data/hreflang.json`; BaseLayout and the sitemap read it. Only pair pages with the same intent.

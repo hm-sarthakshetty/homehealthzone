@@ -1,5 +1,6 @@
 import { getCollection } from 'astro:content';
 import type { APIRoute } from 'astro';
+import { resolvePrice } from '../../lib/price';
 
 const SITE = 'https://homehealthzone.com';
 
@@ -38,7 +39,9 @@ export const GET: APIRoute = async () => {
         price: {
           current: entry.data.price_current ?? null,
           mrp: entry.data.price_mrp ?? null,
-          currency_symbol: entry.data.price_symbol || '₹',
+          currency_symbol: resolvePrice(entry.data).symbol,
+          // Numeric per-country prices (IN migrated from the legacy text).
+          by_country: entry.data.prices ?? {},
         },
         stock_text: entry.data.stock || null,
         normalized_specs: entry.data.normalized_specs,

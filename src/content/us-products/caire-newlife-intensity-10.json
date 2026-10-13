@@ -1,0 +1,55 @@
+{
+  "slug": "caire-newlife-intensity-10",
+  "source_url": "https://files.caireinc.com/CutSheets-Lit/ML-CONC0084.pdf",
+  "product_name": "CAIRE NewLife Intensity 10",
+  "brand": "CAIRE",
+  "brand_href": "https://files.caireinc.com/CutSheets-Lit/ML-CONC0084.pdf",
+  "category": "10 LPM",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 1299,
+      "currency": "USD",
+      "source_url": "https://www.vitalitymedical.com/airsep-newlife-intensity-10-oxygen-concentrator.html",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Home stationary, continuous flow",
+    "Continuous Flow": "2.0-10.0 LPM",
+    "Outlet pressure": "20 psig",
+    "Weight": "58 lb"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Continuous flow": "2.0-10.0 LPM",
+      "Outlet pressure": "20 psig (138 kPa)",
+      "Power": "600 W",
+      "Weight": "58 lb (26.3 kg)",
+      "Sound level": "58 dB(A)",
+      "Dimensions": "27.5 x 16.5 x 14.5 in",
+      "Max tubing": "200 ft",
+      "Notes": "Specs from the CAIRE cut sheet. Price is the retailer's listed sale price for the dual-flowmeter configuration with oxygen monitor. Prescription required."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 26.3,
+    "flow_min_lpm": 2,
+    "flow_max_lpm": 10,
+    "noise_db": 58,
+    "power_w": 600
+  },
+  "device_type": "oxygen-concentrator"
+}

@@ -1,0 +1,88 @@
+---
+title: "myAir vs OSCAR: understanding your CPAP data (2026)"
+description: "ResMed's myAir app and the free OSCAR software compared: what each shows, the myAir score breakdown, compatible devices, SD card cautions from ResMed, and how to use your data with your clinician."
+datePublished: "2026-10-13"
+lastReviewed: "2026-10-13"
+nextReview: "2027-04-13"
+author: "HHZ Editorial"
+tags: ["cpap", "myair", "oscar", "data", "resmed", "united-states"]
+answer: "myAir is ResMed's free app for AirSense 10, AirSense 11 and AirCurve 10 devices. It gives a nightly 0 to 100 score (usage up to 70 points, mask seal 20, events per hour 5, mask on/off 5) plus coaching, and AirSense 11 users get Bluetooth features like Test Drive. OSCAR is free open-source desktop software that reads the high-resolution data on your machine's SD card and graphs it breath by breath, across many brands. Use myAir for a daily check and OSCAR for detail, and take questions about pressure to your clinician. ResMed says to remove the SD card only when your care provider asks."
+faqs:
+  - q: "What is the myAir score?"
+    a: "A nightly score out of 100 from ResMed's myAir app. Usage earns up to 70 points (10 points per hour), mask seal up to 20, events per hour up to 5, and mask on/off up to 5, according to ResMed's myAir user guide."
+  - q: "Does myAir work with the AirSense 10?"
+    a: "Yes. ResMed lists the AirSense 10 and AirCurve 10 as compatible, with data reaching myAir indirectly through ResMed's AirView cloud. Bluetooth features such as Test Drive are only available on the AirSense 11."
+  - q: "What is OSCAR?"
+    a: "OSCAR (Open Source CPAP Analysis Reporter) is free desktop software for reviewing data from CPAP and related machines. It reads the high-resolution data stored on the machine's SD card and graphs it down to breath-by-breath detail. It runs on Windows, Mac and Linux, and its site lists Chromebook and Raspberry Pi OS versions."
+  - q: "Is it safe to take the SD card out of my ResMed?"
+    a: "ResMed's AirSense 11 guide says to remove the SD card only when your care provider instructs you, never while the SD light is flashing, and that the card shouldn't be used for any other purpose because that may corrupt the stored therapy data. If you use OSCAR, ask your care provider first and follow those cautions."
+  - q: "Can I change my CPAP pressure based on OSCAR?"
+    a: "No. OSCAR and myAir are for viewing data. Pressure changes are a prescription decision for your clinician, who can also look at the data with you."
+---
+
+Your CPAP records every night. Two tools let you see that data: ResMed's **myAir** app and the free, open-source **OSCAR** software. They answer different questions.
+
+## Side by side
+
+| | myAir | OSCAR |
+| --- | --- | --- |
+| Made by | ResMed | The OSCAR Team (open source) |
+| Cost | Free app | Free ("never asks for payment") |
+| Machines | AirSense 11, AirSense 10, AirCurve 10 (per ResMed's US guide) | Many brands; the release notes list ResMed, React Health (BMC/G3 X), Löwenstein, Yuwell and others |
+| How data gets there | Bluetooth (AirSense 11) or ResMed's AirView cloud | Copied from the machine's SD card |
+| Detail | Nightly summary: usage, mask seal, events per hour, mask on/off | High-resolution graphs, down to breath by breath |
+| Coaching | Yes; Personal Therapy Assistant and Test Drive on AirSense 11 | No |
+| Platforms | Phone app (App Store, Google Play) | Windows 10/11, macOS, Linux, Chromebook, Raspberry Pi OS |
+
+Sources: [ResMed myAir user guide](https://document.resmed.com/documents/products/data-management/myair/user-guide/myair_user-guide_amer-anz_eng-fre.pdf), [ResMed myAir page](https://www.resmed.com.au/healthcare-professionals/airsolutions/patient-engagement/myair), [OSCAR download page](https://www.sleepfiles.com/OSCAR/) (v2.1.0, released 9 October 2026).
+
+## The myAir score
+
+From ResMed's [myAir user guide](https://document.resmed.com/documents/products/data-management/myair/user-guide/myair_user-guide_amer-anz_eng-fre.pdf):
+
+| Category | Points | How |
+| --- | --- | --- |
+| Usage hours | Up to 70 | 10 points per hour (2.3 hours = 23 points) |
+| Mask seal | Up to 20 | 20 for minimal leak, 10–15 moderate, 0–10 high |
+| Events per hour | Up to 5 | 4–5 for minimal events (this is your AHI) |
+| Mask on/off | Up to 5 | 5 if you take the mask off once or twice |
+
+Usage carries most of the weight, so a high score mostly means you wore it. A low **mask seal** score points to [mask leaks](/us/guides/cpap-mask-leak/). Low **events** points suggest your [AHI is high](/us/guides/high-ahi-on-cpap/).
+
+On the AirSense 11, myAir connects over Bluetooth and adds **Test Drive**, which introduces you to therapy at gradually higher pressures (7 and 10 cmH₂O), and Personal Therapy Assistant setup guides. On the AirSense 10, myAir gets your data indirectly through ResMed's AirView cloud ([myAir user guide](https://document.resmed.com/documents/products/data-management/myair/user-guide/myair_user-guide_amer-anz_eng-fre.pdf)). Your machine needs a wireless connection for that.
+
+## OSCAR
+
+The OSCAR project describes it as PC software "for reviewing and exploring data produced by CPAP and related machines used in the treatment of sleep apnea". It reads "the high-resolution sleep data that is generated by the CPAP and stored on the SD card" and graphs it "down to a breath by breath level". The site says OSCAR is also used by physicians, therapists and researchers, and allows comparisons across machine types and manufacturers ([OSCAR](https://www.sleepfiles.com/OSCAR/)).
+
+### ResMed's SD card cautions
+
+ResMed's [AirSense 11 user guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf) says:
+
+- Remove the SD card **only when instructed by your care provider**.
+- **Don't remove it while the SD light is flashing**, because data is being written.
+- The SD card "should not be used for any other purpose as it may corrupt therapy data stored on the card."
+
+The AirSense 10 guide has the same caution. If you want to use OSCAR, ask your care provider first, keep those cautions in mind, and never interrupt a write. Your machine also sends data to your provider wirelessly.
+
+## Which to use
+
+| Goal | Tool |
+| --- | --- |
+| Daily check that therapy is working | myAir |
+| Medicare 90-day compliance | Ask your supplier; myAir shows your usage hours, but your supplier and clinician handle the paperwork |
+| Finding when leaks happen during the night | OSCAR |
+| Getting started on an AirSense 11 | myAir (Test Drive, Personal Therapy Assistant) |
+| Non-ResMed machine | OSCAR, or the maker's own app |
+
+Medicare's adherence rule (at least 4 hours a night on 70% of nights in a consecutive 30-day period) is explained in [Medicare CPAP coverage](/us/guides/medicare-cpap-coverage-compliance/). The AASM suggests telemonitoring-guided interventions in the early period of PAP therapy ([AASM 2019](https://pmc.ncbi.nlm.nih.gov/articles/PMC6374094/)).
+
+## Accuracy
+
+Both tools show what the machine records. ResMed notes that some measurements may be inaccurate with leaks or supplemental oxygen ([AirSense 11 user guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/airsense11_user-guide_amer_mul.pdf)). See [CPAP with oxygen](/us/guides/cpap-with-oxygen/).
+
+## Verdict
+
+Use myAir every morning: it's simple, free, and on an AirSense 11 it helps you settle into therapy. Use OSCAR when you want to see what happened during the night, especially for leaks, but follow ResMed's SD card cautions and check with your care provider. Either way, pressure changes go through your clinician.
+
+Related: [AirSense 11 settings explained](/us/guides/airsense-11-settings/), [AirSense 11 vs AirSense 10](/us/guides/airsense-11-vs-airsense-10/), [CPAP dry mouth](/us/guides/cpap-dry-mouth/).

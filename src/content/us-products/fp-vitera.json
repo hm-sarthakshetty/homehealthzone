@@ -1,0 +1,40 @@
+{
+  "slug": "fp-vitera",
+  "source_url": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask",
+  "product_name": "F&P Vitera",
+  "brand": "Fisher & Paykel",
+  "brand_href": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask",
+  "category": "CPAP mask",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 149,
+      "currency": "USD",
+      "source_url": "https://www.cpap.com/products/fisher-paykel-vitera-full-face-mask",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Full face"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Type": "Full face",
+      "Notes": "CPAP.com complete-mask price; specs from F&P use and care guide."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {},
+  "device_type": "cpap-mask"
+}

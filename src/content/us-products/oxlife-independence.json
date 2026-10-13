@@ -1,0 +1,55 @@
+{
+  "slug": "oxlife-independence",
+  "source_url": "https://www.o2-concepts.com/products",
+  "product_name": "O2 Concepts Oxlife Independence",
+  "brand": "O2 Concepts",
+  "brand_href": "https://www.o2-concepts.com/products",
+  "category": "Portable",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 3195,
+      "currency": "USD",
+      "source_url": "https://www.thecpapshop.com/o2-concepts-oxlife-independence-portable-oxygen-concentrator",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Portable, continuous and pulse",
+    "Continuous flow": "0.5-3 LPM",
+    "Pulse settings": "0.5-6.0",
+    "Weight": "16.7 lb"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Continuous flow": "0.5-3 LPM",
+      "Pulse": "0.5-6.0 (8-96 mL)",
+      "Weight": "16.7 lb (cart kit extra)",
+      "Altitude": "0-13,123 ft",
+      "Warranty": "5 years (new)",
+      "Notes": "Specs from O2 Concepts manual 800-1097 Rev C. Prescription required."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 7.57,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 3,
+    "has_pulse_flow": true,
+    "faa_approved": true,
+    "warranty_years": 5,
+    "altitude_ft": 13123
+  },
+  "device_type": "portable-oxygen-concentrator"
+}

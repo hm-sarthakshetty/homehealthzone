@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { formatPrice, resolvePrice } from '../lib/price';
 
 type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
 
@@ -38,9 +39,11 @@ const products = entries
       category: e.data.category || '',
       group: groupFor(e),
       searchKey: `${e.data.brand} ${e.data.product_name}`.toLowerCase(),
-      price: e.data.price_current ?? null,
-      mrp: e.data.price_mrp ?? null,
-      price_symbol: e.data.price_symbol || '₹',
+      // Client renders `${price_symbol}${price}`; values come from the shared
+      // resolver so the payload stays identical for India.
+      price: formatPrice(resolvePrice(e.data), 'current', 'bare') ?? e.data.price_current ?? null,
+      mrp: formatPrice(resolvePrice(e.data), 'mrp', 'bare') ?? e.data.price_mrp ?? null,
+      price_symbol: resolvePrice(e.data).symbol,
       stock: e.data.stock || '',
       image: firstImage?.src ?? null,
       alt: firstImage?.alt ?? e.data.product_name,

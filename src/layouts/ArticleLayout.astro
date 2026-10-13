@@ -8,7 +8,10 @@ import ArticleCard from '../components/ArticleCard.astro';
 import { getCollection, type CollectionEntry } from 'astro:content';
 
 type ArticleSection = 'guides' | 'clinical';
-type ArticleEntry = CollectionEntry<'guides'> | CollectionEntry<'clinical'>;
+type ArticleEntry =
+  | CollectionEntry<'guides'>
+  | CollectionEntry<'clinical'>
+  | CollectionEntry<'us-guides'>;
 
 export interface Props {
   entry: ArticleEntry;
@@ -18,6 +21,8 @@ export interface Props {
   description?: string;
   canonicalURL?: string;
   headings?: Array<{ depth: number; slug: string; text: string }>;
+  /** Market. 'US' switches language/date locale, breadcrumbs and related links to the US section. */
+  market?: 'IN' | 'US';
 }
 
 const {
@@ -27,23 +32,33 @@ const {
   title: titleProp,
   description: descriptionProp,
   canonicalURL,
+  market = 'IN',
 } = Astro.props;
+const isUS = market === 'US';
+const locale = isUS ? 'en-US' : 'en-IN';
 
 const frontmatter = entry.data;
 const isClinical = section === 'clinical';
 const basePath = `/${section}/`;
 
-const breadcrumbs = [
-  { href: '/', label: 'Home' },
-  { href: basePath, label: sectionLabel },
-  { label: frontmatter.title },
-];
+const breadcrumbs = isUS
+  ? [
+      { href: '/', label: 'Home' },
+      { href: '/us/', label: 'United States' },
+      { href: '/us/guides/', label: 'Guides' },
+      { label: frontmatter.title },
+    ]
+  : [
+      { href: '/', label: 'Home' },
+      { href: basePath, label: sectionLabel },
+      { label: frontmatter.title },
+    ];
 
 function formatDate(iso?: string): string | null {
   if (!iso) return null;
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return null;
-  return d.toLocaleDateString('en-IN', {
+  return d.toLocaleDateString(locale, {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
@@ -70,11 +85,10 @@ const readingMinutes = wordCount > 0 ? Math.max(1, Math.round(wordCount / 220)) 
 // tokens provide a fallback for older entries with sparse tags.
 let related: ArticleEntry[] = [];
 try {
-  const [clinicalEntries, guideEntries] = await Promise.all([
-    getCollection('clinical'),
-    getCollection('guides'),
-  ]);
-  const entries: ArticleEntry[] = [...clinicalEntries, ...guideEntries];
+  // US pages only cross-link other US pages; India pages keep the original graph.
+  const entries: ArticleEntry[] = isUS
+    ? await getCollection('us-guides')
+    : [...(await getCollection('clinical')), ...(await getCollection('guides'))];
   const currentTags = new Set((frontmatter.tags ?? []).map((tag) => tag.toLowerCase()));
   const stopwords = new Set([
     'and', 'are', 'best', 'for', 'from', 'how', 'india', 'into', 'the', 'this',
@@ -119,7 +133,7 @@ const description = descriptionProp ?? frontmatter.description;
 const answer: string | undefined = (frontmatter as any).answer;
 const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
 ---
-<BaseLayout title={title} description={description} canonicalURL={canonicalURL}>
+<BaseLayout title={title} description={description} canonicalURL={canonicalURL} lang={isUS ? 'en-US' : undefined}>
   <article class="article">
     <Breadcrumbs items={breadcrumbs} />
 
@@ -195,7 +209,7 @@ const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
     author={frontmatter.author ?? 'HHZ Editorial'}
     authorUrl={frontmatter.author === 'HHZ Editorial' || !frontmatter.author ? '/authors/hhz-editorial/' : undefined}
     wordCount={wordCount || undefined}
-    inLanguage="en-IN"
+    inLanguage={locale}
   />
   {faqs.length > 0 && <SchemaFAQ faqs={faqs} />}
   {isClinical && (

@@ -1,0 +1,42 @@
+{
+  "slug": "resmed-airfit-f20",
+  "source_url": "https://eshop.resmed.com/products/airfit-f20-complete-mask-system",
+  "product_name": "ResMed AirFit F20",
+  "brand": "ResMed",
+  "brand_href": "https://eshop.resmed.com/products/airfit-f20-complete-mask-system",
+  "category": "CPAP mask",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 155,
+      "currency": "USD",
+      "source_url": "https://eshop.resmed.com/products/airfit-f20-complete-mask-system",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Full face",
+    "Medicare code": "A7030 (full face mask)"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Style": "Full face",
+      "Medicare HCPCS": "A7030 (full face mask)",
+      "Notes": "Price is ResMed's own US shop list price. Prescription required."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {},
+  "device_type": "cpap-mask"
+}

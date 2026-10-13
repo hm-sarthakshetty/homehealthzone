@@ -1,0 +1,48 @@
+{
+  "slug": "resmed-airsense-11-autoset-eshop",
+  "source_url": "https://eshop.resmed.com/products/airsense-11-autoset-machine-with-humidair-and-standard-tubing",
+  "product_name": "ResMed AirSense 11 AutoSet (with HumidAir and standard tubing)",
+  "brand": "ResMed",
+  "brand_href": "https://eshop.resmed.com/products/airsense-11-autoset-machine-with-humidair-and-standard-tubing",
+  "category": "Auto CPAP",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 1054,
+      "currency": "USD",
+      "source_url": "https://eshop.resmed.com/products/airsense-11-autoset-machine-with-humidair-and-standard-tubing",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Auto CPAP",
+    "Pressure": "4-20 cmH2O"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Pressure range": "4-20 cmH2O",
+      "Altitude": "Sea level to 9,870 ft",
+      "Notes": "ResMed eShop price, standard tubing bundle."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "pressure_min_cmh2o": 4,
+    "pressure_max_cmh2o": 20,
+    "has_humidifier": true,
+    "warranty_years": 2,
+    "altitude_ft": 9870
+  },
+  "device_type": "cpap"
+}

@@ -152,9 +152,7 @@ const topFive = topFivePillar(product.category);
         {!isDiscontinued && (
           <>
             <PriceBadge
-              current={product.price_current}
-              mrp={product.price_mrp}
-              symbol={product.price_symbol}
+              product={product}
             />
             <PriceDisclaimer />
           </>

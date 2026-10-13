@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { resolvePrice, schemaOfferPrice, type Country } from '../lib/price';
 
 type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
 
@@ -16,9 +17,10 @@ export interface Props {
     author?: string;
     reviewedBy?: string;
   };
+  country?: Country;
 }
 
-const { product, canonicalURL, reviewFrontmatter } = Astro.props;
+const { product, canonicalURL, reviewFrontmatter, country = 'IN' } = Astro.props;
 
 const siteOrigin = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
 const pageUrl = canonicalURL ?? (product.slug ? `${siteOrigin}/oxygen-concentrators/${product.slug}/` : undefined);
@@ -53,15 +55,15 @@ if (product.brand) {
 }
 
 const stockLc = product.stock?.toLowerCase() ?? '';
-const price = product.price_current?.replace(/,/g, '').trim();
-if (price && /^\d+(?:\.\d+)?$/.test(price) && !stockLc.includes('discontinued')) {
+const offerPrice = schemaOfferPrice(resolvePrice(product, country));
+if (offerPrice && !stockLc.includes('discontinued')) {
   const availability = stockLc.includes('out') || stockLc.includes('sold')
     ? 'https://schema.org/OutOfStock'
     : 'https://schema.org/InStock';
   ld.offers = {
     '@type': 'Offer',
-    price,
-    priceCurrency: product.price_symbol === '₹' ? 'INR' : undefined,
+    price: offerPrice.price,
+    priceCurrency: offerPrice.priceCurrency,
     availability,
     url: pageUrl,
   };

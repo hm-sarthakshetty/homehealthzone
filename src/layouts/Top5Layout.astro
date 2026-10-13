@@ -1,5 +1,6 @@
 ---
 import BaseLayout from './BaseLayout.astro';
+import { currencyForCountry } from '../lib/price';
 import SchemaFAQ from '../components/SchemaFAQ.astro';
 
 interface RankingItem {
@@ -59,7 +60,7 @@ const itemListLd =
               ? {
                   '@type': 'Offer',
                   price: r.price.replace(/[^\d.]/g, ''),
-                  priceCurrency: 'INR',
+                  priceCurrency: currencyForCountry('IN'),
                   url: abs(r.url),
                 }
               : undefined,
