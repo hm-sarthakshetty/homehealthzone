@@ -4,7 +4,7 @@ import cityPages from '../data/oxygenConcentratorCityPages.json';
 
 const SITE_NAME = 'HHZ Respiratory Review';
 const SITE_DESCRIPTION =
-  'Independent editorial reviews of oxygen concentrators, CPAP, BiPAP, and respiratory equipment sold in India.';
+  'Editorial reviews of oxygen concentrators, CPAP, BiPAP, and respiratory equipment sold in India and the US.';
 const BUYER_INTENT_REVIEW_DATE = '2026-07-09';
 
 interface JsonFeedItem {

@@ -616,6 +616,18 @@ hr {
 .stock--out, .stock--discontinued { color: var(--color-error); }
 
 /* Footer */
+.market-switch {
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+.market-switch__label {
+  margin-right: 0.35rem;
+}
+.market-switch a[aria-current='true'] {
+  font-weight: 600;
+  text-decoration: none;
+}
+
 .site-footer {
   border-top: 2px solid var(--color-rule);
   padding: var(--space-10) 0 var(--space-6);

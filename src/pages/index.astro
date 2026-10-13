@@ -17,7 +17,7 @@ const allProducts = [...products, ...cpapBipap];
 const cpapCount = cpapBipap.filter((e) => e.data.device_type === 'cpap').length;
 const bipapCount = cpapBipap.filter((e) => e.data.device_type === 'bipap').length;
 
-// "Popular" quick links — highest-rated + best-known devices in the Indian market
+// "Popular" quick links — highest-rated + best-known devices in the Indian market (India catalogue)
 const popularSlugs = [
   'home-medix-10-lpm',
   'home-medix-5-lpm',
@@ -49,15 +49,23 @@ const categoryCards = [
 ];
 
 const desc =
-  "Every oxygen concentrator, CPAP, BiPAP, and nebulizer sold in India scored against the same published rubric — specs, prices in rupees, clinical context, and editorial verdicts.";
+  "Respiratory-equipment reference for India and the US: oxygen concentrators, CPAP and BiPAP scored against one published rubric, with specs, prices and clinical context.";
 ---
 <BaseLayout title="HHZ Respiratory Review" description={desc}>
   <section class="home-hero">
     <p class="home-hero__kicker">HHZ · {allProducts.length} respiratory devices indexed</p>
-    <h1>India's respiratory-equipment reference.</h1>
+    <h1>Respiratory-equipment reference for India and the US.</h1>
     <p class="lead">
-      Every oxygen concentrator, CPAP, and BiPAP sold in the country, scored against the same published rubric.
+      Oxygen concentrators, CPAP, and BiPAP, scored against the same published rubric.
     </p>
+  </section>
+
+  <section class="home-markets" aria-labelledby="home-markets-heading">
+    <h2 id="home-markets-heading" class="section-kicker">Choose your market</h2>
+    <ul class="home-markets__list">
+      <li><a href="/"><strong>India</strong></a>: every oxygen concentrator, CPAP, and BiPAP sold in the country, with prices in rupees. The catalogue and guides below cover India.</li>
+      <li><a href="/us/"><strong>United States</strong></a>: oxygen concentrators and CPAP sold in the US, with USD prices, FDA prescription rules and Medicare basics.</li>
+    </ul>
   </section>
 
   <section class="home-search" aria-labelledby="home-search-heading">

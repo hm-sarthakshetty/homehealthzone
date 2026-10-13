@@ -93,6 +93,11 @@ const footerNav = [
 ];
 
 const currentPath = Astro.url.pathname;
+const isUS = currentPath === '/us/' || currentPath.startsWith('/us/');
+const markets = [
+  { href: '/', label: 'India', current: !isUS },
+  { href: '/us/', label: 'United States', current: isUS },
+];
 const isCurrent = (href: string) =>
   currentPath === href || (href !== '/' && currentPath.startsWith(href));
 
@@ -185,6 +190,15 @@ const hreflangLinks = hreflangPair
             </a>
           ))}
         </nav>
+        <nav class="market-switch" aria-label="Market">
+          <span class="market-switch__label">Market:</span>
+          {markets.map((m, i) => (
+            <>
+              <a href={m.href} aria-current={m.current ? 'true' : undefined}>{m.label}</a>
+              {i < markets.length - 1 && <span aria-hidden="true"> | </span>}
+            </>
+          ))}
+        </nav>
       </div>
     </header>
 
@@ -200,7 +214,10 @@ const hreflangLinks = hreflangPair
           ))}
         </nav>
         <p>
-          © {new Date().getFullYear()} {SITE_NAME}. Every respiratory device sold in India, scored
+          Choose your market: <a href="/">India</a> | <a href="/us/">United States</a>
+        </p>
+        <p>
+          © {new Date().getFullYear()} {SITE_NAME}. Respiratory equipment sold in India and the US, scored
           against the same <a href="/methodology/">published rubric</a>.
         </p>
       </div>
