@@ -138,6 +138,10 @@ export default defineConfig({
     '/clinical/understanding-spo2-vs-pao2-vs-sao2/': '/clinical/spo2-vs-pao2-vs-sao2/',
     '/clinical/stabiliser-vs-ups-vs-inverter-for-concentrators/': '/clinical/stabilizer-ups-vs-inverter-for-concentrator/',
     '/clinical/traveling-with-oxygen-concentrator-india/': '/clinical/traveling-with-oxygen-indian-railways-indigo-air-india/',
+    '/us/guides/houston-hurricane-cpap-oxygen/': '/us/guides/hurricane-plan-cpap-oxygen/',
+    '/us/guides/miami-hurricane-cpap-oxygen/': '/us/guides/hurricane-plan-cpap-oxygen/',
+    '/us/guides/new-orleans-hurricane-cpap-oxygen/': '/us/guides/hurricane-plan-cpap-oxygen/',
+    '/us/guides/tampa-hurricane-cpap-oxygen/': '/us/guides/hurricane-plan-cpap-oxygen/',
   },
   integrations: [
     sitemap({
