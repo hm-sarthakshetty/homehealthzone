@@ -23,6 +23,25 @@ const normalizedSpecsSchema = z
   })
   .default({});
 
+// Per-country price map. Canonical numeric store for multi-currency pages and
+// the target for automated price updates. Legacy price_* text fields stay
+// valid during the transition (see src/lib/price.ts).
+const priceEntrySchema = z.object({
+  amount: z.number().positive(),
+  currency: z.enum(['INR', 'USD', 'GBP']),
+  mrp: z.number().positive().optional(),
+  source_url: z.url().optional(),
+  checked_at: z.string().optional(),
+});
+
+const pricesSchema = z
+  .object({
+    IN: priceEntrySchema.optional(),
+    US: priceEntrySchema.optional(),
+    GB: priceEntrySchema.optional(),
+  })
+  .optional();
+
 const productSchema = z.object({
   slug: z.string(),
   source_url: z.string(),
@@ -33,6 +52,9 @@ const productSchema = z.object({
   price_current: z.string().nullable().optional(),
   price_mrp: z.string().nullable().optional(),
   price_symbol: z.string().default('₹'),
+  prices: pricesSchema,
+  // Markets where the product is sold and may be listed. India is implicit.
+  countries: z.array(z.enum(['IN', 'US', 'GB'])).default(['IN']),
   rating_value: z.string().nullable().optional(),
   rating_count: z.string().nullable().optional(),
   stock: z.string().default(''),
