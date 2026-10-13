@@ -194,7 +194,7 @@ const cpapBipapReviews = defineCollection({
 const usProducts = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/us-products' }),
   schema: productSchema.extend({
-    device_type: z.enum(['oxygen-concentrator', 'portable-oxygen-concentrator', 'cpap', 'bipap']).default('oxygen-concentrator'),
+    device_type: z.enum(['oxygen-concentrator', 'portable-oxygen-concentrator', 'cpap', 'bipap', 'cpap-mask']).default('oxygen-concentrator'),
   }),
 });
 

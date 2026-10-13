@@ -1,0 +1,42 @@
+{
+  "slug": "resmed-airfit-n30i",
+  "source_url": "https://eshop.resmed.com/products/airfit-n30i-starter-pack",
+  "product_name": "ResMed AirFit N30i",
+  "brand": "ResMed",
+  "brand_href": "https://eshop.resmed.com/products/airfit-n30i-starter-pack",
+  "category": "CPAP mask",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 121,
+      "currency": "USD",
+      "source_url": "https://eshop.resmed.com/products/airfit-n30i-starter-pack",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Nasal cradle, tubing kept out of the way",
+    "Medicare code": "A7034 (nasal interface)"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Style": "Nasal cradle, tubing kept out of the way",
+      "Medicare HCPCS": "A7034 (nasal interface)",
+      "Notes": "Price is ResMed's own US shop list price. Prescription required."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {},
+  "device_type": "cpap-mask"
+}

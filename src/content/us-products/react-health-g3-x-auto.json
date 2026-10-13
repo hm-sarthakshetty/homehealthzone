@@ -1,0 +1,56 @@
+{
+  "slug": "react-health-g3-x-auto",
+  "source_url": "https://www.reacthealth.com/product/g3x-apap-device",
+  "product_name": "React Health G3 X APAP",
+  "brand": "React Health",
+  "brand_href": "https://www.reacthealth.com/product/g3x-apap-device",
+  "category": "Auto CPAP",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 873,
+      "currency": "USD",
+      "source_url": "https://www.cpap.com/products/react-health-g3-x-auto-cpap-machine",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Auto CPAP with integrated humidifier",
+    "Pressure": "4-20 cmH2O",
+    "Weight": "3.75 lb",
+    "Warranty": "5 years"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Modes": "CPAP, AutoCPAP",
+      "Pressure range": "4-20 cmH2O",
+      "Sound pressure": "<28 dB at 10 hPa",
+      "Weight": "3.75 lb",
+      "Water capacity": "360 mL",
+      "Heated tubing": "Yes (G4600)",
+      "Construction": "Foam-free (manufacturer claim)",
+      "Notes": "Specs from React Health. Prescription required."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "pressure_min_cmh2o": 4,
+    "pressure_max_cmh2o": 20,
+    "noise_db": 28,
+    "has_humidifier": true,
+    "warranty_years": 5,
+    "weight_kg": 1.7
+  },
+  "device_type": "cpap"
+}

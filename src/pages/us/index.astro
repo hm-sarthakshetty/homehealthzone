@@ -24,7 +24,13 @@ const usPortables = usOnly.filter(
   (e) => e.data.device_type === 'portable-oxygen-concentrator' && isUsListed(e.data)
 );
 const POC_GUIDE = '/us/guides/best-portable-oxygen-concentrator/';
-const usPap = pap.filter((e) => isUsListed(e.data));
+const usPap = [
+  ...pap.filter((e) => isUsListed(e.data)),
+  ...usOnly.filter((e) => e.data.device_type === 'cpap' && isUsListed(e.data)),
+];
+const usMasks = usOnly.filter((e) => e.data.device_type === 'cpap-mask' && isUsListed(e.data));
+const MASK_GUIDE = '/us/guides/best-cpap-masks/';
+const FLOW_GUIDE = '/us/guides/5-lpm-vs-10-lpm/';
 
 const OXYGEN_GUIDE = '/us/guides/oxygen-concentrator-buyers-guide/';
 const CPAP_GUIDE = '/us/guides/cpap-buyers-guide/';
@@ -63,7 +69,11 @@ const crumbs = [
       <h2 id="us-o2-heading">Home oxygen concentrators</h2>
       <div class="grid">
         {usConcentrators.map((entry) => (
-          <ProductCard entry={entry} country="US" href={OXYGEN_GUIDE} />
+          <ProductCard
+            entry={entry}
+            country="US"
+            href={(entry.data.normalized_specs?.flow_max_lpm ?? 0) >= 10 ? FLOW_GUIDE : OXYGEN_GUIDE}
+          />
         ))}
       </div>
     </section>
@@ -83,6 +93,15 @@ const crumbs = [
       <h2 id="us-pap-heading">CPAP machines</h2>
       <div class="grid">
         {usPap.map((entry) => <ProductCard entry={entry} country="US" href={CPAP_GUIDE} />)}
+      </div>
+    </section>
+  )}
+
+  {usMasks.length > 0 && (
+    <section aria-labelledby="us-mask-heading">
+      <h2 id="us-mask-heading">CPAP masks</h2>
+      <div class="grid">
+        {usMasks.map((entry) => <ProductCard entry={entry} country="US" href={MASK_GUIDE} />)}
       </div>
     </section>
   )}
