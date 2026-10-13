@@ -10789,6 +10789,105 @@ Energy Made Easy is run by the Australian Energy Regulator. Rebates outside NSW 
 
 ---
 
+# CPAP machine prices in Canada (2026)
+
+Source: https://homehealthzone.com/ca/guides/cpap-machine-price-canada/
+
+All prices are in Canadian dollars, read from each retailer’s store data on 14 October 2026. They exclude shipping, and tax is added at checkout. A prescription is usually needed. In Ontario, ADP pays 75% if you go through a registered sleep clinic and vendor; see [Ontario ADP CPAP funding](/ca/guides/ontario-adp-cpap-funding/).
+
+## Auto-CPAP machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 AutoSet (with ClimateLineAir 11 tube) | C$1,300 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airsense-11-autoset%E2%84%A2-with-humidair-and-climateline%E2%84%A2air-11-tube) |
+| ResMed AirSense 11 AutoSet (3-year warranty) | $1,435 | [Air Voel](https://airvoel.ca/products/resmed-airsense-11-autoset-cpap) |
+| ResMed AirSense 11 AutoSet (5-year extended) | $1,535 | [Air Voel](https://airvoel.ca/products/resmed-airsense-11-autoset-cpap) |
+| ResMed AirSense 11 AutoSet (SlimLine tube) | $1,435 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-11-autoset-cpap-with-integrated-humidifier) |
+| ResMed AirSense 11 AutoSet (heated tube) | $1,557 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-11-autoset-cpap-with-integrated-humidifier) |
+| ResMed AirSense 10 AutoSet | C$870 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airsense-10-autoset%E2%84%A2-with-humidair-and-climateline%E2%84%A2air) |
+| ResMed AirSense 10 AutoSet (with heated tube) | $1,444 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-10-autoset) |
+
+Air Voel and CPAP Machines Canada both showed “compare at” prices of $1,895–$1,900 next to the $1,435 price. We list the selling price.
+
+The same AirSense 10 AutoSet was **$574 cheaper** at Canadian CPAP Store than at CPAP Machines Canada, although the bundles differ. Compare what’s in the box.
+
+## Travel machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirMini AutoSet | C$1,270 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airmini-auto-ultra-portable-apap-machine) |
+| ResMed AirMini AutoSet | $1,313 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airmini-cpap-system) |
+| ResMed AirMini AutoSet | $1,313 | [Air Voel](https://airvoel.ca/products/resmed-airmini-autoset-travel-cpap) |
+
+The AirMini needs a mask-specific setup pack. Canadian CPAP Store listed these at $75–$83.
+
+## Bilevel
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | C$2,623 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/aircurve-10-vauto-copy) |
+| ResMed AirCurve 11 VAuto | $2,623 | [Air Voel](https://airvoel.ca/products/resmed-aircurve-11-vauto-bipap-device) |
+
+## Renting first
+
+Air Voel listed rentals of the AirSense 11 AutoSet, AirSense 10 AutoSet and AirMini at **$278** each. The page didn’t state the rental period.
+
+## Check the licence
+
+Canadian CPAP Store says its AirSense 11 is ResMed’s Canadian model, licensed by Health Canada. The AirSense 11 appears in Health Canada’s licence database as licence 106650. See [Health Canada licensing for CPAP and oxygen](/ca/guides/health-canada-licence-cpap-oxygen/).
+
+---
+
+# Ontario ADP funding for CPAP machines
+
+Source: https://homehealthzone.com/ca/guides/ontario-adp-cpap-funding/
+
+This guide is written from Ontario government pages: [Assistive Devices Program](https://www.ontario.ca/page/assistive-devices-program) and [respiratory equipment and supplies](https://www.ontario.ca/page/respiratory-equipment-and-supplies), read on 14 October 2026. Rules change, so check the pages before you buy.
+
+## Who qualifies
+
+Ontario’s Assistive Devices Program (ADP) helps people who:
+
+- live in Ontario and have a valid Ontario health card
+- have a physical disability that needs the equipment for **six months or longer**
+- meet the device’s clinical criteria
+
+Income is not considered. You are not eligible through ADP if the Workplace Safety and Insurance Board (WSIB) covers the same equipment, or if you are a Group A veteran receiving the same benefit from Veterans Affairs Canada.
+
+## What ADP covers for sleep apnoea
+
+| Covered | Not covered |
+| --- | --- |
+| CPAP, APAP and BPAP machines | Replacement masks and headgear for CPAP |
+| | Adaptive servo-ventilation (ASV) |
+| | Oral appliances for obstructive sleep apnoea |
+| | Stand-alone humidifiers |
+
+Hospital in-patients are excluded. People living in long-term care homes are generally excluded from ADP respiratory funding, but **can** get PAP funding.
+
+## Who pays what
+
+ADP pays **75%** of the ADP-approved price directly to the vendor and you pay **25%**. ADP pays **100%** if you receive Ontario Works (OW), the Ontario Disability Support Program (ODSP) or Assistance for Children with Severe Disabilities (ACSD). Private plans may cover some or all of your 25% share; check your policy.
+
+## The steps, in order
+
+1. **See a doctor at an ADP-registered sleep clinic.** ADP can send the list of registered clinics (email adp@ontario.ca).
+2. **Choose an ADP-registered business** to supply the machine.
+3. **The business submits the application** for you. Ontario says it aims to review applications within eight weeks.
+4. **Pay your 25%** and collect the machine.
+
+If you buy before completing these steps, you pay the full price.
+
+## Replacement
+
+ADP may fund a replacement if your condition has changed, or the machine is worn out, out of warranty and can’t reasonably be repaired. It does not replace lost machines or machines damaged by misuse.
+
+## What a machine costs without ADP
+
+For comparison, Canadian retailers listed the ResMed AirSense 11 AutoSet between C$1,300 and $1,435 on 14 October 2026; see [CPAP machine prices in Canada](/ca/guides/cpap-machine-price-canada/). The ADP price and your 25% share are set by ADP, not by these retail prices. Masks are not funded by ADP, so see [CPAP masks in Canada](/ca/guides/cpap-masks-canada/) for what they cost.
+
+---
+
 # APAP algorithms compared — ResMed AutoSet, Philips Auto, BMC Auto, DreamStation, AirSense
 
 Source: https://homehealthzone.com/clinical/apap-algorithms-compared/

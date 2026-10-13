@@ -6,7 +6,8 @@
   "category": "",
   "price_symbol": "",
   "countries": [
-    "AU"
+    "AU",
+    "CA"
   ],
   "device_type": "portable-oxygen-concentrator",
   "prices": {
@@ -15,10 +16,17 @@
       "currency": "AUD",
       "source_url": "https://store.airliquidehealthcare.com.au/products/eclipse5",
       "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 3504,
+      "currency": "CAD",
+      "source_url": "https://sleepeh.ca/products/sequal-eclipse-5",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
-    "au": "portable-oxygen-concentrator-australia"
+    "au": "portable-oxygen-concentrator-australia",
+    "ca": "portable-oxygen-concentrator-canada"
   },
   "images": []
 }

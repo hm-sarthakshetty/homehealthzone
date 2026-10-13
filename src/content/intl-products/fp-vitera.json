@@ -6,7 +6,8 @@
   "category": "",
   "price_symbol": "",
   "countries": [
-    "AU"
+    "AU",
+    "CA"
   ],
   "device_type": "cpap-mask",
   "prices": {
@@ -15,10 +16,17 @@
       "currency": "AUD",
       "source_url": "https://cpap.com.au/products/f-p-vitera-full-face-mask",
       "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 180,
+      "currency": "CAD",
+      "source_url": "https://cpapmachinescanada.ca/products/vitera",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
-    "au": "cpap-masks-australia"
+    "au": "cpap-masks-australia",
+    "ca": "cpap-masks-canada"
   },
   "images": []
 }

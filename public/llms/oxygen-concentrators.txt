@@ -22805,6 +22805,440 @@ The TGA warns sponsors and health professionals who break the import and supply 
 
 ---
 
+# Canada: oxygen concentrators and CPAP
+
+Source: https://homehealthzone.com/ca/
+
+HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and devices sold in Canada with CAD prices from named retailers.
+
+Canada guides:
+
+- [Alberta AADL home oxygen and respiratory benefits](https://homehealthzone.com/ca/guides/alberta-aadl-home-oxygen/)
+- [BC CPAP funding on income or disability assistance](https://homehealthzone.com/ca/guides/bc-cpap-funding-income-assistance/)
+- [BC Home Oxygen Program: who qualifies](https://homehealthzone.com/ca/guides/bc-home-oxygen-program/)
+- [CPAP machine prices in Canada (2026)](https://homehealthzone.com/ca/guides/cpap-machine-price-canada/)
+- [CPAP mask prices in Canada (2026)](https://homehealthzone.com/ca/guides/cpap-masks-canada/)
+- [Flying with CPAP or oxygen from Canada](https://homehealthzone.com/ca/guides/flying-with-cpap-oxygen-canada/)
+- [Health Canada licences for CPAP and oxygen devices](https://homehealthzone.com/ca/guides/health-canada-licence-cpap-oxygen/)
+- [Home oxygen concentrators in Canada (2026)](https://homehealthzone.com/ca/guides/home-oxygen-concentrator-canada/)
+- [Ontario ADP funding for CPAP machines](https://homehealthzone.com/ca/guides/ontario-adp-cpap-funding/)
+- [Ontario home oxygen funding through ADP](https://homehealthzone.com/ca/guides/ontario-adp-home-oxygen/)
+- [Portable oxygen concentrators in Canada (2026)](https://homehealthzone.com/ca/guides/portable-oxygen-concentrator-canada/)
+
+---
+
+# Alberta AADL home oxygen and respiratory benefits
+
+Source: https://homehealthzone.com/ca/guides/alberta-aadl-home-oxygen/
+
+This guide is written from Alberta.ca’s [AADL benefits covered](https://www.alberta.ca/aadl-benefits-covered) and [AADL cost sharing](https://www.alberta.ca/aadl-cost-sharing-of-benefits) pages, read on 14 October 2026.
+
+## What AADL covers
+
+AADL’s list of benefits includes **oxygen** and **respiratory equipment and supplies**. Alberta notes that respiratory equipment might not be new.
+
+## No cost-share for respiratory benefits
+
+Most AADL benefits have a cost-share: clients pay **25%** of the cost up to **$500 per family per benefit year** (1 July to 30 June). Alberta says **respiratory benefits do not have a cost-share requirement**.
+
+## How you get it
+
+1. A health professional carries out a clinical assessment and decides what equipment and supplies you can get through AADL.
+2. An AADL authorizer gives you a list of **up to three approved vendors**.
+3. You get the equipment from one of those vendors.
+
+You are responsible for reasonable care of AADL-supplied equipment, and for replacing equipment that is lost, stolen or damaged through misuse.
+
+## What we could not confirm
+
+Section R of the AADL Program Manual sets out respiratory benefits in detail, including any oxygen thresholds and whether CPAP is covered. We could not download it, so this guide doesn’t give AADL’s medical criteria or CPAP rules. Ask your authorizer.
+
+For buying privately, see [home oxygen concentrators in Canada](/ca/guides/home-oxygen-concentrator-canada/).
+
+---
+
+# BC CPAP funding on income or disability assistance
+
+Source: https://homehealthzone.com/ca/guides/bc-cpap-funding-income-assistance/
+
+This guide is written from the BC government’s [medical equipment and devices policy for service providers](https://www2.gov.bc.ca/gov/content/family-social-supports/income-assistance/access-services/service-providers/medical-equipment-therapies), read on 14 October 2026. Check with the ministry before you buy.
+
+## Who it is for
+
+- People receiving **disability assistance**
+- People on **income assistance** who have a life-threatening health need
+- Some non-ministry clients who have a life-threatening health need
+
+## Requirements
+
+- **Pre-approval is a legal requirement.** The ministry needs a quote from the supplier.
+- **Baseline overnight testing** within the previous six months.
+- A **30-day compliance report** showing the machine was used at least **80% of the time**, for at least **4 hours a night**.
+
+## What can be funded
+
+- The CPAP trial and mask fitting
+- Purchase of the machine
+- Yearly supplies
+- Repairs and warranty administration
+- Loaner equipment
+
+## Other sources first
+
+The ministry funds equipment only when no other resource can pay. Those resources include Fair PharmaCare, health authorities, ICBC, WorkSafeBC, Veterans Affairs Canada and private insurance.
+
+## Prices for comparison
+
+Retail CPAP prices on 14 October 2026 started at C$870 for an AirSense 10 AutoSet; see [CPAP machine prices in Canada](/ca/guides/cpap-machine-price-canada/). For BC home oxygen, see [the BC Home Oxygen Program](/ca/guides/bc-home-oxygen-program/).
+
+---
+
+# BC Home Oxygen Program: who qualifies
+
+Source: https://homehealthzone.com/ca/guides/bc-home-oxygen-program/
+
+This guide is written from BC’s [COPD guideline Appendix C on home oxygen](https://www2.gov.bc.ca/assets/gov/health/practitioner-pro/bc-guidelines/copd_appendix_c.pdf) and [Fraser Health’s Home Oxygen Program page](https://www.fraserhealth.ca/health-topics-a-to-z/home-oxygen-program), read on 14 October 2026. It is not medical advice.
+
+## Medical criteria (BC guideline)
+
+The guideline notes that criteria may vary between health authorities. In every case you must be on optimal treatment and **not actively smoking**.
+
+| Type | Threshold |
+| --- | --- |
+| Resting | PaO2 ≤ 55 mmHg on room air, **or** SpO2 below 88% continuously for 6 minutes |
+| Resting with heart failure or pulmonary hypertension | PaO2 ≤ 60 mmHg |
+| Walking (ambulatory) | SpO2 below 88% for at least 1 minute while walking on a **flat surface** (not a treadmill) |
+| Night-time (nocturnal) | SpO2 below 88% for more than 30% of at least 4 hours of oximetry |
+
+If you can’t walk for one minute, ambulatory oxygen is not funded on that basis. People with sleep apnoea get oxygen only if they meet the nocturnal criteria **despite optimal CPAP**.
+
+## Applying: Fraser Health example
+
+Each health authority runs its own programme. Fraser Health says:
+
+- You need to be a BC resident with Medical Services Plan (MSP) coverage, live in the Fraser Health region, and not be in acute or residential care.
+- Your doctor or nurse practitioner sends an application and prescription to **Community Respiratory Services** (fax 604-514-6079). A respirologist decides.
+- The programme does not fund you if WorkSafeBC (WCB), ICBC, Non-Insured Health Benefits (NIHB), the RCMP or Veterans Affairs Canada covers you.
+- Palliative patients must also meet the criteria.
+- If you are not approved, you can pay privately or use extended health benefits.
+
+## Paying privately
+
+Retail concentrator prices are in [home oxygen concentrators in Canada](/ca/guides/home-oxygen-concentrator-canada/). For CPAP help for people on income or disability assistance in BC, see [BC CPAP funding on income assistance](/ca/guides/bc-cpap-funding-income-assistance/).
+
+---
+
+# CPAP machine prices in Canada (2026)
+
+Source: https://homehealthzone.com/ca/guides/cpap-machine-price-canada/
+
+All prices are in Canadian dollars, read from each retailer’s store data on 14 October 2026. They exclude shipping, and tax is added at checkout. A prescription is usually needed. In Ontario, ADP pays 75% if you go through a registered sleep clinic and vendor; see [Ontario ADP CPAP funding](/ca/guides/ontario-adp-cpap-funding/).
+
+## Auto-CPAP machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirSense 11 AutoSet (with ClimateLineAir 11 tube) | C$1,300 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airsense-11-autoset%E2%84%A2-with-humidair-and-climateline%E2%84%A2air-11-tube) |
+| ResMed AirSense 11 AutoSet (3-year warranty) | $1,435 | [Air Voel](https://airvoel.ca/products/resmed-airsense-11-autoset-cpap) |
+| ResMed AirSense 11 AutoSet (5-year extended) | $1,535 | [Air Voel](https://airvoel.ca/products/resmed-airsense-11-autoset-cpap) |
+| ResMed AirSense 11 AutoSet (SlimLine tube) | $1,435 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-11-autoset-cpap-with-integrated-humidifier) |
+| ResMed AirSense 11 AutoSet (heated tube) | $1,557 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-11-autoset-cpap-with-integrated-humidifier) |
+| ResMed AirSense 10 AutoSet | C$870 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airsense-10-autoset%E2%84%A2-with-humidair-and-climateline%E2%84%A2air) |
+| ResMed AirSense 10 AutoSet (with heated tube) | $1,444 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airsense-10-autoset) |
+
+Air Voel and CPAP Machines Canada both showed “compare at” prices of $1,895–$1,900 next to the $1,435 price. We list the selling price.
+
+The same AirSense 10 AutoSet was **$574 cheaper** at Canadian CPAP Store than at CPAP Machines Canada, although the bundles differ. Compare what’s in the box.
+
+## Travel machines
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirMini AutoSet | C$1,270 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airmini-auto-ultra-portable-apap-machine) |
+| ResMed AirMini AutoSet | $1,313 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airmini-cpap-system) |
+| ResMed AirMini AutoSet | $1,313 | [Air Voel](https://airvoel.ca/products/resmed-airmini-autoset-travel-cpap) |
+
+The AirMini needs a mask-specific setup pack. Canadian CPAP Store listed these at $75–$83.
+
+## Bilevel
+
+| Machine | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirCurve 11 VAuto | C$2,623 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/aircurve-10-vauto-copy) |
+| ResMed AirCurve 11 VAuto | $2,623 | [Air Voel](https://airvoel.ca/products/resmed-aircurve-11-vauto-bipap-device) |
+
+## Renting first
+
+Air Voel listed rentals of the AirSense 11 AutoSet, AirSense 10 AutoSet and AirMini at **$278** each. The page didn’t state the rental period.
+
+## Check the licence
+
+Canadian CPAP Store says its AirSense 11 is ResMed’s Canadian model, licensed by Health Canada. The AirSense 11 appears in Health Canada’s licence database as licence 106650. See [Health Canada licensing for CPAP and oxygen](/ca/guides/health-canada-licence-cpap-oxygen/).
+
+---
+
+# CPAP mask prices in Canada (2026)
+
+Source: https://homehealthzone.com/ca/guides/cpap-masks-canada/
+
+All prices are in Canadian dollars, read from each retailer’s store data on 14 October 2026, before shipping and tax. Ontario’s ADP funds the machine but **not replacement masks or headgear** ([Ontario](https://www.ontario.ca/page/respiratory-equipment-and-supplies)), so check your private plan.
+
+## Nasal pillow masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit P10 | C$120 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-p10-cpap-mask) |
+| ResMed AirFit P30i | C$150 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-p30i-starter-pack) |
+| ResMed AirFit P30i | $154 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/airfit-p30i) |
+| Fisher & Paykel Nova Micro | C$130 | [Canadian CPAP Store](https://canadiancpapstore.com/products/nova-micro-mask) |
+| Fisher & Paykel Nova Micro | $115 | [Air Voel](https://airvoel.ca/products/nova-micro-nasal-pillows-cpap-mask-fisher-paykel) |
+| Philips DreamWear Silicone Pillows | $120 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/dreamwear-silicone-pillows-fitpack) |
+
+## Nasal and cradle masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit N20 | C$120 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-n20-with-headgear) |
+| ResMed AirFit N30 | C$136 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-n30-with-headgear) |
+| ResMed AirFit N30i | C$150 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-n30i-starter-pack-small-medium-and-large-cushions) |
+| ResMed AirTouch N30i | C$175 | [Canadian CPAP Store](https://canadiancpapstore.com/products/resmed-airtouch-n30i) |
+| ResMed AirTouch N30i (StarterPack) | $186 | [Air Voel](https://airvoel.ca/products/resmed-airtouch-n30i-nasal-cpap-mask-starterpack) |
+| Fisher & Paykel Nova Nasal | $115 | [Canadian CPAP Store](https://canadiancpapstore.com/products/nova-nasal-mask) |
+| Fisher & Paykel Evora Nasal | $170 | [Canadian CPAP Store](https://canadiancpapstore.com/products/evora-nasal-mask-with-headgear) |
+| Philips DreamWear Under the Nose | $105 | [Air Voel](https://airvoel.ca/products/respironics-dreamwear-under-the-nose-nasal-mask) |
+
+## Full face masks
+
+| Mask | Price | Retailer |
+| --- | --- | --- |
+| ResMed AirFit F40 | C$207 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-f40-full-face-mask) |
+| ResMed AirTouch F30i | C$236 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airtouch-f30i-full-face-mask) |
+| ResMed AirFit X30i | C$334 | [Canadian CPAP Store](https://canadiancpapstore.com/products/airfit-x30i-full-face-mask) |
+| ResMed AirFit X30i (Starter Pack) | $236 | [Air Voel](https://airvoel.ca/products/resmed-airfit-x30i-oral-nasal-full-face-cpap-mask) |
+| Fisher & Paykel Evora Full Face | C$180 | [Canadian CPAP Store](https://canadiancpapstore.com/products/evora-full-face-mask-with-headgear) |
+| Fisher & Paykel Vitera | C$180 | [CPAP Machines Canada](https://cpapmachinescanada.ca/products/vitera) |
+| Philips DreamWear Full Face | C$215 | [Canadian CPAP Store](https://canadiancpapstore.com/products/dreamwear-full-face-mask-with-headgear) |
+| Philips DreamWear Full Face (fit pack) | $159 | [Air Voel](https://airvoel.ca/products/respironics-dreamwear-full-face-mask-fit-pack) |
+
+The AirFit X30i was **$98 cheaper** at Air Voel ($236) than at Canadian CPAP Store ($334). Air Voel lists a Starter Pack, which may include different cushion sizes.
+
+## Licensing
+
+The masks we checked appear in Health Canada’s licence database: AirFit F40 (licence 111649, first licensed 12 August 2024), AirFit P30i (101688), F&P Nova Micro (110189), F&P Evora (67268) and DreamWear Full Face (100043). See [Health Canada licensing](/ca/guides/health-canada-licence-cpap-oxygen/).
+
+---
+
+# Flying with CPAP or oxygen from Canada
+
+Source: https://homehealthzone.com/ca/guides/flying-with-cpap-oxygen-canada/
+
+This guide is written from Air Canada’s [international tariff Rule 45](https://www.aircanada.com/content/dam/aircanada/portal/documents/PDF/en/general-conditions-of-carriage/tarif-international/int_rule_50.pdf) and Fitness for Air Travel form, and WestJet’s [oxygen](https://www.westjet.com/en-ca/accessible-travel/oxygen) and [medical equipment](https://www.westjet.com/en-ca/accessible-travel/medication) pages, read on 14 October 2026. Confirm with the airline before you fly.
+
+## Air Canada
+
+The rules apply to Air Canada, Air Canada Express and Air Canada Rouge.
+
+**Portable oxygen concentrators (POCs)**
+
+- Tell Air Canada at least **48 hours** before departure.
+- A **medical certificate** is needed for transborder (Canada–US) trips. For other trips you need medical clearance from Air Canada.
+- The POC must be a type **approved by Air Canada** and free of oil and grease.
+- Bring spare batteries in carry-on, enough for the **entire itinerary**, including check-in, connections and a buffer. Batteries can’t be checked.
+- **Aircraft power can’t be used** to run the POC or recharge batteries.
+- The POC and spare batteries travel **free**, in addition to your carry-on allowance, if they fit under the seat.
+- You can’t check in online or at a kiosk; see an airport agent.
+- Using any battery-powered medical device on board, including a CPAP, needs prior approval from Air Canada Accessibility Services. The Fitness for Air Travel form gives the same 48-hour notice for CPAP.
+
+**Air Canada-supplied oxygen**
+
+The tariff says you can’t bring your own oxygen, except dry D-type cylinders under 22 inches on flights within Canada. However, Air Canada’s [restricted items page](https://www.aircanada.com/ca/en/aco/home/plan/baggage/restricted-and-prohibited-items.html) lists personal oxygen cylinders as not allowed, so don’t plan on the exception without written confirmation. Liquid oxygen is banned on all aircraft. Air Canada supplies cylinder oxygen with 48 hours’ notice (72 hours at some stations, including Sydney, Hong Kong and Seoul). It is delivered by nasal prongs only. Fees from the tariff:
+
+| Scheduled flight time | 2 LPM | 3 LPM | 4 LPM | 5 LPM |
+| --- | --- | --- | --- | --- |
+| Under 2 h | $220 | $220 | $220 | $390 |
+| 2–3:59 h | $390 | $390 | $390 | $560 |
+| 6–7:59 h | $390 | $560 | $730 | $900 |
+| 13:37–16 h | $730 | $900 | N/A | N/A |
+
+The fee isn’t discounted and isn’t refundable if you cancel within 72 hours of departure.
+
+## WestJet
+
+- **Only portable oxygen concentrators** are accepted where oxygen is needed in flight.
+- Send the Air Travel Requirements Assessment Form for medical clearance to MedDesk@WestJet.com or fax 1-866-737-1202.
+- The POC must carry the manufacturer’s label saying it meets FAA acceptance criteria, or be on WestJet’s short approved list. Other POCs may be used **only during cruise**.
+- The POC must run on **battery** only. Batteries, including spares, may not exceed **100 Wh**. WestJet suggests enough charged batteries for **1.5 times** your total travel time.
+- Spares travel in carry-on only, with terminals protected. Up to 20 spare batteries are allowed.
+- The seat-side charging ports are **not designed for medical devices**.
+- WestJet doesn’t charge for medical equipment, but a CPAP or other portable medical device with batteries must be approved for air travel.
+
+The battery limits differ: WestJet allows at most 100 Wh, while Air Canada’s [baggage rules](https://www.aircanada.com/ca/en/aco/home/plan/baggage/restricted-and-prohibited-items.html) allow up to two spare lithium-ion batteries of 100–160 Wh, subject to approval by airport agents. Check your battery’s Wh rating before booking.
+
+## Power in Canada
+
+Canada uses **120 V, 60 Hz** with **Type A and B** plugs ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/safety-advice/travel-advice/canada/)). Visitors from the UK, Europe, Australia or New Zealand need a plug adaptor. A device rated only for 230 V also needs a converter. An adaptor doesn’t change voltage. Check the rating on your machine’s power supply.
+
+For machines that travel well, see [CPAP machine prices in Canada](/ca/guides/cpap-machine-price-canada/) (AirMini) and [portable oxygen concentrators](/ca/guides/portable-oxygen-concentrator-canada/).
+
+---
+
+# Health Canada licences for CPAP and oxygen devices
+
+Source: https://homehealthzone.com/ca/guides/health-canada-licence-cpap-oxygen/
+
+This guide is written from Health Canada’s [MDALL page](https://www.canada.ca/en/health-canada/services/drugs-health-products/medical-devices/licences/medical-devices-active-licence-listing.html), and from licence records retrieved from Health Canada’s medical devices database on 14 October 2026. It is not legal advice.
+
+## How licensing works
+
+Health Canada licenses medical devices under the *Food and Drugs Act* and the *Medical Devices Regulations*. It says:
+
+- MDALL lists **all licensed Class II, III and IV** medical devices offered for sale in Canada.
+- **Class I** devices don’t need a medical device licence. They are monitored through establishment licensing.
+- **Only products in the listing may be offered for general marketing in Canada.**
+- You can search by company name, licence name or number, device name or device identifier (often the catalogue number).
+
+## Licence records for popular devices
+
+| Device | Licence | Class | First licensed | Licence holder |
+| --- | --- | --- | --- | --- |
+| ResMed AirSense 11 (AutoSet, CPAP, Elite) | 106650 | II | 7 Sep 2021 | ResMed Pty Ltd (Australia) |
+| ResMed AirSense 10 AutoSet | 93717 | II | 12 Aug 2014 | ResMed Pty Ltd |
+| ResMed AirMini | 99052 | II | 26 Apr 2017 | ResMed Pty Ltd |
+| ResMed AirFit F40 | 111649 | II | 12 Aug 2024 | ResMed Pty Ltd |
+| Inogen Rove 6 | 109185 | II | 11 Apr 2023 | Inogen, Inc. (US) |
+| Inogen Rove 4 | 111230 | II | 14 May 2024 | Inogen, Inc. |
+| Philips SimplyGo Mini | 95321 | II | 30 Jul 2015 | Philips Respironics |
+| CAIRE FreeStyle Comfort | 101643 | II | 21 Aug 2018 | CAIRE |
+| Yuwell oxygen concentrator | 111620 | II | 8 Aug 2024 | Yuwell |
+| F&P Nova Micro | 110189 | II | 5 Mar 2024 | Fisher & Paykel |
+
+Dates are the first licence date for each device in the record.
+
+## Checking before you buy
+
+1. Search MDALL for the exact model name.
+2. Check the licence has no end date. For example, one Evora nasal mask record under licence 67268 ended on 28 March 2023, while newer Evora records under the same licence remain active.
+3. For connected machines, Canadian CPAP Store points out that its AirSense 11 is ResMed’s Canadian model, with a cellular connection certified for use in Canada. A model bought abroad may differ.
+
+For prices on licensed devices, see [CPAP machine prices](/ca/guides/cpap-machine-price-canada/) and [portable oxygen concentrators](/ca/guides/portable-oxygen-concentrator-canada/).
+
+---
+
+# Home oxygen concentrators in Canada (2026)
+
+Source: https://homehealthzone.com/ca/guides/home-oxygen-concentrator-canada/
+
+All prices are in Canadian dollars, read from each retailer’s store data on 14 October 2026.
+
+## Prices
+
+| Concentrator | Price | Retailer |
+| --- | --- | --- |
+| Yuwell 5L stationary (8F-5A) | $775 | [SleepEh](https://sleepeh.ca/products/yuwell-5l-stationary-concentrator-8f-5a) |
+| Yuwell 5 L (Inogen Voxi 5), 8F-5A | C$1,200 | [The CPAP Store](https://thecpapstore.ca/products/yuwell-5-liter-oxygen-concentrator-inogen-voxi-5) |
+| DeVilbiss 5L Compact | $899 | [SleepEh](https://sleepeh.ca/products/5l-compact-oxygen-concentrator) |
+| Inogen At Home | C$2,392 | [SleepEh](https://sleepeh.ca/products/inogen-at-home-oxygen-concentrator) |
+| Yuwell 10L stationary | $2,500 | [SleepEh](https://sleepeh.ca/products/yuwell-10l-stationary-concentrator) |
+
+The same Yuwell 8F-5A model was listed at **$775 at SleepEh and $1,200 at The CPAP Store**. SleepEh also advertised a $100 gift card with it.
+
+## Check the licence
+
+Health Canada’s licence listing includes a Yuwell oxygen concentrator (licence 111620, first licensed 8 August 2024). Search the listing for any other model before you buy; see [Health Canada licensing](/ca/guides/health-canada-licence-cpap-oxygen/).
+
+## Power
+
+Canada uses **120 V, 60 Hz** with **Type A and B** sockets ([Electrical Safety First](https://www.electricalsafetyfirst.org.uk/safety-advice/travel-advice/canada/)). A concentrator bought abroad for 230 V won’t run safely here without the correct rating. Check the label.
+
+## Funded oxygen
+
+If you meet your province’s criteria, the province usually pays a vendor to supply and maintain the concentrator. See [Ontario ADP home oxygen](/ca/guides/ontario-adp-home-oxygen/), [BC Home Oxygen Program](/ca/guides/bc-home-oxygen-program/) and [Alberta AADL](/ca/guides/alberta-aadl-home-oxygen/).
+
+---
+
+# Ontario home oxygen funding through ADP
+
+Source: https://homehealthzone.com/ca/guides/ontario-adp-home-oxygen/
+
+This guide is written from Ontario’s [home oxygen therapy page](https://www.ontario.ca/page/home-oxygen-therapy), last updated 10 July 2025 and read on 14 October 2026. It is not medical advice.
+
+## Who qualifies
+
+- Ontario resident with a valid health card
+- Meets ADP’s medical criteria for home oxygen, such as **hypoxemia (low blood oxygen) at rest**
+- Income is not considered
+
+## What is covered
+
+ADP funds the oxygen itself and the equipment and supplies to use it (concentrators or tanks, tubing and masks), plus delivery, set-up and maintenance. The vendor maintains, repairs and replaces the equipment, unless it was damaged by misuse.
+
+## Who pays what
+
+| Situation | ADP pays | You pay |
+| --- | --- | --- |
+| Most adults | 75% | 25% |
+| Aged 65 or older | 100% | Nothing |
+| Living in a long-term care home | 100% | Nothing |
+| On Ontario Works, ODSP or ACSD | 100% | Nothing |
+| Receiving professional services through Ontario Health atHome | 100% | Nothing |
+
+## How to apply
+
+1. Your doctor or nurse practitioner arranges the tests that show you meet the criteria.
+2. They complete the application form.
+3. You choose an ADP-registered home oxygen business.
+4. The business completes its part of the form.
+5. The business submits the application electronically.
+
+Funding must be **renewed every year**. The vendor arranges the testing.
+
+## Buying a concentrator privately
+
+You can buy a concentrator yourself, for example a portable unit for travel, but ADP funding goes through registered vendors. Prices we found are in [home oxygen concentrators in Canada](/ca/guides/home-oxygen-concentrator-canada/) and [portable oxygen concentrators in Canada](/ca/guides/portable-oxygen-concentrator-canada/). Bought privately, a portable unit cost from C$2,350 on 14 October 2026.
+
+---
+
+# Portable oxygen concentrators in Canada (2026)
+
+Source: https://homehealthzone.com/ca/guides/portable-oxygen-concentrator-canada/
+
+All prices are in Canadian dollars, read from each retailer’s store data on 14 October 2026, before tax and shipping. These are prescription devices; your prescriber sets the flow setting.
+
+## Prices
+
+| Concentrator | Price | Retailer |
+| --- | --- | --- |
+| Inogen Rove 6 (standard battery) | C$2,350 | [CPAP Supply Canada](https://cpapsupplycanada.ca/products/inogen-rove-6-portable-oxygen-concentrator-standard-battery) |
+| Inogen Rove 6 (single battery) | $2,695 | [The CPAP Store](https://thecpapstore.ca/products/inogen-rove-6-portable-oxygen-concentrator) |
+| Inogen Rove 6 (double battery) | $2,895 | [The CPAP Store](https://thecpapstore.ca/products/inogen-rove-6-portable-oxygen-concentrator) |
+| CAIRE FreeStyle Comfort (8-cell) | C$2,732.03 | [SleepEh](https://sleepeh.ca/products/caire-freestyle%C2%AE-comfort-portable-oxygen-concentrator) |
+| CAIRE FreeStyle Comfort (16-cell) | $2,951.03 | [SleepEh](https://sleepeh.ca/products/caire-freestyle%C2%AE-comfort-portable-oxygen-concentrator) |
+| Philips SimplyGo Mini bundle | C$2,950 | [The CPAP Store](https://thecpapstore.ca/products/simplygo-mini-portable-oxygen-concentrator-bundle) |
+| CAIRE Eclipse 5 (one battery) | C$3,504 | [SleepEh](https://sleepeh.ca/products/sequal-eclipse-5) |
+| CAIRE Eclipse 5 (two batteries) | $3,723 | [SleepEh](https://sleepeh.ca/products/sequal-eclipse-5) |
+
+The same Rove 6 was **$345 cheaper** at CPAP Supply Canada than at The CPAP Store. Check what battery and accessories each includes.
+
+## Health Canada licences
+
+| Model | Licence | First licensed |
+| --- | --- | --- |
+| Inogen Rove 6 | 109185 | 11 April 2023 |
+| Philips SimplyGo Mini | 95321 | 30 July 2015 |
+| CAIRE FreeStyle Comfort | 101643 | 21 August 2018 |
+
+All three are Class II. Source: Health Canada’s Medical Devices Active Licence Listing, queried 14 October 2026.
+
+## Flying
+
+Air Canada and WestJet have different battery and approval rules. See [flying with CPAP or oxygen in Canada](/ca/guides/flying-with-cpap-oxygen-canada/).
+
+## Funding
+
+Provinces fund home oxygen through their own programmes, usually through a contracted vendor rather than a retail purchase. See [Ontario ADP home oxygen](/ca/guides/ontario-adp-home-oxygen/), [BC Home Oxygen Program](/ca/guides/bc-home-oxygen-program/) and [Alberta AADL](/ca/guides/alberta-aadl-home-oxygen/).
+
+---
+
 # BiPAP-ST mode and indications: when a backup rate is essential
 
 Source: https://homehealthzone.com/clinical/bipap-st-mode-and-indications/

@@ -13,6 +13,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [United Kingdom](https://homehealthzone.com/uk/): HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.
 - [Singapore](https://homehealthzone.com/sg/): HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.
 - [Australia](https://homehealthzone.com/au/): HHZ for Australia: state equipment schemes, Medicare, TGA rules, and devices sold in Australia with AUD prices from named retailers.
+- [Canada](https://homehealthzone.com/ca/): HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and devices sold in Canada with CAD prices from named retailers.
 
 ## Editorial policies
 
@@ -334,6 +335,22 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [Medicare, sleep studies and CPAP costs in Australia](https://homehealthzone.com/au/guides/medicare-sleep-study-cpap-australia/): What Medicare pays for an adult sleep study in Australia (MBS items 12250 and 12203), the questionnaire scores you need for a referral, and how CPAP equipment is funded instead.
 - [Portable oxygen concentrators in Australia (2026)](https://homehealthzone.com/au/guides/portable-oxygen-concentrator-australia/): AUD prices for portable oxygen concentrators sold in Australia, battery and flow specs, and which models are on Qantas's authorised medical equipment list.
 - [TGA rules for CPAP and oxygen devices in Australia](https://homehealthzone.com/au/guides/tga-artg-cpap-oxygen-australia/): How the TGA regulates CPAP machines and oxygen concentrators: ARTG inclusion, sponsors, the Personal Importation Scheme's three-month limit and what you can't resell.
+
+
+## Canada guides
+
+- [Canada hub](https://homehealthzone.com/ca/): HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and devices sold in Canada with CAD prices from named retailers.
+- [Alberta AADL home oxygen and respiratory benefits](https://homehealthzone.com/ca/guides/alberta-aadl-home-oxygen/): Alberta Aids to Daily Living covers oxygen and respiratory equipment without the usual 25% cost-share. How assessment and vendors work, and what we could not confirm.
+- [BC CPAP funding on income or disability assistance](https://homehealthzone.com/ca/guides/bc-cpap-funding-income-assistance/): How BC’s ministry funds CPAP for people on disability or income assistance: pre-approval, the 6-month sleep test rule, the 80% / 4-hour compliance report and what is covered.
+- [BC Home Oxygen Program: who qualifies](https://homehealthzone.com/ca/guides/bc-home-oxygen-program/): British Columbia’s Home Oxygen Program: the resting, walking and overnight oxygen thresholds in the provincial guideline, how Fraser Health applications work, and exclusions.
+- [CPAP machine prices in Canada (2026)](https://homehealthzone.com/ca/guides/cpap-machine-price-canada/): Live CAD prices for CPAP machines at Canadian retailers: ResMed AirSense 11 and 10, AirMini and AirCurve 11 VAuto bilevel, plus rental and the Health Canada licence check.
+- [CPAP mask prices in Canada (2026)](https://homehealthzone.com/ca/guides/cpap-masks-canada/): CAD prices for ResMed, Fisher & Paykel and Philips CPAP masks at Canadian retailers, by mask type, with the funding gap: Ontario ADP does not pay for replacement masks.
+- [Flying with CPAP or oxygen from Canada](https://homehealthzone.com/ca/guides/flying-with-cpap-oxygen-canada/): Air Canada and WestJet rules for CPAP and portable oxygen concentrators: 48-hour notice, medical clearance, battery limits, Air Canada oxygen fees, and 120 V power in Canada.
+- [Health Canada licences for CPAP and oxygen devices](https://homehealthzone.com/ca/guides/health-canada-licence-cpap-oxygen/): How to check that a CPAP machine, mask or oxygen concentrator is licensed for sale in Canada using Health Canada’s MDALL, with licence numbers for popular models.
+- [Home oxygen concentrators in Canada (2026)](https://homehealthzone.com/ca/guides/home-oxygen-concentrator-canada/): CAD prices for stationary home oxygen concentrators sold in Canada (Yuwell, DeVilbiss, Inogen At Home) and how provincial home oxygen programmes usually supply them.
+- [Ontario ADP funding for CPAP machines](https://homehealthzone.com/ca/guides/ontario-adp-cpap-funding/): How Ontario’s Assistive Devices Program pays 75% of a CPAP, APAP or bilevel machine: eligibility, the sleep-clinic route, what is excluded and when it pays 100%.
+- [Ontario home oxygen funding through ADP](https://homehealthzone.com/ca/guides/ontario-adp-home-oxygen/): Ontario’s ADP home oxygen benefit: who qualifies, what it covers, when ADP pays 100% (including everyone 65+), the yearly renewal and how vendors handle repairs.
+- [Portable oxygen concentrators in Canada (2026)](https://homehealthzone.com/ca/guides/portable-oxygen-concentrator-canada/): CAD prices for portable oxygen concentrators at Canadian retailers: Inogen Rove 6, Philips SimplyGo Mini, CAIRE FreeStyle Comfort and Eclipse 5, with licence numbers.
 
 
 ## Written comparison pages

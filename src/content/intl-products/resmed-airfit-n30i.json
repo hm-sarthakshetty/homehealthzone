@@ -7,7 +7,8 @@
   "price_symbol": "",
   "countries": [
     "GB",
-    "SG"
+    "SG",
+    "CA"
   ],
   "device_type": "cpap-mask",
   "prices": {
@@ -22,11 +23,18 @@
       "currency": "SGD",
       "source_url": "https://www.medworx-intl.com/products/resmed-airfit-n30i-quiet-nasal-mask-copy",
       "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 150,
+      "currency": "CAD",
+      "source_url": "https://canadiancpapstore.com/products/airfit-n30i-starter-pack-small-medium-and-large-cushions",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
     "uk": "cpap-masks-uk",
-    "sg": "cpap-masks-singapore"
+    "sg": "cpap-masks-singapore",
+    "ca": "cpap-masks-canada"
   },
   "images": []
 }

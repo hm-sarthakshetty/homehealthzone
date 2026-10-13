@@ -7,7 +7,8 @@
   "price_symbol": "",
   "countries": [
     "SG",
-    "AU"
+    "AU",
+    "CA"
   ],
   "device_type": "cpap",
   "prices": {
@@ -22,11 +23,18 @@
       "currency": "AUD",
       "source_url": "https://cpap.com.au/products/resmed-airsense-10-autoset",
       "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 870,
+      "currency": "CAD",
+      "source_url": "https://canadiancpapstore.com/products/airsense-10-autoset%E2%84%A2-with-humidair-and-climateline%E2%84%A2air",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
     "sg": "cpap-subsidy-singapore",
-    "au": "cpap-machine-price-australia"
+    "au": "cpap-machine-price-australia",
+    "ca": "cpap-machine-price-canada"
   },
   "images": []
 }

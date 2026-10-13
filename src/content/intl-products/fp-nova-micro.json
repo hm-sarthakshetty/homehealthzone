@@ -6,7 +6,8 @@
   "category": "",
   "price_symbol": "",
   "countries": [
-    "AU"
+    "AU",
+    "CA"
   ],
   "device_type": "cpap-mask",
   "prices": {
@@ -15,10 +16,17 @@
       "currency": "AUD",
       "source_url": "https://cpap.com.au/products/nova-micro-pillow-mask-fitpack",
       "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 130,
+      "currency": "CAD",
+      "source_url": "https://canadiancpapstore.com/products/nova-micro-mask",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
-    "au": "cpap-masks-australia"
+    "au": "cpap-masks-australia",
+    "ca": "cpap-masks-canada"
   },
   "images": []
 }

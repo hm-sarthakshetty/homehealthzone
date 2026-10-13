@@ -60,14 +60,14 @@ export const INTL_MARKETS: Market[] = [
     clusters: ['Funding and tax', 'CPAP', 'Oxygen', 'Regulation', 'Travel and power'],
   },
   {
-    code: 'ca', country: 'CA', currency: 'CAD', lang: 'en-CA', label: 'Canada', short: 'Canada', live: false,
+    code: 'ca', country: 'CA', currency: 'CAD', lang: 'en-CA', label: 'Canada', short: 'Canada', live: true,
     hubTitle: 'Oxygen concentrators and CPAP in Canada',
     hubDescription: 'HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and devices sold in Canada with CAD prices from named retailers.',
     hubLead: 'How home oxygen and CPAP are funded and regulated in Canada, province by province. Prices are in Canadian dollars, taken from the named retailer listing on the date shown in each guide.',
     guidesTitle: 'Canada buyer’s guides',
-    guidesDescription: 'Canadian guides to home oxygen and CPAP: provincial funding, Health Canada rules, travel, masks, machines and troubleshooting, with CAD prices.',
+    guidesDescription: 'Canadian guides to home oxygen and CPAP: Ontario, BC and Alberta funding, Health Canada licences, flying, masks and machines, with CAD prices.',
     guidesLead: 'Plain-English guides to getting, paying for and using respiratory equipment in Canada. Every guide is reviewed and timestamped.',
-    clusters: [],
+    clusters: ['Provincial funding', 'CPAP', 'Oxygen', 'Regulation', 'Travel and power'],
   },
   {
     code: 'nz', country: 'NZ', currency: 'NZD', lang: 'en-NZ', label: 'New Zealand', short: 'New Zealand', live: false,

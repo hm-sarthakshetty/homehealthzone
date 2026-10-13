@@ -6,21 +6,24 @@
       "en-US": "/us/",
       "en-GB": "/uk/",
       "en-SG": "/sg/",
-      "en-AU": "/au/"
+      "en-AU": "/au/",
+      "en-CA": "/ca/"
     },
     {
       "en-IN": "/guides/oxygen-concentrators-buyers-guide-india/",
       "en-US": "/us/guides/oxygen-concentrator-buyers-guide/",
       "en-GB": "/uk/guides/home-oxygen-concentrator-uk/",
       "en-SG": "/sg/guides/home-oxygen-concentrator-singapore/",
-      "en-AU": "/au/guides/home-oxygen-concentrator-australia/"
+      "en-AU": "/au/guides/home-oxygen-concentrator-australia/",
+      "en-CA": "/ca/guides/home-oxygen-concentrator-canada/"
     },
     {
       "en-IN": "/guides/",
       "en-US": "/us/guides/",
       "en-GB": "/uk/guides/",
       "en-SG": "/sg/guides/",
-      "en-AU": "/au/guides/"
+      "en-AU": "/au/guides/",
+      "en-CA": "/ca/guides/"
     },
     {
       "en-IN": "/guides/5-lpm-vs-10-lpm/",
@@ -35,7 +38,8 @@
       "en-US": "/us/guides/best-cpap-masks/",
       "en-GB": "/uk/guides/cpap-masks-uk/",
       "en-SG": "/sg/guides/cpap-masks-singapore/",
-      "en-AU": "/au/guides/cpap-masks-australia/"
+      "en-AU": "/au/guides/cpap-masks-australia/",
+      "en-CA": "/ca/guides/cpap-masks-canada/"
     },
     {
       "en-IN": "/guides/best-travel-cpap-machines-india/",
@@ -61,13 +65,15 @@
       "en-US": "/us/guides/best-portable-oxygen-concentrator/",
       "en-GB": "/uk/guides/best-portable-oxygen-concentrator-uk/",
       "en-SG": "/sg/guides/portable-oxygen-concentrator-singapore/",
-      "en-AU": "/au/guides/portable-oxygen-concentrator-australia/"
+      "en-AU": "/au/guides/portable-oxygen-concentrator-australia/",
+      "en-CA": "/ca/guides/portable-oxygen-concentrator-canada/"
     },
     {
       "en-US": "/us/guides/cpap-buyers-guide/",
       "en-GB": "/uk/guides/buying-cpap-privately-uk/",
       "en-SG": "/sg/guides/cpap-machine-price-singapore/",
-      "en-AU": "/au/guides/cpap-machine-price-australia/"
+      "en-AU": "/au/guides/cpap-machine-price-australia/",
+      "en-CA": "/ca/guides/cpap-machine-price-canada/"
     }
   ]
 }

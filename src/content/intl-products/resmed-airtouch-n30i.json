@@ -7,7 +7,8 @@
   "price_symbol": "",
   "countries": [
     "SG",
-    "AU"
+    "AU",
+    "CA"
   ],
   "device_type": "cpap-mask",
   "prices": {
@@ -22,11 +23,18 @@
       "currency": "AUD",
       "source_url": "https://cpap.com.au/products/resmed-airtouchn30i-nasal-mask",
       "checked_at": "2026-10-14"
+    },
+    "CA": {
+      "amount": 175,
+      "currency": "CAD",
+      "source_url": "https://canadiancpapstore.com/products/resmed-airtouch-n30i",
+      "checked_at": "2026-10-14"
     }
   },
   "guides": {
     "sg": "cpap-masks-singapore",
-    "au": "cpap-masks-australia"
+    "au": "cpap-masks-australia",
+    "ca": "cpap-masks-canada"
   },
   "images": []
 }
