@@ -1,0 +1,138 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import ArticleCard from '../../../components/ArticleCard.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+const guides = await getCollection('us-guides');
+
+// Sort by lastReviewed desc when present, then by title (mirrors /guides/).
+const sorted = guides.slice().sort((a, b) => {
+  const aDate = a.data.lastReviewed ?? '';
+  const bDate = b.data.lastReviewed ?? '';
+  if (aDate && bDate && aDate !== bDate) return bDate.localeCompare(aDate);
+  return a.data.title.localeCompare(b.data.title, 'en');
+});
+
+const pageTitle = "US buyer's guides";
+const description =
+  'Buying guides for US patients: home and portable oxygen concentrators, CPAP, Medicare coverage, FAA rules for flying with oxygen, and the Philips recall.';
+
+const crumbs = [
+  { href: '/', label: 'Home' },
+  { href: '/us/', label: 'United States' },
+  { href: '/us/guides/', label: 'Guides' },
+];
+
+// Only link guides that exist, so a cluster never points at a 404.
+const ids = new Set(guides.map((g) => g.id));
+const clusterDefs: Array<{ title: string; links: Array<[string, string]> }> = [
+  {
+    title: 'Buying oxygen equipment',
+    links: [
+      ['Best home oxygen concentrator', 'oxygen-concentrator-buyers-guide'],
+      ['Best portable oxygen concentrator', 'best-portable-oxygen-concentrator'],
+      ['Flying with a portable oxygen concentrator', 'faa-portable-oxygen-concentrator-rules'],
+    ],
+  },
+  {
+    title: 'Medicare coverage',
+    links: [
+      ['Medicare home oxygen coverage', 'medicare-oxygen-coverage'],
+      ['Medicare CPAP coverage and the 90-day compliance rule', 'medicare-cpap-coverage-compliance'],
+    ],
+  },
+  {
+    title: 'CPAP',
+    links: [
+      ['Best auto CPAP machine', 'cpap-buyers-guide'],
+      ['Philips CPAP recall and consent decree', 'philips-cpap-recall-consent-decree'],
+    ],
+  },
+];
+const featuredClusters = clusterDefs
+  .map((c) => ({
+    title: c.title,
+    links: c.links
+      .filter(([, id]) => ids.has(id))
+      .map(([label, id]) => [label, `/us/guides/${id}/`] as [string, string]),
+  }))
+  .filter((c) => c.links.length > 0);
+---
+
+<BaseLayout title={pageTitle} description={description} lang="en-US">
+  <Breadcrumbs items={crumbs} />
+  <header class="hub-header">
+    <h1>{pageTitle}</h1>
+    <p class="lead">
+      Plain-English guides to buying and paying for respiratory equipment in the United States —
+      prescriptions, Medicare rules, air travel, and which devices are actually on sale. Prices are in
+      US dollars and every guide is reviewed and timestamped.
+    </p>
+  </header>
+
+  <section class="featured-guides" aria-labelledby="featured-guides-heading">
+    <h2 id="featured-guides-heading">Guide clusters</h2>
+    <div class="featured-guides__grid">
+      {featuredClusters.map((cluster) => (
+        <article class="featured-guides__cluster">
+          <h3>{cluster.title}</h3>
+          <ul>
+            {cluster.links.map(([label, href]) => (
+              <li><a href={href}>{label}</a></li>
+            ))}
+          </ul>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  {sorted.length === 0 ? (
+    <p class="empty">No guides published yet.</p>
+  ) : (
+    <div class="article-grid">
+      {sorted.map((entry) => (
+        <ArticleCard entry={entry} href={`/us/guides/${entry.id}/`} />
+      ))}
+    </div>
+  )}
+</BaseLayout>
+
+<style>
+  .hub-header {
+    margin-bottom: var(--space-8);
+  }
+  .featured-guides {
+    margin-bottom: var(--space-8);
+  }
+  .featured-guides h2 {
+    margin-bottom: var(--space-4);
+  }
+  .featured-guides__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--space-4);
+  }
+  .featured-guides__cluster {
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    padding: var(--space-4);
+    background: var(--color-surface);
+  }
+  .featured-guides__cluster h3 {
+    margin-top: 0;
+    font-size: var(--text-lg);
+  }
+  .featured-guides__cluster ul {
+    margin-bottom: 0;
+    padding-left: var(--space-5);
+  }
+  .article-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-5);
+  }
+  .empty {
+    color: var(--color-text-muted);
+  }
+</style>

@@ -6,16 +6,24 @@ import ArticleCard from '../../components/ArticleCard.astro';
 import { getCollection } from 'astro:content';
 import { resolvePrice } from '../../lib/price';
 
-const [concentrators, pap, guides] = await Promise.all([
+const [concentrators, pap, guides, usOnly] = await Promise.all([
   getCollection('products'),
   getCollection('cpap-bipap'),
   getCollection('us-guides'),
+  getCollection('us-products'),
 ]);
 
 // Only products explicitly marked as sold in the US AND carrying a verified USD price.
 const isUsListed = (data: { countries: string[]; prices?: unknown }) =>
   data.countries.includes('US') && resolvePrice(data as any, 'US').amount !== null;
-const usConcentrators = concentrators.filter((e) => isUsListed(e.data));
+const usConcentrators = [
+  ...concentrators.filter((e) => isUsListed(e.data)),
+  ...usOnly.filter((e) => e.data.device_type === 'oxygen-concentrator' && isUsListed(e.data)),
+];
+const usPortables = usOnly.filter(
+  (e) => e.data.device_type === 'portable-oxygen-concentrator' && isUsListed(e.data)
+);
+const POC_GUIDE = '/us/guides/best-portable-oxygen-concentrator/';
 const usPap = pap.filter((e) => isUsListed(e.data));
 
 const OXYGEN_GUIDE = '/us/guides/oxygen-concentrator-buyers-guide/';
@@ -42,6 +50,7 @@ const crumbs = [
 
   <section aria-labelledby="us-guides-heading">
     <h2 id="us-guides-heading">US buyer's guides</h2>
+    <p><a href="/us/guides/">All US guides →</a></p>
     <div class="grid-2">
       {guides
         .sort((a, b) => a.data.title.localeCompare(b.data.title, 'en'))
@@ -56,6 +65,15 @@ const crumbs = [
         {usConcentrators.map((entry) => (
           <ProductCard entry={entry} country="US" href={OXYGEN_GUIDE} />
         ))}
+      </div>
+    </section>
+  )}
+
+  {usPortables.length > 0 && (
+    <section aria-labelledby="us-poc-heading">
+      <h2 id="us-poc-heading">Portable oxygen concentrators</h2>
+      <div class="grid">
+        {usPortables.map((entry) => <ProductCard entry={entry} country="US" href={POC_GUIDE} />)}
       </div>
     </section>
   )}
