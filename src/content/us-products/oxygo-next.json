@@ -1,0 +1,55 @@
+{
+  "slug": "oxygo-next",
+  "source_url": "https://oxygo.life/oxygo-next",
+  "product_name": "OxyGo NEXT",
+  "brand": "OxyGo",
+  "brand_href": "https://oxygo.life/oxygo-next",
+  "category": "Portable",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 2495,
+      "currency": "USD",
+      "source_url": "https://unitedoxygenandmedical.com/product/oxygo-next/",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Portable, pulse dose",
+    "Pulse settings": "1-6",
+    "Weight": "4.74 lb (single battery)",
+    "Battery": "Up to 6.5 h single / 13 h double"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Pulse settings": "1-6",
+      "Weight": "4.74 lb single battery; 5.73 lb double battery",
+      "Dimensions": "7.19 x 3.26 x 8.15 in (single battery)",
+      "Battery life": "Up to 6.5 h single; up to 13 h double",
+      "Recharge time": "Up to 3 h single; up to 6 h double",
+      "Noise": "38 dB at setting 2",
+      "Power": "AC 100-240 V, 50-60 Hz; DC car cable",
+      "Warranty": "5 years standard",
+      "Notes": "Retailer lists it as 'OxyGo Next (Inogen G5)'."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 2.15,
+    "noise_db": 38,
+    "has_pulse_flow": true,
+    "warranty_years": 5
+  },
+  "device_type": "portable-oxygen-concentrator"
+}

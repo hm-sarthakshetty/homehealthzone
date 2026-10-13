@@ -11,17 +11,16 @@ import { formatPrice, resolvePrice, type Country } from '../lib/price';
 export interface Props {
   slug: string;
   country?: Country;
-  collection?: 'products' | 'cpap-bipap';
+  collection?: 'products' | 'cpap-bipap' | 'us-products';
   fallback?: string;
 }
 
 const { slug, country = 'IN', collection, fallback = 'price not verified' } = Astro.props;
-const entry =
-  collection === 'cpap-bipap'
-    ? await getEntry('cpap-bipap', slug)
-    : collection === 'products'
-      ? await getEntry('products', slug)
-      : ((await getEntry('products', slug)) ?? (await getEntry('cpap-bipap', slug)));
+const entry = collection
+  ? await getEntry(collection, slug)
+  : ((await getEntry('products', slug)) ??
+    (await getEntry('cpap-bipap', slug)) ??
+    (await getEntry('us-products', slug)));
 if (!entry) throw new Error(`<Price>: unknown product slug "${slug}"`);
 const text = formatPrice(resolvePrice(entry.data, country), 'current', 'badge') ?? fallback;
 ---

@@ -1,0 +1,59 @@
+{
+  "slug": "inogen-rove-6",
+  "source_url": "https://www.inogen.com/product/rove6-system/",
+  "product_name": "Inogen Rove 6",
+  "brand": "Inogen",
+  "brand_href": "https://www.inogen.com/product/rove6-system/",
+  "category": "Portable",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 2795,
+      "currency": "USD",
+      "source_url": "https://www.inogen.com/product/rove6-system/",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Portable, pulse dose",
+    "Pulse settings": "1-6",
+    "Max output": "1,260 mL/min",
+    "Weight": "4.8 lb (standard battery)",
+    "FAA": "Meets FAA acceptance criteria"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Pulse settings": "1-6 (Intelligent Delivery Technology)",
+      "Max oxygen output": "Up to 1,260 mL/min",
+      "Weight": "4.8 lb with standard battery",
+      "Battery life (setting 1)": "Up to 6 h 15 min standard; up to 12 h 45 min extended",
+      "Recharge time": "Standard up to 3 h; extended up to 4 h",
+      "Noise": "39 dBA at setting 2",
+      "Dimensions": "7.18 x 3.27 x 8.14 in",
+      "Power": "AC 100-240 V, 50-60 Hz; DC for car/airplane",
+      "Warranty": "3 years or lifetime (sieve beds and accessories 1 year)",
+      "FAA": "Meets FAA acceptance criteria for carriage and use onboard aircraft",
+      "Notes": "Replaces the Inogen One G5. Prescription only."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 2.18,
+    "noise_db": 39,
+    "has_pulse_flow": true,
+    "faa_approved": true,
+    "warranty_years": 3
+  },
+  "device_type": "portable-oxygen-concentrator"
+}

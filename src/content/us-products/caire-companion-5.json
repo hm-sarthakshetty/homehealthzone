@@ -1,0 +1,55 @@
+{
+  "slug": "caire-companion-5",
+  "source_url": "https://www.caireinc.com/product/caire-companion-5-clinicians/",
+  "product_name": "CAIRE Companion 5",
+  "brand": "CAIRE",
+  "brand_href": "https://www.caireinc.com/product/caire-companion-5-clinicians/",
+  "category": "5 LPM",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 995,
+      "currency": "USD",
+      "source_url": "https://dmesupplyusa.com/caire-companion-5tm-stationary-oxygen-concentrator.html",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Home stationary, continuous flow",
+    "Continuous Flow": "0.5-5.0 LPM",
+    "Purity": "90% (+5.5/-3%)",
+    "Weight": "36 lb"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Continuous flow": "0.5-5.0 LPM",
+      "Oxygen purity": "90% (+5.5/-3%)",
+      "Weight": "36 lb",
+      "Dimensions": "21.5 x 12.5 x 13.5 in",
+      "Sound level": "50 dB(A) at 2.0 LPM",
+      "Operating altitude": "-1,253 to 9,879 ft",
+      "HCPCS": "E1390",
+      "Notes": "Specs as listed by the retailer. Prescription required."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 16.3,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5,
+    "noise_db": 50,
+    "altitude_ft": 9879
+  },
+  "device_type": "oxygen-concentrator"
+}

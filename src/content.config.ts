@@ -189,6 +189,15 @@ const cpapBipapReviews = defineCollection({
   schema: productReviewSchema,
 });
 
+// US-only catalogue (products not sold in India). Kept out of the India
+// `products` collection so India hubs, comparisons and sitemaps are unaffected.
+const usProducts = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/us-products' }),
+  schema: productSchema.extend({
+    device_type: z.enum(['oxygen-concentrator', 'portable-oxygen-concentrator', 'cpap', 'bipap']).default('oxygen-concentrator'),
+  }),
+});
+
 // US-market buyer's guides, rendered under /us/guides/{slug}/.
 const usGuides = defineCollection({
   loader: glob({ pattern: '**/*.{md,mdx}', base: './src/content/us-guides' }),
@@ -210,4 +219,5 @@ export const collections = {
   'cpap-bipap-reviews': cpapBipapReviews,
   'comparison-writeups': comparisonWriteups,
   'us-guides': usGuides,
+  'us-products': usProducts,
 };

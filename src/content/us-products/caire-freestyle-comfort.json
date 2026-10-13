@@ -1,0 +1,57 @@
+{
+  "slug": "caire-freestyle-comfort",
+  "source_url": "https://www.caireinc.com/product/freestyle-comfort/",
+  "product_name": "CAIRE FreeStyle Comfort",
+  "brand": "CAIRE",
+  "brand_href": "https://www.caireinc.com/product/freestyle-comfort/",
+  "category": "Portable",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 2415,
+      "currency": "USD",
+      "source_url": "https://www.rehabmart.com/product/freestyle-comfort-portable-oxygen-concentrator-with-ultrasense-48500.html",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Portable, pulse dose",
+    "Pulse settings": "1-5",
+    "Max output": "1,050 mL/min",
+    "Weight": "5 lb (8-cell battery)",
+    "FAA": "Meets FAA requirements"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Pulse settings": "1-5",
+      "Max oxygen output": "Up to 1,050 mL/min",
+      "Weight": "5 lb (8-cell) / 6 lb (16-cell)",
+      "Battery life": "Up to 8 h (8-cell); up to 16 h (16-cell)",
+      "Noise": "39.9 dBA",
+      "Dimensions": "10 x 7.3 x 3.1 in",
+      "Warranty": "3 years, device and sieve beds",
+      "FAA": "Meets FAA requirements for commercial airline travel",
+      "Notes": "USD price is the 8-cell configuration (SKU CAI-AS200-41). Prescription required."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "weight_kg": 2.3,
+    "noise_db": 39.9,
+    "has_pulse_flow": true,
+    "faa_approved": true,
+    "warranty_years": 3
+  },
+  "device_type": "portable-oxygen-concentrator"
+}
