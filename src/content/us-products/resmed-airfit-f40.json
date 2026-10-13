@@ -1,0 +1,40 @@
+{
+  "slug": "resmed-airfit-f40",
+  "source_url": "https://eshop.resmed.com/products/airfit-f40-complete-mask-system",
+  "product_name": "ResMed AirFit F40",
+  "brand": "ResMed",
+  "brand_href": "https://eshop.resmed.com/products/airfit-f40-complete-mask-system",
+  "category": "CPAP mask",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 163,
+      "currency": "USD",
+      "source_url": "https://eshop.resmed.com/products/airfit-f40-complete-mask-system",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Minimal full face"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Type": "Minimal full face",
+      "Notes": "ResMed eShop price; specs from ResMed U.S. user guide."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {},
+  "device_type": "cpap-mask"
+}

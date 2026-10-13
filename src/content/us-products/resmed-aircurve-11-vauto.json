@@ -1,0 +1,49 @@
+{
+  "slug": "resmed-aircurve-11-vauto",
+  "source_url": "https://www.cpap.com/products/resmed-aircurve-11-vauto-bilevel-machine-with-humidair",
+  "product_name": "ResMed AirCurve 11 VAuto with HumidAir",
+  "brand": "ResMed",
+  "brand_href": "https://www.cpap.com/products/resmed-aircurve-11-vauto-bilevel-machine-with-humidair",
+  "category": "Bilevel (BiPAP)",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 1796,
+      "currency": "USD",
+      "source_url": "https://www.cpap.com/products/resmed-aircurve-11-vauto-bilevel-machine-with-humidair",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Auto bilevel",
+    "IPAP": "4-25 cmH2O"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "VAuto IPAP": "4-25 cmH2O",
+      "VAuto EPAP": "4-25 cmH2O",
+      "Pressure support": "0-10 cmH2O",
+      "Notes": "Specs from ResMed AirCurve 11 user guide. Prescription required."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {
+    "pressure_min_cmh2o": 4,
+    "pressure_max_cmh2o": 25,
+    "has_humidifier": true,
+    "warranty_years": 2,
+    "altitude_ft": 9870
+  },
+  "device_type": "bipap"
+}
