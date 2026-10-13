@@ -16,7 +16,7 @@ const sorted = guides.slice().sort((a, b) => {
 
 const pageTitle = "US buyer's guides";
 const description =
-  'Buying guides for US patients: home and portable oxygen concentrators, CPAP, Medicare coverage, FAA rules for flying with oxygen, and the Philips recall.';
+  'Buying guides for US patients: home and portable oxygen concentrators, CPAP machines and masks, supplies, costs, HSA/FSA, Medicare coverage, FAA rules for flying with oxygen, and the Philips recall.';
 
 const crumbs = [
   { href: '/', label: 'Home' },
@@ -32,6 +32,7 @@ const clusterDefs: Array<{ title: string; links: Array<[string, string]> }> = [
     links: [
       ['Best home oxygen concentrator', 'oxygen-concentrator-buyers-guide'],
       ['Best portable oxygen concentrator', 'best-portable-oxygen-concentrator'],
+      ['5 LPM vs 10 LPM oxygen concentrator', '5-lpm-vs-10-lpm'],
       ['Flying with a portable oxygen concentrator', 'faa-portable-oxygen-concentrator-rules'],
     ],
   },
@@ -40,13 +41,24 @@ const clusterDefs: Array<{ title: string; links: Array<[string, string]> }> = [
     links: [
       ['Medicare home oxygen coverage', 'medicare-oxygen-coverage'],
       ['Medicare CPAP coverage and the 90-day compliance rule', 'medicare-cpap-coverage-compliance'],
+      ['Using an HSA or FSA for CPAP and oxygen', 'hsa-fsa-cpap-oxygen-eligibility'],
     ],
   },
   {
     title: 'CPAP',
     links: [
       ['Best auto CPAP machine', 'cpap-buyers-guide'],
+      ['Philips DreamStation alternatives', 'philips-dreamstation-cpap-alternatives'],
+      ['Best travel CPAP machines', 'best-travel-cpap-machines'],
+      ['CPAP cost without insurance', 'cpap-without-insurance-cost'],
       ['Philips CPAP recall and consent decree', 'philips-cpap-recall-consent-decree'],
+    ],
+  },
+  {
+    title: 'CPAP masks and supplies',
+    links: [
+      ['Best CPAP masks', 'best-cpap-masks'],
+      ['CPAP supplies replacement schedule', 'cpap-supplies-replacement-schedule'],
     ],
   },
 ];
