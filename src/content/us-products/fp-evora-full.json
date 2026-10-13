@@ -1,0 +1,40 @@
+{
+  "slug": "fp-evora-full",
+  "source_url": "https://www.cpap.com/products/evora-full-face-mask-with-headgear",
+  "product_name": "F&P Evora Full",
+  "brand": "Fisher & Paykel",
+  "brand_href": "https://www.cpap.com/products/evora-full-face-mask-with-headgear",
+  "category": "CPAP mask",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 149,
+      "currency": "USD",
+      "source_url": "https://www.cpap.com/products/evora-full-face-mask-with-headgear",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Compact full face"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Type": "Compact full face",
+      "Notes": "CPAP.com complete-mask price; specs from F&P use and care guide."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {},
+  "device_type": "cpap-mask"
+}

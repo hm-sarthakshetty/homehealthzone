@@ -1,0 +1,40 @@
+{
+  "slug": "fp-nova-micro",
+  "source_url": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask",
+  "product_name": "F&P Nova Micro",
+  "brand": "Fisher & Paykel",
+  "brand_href": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask",
+  "category": "CPAP mask",
+  "price_current": null,
+  "price_mrp": null,
+  "price_symbol": "$",
+  "prices": {
+    "US": {
+      "amount": 99,
+      "currency": "USD",
+      "source_url": "https://www.cpap.com/products/nova-micro-nasal-pillow-cpap-mask",
+      "checked_at": "2026-10-13"
+    }
+  },
+  "countries": [
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "",
+  "images": [],
+  "key_features": {
+    "Type": "Nasal pillows"
+  },
+  "spec_tables": {
+    "Published specifications": {
+      "Type": "Nasal pillows",
+      "Notes": "CPAP.com complete-mask price; specs from F&P use and care guide."
+    }
+  },
+  "faqs": [],
+  "description_text": "",
+  "related_links": [],
+  "normalized_specs": {},
+  "device_type": "cpap-mask"
+}
