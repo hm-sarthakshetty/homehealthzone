@@ -56,16 +56,17 @@ const desc =
   </section>
 
   <section class="home-search" aria-labelledby="home-search-heading">
-    <h2 id="home-search-heading" class="section-kicker">India: search {allProducts.length} reviewed devices</h2>
+    <h2 id="home-search-heading" class="section-kicker">Search all 7 markets: devices and guides</h2>
     <SearchBox
-      entries={allProducts}
-      id="home-search"
-      placeholder="Type at least 2 characters — e.g. philips, 10 lpm, airsense…"
+      src="/search-index.json"
+      market="all"
+      id="global-search"
+      placeholder="Type at least 2 characters — e.g. airsense, inogen, 10 lpm…"
       minChars={2}
-      maxResults={8}
+      maxResults={10}
     />
     <p class="home-search__popular">
-      The full India catalogue, top picks and guides are on the <a href="/in/">India hub</a>.
+      Results show the market (flag), whether it is a device or a guide, and the local price where one is verified.
     </p>
   </section>
 
