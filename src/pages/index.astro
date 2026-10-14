@@ -4,72 +4,59 @@ import SchemaOrganization from '../components/SchemaOrganization.astro';
 import SchemaWebSite from '../components/SchemaWebSite.astro';
 import SearchBox from '../components/SearchBox.astro';
 import { getCollection } from 'astro:content';
+import { LIVE_MARKETS } from '../data/markets';
 
-const [products, cpapBipap, comparisons, guides, clinical] = await Promise.all([
+const [products, cpapBipap, guides, usGuides, intlGuides] = await Promise.all([
   getCollection('products'),
   getCollection('cpap-bipap'),
-  getCollection('comparisons'),
   getCollection('guides'),
-  getCollection('clinical'),
+  getCollection('us-guides'),
+  getCollection('intl-guides'),
 ]);
-
 const allProducts = [...products, ...cpapBipap];
-const cpapCount = cpapBipap.filter((e) => e.data.device_type === 'cpap').length;
-const bipapCount = cpapBipap.filter((e) => e.data.device_type === 'bipap').length;
 
-// "Popular" quick links — highest-rated + best-known devices in the Indian market (India catalogue)
-const popularSlugs = [
-  'home-medix-10-lpm',
-  'home-medix-5-lpm',
-  'home-medix-bv-30',
-  'home-medix-cv-20',
-  'philips-everflo-5-lpm',
-  'oxymed-mini-5-lpm',
-  'resmed-airsense-11-autoset-cpap-machine',
-  'resmed-aircurve-v-auto',
-];
-const popular = popularSlugs
-  .map((s) => {
-    const p = [...products, ...cpapBipap].find((e) => e.data.slug === s);
-    if (!p) return null;
-    const dt = p.collection === 'cpap-bipap' ? (p.data as any).device_type : null;
-    const href =
-      p.collection === 'cpap-bipap' ? `/${dt}/${p.data.slug}/` : `/oxygen-concentrators/${p.data.slug}/`;
-    return { label: p.data.product_name, href };
-  })
-  .filter((x): x is { label: string; href: string } => x !== null);
-
-const categoryCards = [
-  { href: '/oxygen-concentrators/', key: 'O2', title: 'Concentrators', meta: `${products.length} units` },
-  { href: '/cpap/', key: 'CPAP', title: 'CPAP', meta: `${cpapCount} units` },
-  { href: '/bipap/', key: 'BiPAP', title: 'BiPAP', meta: `${bipapCount} units` },
-  { href: '/compare/', key: 'CMP', title: 'Compare', meta: `${comparisons.length} curated + live builder` },
-  { href: '/guides/', key: 'GDE', title: "Buyer's guides", meta: `${guides.length} pieces` },
-  { href: '/clinical/', key: 'CLN', title: 'Clinical', meta: `${clinical.length} articles` },
+const marketCards = [
+  { href: '/in/', name: 'India', code: 'IN', note: `${allProducts.length} devices with rupee prices`, guides: guides.length },
+  { href: '/us/', name: 'United States', code: 'US', note: 'USD prices, FDA rules and Medicare basics', guides: usGuides.length },
+  ...LIVE_MARKETS.map((m) => ({
+    href: `/${m.code}/`,
+    name: m.label,
+    code: m.country,
+    note: `${m.currency} prices, local funding and regulation`,
+    guides: intlGuides.filter((g) => g.id.startsWith(`${m.code}/`)).length,
+  })),
 ];
 
 const desc =
-  "Respiratory-equipment reference for India and the US: oxygen concentrators, CPAP and BiPAP scored against one published rubric, with specs, prices and clinical context.";
+  'Respiratory equipment directory: oxygen concentrators, CPAP, BiPAP and masks, with specs, prices and buyer’s guides for India, the US, UK, Singapore, Australia, Canada and New Zealand.';
 ---
-<BaseLayout title="HHZ Respiratory Review" description={desc}>
+<BaseLayout title="Respiratory Equipment Directory" description={desc}>
   <section class="home-hero">
-    <p class="home-hero__kicker">HHZ · {allProducts.length} respiratory devices indexed</p>
-    <h1>Respiratory-equipment reference for India and the US.</h1>
+    <p class="home-hero__kicker">HHZ · {marketCards.length} markets</p>
+    <h1>Respiratory Equipment Directory</h1>
     <p class="lead">
-      Oxygen concentrators, CPAP, and BiPAP, scored against the same published rubric.
+      Oxygen concentrators, CPAP, BiPAP and masks: specs, prices and guides by country.
     </p>
   </section>
 
   <section class="home-markets" aria-labelledby="home-markets-heading">
-    <h2 id="home-markets-heading" class="section-kicker">Choose your market</h2>
-    <ul class="home-markets__list">
-      <li><a href="/"><strong>India</strong></a>: every oxygen concentrator, CPAP, and BiPAP sold in the country, with prices in rupees. The catalogue and guides below cover India.</li>
-      <li><a href="/us/"><strong>United States</strong></a>: oxygen concentrators and CPAP sold in the US, with USD prices, FDA prescription rules and Medicare basics.</li>
-    </ul>
+    <h2 id="home-markets-heading" class="section-kicker">Choose your country</h2>
+    <div class="home-catalogue__grid">
+      {marketCards.map((m) => (
+        <a class="home-cat" href={m.href}>
+          <span class="home-cat__key mono-data">{m.code}</span>
+          <span class="home-cat__body">
+            <span class="home-cat__title">{m.name}</span>
+            <span class="home-cat__meta mono-data">{m.guides} guides</span>
+            <span class="home-cat__note">{m.note}</span>
+          </span>
+        </a>
+      ))}
+    </div>
   </section>
 
   <section class="home-search" aria-labelledby="home-search-heading">
-    <h2 id="home-search-heading" class="section-kicker">Search {allProducts.length} reviewed devices</h2>
+    <h2 id="home-search-heading" class="section-kicker">India: search {allProducts.length} reviewed devices</h2>
     <SearchBox
       entries={allProducts}
       id="home-search"
@@ -77,32 +64,9 @@ const desc =
       minChars={2}
       maxResults={8}
     />
-    {popular.length > 0 && (
-      <p class="home-search__popular">
-        <span class="section-kicker">Popular</span>
-        {popular.map((p, i) => (
-          <>
-            <a href={p.href}>{p.label}</a>
-            {i < popular.length - 1 && <span class="home-search__divider">·</span>}
-          </>
-        ))}
-      </p>
-    )}
-  </section>
-
-  <section class="home-catalogue" aria-labelledby="home-catalogue-heading">
-    <h2 id="home-catalogue-heading" class="section-kicker">Browse the catalogue</h2>
-    <div class="home-catalogue__grid">
-      {categoryCards.map((card) => (
-        <a class="home-cat" href={card.href}>
-          <span class="home-cat__key mono-data">{card.key}</span>
-          <span class="home-cat__body">
-            <span class="home-cat__title">{card.title}</span>
-            <span class="home-cat__meta mono-data">{card.meta}</span>
-          </span>
-        </a>
-      ))}
-    </div>
+    <p class="home-search__popular">
+      The full India catalogue, top picks and guides are on the <a href="/in/">India hub</a>.
+    </p>
   </section>
 
   <SchemaWebSite />
@@ -218,4 +182,7 @@ const desc =
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
+  .home-in__more { margin-top: var(--space-8); font-size: var(--text-sm); color: var(--color-text-muted); }
+  .home-markets { margin-bottom: var(--space-12); }
+  .home-cat__note { font-size: var(--text-sm); color: var(--color-text-muted); }
 </style>

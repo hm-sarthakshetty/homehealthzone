@@ -2,7 +2,8 @@
   "_comment": "Pages with a regional twin. Each entry maps hreflang locale -> path. India (en-IN) is the unprefixed default and the x-default. Only pair pages that serve the same intent. Read by BaseLayout.astro and the sitemap serializer in astro.config.mjs.",
   "pairs": [
     {
-      "en-IN": "/",
+      "x-default": "/",
+      "en-IN": "/in/",
       "en-US": "/us/",
       "en-GB": "/uk/",
       "en-SG": "/sg/",
