@@ -4,7 +4,12 @@ import type { CollectionEntry } from 'astro:content';
 type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
 
 export interface Props {
-  entries: ProductEntry[];
+  /** Inline India product entries (original mode). Omit when using `src`. */
+  entries?: ProductEntry[];
+  /** URL of the static cross-market index (/search-index.json). Fetched lazily on first focus. */
+  src?: string;
+  /** With `src`: market code to scope to ('in', 'us', 'uk'…), or 'all' for every market. */
+  market?: string;
   id?: string;
   placeholder?: string;
   minChars?: number;
@@ -15,7 +20,9 @@ export interface Props {
 }
 
 const {
-  entries,
+  entries = [],
+  src,
+  market = 'all',
   id = 'search-box',
   placeholder = 'Search products…',
   minChars = 2,
@@ -53,6 +60,8 @@ const index = entries
   data-min-chars={minChars}
   data-max-results={maxResults}
   data-target={target}
+  data-src={src}
+  data-market={src ? market : undefined}
 >
   <input
     type="text"
@@ -67,11 +76,15 @@ const index = entries
     aria-autocomplete="list"
   />
   <ul class="searchbox__list" id={`${id}-list`} role="listbox" hidden></ul>
-  <script
-    type="application/json"
-    class="searchbox__data"
-    set:html={JSON.stringify(index)}
-  />
+  {src ? (
+    <p class="searchbox__status" id={`${id}-status`} aria-live="polite"></p>
+  ) : (
+    <script
+      type="application/json"
+      class="searchbox__data"
+      set:html={JSON.stringify(index)}
+    />
+  )}
 </div>
 
 <script is:inline>
@@ -87,10 +100,45 @@ const index = entries
       const input = document.getElementById(id + '-input');
       const list = document.getElementById(id + '-list');
       const dataScript = box.querySelector('.searchbox__data');
-      if (!input || !list || !dataScript) return;
+      const src = box.dataset.src;
+      const market = box.dataset.market || 'all';
+      const status = document.getElementById(id + '-status');
+      if (!input || !list || (!dataScript && !src)) return;
 
       let items = [];
-      try { items = JSON.parse(dataScript.textContent); } catch {}
+      if (dataScript) { try { items = JSON.parse(dataScript.textContent); } catch {} }
+
+      // Remote (cross-market) mode: fetch the static index once, on first focus or input.
+      const FLAGS = { in: ['🇮🇳', 'India'], us: ['🇺🇸', 'United States'], uk: ['🇬🇧', 'United Kingdom'], sg: ['🇸🇬', 'Singapore'], au: ['🇦🇺', 'Australia'], ca: ['🇨🇦', 'Canada'], nz: ['🇳🇿', 'New Zealand'] };
+      let loading = null;
+      function load() {
+        if (!src || loading) return loading;
+        loading = (window.__hhzSearchIndex ||= fetch(src).then((res) => res.json()))
+          .then((raw) => {
+            items = raw
+              .filter((x) => market === 'all' || x.m === market)
+              .map((x) => ({
+                name: x.n,
+                brand: x.b || '',
+                category: '',
+                searchKey: ((x.b ? x.b + ' ' : '') + x.n).toLowerCase(),
+                href: x.h,
+                image: null,
+                flag: FLAGS[x.m] ? FLAGS[x.m][0] : '',
+                country: FLAGS[x.m] ? FLAGS[x.m][1] : x.m,
+                kind: x.t === 'g' ? 'Guide' : 'Device',
+                price: x.p || '',
+              }));
+            const q = input.value.trim();
+            if (q.length >= minChars) search(q);
+          })
+          .catch(() => { if (status) status.textContent = 'Search is unavailable right now.'; });
+        return loading;
+      }
+      if (src) {
+        input.addEventListener('focus', load, { once: true });
+        input.addEventListener('pointerenter', load, { once: true });
+      }
 
       let activeIndex = -1;
       let currentResults = [];
@@ -110,19 +158,25 @@ const index = entries
       function render(results) {
         currentResults = results;
         activeIndex = -1;
+        if (status) status.textContent = results.length ? results.length + (results.length === 1 ? ' result' : ' results') : (items.length ? 'No results' : 'Loading…');
         if (!results.length) { hideList(); return; }
         list.hidden = false;
         input.setAttribute('aria-expanded', 'true');
         list.innerHTML = results.map((r, i) => {
-          const imgCell = r.image
+          const imgCell = r.flag
+            ? `<span class="searchbox__flag" role="img" aria-label="${escapeHtml(r.country)}">${r.flag}</span>`
+            : r.image
             ? `<img src="${escapeHtml(r.image)}" alt="" loading="lazy">`
             : '<span class="searchbox__noimg" aria-hidden="true"></span>';
+          const meta = r.kind
+            ? [r.kind, r.brand, r.price].filter(Boolean).map(escapeHtml).join('&nbsp;·&nbsp;')
+            : `${escapeHtml(r.brand || '—')}${r.category ? '&nbsp;·&nbsp;' + escapeHtml(r.category) : ''}`;
           const isLink = target === 'navigate';
           const inner = `
             ${imgCell}
             <span class="searchbox__result-body">
               <span class="searchbox__result-name">${escapeHtml(r.name)}</span>
-              <span class="searchbox__result-meta">${escapeHtml(r.brand || '—')}${r.category ? '&nbsp;·&nbsp;' + escapeHtml(r.category) : ''}</span>
+              <span class="searchbox__result-meta">${meta}</span>
             </span>
           `;
           return isLink
@@ -169,6 +223,7 @@ const index = entries
       input.addEventListener('input', () => {
         const q = input.value.trim();
         if (q.length < minChars) { hideList(); return; }
+        if (src && !items.length) { load(); if (status) status.textContent = 'Loading…'; return; }
         search(q);
       });
 
@@ -307,6 +362,22 @@ const index = entries
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+
+  .searchbox__flag {
+    width: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+  }
+  .searchbox__status {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    margin: 0;
   }
 
   .searchbox__result-meta {

@@ -97,7 +97,7 @@ const currentPath = Astro.url.pathname;
 const isUS = currentPath === '/us/' || currentPath.startsWith('/us/');
 const intlMarket = marketForPath(currentPath);
 const markets = [
-  { href: '/', label: 'India', current: !isUS && !intlMarket },
+  { href: '/in/', label: 'India', current: currentPath !== '/' && !isUS && !intlMarket },
   { href: '/us/', label: 'United States', current: isUS },
   ...LIVE_MARKETS.map((m) => ({ href: `/${m.code}/`, label: m.short, current: intlMarket?.code === m.code })),
 ];
@@ -114,7 +114,10 @@ const hreflangLinks = hreflangPair
         hreflang,
         href: new URL(path, Astro.site).toString(),
       })),
-      { hreflang: 'x-default', href: new URL(hreflangPair['en-IN'] ?? Object.values(hreflangPair)[0], Astro.site).toString() },
+      // A pair may name its own x-default (the global homepage does); otherwise India is the default.
+      ...(hreflangPair['x-default']
+        ? []
+        : [{ hreflang: 'x-default', href: new URL(hreflangPair['en-IN'] ?? Object.values(hreflangPair)[0], Astro.site).toString() }]),
     ]
   : [];
 ---
@@ -222,8 +225,8 @@ const hreflangLinks = hreflangPair
           ))}
         </p>
         <p>
-          © {new Date().getFullYear()} {SITE_NAME}. Respiratory equipment sold in India and the US, scored
-          against the same <a href="/methodology/">published rubric</a>.
+          © {new Date().getFullYear()} {SITE_NAME}. Respiratory equipment directory for India, the US, UK, Singapore,
+          Australia, Canada and New Zealand. Devices are scored against the same <a href="/methodology/">published rubric</a>.
         </p>
       </div>
     </footer>
