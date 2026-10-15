@@ -72,7 +72,7 @@ const SITE_NAME = 'HHZ Respiratory Review';
 const fullTitle = title === SITE_NAME ? title : `${title} | HHZ`;
 const resolvedCanonical = canonicalURL ?? new URL(Astro.url.pathname, Astro.site).toString();
 
-const nav = [
+const indiaNav = [
   { href: '/oxygen-concentrators/', label: 'Concentrators' },
   { href: '/cpap/', label: 'CPAP' },
   { href: '/bipap/', label: 'BiPAP' },
@@ -80,6 +80,46 @@ const nav = [
   { href: '/guides/', label: 'Guides' },
   { href: '/clinical/', label: 'Clinical' },
 ];
+
+// Market sections only ship a hub and a guides tree, so each nav item maps to
+// that market's closest existing page. Items with no equivalent are hidden;
+// a non-India market never links into the India sections.
+const marketNav: Record<string, Array<{ href: string; label: string }>> = {
+  us: [
+    { href: '/us/guides/oxygen-concentrator-buyers-guide/', label: 'Concentrators' },
+    { href: '/us/guides/apap-vs-cpap-vs-bipap/', label: 'CPAP' },
+    { href: '/us/guides/bipap-asv-medicare-coverage/', label: 'BiPAP' },
+    { href: '/us/guides/', label: 'Guides' },
+  ],
+  uk: [
+    { href: '/uk/guides/home-oxygen-concentrator-uk/', label: 'Concentrators' },
+    { href: '/uk/guides/buying-cpap-privately-uk/', label: 'CPAP' },
+    { href: '/uk/guides/', label: 'Guides' },
+  ],
+  sg: [
+    { href: '/sg/guides/home-oxygen-concentrator-singapore/', label: 'Concentrators' },
+    { href: '/sg/guides/cpap-machine-price-singapore/', label: 'CPAP' },
+    { href: '/sg/guides/', label: 'Guides' },
+  ],
+  au: [
+    { href: '/au/guides/home-oxygen-concentrator-australia/', label: 'Concentrators' },
+    { href: '/au/guides/cpap-machine-price-australia/', label: 'CPAP' },
+    { href: '/au/guides/', label: 'Guides' },
+  ],
+  ca: [
+    { href: '/ca/guides/home-oxygen-concentrator-canada/', label: 'Concentrators' },
+    { href: '/ca/guides/cpap-machine-price-canada/', label: 'CPAP' },
+    { href: '/ca/guides/', label: 'Guides' },
+  ],
+  nz: [
+    { href: '/nz/guides/oxygen-concentrator-price-nz/', label: 'Concentrators' },
+    { href: '/nz/guides/cpap-machine-price-nz/', label: 'CPAP' },
+    { href: '/nz/guides/', label: 'Guides' },
+  ],
+};
+
+const navMarket = Astro.url.pathname.match(/^\/(us|uk|sg|au|ca|nz)(\/|$)/)?.[1];
+const nav = (navMarket && marketNav[navMarket]) || indiaNav;
 
 const footerNav = [
   { href: '/about/', label: 'About' },
@@ -101,8 +141,13 @@ const markets = [
   { href: '/us/', label: 'United States', current: isUS },
   ...LIVE_MARKETS.map((m) => ({ href: `/${m.code}/`, label: m.short, current: intlMarket?.code === m.code })),
 ];
-const isCurrent = (href: string) =>
-  currentPath === href || (href !== '/' && currentPath.startsWith(href));
+// Longest matching nav href wins, so a market guide that is also the
+// "Concentrators"/"CPAP" target does not light up "Guides" as well.
+const activeNavHref = nav
+  .map((i) => i.href)
+  .filter((h) => currentPath === h || currentPath.startsWith(h))
+  .sort((a, b) => b.length - a.length)[0];
+const isCurrent = (href: string) => href === activeNavHref;
 
 // hreflang: emit alternates only for pages that have a declared regional twin.
 const hreflangPair = (hreflangData.pairs as Array<Record<string, string>>).find((pair) =>
