@@ -13,30 +13,28 @@ Source: https://homehealthzone.com/about/
 # About HHZ Respiratory Review
 
 
-      HHZ Respiratory Review catalogues home-respiratory equipment — oxygen concentrators,
-      CPAP machines, BiPAP devices, and nebulizers — for two markets, India and
-      the United States, and scores every device against the same published rubric. We lead with specifications, measure what we can on
-      a bench, and document every claim against the source it came from.
+      HHZ Respiratory Review maintains a product directory of home-respiratory equipment sold
+      in India: oxygen concentrators, CPAP machines and BiPAP devices.
+      We compare devices against a published rubric and explain the evidence behind each review.
 
 
 
-## What we do
+## What we cover
 
 
-      We cover the consumer end of respiratory medicine in India: the devices patients take
-      home after a GOLD-stage COPD diagnosis, a polysomnography-confirmed obstructive sleep
-      apnea result, a post-acute hypoxia discharge, or a neuromuscular ventilation workup.
-      Each review starts with manufacturer specs, verifies them against the device nameplate
-      and service manual where available, and — for equipment we can get hands on — adds
-      bench measurements (purity at multiple flow rates, sound pressure at one metre, pressure
-      accuracy via calibrated manometer, leak compensation under load). The measurement
-      protocol is documented in full on our methodology page.
+      Our buyer guides cover seven countries: India, the
+      United States, the United Kingdom,
+      Singapore, Australia,
+      Canada, and New Zealand.
+      These sections explain local equipment, funding, service, and travel considerations.
+      The product directory is currently focused on India.
 
 
 
-      Our US section covers oxygen concentrators and CPAP sold in the United
-      States. US reviews are written from manufacturer documents and primary US sources, and say
-      so on the page; USD prices come from named retailers with the date they were checked.
+      Reviews start with manufacturer specifications and supporting documents. We distinguish
+      published specifications from measurements on a particular unit; reviews with bench or
+      teardown evidence identify that evidence on the page. The protocol and scoring weights
+      are documented on our methodology page.
 
 
 
@@ -61,44 +59,18 @@ Source: https://homehealthzone.com/about/
 
 
 
-## Editorial team
+## Editorial workflow
 
 
-      Every review is produced by the HHZ Editorial Team and signed off by a clinical reviewer
-      before publication. The team's standing roles:
-
-
-
-      -
-        Medical reviewer — a practising pulmonologist or sleep physician who
-        vets clinical claims, indications, and therapy-selection guidance against current
-        peer-reviewed evidence and Indian professional-society positions.
-
-
-      -
-        Biomedical engineer — responsible for the bench-test rig, sensor
-        calibration, and measurement-uncertainty reporting. Signs off on all numeric claims
-        we publish.
-
-
-      -
-        Category editors — one per major category (concentrators, CPAP/BiPAP,
-        nebulizers). Own the rubric, track model-year refreshes, and maintain the comparison
-        matrix.
-
-
-      -
-        Correction and fact-check desk — handles reader-submitted corrections
-        and manufacturer rebuttals. Every correction is timestamped and the original wording is
-        preserved in a visible changelog. See our correction
-        policy.
+      Reviews and guides use the HHZ Editorial byline.
+      The editorial team collects source documents, normalizes product specifications, compares
+      devices within their category, and maintains pricing and availability information.
 
 
 
-
-
-      Bylines and credentials appear on each individual review and clinical article. The
-      editorial team can be reached through the contact points below.
+      Reviews identify the evidence available for their conclusions. Readers can submit an
+      outdated specification, a factual error, or a disputed score with supporting sources;
+      our correction policy explains how corrections are handled.
 
 
 
@@ -528,7 +500,7 @@ Source: https://homehealthzone.com/methodology/
 
 ---
 
-# Editorial independence policy
+# Editorial policy
 
 Source: https://homehealthzone.com/editorial-policy/
 
@@ -6938,11 +6910,11 @@ HHZ's firm pick at this price point is the Oxymed Mini 5 LPM. The Vandelay is no
 
 ---
 
-# United States: oxygen concentrators and CPAP
+# United States respiratory equipment buying guides
 
 Source: https://homehealthzone.com/us/
 
-HHZ for US buyers: oxygen concentrators and CPAP machines sold in the US, with USD prices from named retailers, FDA prescription rules and Medicare basics.
+HHZ buying guides for US readers, with USD price examples from named retailers, FDA prescription rules and Medicare basics. The product directory covers India.
 
 US guides:
 
@@ -12004,7 +11976,7 @@ Related: [Medicare Advantage vs Original Medicare for DME](/us/guides/medicare-a
 
 Source: https://homehealthzone.com/uk/
 
-HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.
+HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and equipment buying guides with GBP price examples.
 
 United Kingdom guides:
 
@@ -12506,7 +12478,7 @@ If you have sleep apnoea, COPD or another chronic condition and are buying for y
 
 Source: https://homehealthzone.com/sg/
 
-HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.
+HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and equipment buying guides with SGD price examples.
 
 Singapore guides:
 
@@ -13092,7 +13064,7 @@ AIC's subsidy schemes are written around home devices and rental. [Oxygen concen
 
 Source: https://homehealthzone.com/au/
 
-HHZ for Australia: state equipment schemes, Medicare, TGA rules, and devices sold in Australia with AUD prices from named retailers.
+HHZ for Australia: state equipment schemes, Medicare, TGA rules, and equipment buying guides with AUD price examples.
 
 Australia guides:
 
@@ -13752,7 +13724,7 @@ The TGA warns sponsors and health professionals who break the import and supply 
 
 Source: https://homehealthzone.com/ca/
 
-HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and devices sold in Canada with CAD prices from named retailers.
+HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and equipment buying guides with CAD price examples.
 
 Canada guides:
 
@@ -14236,7 +14208,7 @@ Provinces fund home oxygen through their own programmes, usually through a contr
 
 Source: https://homehealthzone.com/nz/
 
-HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and devices sold in NZ with NZD prices from named retailers.
+HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and equipment buying guides with NZD price examples.
 
 New Zealand guides:
 

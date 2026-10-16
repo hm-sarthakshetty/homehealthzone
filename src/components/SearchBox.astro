@@ -1,275 +1,69 @@
 ---
 import type { CollectionEntry } from 'astro:content';
+import { productSearchKeywords } from '../lib/search-core.mjs';
+import { formatPrice, resolvePrice } from '../lib/price';
 
 type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
-
 export interface Props {
-  /** Inline India product entries (original mode). Omit when using `src`. */
   entries?: ProductEntry[];
-  /** URL of the static cross-market index (/search-index.json). Fetched lazily on first focus. */
   src?: string;
-  /** With `src`: market code to scope to ('in', 'us', 'uk'…), or 'all' for every market. */
   market?: string;
+  resultType?: 'all' | 'device' | 'guide' | 'clinical';
   id?: string;
+  label?: string;
   placeholder?: string;
   minChars?: number;
   maxResults?: number;
-  /** 'navigate' (default) → result link navigates to product page.
-   *  'select' → clicking/Enter fires a `search:select` CustomEvent with the chosen product. */
   target?: 'navigate' | 'select';
+  /** Complete results, URL query and market/type controls on /search/. */
+  fullResults?: boolean;
 }
-
-const {
-  entries = [],
-  src,
-  market = 'all',
-  id = 'search-box',
-  placeholder = 'Search products…',
-  minChars = 2,
-  maxResults = 8,
-  target = 'navigate',
-} = Astro.props;
-
-function hrefFor(entry: ProductEntry): string {
-  if (entry.collection === 'cpap-bipap') {
-    const dt = (entry.data as CollectionEntry<'cpap-bipap'>['data']).device_type;
-    return `/${dt}/${entry.data.slug}/`;
-  }
-  return `/oxygen-concentrators/${entry.data.slug}/`;
-}
-
-const index = entries
-  .map((e) => {
-    const firstImage = e.data.images?.[0];
-    return {
-      slug: e.data.slug,
-      name: e.data.product_name,
-      brand: e.data.brand || '',
-      category: e.data.category || '',
-      searchKey: `${e.data.brand} ${e.data.product_name}`.toLowerCase(),
-      image: firstImage?.src ?? null,
-      href: hrefFor(e),
-    };
-  })
-  .sort((a, b) => a.name.localeCompare(b.name));
+const { entries = [], src, market = 'all', resultType = 'all', id = 'search-box',
+  label = 'Search HHZ', placeholder = 'Search devices, guides and clinical articles…',
+  minChars = 2, maxResults = 8, target = 'navigate', fullResults = false } = Astro.props;
+const index = entries.map((entry) => ({
+  slug: entry.data.slug, name: entry.data.product_name, brand: entry.data.brand,
+  category: entry.data.category, market: 'in', type: 'd',
+  keywords: productSearchKeywords(entry.data), image: entry.data.images?.[0]?.src ?? null,
+  href: `/${entry.collection === 'cpap-bipap' ? entry.data.device_type : 'oxygen-concentrators'}/${entry.data.slug}/`,
+  discontinued: entry.data.stock.toLowerCase().includes('discontinued'),
+  price: entry.data.stock.toLowerCase().includes('discontinued') ? '' : formatPrice(resolvePrice(entry.data, 'IN')),
+}));
 ---
-
-<div
-  class="searchbox"
-  data-search-id={id}
-  data-min-chars={minChars}
-  data-max-results={maxResults}
-  data-target={target}
-  data-src={src}
-  data-market={src ? market : undefined}
->
-  <input
-    type="text"
-    class="searchbox__input mono-data"
-    id={`${id}-input`}
-    placeholder={placeholder}
-    autocomplete="off"
-    spellcheck="false"
-    role="combobox"
-    aria-expanded="false"
-    aria-controls={`${id}-list`}
-    aria-autocomplete="list"
-  />
-  <ul class="searchbox__list" id={`${id}-list`} role="listbox" hidden></ul>
-  {src ? (
-    <p class="searchbox__status" id={`${id}-status`} aria-live="polite"></p>
-  ) : (
-    <script
-      type="application/json"
-      class="searchbox__data"
-      set:html={JSON.stringify(index)}
-    />
-  )}
+<div class:list={['searchbox', { 'searchbox--full': fullResults }]} data-search-id={id}
+  data-min-chars={minChars} data-max-results={maxResults} data-target={target}
+  data-src={src} data-market={market} data-result-type={resultType} data-full-results={String(fullResults)}>
+  <label class="searchbox__label" for={`${id}-input`}>{label}</label>
+  <input type="search" class="searchbox__input mono-data" id={`${id}-input`}
+    placeholder={placeholder} autocomplete="off" spellcheck="false" role="combobox"
+    aria-expanded="false" aria-controls={`${id}-list`} aria-autocomplete="list"
+    aria-describedby={`${id}-hint ${id}-status`} />
+  <p class="searchbox__hint" id={`${id}-hint`}>
+    {fullResults ? 'Filter by country and content type. Use arrow keys to select a result, then Enter to open it.' : `Enter at least ${minChars} characters. Use arrow keys to select a result, then Enter.`}
+  </p>
+  {fullResults && <div class="searchbox__filters">
+    <label>Country <select class="searchbox__market">
+      <option value="all">All countries</option><option value="in">India</option><option value="us">United States</option>
+      <option value="uk">United Kingdom</option><option value="sg">Singapore</option><option value="au">Australia</option>
+      <option value="ca">Canada</option><option value="nz">New Zealand</option>
+    </select></label>
+    <label>Content type <select class="searchbox__type">
+      <option value="all">All content</option><option value="device">Device reviews · India</option>
+      <option value="guide">Buying guides</option><option value="clinical">Clinical articles · India</option>
+    </select></label>
+  </div>}
+  <p class="searchbox__status" id={`${id}-status`} role="status" aria-live="polite" aria-atomic="true"></p>
+  <button class="searchbox__retry" type="button" hidden>Retry search</button>
+  <ul class="searchbox__list" id={`${id}-list`} role="listbox" aria-label={`${label} results`} hidden></ul>
+  {!fullResults && target === 'navigate' && <a class="searchbox__all" href="/search/">View all search results</a>}
+  {!src && <script type="application/json" class="searchbox__data" set:html={JSON.stringify(index).replace(/</g, '\u003c')} />}
+  {!fullResults && <noscript><p>Search needs JavaScript. Browse <a href="/search/">all devices and articles</a>.</p></noscript>}
 </div>
-
-<script is:inline>
-  (() => {
-    document.querySelectorAll('.searchbox').forEach((box) => {
-      if (box.dataset.searchInit === '1') return;
-      box.dataset.searchInit = '1';
-
-      const id = box.dataset.searchId;
-      const minChars = Number(box.dataset.minChars) || 2;
-      const maxResults = Number(box.dataset.maxResults) || 8;
-      const target = box.dataset.target || 'navigate';
-      const input = document.getElementById(id + '-input');
-      const list = document.getElementById(id + '-list');
-      const dataScript = box.querySelector('.searchbox__data');
-      const src = box.dataset.src;
-      const market = box.dataset.market || 'all';
-      const status = document.getElementById(id + '-status');
-      if (!input || !list || (!dataScript && !src)) return;
-
-      let items = [];
-      if (dataScript) { try { items = JSON.parse(dataScript.textContent); } catch {} }
-
-      // Remote (cross-market) mode: fetch the static index once, on first focus or input.
-      const FLAGS = { in: ['🇮🇳', 'India'], us: ['🇺🇸', 'United States'], uk: ['🇬🇧', 'United Kingdom'], sg: ['🇸🇬', 'Singapore'], au: ['🇦🇺', 'Australia'], ca: ['🇨🇦', 'Canada'], nz: ['🇳🇿', 'New Zealand'] };
-      let loading = null;
-      function load() {
-        if (!src || loading) return loading;
-        loading = (window.__hhzSearchIndex ||= fetch(src).then((res) => res.json()))
-          .then((raw) => {
-            items = raw
-              .filter((x) => market === 'all' || x.m === market)
-              .map((x) => ({
-                name: x.n,
-                brand: x.b || '',
-                category: '',
-                searchKey: ((x.b ? x.b + ' ' : '') + x.n).toLowerCase(),
-                href: x.h,
-                image: null,
-                flag: FLAGS[x.m] ? FLAGS[x.m][0] : '',
-                country: FLAGS[x.m] ? FLAGS[x.m][1] : x.m,
-                kind: x.t === 'g' ? 'Guide' : 'Device',
-                price: x.p || '',
-              }));
-            const q = input.value.trim();
-            if (q.length >= minChars) search(q);
-          })
-          .catch(() => { if (status) status.textContent = 'Search is unavailable right now.'; });
-        return loading;
-      }
-      if (src) {
-        input.addEventListener('focus', load, { once: true });
-        input.addEventListener('pointerenter', load, { once: true });
-      }
-
-      let activeIndex = -1;
-      let currentResults = [];
-
-      function escapeHtml(s) {
-        return String(s == null ? '' : s).replace(/[&<>"']/g, (c) => (
-          { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
-        ));
-      }
-
-      function hideList() {
-        list.hidden = true;
-        input.setAttribute('aria-expanded', 'false');
-        activeIndex = -1;
-      }
-
-      function render(results) {
-        currentResults = results;
-        activeIndex = -1;
-        if (status) status.textContent = results.length ? results.length + (results.length === 1 ? ' result' : ' results') : (items.length ? 'No results' : 'Loading…');
-        if (!results.length) { hideList(); return; }
-        list.hidden = false;
-        input.setAttribute('aria-expanded', 'true');
-        list.innerHTML = results.map((r, i) => {
-          const imgCell = r.flag
-            ? `<span class="searchbox__flag" role="img" aria-label="${escapeHtml(r.country)}">${r.flag}</span>`
-            : r.image
-            ? `<img src="${escapeHtml(r.image)}" alt="" loading="lazy">`
-            : '<span class="searchbox__noimg" aria-hidden="true"></span>';
-          const meta = r.kind
-            ? [r.kind, r.brand, r.price].filter(Boolean).map(escapeHtml).join('&nbsp;·&nbsp;')
-            : `${escapeHtml(r.brand || '—')}${r.category ? '&nbsp;·&nbsp;' + escapeHtml(r.category) : ''}`;
-          const isLink = target === 'navigate';
-          const inner = `
-            ${imgCell}
-            <span class="searchbox__result-body">
-              <span class="searchbox__result-name">${escapeHtml(r.name)}</span>
-              <span class="searchbox__result-meta">${meta}</span>
-            </span>
-          `;
-          return isLink
-            ? `<li role="option" data-index="${i}"><a href="${escapeHtml(r.href)}" class="searchbox__result" tabindex="-1">${inner}</a></li>`
-            : `<li role="option" data-index="${i}"><button type="button" class="searchbox__result" tabindex="-1">${inner}</button></li>`;
-        }).join('');
-      }
-
-      function search(q) {
-        const qL = q.toLowerCase();
-        const matches = items.filter((p) => p.searchKey.includes(qL));
-        matches.sort((a, b) => {
-          const aStart = a.searchKey.startsWith(qL);
-          const bStart = b.searchKey.startsWith(qL);
-          if (aStart !== bStart) return aStart ? -1 : 1;
-          return a.name.localeCompare(b.name);
-        });
-        render(matches.slice(0, maxResults));
-      }
-
-      function updateActive() {
-        const options = list.querySelectorAll('li');
-        options.forEach((o, i) => o.classList.toggle('searchbox__item--active', i === activeIndex));
-        if (activeIndex >= 0 && options[activeIndex]) {
-          options[activeIndex].scrollIntoView({ block: 'nearest' });
-        }
-      }
-
-      function choose(index) {
-        const item = currentResults[index];
-        if (!item) return;
-        if (target === 'navigate') {
-          window.location.href = item.href;
-        } else {
-          box.dispatchEvent(new CustomEvent('search:select', {
-            detail: item,
-            bubbles: true,
-          }));
-          input.value = '';
-          hideList();
-        }
-      }
-
-      input.addEventListener('input', () => {
-        const q = input.value.trim();
-        if (q.length < minChars) { hideList(); return; }
-        if (src && !items.length) { load(); if (status) status.textContent = 'Loading…'; return; }
-        search(q);
-      });
-
-      input.addEventListener('focus', () => {
-        if (input.value.trim().length >= minChars && currentResults.length) {
-          list.hidden = false;
-          input.setAttribute('aria-expanded', 'true');
-        }
-      });
-
-      input.addEventListener('keydown', (e) => {
-        if (e.key === 'ArrowDown') {
-          e.preventDefault();
-          if (list.hidden && input.value.trim().length >= minChars) search(input.value.trim());
-          activeIndex = Math.min(activeIndex + 1, currentResults.length - 1);
-          if (activeIndex < 0) activeIndex = 0;
-          updateActive();
-        } else if (e.key === 'ArrowUp') {
-          e.preventDefault();
-          activeIndex = Math.max(activeIndex - 1, 0);
-          updateActive();
-        } else if (e.key === 'Enter') {
-          if (activeIndex >= 0) { e.preventDefault(); choose(activeIndex); }
-        } else if (e.key === 'Escape') {
-          hideList();
-          input.blur();
-        }
-      });
-
-      // Click handling — delegate for both link and button variants
-      list.addEventListener('click', (e) => {
-        const li = e.target.closest('li');
-        if (!li) return;
-        const idx = Number(li.dataset.index);
-        if (target === 'select') {
-          e.preventDefault();
-          choose(idx);
-        }
-        // Link variant just navigates via anchor href naturally
-      });
-
-      document.addEventListener('click', (e) => {
-        if (!box.contains(e.target)) hideList();
-      });
-    });
-  })();
+<script>
+  import { initializeSearchBox } from '../lib/search-client.mjs';
+  const initialize = () => document.querySelectorAll('.searchbox').forEach(initializeSearchBox);
+  initialize();
+  document.addEventListener('astro:page-load', initialize);
 </script>
 
 <style is:global>
@@ -297,7 +91,7 @@ const index = entries
 
   .searchbox__list {
     position: absolute;
-    top: calc(100% - 1px);
+    top: 100%;
     left: 0;
     right: 0;
     max-height: 420px;
@@ -329,7 +123,7 @@ const index = entries
     text-decoration: none;
     cursor: pointer;
     font-family: inherit;
-    min-height: 32px;
+    min-height: 44px;
   }
 
   .searchbox__list li.searchbox__item--active .searchbox__result,
@@ -370,15 +164,7 @@ const index = entries
     line-height: 20px;
     text-align: center;
   }
-  .searchbox__status {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    white-space: nowrap;
-    margin: 0;
-  }
+
 
   .searchbox__result-meta {
     font-family: var(--font-mono);
@@ -387,4 +173,17 @@ const index = entries
     text-transform: uppercase;
     letter-spacing: 0.04em;
   }
+
+  .searchbox__label { display: block; font-weight: 600; margin-bottom: var(--space-2); font-size: var(--text-sm); }
+  .searchbox__hint, .searchbox__status { font-size: var(--text-xs); color: var(--color-text-muted); margin: var(--space-2) 0; }
+  .searchbox__status { position: static; width: auto; height: auto; overflow: visible; clip: auto; white-space: normal; }
+  .searchbox__all { display: inline-block; margin-top: var(--space-2); font-size: var(--text-sm); }
+  .searchbox__retry { border: 1px solid var(--color-rule); background: var(--color-bg); padding: var(--space-2) var(--space-3); font: inherit; cursor: pointer; }
+  .searchbox__retry[hidden] { display: none; }
+  .searchbox__filters { display: flex; flex-wrap: wrap; gap: var(--space-4); margin-top: var(--space-4); }
+  .searchbox__filters label { display: flex; flex-direction: column; gap: var(--space-1); font-size: var(--text-sm); }
+  .searchbox__filters select { color: var(--color-text); background: var(--color-bg); border: 1px solid var(--color-rule); padding: var(--space-2); font: inherit; }
+  .searchbox--full .searchbox__list { position: static; max-height: none; box-shadow: none; }
+  .searchbox--full .searchbox__result { padding: var(--space-3); }
+  .searchbox--full .searchbox__result-name { white-space: normal; }
 </style>

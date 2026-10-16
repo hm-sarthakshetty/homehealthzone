@@ -672,3 +672,44 @@ hr {
   .site-nav { gap: var(--space-4); flex-wrap: wrap; }
   h1 { font-size: var(--text-3xl); }
 }
+
+/* Shared navigation hubs and human-readable site map. */
+.wayfinding-hero {
+  padding: var(--space-6) 0 var(--space-8);
+  border-bottom: 1px solid var(--color-border);
+  margin-bottom: var(--space-8);
+}
+.wayfinding-hero h1 {
+  font-size: clamp(2rem, 4vw + 1rem, 3.25rem);
+  line-height: 1.08;
+  max-width: 24ch;
+}
+.wayfinding-hero .lead {
+  color: var(--color-text-muted);
+  font-size: var(--text-lg);
+  max-width: 64ch;
+  margin: 0;
+}
+.wayfinding-section { margin-bottom: var(--space-12); scroll-margin-top: 10rem; }
+.wayfinding-section > h2 { margin-top: 0; }
+.wayfinding-section > p { max-width: 70ch; }
+.wayfinding-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr));
+  gap: var(--space-4);
+}
+.wayfinding-grid .section-kicker { display: block; margin-bottom: var(--space-3); }
+.wayfinding-link { font-family: var(--font-sans); font-weight: 600; }
+.wayfinding-inline { display: flex; flex-wrap: wrap; gap: var(--space-3) var(--space-6); font-family: var(--font-sans); font-size: var(--text-sm); }
+.wayfinding-note { font-size: var(--text-sm); color: var(--color-text-muted); margin-top: var(--space-4); max-width: 80ch; }
+.site-map-group { padding: var(--space-5); border: 1px solid var(--color-border); }
+.site-map-group h3 { margin-top: 0; }
+.site-map-group ul { margin-bottom: 0; }
+.site-map-group li { margin-bottom: var(--space-2); }
+
+@media (max-width: 640px) {
+  .site-header .container { gap: var(--space-3); }
+  .site-nav { gap: var(--space-1) var(--space-4); }
+  .site-nav a { padding-block: var(--space-1); }
+  .market-switch { margin-top: 0; }
+}

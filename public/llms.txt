@@ -1,6 +1,6 @@
 # HHZ Respiratory Review
 
-> Respiratory-equipment reference for oxygen concentrators, CPAP, and BiPAP devices sold in India and the US. Products are scored against a published rubric.
+> Respiratory-equipment guides for seven countries, a product directory and device comparisons for India, and a clinical reference library.
 
 HHZ currently tracks 96 oxygen concentrator product records, 80 oxygen concentrator reviews, 26 CPAP/BiPAP product records, 26 CPAP/BiPAP reviews, 71 comparison records, and 71 written comparison pages. The guide library has 83 buyer guides, 6 city-specific 5 LPM buying pages, 30 city service/dealer/repair/price/rental pages, 17 category buyer hubs, and the clinical library has 80 educational explainers.
 
@@ -8,19 +8,21 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 
 ## Markets
 
-- [India](https://homehealthzone.com/): oxygen concentrators, CPAP, and BiPAP sold in India, with prices in rupees
-- [United States](https://homehealthzone.com/us/): oxygen concentrators and CPAP sold in the US, with USD prices, FDA prescription rules and Medicare basics
-- [United Kingdom](https://homehealthzone.com/uk/): HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.
-- [Singapore](https://homehealthzone.com/sg/): HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.
-- [Australia](https://homehealthzone.com/au/): HHZ for Australia: state equipment schemes, Medicare, TGA rules, and devices sold in Australia with AUD prices from named retailers.
-- [Canada](https://homehealthzone.com/ca/): HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and devices sold in Canada with CAD prices from named retailers.
-- [New Zealand](https://homehealthzone.com/nz/): HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and devices sold in NZ with NZD prices from named retailers.
+- [India product directory](https://homehealthzone.com/in/): oxygen concentrators, CPAP and BiPAP product pages, comparisons and buyer guides, with prices in rupees
+- [United States guides](https://homehealthzone.com/us/): buying and using oxygen concentrators and CPAP in the US, with USD price references, FDA prescription rules and Medicare basics
+- [United Kingdom](https://homehealthzone.com/uk/): HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and equipment buying guides with GBP price examples.
+- [Singapore](https://homehealthzone.com/sg/): HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and equipment buying guides with SGD price examples.
+- [Australia](https://homehealthzone.com/au/): HHZ for Australia: state equipment schemes, Medicare, TGA rules, and equipment buying guides with AUD price examples.
+- [Canada](https://homehealthzone.com/ca/): HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and equipment buying guides with CAD price examples.
+- [New Zealand](https://homehealthzone.com/nz/): HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and equipment buying guides with NZD price examples.
 
 ## Editorial policies
 
+- [Site map](https://homehealthzone.com/site-map/): India product directory, country guide hubs and clinical reference library
+- [Clinical library](https://homehealthzone.com/clinical/): respiratory-device and therapy explainers
 - [About HHZ](https://homehealthzone.com/about/): what HHZ covers and how the rubric is applied
 - [Methodology](https://homehealthzone.com/methodology/): scoring methodology and testing protocol
-- [Editorial policy](https://homehealthzone.com/editorial-policy/): independence, loaners, sponsorship, and corrections
+- [Editorial policy](https://homehealthzone.com/editorial-policy/): scoring, loaners, manufacturer outreach and corrections
 - [Correction policy](https://homehealthzone.com/correction-policy/): timestamped corrections with original wording preserved
 - [HHZ Editorial author profile](https://homehealthzone.com/authors/hhz-editorial/): byline identity, scope, review language, and update standards
 - [Contact](https://homehealthzone.com/contact/)
@@ -293,7 +295,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 
 ## United Kingdom guides
 
-- [United Kingdom hub](https://homehealthzone.com/uk/): HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.
+- [United Kingdom hub](https://homehealthzone.com/uk/): HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and equipment buying guides with GBP price examples.
 - [Portable oxygen concentrators in the UK (2026)](https://homehealthzone.com/uk/guides/best-portable-oxygen-concentrator-uk/): UK prices for the Inogen Rove 6 and Drive DeVilbiss iGo2 portable oxygen concentrators, battery life, VAT relief, how a private POC fits with NHS oxygen, and flying.
 - [Buying a CPAP privately in the UK (2026 prices)](https://homehealthzone.com/uk/guides/buying-cpap-privately-uk/): UK prices for the ResMed AirSense 11 and AirMini from ResMed's UK shop, what the packages include, VAT relief, running costs at the price cap, and when to buy at all.
 - [CPAP masks in the UK: ResMed prices compared (2026)](https://homehealthzone.com/uk/guides/cpap-masks-uk/): UK prices for ResMed full-face, nasal and pillows CPAP masks from ResMed's UK shop, how the three types differ, replacement-part costs and VAT relief.
@@ -309,7 +311,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 
 ## Singapore guides
 
-- [Singapore hub](https://homehealthzone.com/sg/): HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.
+- [Singapore hub](https://homehealthzone.com/sg/): HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and equipment buying guides with SGD price examples.
 - [CPAP in Singapore's humidity: rainout and supplies](https://homehealthzone.com/sg/guides/cpap-humidity-singapore/): Why Singapore's humid nights and air-conditioned bedrooms matter for CPAP users, ResMed's humidifier and heated-tube settings, and SGD prices for tubes, tubs and filters.
 - [CPAP machine prices in Singapore (2026)](https://homehealthzone.com/sg/guides/cpap-machine-price-singapore/): Live SGD prices for CPAP machines from Singapore retailers: ResMed AirSense 11 and 10, Resvent iBreeze and the AirCurve 11 bilevel, plus rental and home-trial costs.
 - [CPAP masks in Singapore: prices compared (2026)](https://homehealthzone.com/sg/guides/cpap-masks-singapore/): SGD prices for ResMed, Philips and BMC CPAP masks from Singapore retailers, sorted by full-face, nasal and pillows, with replacement-part costs.
@@ -324,7 +326,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 
 ## Australia guides
 
-- [Australia hub](https://homehealthzone.com/au/): HHZ for Australia: state equipment schemes, Medicare, TGA rules, and devices sold in Australia with AUD prices from named retailers.
+- [Australia hub](https://homehealthzone.com/au/): HHZ for Australia: state equipment schemes, Medicare, TGA rules, and equipment buying guides with AUD price examples.
 - [CPAP machine prices in Australia (2026)](https://homehealthzone.com/au/guides/cpap-machine-price-australia/): Live AUD prices for CPAP machines from Australian retailers: ResMed AirSense 11 and 10, AirMini, Fisher & Paykel SleepStyle, Yuwell and the AirCurve 11 bilevel.
 - [CPAP masks in Australia: prices compared (2026)](https://homehealthzone.com/au/guides/cpap-masks-australia/): AUD prices for ResMed, Fisher & Paykel, Philips and Yuwell CPAP masks from Australian retailers, by full-face, nasal and pillows, plus spare-part costs and GST.
 - [EnableNSW home oxygen and CPAP: who qualifies](https://homehealthzone.com/au/guides/enablensw-home-respiratory-program/): How NSW's EnableNSW Home Respiratory Program supplies home oxygen and CPAP: eligibility, the $100 or 20% co-payment, income bands, smoking rules and what you still buy yourself.
@@ -340,7 +342,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 
 ## Canada guides
 
-- [Canada hub](https://homehealthzone.com/ca/): HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and devices sold in Canada with CAD prices from named retailers.
+- [Canada hub](https://homehealthzone.com/ca/): HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and equipment buying guides with CAD price examples.
 - [Alberta AADL home oxygen and respiratory benefits](https://homehealthzone.com/ca/guides/alberta-aadl-home-oxygen/): Alberta Aids to Daily Living covers oxygen and respiratory equipment without the usual 25% cost-share. How assessment and vendors work, and what we could not confirm.
 - [BC CPAP funding on income or disability assistance](https://homehealthzone.com/ca/guides/bc-cpap-funding-income-assistance/): How BC’s ministry funds CPAP for people on disability or income assistance: pre-approval, the 6-month sleep test rule, the 80% / 4-hour compliance report and what is covered.
 - [BC Home Oxygen Program: who qualifies](https://homehealthzone.com/ca/guides/bc-home-oxygen-program/): British Columbia’s Home Oxygen Program: the resting, walking and overnight oxygen thresholds in the provincial guideline, how Fraser Health applications work, and exclusions.
@@ -356,7 +358,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 
 ## New Zealand guides
 
-- [New Zealand hub](https://homehealthzone.com/nz/): HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and devices sold in NZ with NZD prices from named retailers.
+- [New Zealand hub](https://homehealthzone.com/nz/): HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and equipment buying guides with NZD price examples.
 - [ACC and respiratory equipment after an injury](https://homehealthzone.com/nz/guides/acc-equipment-respiratory-new-zealand/): When ACC pays for aids, equipment and respiratory consumables after a covered injury in New Zealand, how to apply, ACC’s timeframes and how it differs from Health NZ funding.
 - [CPAP cleaning and troubleshooting (NZ guide)](https://homehealthzone.com/nz/guides/cpap-cleaning-troubleshooting-nz/): Health NZ’s CPAP cleaning schedule and fixes for common problems: water in the tube, dry mouth, leaks, noisy hose, sore eyes, pressure too high and machines that won’t start.
 - [CPAP machine prices in New Zealand (2026)](https://homehealthzone.com/nz/guides/cpap-machine-price-nz/): Live NZD prices for CPAP machines at New Zealand retailers: ResMed AirSense 11 and 10, AirMini, F&P SleepStyle, Yuwell and the AirCurve 11 VAuto, plus ResMed’s $35 trial.
@@ -415,7 +417,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [Home Medix HM-KV 5 LPM vs Niscomed 5 LPM Single Flow: spec-sheet contest or established-brand inertia?](https://homehealthzone.com/compare/home-medix-5-lpm-vs-niscomed-5-lpm-(single-flow)/): Home Medix HM-KV (₹37,800, 13 kg, ≤ 40 dB field-verified, 320 VA, OPI yes, 3-yr / 10,000-hr warranty) vs Niscomed 5 LPM Single Flow (₹42,240, 25 kg, 50 dB, 530 W, no OPI) — a ₹4,440 cheaper HM-KV with materially better specs across weight, sound, power, and alarms.
 - [Home Medix HM-KV 5 LPM vs Owgels 5L: ₹9K saved on the Chinese-OEM, ₹9K's worth of spec depth on the HM-KV?](https://homehealthzone.com/compare/home-medix-5-lpm-vs-owgels-oxymed/): HM-KV (₹37,800, 13 kg, ≤ 40 dB field-verified, full alarm suite, 3-yr / 10,000-hr warranty) vs Owgels 5L (₹28,608, 19 kg, 50 dB, CE certified, single-alarm documentation) — a ₹9,192 gap split between a Chinese-OEM price advantage and a documented spec sheet.
 - [Home Medix HM-KV vs Oxymed Mini 5 LPM: quieter bedside pick or broadest Indian service network?](https://homehealthzone.com/compare/home-medix-5-lpm-vs-oxymed-mini-5-lpm/): Home Medix HM-KV (₹37,800, 13 kg, ≤ 40 dB field-verified, 3-yr / 10,000-hr warranty) vs Oxymed Mini (₹35,400, 13.9 kg, 45 dB, 40+ authorised service cities) — a ₹2,400 gap where sound, weight, and warranty meet the largest Indian concentrator service footprint.
-- [Home Medix HM-KV 5 LPM vs Philips EverFlo 5 LPM: value pick or the Indian benchmark?](https://homehealthzone.com/compare/home-medix-5-lpm-vs-philips-everflo-5-lpm/): Home Medix HM-KV (13 kg, ≤40 dB, CDSCO, ~₹37,800) vs Philips EverFlo (14 kg, 45 dB, US FDA + CE, ~₹43,699 (since discontinued)). The HM-KV wins on weight, sound, voltage tolerance, and price. The EverFlo wins on brand, dealer depth, and resale.
+- [Home Medix HM-KV 5 LPM vs Philips EverFlo: choose the in-production HM-KV](https://homehealthzone.com/compare/home-medix-5-lpm-vs-philips-everflo-5-lpm/): Choose HM-KV for a new 5 LPM purchase where local service is confirmed. Compare its published specifications with the discontinued Philips EverFlo and check the risks of leftover stock.
 - [Home Medix HM-KV 5 LPM vs Yuwell 7F: established Chinese-OEM platform or Indian-tuned mid-tier?](https://homehealthzone.com/compare/home-medix-5-lpm-vs-yuwell-7f-5-lpm/): HM-KV (₹37,800, 13 kg, ≤ 40 dB field-verified, full alarm suite) vs Yuwell 7F (₹47,040, 27 kg, 53 dB, two-alarm documentation) — a ₹9,240 gap that asks whether Yuwell's broader China-volume platform-maturity beats the HM-KV's Indian-voltage tuning and lighter chassis.
 - [Home Medix HM-KV 5 LPM vs Yuwell 8F (with Nebulizer): standalone mid-tier or half-price concentrator-plus-nebulizer combo?](https://homehealthzone.com/compare/home-medix-5-lpm-vs-yuwell-8f-with-nebulizer/): HM-KV (₹37,800, 13 kg, ≤ 40 dB field-verified, no integrated nebulizer) vs Yuwell 8F with built-in nebulizer (₹20,000 per listing, 15.5 kg, 52 dB, integrated nebulizer port) — a ₹17,800 gap where the value pick bundles asthma+COPD overlap therapy at half the price.
 - [Home Medix HM-KV 5 LPM vs Yuwell 9F Touchscreen 5LPM: ₹37,800 Indian-tuned pick vs ₹45,120 Chinese-OEM touchscreen flagship](https://homehealthzone.com/compare/home-medix-5-lpm-vs-yuwell-9f-touchscreen-5lpm/): Home Medix HM-KV 5 LPM (₹37,800, 13 kg, ≤ 40 dB field-verified, AC ±10%, In Stock) vs Yuwell 9F Touchscreen 5LPM (₹45,120, 18 kg, 52 dB, 400 W, Out of Stock, touchscreen UI, no OPI documented) — a ₹7,320 gap where the Yuwell pays the premium for touchscreen UI and Yuwell's established Chinese-OEM scale, but loses on weight, sound, and Indian-mains documentation.

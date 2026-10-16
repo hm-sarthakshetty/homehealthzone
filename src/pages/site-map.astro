@@ -1,0 +1,96 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { LIVE_MARKETS } from '../data/markets';
+const countries = [
+  { label: 'India', hub: '/in/', guides: '/guides/' },
+  { label: 'United States', hub: '/us/', guides: '/us/guides/' },
+  ...LIVE_MARKETS.map((m) => ({ label: m.label, hub: `/${m.code}/`, guides: `/${m.code}/guides/` })),
+];
+const shortlists = [
+  { href: '/top-5/5-lpm-oxygen-concentrators/', label: '5 LPM oxygen concentrators' },
+  { href: '/top-5/10-lpm-oxygen-concentrators/', label: '10 LPM oxygen concentrators' },
+  { href: '/top-5/portable-oxygen-concentrators/', label: 'Portable oxygen concentrators' },
+  { href: '/top-5/cpap-machines/', label: 'CPAP machines' },
+  { href: '/top-5/bipap-machines/', label: 'BiPAP machines' },
+  { href: '/top-5/oxygen-concentrators-under-40000/', label: 'Oxygen concentrators under ₹40,000' },
+  { href: '/top-5/quietest-oxygen-concentrators/', label: 'Quiet oxygen concentrators' },
+  { href: '/top-5/indian-made-oxygen-concentrators/', label: 'Indian-made oxygen concentrators' },
+  { href: '/top-5/oxygen-concentrators-for-copd/', label: 'Oxygen concentrators for COPD' },
+  { href: '/top-5/oxygen-concentrators-for-senior-care/', label: 'Oxygen concentrators for senior care' },
+];
+const policies = [
+  { href: '/about/', label: 'About HHZ' },
+  { href: '/methodology/', label: 'Review methodology and scoring' },
+  { href: '/editorial-policy/', label: 'Editorial policy' },
+  { href: '/correction-policy/', label: 'Corrections policy' },
+  { href: '/authors/hhz-editorial/', label: 'HHZ Editorial' },
+  { href: '/contact/', label: 'Contact' },
+  { href: '/privacy-policy/', label: 'Privacy policy' },
+  { href: '/terms/', label: 'Terms' },
+];
+---
+<BaseLayout title="Site Map" description="Find the India product directory, comparisons and shortlists, country buying guides, clinical articles and HHZ publication policies.">
+  <Breadcrumbs items={[{ href: '/', label: 'Home' }, { href: '/site-map/', label: 'Site map' }]} />
+  <header class="wayfinding-hero">
+    <p class="section-kicker">Explore HHZ</p>
+    <h1>Site map</h1>
+    <p class="lead">Product reviews and comparisons cover India. Buying guides are organised by country. The clinical library explains conditions, therapies and equipment use.</p>
+  </header>
+
+  <p><a class="wayfinding-link" href="/search/">Search all devices, buying guides and clinical articles →</a></p>
+
+  <nav class="wayfinding-inline wayfinding-section" aria-label="Site map sections">
+    <a href="#india-directory">India product directory</a>
+    <a href="#country-guides">Country buying guides</a>
+    <a href="#clinical">Clinical library</a>
+    <a href="#publication">About and policies</a>
+  </nav>
+
+  <section id="india-directory" class="wayfinding-section" aria-labelledby="directory-heading">
+    <h2 id="directory-heading">India product directory</h2>
+    <p><a href="/in/">Start at the India directory →</a> Browse device specifications, rupee prices and review scores, then use comparisons and shortlists to narrow your options.</p>
+    <div class="grid-2">
+      <div class="site-map-group">
+        <h3>Equipment and comparisons</h3>
+        <ul>
+          <li><a href="/oxygen-concentrators/">Oxygen concentrator directory</a></li>
+          <li><a href="/cpap/">CPAP directory</a></li>
+          <li><a href="/bipap/">BiPAP directory</a></li>
+          <li><a href="/compare/">Head-to-head comparisons and comparison builder</a></li>
+          <li><a href="/guides/">India buying guides</a></li>
+        </ul>
+      </div>
+      <div class="site-map-group">
+        <h3>India shortlists</h3>
+        <ul>{shortlists.map((item) => <li><a href={item.href}>{item.label}</a></li>)}</ul>
+      </div>
+    </div>
+  </section>
+
+  <section id="country-guides" class="wayfinding-section" aria-labelledby="guides-heading">
+    <h2 id="guides-heading">Buying guides by country</h2>
+    <p>Choose local advice on equipment selection, pricing, access, funding and regulation.</p>
+    <div class="wayfinding-grid">
+      {countries.map((country) => (
+        <div class="site-map-group">
+          <h3>{country.label}</h3>
+          <p><a href={country.hub}>{country.label} overview</a></p>
+          <p><a href={country.guides}>All {country.label} buying guides →</a></p>
+        </div>
+      ))}
+    </div>
+  </section>
+
+  <section id="clinical" class="wayfinding-section" aria-labelledby="clinical-heading">
+    <h2 id="clinical-heading">Clinical reference library</h2>
+    <p>Learn about respiratory conditions, home oxygen, sleep therapy and safe equipment use.</p>
+    <p><a href="/clinical/">All clinical articles →</a></p>
+  </section>
+
+  <section id="publication" class="wayfinding-section" aria-labelledby="publication-heading">
+    <h2 id="publication-heading">About HHZ and our policies</h2>
+    <ul>{policies.map((item) => <li><a href={item.href}>{item.label}</a></li>)}</ul>
+    <p><a href="/datasets/">Datasets and machine-readable content</a></p>
+  </section>
+</BaseLayout>

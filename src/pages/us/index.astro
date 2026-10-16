@@ -1,131 +1,31 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
-import ProductCard from '../../components/ProductCard.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import SearchBox from '../../components/SearchBox.astro';
 import { getCollection } from 'astro:content';
-import { resolvePrice } from '../../lib/price';
 
-const [concentrators, pap, guides, usOnly] = await Promise.all([
-  getCollection('products'),
-  getCollection('cpap-bipap'),
-  getCollection('us-guides'),
-  getCollection('us-products'),
-]);
-
-// Only products explicitly marked as sold in the US AND carrying a verified USD price.
-const isUsListed = (data: { countries: string[]; prices?: unknown }) =>
-  data.countries.includes('US') && resolvePrice(data as any, 'US').amount !== null;
-const usConcentrators = [
-  ...concentrators.filter((e) => isUsListed(e.data)),
-  ...usOnly.filter((e) => e.data.device_type === 'oxygen-concentrator' && isUsListed(e.data)),
-];
-const usPortables = usOnly.filter(
-  (e) => e.data.device_type === 'portable-oxygen-concentrator' && isUsListed(e.data)
-);
-const POC_GUIDE = '/us/guides/best-portable-oxygen-concentrator/';
-const usPap = [
-  ...pap.filter((e) => isUsListed(e.data)),
-  ...usOnly.filter((e) => e.data.device_type === 'cpap' && isUsListed(e.data)),
-];
-const usMasks = usOnly.filter((e) => e.data.device_type === 'cpap-mask' && isUsListed(e.data));
-const MASK_GUIDE = '/us/guides/best-cpap-masks/';
-const FLOW_GUIDE = '/us/guides/5-lpm-vs-10-lpm/';
-
-const OXYGEN_GUIDE = '/us/guides/oxygen-concentrator-buyers-guide/';
-const CPAP_GUIDE = '/us/guides/cpap-buyers-guide/';
-
-const pageTitle = 'Oxygen concentrators and CPAP in the United States';
-const description =
-  'HHZ for US buyers: oxygen concentrators and CPAP machines sold in the US, with USD prices from named retailers, FDA prescription rules and Medicare basics.';
-const crumbs = [
-  { href: '/', label: 'Home' },
-  { href: '/us/', label: 'United States' },
-];
+const guides = (await getCollection('us-guides')).sort((a, b) => a.data.title.localeCompare(b.data.title, 'en'));
+const crumbs = [{ href: '/', label: 'Home' }, { href: '/us/', label: 'United States' }];
 ---
-<BaseLayout title={pageTitle} description={description} lang="en-US">
+<BaseLayout title="United States Respiratory Equipment Buying Guides" description="US buying guides to oxygen concentrators, CPAP and masks, with local prices, prescription rules, Medicare coverage and equipment advice." lang="en-US">
   <Breadcrumbs items={crumbs} />
-  <header class="hub-header">
-    <h1>{pageTitle}</h1>
-    <p class="lead">
-      A starting set of devices HHZ already scores for India that are also sold in the US. Prices are
-      in US dollars, taken from the named retailer listing on the date shown in each guide. Both device
-      classes are prescription-only in the US.
-    </p>
+  <header class="wayfinding-hero">
+    <p class="section-kicker">Country buying guides · United States</p>
+    <h1>Respiratory equipment guides for the United States</h1>
+    <p class="lead">Find guidance on oxygen concentrators, CPAP and masks, US prescription rules and Medicare coverage. Guides include US dollar price examples from retailer listings, with the date checked.</p>
   </header>
 
-  <section class="home-search" aria-labelledby="hub-search-heading">
-    <h2 id="hub-search-heading" class="section-kicker">Search devices and guides for the United States</h2>
-    <SearchBox src="/search-index.json" market='us' id="hub-search" placeholder="Type at least 2 characters — e.g. airsense, inogen…" minChars={2} maxResults={8} />
+  <section class="wayfinding-section" aria-labelledby="hub-search-heading">
+    <h2 id="hub-search-heading" class="section-kicker">Search US buying guides</h2>
+    <SearchBox src="/search-index.json" market="us" resultType="guide" label="Search United States guides" id="hub-search" placeholder="Try Medicare, portable oxygen, CPAP masks…" minChars={2} maxResults={8} />
   </section>
 
-  <section aria-labelledby="us-guides-heading">
-    <h2 id="us-guides-heading">US buyer's guides</h2>
-    <p><a href="/us/guides/">All US guides →</a></p>
-    <div class="grid-2">
-      {guides
-        .sort((a, b) => a.data.title.localeCompare(b.data.title, 'en'))
-        .map((g) => <ArticleCard entry={g} />)}
-    </div>
+  <section class="wayfinding-section" aria-labelledby="us-guides-heading">
+    <h2 id="us-guides-heading">US buying guides</h2>
+    <p><a href="/us/guides/">Browse all {guides.length} US guides by topic →</a></p>
+    <div class="grid-2">{guides.map((g) => <ArticleCard entry={g} />)}</div>
   </section>
 
-  {usConcentrators.length > 0 && (
-    <section aria-labelledby="us-o2-heading">
-      <h2 id="us-o2-heading">Home oxygen concentrators</h2>
-      <div class="grid">
-        {usConcentrators.map((entry) => (
-          <ProductCard
-            entry={entry}
-            country="US"
-            href={(entry.data.normalized_specs?.flow_max_lpm ?? 0) >= 10 ? FLOW_GUIDE : OXYGEN_GUIDE}
-          />
-        ))}
-      </div>
-    </section>
-  )}
-
-  {usPortables.length > 0 && (
-    <section aria-labelledby="us-poc-heading">
-      <h2 id="us-poc-heading">Portable oxygen concentrators</h2>
-      <div class="grid">
-        {usPortables.map((entry) => <ProductCard entry={entry} country="US" href={POC_GUIDE} />)}
-      </div>
-    </section>
-  )}
-
-  {usPap.length > 0 && (
-    <section aria-labelledby="us-pap-heading">
-      <h2 id="us-pap-heading">CPAP machines</h2>
-      <div class="grid">
-        {usPap.map((entry) => <ProductCard entry={entry} country="US" href={CPAP_GUIDE} />)}
-      </div>
-    </section>
-  )}
-
-  {usMasks.length > 0 && (
-    <section aria-labelledby="us-mask-heading">
-      <h2 id="us-mask-heading">CPAP masks</h2>
-      <div class="grid">
-        {usMasks.map((entry) => <ProductCard entry={entry} country="US" href={MASK_GUIDE} />)}
-      </div>
-    </section>
-  )}
-
-  <p class="note">
-    Retail prices change often and are shown as indicative cash prices before tax and shipping. The
-    India catalogue, with rupee pricing, remains at <a href="/">homehealthzone.com</a>.
-  </p>
+  <p class="wayfinding-note">Looking for individual device reviews? The <a href="/in/">product directory covers India</a>. For other local advice, <a href="/#country-guides">choose a country</a>, or explore the <a href="/clinical/">clinical reference library</a>.</p>
 </BaseLayout>
-
-<style>
-  .hub-header {
-    margin-bottom: var(--space-8);
-  }
-  section {
-    margin-bottom: var(--space-8);
-  }
-  .note {
-    color: var(--color-text-muted);
-  }
-</style>

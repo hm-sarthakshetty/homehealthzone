@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import SearchBox from '../components/SearchBox.astro';
+import { getSearchIndex } from '../lib/search-index';
+import { MARKET_LABELS, TYPE_LABELS } from '../lib/search-core.mjs';
+const index = await getSearchIndex();
+---
+<BaseLayout noindex title="Search devices, buying guides and clinical articles" description="Search HHZ device reviews in India, buying guides across seven markets, and clinical articles.">
+  <section class="search-page">
+    <p class="section-kicker">HHZ Respiratory Review</p>
+    <h1>Search HHZ</h1>
+    <p class="lead">Find India device reviews, buying guides for each market, and clinical articles.</p>
+    <SearchBox src="/search-index.json" id="full-search" label="Search by device, brand or topic" fullResults />
+    <noscript>
+      <p>Enable JavaScript to search and filter, or browse all {index.length} indexed pages below.</p>
+      <ul class="search-page__fallback">
+        {index.map((item) => <li><a href={item.h}>{item.n}</a> <small>{MARKET_LABELS[item.m]} · {TYPE_LABELS[item.t]}</small></li>)}
+      </ul>
+    </noscript>
+    <p class="search-page__browse">Browse <a href="/in/">India’s device directory</a>, <a href="/guides/">India buying guides</a> or <a href="/clinical/">clinical articles</a>.</p>
+  </section>
+</BaseLayout>
+<style>
+  .search-page { max-width: 60rem; margin: 0 auto; padding: var(--space-6) 0; }
+  .search-page h1 { margin: var(--space-3) 0; }
+  .search-page :global(.searchbox) { margin-top: var(--space-6); }
+  .search-page__browse { margin-top: var(--space-6); font-family: var(--font-sans); font-size: var(--text-sm); }
+  .search-page__fallback li { padding: var(--space-2) 0; }
+  .search-page__fallback small { color: var(--color-text-muted); }
+</style>

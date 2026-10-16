@@ -556,7 +556,7 @@ def generate_llms_index() -> str:
     lines: list[str] = [
         "# HHZ Respiratory Review",
         "",
-        "> Respiratory-equipment reference for oxygen concentrators, CPAP, and BiPAP devices sold in India and the US. Products are scored against a published rubric.",
+        "> Respiratory-equipment guides for seven countries, a product directory and device comparisons for India, and a clinical reference library.",
         "",
         (
             f"HHZ currently tracks {product_count} oxygen concentrator product records, "
@@ -573,17 +573,19 @@ def generate_llms_index() -> str:
         "",
         "## Markets",
         "",
-        f"- [India]({SITE_URL}/): oxygen concentrators, CPAP, and BiPAP sold in India, with prices in rupees",
-        f"- [United States]({SITE_URL}/us/): oxygen concentrators and CPAP sold in the US, with USD prices, FDA prescription rules and Medicare basics",
+        f"- [India product directory]({SITE_URL}/in/): oxygen concentrators, CPAP and BiPAP product pages, comparisons and buyer guides, with prices in rupees",
+        f"- [United States guides]({SITE_URL}/us/): buying and using oxygen concentrators and CPAP in the US, with USD price references, FDA prescription rules and Medicare basics",
     ] + [
         f"- [{m['label']}]({SITE_URL}/{m['code']}/): {m['description']}" for m in live_markets()
     ] + [
         "",
         "## Editorial policies",
         "",
+        f"- [Site map]({SITE_URL}/site-map/): India product directory, country guide hubs and clinical reference library",
+        f"- [Clinical library]({SITE_URL}/clinical/): respiratory-device and therapy explainers",
         f"- [About HHZ]({SITE_URL}/about/): what HHZ covers and how the rubric is applied",
         f"- [Methodology]({SITE_URL}/methodology/): scoring methodology and testing protocol",
-        f"- [Editorial policy]({SITE_URL}/editorial-policy/): independence, loaners, sponsorship, and corrections",
+        f"- [Editorial policy]({SITE_URL}/editorial-policy/): scoring, loaners, manufacturer outreach and corrections",
         f"- [Correction policy]({SITE_URL}/correction-policy/): timestamped corrections with original wording preserved",
         f"- [HHZ Editorial author profile]({SITE_URL}/authors/hhz-editorial/): byline identity, scope, review language, and update standards",
         f"- [Contact]({SITE_URL}/contact/)",
@@ -692,7 +694,7 @@ def main() -> int:
     POLICY_PAGES = [
         ("about", "About HHZ Respiratory Review"),
         ("methodology", "Methodology — how we test"),
-        ("editorial-policy", "Editorial independence policy"),
+        ("editorial-policy", "Editorial policy"),
         ("correction-policy", "Correction policy"),
     ]
     pages_dir = SITE / "src" / "pages"
@@ -730,9 +732,9 @@ def main() -> int:
     parts.append(
         section(
             f"{SITE_URL}/us/",
-            "United States: oxygen concentrators and CPAP",
-            "HHZ for US buyers: oxygen concentrators and CPAP machines sold in the US, with USD prices "
-            "from named retailers, FDA prescription rules and Medicare basics.\n\n"
+            "United States respiratory equipment buying guides",
+            "HHZ buying guides for US readers, with USD price examples from named retailers, "
+            "FDA prescription rules and Medicare basics. The product directory covers India.\n\n"
             "US guides:\n\n"
             + "\n".join(f"- [{e['title']}]({e['url']})" for e in us_entries),
         )

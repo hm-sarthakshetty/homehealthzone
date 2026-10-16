@@ -47,23 +47,25 @@ const categoryCards = [
 ];
 
 const desc =
-  'HHZ for India: every oxygen concentrator, CPAP and BiPAP sold in India, scored against one published rubric, with specs, rupee prices, buyer’s guides and clinical context.';
+  'India product directory: oxygen concentrator, CPAP and BiPAP reviews, specifications and rupee prices, plus India buying guides and clinical articles.';
 ---
-<BaseLayout title="Oxygen concentrators, CPAP and BiPAP in India" description={desc}>
+<BaseLayout title="India Product Directory: Oxygen Concentrators, CPAP and BiPAP" description={desc}>
   <section class="home-hero">
-    <p class="home-hero__kicker">HHZ India · {allProducts.length} respiratory devices indexed</p>
-    <h1>Oxygen concentrators, CPAP and BiPAP in India.</h1>
+    <p class="home-hero__kicker">India product directory · {allProducts.length} respiratory devices</p>
+    <h1>India product directory</h1>
     <p class="lead">
-      Every device sold in India, scored against the same published rubric, with prices in rupees.
+      Oxygen concentrators, CPAP and BiPAP devices in our India catalogue, with specifications, rupee prices and scores against the published rubric.
     </p>
   </section>
 
   <section class="home-search" aria-labelledby="home-search-heading">
-    <h2 id="home-search-heading" class="section-kicker">Search {allProducts.length} reviewed devices</h2>
+    <h2 id="home-search-heading" class="section-kicker">Search India devices, buying guides and clinical articles</h2>
     <SearchBox
-      entries={allProducts}
+      src="/search-index.json"
+      market="in"
+      label="Search the India directory and reference articles"
       id="home-search"
-      placeholder="Type at least 2 characters — e.g. philips, 10 lpm, airsense…"
+      placeholder="Try a device or topic — e.g. AirSense, oxygen safety, CPAP…"
       minChars={2}
       maxResults={8}
     />
@@ -81,7 +83,7 @@ const desc =
   </section>
 
   <section class="home-catalogue" aria-labelledby="home-catalogue-heading">
-    <h2 id="home-catalogue-heading" class="section-kicker">Browse the catalogue</h2>
+    <h2 id="home-catalogue-heading" class="section-kicker">Browse India equipment and reference articles</h2>
     <div class="home-catalogue__grid">
       {categoryCards.map((card) => (
         <a class="home-cat" href={card.href}>
@@ -95,8 +97,10 @@ const desc =
     </div>
   </section>
 
+  <p class="home-in__more">Product reviews and comparisons cover India. <a href="/#country-guides">Choose another country for buying guides</a>.</p>
+
   <p class="home-in__more">
-    Also for India: <a href="/top-5/5-lpm-oxygen-concentrators/">Top 5 shortlists</a> · <a href="/guides/">all {guides.length} India buyer’s guides</a> · <a href="/clinical/">clinical articles</a>
+    Explore India: <a href="/top-5/5-lpm-oxygen-concentrators/">Top 5 shortlists</a> · <a href="/guides/">all {guides.length} India buyer’s guides</a> · <a href="/clinical/">clinical articles</a>
   </p>
 </BaseLayout>
 
