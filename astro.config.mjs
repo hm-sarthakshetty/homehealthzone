@@ -12,7 +12,9 @@ const HREFLANG_PAIRS = JSON.parse(readFileSync('./src/data/hreflang.json', 'utf8
 const HREFLANG_BY_URL = new Map();
 for (const pair of HREFLANG_PAIRS) {
   const links = Object.entries(pair).map(([lang, path]) => ({ lang, url: `${SITE_URL}${path}` }));
-  links.push({ lang: 'x-default', url: `${SITE_URL}${pair['en-IN'] ?? Object.values(pair)[0]}` });
+  if (!pair['x-default']) {
+    links.push({ lang: 'x-default', url: `${SITE_URL}${pair['en-IN'] ?? Object.values(pair)[0]}` });
+  }
   for (const path of Object.values(pair)) HREFLANG_BY_URL.set(`${SITE_URL}${path}`, links);
 }
 
@@ -128,6 +130,12 @@ function buildLastmodMap() {
 }
 
 const LASTMOD_MAP = buildLastmodMap();
+// Explicit dates for structural pages; never substitute build time for an edit.
+const PAGE_UPDATES = JSON.parse(readFileSync('./src/data/page-updates.json', 'utf8'));
+for (const [path, date] of Object.entries(PAGE_UPDATES)) {
+  const iso = toIso(date);
+  if (iso) LASTMOD_MAP.set(`${SITE_URL}${path}`, iso);
+}
 
 export default defineConfig({
   site: SITE_URL,
@@ -152,6 +160,7 @@ export default defineConfig({
   },
   integrations: [
     sitemap({
+      filter: (url) => !['/search/', '/404/'].includes(new URL(url).pathname),
       changefreq: 'weekly',
       priority: 0.7,
       serialize(item) {

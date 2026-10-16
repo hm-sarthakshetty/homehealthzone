@@ -31,8 +31,8 @@ export interface Market {
 export const INTL_MARKETS: Market[] = [
   {
     code: 'uk', country: 'GB', currency: 'GBP', lang: 'en-GB', label: 'United Kingdom', short: 'UK', live: true,
-    hubTitle: 'Oxygen concentrators and CPAP in the UK',
-    hubDescription: 'HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and devices sold in the UK with GBP prices from named retailers.',
+    hubTitle: 'Respiratory equipment guides for the UK',
+    hubDescription: 'HHZ for UK buyers: NHS home oxygen and CPAP routes, VAT relief, DVLA rules, and equipment buying guides with GBP price examples.',
     hubLead: 'How home oxygen and CPAP work in the UK, through the NHS and privately. Prices are in pounds sterling, taken from the named retailer listing on the date shown in each guide.',
     guidesTitle: 'UK buyer’s guides',
     guidesDescription: 'UK guides to home oxygen and CPAP: NHS routes, VAT relief, MHRA rules, travel, masks, machines and troubleshooting, with GBP prices from named retailers.',
@@ -41,8 +41,8 @@ export const INTL_MARKETS: Market[] = [
   },
   {
     code: 'sg', country: 'SG', currency: 'SGD', lang: 'en-SG', label: 'Singapore', short: 'Singapore', live: true,
-    hubTitle: 'Oxygen concentrators and CPAP in Singapore',
-    hubDescription: 'HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and devices sold in Singapore with SGD prices from named retailers.',
+    hubTitle: 'Respiratory equipment guides for Singapore',
+    hubDescription: 'HHZ for Singapore: MOH subsidies, MediSave and MediFund, HSA device rules, and equipment buying guides with SGD price examples.',
     hubLead: 'How home oxygen and CPAP are funded and regulated in Singapore. Prices are in Singapore dollars, taken from the named retailer listing on the date shown in each guide.',
     guidesTitle: 'Singapore buyer’s guides',
     guidesDescription: 'Singapore guides to home oxygen and CPAP: subsidies, MediSave, HSA rules, travel, masks, machines and troubleshooting, with SGD prices.',
@@ -51,8 +51,8 @@ export const INTL_MARKETS: Market[] = [
   },
   {
     code: 'au', country: 'AU', currency: 'AUD', lang: 'en-AU', label: 'Australia', short: 'Australia', live: true,
-    hubTitle: 'Oxygen concentrators and CPAP in Australia',
-    hubDescription: 'HHZ for Australia: state equipment schemes, Medicare, TGA rules, and devices sold in Australia with AUD prices from named retailers.',
+    hubTitle: 'Respiratory equipment guides for Australia',
+    hubDescription: 'HHZ for Australia: state equipment schemes, Medicare, TGA rules, and equipment buying guides with AUD price examples.',
     hubLead: 'How home oxygen and CPAP are funded and regulated in Australia. Prices are in Australian dollars, taken from the named retailer listing on the date shown in each guide.',
     guidesTitle: 'Australia buyer’s guides',
     guidesDescription: 'Australian guides to home oxygen and CPAP: state schemes, Medicare, TGA rules, travel, masks, machines and troubleshooting, with AUD prices.',
@@ -61,8 +61,8 @@ export const INTL_MARKETS: Market[] = [
   },
   {
     code: 'ca', country: 'CA', currency: 'CAD', lang: 'en-CA', label: 'Canada', short: 'Canada', live: true,
-    hubTitle: 'Oxygen concentrators and CPAP in Canada',
-    hubDescription: 'HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and devices sold in Canada with CAD prices from named retailers.',
+    hubTitle: 'Respiratory equipment guides for Canada',
+    hubDescription: 'HHZ for Canada: provincial programmes such as Ontario ADP, Health Canada rules, and equipment buying guides with CAD price examples.',
     hubLead: 'How home oxygen and CPAP are funded and regulated in Canada, province by province. Prices are in Canadian dollars, taken from the named retailer listing on the date shown in each guide.',
     guidesTitle: 'Canada buyer’s guides',
     guidesDescription: 'Canadian guides to home oxygen and CPAP: Ontario, BC and Alberta funding, Health Canada licences, flying, masks and machines, with CAD prices.',
@@ -71,8 +71,8 @@ export const INTL_MARKETS: Market[] = [
   },
   {
     code: 'nz', country: 'NZ', currency: 'NZD', lang: 'en-NZ', label: 'New Zealand', short: 'New Zealand', live: true,
-    hubTitle: 'Oxygen concentrators and CPAP in New Zealand',
-    hubDescription: 'HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and devices sold in NZ with NZD prices from named retailers.',
+    hubTitle: 'Respiratory equipment guides for New Zealand',
+    hubDescription: 'HHZ for New Zealand: Health NZ home oxygen and CPAP routes, ACC, Medsafe rules, and equipment buying guides with NZD price examples.',
     hubLead: 'How home oxygen and CPAP are funded and regulated in New Zealand. Prices are in New Zealand dollars, taken from the named retailer listing on the date shown in each guide.',
     guidesTitle: 'New Zealand buyer’s guides',
     guidesDescription: 'New Zealand guides to home oxygen and CPAP: Health NZ routes, ACC, Medsafe, travel, masks, machines and troubleshooting, with NZD prices.',

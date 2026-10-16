@@ -32,10 +32,16 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
+      - name: Test search matching and accessibility behavior
+        run: node --test tests/search*.test.mjs
       - name: Regenerate llms-full.txt from source pages
         run: python3 scripts/generate_llms_full.py
       - name: Build Astro site
         run: npm run build
+      - name: Validate navigation, search coverage and sitemap
+        run: python3 scripts/validate_site_structure.py
+      - name: Validate commercial page mappings
+        run: npm run semantic:validate
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -5,7 +5,7 @@ Internal reference for agents building the HHZ Astro site at `~/hhz-site/`.
 ## Positioning (load-bearing — do not deviate)
 
 - Publication name: **HHZ Respiratory Review**
-- Positioning: a reference catalogue of respiratory equipment sold in India, scored against a published rubric. Do not describe HHZ as "independent", "an independent editorial publication", or any equivalent self-descriptor.
+- Positioning: a reference product catalogue for India, scored against a published rubric, alongside buying guides for seven countries and a clinical reference library. The dedicated product directory and comparisons cover India. Other countries have guide sections, not product directories. Do not describe HHZ as "independent", "an independent editorial publication", or any equivalent self-descriptor.
 - **No ownership or commercial affiliation is disclosed anywhere.** Do not reference Home Medix as a parent company, owner, sponsor, or affiliate. No disclosure banners, no COI callouts.
 - Home Medix products (model names: HM-KV, HM-KX, HM-CV-20, HM-BV-30, HM Pro, MistyNeb) are reviewed like any other brand using the published rubric.
 - Do not include disclaimer language like "no free product accepted", "no sponsored placement", "no brand veto", or "no commercial relationship with the brands named". Even where literally true in narrow scope, these phrases imply a structural arms-length relationship across the catalogue and are not used. The editorial-policy page documents scoring, loaner, and outreach handling without claiming editorial independence.
@@ -14,7 +14,12 @@ Internal reference for agents building the HHZ Astro site at `~/hhz-site/`.
 
 | Path | Purpose |
 | --- | --- |
-| `/` | homepage |
+| `/` | global homepage: India directory, country guides and clinical library |
+| `/in/` | India product directory and search across India devices, guides and clinical articles |
+| `/us/`, `/uk/`, `/sg/`, `/au/`, `/ca/`, `/nz/` | country guide hubs |
+| `/{country}/guides/` | country guide index (India remains `/guides/`) |
+| `/site-map/` | human-readable navigation map |
+| `/search/` | complete results with country/type filters; noindex and excluded from XML sitemap |
 | `/oxygen-concentrators/` | concentrators hub |
 | `/oxygen-concentrators/{slug}/` | single concentrator review |
 | `/cpap/` | CPAP hub |
@@ -99,6 +104,11 @@ JSON-LD schema (emit `<script type="application/ld+json">`):
 - Don't hardcode `https://homehealthzone.com` — use `Astro.site`.
 
 ## Markets and prices (multi-country)
+
+- Site structure: product reviews and curated device comparisons are India-only. Search indexes actual guide pages for the other six countries; do not synthesize device results that link to a generic guide. Include India buying guides and the complete clinical collection in search.
+- The global homepage and structured descriptions must distinguish the India directory from country guide sections. Link "India product directory" to `/in/`, not `/`.
+- Search lives in `SearchBox.astro` with shared matching and interaction modules under `src/lib/search-*`. Preserve labels, live result status and active-option ARIA states; run `node --test tests/search*.test.mjs` after changes.
+- After building, run `python3 scripts/validate_site_structure.py` to check search coverage, navigation links, canonicals and sitemap alternates. Record actual structural page edit dates in `src/data/page-updates.json`, not filesystem/build timestamps.
 
 - India stays the unprefixed default. Other markets live under a path prefix: `/us/` hub, `/us/guides/{slug}/` (collection `us-guides`, MDX in `src/content/us-guides/`).
 - Prices: read through `src/lib/price.ts` (`resolvePrice` / `formatPrice`), never by concatenating `price_symbol + price_current`. Canonical numeric store is `prices.{IN,US,GB}` in the product JSON; legacy `price_*` text fields remain for India during the transition.

@@ -72,56 +72,26 @@ const SITE_NAME = 'HHZ Respiratory Review';
 const fullTitle = title === SITE_NAME ? title : `${title} | HHZ`;
 const resolvedCanonical = canonicalURL ?? new URL(Astro.url.pathname, Astro.site).toString();
 
-const indiaNav = [
-  { href: '/oxygen-concentrators/', label: 'Concentrators' },
-  { href: '/cpap/', label: 'CPAP' },
-  { href: '/bipap/', label: 'BiPAP' },
-  { href: '/compare/', label: 'Compare' },
-  { href: '/guides/', label: 'Guides' },
-  { href: '/clinical/', label: 'Clinical' },
+// Product review pages belong to India; every other country has a guides tree.
+const currentPath = Astro.url.pathname;
+const navMarket = currentPath.match(/^\/(us|uk|sg|au|ca|nz)(\/|$)/)?.[1];
+const intlMarket = marketForPath(currentPath);
+const isUS = navMarket === 'us';
+const isIndiaContent = /^\/(in|oxygen-concentrators|cpap|bipap|compare|guides|top-5)(\/|$)/.test(currentPath);
+const countryLabel = isUS ? 'US' : intlMarket?.short;
+const nav = [
+  { href: '/in/', label: 'India product directory' },
+  ...(navMarket
+    ? [{ href: `/${navMarket}/guides/`, label: `${countryLabel} buying guides` }]
+    : isIndiaContent ? [{ href: '/guides/', label: 'India buying guides' }] : []),
+  { href: '/#country-guides', label: 'Country guides' },
+  { href: '/clinical/', label: 'Clinical library' },
+  { href: '/search/', label: 'Search' },
 ];
 
-// Market sections only ship a hub and a guides tree, so each nav item maps to
-// that market's closest existing page. Items with no equivalent are hidden;
-// a non-India market never links into the India sections.
-const marketNav: Record<string, Array<{ href: string; label: string }>> = {
-  us: [
-    { href: '/us/guides/oxygen-concentrator-buyers-guide/', label: 'Concentrators' },
-    { href: '/us/guides/apap-vs-cpap-vs-bipap/', label: 'CPAP' },
-    { href: '/us/guides/bipap-asv-medicare-coverage/', label: 'BiPAP' },
-    { href: '/us/guides/', label: 'Guides' },
-  ],
-  uk: [
-    { href: '/uk/guides/home-oxygen-concentrator-uk/', label: 'Concentrators' },
-    { href: '/uk/guides/buying-cpap-privately-uk/', label: 'CPAP' },
-    { href: '/uk/guides/', label: 'Guides' },
-  ],
-  sg: [
-    { href: '/sg/guides/home-oxygen-concentrator-singapore/', label: 'Concentrators' },
-    { href: '/sg/guides/cpap-machine-price-singapore/', label: 'CPAP' },
-    { href: '/sg/guides/', label: 'Guides' },
-  ],
-  au: [
-    { href: '/au/guides/home-oxygen-concentrator-australia/', label: 'Concentrators' },
-    { href: '/au/guides/cpap-machine-price-australia/', label: 'CPAP' },
-    { href: '/au/guides/', label: 'Guides' },
-  ],
-  ca: [
-    { href: '/ca/guides/home-oxygen-concentrator-canada/', label: 'Concentrators' },
-    { href: '/ca/guides/cpap-machine-price-canada/', label: 'CPAP' },
-    { href: '/ca/guides/', label: 'Guides' },
-  ],
-  nz: [
-    { href: '/nz/guides/oxygen-concentrator-price-nz/', label: 'Concentrators' },
-    { href: '/nz/guides/cpap-machine-price-nz/', label: 'CPAP' },
-    { href: '/nz/guides/', label: 'Guides' },
-  ],
-};
-
-const navMarket = Astro.url.pathname.match(/^\/(us|uk|sg|au|ca|nz)(\/|$)/)?.[1];
-const nav = (navMarket && marketNav[navMarket]) || indiaNav;
-
 const footerNav = [
+  { href: '/search/', label: 'Search' },
+  { href: '/site-map/', label: 'Site map' },
   { href: '/about/', label: 'About' },
   { href: '/methodology/', label: 'Methodology' },
   { href: '/editorial-policy/', label: 'Editorial policy' },
@@ -133,19 +103,15 @@ const footerNav = [
   { href: '/contact/', label: 'Contact' },
 ];
 
-const currentPath = Astro.url.pathname;
-const isUS = currentPath === '/us/' || currentPath.startsWith('/us/');
-const intlMarket = marketForPath(currentPath);
 const markets = [
-  { href: '/in/', label: 'India', current: currentPath !== '/' && !isUS && !intlMarket },
+  { href: '/in/', label: 'India', current: isIndiaContent },
   { href: '/us/', label: 'United States', current: isUS },
   ...LIVE_MARKETS.map((m) => ({ href: `/${m.code}/`, label: m.short, current: intlMarket?.code === m.code })),
 ];
-// Longest matching nav href wins, so a market guide that is also the
-// "Concentrators"/"CPAP" target does not light up "Guides" as well.
+// Keep one active navigation item for the current content section.
 const activeNavHref = nav
   .map((i) => i.href)
-  .filter((h) => currentPath === h || currentPath.startsWith(h))
+  .filter((h) => currentPath === h || currentPath.startsWith(h) || (h === '/in/' && isIndiaContent && !currentPath.startsWith('/guides/')))
   .sort((a, b) => b.length - a.length)[0];
 const isCurrent = (href: string) => href === activeNavHref;
 
@@ -241,8 +207,8 @@ const hreflangLinks = hreflangPair
             </a>
           ))}
         </nav>
-        <nav class="market-switch" aria-label="Market">
-          <span class="market-switch__label">Market:</span>
+        <nav class="market-switch" aria-label="Country sections">
+          <span class="market-switch__label">Country:</span>
           {markets.map((m, i) => (
             <>
               <a href={m.href} aria-current={m.current ? 'true' : undefined}>{m.label}</a>
@@ -265,13 +231,13 @@ const hreflangLinks = hreflangPair
           ))}
         </nav>
         <p>
-          Choose your market: {markets.map((m, i) => (
+          Country sections: {markets.map((m, i) => (
             <>{i > 0 && ' | '}<a href={m.href}>{m.label}</a></>
           ))}
         </p>
         <p>
-          © {new Date().getFullYear()} {SITE_NAME}. Respiratory equipment directory for India, the US, UK, Singapore,
-          Australia, Canada and New Zealand. Devices are scored against the same <a href="/methodology/">published rubric</a>.
+          © {new Date().getFullYear()} {SITE_NAME}. Product directory for India, buying guides for seven countries, and a clinical reference library.
+          India device reviews use a <a href="/methodology/">published scoring rubric</a>.
         </p>
       </div>
     </footer>
