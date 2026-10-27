@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { LIVE_MARKETS } from '../data/markets';
+import { partners, partnerPath, regions } from '../lib/respiratory-partners';
 const countries = [
   { label: 'India', hub: '/in/', guides: '/guides/' },
   { label: 'United States', hub: '/us/', guides: '/us/guides/' },
@@ -44,6 +45,7 @@ const policies = [
     <a href="#india-directory">India product directory</a>
     <a href="#country-guides">Country buying guides</a>
     <a href="#clinical">Clinical library</a>
+    <a href="#service-partners">Manufacturers and service partners</a>
     <a href="#publication">About and policies</a>
   </nav>
 
@@ -86,6 +88,18 @@ const policies = [
     <h2 id="clinical-heading">Clinical reference library</h2>
     <p>Learn about respiratory conditions, home oxygen, sleep therapy and safe equipment use.</p>
     <p><a href="/clinical/">All clinical articles →</a></p>
+  </section>
+
+  <section id="service-partners" class="wayfinding-section" aria-labelledby="partners-heading">
+    <h2 id="partners-heading">Manufacturers and local service partners</h2>
+    <p><a href="/manufacturers/">Manufacturer reference</a> · <a href="/manufacturers/home-medix/">Home Medix manufacturer profile</a></p>
+    <p><a href="/in/respiratory-care-experts/">Home Medix respiratory care experts hub</a></p>
+    <div class="wayfinding-grid">
+      {regions.map((region) => <div class="site-map-group">
+        <h3><a href={`/in/respiratory-care-experts/${region.slug}/`}>{region.name}</a></h3>
+        <ul>{partners.filter(partner => partner.region === region.slug).map(partner => <li><a href={partnerPath(partner)}>{partner.name}</a></li>)}</ul>
+      </div>)}
+    </div>
   </section>
 
   <section id="publication" class="wayfinding-section" aria-labelledby="publication-heading">

@@ -12,6 +12,12 @@ const schema = {
   hasPart: [
     {
       '@type': 'Dataset',
+      name: 'Home Medix respiratory equipment dealer and service partners',
+      url: `${site}/datasets/respiratory-partners.json`,
+      distribution: { '@type': 'DataDownload', contentUrl: `${site}/datasets/respiratory-partners.json`, encodingFormat: 'application/json' },
+    },
+    {
+      '@type': 'Dataset',
       name: 'HHZ respiratory product dataset',
       url: `${site}/datasets/products.json`,
       distribution: {
@@ -62,12 +68,17 @@ const schema = {
     </p>
     <p><a href="/datasets/content-index.json">Download content-index.json</a></p>
 
+    <h2>Home Medix dealer and service partner directory</h2>
+    <p>Ten named businesses, their locations, public source links and Home Medix equipment services. Dealer relationships and service categories are supplied by Home Medix; source check dates accompany public business details.</p>
+    <p><a href="/datasets/respiratory-partners.json">Partner directory JSON</a> · <a href="/in/respiratory-care-experts/">Read the partner hub</a></p>
+
     <h2>Topic-specific text corpora</h2>
     <ul>
       <li><a href="/llms/oxygen-concentrators.txt">Oxygen concentrators</a></li>
       <li><a href="/llms/cpap.txt">CPAP</a></li>
       <li><a href="/llms/bipap-niv.txt">BiPAP and NIV</a></li>
       <li><a href="/llms/clinical.txt">Clinical reference</a></li>
+      <li><a href="/llms/partners-manufacturers.txt">Home Medix manufacturer and service partners</a></li>
     </ul>
 
     <h2>Use and provenance</h2>

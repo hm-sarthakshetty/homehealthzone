@@ -1,0 +1,18 @@
+---
+import { partnerPath, serviceNames, type RespiratoryPartner } from '../lib/respiratory-partners';
+interface Props { partner: RespiratoryPartner }
+const { partner } = Astro.props;
+---
+<article class="partner-card">
+  <div>
+    <p class="partner-card__place">{partner.city || 'Local dealer'}</p>
+    <h3><a href={partnerPath(partner)}>{partner.name}</a></h3>
+    <p>{partner.description}</p>
+  </div>
+  <div>
+    <ul class="partner-tags" aria-label="Services">
+      {Object.values(serviceNames).map((service) => <li>{service}</li>)}
+    </ul>
+    <a class="partner-card__link" href={partnerPath(partner)} aria-label={`View ${partner.name} business profile`}>View business profile <span aria-hidden="true">→</span></a>
+  </div>
+</article>

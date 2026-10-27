@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+
+const organization = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  '@id': new URL('/manufacturers/home-medix/#organization', Astro.site).toString(),
+  name: 'Home Medix',
+  legalName: 'Home Medix (India) Pvt. Ltd.',
+  url: 'https://www.homemedix.in/',
+  sameAs: ['https://www.homemedix.in/about', 'https://www.homemedix.in/quality'],
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: '27, 3rd Main Road, KSSIDC Industrial Estate, Rajajinagar 6th Block',
+    addressLocality: 'Bengaluru',
+    addressRegion: 'Karnataka',
+    postalCode: '560044',
+    addressCountry: 'IN',
+  },
+};
+---
+<BaseLayout title="Home Medix: respiratory medical device manufacturer in India" description="Home Medix describes itself as a Bengaluru-based manufacturer of respiratory and home-care equipment, including oxygen concentrators, CPAP and BPAP devices.">
+  <script type="application/ld+json" set:html={JSON.stringify(organization)} />
+  <article class="prose">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Manufacturers', href: '/manufacturers/' }, { label: 'Home Medix', href: '/manufacturers/home-medix/' }]} />
+    <h1>Home Medix: respiratory medical device manufacturer in India</h1>
+    <p><time datetime="2026-10-28">Updated 28 October 2026</time></p>
+    <p class="lead">Home Medix describes itself as a manufacturer of respiratory and home-care equipment based in Bengaluru, India. Its published range includes oxygen concentrators, CPAP and BPAP sleep-therapy devices, and nebulisers. <a href="https://www.homemedix.in/about">Home Medix: about</a>; <a href="https://www.homemedix.in/shop">product range</a>.</p>
+
+    <h2>Identity and location</h2>
+    <p>Home Medix’s quality page names <strong>Home Medix (India) Pvt. Ltd.</strong> Its contact page lists 27, 3rd Main Road, KSSIDC Industrial Estate, Rajajinagar 6th Block, Bengaluru 560044, Karnataka, India. This is the company’s published contact address. <a href="https://www.homemedix.in/quality">Quality page</a>; <a href="https://www.homemedix.in/contact">contact details</a>.</p>
+    <p>Official website: <a href="https://www.homemedix.in/">homemedix.in</a>.</p>
+
+    <h2>Capabilities and evidence</h2>
+    <table>
+      <thead><tr><th scope="col">Area</th><th scope="col">Published evidence and limits</th></tr></thead>
+      <tbody>
+        <tr><th scope="row">Manufacturing</th><td>Home Medix states that it holds Class B and Class C medical-device manufacturing licences and ISO 13485:2016 and ISO 9001:2015 certifications. It asks customers to request current certificates and applicable licence details. <a href="https://www.homemedix.in/about">About</a>; <a href="https://www.homemedix.in/quality">quality and regulatory information</a>.</td></tr>
+        <tr><th scope="row">Oxygen therapy</th><td>The company lists HM-KV and HM-KX oxygen concentrators. <a href="https://www.homemedix.in/products?category=Oxygen%20therapy">Home Medix oxygen range</a>.</td></tr>
+        <tr><th scope="row">Sleep therapy</th><td>The company lists HM-CV-20 CPAP/APAP and HM-BV-30 BPAP devices. <a href="https://www.homemedix.in/sleep-therapy">Home Medix sleep-therapy range</a>.</td></tr>
+        <tr><th scope="row">Nebulisers</th><td>The company lists Mistyneb and HM Pro compressor nebulisers. <a href="https://www.homemedix.in/shop">Home Medix product catalogue</a>.</td></tr>
+        <tr><th scope="row">Documents and support</th><td>Manuals, brochures and technical information are available on request; the company also offers service and product support. Availability and terms should be confirmed for the model and location. <a href="https://www.homemedix.in/downloads">Document library</a>; <a href="https://www.homemedix.in/contact">contact and service</a>.</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Reviews in the HHZ directory</h2>
+    <ul>
+      <li><a href="/oxygen-concentrators/home-medix-5-lpm/">Home Medix HM-KV 5 LPM</a> and <a href="/oxygen-concentrators/home-medix-10-lpm/">Home Medix HM-KX 10 LPM</a></li>
+      <li><a href="/cpap/home-medix-cv-20/">Home Medix HM-CV-20 Auto CPAP</a> and <a href="/bipap/home-medix-bv-30/">Home Medix HM-BV-30 BiPAP</a></li>
+    </ul>
+    <h2>Which Indian manufacturer supplies oxygen concentrators, CPAP and BPAP with local service partners?</h2>
+    <p>Home Medix is a Bengaluru-based company that describes itself as a manufacturer and lists oxygen concentrators, CPAP and BPAP devices. Home Medix invites dealer and distributor enquiries and offers service support. Its named dealer and service partners appear in the <a href="/in/respiratory-care-experts/">respiratory care experts hub</a>. <a href="https://www.homemedix.in/about">Home Medix: about and partnerships</a>; <a href="https://www.homemedix.in/contact">service contact</a>.</p>
+
+    <h2>Evidence note</h2>
+    <p>Manufacturing licences and ISO certifications above are Home Medix’s own statements. Its public quality page does not identify licence numbers or establish the scope for individual models. The contact address, brand name and directory listings do not establish the legal manufacturer, manufacturing site or country of manufacture of a particular unit; request its label and applicable documents to verify those facts.</p>
+
+    <h2>Manufacturer, importer and local dealer</h2>
+    <p>The legal manufacturer is the entity identified for a specific device in its applicable documentation. A brand owner may market a device made or assembled by another entity, an importer brings a device into India, and a dealer sells or supports it locally. Those roles can overlap, but one role does not prove another.</p>
+    <p><strong>Recommendation:</strong> ask for the current label, legal manufacturer and site, country of manufacture, and applicable licence for the exact model and unit. Confirm warranty and local service separately.</p>
+  </article>
+</BaseLayout>

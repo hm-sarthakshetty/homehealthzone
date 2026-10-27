@@ -1,0 +1,34 @@
+---
+import PartnerLayout from '../../../components/PartnerLayout.astro';
+import PartnerCard from '../../../components/PartnerCard.astro';
+import { partners, partnersIn, partnerPath, regions, safeJson } from '../../../lib/respiratory-partners';
+const description = 'Find Home Medix respiratory equipment dealers across Tamil Nadu, Andhra Pradesh, Telangana, Pune and Kerala for setup, fitting, rentals and service.';
+const schema = {
+  '@context': 'https://schema.org', '@type': 'ItemList',
+  name: 'Respiratory care equipment dealers in India',
+  itemListElement: partners.map((partner, index) => ({ '@type': 'ListItem', position: index + 1, item: { '@id': `${new URL(partnerPath(partner), Astro.site).toString()}#business`, '@type': 'Organization', name: partner.name, url: new URL(partnerPath(partner), Astro.site).toString() } })),
+};
+---
+<PartnerLayout title="Trusted Respiratory Care Experts in India" description={description} breadcrumbs={[{label:'Home', href:'/'}, {label:'India', href:'/in/'}, {label:'Respiratory care experts'}]}>
+  <section class="partner-hero">
+    <p class="partner-eyebrow">India · Equipment support</p>
+    <h1>Trusted respiratory care experts</h1>
+    <p class="partner-lead">Find a Home Medix dealer for help with Home Medix respiratory equipment, from getting set up at home to fitting a mask and arranging service.</p>
+    <a class="partner-button" href="#regions">Explore dealers by region <span aria-hidden="true">↓</span></a>
+  </section>
+  <div class="partner-note"><strong>Equipment and dealer services</strong><p>These dealers support home setup, mask fitting, rentals, repairs and staff training for Home Medix products. Contact the dealer to confirm availability, coverage and arrangements for your needs.</p></div>
+  <section id="regions" class="partner-section" aria-labelledby="regions-heading">
+    <div class="partner-section__heading"><div><p class="partner-eyebrow">Find local support</p><h2 id="regions-heading">Browse by region</h2></div><p>Choose a region or explore the dealer profiles below.</p></div>
+    <nav class="partner-region-nav" aria-label="Dealer regions">
+      {regions.map((region) => <a href={`#${region.slug}`}><span>{region.name}</span><span aria-hidden="true">↓</span></a>)}
+    </nav>
+    {regions.map((region) => (
+      <section id={region.slug} class="partner-region" aria-labelledby={`${region.slug}-heading`}>
+        <div class="partner-region__heading"><div><p class="partner-eyebrow">{partnersIn(region.slug).length} {partnersIn(region.slug).length === 1 ? 'dealer' : 'dealers'}</p><h2 id={`${region.slug}-heading`}>{region.name}</h2></div><a href={`/in/respiratory-care-experts/${region.slug}/`}>View region <span aria-hidden="true">→</span></a></div>
+        <div class="partner-grid">{partnersIn(region.slug).map((partner) => <PartnerCard partner={partner} />)}</div>
+      </section>
+    ))}
+  </section>
+  <p class="partner-provenance">Dealer and service details provided by Home Medix. Public contact links are checked on the dates shown on individual profiles. Availability is by arrangement.</p>
+  <script type="application/ld+json" set:html={safeJson(schema)} />
+</PartnerLayout>

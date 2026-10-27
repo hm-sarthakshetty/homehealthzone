@@ -8,7 +8,7 @@ export interface Props {
   entries?: ProductEntry[];
   src?: string;
   market?: string;
-  resultType?: 'all' | 'device' | 'guide' | 'clinical';
+  resultType?: 'all' | 'device' | 'guide' | 'clinical' | 'partner' | 'manufacturer';
   id?: string;
   label?: string;
   placeholder?: string;
@@ -50,6 +50,7 @@ const index = entries.map((entry) => ({
     <label>Content type <select class="searchbox__type">
       <option value="all">All content</option><option value="device">Device reviews · India</option>
       <option value="guide">Buying guides</option><option value="clinical">Clinical articles · India</option>
+      <option value="partner">Service partners · India</option><option value="manufacturer">Manufacturers · India</option>
     </select></label>
   </div>}
   <p class="searchbox__status" id={`${id}-status`} role="status" aria-live="polite" aria-atomic="true"></p>

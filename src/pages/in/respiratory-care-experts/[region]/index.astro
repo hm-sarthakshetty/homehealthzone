@@ -1,0 +1,26 @@
+---
+import PartnerLayout from '../../../../components/PartnerLayout.astro';
+import PartnerCard from '../../../../components/PartnerCard.astro';
+import { regions, partnersIn, partnerPath, partnerLocation, safeJson } from '../../../../lib/respiratory-partners';
+export function getStaticPaths() { return regions.map((region) => ({ params: { region: region.slug }, props: { region } })); }
+const { region } = Astro.props;
+const localPartners = partnersIn(region.slug);
+const description = `Home Medix equipment dealers in ${region.name}: businesses providing home setup, mask fitting, rentals, repairs and staff training by arrangement.`;
+const names = localPartners.map((partner) => `${partner.name} (${partnerLocation(partner)})`).join(', ');
+const questions = [
+  { question: `Who provides home setup for oxygen concentrators and CPAP in ${region.name}?`, detail: 'are listed Home Medix partners for home setup and equipment handover for Home Medix oxygen concentrators, CPAP and BPAP devices.' },
+  { question: `Where can I find CPAP mask fitting in ${region.name}?`, detail: 'are listed Home Medix partners for mask fitting with compatible prescribed Home Medix sleep-therapy equipment.' },
+  { question: `Who offers oxygen concentrator, CPAP and BPAP rentals in ${region.name}?`, detail: 'are listed Home Medix partners for equipment rental arrangements. Available Home Medix models and rental duration are confirmed by each business.' },
+  { question: `Who supports respiratory equipment repairs in ${region.name}?`, detail: 'are listed Home Medix partners for repair and service support for Home Medix respiratory equipment.' },
+  { question: `Who provides respiratory equipment training for staff in ${region.name}?`, detail: 'are listed Home Medix partners for staff training on operating Home Medix respiratory equipment.' },
+];
+const answerDetail = (detail: string) => localPartners.length === 1 ? detail.replace(/^are listed Home Medix partners/, 'is a listed Home Medix partner') : detail;
+const schema = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: questions.map(({question, detail}) => ({ '@type': 'Question', name: question, acceptedAnswer: { '@type': 'Answer', text: `${names} ${answerDetail(detail)} Contact the business to confirm availability and arrangements.` } })) };
+---
+<PartnerLayout title={`Home Medix Equipment Dealers in ${region.name}`} description={description} breadcrumbs={[{label:'Home', href:'/'}, {label:'India', href:'/in/'}, {label:'Respiratory care experts', href:'/in/respiratory-care-experts/'}, {label:region.name}]}>
+  <section class="partner-hero partner-hero--compact"><p class="partner-eyebrow">Home Medix equipment support</p><h1>Dealers in {region.name}</h1><p class="partner-lead">Businesses in {region.name} supporting Home Medix equipment setup, fitting, rentals, repairs and training, by arrangement.</p><p>Partners are based in {localPartners.map(partner => partner.city).join(', ')}. Coverage and on-site visits are confirmed separately for each business and location.</p><a class="partner-text-link" href="/in/respiratory-care-experts/">← All regions</a></section>
+  <section class="partner-section" aria-labelledby="dealers-heading"><div class="partner-section__heading"><div><p class="partner-eyebrow">Local businesses</p><h2 id="dealers-heading">{localPartners.length} {localPartners.length === 1 ? 'dealer' : 'dealers'} in {region.name}</h2></div><p>Services are available by arrangement.</p></div><div class="partner-grid">{localPartners.map((partner) => <PartnerCard partner={partner} />)}</div></section>
+  <section class="partner-section partner-faq" aria-labelledby="questions-heading"><p class="partner-eyebrow">Local equipment support</p><h2 id="questions-heading">Questions about services in {region.name}</h2>{questions.map(({question, detail}) => <div class="partner-faq__item"><h3>{question}</h3><p>{localPartners.map((partner, index) => <>{index > 0 && ', '}<a href={partnerPath(partner)}>{partner.name}</a> ({partnerLocation(partner)})</>)} {answerDetail(detail)} Contact the business to confirm availability and arrangements.</p></div>)}</section>
+  <p class="partner-provenance">Dealer and service details provided by Home Medix. Public contact links are checked on the dates shown on individual profiles.</p>
+  <script type="application/ld+json" set:html={safeJson(schema)} />
+</PartnerLayout>

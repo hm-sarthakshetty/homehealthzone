@@ -1,0 +1,51 @@
+---
+import PartnerLayout from '../../../../components/PartnerLayout.astro';
+import { partners, regionFor, partnerPath, partnerLocation, phoneHref, whatsappHref, safeJson, serviceNames } from '../../../../lib/respiratory-partners';
+export function getStaticPaths() {
+  return partners.map((partner) => ({ params: { region: regionFor(partner.region)?.slug ?? partner.region, partner: partner.slug }, props: { partner } }));
+}
+const { partner } = Astro.props;
+const region = regionFor(partner.region);
+const regionName = region?.name ?? partner.region;
+const place = partnerLocation(partner);
+const description = `${partner.name} is a Home Medix equipment dealer in ${place}, supporting home setup, mask fitting, rentals, repairs and staff training by arrangement.`;
+const profileUrl = new URL(partnerPath(partner), Astro.site).toString();
+const businessId = `${profileUrl}#business`;
+const schema = {
+  '@context': 'https://schema.org', '@type': 'LocalBusiness', '@id': businessId, name: partner.name,
+  url: profileUrl,
+  ...(partner.aliases?.length ? { alternateName: partner.aliases } : {}),
+  description,
+  mainEntityOfPage: profileUrl,
+  knowsAbout: ['Home Medix oxygen concentrators', 'Home Medix CPAP and BPAP', ...partner.services.map((key: string) => `Home Medix ${serviceNames[key]}`)],
+  ...(partner.website ? { sameAs: [partner.website] } : {}),
+  ...(partner.telephone ? { telephone: partner.telephone } : {}),
+  address: { '@type': 'PostalAddress', ...(partner.address ? { streetAddress: partner.address } : {}), ...(partner.city ? { addressLocality: partner.city } : {}), addressRegion: partner.state, addressCountry: 'IN' },
+};
+const dateLabel = (date: string) => {
+  const parsed = new Date(`${date.slice(0, 10)}T00:00:00Z`);
+  return Number.isNaN(parsed.valueOf()) ? date : new Intl.DateTimeFormat('en-IN', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(parsed);
+};
+const services = [
+  { name: 'Home setup', detail: 'Equipment setup and handover at home can be arranged.' },
+  { name: 'Mask fitting', detail: 'Mask fitting can be arranged for a compatible prescribed setup.' },
+  { name: 'Rentals', detail: 'Rental models and duration can be discussed with the business.' },
+  { name: 'Repairs', detail: 'The business can discuss product repair and service routes.' },
+  { name: 'Staff training', detail: 'Training on equipment operation can be arranged for staff.' },
+];
+---
+<PartnerLayout title={`${partner.name} | Home Medix Dealer in ${place}`} description={description} breadcrumbs={[{label:'Home', href:'/'}, {label:'India', href:'/in/'}, {label:'Respiratory care experts', href:'/in/respiratory-care-experts/'}, {label:regionName, href:`/in/respiratory-care-experts/${region?.slug ?? partner.region}/`}, {label:partner.name}]}>
+  <section class="partner-hero partner-hero--compact"><p class="partner-eyebrow">Home Medix dealer · {place}</p><h1>{partner.name}</h1><p class="partner-lead">{partner.name} is a Home Medix dealer and equipment service partner in {place}. Home setup, mask fitting, equipment rentals, repairs and staff training are supported by arrangement.</p></section>
+  <div class="partner-profile">
+    <div>
+      <section class="partner-profile__section" aria-labelledby="services-heading"><p class="partner-eyebrow">Equipment support</p><h2 id="services-heading">Home Medix services</h2><p>These services are for Home Medix equipment and are available by arrangement. Confirm coverage, scheduling and costs with the business.</p><dl class="partner-service-details">{services.map((service) => <div><dt>{service.name}</dt><dd>{service.detail}</dd></div>)}</dl></section>
+      <section class="partner-profile__section" aria-labelledby="equipment-heading"><h2 id="equipment-heading">Home Medix equipment supported</h2><p>The network covers Home Medix oxygen concentrators and sleep-therapy equipment. The HHZ directory includes the <a href="/oxygen-concentrators/home-medix-5-lpm/">HM-KV 5 LPM</a>, <a href="/oxygen-concentrators/home-medix-10-lpm/">HM-KX 10 LPM</a>, <a href="/cpap/home-medix-cv-20/">HM-CV-20 CPAP/APAP</a> and <a href="/bipap/home-medix-bv-30/">HM-BV-30 BPAP</a>. Model availability and individual service arrangements are confirmed by {partner.name}.</p><p><a href="/manufacturers/home-medix/">Home Medix manufacturer profile and sources</a></p></section>
+      {partner.sources.length > 0 && <section class="partner-profile__section" aria-labelledby="sources-heading"><p class="partner-eyebrow">Contact information</p><h2 id="sources-heading">Public sources</h2><ul class="partner-sources">{partner.sources.map((source) => <li><a href={source.url}>{source.label}</a> <span>· Checked <time datetime={source.checkedAt}>{dateLabel(source.checkedAt)}</time></span></li>)}</ul></section>}
+    </div>
+    <aside class="partner-contact" aria-labelledby="contact-heading"><p class="partner-eyebrow">Business details</p><h2 id="contact-heading">{partner.name}</h2>{partner.address && <address>{partner.address}</address>}{!partner.address && partner.city && <p>{partner.city}</p>}
+      <div class="partner-contact__actions">{partner.telephone && <a href={phoneHref(partner.telephone)}>Telephone: {partner.telephone}</a>}{partner.whatsapp && <a href={whatsappHref(partner.whatsapp)}>WhatsApp <span aria-hidden="true">↗</span></a>}{partner.website && <a href={partner.website}>Partner website <span aria-hidden="true">↗</span></a>}{partner.mapsUrl && <a href={partner.mapsUrl}>View on map <span aria-hidden="true">↗</span></a>}{partner.businessLinks.map((link) => <a href={link.url}>{link.label} <span aria-hidden="true">↗</span></a>)}</div>
+      {!partner.telephone && !partner.whatsapp && !partner.website && !partner.mapsUrl && partner.businessLinks.length === 0 && <p>Public contact details are not currently listed.</p>}<p class="partner-contact__note">Service availability is by arrangement.</p></aside>
+  </div>
+  <p class="partner-provenance">Dealer and service details provided by Home Medix. {partner.sources.length > 0 ? 'Public contact links checked on the dates listed above.' : 'Public contact links are not currently listed.'}</p>
+  <script type="application/ld+json" set:html={safeJson({ '@context': 'https://schema.org', '@graph': [schema, ...partner.services.map((key: string) => ({ '@type': 'Service', '@id': `${profileUrl}#${key}`, name: `Home Medix ${serviceNames[key]} in ${place}`, serviceType: serviceNames[key], provider: { '@id': businessId }, areaServed: partner.city || regionName }))] })} />
+</PartnerLayout>

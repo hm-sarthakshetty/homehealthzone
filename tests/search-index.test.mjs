@@ -6,7 +6,7 @@ import { readdir } from 'node:fs/promises';
 // Exercise the real build-time generator with collection fixtures, without starting Astro.
 registerHooks({ resolve(specifier, context, nextResolve) {
   if (specifier === 'astro:content') return { url: 'data:text/javascript,export const getCollection = async name => globalThis.__searchCollections[name];', shortCircuit: true };
-  if (context.parentURL?.endsWith('/search-index.ts') && (specifier === './price' || specifier === '../data/markets')) {
+  if (context.parentURL?.endsWith('/search-index.ts') && (specifier === './price' || specifier === '../data/markets' || specifier === './respiratory-partners')) {
     return nextResolve(specifier + '.ts', context);
   }
   return nextResolve(specifier, context);
@@ -42,4 +42,9 @@ test('includes every India guide and clinical article; regional results are actu
   assert.equal(index.find(item => item.n === 'retired-device').s, true);
   assert.equal(index.find(item => item.n === 'current-device').p, '₹40,000');
   assert.ok(!index.some(item => item.m === 'unpublished'));
+  const partnerResults = index.filter(item => item.t === 'p');
+  assert.equal(partnerResults.length, 15);
+  assert.ok(partnerResults.some(item => item.n === 'Aadhya Respiratory and Laboratory Services' && item.k.includes('Guntur')));
+  assert.ok(partnerResults.every(item => item.m === 'in' && item.h.startsWith('/in/respiratory-care-experts/')));
+  assert.ok(index.some(item => item.t === 'm' && item.h === '/manufacturers/home-medix/'));
 });
