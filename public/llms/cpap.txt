@@ -14,7 +14,7 @@ Source: https://homehealthzone.com/about/
 
 
       HHZ Respiratory Review maintains a product directory of home-respiratory equipment sold
-      in India: oxygen concentrators, CPAP machines and BiPAP devices.
+      in [India](https://homehealthzone.com/in/): oxygen concentrators, CPAP machines and BiPAP devices.
       We compare devices against a published rubric and explain the evidence behind each review.
 
 
@@ -22,10 +22,10 @@ Source: https://homehealthzone.com/about/
 ## What we cover
 
 
-      Our buyer guides cover seven countries: India, the
-      United States, the United Kingdom,
-      Singapore, Australia,
-      Canada, and New Zealand.
+      Our buyer guides cover seven countries: [India](https://homehealthzone.com/guides/), the
+      [United States](https://homehealthzone.com/us/guides/), the [United Kingdom](https://homehealthzone.com/uk/guides/),
+      [Singapore](https://homehealthzone.com/sg/guides/), [Australia](https://homehealthzone.com/au/guides/),
+      [Canada](https://homehealthzone.com/ca/guides/), and [New Zealand](https://homehealthzone.com/nz/guides/).
       These sections explain local equipment, funding, service, and travel considerations.
       The product directory is currently focused on India.
 
@@ -34,7 +34,7 @@ Source: https://homehealthzone.com/about/
       Reviews start with manufacturer specifications and supporting documents. We distinguish
       published specifications from measurements on a particular unit; reviews with bench or
       teardown evidence identify that evidence on the page. The protocol and scoring weights
-      are documented on our methodology page.
+      are documented on our [methodology page](https://homehealthzone.com/methodology/).
 
 
 
@@ -62,7 +62,7 @@ Source: https://homehealthzone.com/about/
 ## Editorial workflow
 
 
-      Reviews and guides use the HHZ Editorial byline.
+      Reviews and guides use the [HHZ Editorial](https://homehealthzone.com/authors/hhz-editorial/) byline.
       The editorial team collects source documents, normalizes product specifications, compares
       devices within their category, and maintains pricing and availability information.
 
@@ -70,27 +70,27 @@ Source: https://homehealthzone.com/about/
 
       Reviews identify the evidence available for their conclusions. Readers can submit an
       outdated specification, a factual error, or a disputed score with supporting sources;
-      our correction policy explains how corrections are handled.
+      our [correction policy](https://homehealthzone.com/correction-policy/) explains how corrections are handled.
 
 
 
 ## Contact
 
 
-      - Editorial inquiries: editor@homehealthzone.com
+      - Editorial inquiries: [editor@homehealthzone.com](mailto:editor@homehealthzone.com)
 
-      - Corrections: corrections@homehealthzone.com
+      - Corrections: [corrections@homehealthzone.com](mailto:corrections@homehealthzone.com)
 
-      - Methodology questions: methodology@homehealthzone.com
+      - Methodology questions: [methodology@homehealthzone.com](mailto:methodology@homehealthzone.com)
 
-      - Press: press@homehealthzone.com
+      - Press: [press@homehealthzone.com](mailto:press@homehealthzone.com)
 
 
 
 
       For our full approach to rubric, scoring weights, and bench protocol, see
-      How we test. For our position on samples, sponsorship, and
-      manufacturer outreach, see Editorial policy.
+      [How we test](https://homehealthzone.com/methodology/). For our position on samples, sponsorship, and
+      manufacturer outreach, see [Editorial policy](https://homehealthzone.com/editorial-policy/).
 
 ---
 
@@ -510,9 +510,9 @@ Source: https://homehealthzone.com/editorial-policy/
       This page documents how HHZ Respiratory Review handles scoring, loaner units,
       manufacturer outreach, and corrections. The full scoring rubric — published before it
       is applied, run uniformly across every device in a category — sits on the
-      methodology page. If anything on the site appears to
+      [methodology page](https://homehealthzone.com/methodology/). If anything on the site appears to
       contradict the policy below, email
-      editor@homehealthzone.com and we will
+      [editor@homehealthzone.com](mailto:editor@homehealthzone.com) and we will
       correct it.
 
 
@@ -566,7 +566,7 @@ Source: https://homehealthzone.com/editorial-policy/
       -
         Loaners are destructively tested and do not come back in working condition.
         When we accept a production-sample unit, it goes through our
-        destructive-test protocol:
+        [destructive-test protocol](https://homehealthzone.com/methodology/#destructive-teardown):
         sieve-bed zeolite analysis, solenoid-valve teardown, enclosure material identification
         (FTIR), oxygen-purity-sensor validation, voltage-stress testing to the edges of Indian
         mains tolerance, compressor and blower teardown, and power-supply inspection as
@@ -595,7 +595,7 @@ Source: https://homehealthzone.com/editorial-policy/
 
 
       Every device in a category is scored against the same weighted rubric. Weights are
-      published on the methodology page. Category summaries:
+      published on the [methodology page](https://homehealthzone.com/methodology/). Category summaries:
 
 
 
@@ -644,15 +644,395 @@ Source: https://homehealthzone.com/editorial-policy/
 
 
       Our correction policy is separate and covers the mechanics of how errors are fixed and
-      logged: see Corrections. In brief: every correction is
+      logged: see [Corrections](https://homehealthzone.com/correction-policy/). In brief: every correction is
       timestamped, the original wording is preserved in a changelog on the affected article,
       and readers can submit a correction to
-      corrections@homehealthzone.com.
+      [corrections@homehealthzone.com](mailto:corrections@homehealthzone.com).
 
 
 
       Questions about editorial policy go to
-      editor@homehealthzone.com.
+      [editor@homehealthzone.com](mailto:editor@homehealthzone.com).
+
+---
+
+# Home Medix equipment service partners in Tamil Nadu
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/tamil-nadu/
+
+Arjunas Medline, MedSpok Solutions Pvt Ltd are the listed Home Medix dealer and service partners in Tamil Nadu. They support Home Medix oxygen concentrator, CPAP and BPAP home setup, mask fitting, rentals, repairs and staff training by arrangement.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+- [Arjunas Medline](https://homehealthzone.com/in/respiratory-care-experts/tamil-nadu/arjunas-medline/): Coimbatore
+- [MedSpok Solutions Pvt Ltd](https://homehealthzone.com/in/respiratory-care-experts/tamil-nadu/medspok-solutions/): Chennai
+
+---
+
+# Home Medix equipment service partners in Andhra Pradesh and Telangana
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/andhra-pradesh-telangana/
+
+Aadhya Respiratory and Laboratory Services, Medisys Healthcare, Navyas Healing Hands Health Services are the listed Home Medix dealer and service partners in Andhra Pradesh and Telangana. They support Home Medix oxygen concentrator, CPAP and BPAP home setup, mask fitting, rentals, repairs and staff training by arrangement.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+- [Aadhya Respiratory and Laboratory Services](https://homehealthzone.com/in/respiratory-care-experts/andhra-pradesh-telangana/aadhya-respiratory/): Guntur
+- [Medisys Healthcare](https://homehealthzone.com/in/respiratory-care-experts/andhra-pradesh-telangana/medisys-healthcare/): Hyderabad
+- [Navyas Healing Hands Health Services](https://homehealthzone.com/in/respiratory-care-experts/andhra-pradesh-telangana/navyas-healing-hands/): Tirupati
+
+---
+
+# Home Medix equipment service partners in Pune, Maharashtra
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/pune/
+
+World Health Care are the listed Home Medix dealer and service partners in Pune, Maharashtra. They support Home Medix oxygen concentrator, CPAP and BPAP home setup, mask fitting, rentals, repairs and staff training by arrangement.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+- [World Health Care](https://homehealthzone.com/in/respiratory-care-experts/pune/world-health-care/): Pune
+
+---
+
+# Home Medix equipment service partners in Kerala
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/kerala/
+
+Mother Med, R&D Healthcare, SAAG Medicare Systems, Sharan Sleep & Respiratory Care are the listed Home Medix dealer and service partners in Kerala. They support Home Medix oxygen concentrator, CPAP and BPAP home setup, mask fitting, rentals, repairs and staff training by arrangement.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+- [Mother Med](https://homehealthzone.com/in/respiratory-care-experts/kerala/mothermed/): Kottayam
+- [R&D Healthcare](https://homehealthzone.com/in/respiratory-care-experts/kerala/rd-healthcare/): Thiruvananthapuram
+- [SAAG Medicare Systems](https://homehealthzone.com/in/respiratory-care-experts/kerala/saag-medicare/): Ernakulam
+- [Sharan Sleep & Respiratory Care](https://homehealthzone.com/in/respiratory-care-experts/kerala/sharan-respiratory/): Kozhikode
+
+---
+
+# Arjunas Medline
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/tamil-nadu/arjunas-medline/
+
+Arjunas Medline is a Home Medix dealer and equipment service partner in Coimbatore, Tamil Nadu, India.
+
+- Home Medix home setup and equipment handover.
+- Home Medix mask fitting for compatible prescribed equipment.
+- Home Medix equipment rentals.
+- Home Medix equipment repairs and service support.
+- Home Medix staff training on equipment operation.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+Public business telephone: +919944317792
+
+Public sources:
+- [Infomedia Search medical equipment directory](https://www.infomediasearch.com/Mettupalayam/medical-equipments-amp-accessories/category/) — checked 2026-10-28
+- [Grotal Coimbatore directory](https://www.grotal.com/Coimbatore/Oxygen-Concentrators-On-Hire-C93/) — checked 2026-10-28
+
+Manufacturer reference: https://homehealthzone.com/manufacturers/home-medix/
+
+---
+
+# MedSpok Solutions Pvt Ltd
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/tamil-nadu/medspok-solutions/
+
+MedSpok Solutions Pvt Ltd is a Home Medix dealer and equipment service partner in Chennai, Tamil Nadu, India.
+
+- Home Medix home setup and equipment handover.
+- Home Medix mask fitting for compatible prescribed equipment.
+- Home Medix equipment rentals.
+- Home Medix equipment repairs and service support.
+- Home Medix staff training on equipment operation.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+Published business address: 5/3 Thiruvengadam, 1st Street, Karambakkam, Rajeswari Nagar, Porur, Chennai, Tamil Nadu 600116
+
+Business website: https://www.medspok.com/
+
+Public business telephone: +917557554000
+
+Public sources:
+- [MedSpok Solutions website](https://www.medspok.com/) — checked 2026-10-28
+
+Manufacturer reference: https://homehealthzone.com/manufacturers/home-medix/
+
+---
+
+# Aadhya Respiratory and Laboratory Services
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/andhra-pradesh-telangana/aadhya-respiratory/
+
+Aadhya Respiratory and Laboratory Services is a Home Medix dealer and equipment service partner in Guntur, Andhra Pradesh, India.
+
+- Home Medix home setup and equipment handover.
+- Home Medix mask fitting for compatible prescribed equipment.
+- Home Medix equipment rentals.
+- Home Medix equipment repairs and service support.
+- Home Medix staff training on equipment operation.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+Public sources:
+- [Aadhya business profile](https://www.thecompanycheck.com/org/aadhya-respiratory-and-laboratory/84f300abac) — checked 2026-10-28
+
+Manufacturer reference: https://homehealthzone.com/manufacturers/home-medix/
+
+---
+
+# Medisys Healthcare
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/andhra-pradesh-telangana/medisys-healthcare/
+
+Medisys Healthcare is a Home Medix dealer and equipment service partner in Hyderabad, Telangana, India.
+
+- Home Medix home setup and equipment handover.
+- Home Medix mask fitting for compatible prescribed equipment.
+- Home Medix equipment rentals.
+- Home Medix equipment repairs and service support.
+- Home Medix staff training on equipment operation.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+Published business address: H.No. 1-10-122/2, Sri Lakshmi Nilayam, Street No. 9, opposite Abhishrey Hostel, Ashoknagar, Hyderabad 500020
+
+Business website: https://medisyshc.com/
+
+Public business telephone: +919100305036
+
+Public sources:
+- [Medisys Healthcare contact](https://medisyshc.com/contact-us/) — checked 2026-10-28
+- [Medisys Healthcare about](https://medisyshc.com/about-us/) — checked 2026-10-28
+- [Justdial listing](https://www.justdial.com/Hyderabad/Medisys-Healthcare-Opp-Abhishrey-Hostel-Ashok-Nagar/040PXX40-XX40-151126124455-V7P3_BZDET) — checked 2026-10-28
+
+Manufacturer reference: https://homehealthzone.com/manufacturers/home-medix/
+
+---
+
+# Navyas Healing Hands Health Services
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/andhra-pradesh-telangana/navyas-healing-hands/
+
+Navyas Healing Hands Health Services is a Home Medix dealer and equipment service partner in Tirupati, Andhra Pradesh, India.
+
+- Home Medix home setup and equipment handover.
+- Home Medix mask fitting for compatible prescribed equipment.
+- Home Medix equipment rentals.
+- Home Medix equipment repairs and service support.
+- Home Medix staff training on equipment operation.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+Published business address: Reddy & Reddy Colony, Tirupati, Andhra Pradesh 517501
+
+Public business telephone: +918985965598
+
+Public sources:
+- [Exporters India business profile](https://www.exportersindia.com/navyas-healing-hands-health-services/about-us.htm) — checked 2026-10-28
+
+Manufacturer reference: https://homehealthzone.com/manufacturers/home-medix/
+
+---
+
+# World Health Care
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/pune/world-health-care/
+
+World Health Care is a Home Medix dealer and equipment service partner in Pune, Maharashtra, India.
+
+- Home Medix home setup and equipment handover.
+- Home Medix mask fitting for compatible prescribed equipment.
+- Home Medix equipment rentals.
+- Home Medix equipment repairs and service support.
+- Home Medix staff training on equipment operation.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+Published business address: Alandi Road, Dighi, Pune, Maharashtra 411015
+
+Business website: https://www.worldhealthcare.co.in/
+
+Public business telephone: +919356839976
+
+Public sources:
+- [World Health Care official website](https://www.worldhealthcare.co.in/) — checked 2026-10-28
+- [World Health Care respiratory equipment rentals](https://www.worldhealthcare.co.in/cpap-bipap-ventilator-on-rent-in-pune.php) — checked 2026-10-28
+
+Manufacturer reference: https://homehealthzone.com/manufacturers/home-medix/
+
+---
+
+# Mother Med
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/kerala/mothermed/
+
+Mother Med is a Home Medix dealer and equipment service partner in Kottayam, Kerala, India.
+
+- Home Medix home setup and equipment handover.
+- Home Medix mask fitting for compatible prescribed equipment.
+- Home Medix equipment rentals.
+- Home Medix equipment repairs and service support.
+- Home Medix staff training on equipment operation.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+Published business address: MotherMed Commercial Building, Poovathodu, Kottayam, Kerala
+
+Business website: https://mothermed.in/
+
+Public business telephone: +919544725621
+
+Public sources:
+- [Mother Med official contact page](https://mothermed.in/contact-us/) — checked 2026-10-28
+- [Mother Med official website](https://mothermed.in/) — checked 2026-10-28
+
+Manufacturer reference: https://homehealthzone.com/manufacturers/home-medix/
+
+---
+
+# R&D Healthcare
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/kerala/rd-healthcare/
+
+R&D Healthcare is a Home Medix dealer and equipment service partner in Thiruvananthapuram, Kerala, India.
+
+- Home Medix home setup and equipment handover.
+- Home Medix mask fitting for compatible prescribed equipment.
+- Home Medix equipment rentals.
+- Home Medix equipment repairs and service support.
+- Home Medix staff training on equipment operation.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+Published business address: First Floor, TC 94/88-5, Kannammoola Towers, Kolloor Road, Medical College, Thiruvananthapuram, Kerala 695011
+
+Public business telephone: +919995200644
+
+Public sources:
+- [ResMed dealer directory](https://www.resmed.co.in/find-a-dealer) — checked 2026-10-28
+- [R&D Healthcare Kannamoola listing](https://www.justdial.com/Thiruvananthapuram/Rd-Healthcare-Kollur-Devi-Temple-Kannamoola/0471PX471-X471-201102200250-V2P7_BZDET) — checked 2026-10-28
+
+Manufacturer reference: https://homehealthzone.com/manufacturers/home-medix/
+
+---
+
+# SAAG Medicare Systems
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/kerala/saag-medicare/
+
+SAAG Medicare Systems is a Home Medix dealer and equipment service partner in Ernakulam, Kerala, India.
+
+- Home Medix home setup and equipment handover.
+- Home Medix mask fitting for compatible prescribed equipment.
+- Home Medix equipment rentals.
+- Home Medix equipment repairs and service support.
+- Home Medix staff training on equipment operation.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+Published business address: 06/358, Kuttikuzhy, Ernakulam, Kerala 683545
+
+Business website: https://www.saagmedicare.in/
+
+Public business telephone: +918590411128
+
+Public sources:
+- [SAAG Medicare contact page](https://www.saagmedicare.in/contact) — checked 2026-10-28
+- [SAAG Medicare LinkedIn profile](https://in.linkedin.com/in/saag-medicare-b2b435207) — checked 2026-10-28
+
+Manufacturer reference: https://homehealthzone.com/manufacturers/home-medix/
+
+---
+
+# Sharan Sleep & Respiratory Care
+
+Source: https://homehealthzone.com/in/respiratory-care-experts/kerala/sharan-respiratory/
+
+Sharan Sleep & Respiratory Care is a Home Medix dealer and equipment service partner in Kozhikode, Kerala, India.
+
+- Home Medix home setup and equipment handover.
+- Home Medix mask fitting for compatible prescribed equipment.
+- Home Medix equipment rentals.
+- Home Medix equipment repairs and service support.
+- Home Medix staff training on equipment operation.
+
+Home Medix supplied the dealer relationships and service categories. Public business links are provided as sources with check dates. Services are for Home Medix equipment and local availability is by arrangement.
+
+Public business telephone: +919447770550
+
+Public sources:
+- [Bharatibiz business listing](https://www.bharatibiz.com/en/sharan-sleep-respiratory-care-oxygen-094477-70550) — checked 2026-10-28
+- [Justdial business listing](https://www.justdial.com/Kozhikode/Sharan-SLEEP-Respiratory-CARE-Arayidathupalam/0495PX495-X495-171117153319-K4Z9_BZDET) — checked 2026-10-28
+- [Sharan Sleep & Respiratory Care job listing](https://in.trabajo.org/job-3396-9fd9158dd47827516b3a930b666dfc4a) — checked 2026-10-28
+
+Manufacturer reference: https://homehealthzone.com/manufacturers/home-medix/
+
+---
+
+# Home Medix: respiratory medical device manufacturer in India
+
+Source: https://homehealthzone.com/manufacturers/home-medix/
+
+# Home Medix: respiratory medical device manufacturer in India
+
+    Updated 28 October 2026
+
+    Home Medix describes itself as a manufacturer of respiratory and home-care equipment based in Bengaluru, India. Its published range includes oxygen concentrators, CPAP and BPAP sleep-therapy devices, and nebulisers. [Home Medix: about](https://www.homemedix.in/about); [product range](https://www.homemedix.in/shop).
+
+
+## Identity and location
+
+    Home Medix’s quality page names Home Medix (India) Pvt. Ltd. Its contact page lists 27, 3rd Main Road, KSSIDC Industrial Estate, Rajajinagar 6th Block, Bengaluru 560044, Karnataka, India. This is the company’s published contact address. [Quality page](https://www.homemedix.in/quality); [contact details](https://www.homemedix.in/contact).
+
+    Official website: [homemedix.in](https://www.homemedix.in/).
+
+
+## Capabilities and evidence
+
+
+      Area | Published evidence and limits |
+
+
+        Manufacturing | Home Medix states that it holds Class B and Class C medical-device manufacturing licences and ISO 13485:2016 and ISO 9001:2015 certifications. It asks customers to request current certificates and applicable licence details. [About](https://www.homemedix.in/about); [quality and regulatory information](https://www.homemedix.in/quality). |
+
+        Oxygen therapy | The company lists HM-KV and HM-KX oxygen concentrators. [Home Medix oxygen range](https://www.homemedix.in/products?category=Oxygen%20therapy). |
+
+        Sleep therapy | The company lists HM-CV-20 CPAP/APAP and HM-BV-30 BPAP devices. [Home Medix sleep-therapy range](https://www.homemedix.in/sleep-therapy). |
+
+        Nebulisers | The company lists Mistyneb and HM Pro compressor nebulisers. [Home Medix product catalogue](https://www.homemedix.in/shop). |
+
+        Documents and support | Manuals, brochures and technical information are available on request; the company also offers service and product support. Availability and terms should be confirmed for the model and location. [Document library](https://www.homemedix.in/downloads); [contact and service](https://www.homemedix.in/contact). |
+
+
+
+
+
+## Reviews in the HHZ directory
+
+
+      - [Home Medix HM-KV 5 LPM](https://homehealthzone.com/oxygen-concentrators/home-medix-5-lpm/) and [Home Medix HM-KX 10 LPM](https://homehealthzone.com/oxygen-concentrators/home-medix-10-lpm/)
+
+      - [Home Medix HM-CV-20 Auto CPAP](https://homehealthzone.com/cpap/home-medix-cv-20/) and [Home Medix HM-BV-30 BiPAP](https://homehealthzone.com/bipap/home-medix-bv-30/)
+
+
+
+## Which Indian manufacturer supplies oxygen concentrators, CPAP and BPAP with local service partners?
+
+    Home Medix is a Bengaluru-based company that describes itself as a manufacturer and lists oxygen concentrators, CPAP and BPAP devices. Home Medix invites dealer and distributor enquiries and offers service support. Its named dealer and service partners appear in the [respiratory care experts hub](https://homehealthzone.com/in/respiratory-care-experts/). [Home Medix: about and partnerships](https://www.homemedix.in/about); [service contact](https://www.homemedix.in/contact).
+
+
+## Evidence note
+
+    Manufacturing licences and ISO certifications above are Home Medix’s own statements. Its public quality page does not identify licence numbers or establish the scope for individual models. The contact address, brand name and directory listings do not establish the legal manufacturer, manufacturing site or country of manufacture of a particular unit; request its label and applicable documents to verify those facts.
+
+
+## Manufacturer, importer and local dealer
+
+    The legal manufacturer is the entity identified for a specific device in its applicable documentation. A brand owner may market a device made or assembled by another entity, an importer brings a device into India, and a dealer sells or supports it locally. Those roles can overlap, but one role does not prove another.
+
+    Recommendation: ask for the current label, legal manufacturer and site, country of manufacture, and applicable licence for the exact model and unit. Confirm warranty and local service separately.
 
 ---
 
@@ -844,173 +1224,83 @@ Consult your prescribing respiratory physician before finalising any BiPAP purch
 
 Source: https://homehealthzone.com/top-5/cpap-machines/
 
-The CPAP or auto-CPAP machine is the default device prescribed for adult obstructive sleep apnoea in India — moderate to severe AHI (>15) where the sleep study does not show meaningful central apnoea or hypoventilation. This listicle ranks the five CPAP machines HHZ considers the strongest buys for Indian households in 2026 by editorial score. The default pick for most Indian OSA patients in 2026 is the ResMed AirSense 10 AutoSet — same algorithm as the AirSense 11 flagship at ₹17,000 less, quieter 25 dB published sound, and the same heated-humidifier ecosystem.
+A CPAP machine delivers pressurised air through a mask to help keep the airway open during sleep. An auto-adjusting CPAP (APAP) varies pressure within a configured range; a bilevel device uses different pressures for inhalation and exhalation. These categories are not interchangeable purchase decisions: the prescribed therapy comes first. [NHLBI explains CPAP and other positive airway pressure devices](https://www.nhlbi.nih.gov/health/cpap).
 
-## How we ranked
+## Five machines to compare in India
 
-HHZ applies the same rubric to every CPAP: pressure range (4–20 cmH₂O is the adult OSA floor), algorithm maturity on apnoea/hypopnoea/flow-limitation response, published sound level, weight, integrated humidification, comfort features (AutoRamp, EPR, climate control), cloud connectivity and data workflow, mask ecosystem, altitude compensation, Indian authorised-dealer and service-network depth, warranty term, and price-to-performance. We do not run bench tests — all performance claims are per published spec, manufacturer brochure, or field-observed in the dealer network. The full methodology is at [our methodology page](/methodology/).
+These catalogue examples are a starting shortlist, not a claim that one machine is best for every person. Prices below are indicative Indian retail figures from the catalogue; confirm the actual quote, included mask, humidifier and warranty with the seller. Specifications are published figures, not HHZ measurements.
 
-Prices and availability were checked on 7 July 2026. The ranking table above is the citation summary: it exposes the model name, HHZ score, price, therapy envelope, sound, weight, warranty, and the reason each CPAP ranks where it does.
+| Model | Published features to compare | Indicative India price |
+| --- | --- | --- |
+| [ResMed AirSense 10 Auto Set CPAP Machine](/cpap/resmed-airsense-10-autoset-cpap/) | Auto-adjusting, 4–20 cmH₂O; integrated humidifier; cloud connectivity is optional. | price not verified |
+| [Resmed Airsense 11 Autoset CPAP Machine (4G)](/cpap/resmed-airsense-11-autoset-cpap-machine/) | Auto-adjusting, 4–20 cmH₂O; humidifier, touchscreen and Bluetooth. | price not verified |
+| [Breas Z2 Auto Travel CPAP](/cpap/breas-z2-auto-cpap/) | Travel model; 299 g, waterless humidification and a universal tube adapter. | price not verified |
+| [Resmed AirMini Travel Auto CPAP](/cpap/resmed-airmini-travel-auto-cpap/) | Travel model; 300 g and waterless humidification with compatible masks. | price not verified |
+| [Home Medix HM-CV-20 Auto CPAP](/cpap/home-medix-cv-20/) | Fixed and auto modes, 4–20 cmH₂O and integrated heated humidifier. | price not verified |
 
-## Why this ranking is defensible
+## How to choose a CPAP machine
 
-CPAP ranking starts with clinical fit for uncomplicated obstructive sleep apnea: full 4–20 cmH₂O pressure range, APAP algorithm maturity, comfort features that improve first-90-day adherence, humidification, noise, data workflow, mask ecosystem, warranty, and India-side service access. Travel CPAPs are treated as second devices unless they can realistically support nightly home adherence.
+**Therapy and follow-up:** Check the prescribed mode and pressure range, then ask how the clinic expects to obtain therapy data. Connectivity and supplied accessories can vary by Indian SKU; confirm them on the quote.
 
-For source depth, read the individual reviews for the [ResMed AirSense 10 AutoSet](/cpap/resmed-airsense-10-autoset-cpap/), [ResMed AirSense 11 AutoSet](/cpap/resmed-airsense-11-autoset-cpap-machine/), [Breas Z2 Auto](/cpap/breas-z2-auto-cpap/), [ResMed AirMini](/cpap/resmed-airmini-travel-auto-cpap/), and [Home Medix HM-CV-20 Auto CPAP](/cpap/home-medix-cv-20/). For therapy selection, see the [CPAP vs BiPAP decision tree](/guides/cpap-vs-bipap-indications/), [CPAP comfort features guide](/guides/cpap-comfort-features-epr-flex-epflex/), and [APAP explainer](/cpap/apap/).
+**Home or travel:** Compare packed weight, power options, humidification and mask compatibility. A smaller machine can make travel easier, but whether it meets the user's nightly needs should be checked before purchase.
 
-## The top 5
+**Mask and running cost:** A nasal mask covers the nose; nasal pillows sit at the nostrils, while a full-face mask covers both nose and mouth. A comfortable seal matters more than choosing by name alone. Check replacement cushions, filters and tubing as well as the initial price. See the [CPAP comfort guide](/guides/cpap-comfort-features-epr-flex-epflex/) and [APAP explainer](/cpap/apap/).
 
-### 1. ResMed AirSense 10 AutoSet — 8.4
+**Service in India:** Ask for written warranty terms, local repair arrangements and replacement-parts availability. The [Home Medix dealer and service network](/in/respiratory-care-experts/) identifies partners by region and describes services including setup, mask fitting, rentals, repairs and staff training. Service availability varies by partner.
 
-**Price snapshot** — indicative retail ₹45,999 (listed MRP ₹82,560), 1.24 kg, 4–20 cmH₂O auto pressure range, 25 dB published sound, 2-year manufacturer warranty (sometimes 3-year dealer extension), HumidAir heated humidifier plus ClimateLineAir heated tubing bundled on the standard Indian SKU.
+## CPAP vs BiPAP
 
-**Pros**
-- Same AutoSet and AutoSet for Her algorithms as the AirSense 11 flagship, at ₹17,000 lower retail — the algorithm is what makes an APAP clinically different from a CPAP, and this is the same algorithm.
-- 25 dB published sound is 2 dB quieter than the AirSense 11 — genuinely below bedside-disruption threshold for a sleeper within 60–100 cm of the unit.
-- Same 4–20 cmH₂O auto pressure range as the AirSense 11 — covers the full 90th-percentile adult-OSA titration envelope in Indian sleep-lab data.
-- Cellular modem and AirView compatibility available as an SKU option — preserves the remote-titration workflow for clinics that run AirView.
-- 1.24 kg and 116 × 255 × 150 mm fits standard Indian bedside-table real estate; FAA, FDA, CE all confirmed.
-- AutoRamp with sleep-onset detection and EPR (1–3 cmH₂O exhalation relief) — the comfort features most correlated with 90-day adherence in Indian patient data.
+Fixed CPAP supplies one set pressure, while BiPAP is a bilevel form of positive airway pressure that uses higher inspiratory and lower expiratory pressures. APAP adjusts pressure automatically within its configured range; it is not the same category as bilevel ventilation. The [CPAP vs BiPAP guide](/guides/cpap-vs-bipap-indications/) explains the distinction. Choose the prescribed mode first, then compare the mask, support and total cost among compatible machines.
 
-**Cons**
-- Button-and-knob interface is a half-generation behind the AirSense 11 touchscreen — slower for first-time users to navigate.
-- Cloud connectivity is published as Optional; the base SKU ships without a modem, so data upload defaults to SD-card shuttle unless the cellular SKU is specified at purchase.
-- No Bluetooth — no myAir phone-app direct pairing on base units, which removes the nightly therapy-score feedback loop.
-- No RERA reporting — feature added in the AirSense 11 generation.
+## Home machine or travel machine?
 
-**Best for** — uncomplicated moderate-to-severe OSA (AHI 15–50) in clinics running in-person SD-card follow-up, cost-conscious buyers quoted AirSense 11 pricing who do not need touchscreen or native 4G, replacement buyers upgrading from an end-of-life older AirSense.
+A bedside machine is usually judged on nightly practicalities: a readable display, humidifier care, accessible filters, noise, and the way the clinic receives data. The AirSense 10, AirSense 11 and HM-CV-20 catalogue records list integrated humidification. Compare the exact package: a heated tube, mask, and replacement filters may not all be included in every seller's quote.
 
-Full review at [/cpap/resmed-airsense-10-autoset-cpap/](/cpap/resmed-airsense-10-autoset-cpap/).
+A travel device puts more weight on packing size, power supply and the equipment needed away from home. The catalogue lists the Breas Z2 Auto at 299 g and the AirMini at 300 g, but the packed system also includes a power supply, tubing, mask and any humidification supplies. Before selecting either as an additional machine, check that its modes and accessories meet the therapy plan and that the chosen mask can connect.
 
-### 2. ResMed AirSense 11 AutoSet — 8.3
+The Breas record lists a universal tube adapter and waterless humidification. AirMini uses a specific tubing and mask system: [ResMed's AirMini information](https://ap.resmed.com/healthcare-professional/devices/sleep-apnea-devices/airmini) describes compatible masks and connectors. Its waterless humidification choices vary by mask, so confirm the exact kit and locally available consumables instead of assuming a mask from another machine will connect.
 
-**Price snapshot** — indicative retail ₹63,390 (listed MRP ₹105,600), 1.1 kg, 4–20 cmH₂O auto pressure range, 27 dB published sound, 2-year manufacturer warranty (often 3-year dealer extension), HumidAir 11 heated humidifier plus ClimateLineAir or SlimLine tubing.
+## Humidification, masks and comfort
 
-**Pros**
-- Current ResMed flagship APAP with native Bluetooth plus built-in 4G cellular modem on the Indian SKU — nightly AirView upload without SD-card shuttle or phone-app mediation.
-- myAir phone-app pairing delivers nightly therapy score, mask-seal rating, and gamified compliance feedback loop — measurably improves long-term adherence.
-- RERA reporting added in this generation — clinicians who need respiratory effort-related arousal visibility in remote titration get it here and not on the AirSense 10.
-- 4–20 cmH₂O pressure range and AutoSet + AutoSet for Her algorithms identical to the AirSense 10; central apnoea and Cheyne-Stokes detection built in for escalation flagging.
-- Touchscreen interface, 1.1 kg chassis is slightly more compact than the AirSense 10's 1.24 kg.
-- ResMed India's authorised service network is the deepest in the imported-CPAP category — metros plus most tier-2 cities, 7–10 day warranty turnaround.
+Heated humidification uses a water chamber; waterless systems use a replaceable heat-and-moisture exchange component. The second approach avoids packing a water chamber, but creates another compatibility and replacement-cost question. Follow the device instructions for cleaning and replacement; do not assume components are interchangeable across models.
 
-**Cons**
-- ₹63,390 retail is ₹17,390 above the AirSense 10 for the same algorithm, same pressure range, and same humidification ecosystem — the delta is defensible only if cloud workflow or touchscreen is load-bearing.
-- 27 dB is 2 dB louder than the AirSense 10 on paper.
-- Heated tubing and HumidAir 11 tub are ResMed proprietary parts — consumable replacement cost in India runs higher than competing platforms.
-- No waterless humidification — tub requires nightly distilled-water fill, which is an operational cost in hard-water Indian cities.
+A nasal mask rests over the nose, a nasal-pillow interface rests at the nostrils, and a full-face interface covers the nose and mouth. Sizing, headgear, facial hair and sleeping position can all affect the seal. Ask to review the fit with the supplier and check what happens if the supplied size is uncomfortable. The [NHLBI CPAP guide](https://www.nhlbi.nih.gov/health/cpap) describes the machine, hose and mask as parts of one system.
 
-**Best for** — newly diagnosed moderate-to-severe OSA patients in clinics on AirView, buyers who want the myAir phone-app feedback loop, patients who value the touchscreen interface and compact 1.1 kg footprint, anyone buying their "last CPAP for a decade" who can absorb the price.
+Ramp and expiratory relief are comfort features, but their names and controls vary. Ask the clinician or supplier to explain which adjustments are available to the user and how to report persistent discomfort or leakage. A device's maximum advertised pressure does not tell a buyer what setting to use.
 
-Full review at [/cpap/resmed-airsense-11-autoset-cpap-machine/](/cpap/resmed-airsense-11-autoset-cpap-machine/).
+## Data, support and ownership cost
 
-### 3. Breas Z2 Auto Travel — 7.8
+Some clinics review a memory card, while others use a connected service. The catalogue describes cloud connectivity as optional for the AirSense 10 and lists 4G and Bluetooth on the AirSense 11 entry. Confirm the exact Indian model, whether connectivity is enabled, and what information the clinic can actually receive. An app display is not itself evidence that a clinician has access to the data.
 
-**Price snapshot** — indicative retail ₹62,687 (listed MRP ₹90,230), 299 g, 4–20 cmH₂O pressure range, 26 dB published sound, waterless HME humidification, Q-Tube muffler, Bluetooth to Nitelog app, FAA approved, CE marked, optional Powershell battery for untethered operation.
+Compare a written quote for the machine, mask and size, humidifier, tube, power supply and any setup charge. Then ask about replacement cushions, filters, water chambers, compatible tubing and warranty exclusions. Retail prices in the table are catalogue snapshots and may differ from a current dealer quote; the relevant cost is the complete configuration needed for use.
 
-**Pros**
-- 299 g weight is roughly one-seventh of the home-APAP class — genuinely carry-on-pocket portable, fits inside a laptop-bag compartment.
-- FAA approval explicit on the Indian spec sheet — only non-ResMed travel CPAP carrying this on the Indian listing. Permits in-cabin operation on US-registered and most international airlines.
-- 26 dB published sound with Q-Tube inline muffler is the quietest CPAP in this list — meaningfully quieter than even ResMed AirMini's 27 dB.
-- Waterless humidification via HME element — no distilled-water supply required at destination, no heated chamber, no spill risk.
-- 4–20 cmH₂O full adult APAP pressure range with fixed-CPAP and APAP modes; EPR ("Z breath") and altitude compensation published; universal AC input 100–240 V; Powershell battery runs it untethered for 1–2 full nights.
-- Standard 22 mm hose and mask-platform-independent — works with any nasal, nasal-pillow, or full-face mask; no mask ecosystem lock-in.
+In India, also check the service address, who handles a warranty claim, availability of loan equipment during repair, and whether shipping is required. Confirm the power supply input and a practical backup plan for local outages. The [Home Medix dealer and service network](/in/respiratory-care-experts/) names regional partners and describes services for Home Medix products; its coverage does not establish service for the other brands in this comparison.
 
-**Cons**
-- ₹62,687 retail is ~2.2x the cheapest CPAP in this list and comparable to a full-size premium APAP — you are paying for portability, not features.
-- No SD card and no cloud connectivity — data infrastructure is Bluetooth-only to Nitelog phone app; no clinician-side AirView-equivalent portal.
-- No heated humidifier, no heated tube, no climate control, no mask-fit feedback, no central-apnoea detection, no adaptive humidification — stripped travel-only feature set.
-- FDA status not stated on the Indian SKU listing (CE is marked).
-- Warranty length unclear in the Indian dealer-channel data reviewed; confirm at purchase.
+## Frequently asked questions
 
-**Best for** — frequent-flying OSA patients (10+ flights annually or multi-week international trips), as a second CPAP alongside a home APAP where the primary machine stays at the bedroom and the Z2 handles travel nights, professionals on on-site deployments where the machine packs into a laptop bag.
+### Is APAP the same as BiPAP?
 
-Full review at [/cpap/breas-z2-auto-cpap/](/cpap/breas-z2-auto-cpap/).
+No. APAP automatically adjusts a positive airway pressure within a configured range. BiPAP is a bilevel form of positive airway pressure, with separate inspiratory and expiratory pressures. See the [CPAP vs BiPAP guide](/guides/cpap-vs-bipap-indications/) for a fuller explanation.
 
-### 4. ResMed AirMini — 7.8
+### Does the quietest published number guarantee the quietest experience?
 
-**Price snapshot** — indicative retail ₹49,990 (listed MRP ₹62,400), 300 g, 4–20 cmH₂O pressure range, 27 dB published sound, waterless HumidX humidification, Bluetooth to AirMini app, FDA/FAA/CE approved, universal 100–240V input.
+No. Published sound levels help identify what to investigate, but the measurement conditions and the complete setup may differ. Mask vent noise, placement and tubing can affect what a sleeper hears. Ask for measurement conditions and, where possible, see the configuration in use.
 
-**Pros**
-- 300 g weight and 136 × 84 × 52 mm footprint — the smallest auto-CPAP in production, fits in a laptop bag without taking roll-aboard space.
-- Same AutoSet and AutoSet for Her algorithms as the full-size AirSense 11 — full 4–20 cmH₂O auto pressure range, full algorithm sophistication in a 300 g chassis.
-- Waterless HumidX humidification recycles exhaled moisture — eliminates distilled-water dependency for international travel, 30-day disc service life.
-- FAA approved for airline cabin use; AirView integration via phone-app relay; myAir compatibility preserves the ResMed data workflow.
-- EPR is published as Yes — retains the exhalation-relief comfort feature that drives first-30-days adherence.
-- At ₹49,990, priced ₹12,697 below the Breas Z2 Auto with the same 4–20 cmH₂O range.
+### Can I use any nasal mask with a travel CPAP?
 
-**Cons**
-- Proprietary mask ecosystem — only AirFit N30, P10, F20, F30 "for AirMini" variants work; the mask integrates the pressure-regulation valve, and standard ResMed masks cannot be retrofitted.
-- F20 full-face mask is specifically incompatible with HumidX — full-face users get zero humidification on travel nights.
-- No built-in battery; requires mains power or a ResMed Power Station II external battery (sold separately, adds 1 kg and ₹18,000–22,000).
-- No altitude compensation published on the spec sheet — a real limit for Himalayan-travel or pilgrimage-route OSA patients above 2,500 m.
-- No AutoRamp with sleep-onset detection (only fixed-duration Ramp Time); no Central Apnea Detection flagged.
+Not necessarily. Mask, connector and tubing compatibility depend on the machine. AirMini requires a compatible system, while the Z2 catalogue record lists a universal tube adapter. Check the specific mask and any adapter before buying either machine.
 
-**Best for** — already-adherent home CPAP users travelling 30+ nights a year to urban destinations with reliable mains, nasal or nasal-pillow mask users, business travellers where the 300 g laptop-bag factor is decisive, as a second device alongside a home AirSense 10 or 11.
+### Is a humidifier included in every CPAP quote?
 
-Full review at [/cpap/resmed-airmini-travel-auto-cpap/](/cpap/resmed-airmini-travel-auto-cpap/).
+No. A catalogue may describe a feature while a seller's bundle has different contents. Ask for an itemised quote identifying the chamber, tubing, mask, power supply and any optional accessories.
 
-### 5. Home Medix HM-CV-20 — 7.6
+### What is the difference between a nasal mask and nasal pillows?
 
-**Price snapshot** — indicative retail ₹28,000 (listed MRP ₹35,000), 1.45 kg with integrated humidifier, 4–20 cmH₂O pressure range, &lt;30 dB published sound, CPAP and APAP modes, EPFlex expiratory pressure relief, integrated heated humidifier with 0–5 adjustable levels, ISO 9001 + ISO 13485 + CDSCO approved.
+A nasal mask covers the nose; nasal pillows seal at the nostrils. Both connect to a hose, but fit and compatible sizes differ. Compare the complete interface and headgear, not only the cushion shape.
 
-**Pros**
-- Central-apnea detection published on the spec sheet — OSA and CSA events flagged in compliance data. Most sub-₹30,000 CPAPs in the Indian market omit this.
-- 1.45 kg weight quoted with humidifier attached — the honest way to measure CPAP weight. BMC GII is 2.5 kg; AirSense 11 is 1.1 kg without humidifier.
-- &lt;30 dB published sound is at the quiet end of the CPAP class, within 3 dB of the AirSense 11's 27 dB.
-- 4–20 cmH₂O full adult OSA pressure range, same envelope as the ResMed flagship.
-- Patented SAF (Synchronized Auto-Flow) algorithm with leak compensation and multi-level respiratory event detection (flow-limitation, multi-frequency snoring, multi-severity hypopnea, OSA/CSA apnea).
-- EPFlex expiratory pressure relief — functionally equivalent to ResMed EPR and Philips C-Flex.
-- ₹28,000 is the lowest price in the list — ₹17,999 below the AirSense 10, ~₹35,390 below the AirSense 11.
+### Should I choose the cheapest machine?
 
-**Cons**
-- No cloud connectivity, no Wi-Fi, no Bluetooth, no SD card field populated — compliance data cannot be pushed to AirView or Care Orchestrator-class clinician dashboards.
-- No heated-tube compatibility, no climate control, no adaptive humidification — real comfort gap in coastal Mumbai monsoon or North-India winter.
-- No CE or US FDA listing on record; only ISO and CDSCO — matters for hospital-channel procurement and international travel.
-- Service-network coverage is strongest in South and West India; North-East and remote geographies are an operational risk for a nightly-therapy device.
-- No mask-fit check, RERA reporting, or SpO₂ monitoring compatibility.
-
-**Best for** — newly diagnosed OSA patients in Home-Medix-served cities where the clinician does not require AirView cloud integration, cost-conscious buyers quoted ₹55,000–70,000 for an AirSense 11, buyers for whom Indian-HQ warranty and service address matter more than cloud workflow.
-
-Full review at [/cpap/home-medix-cv-20/](/cpap/home-medix-cv-20/).
-
-## How to pick between these five
-
-**Primary home CPAP vs travel second device.** The cleanest axis. Two units in the list — the Breas Z2 Auto and the ResMed AirMini — are travel-only, sub-300-gram devices with waterless humidification. Neither is suited to be a patient's primary home CPAP; both are bad primary CPAPs precisely because the feature trade-offs that enable 300 g are the same ones that degrade first-30-days adherence on a treatment-naive patient. The AirSense 10, AirSense 11, and HM-CV-20 are all home-primary CPAPs with integrated heated humidification. Travel CPAP is a second-device purchase on top of a home CPAP, not a substitute.
-
-**AirView cloud vs SD-card follow-up.** The AirSense 11 ships with native 4G cellular, upload runs nightly without patient action. The AirSense 10 base SKU has cellular as optional — confirm "With Cellular" at purchase if needed. The Z2 and AirMini route data through Bluetooth to phone apps (Nitelog and AirMini respectively); neither has built-in cellular. The HM-CV-20 has no cloud pathway at all — compliance is offline. If the clinic is on AirView and requires same-morning data visibility, only the AirSense 11 (and the optional-cellular AirSense 10) fits cleanly; the Z2 and AirMini can work with patient-phone-mediated upload, and the HM-CV-20 cannot.
-
-**Price vs algorithm maturity.** The HM-CV-20 at ₹28,000 is the cheapest by a wide margin; the AirSense 10 at ₹45,999 is the cheapest ResMed in the list; the AirSense 11 at ₹63,390 is the most expensive home unit. The ResMed AutoSet algorithm is the most clinically mature in the Indian CPAP market, with a decade of validated behaviour. The Home Medix SAF algorithm is a younger codebase but covers the functional requirements — central-apnoea detection, flow-limitation response, multi-level hypopnea grading. For a treatment-naive patient on moderate-to-severe OSA where algorithm sophistication does real work, the ResMed units earn their delta. For a clinic-titrated patient who just needs a fixed-pressure-equivalent machine with quiet blower and integrated humidifier, the HM-CV-20's ₹17,999 saving versus the AirSense 10 is real.
-
-**Sound.** The Breas Z2 Auto's 26 dB is the quietest CPAP in the list. The AirSense 10 and HM-CV-20 follow at 25–&lt;30 dB; the AirSense 11 and AirMini are 27 dB. All five are below the 30 dB threshold at which fan noise becomes an adherence problem, but 26 dB in a silent hotel room matters more than 30 dB in an Indian bedroom with a ceiling fan.
-
-**Mask ecosystem flexibility.** The AirMini is the outlier — proprietary short-tube with integrated vent, only four specific "for AirMini" mask variants. Every other CPAP in the list accepts standard 22 mm hose and any mask in the nasal, nasal-pillow, or full-face categories. Patients with established mask preferences from a prior CPAP should factor this.
-
-## Who should look elsewhere
-
-Patients whose sleep study shows a meaningful central apnoea component (CAI >5/hour), Cheyne-Stokes respiration, or treatment-emergent CSA should not be on any CPAP in this list — the indication is BiPAP ST or ASV, not CPAP. See [our BiPAP top 5](/top-5/bipap-machines/) instead.
-
-Patients with obesity hypoventilation syndrome (BMI >45 or documented nocturnal hypoventilation), advanced neuromuscular disease with diaphragmatic weakness, or chronic hypercapnic COPD are not served by any CPAP — they need volume-assured BiPAP (iVAPS, AVAPS, TVAPS). See [our BiPAP top 5](/top-5/bipap-machines/).
-
-Patients travelling regularly above 2,500 m without explicit altitude compensation on the machine spec sheet should not rely on the AirMini (no altitude compensation published) or the HM-CV-20 (altitude compensation field blank). The AirSense 10, AirSense 11, and Breas Z2 Auto all publish altitude compensation as Yes.
-
-Buyers in tier-3 Indian cities or rural districts where no authorised ResMed, Breas, or Home Medix service partner sits within a 72-hour radius should factor a backup cylinder or a clause for a loaner unit into the purchase agreement. A dead CPAP on a 30+ AHI patient is not a tomorrow-morning problem.
-
-Patients with budgets significantly below ₹28,000 — the HM-CV-20 floor — will find the Indian sub-₹20,000 market populated by Chinese-brand CPAPs where central-apnoea detection, EPR-equivalent comfort, and algorithm maturity are all variable. We do not recommend dropping below the HM-CV-20.
-
-## Verdict
-
-For narrower commercial comparisons, see the [quietest CPAP machines in India](/guides/quietest-cpap-machines-india/), [best travel CPAP machines](/guides/best-travel-cpap-machines-india/), [best Indian CPAP machines](/guides/best-indian-cpap-machines-india/), [ResMed AirSense 10 vs AirSense 11](/guides/resmed-airsense-10-vs-airsense-11-india/), and [BMC GII vs Oxymed SleepEasy](/guides/bmc-gii-vs-oxymed-sleepeasy-auto-cpap-india/). These pages re-rank the market for a specific purchase intent rather than changing the overall Top 5.
-
-For the default Indian OSA buyer — newly diagnosed moderate-to-severe AHI (>15), no meaningful central component, budget in the ₹45,000–65,000 band, clinic doing in-person follow-up or SD-card data review — the **ResMed AirSense 10 AutoSet** at ₹45,999 is the right pick. Same AutoSet algorithm as the AirSense 11, same 4–20 cmH₂O range, quieter 25 dB published sound, same HumidAir and ClimateLineAir ecosystem, ₹17,000 cheaper.
-
-If the clinic is running AirView-based remote titration and requires native cellular upload without patient intervention, the **ResMed AirSense 11 AutoSet** at ₹63,390 is the correct upgrade — buy the premium for the workflow it unlocks, not for the touchscreen.
-
-For frequent-travelling OSA patients already on a home CPAP who need a second device for flights and on-site deployments, the **Breas Z2 Auto** at ₹62,687 is the defensible travel pick where the home machine is Indian-brand or non-ResMed and mask flexibility is important. If the home machine is a ResMed AirSense, the **ResMed AirMini** at ₹49,990 is the cleaner match — integrates with the myAir data workflow and saves ~₹13,000 on purchase.
-
-For cost-conscious newly diagnosed OSA patients in Home-Medix-served cities where the clinician is fine with offline compliance data and budget caps around ₹30,000, the **Home Medix HM-CV-20** at ₹28,000 is the right call. It covers the functional bar (central-apnea detection, 4–20 cmH₂O range, &lt;30 dB, integrated heated humidifier, EPFlex) at comfortably under two-thirds the AirSense 10 price.
-
-Consult your respiratory physician before finalising any CPAP purchase against your specific PSG.
+First check the prescribed mode and the mask, data and support requirements. Then compare the complete package and recurring supplies. A lower machine price can be offset by accessories or a service arrangement that does not meet the user's needs.
 
 ---
 
@@ -1853,6 +2143,97 @@ Avoid pricing below ₹40,000 for any dual-flow claimed as 10 LPM. The spec is e
 Specifications cited are from manufacturer brochures and e-commerce product listings. HHZ has not bench-tested dual-flow units. Performance claims about purity behaviour at high combined draw are derived from manufacturer documentation and published engineering reference material, not HHZ lab measurement. Prices are indicative as of April 2026 and vary by region and channel.
 
 Last reviewed April 2026; next scheduled review October 2026.
+
+---
+
+# Portable Oxygen Concentrator Buyer's Guide (India 2026)
+
+Source: https://homehealthzone.com/oxygen-concentrators/portable/
+
+# Portable Oxygen Concentrator Buyer's Guide (India 2026)
+
+A portable oxygen concentrator (POC) concentrates oxygen from ambient air and is designed to be carried or moved. Some deliver pulses of oxygen as the user inhales; others also offer continuous flow. A battery-powered POC can support mobility, but the delivery mode and capacity must match the oxygen prescription. The [NHS explains prescribed home oxygen therapy](https://www.nhs.uk/tests-and-treatments/home-oxygen-treatment/).
+
+## Pulse dose vs continuous flow
+
+A pulse-dose machine senses inhalation and delivers a measured pulse; a continuous-flow machine delivers oxygen continuously. **A pulse setting of 2 is not the same as 2 litres per minute (LPM).** Settings and delivered amounts vary by device, so compare the actual mode and specification with the prescription rather than matching the number alone. An [FDA device summary](https://www.accessdata.fda.gov/cdrh_docs/pdf25/K252268.pdf) illustrates separate pulse settings and a continuous mode.
+
+## Two examples in the India catalogue
+
+| Model | Published delivery and weight | Indicative India price |
+| --- | --- | --- |
+| [Inogen One G5 Portable Oxygen Concentrator](/oxygen-concentrators/inogen-one-g5/) | Pulse settings 1–6; 2.6 kg. | price not verified |
+| [Philips SimplyGo Portable Oxygen Concentrator](/oxygen-concentrators/philips-simplygo/) | Pulse settings 1–6 and continuous flow 0.5–2 LPM; 4.5 kg. | price not verified |
+
+These are published catalogue figures, not HHZ measurements or a ranking. The two models illustrate the trade-off between weight and delivery modes; a lower weight alone does not establish suitability. Prices are indicative Indian retail figures and the quoted package, battery and warranty can differ.
+
+## What to check before buying
+
+1. **Delivery:** Confirm whether the prescription calls for pulse or continuous flow and whether the device supports the required mode and range. Do not convert a pulse setting into LPM yourself.
+2. **Battery:** Ask for the manufacturer's runtime at the required setting, breathing rate and battery configuration. Compare this with the time away from a power supply and allow for delays; check spare battery availability and recharge options.
+3. **Practical carry weight:** Confirm whether the published weight includes the battery and case. Check the cannula connection, alarms and controls in person where possible.
+4. **Travel and power:** Check the specific carrier's current rules for the exact device and batteries before booking. Verify the supplied charger for Indian mains and plan for power interruptions.
+5. **Service:** Obtain the seller's written warranty, service address and availability of batteries and replacement parts. The [Home Medix dealer and service network](/in/respiratory-care-experts/) identifies partners by region and describes services including setup, mask fitting, rentals, repairs and staff training. Service availability varies by partner.
+
+For a person who needs oxygen only at home, compare the capacity and running requirements of a [stationary oxygen concentrator](/oxygen-concentrators/) before paying for portability. For mobility, start with the prescribed delivery mode, then select a device with sufficient battery capacity and support for the intended journey.
+
+## Battery duration and trip planning
+
+A battery figure is meaningful only alongside its test conditions. Compare the delivery mode, setting, battery size, breathing rate and whether the battery is new. Runtime can vary with conditions and the device's battery condition; a headline “up to” number is not a promise at every setting.
+
+The SimplyGo catalogue lists three hours at pulse setting 2. The [Philips user manual](https://www.documents.philips.com/assets/20180921/7441eb0a346744ddbe88a96200bc20ca.pdf) lists runtime at 20 breaths per minute and separate figures for continuous flow. These are published figures, not HHZ measurements. Verify the current manufacturer documentation and the particular battery supplied before planning around them.
+
+G5 runtime depends on the pulse setting, breathing rate and battery configuration. Use [Inogen’s G5 manual](https://www.inogen.com/pdf/96-08649-00-01%20C%20G5%20User%20Manual-web.pdf) and current battery documentation to compare the configuration supplied. Ask the seller to identify whether the quote includes a single or larger battery and the runtime conditions used for its estimate.
+
+For a journey, add time at the station or airport, transfers and possible delays to the expected period away from power. Check charging time and whether the supplied charger works from the power source available. Keep spare batteries charged and protected as directed by the manufacturer. A plan for interruptions matters even for short outings.
+
+## Flying and other travel from India
+
+Airline acceptance is specific to the carrier, route, device, batteries and planned use. Ask the carrier about advance notification, required documentation, the device label, cabin stowage, battery capacity and spare-battery limits before travel. Do not assume that a listing's “FAA approved” wording proves acceptance by every airline or on every flight.
+
+For flights governed by US rules, the [FAA explains its POC acceptance criteria](https://www.faa.gov/about/initiatives/cabin_safety/portable_oxygen) and notes that the former individual approval process was replaced by criteria and labelling. Its [battery guidance for POCs](https://www.faa.gov/hazmat/packsafe/pocs) says to carry sufficient spare batteries for the flight and protect them against damage and short circuit. This US guidance is a reference, not a statement of Indian carrier policy.
+
+For rail or road journeys, check the operator's current requirements for the device and power access. A berth or vehicle socket should not be assumed to supply continuous or suitable charging. Carry the device and power equipment in a way that keeps vents clear and allows the user to monitor alarms; follow the model's instructions.
+
+## Weight, mode and everyday use
+
+A shoulder-carried pulse-only unit and a heavier unit with continuous flow solve different problems. The G5 and SimplyGo comparison above is useful precisely because the latter lists both delivery modes but weighs more. Choose by the required delivery mode first, then assess how much weight the user or companion can carry along with the case and spare battery.
+
+Try a normal route in the intended configuration: from the house to a vehicle, through a doorway, and over any stairs. Check the length and routing of the cannula, the readability of controls, and how a low-battery or fault alarm is conveyed. A wheeled cart may reduce carrying effort but also adds bulk to a journey.
+
+A stationary concentrator can be appropriate for home use where mobility and battery operation are not priorities. A portable unit may be used alongside a home device when the user's plan calls for it, but owning two devices is not automatically necessary. Compare modes, capacity, power needs, service and the full cost of the intended arrangement.
+
+## Costs and after-sales support in India
+
+Request an itemised quote stating the device model, battery configuration, power supply, bag or cart, cannula, warranty and any delivery or setup charges. Compare availability and prices for genuine replacement batteries, filters and other model-specific parts. A cheap device quote may exclude equipment needed to use or transport it.
+
+Ask where the unit would be assessed and repaired, what the warranty covers, and whether a temporary replacement is available during service. Retain the serial number and proof of purchase. For Home Medix products, the [Home Medix dealer and service network](/in/respiratory-care-experts/) identifies partners by region and describes their services; it is not a statement that those partners service every brand shown here.
+
+## Frequently asked questions
+
+### Is a pulse setting equal to litres per minute?
+
+No. A pulse setting identifies a device-specific delivery setting; continuous flow is expressed in LPM. Match the prescribed delivery mode and settings with the exact device rather than treating the numbers as equivalent.
+
+### Does every portable concentrator offer continuous flow?
+
+No. Some are pulse-only, while others include both modes. In the catalogue examples above, the G5 lists pulse settings and the SimplyGo lists both pulse and continuous flow.
+
+### How many batteries are needed for a trip?
+
+That depends on the device, battery size, operating conditions and time away from charging. Use the manufacturer's runtime information for the intended mode and setting, add a margin for delays, and check the carrier's current requirements for travel.
+
+### Can a POC replace a stationary concentrator?
+
+Some portable models may meet a user's needs, but portability alone does not establish that. Compare the required delivery mode and capacity, intended hours of use, battery and power arrangements, and the clinician's oxygen plan.
+
+### Can I take any POC on a flight?
+
+Do not assume so. Confirm the exact model, label, intended use and battery arrangements with each airline on the itinerary. Rules and operator procedures differ, and US FAA guidance does not automatically establish acceptance on an Indian carrier.
+
+### Is the displayed price the total cost?
+
+Not necessarily. The catalogue price is indicative. A battery upgrade, spare battery, case, delivery, supplies and service may change the final quote. Ask the seller to list the complete package and warranty in writing.
 
 ---
 

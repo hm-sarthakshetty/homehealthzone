@@ -34,6 +34,17 @@ test('wire data never exposes a discontinued product price', () => {
   assert.equal(parsed.discontinued, true);
   assert.equal(parsed.slug, 'old');
 });
+test('service partner and manufacturer results remain distinct from device reviews', async () => {
+  const index = await loadSearchIndex('/partner-types.json', async () => ({ ok: true, json: async () => [
+    { m: 'in', t: 'p', n: 'Mother Med', b: 'Home Medix', h: '/in/respiratory-care-experts/kerala/mothermed/', k: 'Mothermed Kottayam mask fitting rentals' },
+    { m: 'in', t: 'm', n: 'Home Medix manufacturer', h: '/manufacturers/home-medix/', k: 'India respiratory devices' },
+    { m: 'in', t: 'd', n: 'Home Medix CPAP', h: '/cpap/home-medix-cv-20/' },
+  ] }));
+  assert.equal(rankSearch(index, 'mothermed', { resultType: 'partner' })[0].name, 'Mother Med');
+  assert.equal(rankSearch(index, 'Home Medix', { resultType: 'manufacturer' }).length, 1);
+  assert.equal(rankSearch(index, 'Home Medix', { resultType: 'device' }).length, 1);
+  await assert.rejects(loadSearchIndex('/invalid-partner-type.json', async () => ({ ok: true, json: async () => [{ m: 'in', t: '__proto__', n: 'Invalid', h: '/example/' }] })));
+});
 test('index load shares successful requests and permits retry after HTTP or data failure', async () => {
   let calls = 0;
   const fetcher = async () => { calls++; return { ok: calls > 1, json: async () => [{ m: 'in', t: 'c', n: 'Oxygen', h: '/clinical/oxygen/' }] }; };

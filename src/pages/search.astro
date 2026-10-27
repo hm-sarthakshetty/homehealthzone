@@ -5,11 +5,11 @@ import { getSearchIndex } from '../lib/search-index';
 import { MARKET_LABELS, TYPE_LABELS } from '../lib/search-core.mjs';
 const index = await getSearchIndex();
 ---
-<BaseLayout noindex title="Search devices, buying guides and clinical articles" description="Search HHZ device reviews in India, buying guides across seven markets, and clinical articles.">
+<BaseLayout noindex title="Search devices, guides, service partners and manufacturers" description="Search HHZ device reviews in India, buying guides across seven markets, clinical articles, Home Medix service partners and manufacturer references.">
   <section class="search-page">
     <p class="section-kicker">HHZ Respiratory Review</p>
     <h1>Search HHZ</h1>
-    <p class="lead">Find India device reviews, buying guides for each market, and clinical articles.</p>
+    <p class="lead">Find India device reviews, country buying guides, clinical articles, service partners and manufacturer references.</p>
     <SearchBox src="/search-index.json" id="full-search" label="Search by device, brand or topic" fullResults />
     <noscript>
       <p>Enable JavaScript to search and filter, or browse all {index.length} indexed pages below.</p>

@@ -1,0 +1,18 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from './Breadcrumbs.astro';
+import '../styles/partners.css';
+interface Props {
+  title: string;
+  description: string;
+  breadcrumbs: { href?: string; label: string }[];
+}
+const { title, description, breadcrumbs } = Astro.props;
+---
+<BaseLayout title={title} description={description}>
+  <div class="partner-pages">
+    <Breadcrumbs items={breadcrumbs} />
+    <slot />
+    <p class="partner-provenance">Directory updated <time datetime="2026-10-28">28 October 2026</time>.</p>
+  </div>
+</BaseLayout>

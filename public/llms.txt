@@ -27,6 +27,29 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [HHZ Editorial author profile](https://homehealthzone.com/authors/hhz-editorial/): byline identity, scope, review language, and update standards
 - [Contact](https://homehealthzone.com/contact/)
 
+## Manufacturers and local respiratory equipment services
+
+- [Home Medix manufacturer profile](https://homehealthzone.com/manufacturers/home-medix/): Bengaluru respiratory equipment manufacturer; primary-source identity, product categories and published quality information
+- [Manufacturer reference](https://homehealthzone.com/manufacturers/): device origin and manufacturer documentation
+- [Home Medix service partner hub](https://homehealthzone.com/in/respiratory-care-experts/): ten named local equipment businesses
+- [Partner directory JSON](https://homehealthzone.com/datasets/respiratory-partners.json): names, locations, services and source links
+- [Manufacturer and partner text corpus](https://homehealthzone.com/llms/partners-manufacturers.txt)
+
+- [Tamil Nadu service partners](https://homehealthzone.com/in/respiratory-care-experts/tamil-nadu/)
+- [Andhra Pradesh and Telangana service partners](https://homehealthzone.com/in/respiratory-care-experts/andhra-pradesh-telangana/)
+- [Pune, Maharashtra service partners](https://homehealthzone.com/in/respiratory-care-experts/pune/)
+- [Kerala service partners](https://homehealthzone.com/in/respiratory-care-experts/kerala/)
+- [Arjunas Medline](https://homehealthzone.com/in/respiratory-care-experts/tamil-nadu/arjunas-medline/): Home Medix equipment services in Coimbatore
+- [MedSpok Solutions Pvt Ltd](https://homehealthzone.com/in/respiratory-care-experts/tamil-nadu/medspok-solutions/): Home Medix equipment services in Chennai
+- [Aadhya Respiratory and Laboratory Services](https://homehealthzone.com/in/respiratory-care-experts/andhra-pradesh-telangana/aadhya-respiratory/): Home Medix equipment services in Guntur
+- [Medisys Healthcare](https://homehealthzone.com/in/respiratory-care-experts/andhra-pradesh-telangana/medisys-healthcare/): Home Medix equipment services in Hyderabad
+- [Navyas Healing Hands Health Services](https://homehealthzone.com/in/respiratory-care-experts/andhra-pradesh-telangana/navyas-healing-hands/): Home Medix equipment services in Tirupati
+- [World Health Care](https://homehealthzone.com/in/respiratory-care-experts/pune/world-health-care/): Home Medix equipment services in Pune
+- [Mother Med](https://homehealthzone.com/in/respiratory-care-experts/kerala/mothermed/): Home Medix equipment services in Kottayam
+- [R&D Healthcare](https://homehealthzone.com/in/respiratory-care-experts/kerala/rd-healthcare/): Home Medix equipment services in Thiruvananthapuram
+- [SAAG Medicare Systems](https://homehealthzone.com/in/respiratory-care-experts/kerala/saag-medicare/): Home Medix equipment services in Ernakulam
+- [Sharan Sleep & Respiratory Care](https://homehealthzone.com/in/respiratory-care-experts/kerala/sharan-respiratory/): Home Medix equipment services in Kozhikode
+
 ## Category buyer hubs
 
 - [10 LPM Oxygen Concentrator Buyer's Guide (India 2026)](https://homehealthzone.com/oxygen-concentrators/10-lpm/): High-flow 10 LPM concentrator buyer's guide for India — clinical indications, dual-flow options, power/noise realities, sieve-bed endurance, and price brackets.
@@ -34,7 +57,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [Adjustable Purity Oxygen Concentrator Buyer's Guide (India 2026)](https://homehealthzone.com/oxygen-concentrators/adjustable-purity/): Adjustable-purity oxygen concentrators — what they actually do, why most patients should NOT buy them, industrial vs medical-grade differences, and the credible models.
 - [Best oxygen concentrator brands in India (2026)](https://homehealthzone.com/oxygen-concentrators/brands/): Compare the best oxygen concentrator brands in India, including premium imported brands and Indian manufacturers, by service, warranty, stock risk, and buyer fit.
 - [Dual Flow Oxygen Concentrator Buyer's Guide (India 2026)](https://homehealthzone.com/oxygen-concentrators/dual-flow/): Dual-flow oxygen concentrators in India — what the twin flowmeter actually means, two-patient math, nebuliser-plus-O₂ setups, and the three models that matter.
-- [Portable Oxygen Concentrator Buyer's Guide (India 2026)](https://homehealthzone.com/oxygen-concentrators/portable/): Battery-powered portable oxygen concentrators in India — pulse vs continuous, real run-times, FAA and airline approvals, railway rules, and how to choose.
+- [Portable Oxygen Concentrator Buyer's Guide (India 2026)](https://homehealthzone.com/oxygen-concentrators/portable/): Compare portable oxygen concentrators in India by pulse and continuous flow, battery, weight, service and price.
 - [Oxygen Concentrator Price in India (2026)](https://homehealthzone.com/oxygen-concentrators/price-india/): Oxygen concentrator prices in India for 5 LPM, 10 LPM and portable machines, with model examples, buying costs, GST and grey-market checks.
 - [Oxygen Concentrator Rental in India (2026)](https://homehealthzone.com/oxygen-concentrators/rental/): Oxygen concentrator rental rates in India: 5 LPM, 10 LPM and portable monthly costs, deposits, rent-vs-buy breakeven and fleet-condition checks.
 - [APAP (Auto CPAP) in India: Buyer's & Clinical Guide (2026)](https://homehealthzone.com/cpap/apap/): APAP vs fixed-pressure CPAP, algorithm differences, titration in India, and a model-by-model breakdown of auto CPAPs available in the Indian market in 2026.
@@ -52,7 +75,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [Best 10 LPM Oxygen Concentrators in India (2026)](https://homehealthzone.com/top-5/10-lpm-oxygen-concentrators/): HHZ editorial top 5 10 LPM high-flow oxygen concentrators for India 2026: Home Medix HM-KX, Oxymed 10 Dual Flow, Nidek Nuvo 10, DeVilbiss 10 LPM, Fitmate 10 LPM.
 - [Best 5 LPM Oxygen Concentrators in India (2026)](https://homehealthzone.com/top-5/5-lpm-oxygen-concentrators/): HHZ editorial top 5 5 LPM oxygen concentrators for India 2026: Philips EverFlo, AirSep Visionaire 5, DeVilbiss Compact 525, Nidek Nuvo Lite, Home Medix HM-KV.
 - [Best BiPAP Machines in India (2026)](https://homehealthzone.com/top-5/bipap-machines/): HHZ editorial top 5 BiPAP machines for India 2026: ResMed Lumis 150, Lumis 100, AirCurve 10 V Auto, Home Medix HM-BV-30, Philips DreamStation BiPAP AVAPS.
-- [Best CPAP Machines in India (2026)](https://homehealthzone.com/top-5/cpap-machines/): HHZ editorial top 5 CPAP machines for India 2026: ResMed AirSense 10 AutoSet, AirSense 11 AutoSet, Breas Z2 Auto, ResMed AirMini, Home Medix HM-CV-20.
+- [Best CPAP Machines in India (2026)](https://homehealthzone.com/top-5/cpap-machines/): Compare five CPAP machines in the India catalogue by home or travel use, humidification, mask compatibility, data features and indicative price.
 - [Top Indian Oxygen Concentrator Manufacturers with CDSCO Licence Numbers (2026)](https://homehealthzone.com/top-5/indian-made-oxygen-concentrators/): Indian oxygen concentrator manufacturers and their CDSCO manufacturing licence numbers, locations, brands, models, sourcing notes, and HHZ's top five product shortlist for 2026.
 - [Best Oxygen Concentrators for COPD Home Use (2026)](https://homehealthzone.com/top-5/oxygen-concentrators-for-copd/): HHZ editorial top 5 oxygen concentrators for COPD long-term home oxygen therapy in India: Oxymed Mini, Home Medix HM-KV, AirSep Visionaire 5, Nidek Nuvo Lite, DeVilbiss 5 LPM — ranked by chronic-use suitability, warranty depth, and service-network reach.
 - [Best Oxygen Concentrators for Senior Care (2026)](https://homehealthzone.com/top-5/oxygen-concentrators-for-senior-care/): HHZ editorial top 5 oxygen concentrators for elderly home care in India: Home Medix HM-KV, AirSep Visionaire 5, Oxymed Mini, Nidek Nuvo Lite, Philips Respironics SimplyGo — ranked for caregiver accessibility, alarm coverage, quiet operation, and senior-friendly controls.

@@ -60,6 +60,10 @@ def extract_astro_text(astro_src: str) -> str:
     astro_src = re.sub(r"<style[^>]*>.*?</style>", "", astro_src, flags=re.DOTALL)
     # Remove <script>...</script>
     astro_src = re.sub(r"<script[^>]*>.*?</script>", "", astro_src, flags=re.DOTALL)
+    # Keep literal source links usable in the reference corpus.
+    astro_src = re.sub(r'<a\s+[^>]*href="([^"]+)"[^>]*>([\s\S]*?)</a>',
+        lambda m: '[' + re.sub(r'<[^>]+>', '', m.group(2)).strip() + ']('
+        + (SITE_URL + m.group(1) if m.group(1).startswith('/') else m.group(1)) + ')', astro_src)
     # Keep H1/H2/H3/H4 as markdown headings
     astro_src = re.sub(
         r"<h([1-6])[^>]*>([\s\S]*?)</h\1>",
@@ -68,6 +72,9 @@ def extract_astro_text(astro_src: str) -> str:
     )
     # <li> -> "- "
     astro_src = re.sub(r"<li[^>]*>([\s\S]*?)</li>", r"- \1\n", astro_src)
+    # Preserve boundaries between evidence-table labels and their source text.
+    astro_src = re.sub(r'</(?:th|td)>', ' | ', astro_src)
+    astro_src = re.sub(r'</tr>', '\n', astro_src)
     # <p> -> paragraph
     astro_src = re.sub(r"<p[^>]*>([\s\S]*?)</p>", r"\1\n\n", astro_src)
     # Strip any remaining tags
@@ -520,6 +527,62 @@ Before paying, ask for serial-number age, invoice date, warranty confirmation, a
     return sections
 
 
+PARTNER_REGIONS = {
+    'tamil-nadu': 'Tamil Nadu',
+    'andhra-pradesh-telangana': 'Andhra Pradesh and Telangana',
+    'pune': 'Pune, Maharashtra',
+    'kerala': 'Kerala',
+}
+PARTNER_SERVICES = {
+    'home-setup': 'home setup and equipment handover',
+    'mask-fitting': 'mask fitting for compatible prescribed equipment',
+    'rentals': 'equipment rentals',
+    'repairs': 'equipment repairs and service support',
+    'staff-training': 'staff training on equipment operation',
+}
+
+
+def respiratory_partners() -> list[dict]:
+    return json.loads((SITE / 'src/data/respiratory-partners.json').read_text(encoding='utf-8'))
+
+
+def partner_url(partner: dict) -> str:
+    return f"{SITE_URL}/in/respiratory-care-experts/{partner['region']}/{partner['slug']}/"
+
+
+def partner_reference_sections() -> list[str]:
+    partners = respiratory_partners()
+    provenance = ('Home Medix supplied the dealer relationships and service categories. '
+                  'Public business links are provided as sources with check dates. '
+                  'Services are for Home Medix equipment and local availability is by arrangement.')
+    sections = [section(f'{SITE_URL}/in/respiratory-care-experts/',
+        'Home Medix respiratory care experts and service partners in India',
+        provenance + '\n\n' + '\n'.join(f"- [{p['name']}]({partner_url(p)}): {p['city'] or PARTNER_REGIONS[p['region']]}" for p in partners))]
+    for region, label in PARTNER_REGIONS.items():
+        local = [p for p in partners if p['region'] == region]
+        names = ', '.join(p['name'] for p in local)
+        sections.append(section(f'{SITE_URL}/in/respiratory-care-experts/{region}/',
+            f'Home Medix equipment service partners in {label}',
+            f'{names} are the listed Home Medix dealer and service partners in {label}. '
+            'They support Home Medix oxygen concentrator, CPAP and BPAP home setup, mask fitting, rentals, repairs and staff training by arrangement.\n\n'
+            + provenance + '\n\n' + '\n'.join(f"- [{p['name']}]({partner_url(p)}): {p['city'] or label}" for p in local)))
+    for partner in partners:
+        body = (f"{partner['name']} is a Home Medix dealer and equipment service partner in "
+                f"{partner['city'] or PARTNER_REGIONS[partner['region']]}, {partner['state']}, India.\n\n"
+                + '\n'.join(f'- Home Medix {PARTNER_SERVICES[key]}.' for key in partner['services'])
+                + '\n\n' + provenance)
+        if partner.get('address'):
+            body += f"\n\nPublished business address: {partner['address']}"
+        if partner.get('website'):
+            body += f"\n\nBusiness website: {partner['website']}"
+        if partner.get('telephone'):
+            body += f"\n\nPublic business telephone: {partner['telephone']}"
+        body += '\n\nPublic sources:\n' + '\n'.join(f"- [{source['label']}]({source['url']}) — checked {source['checkedAt']}" for source in partner['sources'])
+        body += f'\n\nManufacturer reference: {SITE_URL}/manufacturers/home-medix/'
+        sections.append(section(partner_url(partner), partner['name'], body))
+    return sections
+
+
 def generate_llms_index() -> str:
     products_dir = SITE / "src/content/products"
     cpap_bipap_dir = SITE / "src/content/cpap-bipap"
@@ -590,9 +653,19 @@ def generate_llms_index() -> str:
         f"- [HHZ Editorial author profile]({SITE_URL}/authors/hhz-editorial/): byline identity, scope, review language, and update standards",
         f"- [Contact]({SITE_URL}/contact/)",
         "",
-        "## Category buyer hubs",
-        "",
     ]
+
+    lines += ['## Manufacturers and local respiratory equipment services', '',
+        f'- [Home Medix manufacturer profile]({SITE_URL}/manufacturers/home-medix/): Bengaluru respiratory equipment manufacturer; primary-source identity, product categories and published quality information',
+        f'- [Manufacturer reference]({SITE_URL}/manufacturers/): device origin and manufacturer documentation',
+        f'- [Home Medix service partner hub]({SITE_URL}/in/respiratory-care-experts/): ten named local equipment businesses',
+        f'- [Partner directory JSON]({SITE_URL}/datasets/respiratory-partners.json): names, locations, services and source links',
+        f'- [Manufacturer and partner text corpus]({SITE_URL}/llms/partners-manufacturers.txt)', '']
+    for region, label in PARTNER_REGIONS.items():
+        lines.append(f'- [{label} service partners]({SITE_URL}/in/respiratory-care-experts/{region}/)')
+    for partner in respiratory_partners():
+        lines.append(f"- [{partner['name']}]({partner_url(partner)}): Home Medix equipment services in {partner['city'] or PARTNER_REGIONS[partner['region']]}")
+    lines += ['', '## Category buyer hubs', '']
 
     for entry in page_hub_entries:
         suffix = f": {entry['description']}" if entry["description"] else ""
@@ -703,6 +776,15 @@ def main() -> int:
         if s:
             parts.append(s)
 
+    partner_sections = partner_reference_sections()
+    for slug, title in [('manufacturers', 'Respiratory device manufacturers in India'),
+                        ('manufacturers/home-medix', 'Home Medix: respiratory medical device manufacturer in India')]:
+        path = pages_dir / (f'{slug}/index.astro' if slug == 'manufacturers' else f'{slug}.astro')
+        item = read_policy_page(path, slug, title)
+        if item:
+            partner_sections.append(item)
+    parts += partner_sections
+
     # Top-5 category rankings (pillar pages under src/pages/top-5/)
     parts += read_mdx_sections(SITE / "src/pages/top-5", "/top-5/")
 
@@ -763,6 +845,10 @@ def main() -> int:
     OUT_INDEX.write_text(clean_output(generate_llms_index()), encoding="utf-8")
 
     OUT_TOPICS.mkdir(parents=True, exist_ok=True)
+    (OUT_TOPICS / 'partners-manufacturers.txt').write_text(
+        clean_output('# Home Medix manufacturer and local equipment service partners\n\n'
+                     'Business identities, services, source links and canonical HHZ reference pages.\n\n---\n\n'
+                     + ''.join(partner_sections)), encoding='utf-8')
     topic_specs = {
         "oxygen-concentrators.txt": (
             "HHZ oxygen concentrator corpus",

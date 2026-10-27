@@ -69,7 +69,13 @@ assert ORIGIN + "/site-map/" in urls
 assert ORIGIN + "/search/" not in urls
 assert all(ORIGIN + item["h"] in urls for item in index)
 
-routes = ["/", "/in/", "/us/", "/uk/", "/sg/", "/au/", "/ca/", "/nz/", "/site-map/", "/search/"]
+partners = json.loads((ROOT / 'src/data/respiratory-partners.json').read_text())
+assert len(partners) == 10, 'Expected the ten confirmed Home Medix partners'
+assert len({partner['slug'] for partner in partners}) == len(partners), 'Duplicate partner identity'
+partner_routes = [f"/in/respiratory-care-experts/{partner['region']}/{partner['slug']}/" for partner in partners]
+region_routes = [f'/in/respiratory-care-experts/{region}/' for region in dict.fromkeys(partner['region'] for partner in partners)]
+routes = ["/", "/in/", "/us/", "/uk/", "/sg/", "/au/", "/ca/", "/nz/", "/site-map/", "/search/", '/cpap/', '/top-5/cpap-machines/', '/oxygen-concentrators/portable/',
+          '/in/respiratory-care-experts/', '/manufacturers/', '/manufacturers/home-medix/', *region_routes, *partner_routes]
 for route in routes:
     page = Page(page_path(route))
     assert page.h1_count == 1, f"Expected one h1: {route}"
@@ -84,11 +90,26 @@ for route in routes:
         if target.scheme and target.scheme not in ("http", "https"):
             continue
         target_path = target.path or route
+        if target_path.endswith(('.json', '.txt', '.xml')):
+            assert (DIST / target_path.lstrip('/')).exists(), f"Broken reference: {route} -> {href}"
+            continue
         assert page_path(target_path).exists(), f"Broken link: {route} -> {href}"
         if target.fragment:
             assert unquote(target.fragment) in Page(page_path(target_path)).ids, f"Broken anchor: {route} -> {href}"
     if route == "/search/":
         assert "noindex" in page.robots
+
+partner_feed = json.loads((DIST / 'datasets/respiratory-partners.json').read_text())
+assert partner_feed['record_count'] == 10
+assert {row['canonical_url'] for row in partner_feed['records']} == {ORIGIN + route for route in partner_routes}
+assert all('identityConfidence' not in row for row in partner_feed['records']), 'Private research status leaked'
+for row in partner_feed['records']:
+    assert len(row['services']) == 5 and all(service['brand'] == 'Home Medix' for service in row['services'])
+for partner, route in zip(partners, partner_routes):
+    assert partner['name'] in page_path(route).read_text(), f"Missing partner: {partner['name']}"
+    assert ORIGIN + route in urls, f'Partner missing from sitemap: {route}'
+corpus = (DIST / 'llms/partners-manufacturers.txt').read_text()
+assert all(partner['name'] in corpus for partner in partners), 'Partner missing from text reference'
 
 updates = json.loads((ROOT / "src/data/page-updates.json").read_text())
 dates = {entry.findtext("s:loc", namespaces=ns): entry.findtext("s:lastmod", namespaces=ns)
