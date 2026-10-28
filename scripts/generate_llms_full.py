@@ -141,7 +141,10 @@ def _price_text(attrs: str) -> str:
 def strip_mdx_components(body: str) -> str:
     """Drop MDX import lines and resolve inline <Price /> tags."""
     body = re.sub(r"^import .*?;?\s*$\n?", "", body, flags=re.M)
-    return PRICE_TAG.sub(lambda m: _price_text(m.group(1)), body)
+    body = PRICE_TAG.sub(lambda m: _price_text(m.group(1)), body)
+    body = re.sub(r"<SchemaArticle\b[^>]*/>", "", body)
+    body = re.sub(r"</?(?:div|p|time)\b[^>]*>", "", body)
+    return body
 
 
 def section(url: str, title: str, body: str) -> str:

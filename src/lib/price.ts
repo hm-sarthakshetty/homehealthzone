@@ -32,6 +32,10 @@ export interface PriceEntry {
   mrp?: number;
   source_url?: string;
   checked_at?: string;
+  basis?: 'manufacturer-published' | 'dealer-quotation';
+  tax_note?: string;
+  amount_before_tax?: number;
+  configuration?: string;
 }
 
 /** Minimal shape shared by `products` and `cpap-bipap` entries. */
@@ -53,6 +57,10 @@ export interface ResolvedPrice {
   rawMrp: string | null;
   source_url?: string;
   checked_at?: string;
+  basis?: PriceEntry['basis'];
+  tax_note?: string;
+  amount_before_tax?: number;
+  configuration?: string;
 }
 
 const clean = (v: string | null | undefined): string | null => {
@@ -85,6 +93,10 @@ export function resolvePrice(data: PricedProduct, country: Country = 'IN'): Reso
       rawMrp,
       source_url: entry?.source_url,
       checked_at: entry?.checked_at,
+      basis: entry?.basis,
+      tax_note: entry?.tax_note,
+      amount_before_tax: entry?.amount_before_tax,
+      configuration: entry?.configuration,
     };
   }
   const currency = entry?.currency ?? COUNTRY_CURRENCY[country];
@@ -98,6 +110,10 @@ export function resolvePrice(data: PricedProduct, country: Country = 'IN'): Reso
     rawMrp: null,
     source_url: entry?.source_url,
     checked_at: entry?.checked_at,
+    basis: entry?.basis,
+    tax_note: entry?.tax_note,
+    amount_before_tax: entry?.amount_before_tax,
+    configuration: entry?.configuration,
   };
 }
 

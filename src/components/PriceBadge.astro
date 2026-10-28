@@ -37,8 +37,16 @@ const mrpText = formatPrice(resolved, 'mrp', 'badge');
     <span class="price-badge__current" aria-label="Price on request">Price on request</span>
   </p>
 )}
+{currentText && resolved.basis && (
+  <small class="price-badge__basis">
+    {resolved.basis === 'manufacturer-published' ? 'Manufacturer-published price' : 'Dealer quotation'}
+    {resolved.tax_note && <> · {resolved.tax_note}</>}
+    {resolved.checked_at && <> · checked <time datetime={resolved.checked_at}>{resolved.checked_at}</time></>}
+  </small>
+)}
 
 <style>
+  .price-badge__basis { display: block; font-size: var(--text-xs); color: var(--color-text-muted); }
   .price-badge__discontinued {
     font-family: var(--font-sans);
     font-size: var(--text-sm);

@@ -79,6 +79,7 @@ function formatDate(iso?: string): string | null {
 const formattedLastReviewed = formatDate(frontmatter.lastReviewed);
 const formattedNextReview = formatDate(frontmatter.nextReview);
 const formattedPublished = formatDate(frontmatter.datePublished);
+const formattedModified = formatDate(frontmatter.dateModified);
 
 // Compute reading time from the raw body (glob-loader exposes this on the entry).
 const rawBody: string = (entry as any).body ?? '';
@@ -160,8 +161,11 @@ const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
         )}
         {frontmatter.lastReviewed && formattedLastReviewed && (
           <span>
-            <time datetime={frontmatter.lastReviewed}>Reviewed {formattedLastReviewed}</time>
+            <time datetime={frontmatter.lastReviewed}>{frontmatter.reviewedBy ? 'Clinical review' : 'Previous review'} {formattedLastReviewed}</time>
           </span>
+        )}
+        {frontmatter.dateModified && formattedModified && (
+          <span><time datetime={frontmatter.dateModified}>Editorial update {formattedModified}</time></span>
         )}
         {readingMinutes > 0 && <span>{readingMinutes} min read</span>}
         <span>

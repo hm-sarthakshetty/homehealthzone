@@ -2,6 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import { currencyForCountry } from '../lib/price';
 import SchemaFAQ from '../components/SchemaFAQ.astro';
+import SchemaArticle from '../components/SchemaArticle.astro';
 
 interface RankingItem {
   rank: number;
@@ -90,8 +91,10 @@ const niceDate = (iso?: string) => {
 };
 const updated = niceDate(lastReviewed);
 const checked = niceDate(priceChecked);
+const modified = fm.dateModified ? new Date(fm.dateModified).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' }) : undefined;
 ---
 <BaseLayout title={title} description={description}>
+  <SchemaArticle title={h1} description={description} dateModified={fm.dateModified} lastReviewed={lastReviewed} datePublished={fm.datePublished} author={fm.author ?? 'HHZ Editorial'} />
   {itemListLd && (
     <script type="application/ld+json" set:html={JSON.stringify(itemListLd)} />
   )}
@@ -99,6 +102,7 @@ const checked = niceDate(priceChecked);
 
   <article class="top5">
     <h1>{h1}</h1>
+    {modified && <p class="top5__updated"><time datetime={fm.dateModified}>Editorial update {modified}</time></p>}
     {(updated || checked) && (
       <p class="top5__updated">
         {updated && <>Last reviewed {updated}</>}

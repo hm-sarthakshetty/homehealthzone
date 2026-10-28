@@ -1,6 +1,6 @@
 {
   "slug": "philips-everflo-5-lpm",
-  "source_url": "",
+  "source_url": "https://www.documents.philips.com/doclib/enc/9801469/EverFlo_brochure.pdf",
   "product_name": "Philips Everflo 5 Liter Oxygen Concentrator",
   "brand": "Philips Respironics",
   "brand_href": "",
@@ -8,9 +8,9 @@
   "price_current": "",
   "price_mrp": "",
   "price_symbol": "₹",
-  "rating_value": "4.9 (128)",
-  "rating_count": "128",
-  "stock": "DISCONTINUED WORLDWIDE",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Confirm availability and exact configuration with seller",
   "images": [
     {
       "src": "/images/products/philips-everflo-5-liter-oxygen-concentrator-9e87dad055.jpg",
@@ -39,24 +39,25 @@
     }
   ],
   "key_features": {
-    "Purity": "90-96%",
+    "Purity": "93% ±3% at 5 L/min",
     "Type": "Home Stationary",
-    "Continuous Flow": "1-5LPM",
+    "Continuous Flow": "0.5–5 L/min",
     "Weight": "14kg",
-    "Oxygen Purity Indicator (OPI)": "Yes",
-    "Power consumption": "350watts"
+    "Oxygen Purity Indicator (OPI)": "Optional; separate OPI and non-OPI versions",
+    "Power consumption": "350watts",
+    "Sound level": "45 dBA typical"
   },
   "spec_tables": {
     "Technical details": {
-      "Purity": "90-96%",
+      "Purity": "93% ±3% at 5 L/min",
       "Type": "Home Stationary",
-      "Continuous Flow": "1-5LPM",
-      "Weight": "14kg",
-      "Oxygen Purity Indicator (OPI)": "Yes",
-      "Power consumption": "350watts",
-      "Sound level": "45db",
+      "Continuous Flow": "0.5–5 L/min",
+      "Weight": "14 kg",
+      "Oxygen Purity Indicator (OPI)": "Optional; separate OPI and non-OPI versions",
+      "Power consumption": "350 W",
+      "Sound level": "45 dBA typical",
       "Dimensions": "23H x 15W x 9.5Dinch",
-      "Operating altitude": "7500feet",
+      "Operating altitude": "Not established by the checked brochure; confirm applicable manual/unit",
       "Outlet pressure": "5.5psi"
     },
     "Additional details": {
@@ -64,7 +65,7 @@
       "Loss of Power Alarm": "Yes",
       "System Malfunction Alarm": "Yes",
       "No Flow Alarm": "Yes",
-      "Indian Voltage Model": "Yes",
+      "Indian Voltage Model": "Confirm exact offered unit/nameplate",
       "Company Headquarters": "USA",
       "US FDA Approved": "Yes",
       "FAA Approved": "",
@@ -72,20 +73,28 @@
     }
   },
   "faqs": [],
-  "description_text": "Philips Respironics Everflo 5 LPM Oxygen Concentrator\n\nPhilips Respironics Everflo is the most popular home oxygen concentrator that provides a continuous flow of 0.5-5 LPM with oxygen purity of 93% (+/- 3%) at all flow rates.\n\nLightweight and Easy to Transport: Everflo weighs just 14 kgs and comes with a compact design that can be easily carried or driven using its wheels and top handle.\n\nSound Level: The machine emits sound at 40 dB, the lowest among all the concentrators.\n\nLowest Power Consumption: Everflo consumes just 350 watts of power making it energy-efficient and budget-friendly in the long run.\n\nOperating Altitude: The operating altitude of Philips Respironics Everflo is 7500 ft or 2286 m which allows it to be used for patients who live at a higher altitude\n\nOxygen Purity Indicator: To prevent any unforeseen situation, the machine comes with an Oxygen Purity Indicator or OPI that lights up if the oxygen purity level of the machine reaches below 82%.\n\nWarranty: Philips Respironics Everflo comes with a 3 years warranty in India. \n\nApprovals and Certifications: FDA-approved and CE certified\n\nWhat's in the box?\n\n\n\tPhillips Everflo 5 LPM Oxygen Concentrator \n\tNasal Cannula (Optional)\n\tHumidifier Bottle (Optional)\n\tPower Cable\n\tUser Manual",
+  "description_text": "The Philips EverFlo manufacturer brochure lists continuous flow 0.5–5 L/min, oxygen concentration 93% ±3% at 5 L/min, weight 14 kg, sound 45 dBA typical, and power 350 W. OPI and non-OPI versions are listed separately; confirm the exact SKU. Philips’ portfolio update lists a product end-of-service date of 25 January 2029; this does not establish current Indian stock, warranty, or local service. Confirm the offered serial number, seller, price, package, warranty, and support before purchase. Sources: https://www.documents.philips.com/doclib/enc/9801469/EverFlo_brochure.pdf ; https://www.usa.philips.com/sleep-respiratory-care/news/business-updates/src-portfolio-update.",
   "related_links": [],
   "normalized_specs": {
     "weight_kg": 14.0,
-    "flow_min_lpm": 1.0,
+    "flow_min_lpm": 0.5,
     "flow_max_lpm": 5.0,
-    "purity_min": 90.0,
-    "purity_max": 96.0,
     "noise_db": 45.0,
-    "power_w": 350,
-    "has_opi": true,
-    "faa_approved": false,
-    "ce_certified": true,
-    "indian_voltage": true,
-    "altitude_ft": 7500
-  }
+    "power_w": 350
+  },
+  "dateModified": "2026-10-28",
+  "evidence": [
+    {
+      "label": "Philips Respironics EverFlo product brochure",
+      "url": "https://www.documents.philips.com/doclib/enc/9801469/EverFlo_brochure.pdf",
+      "checked_at": "2026-10-28",
+      "note": "0.5–5 LPM; 93% ±3% at 5 LPM; 14 kg; 45 dBA typical; 350 W; separate OPI/non-OPI SKUs."
+    },
+    {
+      "label": "Philips portfolio update",
+      "url": "https://www.usa.philips.com/sleep-respiratory-care/news/business-updates/src-portfolio-update",
+      "checked_at": "2026-10-28",
+      "note": "Lists EverFlo end-of-service date 25 January 2029; does not establish India stock/service."
+    }
+  ]
 }

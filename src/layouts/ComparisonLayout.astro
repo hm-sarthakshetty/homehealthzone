@@ -2,9 +2,7 @@
 import type { CollectionEntry } from 'astro:content';
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import PriceBadge from '../components/PriceBadge.astro';
-import PriceDisclaimer from '../components/PriceDisclaimer.astro';
-import { formatPrice, resolvePrice } from '../lib/price';
+import { formatMoney, resolvePrice } from '../lib/price';
 import ComparisonTable from '../components/ComparisonTable.astro';
 import ProductImage from '../components/ProductImage.astro';
 import { getCollection, getEntry } from 'astro:content';
@@ -66,6 +64,37 @@ const defaultHref = (
 const hrefA = productAHref ?? defaultHref(productA, productACollection);
 const hrefB = productBHref ?? defaultHref(productB, productBCollection);
 
+function comparisonPrice(product: ProductEntry['data'], stock?: string | null) {
+  if ((stock ?? '').toLowerCase().includes('discontinued')) {
+    return { current: null, detail: null, discontinued: true };
+  }
+
+  const price = resolvePrice(product, 'IN');
+  // Comparison pages only show prices with a date-backed canonical product record.
+  // Legacy price_current / price_mrp fields can contain historical catalogue values.
+  if (price.amount === null || !price.checked_at) {
+    return { current: null, detail: 'Request a current dated quote, including GST and the supplied configuration.', discontinued: false };
+  }
+
+  const checkedDate = new Date(`${price.checked_at}T00:00:00Z`).toLocaleDateString('en-GB', {
+    day: 'numeric', month: 'short', year: 'numeric', timeZone: 'UTC',
+  });
+  const basis = price.basis === 'manufacturer-published'
+    ? 'Manufacturer-published price'
+    : price.basis === 'dealer-quotation'
+      ? 'Dealer quotation'
+      : 'Price record';
+
+  return {
+    current: formatMoney(price.amount, price.currency ?? 'INR', 'IN'),
+    detail: [basis, price.tax_note, `checked ${checkedDate}`].filter(Boolean).join(' · '),
+    discontinued: false,
+  };
+}
+
+const priceA = comparisonPrice(productA, productA.stock);
+const priceB = comparisonPrice(productB, productB.stock);
+
 const compareTitle = `${productA.product_name} vs ${productB.product_name}`;
 const title = titleProp ?? compareTitle;
 
@@ -119,6 +148,9 @@ const homeMedixReview = showHomeMedixAlternative
   ? await getEntry('product-reviews', homeMedixSlug)
   : undefined;
 const homeMedixImage = homeMedixEntry?.data.images?.[0] ?? null;
+const homeMedixPrice = homeMedixEntry
+  ? comparisonPrice(homeMedixEntry.data, homeMedixEntry.data.stock)
+  : null;
 const homeMedixOpponentComparison = showHomeMedixAlternative
   ? allComparisons.find((entry) => {
       const slugs = [entry.data.productA_slug, entry.data.productB_slug];
@@ -219,11 +251,16 @@ const topFive = topFivePillar(productA.category);
             </>
           )}
         </dl>
-        <PriceBadge
-          product={productA}
-          stock={productA.stock}
-        />
-        <PriceDisclaimer />
+        {priceA.discontinued ? (
+          <p class="price-badge"><span class="price-badge__discontinued">Discontinued</span></p>
+        ) : priceA.current ? (
+          <>
+            <p class="price-badge"><span class="price-badge__current">{priceA.current}</span></p>
+            <small class="price-badge__basis">{priceA.detail}</small>
+          </>
+        ) : (
+          <p class="price-badge"><span class="price-badge__current">Dated quote required</span></p>
+        )}
         {typeof productAScore === 'number' && (
           <p class="compare__score" aria-label="HHZ score">
             <span class="compare__score-label">HHZ SCORE</span>
@@ -261,11 +298,16 @@ const topFive = topFivePillar(productA.category);
             </>
           )}
         </dl>
-        <PriceBadge
-          product={productB}
-          stock={productB.stock}
-        />
-        <PriceDisclaimer />
+        {priceB.discontinued ? (
+          <p class="price-badge"><span class="price-badge__discontinued">Discontinued</span></p>
+        ) : priceB.current ? (
+          <>
+            <p class="price-badge"><span class="price-badge__current">{priceB.current}</span></p>
+            <small class="price-badge__basis">{priceB.detail}</small>
+          </>
+        ) : (
+          <p class="price-badge"><span class="price-badge__current">Dated quote required</span></p>
+        )}
         {typeof productBScore === 'number' && (
           <p class="compare__score" aria-label="HHZ score">
             <span class="compare__score-label">HHZ SCORE</span>
@@ -293,30 +335,28 @@ const topFive = topFivePillar(productA.category);
             This matchup covers {everFloOpponent.product_name} and Philips EverFlo, but the
             {' '}<a href="/oxygen-concentrators/home-medix-5-lpm/">Home Medix HM-KV 5 LPM</a>
             {' '}belongs on the same India shortlist. It is a current 5 LPM alternative with a
-            13 kg chassis, published sound at or below 40 dB, 320 VA draw, live oxygen-purity
-            readout, and a 3-year / 10,000-hour warranty.
+            13 kg weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), 320 W rated
+            power, oxygen-purity monitoring, and a 3-year or 10,000-operating-hour warranty, whichever comes first.
           </p>
           {isOxymedMiniMatchup ? (
             <p>
-              Against the Oxymed Mini, HM-KV is the specification-led alternative for buyers who
-              prioritise lower published sound, lower power draw, lighter weight, and a live purity
-              display. Oxymed can remain the better service-first choice where its authorised local
-              network is stronger. Confirm the actual service route for the patient's pincode before
-              choosing either machine.
+              Against the Oxymed Mini, compare the two manufacturers' published sound, power and
+              weight figures alongside the purity-monitoring provision, then confirm the service route for
+              the patient's pincode. Actual sound and energy use have not been compared by HHZ.
             </p>
           ) : (
             <p>
-              HM-KV is strongest where Home Medix can prove authorised local service and the buyer
-              values low published noise, lighter handling, purity monitoring, and an India-based
-              warranty route. It should not be chosen on specifications alone: confirm pincode-level
-              service, major-spare availability, and warranty handling before payment.
+              HM-KV may suit buyers who value its published specifications, purity monitoring, and
+              India-based warranty route when authorised local service is confirmed. Confirm
+              pincode-level service, major-spare availability, and warranty handling before payment.
             </p>
           )}
 
           <dl class="compare__third-option-facts">
             <div>
-              <dt>Indicative price</dt>
-              <dd>{formatPrice(resolvePrice(homeMedixEntry.data), 'current', 'raw')}</dd>
+              <dt>Manufacturer-published price</dt>
+              <dd>{homeMedixPrice?.current ?? 'Request a current dated quote'}</dd>
+              {homeMedixPrice?.detail && <small class="price-badge__basis">{homeMedixPrice.detail}</small>}
             </div>
             <div>
               <dt>Continuous flow</dt>
@@ -324,7 +364,7 @@ const topFive = topFivePillar(productA.category);
             </div>
             <div>
               <dt>Noise / weight</dt>
-              <dd>≤40 dB / 13 kg</dd>
+              <dd>≤40 dB(A) (manufacturer-stated, not field-verified) / 13 kg</dd>
             </div>
             <div>
               <dt>HHZ score</dt>

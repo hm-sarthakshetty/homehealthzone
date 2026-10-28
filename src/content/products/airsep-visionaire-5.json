@@ -1,23 +1,17 @@
 {
   "slug": "airsep-visionaire-5",
-  "source_url": "",
+  "source_url": "https://www.caireinc.com/product/airsep-visionaire/",
   "product_name": "Airsep Visionaire 5",
   "brand": "AirSep",
   "brand_href": "",
   "category": "5 LPM",
-  "price_current": "54,999.00",
-  "price_mrp": "80,640.00",
+  "price_current": null,
+  "price_mrp": null,
   "price_symbol": "₹",
-  "prices": {
-    "IN": {
-      "amount": 54999,
-      "currency": "INR",
-      "mrp": 80640
-    }
-  },
-  "rating_value": "5 (64)",
-  "rating_count": "64",
-  "stock": "In Stock",
+  "prices": {},
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Confirm availability and exact configuration with seller",
   "images": [
     {
       "src": "/images/products/airsep-visionaire-5-8eefded98f.jpg",
@@ -36,32 +30,32 @@
     }
   ],
   "key_features": {
-    "Purity": "90-96%",
+    "Purity": "90% +5.5%/−3%",
     "Type": "Stationary",
-    "Continuous Flow": "0.5-5LPM",
-    "Weight": "13.6kg",
-    "Oxygen Purity Indicator (OPI)": "Yes",
-    "Power consumption": "290watts"
+    "Continuous Flow": "1–5 L/min",
+    "Weight": "13.6 kg",
+    "Oxygen Purity Indicator (OPI)": "Available on selected versions; confirm exact unit",
+    "Power consumption": "290 W (all flow rates)"
   },
   "spec_tables": {
     "Technical details": {
-      "Purity": "90-96%",
+      "Purity": "90% +5.5%/−3%",
       "Type": "Stationary",
-      "Continuous Flow": "0.5-5LPM",
-      "Weight": "13.6kg",
-      "Oxygen Purity Indicator (OPI)": "Yes",
-      "Power consumption": "290watts",
-      "Sound level": "45db",
+      "Continuous Flow": "1–5 L/min",
+      "Weight": "13.6 kg",
+      "Oxygen Purity Indicator (OPI)": "Available on selected versions; confirm exact unit",
+      "Power consumption": "290 W (all flow rates)",
+      "Sound level": "39 dB(A)",
       "Dimensions": "20.8H x 14.1W x 11.5Dinch",
-      "Operating altitude": "10000feet",
+      "Operating altitude": "Not stated in the checked CAIRE specification page; confirm applicable manual/unit",
       "Outlet pressure": "8psi"
     },
     "Additional details": {
-      "Oxygen Purity % Analyzer": "",
+      "Oxygen Purity % Analyzer": "Available on selected versions; confirm exact unit",
       "Loss of Power Alarm": "Yes",
       "System Malfunction Alarm": "Yes",
       "No Flow Alarm": "Yes",
-      "Indian Voltage Model": "Yes",
+      "Indian Voltage Model": "Confirm exact supplied unit/nameplate",
       "Company Headquarters": "USA",
       "US FDA Approved": "Yes",
       "FAA Approved": "",
@@ -69,20 +63,22 @@
     }
   },
   "faqs": [],
-  "description_text": "What's in the Box?\n\n\n\tOxygen Concentrator Machine\n\tHumidifer Bottle \n\tNasal Cannula\n\tUser Manual",
+  "description_text": "CAIRE manufacturer specifications for AirSep VisionAire 5 list continuous flow of 1–5 L/min, oxygen concentration 90% +5.5%/−3%, weight 13.6 kg, sound 39 dB(A), power 290 W at all flow rates, and a 3-year warranty. Oxygen monitor is available on selected versions. Confirm the exact India-supplied configuration, price, package, warranty, altitude limits, and local service with the seller. Source: https://www.caireinc.com/product/airsep-visionaire/.",
   "related_links": [],
   "normalized_specs": {
     "weight_kg": 13.6,
-    "flow_min_lpm": 0.5,
+    "flow_min_lpm": 1.0,
     "flow_max_lpm": 5.0,
-    "purity_min": 90.0,
-    "purity_max": 96.0,
-    "noise_db": 45.0,
-    "power_w": 290,
-    "has_opi": true,
-    "faa_approved": false,
-    "ce_certified": true,
-    "indian_voltage": true,
-    "altitude_ft": 10000
-  }
+    "noise_db": 39.0,
+    "power_w": 290
+  },
+  "dateModified": "2026-10-28",
+  "evidence": [
+    {
+      "label": "CAIRE VisionAire 5 manufacturer specifications",
+      "url": "https://www.caireinc.com/product/airsep-visionaire/",
+      "checked_at": "2026-10-28",
+      "note": "Flow 1–5 LPM; concentration 90% +5.5%/−3%; 13.6 kg; 39 dB(A); 290 W all flows; monitor selected versions; 3-year warranty."
+    }
+  ]
 }

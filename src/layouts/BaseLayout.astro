@@ -2,6 +2,7 @@
 import '../styles/global.css';
 import hreflangData from '../data/hreflang.json';
 import { LIVE_MARKETS, marketForPath } from '../data/markets';
+import ComparisonDisclosure from '../components/ComparisonDisclosure.astro';
 
 export interface Props {
   title?: string;
@@ -74,6 +75,15 @@ const resolvedCanonical = canonicalURL ?? new URL(Astro.url.pathname, Astro.site
 
 // Product review pages belong to India; every other country has a guides tree.
 const currentPath = Astro.url.pathname;
+const comparisonWavePaths = new Set([
+  '/guides/5-lpm-oxygen-concentrator-spec-comparison-india/',
+  '/top-5/cpap-machines/', '/top-5/bipap-machines/',
+  '/guides/home-medix-hm-cv-20-vs-bmc-gii-auto-cpap-india/',
+  '/guides/home-medix-hm-bv-30-vs-philips-dreamstation-bipap-avaps-india/',
+  '/top-5/oxygen-concentrators-for-copd/',
+  '/oxygen-concentrators/home-medix-5-lpm/', '/cpap/home-medix-cv-20/', '/bipap/home-medix-bv-30/',
+]);
+const isComparisonWave = comparisonWavePaths.has(currentPath) || /^\/guides\/home-medix-hm-(cv-20|bv-30)-vs-/.test(currentPath);
 const navMarket = currentPath.match(/^\/(us|uk|sg|au|ca|nz)(\/|$)/)?.[1];
 const intlMarket = marketForPath(currentPath);
 const isUS = navMarket === 'us';
@@ -222,7 +232,8 @@ const hreflangLinks = hreflangPair
       </div>
     </header>
 
-    <main id="main" class="container">
+    <main id="main" class:list={['container', { 'comparison-wave': isComparisonWave }]}>
+      {isComparisonWave && <ComparisonDisclosure />}
       <slot />
     </main>
 

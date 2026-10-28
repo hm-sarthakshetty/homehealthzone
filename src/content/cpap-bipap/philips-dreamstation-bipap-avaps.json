@@ -1,23 +1,14 @@
 {
   "slug": "philips-dreamstation-bipap-avaps",
-  "source_url": "",
-  "product_name": "Philips Dreamstation BiPAP AVAPS Machine",
+  "source_url": "https://www.philips.co.in/healthcare/product/HCINX1130T19/dreamstation-bipap-avaps-noninvasive-ventilator",
+  "product_name": "Philips DreamStation BiPAP AVAPS (HCINX1130T19 configuration)",
   "brand": "Philips Respironics",
   "brand_href": "",
   "category": "BiPAP",
-  "price_current": "77,952.00",
-  "price_mrp": "142,080.00",
   "price_symbol": "₹",
-  "prices": {
-    "IN": {
-      "amount": 77952,
-      "currency": "INR",
-      "mrp": 142080
-    }
-  },
-  "rating_value": "4.8 (47)",
-  "rating_count": "47",
-  "stock": "In Stock",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Confirm availability and exact configuration with seller",
   "images": [
     {
       "src": "/images/products/philips-dreamstation-bipap-avaps-machine-e8408a8865.jpg",
@@ -26,70 +17,76 @@
     }
   ],
   "key_features": {
-    "Type": "BiPAP with AVAPS",
-    "Modes": "CPAP, S, S/T, PC, T, AVAPS",
-    "Turbine": "Made in USA",
-    "Pressure Range": "4 - 30cmH₂O",
-    "Ergonomic Tilted Display": "Yes",
-    "Detachable Design": "Yes"
+    "Type": "Non-invasive ventilator with AVAPS feature",
+    "Modes": "CPAP, S, S/T, T, PC; AVAPS is a feature enabled in supported configuration.",
+    "Pressure range": "Ventilation pressure 4–30 cmH₂O; EPAP 4–25 cmH₂O; CPAP up to 20 cmH₂O.",
+    "AVAPS target volume": "200–1,500 mL per breath, per Philips India specifications.",
+    "Humidification": "Heated humidification, fixed or adaptive; humidifier configuration must be confirmed.",
+    "Data": "SD card storage; Care Orchestrator connectivity and DreamMapper options depend on configuration and market.",
+    "Digital Auto-Trak": "Philips describes automated breath triggering, cycling and leak compensation."
   },
   "spec_tables": {
-    "Technical details": {
-      "Type": "BiPAP with AVAPS",
-      "Modes": "CPAP, S, S/T, PC, T, AVAPS",
-      "Turbine": "Made in USA",
-      "Pressure Range": "4 - 30cmH₂O",
-      "Ergonomic Tilted Display": "Yes",
-      "Detachable Design": "Yes",
-      "Sound level": "26.1dB",
-      "Weight": "1.98Kg",
-      "Dimensions": "157 x 193 x 84mm",
-      "Company Headquaters": "United States",
-      "Auto On/Off": "Yes",
-      "Ramp Duration": "0 to 45 minmin.",
-      "Auto Ramp": "Yes",
-      "Ramp Down": "No",
-      "EPR": "Yes",
-      "Humidifier": "Heated",
-      "Heated Tube Compatibility": "Yes",
-      "Climate control": "Yes",
-      "Preheat": "Yes",
-      "Adaptive Humidification": "Yes",
-      "Mask Fit": "Yes"
+    "Verified technical details": {
+      "Product reference": "Philips HCINX1130T19 product page; verify the physical unit label and supplied configuration.",
+      "Modes": "CPAP, S, S/T, T, PC; AVAPS can be enabled in supported AVAPS configuration.",
+      "Ventilation pressure": "4–30 cmH₂O",
+      "EPAP": "4–25 cmH₂O",
+      "CPAP pressure": "Up to 20 cmH₂O",
+      "AVAPS target volume": "200–1,500 mL per breath; 10 mL increments",
+      "IPAP range with AVAPS enabled": "Philips India lists IPAP Max up to 30 cmH₂O and Min IPAP from EPAP + 2 cmH₂O up to 30 cmH₂O; exact available setting depends on configuration.",
+      "Backup rate": "Provider guide lists Off or 0–30 breaths/min; timed mode minimum 4 breaths/min.",
+      "Inspiratory time": "0.5–3.0 seconds in 0.1-second increments.",
+      "Rise time": "Levels 1–6.",
+      "Humidification": "Fixed or adaptive heated humidification; heated-tube humidification when compatible heated tube is attached.",
+      "Flex": "Bi-Flex pressure relief is available in S mode; levels 1–3.",
+      "Dimensions": "297 × 193 × 84 mm with humidifier; 157 × 193 × 84 mm without humidifier.",
+      "Weight": "1.98 kg with humidifier, including power supply; 1.33 kg without humidifier.",
+      "Data storage": "SD card: minimum 6 months; onboard: minimum 3 months.",
+      "Electrical": "100–240 VAC, 50/60 Hz.",
+      "Warranty": "Philips India product page lists 2 years; confirm applicability to the exact unit, seller and sale channel."
     },
-    "Additional details": {
-      "Central Apnea Detection": "Yes",
-      "Leak Alert": "Yes",
-      "Altitude Compensation": "Yes",
-      "VAPS": "Yes",
-      "Trigger & Cycle sensitivity": "Yes",
-      "Ti Control": "Yes",
-      "Rise Time": "Yes",
-      "Ti(inspiration time)": "Yes",
-      "Pressure Support": "Yes",
-      "Back up rate": "Yes",
-      "RERA Reporting": "",
-      "SpO2 Monitoring Compatibility": "",
-      "Waterless Humidification": "",
-      "Leakage Compensation": "Yes",
-      "SD card": "Yes",
-      "Cloud connectivity/Wifi": "Yes",
-      "Bluetoooth": "Yes",
-      "QR code": "",
-      "FAA": "Yes",
-      "FDA": "",
-      "CE": "Yes"
+    "Configuration and scope": {
+      "AVAPS-AE": "Philips notes AVAPS-AE is available only in certain markets; do not assume it is included in this product configuration.",
+      "Connectivity": "Philips describes Care Orchestrator and DreamMapper. Confirm the connected module, service access and market support for the exact unit.",
+      "Clinical use": "Mode and settings are prescription-specific; product feature names alone do not establish equivalence with other devices."
     }
   },
-  "faqs": [],
-  "description_text": "Philips DreamStation BiPAP AVAPS\n\nThe Philips DreamStation BiPAP AVAPS is designed to cater the tidal volume support as per indiviadual needs. The machine has advanced features \n\n\n\t\n\tAverage Volume Assured Pressure Support (AVAPS)\n\t\n\n\nThis mode is generally recommended for COPD, Respiratory insufficiency, and Hypoventilation patients. This feature includes Digital Auto-Trak technology, which fine-tunes ventilation based on natural breathing patterns while compensating for any leaks, and AVAPS-AE, an auto-titrating mode that maintains a patent airway with an automatic back-up rate.\n\n\n\t\n\tLightweight and Compact\n\t\n\n\n\n\n\n\nThe DreamStation BiPAP AVAPS is compact in design and ideal for travelling. It weighs just 1.33 kg without the humidifier and 1.98 kg with the humidifier attached. \n\n\n\n\n\n\n\t\n\tAdvanced Comfort Features\n\n\tThe DreamStation BiPAP AVAPS comes with Smart Ramp, Auto On/Off, preheat and leakage compensation, ensuring smooth, personalized therapy with minimal adjustments. These features enhance comfort by aligning therapy with the patient’s natural breathing cycle.\n\t\n\t\n\tHeated Humidification\n\n\tThis device includes an optional heated humidifier, with settings that help prevention from dryness, providing consistent moisture levels throughout the night for added comfort.\n\t\n\t\n\tBluetooth Connectivity\n\n\tIntegrated Bluetooth and cloud connectivity allow seamless remote monitoring, enabling healthcare providers to track therapy data and make necessary adjustments for optimal outcomes.\n\t\n\t\n\tWarranty \n\n\tPhilips DreamStation BiPAP AVAPS comes with 2 years warranty.\n\t\n\n\n What's in the box\n\n\n\tDreamStation BiPAP AVAPS Machine \n\t6 ft, 15 mm Patient Tubing\n\t80W Power Supply with AC Cord\n\tDreamStation ASV Power Cord Clamp\n\tOne each: reusable and disposable Filter\n\tTravel Bag \n\tUser Manual",
+  "faqs": [
+    {
+      "q": "Which modes are documented for the DreamStation BiPAP AVAPS?",
+      "a": "Philips documents CPAP, S, S/T, T and PC modes, with AVAPS as an enabled feature in the supported configuration. Confirm the exact model and provider settings."
+    },
+    {
+      "q": "Does this listing establish AVAPS-AE availability?",
+      "a": "No. Philips states AVAPS-AE is available only in certain markets. Verify exact model and configuration with the seller."
+    },
+    {
+      "q": "What is the current India price?",
+      "a": "No current matching India price or package quote was verified. Request a written quote for the exact model, humidifier configuration, GST, warranty and service route."
+    }
+  ],
+  "description_text": "Philips lists DreamStation BiPAP AVAPS under product reference HCINX1130T19. Philips documentation describes CPAP, S, S/T, T and PC modes, with AVAPS as a feature available in the supported configuration; AVAPS-AE is available only in certain markets and should not be assumed for this unit. Philips lists ventilation pressure of 4–30 cmH₂O, EPAP 4–25 cmH₂O, CPAP up to 20 cmH₂O, and an AVAPS target volume of 200–1,500 mL per breath. Exact supplied humidifier, connectivity, warranty applicability, seller and current India price must be confirmed for the physical unit. No current like-for-like India price was verified.",
   "related_links": [],
   "device_type": "bipap",
   "normalized_specs": {
     "weight_kg": 1.98,
-    "noise_db": 26.1,
     "pressure_min_cmh2o": 4.0,
     "pressure_max_cmh2o": 30.0,
-    "has_humidifier": true
-  }
+    "warranty_years": 2
+  },
+  "dateModified": "2026-10-28",
+  "evidence": [
+    {
+      "label": "Philips India DreamStation BiPAP AVAPS product specifications",
+      "url": "https://www.philips.co.in/healthcare/product/HCINX1130T19/dreamstation-bipap-avaps-noninvasive-ventilator",
+      "checked_at": "2026-10-28",
+      "note": "Primary product page lists device modes, AVAPS target range, pressure, humidification, dimensions, weight, data storage and warranty; exact local seller configuration still needs confirmation."
+    },
+    {
+      "label": "Philips DreamStation BiPAP S/T and AVAPS provider guide",
+      "url": "https://www.documents.philips.com/assets/20210225/4083d13059364db1a974acda00bc3912.pdf",
+      "checked_at": "2026-10-28",
+      "note": "Official Philips provider documentation; setting availability varies by model and device settings."
+    }
+  ]
 }

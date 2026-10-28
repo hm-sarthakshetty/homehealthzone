@@ -1,23 +1,14 @@
 {
   "slug": "bmc-gll-auto-cpap-with-humidifier",
-  "source_url": "",
-  "product_name": "BMC RESmart GII Auto CPAP Machine (G2)",
+  "source_url": "https://en.bmc-medical.com/col194/59",
+  "product_name": "BMC RESmart GII Auto CPAP (exact model variant to confirm)",
   "brand": "BMC",
   "brand_href": "",
   "category": "CPAP",
-  "price_current": "17,490.00",
-  "price_mrp": "28,800.00",
   "price_symbol": "₹",
-  "prices": {
-    "IN": {
-      "amount": 17490,
-      "currency": "INR",
-      "mrp": 28800
-    }
-  },
-  "rating_value": "4.9 (51)",
-  "rating_count": "51",
-  "stock": "In Stock",
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Confirm availability and exact configuration with seller",
   "images": [
     {
       "src": "/images/products/bmc-resmart-gii-auto-cpap-machine-g2-4240554dd9.jpg",
@@ -41,81 +32,58 @@
     }
   ],
   "key_features": {
-    "Type": "Auto CPAP",
-    "Modes": "CPAP, AUTO",
-    "Algorithm": "Standard",
-    "Turbine": "Made in China",
-    "Pressure Range": "4 - 20cmH₂O",
-    "Ergonomic Tilted Display": "No"
+    "Type": "Auto CPAP, exact variant to confirm",
+    "Modes": "E-20A-H-O: CPAP, Auto CPAP (4–20 cmH₂O); E-20C-H-O: CPAP only. Confirm delivered model suffix.",
+    "Humidification": "GII family Eco Smart heated humidification; confirm supplied configuration.",
+    "Exhalation relief": "Reslex feature listed for GII series; level range for exact variant not established.",
+    "Altitude and leak compensation": "Automatic leakage and altitude compensation listed for GII family; confirm exact variant.",
+    "Data": "GII family information lists SD card, iCode/iCode QR and PAP Link review options; exact model/module support to confirm."
   },
   "spec_tables": {
-    "Technical details": {
-      "Type": "Auto CPAP",
-      "Modes": "CPAP, AUTO",
-      "Algorithm": "Standard",
-      "Turbine": "Made in China",
-      "Pressure Range": "4 - 20cmH₂O",
-      "Ergonomic Tilted Display": "",
-      "Detachable Design": "Yes",
-      "Sound level": "30dB",
-      "Weight": "2.5Kg",
-      "Dimensions": "290 x 180 x 134mm",
-      "Company Headquaters": "China",
-      "Auto On/Off": "Yes",
-      "Ramp Duration": "0 – 60min.",
-      "Auto Ramp": "",
-      "Ramp Down": "No",
-      "EPR": "Yes",
-      "Humidifier": "Heated",
-      "Heated Tube Compatibility": "",
-      "Climate control": "",
-      "Preheat": "",
-      "Adaptive Humidification": "",
-      "Mask Fit": ""
+    "Verified model information": {
+      "Exact variant": "E-20A-H-O is listed as CPAP and Auto CPAP; E-20C-H-O is CPAP-only. Confirm full model suffix on delivered unit.",
+      "Modes": "E-20A-H-O: CPAP, Auto CPAP",
+      "Pressure range": "4–20 cmH₂O for E-20A-H-O",
+      "Display": "E-20A-H-O: 3.5-inch; E-20C-H-O: 2.4-inch",
+      "Humidification": "GII family Eco Smart heated humidification; confirm humidifier is included in quoted configuration.",
+      "Reslex": "Exhalation pressure relief feature listed for GII series; exact levels not established in the reviewed primary source.",
+      "Altitude and leak compensation": "Automatic compensation listed for the GII family; exact variant to confirm."
     },
-    "Additional details": {
-      "Central Apnea Detection": "",
-      "Leak Alert": "Yes",
-      "Altitude Compensation": "Yes",
-      "VAPS": "",
-      "Trigger & Cycle sensitivity": "",
-      "Ti Control": "",
-      "Rise Time": "",
-      "Ti(inspiration time)": "",
-      "Pressure Support": "",
-      "Central Apnea Treatment": "",
-      "Back up rate": "",
-      "RERA Reporting": "",
-      "SpO2 Monitoring Compatibility": "",
-      "Waterless Humidification": "",
-      "Leakage Compensation": "No",
-      "SD card": "Yes",
-      "Cloud connectivity/Wifi": "No",
-      "Bluetoooth": "",
-      "QR code": "Yes",
-      "FAA": "",
-      "FDA": "",
-      "CE": "Yes"
+    "Data and support": {
+      "Data options": "BMC lists SD card, optional cellular/Wi-Fi module, iCode/iCode QR/iCode QR+, and PAP Link App/PC/Web for the GII family; verify exact model and module.",
+      "Support": "BMC provides an India service-center directory; local seller, serial eligibility, regional warranty and service coverage require confirmation."
     }
   },
   "faqs": [
     {
-      "q": "What is the warranty of BMC RESmart GII Auto CPAP?",
-      "a": "The warranty of BMC RESmart GII Auto CPAP is 2 years."
+      "q": "Which BMC GII Auto CPAP model is this?",
+      "a": "BMC lists E-20A-H-O with CPAP and Auto CPAP at 4–20 cmH₂O; E-20C-H-O is CPAP-only. Confirm the delivered model suffix and package with the seller."
     },
     {
-      "q": "What are the top features of BMC RESmart GII Auto CPAP?",
-      "a": "BMC RESmart GII Auto CPAP is an Auto CPAP machine and following are the few top features of this device are - \nReslex Pressure Relief \nRamp time\nAltitude Compensation \nLeak Compensation \niCode for sleep data"
+      "q": "What is the current India price and warranty?",
+      "a": "No current like-for-like India price or model-specific warranty was verified for this listing. Request a GST-inclusive quote, exact model, package, warranty issuer and local service route."
     }
   ],
-  "description_text": "BMC Resmart GII Auto CPAP Machine\n\nThe BMC RESmart GII Auto CPAP is a Continuous Positive Airway Pressure (CPAP) machine that is used to treat sleep apnea. In case you are on a budget, this is your best choice for treating your breathing disorders as it is a budget-friendly machine. Some key features of this device include:\n\n\n\t\n\tAuto-adjusting pressure: The machine automatically adjusts the pressure to the optimal level for the individual, based on real-time data.\n\t\n\t\n\tReslex technology: This feature allows for pressure relief during exhalation, making the therapy more comfortable for the user.\n\t\n\t\n\tData recording: The machine records sleep therapy data via SD card and iCode, you can retrieve sleep data effortlessly\n\t\n\t\n\tEasy to use: The machine has simple user interface, making it easy to use and set up.\n\t\n\t\n\tHeated humidification and Delay off: The machine comes with heated humidifier and You will find a Delay-off feature that will safeguard against some humidity hazards\n\t\n\n\nWhat's in the Box?\n\n\n\tBMC Resmart GII Auto CPAP( main unit)\n\tHumidifier\n\tMask\n\tHose\n\tAdapter\n\tFilter\n\tCarry Bag\n\tUser Manual",
+  "description_text": "BMC’s official GII family information lists E-20A-H-O as a CPAP/Auto CPAP model with a 4–20 cmH₂O range and E-20C-H-O as CPAP-only. The GII family page describes Eco Smart humidification, Reslex exhalation relief, automatic leak and altitude compensation, SD card/iCode and PAP Link reporting options. These family-level functions do not confirm the configuration of a particular India-sold unit; verify the exact model suffix, humidifier, accessories, warranty, price and service route with the seller. No current like-for-like India price was verified.",
   "related_links": [],
   "device_type": "cpap",
   "normalized_specs": {
-    "weight_kg": 2.5,
-    "noise_db": 30.0,
     "pressure_min_cmh2o": 4.0,
-    "pressure_max_cmh2o": 20.0,
-    "has_humidifier": true
-  }
+    "pressure_max_cmh2o": 20.0
+  },
+  "dateModified": "2026-10-28",
+  "evidence": [
+    {
+      "label": "Official BMC GII model family specifications and feature list",
+      "url": "https://en.bmc-medical.com/col194/59",
+      "checked_at": "2026-10-28",
+      "note": "Primary source lists model variants, mode and pressure range; family-level features do not establish the exact delivered configuration."
+    },
+    {
+      "label": "Official BMC service and regional warranty information",
+      "url": "https://en.bmc-medical.com/service-support/",
+      "checked_at": "2026-10-28",
+      "note": "Regional policies vary; page links an India service-center directory. No model-specific India warranty period or current price confirmed."
+    }
+  ]
 }

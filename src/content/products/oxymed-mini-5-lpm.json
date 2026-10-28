@@ -1,23 +1,17 @@
 {
   "slug": "oxymed-mini-5-lpm",
-  "source_url": "",
+  "source_url": "https://medequip.co.in/products/oxygen-concentrator-mini-5-lpm",
   "product_name": "Oxymed Mini (5L) Oxygen Concentrator",
   "brand": "Oxymed",
   "brand_href": "",
   "category": "5 LPM",
-  "price_current": "35,400.00",
-  "price_mrp": "59,900.00",
+  "price_current": null,
+  "price_mrp": null,
   "price_symbol": "₹",
-  "prices": {
-    "IN": {
-      "amount": 35400,
-      "currency": "INR",
-      "mrp": 59900
-    }
-  },
-  "rating_value": "4.9 (1062)",
-  "rating_count": "1062",
-  "stock": "In Stock",
+  "prices": {},
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Confirm availability and exact configuration with seller",
   "images": [
     {
       "src": "/images/products/oxymed-mini-5l-oxygen-concentrator-70e460636b.jpg",
@@ -51,28 +45,28 @@
     }
   ],
   "key_features": {
-    "Purity": "90-96%",
+    "Purity": "Manufacturer page conflict: table 90–96%; prose 93% ±3%",
     "Type": "Home Stationary",
-    "Continuous Flow": "1-5LPM",
+    "Continuous Flow": "1–5 L/min",
     "Weight": "13.9kg",
-    "Oxygen Purity Indicator (OPI)": "Yes",
-    "Power consumption": "390watts"
+    "Oxygen Purity Indicator (OPI)": "Not established in manufacturer specification table; confirm with manufacturer",
+    "Power consumption": "390 W (manufacturer page)"
   },
   "spec_tables": {
     "Technical details": {
-      "Purity": "90-96%",
+      "Purity": "Manufacturer page conflict: table 90–96%; prose 93% ±3%",
       "Type": "Home Stationary",
-      "Continuous Flow": "1-5LPM",
+      "Continuous Flow": "1–5 L/min",
       "Weight": "13.9kg",
-      "Oxygen Purity Indicator (OPI)": "Yes",
-      "Power consumption": "390watts",
-      "Sound level": "45db",
+      "Oxygen Purity Indicator (OPI)": "Not established in manufacturer specification table; confirm with manufacturer",
+      "Power consumption": "390 W (manufacturer page)",
+      "Sound level": "45 dB (manufacturer page)",
       "Dimensions": "20.27H x 12.36W x 9.4Dinch",
-      "Operating altitude": "7500feet",
+      "Operating altitude": "Not established in the checked manufacturer page; confirm with manufacturer",
       "Outlet pressure": "10psi"
     },
     "Additional details": {
-      "Oxygen Purity % Analyzer": "Yes",
+      "Oxygen Purity % Analyzer": "Not established in manufacturer specification table; confirm with manufacturer",
       "Loss of Power Alarm": "Yes",
       "System Malfunction Alarm": "Yes",
       "No Flow Alarm": "Yes",
@@ -85,24 +79,26 @@
   },
   "faqs": [
     {
-      "q": "3. What is the warranty on Oxymed Mini in India?",
-      "a": "Oxymed Mini comes with 3 years of warranty in India."
+      "q": "What warranty applies to an India purchase?",
+      "a": "Obtain model-specific written terms from the seller: warranty issuer, period, exclusions, serial-number region, claim route and labour/transport arrangements. A manufacturer product document alone does not establish coverage for a particular Indian sale."
     }
   ],
-  "description_text": "Oxymed Mini 5 LPM Oxygen Concentrator\n\nOxymed Mini 5 LPM is one of the most popular names in the Indian oxygen concentrator market as it has the largest dealer network in India with over 40 service centres. This machine delivers oxygen at the flow rate of 0.5-5 LPM with a purity level of more than 90% at all flow rates.\n\nSmallest Home Oxygen Concentrator: Weighing just 13.9 Kgs, Oxymed Mini is the second lightest oxygen concentrator in the market. Its compact design ensures that the machine could be easily shifted from one location to another.\n\nSound: Oxymed Mini Oxygen Concentrator emits sound at 45 dB.\n\nPower Consumption: The machine consumes 390 watts of power.\n\nDigital Flow Meter: The device comes with a digital flow regulator through which flow rate can be increased or decreased at the intervals of 0.5 LPM using the +/- buttons. \n\nOxygen Purity Analyzer: Oxymed Mini comes with an inbuilt oxygen purity analyzer through which users can get to know the oxygen purity level that is being delivered in real-time. \n\nOperating Altitude: Operating altitude of Oxymed Mini is 7500 feet.\n\nOutlet Pressure: The outlet pressure of the device is 10 psi.\n\nUser-Friendly Folding Screen Display: The digital screen of Oxygen Mini shows the current flow rate, oxygen purity, timer and hour meter. \n\nWarranty: The warranty period of Oxymed Mini oxygen concentrator is 3 years.\n\nAdditional Features:\n\n\n\tOxymed mini has an in-built nebulizer\n\tThe machine comes with a digital as well as a rotating ball-type flow meter.\n\tThere are locks on its front wheels which prevent the machine from slipping on the smooth floor. \n\tThe Oxymed Company provides home installation services in almost 50 cities across India.\n\n\nWhat's in the Box?\n\n\n\t\n\tOxymed Oxygen concentrator\n\t\n\t\n\tHumidifier Bottle\n\t\n\t\n\tUser manual\n\t\n\t\n\tNasal cannula\n\t\n\t\n\tNebulizer Kit\n\t\n\t\n\tAdditional filter set\n\t\n\tPower Cable",
+  "description_text": "Medequip’s manufacturer page lists Oxymed Mini flow at 1–5 L/min, weight 13.9 kg, sound 45 dB, power 390 W, and a 3-year warranty. Its concentration table says 90–96%, while page prose says 93% ±3%; its specification-table OPI/analyzer fields are blank. The same page states that this product is not a medical device and should not be used for medical treatment or life-support. Confirm intended medical-device status and applicable authorization before considering it for prescribed oxygen therapy. The page lists a humidifier bottle, cannula, nebulizer kit, extra filter set, power cable, and manual; verify exact quantities. Current India price, stock and service should be confirmed with seller. Source: https://medequip.co.in/products/oxygen-concentrator-mini-5-lpm.",
   "related_links": [],
   "normalized_specs": {
     "weight_kg": 13.9,
     "flow_min_lpm": 1.0,
     "flow_max_lpm": 5.0,
-    "purity_min": 90.0,
-    "purity_max": 96.0,
     "noise_db": 45.0,
-    "power_w": 390,
-    "has_opi": true,
-    "faa_approved": false,
-    "ce_certified": false,
-    "indian_voltage": true,
-    "altitude_ft": 7500
-  }
+    "power_w": 390
+  },
+  "dateModified": "2026-10-28",
+  "evidence": [
+    {
+      "label": "Medequip Oxymed Mini manufacturer page",
+      "url": "https://medequip.co.in/products/oxygen-concentrator-mini-5-lpm",
+      "checked_at": "2026-10-28",
+      "note": "Contains concentration-table/prose conflict and says not a medical device/not for medical treatment or life-support; use status unresolved."
+    }
+  ]
 }

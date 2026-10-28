@@ -1,23 +1,28 @@
 {
   "slug": "home-medix-5-lpm",
-  "source_url": "https://www.homemedix.in/",
+  "source_url": "https://www.homemedix.in/shop/hm-kv",
   "product_name": "Home Medix HM-KV 5 LPM",
   "brand": "Home Medix",
   "brand_href": "/brand/home-medix/",
   "category": "5 LPM",
-  "price_current": "37,800",
-  "price_mrp": "54,000",
+  "price_current": "44,100",
+  "price_mrp": null,
   "price_symbol": "₹",
   "prices": {
     "IN": {
-      "amount": 37800,
+      "amount": 44100,
       "currency": "INR",
-      "mrp": 54000
+      "source_url": "https://www.homemedix.in/shop/hm-kv",
+      "checked_at": "2026-10-28",
+      "basis": "manufacturer-published",
+      "tax_note": "Including 5% GST",
+      "amount_before_tax": 42000,
+      "configuration": "Nebulizer kit, fitted filter and one extra HEPA filter confirmed. Remaining box contents and quantities pending."
     }
   },
   "rating_value": null,
   "rating_count": null,
-  "stock": "In Stock",
+  "stock": "Confirm availability with manufacturer",
   "images": [
     {
       "src": "/images/products/hm-kv-hero.png",
@@ -29,65 +34,42 @@
     "Purity": "93% ± 3%",
     "Type": "Home Stationary",
     "Continuous Flow": "0.5–5 L/min",
-    "Weight": "13 kg (lightest in the 5 LPM class)",
-    "Oxygen Purity Indicator (OPI)": "Yes",
-    "Power consumption": "320 VA"
+    "Weight": "13 kg",
+    "Oxygen Purity Indicator (OPI)": "Manufacturer lists low-oxygen monitoring/alarm; demonstrate exact display and alarm at setup",
+    "Power consumption": "320 W",
+    "Sound level": "≤40 dB(A) (manufacturer specification)"
   },
   "spec_tables": {
     "Technical details": {
-      "Purity": "93% ± 3%",
-      "Type": "Home Stationary",
       "Continuous Flow": "0.5–5 L/min",
-      "Weight": "13 kg (lightest in the 5 LPM class)",
-      "Oxygen Purity Indicator (OPI)": "Yes",
-      "Power consumption": "320 VA",
-      "Sound level": "≤ 40 dB (field-verified)",
-      "Dimensions": "Compact floor-standing form factor",
-      "Outlet pressure": "0.04–0.06 MPa"
+      "Oxygen concentration": "93% ±3%",
+      "Weight": "13 kg",
+      "Sound level": "≤40 dB(A), manufacturer specification; no HHZ measurement",
+      "Power consumption": "320 W (current manufacturer page and approved correction; brochure grid prints VA)",
+      "Dimensions": "510 × 300 × 290 mm (L × W × H)",
+      "Flow control": "Electronic flowmeter",
+      "Nebulization": "Integrated",
+      "SOS alert": "One-touch audible alert; not a remote clinical monitoring service",
+      "Safety alarms": "Low oxygen, power failure and high temperature per current manufacturer page"
     },
-    "Additional details": {
-      "Oxygen Purity % Analyzer": "Yes",
-      "Loss of Power Alarm": "Yes",
-      "System Malfunction Alarm": "Yes (High Temperature)",
-      "No Flow Alarm": "Yes (Low/No Flow)",
-      "Indian Voltage Model": "Yes",
-      "Company Headquarters": "India",
-      "US FDA Approved": "",
-      "FAA Approved": "",
-      "CE Certified": ""
-    },
-    "Home Medix differentiators": {
-      "Integrated Nebulization": "Yes",
-      "Precise Electronic Flowmeter": "Yes",
-      "One-Touch SOS Alert": "Yes — high-volume audible alarm button for summoning a nearby attendant (local siren; no mobile app or telecom channel)",
-      "Hour Counter": "User-visible running-hour display",
-      "Working Voltage": "AC 230V / 50Hz, ±10% tolerance (207–253 V)",
-      "Industrial-Grade Compressor": "Yes",
-      "ISO 9001": "Yes",
-      "ISO 13485": "Yes",
-      "CDSCO": "Approved",
-      "Warranty": "3 years or 10,000 hours of operation, whichever comes first"
+    "Package and warranty": {
+      "Warranty": "3 years or 10,000 operating hours, whichever comes first",
+      "Confirmed inclusions": "Nebulizer kit, fitted filter and one extra HEPA filter confirmed. Remaining box contents and quantities pending.",
+      "Support": "Home Medix publishes India product/service contact routes. Confirm service location, setup, charges, transport, parts and turnaround for your pincode.",
+      "Evidence limitation": "Brochure feature panel prints 320 W and grid prints 320 VA; this update uses the confirmed 320 W correction. Rated power is not measured energy consumption or compressor startup load."
     }
   },
   "faqs": [
     {
-      "q": "What is the HM-KV's oxygen purity?",
-      "a": "93% ± 3% across the flow range of 0.5–5 L/min, per the published technical specification. This is the standard medical-grade purity band for PSA home concentrators."
+      "q": "What are the HM-KV specifications?",
+      "a": "Manufacturer specifications: continuous flow 0.5–5 L/min, oxygen concentration 93% ±3%, sound ≤40 dB(A), weight 13 kg. The confirmed electrical rating is 320 W; this is not an HHZ consumption measurement."
     },
     {
-      "q": "Is the HM-KV approved for use in India?",
-      "a": "Yes. Home Medix lists ISO 9001 and ISO 13485 certifications and CDSCO approval for the HM-KV. It is designed to run on AC 230V / 50Hz with ±10% tolerance."
-    },
-    {
-      "q": "How loud is the HM-KV at bedside distance?",
-      "a": "The published specification is ≤ 40 dB (field-verified). That sits below the common 45 dB bedside threshold and ties the Nidek Nuvo Lite as the quietest 5 LPM on the Indian market."
-    },
-    {
-      "q": "What is the warranty?",
-      "a": "3 years or 10,000 hours of operation, whichever comes first — a standard home-stationary concentrator warranty term."
+      "q": "What warranty and box contents are confirmed?",
+      "a": "Warranty is 3 years or 10,000 operating hours, whichever comes first. Confirmed inclusions are a nebulizer kit, fitted filter and one extra HEPA filter. Other box contents and quantities remain pending; obtain written terms and package details."
     }
   ],
-  "description_text": "The HM-KV is Home Medix's 5 LPM home stationary oxygen concentrator, designed for long-term home oxygen therapy across the Indian market. Published specs cover 0.5–5 L/min continuous flow, 93% ± 3% oxygen concentration, ≤ 40 dB sound level (field-verified), 320 VA draw at 230V, and a 13 kg cabinet. The unit carries ISO 9001 + ISO 13485 + CDSCO approval and ships with a 3-year / 10,000-hour warranty.",
+  "description_text": "Home Medix HM-KV is a stationary continuous-flow oxygen concentrator with manufacturer-published 0.5–5 L/min flow, 93% ±3% oxygen concentration, ≤40 dB(A) sound, 320 W rated power and 13 kg weight. Manufacturer-published price checked 28 October 2026: ₹42,000 before 5% GST, ₹44,100 including GST. Warranty is 3 years or 10,000 operating hours, whichever comes first. No HHZ bench test is claimed.",
   "related_links": [
     "/oxygen-concentrators/home-medix-10-lpm/",
     "/oxygen-concentrators/philips-everflo-5-lpm/",
@@ -103,9 +85,27 @@
     "noise_db": 40,
     "power_w": 320,
     "has_opi": true,
-    "faa_approved": false,
-    "ce_certified": false,
     "indian_voltage": true,
     "warranty_years": 3
-  }
+  },
+  "dateModified": "2026-10-28",
+  "evidence": [
+    {
+      "label": "Manufacturer model and purchase information",
+      "url": "https://www.homemedix.in/shop/hm-kv",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "label": "Currently published manufacturer brochure",
+      "url": "https://www.homemedix.in/brochures/2026-10/hm-kv-brochure.pdf",
+      "checked_at": "2026-10-28",
+      "note": "Technical and reporting text checked against the supplied brochure. Issue date not printed."
+    },
+    {
+      "label": "Archived manufacturer brochure (matches supplied brochure text)",
+      "url": "/resources/manufacturer-brochures/home-medix-hm-kv.pdf",
+      "checked_at": "2026-10-28",
+      "note": "Manufacturer specifications; no HHZ bench test. Brochure issue date not printed."
+    }
+  ]
 }

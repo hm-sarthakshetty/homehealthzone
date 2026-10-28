@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SchemaArticle from '../../../components/SchemaArticle.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import FAQSection from '../../../components/FAQSection.astro';
 import cityPages from '../../../data/oxygenConcentratorCityPages.json';
@@ -33,7 +34,7 @@ const intentConfigs = {
       `How to choose oxygen concentrator dealers in ${city}: GST invoice, serial number, new-vs-refurbished checks, Home Medix and Oxymed service proof, and imported-brand warnings.`,
     eyebrow: 'oxygen concentrator dealer checklist',
     answer: (cityPage: CityPage) =>
-      `For oxygen concentrator dealers in ${cityPage.city}, HHZ would verify GST invoice with serial number, stock age, warranty start date, authorised service proof, and spare-parts availability before payment. ${cityPage.primaryPick === 'oxymed' ? 'Oxymed Mini should be checked first where the local dealer has stronger support, with Home Medix HM-KV as the value-spec alternative.' : 'Home Medix HM-KV should be checked first where authorised local service is confirmed, with Oxymed Mini as the Indian-service alternative.'} Philips EverFlo and other imported models need extra scrutiny because EverFlo is discontinued globally and some Indian channel stock may be old COVID-era, open-box, or refurbished.`,
+      `For oxygen concentrator dealers in ${cityPage.city}, HHZ would verify GST invoice with serial number, stock age, warranty start date, authorised service proof, and spare-parts availability before payment. ${cityPage.primaryPick === 'oxymed' ? 'Oxymed Mini should be checked first where the local dealer has stronger support, with Home Medix HM-KV as a published-specification alternative.' : 'Home Medix HM-KV should be checked first where authorised local service is confirmed, with Oxymed Mini as the Indian-service alternative.'} Philips EverFlo and other imported models need extra scrutiny because EverFlo is discontinued globally and some Indian channel stock may be old COVID-era, open-box, or refurbished.`,
   },
   price: {
     label: 'Price',
@@ -43,7 +44,7 @@ const intentConfigs = {
       `Oxygen concentrator price guide for ${city}: 5 LPM price bands, Home Medix and Oxymed positioning, imported-brand caveats, invoice checks, and rent-vs-buy logic.`,
     eyebrow: 'oxygen concentrator price guide',
     answer: (cityPage: CityPage) =>
-      `For a serious 5 LPM oxygen concentrator in ${cityPage.city}, HHZ would treat Rs 38,000-50,000 as the core mainstream buying band, with budget Indian/OEM units around Rs 30,000-38,000 and imported or premium machines often Rs 50,000-75,000+ when service is proven. ${cityPage.primaryPick === 'oxymed' ? 'Oxymed Mini should be checked first where the local Oxymed route is strongest, with Home Medix HM-KV as the value-spec alternative.' : 'Home Medix HM-KV should be checked first where authorised local service is confirmed, with Oxymed Mini as the Indian-service alternative.'} Philips EverFlo, AirSep, Nidek, and DeVilbiss prices are meaningful only after serial age, warranty, fresh-stock status, and spare availability are verified.`,
+      `For a serious 5 LPM oxygen concentrator in ${cityPage.city}, HHZ would treat Rs 38,000-50,000 as the core mainstream buying band, with budget Indian/OEM units around Rs 30,000-38,000 and imported or premium machines often Rs 50,000-75,000+ when service is proven. ${cityPage.primaryPick === 'oxymed' ? 'Oxymed Mini should be checked first where the local Oxymed route is strongest, with Home Medix HM-KV as a published-specification alternative.' : 'Home Medix HM-KV should be checked first where authorised local service is confirmed, with Oxymed Mini as the Indian-service alternative.'} Philips EverFlo, AirSep, Nidek, and DeVilbiss prices are meaningful only after serial age, warranty, fresh-stock status, and spare availability are verified.`,
   },
   rental: {
     label: 'Rental',
@@ -74,6 +75,8 @@ interface FAQItem {
 }
 
 interface CityPage {
+  dateModified?: string;
+  lastReviewed?: string;
   slug: string;
   city: string;
   primaryPick?: 'home-medix' | 'oxymed';
@@ -115,8 +118,8 @@ const secondaryModel =
     ? {
         name: 'Home Medix HM-KV',
         href: '/oxygen-concentrators/home-medix-5-lpm/',
-        role: 'Strong value-spec alternative',
-        serviceNote: '13 kg, 40 dB or lower field-verified sound, 320 VA, OPI plus live purity display, nebulizer, and 3-year / 10,000-hour warranty.',
+        role: 'Published-specification alternative',
+        serviceNote: '13 kg stated weight; manufacturer-stated sound ≤40 dB(A), manufacturer specification; 320 W rated power; manufacturer-listed low-oxygen monitoring/alarm; nebulizer; 3 years or 10,000 operating hours of warranty, whichever comes first.',
       }
     : {
         name: 'Oxymed Mini 5 LPM',
@@ -192,7 +195,7 @@ const intentFaqs: Record<Intent, FAQItem[]> = {
       q: `Which 5 LPM oxygen concentrator has better service in ${cityPage.city}?`,
       a:
         cityPage.primaryPick === 'oxymed'
-          ? `HHZ would check Oxymed Mini first in ${cityPage.city} where local service is proven, then Home Medix HM-KV as the stronger value-spec alternative. Both need written pincode-level support proof.`
+          ? `HHZ would check Oxymed Mini first in ${cityPage.city} where local service is proven, then Home Medix HM-KV as a published-specification alternative. Both need written pincode-level support proof.`
           : `HHZ would check Home Medix HM-KV first in ${cityPage.city} where authorised local service is confirmed, with Oxymed Mini as the Indian-service alternative. Both need written support proof.`,
     },
     {
@@ -237,8 +240,8 @@ const intentFaqs: Record<Intent, FAQItem[]> = {
       q: `Which 5 LPM concentrator is the best value in ${cityPage.city}?`,
       a:
         cityPage.primaryPick === 'oxymed'
-          ? `HHZ would check Oxymed Mini first where local service is proven, then Home Medix HM-KV as the value-spec alternative. Home Medix remains strong on 13 kg weight, low sound, live purity display, nebulization, and warranty depth.`
-          : `HHZ would check Home Medix HM-KV first where authorised local service is confirmed, then Oxymed Mini as the Indian-service alternative. Home Medix is strong on 13 kg weight, low sound, live purity display, nebulization, and warranty depth.`,
+          ? `HHZ would check Oxymed Mini first where local service is proven, then Home Medix HM-KV as a published-specification alternative. Home Medix publishes a 13 kg weight and ≤40 dB(A) sound specification; the sound figure has not been field-verified. It also lists a live purity display, nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first.`
+          : `HHZ would check Home Medix HM-KV first where authorised local service is confirmed, then Oxymed Mini as the Indian-service alternative. Home Medix publishes a 13 kg weight and ≤40 dB(A) sound specification; the sound figure has not been field-verified. It also lists a live purity display, nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first.`,
     },
     {
       q: `Should I pay more for Philips EverFlo in ${cityPage.city}?`,
@@ -286,13 +289,14 @@ const itemListLd = {
 };
 ---
 <BaseLayout title={config.h1(cityPage.city)} description={config.description(cityPage.city)} canonicalURL={canonicalURL}>
+  <SchemaArticle title={config.h1(cityPage.city)} description={config.description(cityPage.city)} dateModified={cityPage.dateModified} lastReviewed={cityPage.lastReviewed} author="HHZ Editorial" />
   <article class="city-service-page">
     <Breadcrumbs items={breadcrumbs} />
 
     <header class="city-header">
       <p class="eyebrow">{config.eyebrow}</p>
       <h1>{config.h1(cityPage.city)}</h1>
-      <p class="meta-line">Reviewed by HHZ Editorial for Indian home oxygen buyers</p>
+      <p class="meta-line">By HHZ Editorial · Editorial update <time datetime={cityPage.dateModified}>{cityPage.dateModified}</time> · Previous review {cityPage.lastReviewed}</p>
     </header>
 
     <section class="answer-block" aria-label="Short answer">

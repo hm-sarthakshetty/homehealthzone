@@ -37,9 +37,10 @@ const ld: Record<string, unknown> = {
   '@type': 'Product',
   name: product.product_name,
 };
+if (product.evidence?.length) ld.subjectOf = product.evidence.map((source) => ({ '@type': 'CreativeWork', name: source.label, url: source.url.startsWith('/') ? `${siteOrigin}${source.url}` : source.url }));
 
 if (pageUrl) ld.url = pageUrl;
-if (pageUrl) ld.mainEntityOfPage = { '@type': 'WebPage', '@id': pageUrl };
+if (pageUrl) ld.mainEntityOfPage = { '@type': 'WebPage', '@id': pageUrl, dateModified: product.dateModified };
 if (imageUrl) ld.image = imageUrl;
 if (product.brand) ld.brand = { '@type': 'Brand', name: product.brand };
 if (product.description_text) ld.description = product.description_text;
@@ -55,17 +56,21 @@ if (product.brand) {
 }
 
 const stockLc = product.stock?.toLowerCase() ?? '';
-const offerPrice = schemaOfferPrice(resolvePrice(product, country));
+const resolvedPrice = resolvePrice(product, country);
+const offerPrice = schemaOfferPrice(resolvedPrice);
 if (offerPrice && !stockLc.includes('discontinued')) {
   const availability = stockLc.includes('out') || stockLc.includes('sold')
     ? 'https://schema.org/OutOfStock'
-    : 'https://schema.org/InStock';
+    : stockLc.includes('in stock') ? 'https://schema.org/InStock' : undefined;
   ld.offers = {
     '@type': 'Offer',
     price: offerPrice.price,
     priceCurrency: offerPrice.priceCurrency,
     availability,
-    url: pageUrl,
+    url: resolvedPrice.basis === 'manufacturer-published' ? resolvedPrice.source_url : pageUrl,
+    seller: resolvedPrice.basis === 'manufacturer-published' ? { '@type': 'Organization', name: product.brand } : undefined,
+    description: resolvedPrice.basis ? `${resolvedPrice.basis} price; ${resolvedPrice.tax_note ?? ''}; checked ${resolvedPrice.checked_at ?? ''}; ${resolvedPrice.configuration ?? ''}` : undefined,
+    priceSpecification: resolvedPrice.tax_note ? { '@type': 'PriceSpecification', price: offerPrice.price, priceCurrency: offerPrice.priceCurrency, valueAddedTaxIncluded: resolvedPrice.tax_note.includes('Including') } : undefined,
   };
 }
 

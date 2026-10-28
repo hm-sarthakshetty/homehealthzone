@@ -1,23 +1,28 @@
 {
   "slug": "home-medix-cv-20",
-  "source_url": "https://www.homemedix.in/",
+  "source_url": "https://www.homemedix.in/shop/hm-cv-20",
   "product_name": "Home Medix HM-CV-20 Auto CPAP",
   "brand": "Home Medix",
   "brand_href": "/brand/home-medix/",
   "category": "CPAP",
-  "price_current": "28,000",
-  "price_mrp": "35,000",
+  "price_current": "31,500",
+  "price_mrp": null,
   "price_symbol": "₹",
   "prices": {
     "IN": {
-      "amount": 28000,
+      "amount": 31500,
       "currency": "INR",
-      "mrp": 35000
+      "source_url": "https://www.homemedix.in/shop/hm-cv-20",
+      "checked_at": "2026-10-28",
+      "basis": "manufacturer-published",
+      "tax_note": "Including 5% GST",
+      "amount_before_tax": 30000,
+      "configuration": "One device with integrated humidifier, one nasal mask, one reusable filter, one power cord, one SD card, one breathing circuit and one carrying bag."
     }
   },
   "rating_value": null,
   "rating_count": null,
-  "stock": "In Stock",
+  "stock": "Confirm availability with manufacturer",
   "images": [
     {
       "src": "/images/products/hm-cv-20-hero.png",
@@ -26,72 +31,57 @@
     }
   ],
   "key_features": {
-    "Type": "Auto CPAP",
+    "Type": "CPAP/APAP",
     "Modes": "CPAP, APAP",
-    "Pressure Range": "4-20cmH₂O",
-    "Sound level": "<30dB",
-    "Weight": "1.45kg",
-    "Humidifier": "Heated (0–5 levels)"
+    "Pressure Range": "4–20 cmH₂O",
+    "Sound level": "≤30 dB(A) (manufacturer specification)",
+    "Weight": "1.45 kg",
+    "Humidifier": "Integrated, levels 0–5",
+    "Warranty": "2 years for device including humidifier under normal operation"
   },
   "spec_tables": {
     "Technical details": {
-      "Type": "Auto CPAP",
       "Modes": "CPAP, APAP",
-      "Algorithm": "Patented SAF (Synchronized Auto-Flow) — leak-compensated auto-adjustment",
-      "Pressure Range": "4-20cmH₂O",
-      "Sound level": "<30dB",
-      "Weight": "1.45kg",
+      "Pressure Range": "4–20 cmH₂O",
+      "Sound level": "≤30 dB(A), manufacturer specification; test conditions not supplied",
+      "Weight": "1.45 kg (manufacturer-listed configuration)",
       "Dimensions": "253 × 168 × 121 mm",
-      "EPR": "Yes (EPFlex expiratory pressure relief)",
-      "Humidifier": "Heated (0–5 levels, integrated)",
-      "Ramp": "Yes",
-      "Auto On/Off": "Yes",
-      "Central Apnea Detection": "Yes (OSA / CSA)"
+      "Humidifier": "Integrated, levels 0–5",
+      "Ramp": "Auto, 0–60 minutes",
+      "EPFlex Comfort": "0–3",
+      "Alarms": "Leak, patient disconnect, power failure",
+      "Smart features": "Auto On, Auto Off, automatic altitude compensation, leak compensation"
     },
-    "Additional details": {
-      "Leak Alert": "Yes",
-      "Leakage Compensation": "Yes (SAF algorithm)",
-      "Flow Limitation Detection": "Yes",
-      "Hypopnea Detection": "Yes (multi-severity)",
-      "Snoring Detection": "Yes (multi-frequency)",
-      "Altitude Compensation": "",
-      "Heated Tube Compatibility": "",
-      "Climate control": "",
-      "Adaptive Humidification": "",
-      "SD card": "",
-      "Cloud connectivity/Wifi": "",
-      "Bluetooth": "",
-      "RERA Reporting": "",
-      "SpO2 Monitoring Compatibility": "",
-      "Company Headquarters": "India",
-      "Indian Voltage Model": "Yes",
-      "CDSCO": "Approved",
-      "ISO 9001": "Yes",
-      "ISO 13485": "Yes",
-      "CE": "",
-      "FDA": "",
-      "FAA": ""
+    "Package and warranty": {
+      "Confirmed supplied pack": "One device with integrated humidifier, one nasal mask, one reusable filter, one power cord, one SD card, one breathing circuit and one carrying bag.",
+      "Package evidence": "Current manufacturer model page and approved pack confirmation checked 2026-10-28 include one of each listed item and a carrying bag. The brochure depicts six items without specifying the bag/quantities.",
+      "Warranty": "Device including humidifier: 2 years under normal operation. Power adapter and SD card: 1 year each. Mask, tube and water tank: 90 days each.",
+      "Conditions and exclusions": "Excludes damage associated with operation outside specifications, accessories not supplied or recommended by Home Medix, and technical changes without company consent. Unauthorized disassembly or repair can remove free-maintenance eligibility.",
+      "Unconfirmed terms": "Warranty start date, claim process, registration and purchase-channel rules, labour and transport charges remain unconfirmed; agree these with Home Medix before purchase."
+    },
+    "Reporting and support": {
+      "SD card": "Included; desktop memory-card import",
+      "Home Medix Claro": "Windows/macOS desktop reports; activation code required from Home Medix. Mobile QR-code report retrieval and PDF export described on downloads page.",
+      "Reported measures": "AHI, usage, pressure, leak and respiratory-event trends; brochure labels obstructive/central apnoea, hypopnoea, flow limitation and snoring. Device event flags are not a diagnosis.",
+      "Connectivity limitations": "Automatic clinic cloud upload, Wi-Fi/Bluetooth, heated-tube compatibility and SpO₂ integration not established by reviewed sources.",
+      "Support": "Home Medix service: +91 95137 55596; service@homemedix.in; Monday–Saturday 10 am–6 pm. Location, assessment, turnaround and charges require confirmation."
     }
   },
   "faqs": [
     {
-      "q": "What modes does the HM-CV-20 support?",
-      "a": "CPAP (fixed-pressure) and APAP (auto-adjusting). Pressure range is 4–20 cmH₂O per the published technical specification."
+      "q": "What modes does HM-CV-20 support?",
+      "a": "CPAP, APAP, at 4–20 cmH₂O according to the manufacturer brochure. The treating team must confirm the prescribed mode and settings."
     },
     {
-      "q": "How loud is the HM-CV-20 at bedside?",
-      "a": "The published specification is <30 dB. That is at the quiet end of the CPAP class — below typical library-ambient noise (40 dB) and competitive with premium imports like the ResMed AirSense 11 (27 dB) and Philips DreamStation 2 (25 dB)."
+      "q": "What package and warranty are confirmed?",
+      "a": "One device with integrated humidifier, one nasal mask, one reusable filter, one power cord, one SD card, one breathing circuit and one carrying bag. Device including humidifier: 2 years under normal operation. Power adapter and SD card: 1 year each. Mask, tube and water tank: 90 days each. Excludes damage associated with operation outside specifications, accessories not supplied or recommended by Home Medix, and technical changes without company consent. Unauthorized disassembly or repair can remove free-maintenance eligibility. Warranty start date, claim process, registration and purchase-channel rules, labour and transport charges remain unconfirmed; agree these with Home Medix before purchase."
     },
     {
-      "q": "Is there an integrated humidifier?",
-      "a": "Yes. Heated humidifier with 0–5 adjustable levels is built in; the overall 1.45 kg weight is with the humidifier chamber attached. Heated-tube compatibility is not stated in the published spec."
-    },
-    {
-      "q": "What is EPFlex?",
-      "a": "EPFlex is Home Medix's expiratory pressure relief feature — the machine reduces pressure during exhalation to reduce the patient's sense of pressurised-exhale resistance. Functionally equivalent to ResMed's EPR or Philips' C-Flex."
+      "q": "How can the therapy data be reviewed?",
+      "a": "Home Medix describes Claro desktop memory-card import for Windows/macOS and mobile QR-code reports/PDF export. Confirm software activation and demonstrate an export to the treating team. Automatic clinic cloud access is not established by the reviewed sources."
     }
   ],
-  "description_text": "The HM-CV-20 is Home Medix's auto CPAP, built around a patented SAF algorithm that combines advanced flow-sensing with leak-compensated auto-adjustment. Published specs: CPAP + APAP modes, 4–20 cmH₂O pressure range, <30 dB sound, 1.45 kg with integrated heated humidifier, 253 × 168 × 121 mm footprint. EPFlex expiratory pressure relief, multi-level respiratory event detection (flow limitation, snoring, hypopnea, and apnea including OSA and CSA), and ISO 9001 + ISO 13485 + CDSCO approval. Positioned against the ResMed AirSense, Philips DreamStation, and BMC GII auto CPAP tier.",
+  "description_text": "Home Medix HM-CV-20 supports CPAP, APAP across 4–20 cmH₂O, with integrated humidification, manufacturer-listed ≤30 dB(A) sound and 1.45 kg weight. Claro provides therapy reporting. Manufacturer-published price checked 28 October 2026: ₹30,000 before 5% GST, ₹31,500 including GST. Device including humidifier: 2 years under normal operation. Power adapter and SD card: 1 year each. Mask, tube and water tank: 90 days each. Confirm clinical suitability, package and local support before purchase.",
   "related_links": [
     "/cpap/resmed-airsense-11-autoset-cpap-machine/",
     "/cpap/bmc-gll-auto-cpap-with-humidifier/",
@@ -105,8 +95,37 @@
     "pressure_min_cmh2o": 4,
     "pressure_max_cmh2o": 20,
     "has_humidifier": true,
-    "faa_approved": false,
-    "ce_certified": false,
-    "indian_voltage": true
-  }
+    "indian_voltage": true,
+    "warranty_years": 2
+  },
+  "dateModified": "2026-10-28",
+  "evidence": [
+    {
+      "label": "Manufacturer model and purchase information",
+      "url": "https://www.homemedix.in/shop/hm-cv-20",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "label": "Currently published manufacturer brochure",
+      "url": "https://www.homemedix.in/brochures/2026-10/hm-cv-20-brochure.pdf",
+      "checked_at": "2026-10-28",
+      "note": "Technical and reporting text checked against the supplied brochure. Issue date not printed."
+    },
+    {
+      "label": "Archived manufacturer brochure (matches supplied brochure text)",
+      "url": "/resources/manufacturer-brochures/home-medix-hm-cv-20.pdf",
+      "checked_at": "2026-10-28",
+      "note": "Manufacturer specifications; no HHZ bench test. Brochure issue date not printed."
+    },
+    {
+      "label": "Approved PAP warranty and service explanation",
+      "url": "https://www.homemedix.in/resources/pap-warranty-and-service",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "label": "Claro reporting, supported platforms and activation",
+      "url": "https://www.homemedix.in/downloads",
+      "checked_at": "2026-10-28"
+    }
+  ]
 }

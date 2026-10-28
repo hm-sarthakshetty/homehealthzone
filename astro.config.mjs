@@ -92,11 +92,37 @@ function buildLastmodMap() {
   }
   addFromMdx('./src/content/comparison-writeups', (slug) => `${SITE_URL}/compare/${slug}/`);
 
+  // Reused product facts can change a page independently of its older review.
+  const productUpdates = new Map();
+  const setLatest = (url, date) => {
+    if (date && (!map.get(url) || date > map.get(url))) map.set(url, date);
+  };
+  for (const group of ['products', 'cpap-bipap']) {
+    for (const file of readdirSync(`./src/content/${group}`)) {
+      if (!file.endsWith('.json')) continue;
+      const data = JSON.parse(readFileSync(`./src/content/${group}/${file}`, 'utf8'));
+      const date = toIso(data.dateModified);
+      if (!date) continue;
+      productUpdates.set(data.slug, date);
+      const category = group === 'products' ? 'oxygen-concentrators' : data.device_type;
+      setLatest(`${SITE_URL}/${category}/${data.slug}/`, date);
+    }
+  }
+  for (const file of readdirSync('./src/content/comparisons')) {
+    if (!file.endsWith('.json')) continue;
+    const data = JSON.parse(readFileSync(`./src/content/comparisons/${file}`, 'utf8'));
+    const slugs = [data.productA_slug, data.productB_slug];
+    // EverFlo comparisons also render the shared HM-KV alternative card.
+    if (slugs.includes('philips-everflo-5-lpm')) slugs.push('home-medix-5-lpm');
+    const latest = slugs.map((slug) => productUpdates.get(slug)).filter(Boolean).sort().at(-1);
+    setLatest(`${SITE_URL}/compare/${data.slug}/`, latest);
+  }
+
   // City and city-intent pages share the explicit date on their source record.
   try {
     const cityPages = JSON.parse(readFileSync('./src/data/oxygenConcentratorCityPages.json', 'utf8'));
     for (const cityPage of cityPages) {
-      const iso = toIso(cityPage.lastReviewed);
+      const iso = toIso(cityPage.dateModified ?? cityPage.lastReviewed);
       if (!iso) continue;
       map.set(`${SITE_URL}/oxygen-concentrators/5-lpm/${cityPage.slug}/`, iso);
       for (const intent of ['service', 'repair', 'dealers', 'price', 'rental']) {

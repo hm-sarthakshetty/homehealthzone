@@ -35,11 +35,12 @@ const basicPairs: Array<[string, string, string]> = [
   ['Category', sanitize(productA.category), sanitize(productB.category)],
   [
     'Price',
-    formatPrice(priceA, 'current', 'raw') ?? '',
-    formatPrice(priceB, 'current', 'raw') ?? '',
+    priceA.checked_at ? formatPrice(priceA, 'current', 'raw') ?? 'Dated quote required' : 'Dated quote required',
+    priceB.checked_at ? formatPrice(priceB, 'current', 'raw') ?? 'Dated quote required' : 'Dated quote required',
   ],
   // Legacy behaviour: MRP cell carries no currency symbol.
-  ['MRP', formatPrice(priceA, 'mrp', 'bare') ?? '', formatPrice(priceB, 'mrp', 'bare') ?? ''],
+  ['MRP', priceA.checked_at ? formatPrice(priceA, 'mrp', 'bare') ?? '' : '', priceB.checked_at ? formatPrice(priceB, 'mrp', 'bare') ?? '' : ''],
+  ['Price basis / tax / checked', [priceA.basis, priceA.tax_note, priceA.checked_at].filter(Boolean).join(' · '), [priceB.basis, priceB.tax_note, priceB.checked_at].filter(Boolean).join(' · ')],
   ['Stock', sanitize(productA.stock), sanitize(productB.stock)],
 ];
 

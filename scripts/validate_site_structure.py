@@ -90,7 +90,7 @@ for route in routes:
         if target.scheme and target.scheme not in ("http", "https"):
             continue
         target_path = target.path or route
-        if target_path.endswith(('.json', '.txt', '.xml')):
+        if target_path.endswith(('.json', '.txt', '.xml', '.pdf')):
             assert (DIST / target_path.lstrip('/')).exists(), f"Broken reference: {route} -> {href}"
             continue
         assert page_path(target_path).exists(), f"Broken link: {route} -> {href}"

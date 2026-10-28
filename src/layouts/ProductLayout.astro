@@ -115,6 +115,7 @@ const topFive = topFivePillar(product.category);
         {product.category && <span>{product.category}</span>}
       </p>
     </header>
+    {product.dateModified && <p class="meta-line"><time datetime={product.dateModified}>Product facts updated {product.dateModified}</time>{reviewFrontmatter?.lastReviewed && <> · Previous review {reviewFrontmatter.lastReviewed}</>}</p>}
 
     {topFive && (
       <aside class="product__topfive" aria-label="Category ranking">
@@ -154,7 +155,7 @@ const topFive = topFivePillar(product.category);
             <PriceBadge
               product={product}
             />
-            <PriceDisclaimer />
+            {product.prices?.IN?.basis ? <p class="meta-line">{product.prices.IN.configuration} Confirm delivery, setup and availability; separately quoted charges may apply.</p> : <PriceDisclaimer />}
           </>
         )}
         {stockLabel && <p><span class={stockClass}>{stockLabel}</span></p>}
@@ -221,6 +222,12 @@ const topFive = topFivePillar(product.category);
     )}
 
     <slot />
+    {product.evidence?.length > 0 && (
+      <section aria-labelledby="product-evidence-heading">
+        <h2 id="product-evidence-heading">Sources and configuration</h2>
+        <ul>{product.evidence.map((source) => <li><a href={source.url}>{source.label}</a> · checked <time datetime={source.checked_at}>{source.checked_at}</time>{source.note && <>. {source.note}</>}</li>)}</ul>
+      </section>
+    )}
 
     {faqs.length > 0 && <FAQSection faqs={faqs} />}
 

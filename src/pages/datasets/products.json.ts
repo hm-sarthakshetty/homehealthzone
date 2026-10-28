@@ -46,6 +46,8 @@ export const GET: APIRoute = async () => {
         stock_text: entry.data.stock || null,
         normalized_specs: entry.data.normalized_specs,
         source_url: entry.data.source_url,
+        date_modified: entry.data.dateModified ?? review?.dateModified ?? null,
+        evidence: entry.data.evidence,
         review: review
           ? {
               url: `${SITE}${canonicalPath}`,

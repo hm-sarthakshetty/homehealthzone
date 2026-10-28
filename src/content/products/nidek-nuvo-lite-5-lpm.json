@@ -1,19 +1,14 @@
 {
   "slug": "nidek-nuvo-lite-5-lpm",
-  "source_url": "",
-  "product_name": "Nidek Nuvo Lite 5 LPM",
+  "source_url": "https://www.nidekmedical.com/wp-content/uploads/2022/05/2010-8401ce-rev-g-ifu-nuvo-lite-family.pdf",
+  "product_name": "Nidek Mark 5 Nuvo Lite (model 925; 230 V/50 Hz source configuration)",
   "brand": "Nidek Medical",
   "brand_href": "",
   "category": "5 LPM",
-  "price_current": "57,599.04",
-  "price_mrp": "66,240.00",
+  "price_current": null,
+  "price_mrp": null,
   "price_symbol": "₹",
   "prices": {
-    "IN": {
-      "amount": 57599.04,
-      "currency": "INR",
-      "mrp": 66240
-    },
     "US": {
       "amount": 737.6,
       "currency": "USD",
@@ -21,10 +16,13 @@
       "checked_at": "2026-10-13"
     }
   },
-  "countries": ["IN", "US"],
-  "rating_value": "4.5 (12)",
-  "rating_count": "12",
-  "stock": "In Stock",
+  "countries": [
+    "IN",
+    "US"
+  ],
+  "rating_value": null,
+  "rating_count": null,
+  "stock": "Confirm availability and exact configuration with seller",
   "images": [
     {
       "src": "/images/products/nidek-nuvo-lite-5-lpm-ff98a52cf2.jpg",
@@ -53,32 +51,32 @@
     }
   ],
   "key_features": {
-    "Purity": "90-96%",
+    "Purity": "Official IFU: 87–95.5% at 5 L/min; 925 brochure gives 90% (+6.5%/−3%); verify exact model/revision",
     "Type": "Home Stationary",
-    "Continuous Flow": "1-5LPM",
-    "Weight": "13.6kg",
-    "Oxygen Purity Indicator (OPI)": "Yes",
-    "Power consumption": "290watts"
+    "Continuous Flow": "0.125–5 L/min (IFU family)",
+    "Weight": "14.5 kg (model 925, 230 V/50 Hz)",
+    "Oxygen Purity Indicator (OPI)": "OCSI is variant-dependent; verify exact unit",
+    "Power consumption": "300 W average (model 925, 230 V/50 Hz)"
   },
   "spec_tables": {
     "Technical details": {
-      "Purity": "90-96%",
+      "Purity": "Official IFU: 87–95.5% at 5 L/min; 925 brochure gives 90% (+6.5%/−3%); source values differ",
       "Type": "Home Stationary",
-      "Continuous Flow": "1-5LPM",
-      "Weight": "13.6kg",
-      "Oxygen Purity Indicator (OPI)": "Yes",
-      "Power consumption": "290watts",
-      "Sound level": "40db",
+      "Continuous Flow": "0.125–5 L/min (IFU family)",
+      "Weight": "14.5 kg (model 925, 230 V/50 Hz)",
+      "Oxygen Purity Indicator (OPI)": "OCSI is variant-dependent; verify exact unit",
+      "Power consumption": "300 W average (model 925, 230 V/50 Hz)",
+      "Sound level": "Unresolved: IFU <58 dBA; 925 brochure 40 dBA typical; official OCSI guide 45 to <40 dBA by model",
       "Dimensions": "23H x 14W x 9Dinch",
-      "Operating altitude": "7500feet",
+      "Operating altitude": "Not established for the offered unit; confirm model/revision manual",
       "Outlet pressure": "5.5psi"
     },
     "Additional details": {
-      "Oxygen Purity % Analyzer": "",
+      "Oxygen Purity % Analyzer": "OCSI variant-dependent; verify exact unit",
       "Loss of Power Alarm": "Yes",
       "System Malfunction Alarm": "",
       "No Flow Alarm": "",
-      "Indian Voltage Model": "Yes",
+      "Indian Voltage Model": "IFU model 925 is 230 V/50 Hz; exact supplied SKU to confirm",
       "Company Headquarters": "USA",
       "US FDA Approved": "Yes",
       "FAA Approved": "",
@@ -87,24 +85,38 @@
   },
   "faqs": [
     {
-      "q": "3. What is the warranty on Nidek Nuvo Lite in India?",
-      "a": "Nidek Nuvo Lite comes with 3 years of warranty in India."
+      "q": "What warranty applies to an India purchase?",
+      "a": "Obtain model-specific written terms from the seller: warranty issuer, period, exclusions, serial-number region, claim route and labour/transport arrangements. A manufacturer product document alone does not establish coverage for a particular Indian sale."
     }
   ],
-  "description_text": "Nidek Nuvo Lite Oxygen Concentrator\n\nThe American-origin oxygen concentrator, Nidek Nuvo Lite 5 LPM is one of the most reputed products manufactured by the Nidek brand. The machine provides flow rate from 0.125-5 LPM with high oxygen purity of 90% ( +6.5/ -3%) at all flow rates.\n\nLight and Compact: Nidek Nuvo 5 litre weighs only 13.60 Kgs and is the lightest home oxygen concentrator in the current market.\n\nPower Consumption: Nidek 5 LPM utilizes solely 290 W of power, making it highly energy-efficient.\n\nSound Level: This oxygen concentrator produces sound at just 40 dB, assuring it is as quiet as a library. \n\nLockable Flowmeter:  Nidek Nuvo Lite comes with a lockable flow meter that has to be rotated to set the desired flow rate. This flow meter gets tightly locked at each flow setting and you will hear a “tuck” sound as soon as you set it.\n\nWarranty: Nidek Nuvo 5 LPM comes with 3 years warranty.\n\nCertifications: The product is FDA approved and CE certified. \n\nAdditional Features:\n\n\n\tThe machine comes with locks on all four wheels that keep it secure in one place. The wheels are super smooth and appear to be of top-notch quality\n\tIt is the only 5 LPM machine that comes with 12 flow ranges from 0.125-5 LPM\n\n\nWhat's in the Box?\n\n\n\tNidek Nuvo Lite Device\n\tHumidifier Bottle\n\tNasal Cannula\n\tConnecting Tube\n\tWarranty Card\n\tUser manual",
+  "description_text": "Evidence for this entry is tied to Nidek Mark 5 Nuvo Lite model 925, 230 V/50 Hz, and must not be applied to every Nuvo Lite family variant. The official family IFU lists 0.125–5 L/min, 87–95.5% at 5 L/min, 14.5 kg, and 300 W average for model 925. A 925 brochure gives 90% (+6.5%/−3%) at 5 L/min and 40 dBA typical, while the official family IFU noise specification is <58 dBA and the OCSI guide gives 45 to <40 dBA depending on model. Concentration and sound therefore need confirmation against the exact offered unit and document revision. Verify India-supplied model, OCSI fitment, price, package, warranty, and local service. Sources: https://www.nidekmedical.com/wp-content/uploads/2022/05/2010-8401ce-rev-g-ifu-nuvo-lite-family.pdf ; https://www.somatco.com/NuvoLite-Mark5-NIDEK.pdf ; https://www.nidekmedical.com/wp-content/uploads/2023/03/2010-8401ce-rev-b-nuvo-lite-ocsi-english-single.pdf.",
   "related_links": [],
   "normalized_specs": {
-    "weight_kg": 13.6,
-    "flow_min_lpm": 1.0,
+    "weight_kg": 14.5,
+    "flow_min_lpm": 0.125,
     "flow_max_lpm": 5.0,
-    "purity_min": 90.0,
-    "purity_max": 96.0,
-    "noise_db": 40.0,
-    "power_w": 290,
-    "has_opi": true,
-    "faa_approved": false,
-    "ce_certified": true,
-    "indian_voltage": true,
-    "altitude_ft": 7500
-  }
+    "power_w": 300,
+    "indian_voltage": true
+  },
+  "dateModified": "2026-10-28",
+  "evidence": [
+    {
+      "label": "Nidek Mark 5 Nuvo Lite family IFU, revision G (March 2022)",
+      "url": "https://www.nidekmedical.com/wp-content/uploads/2022/05/2010-8401ce-rev-g-ifu-nuvo-lite-family.pdf",
+      "checked_at": "2026-10-28",
+      "note": "Model 925 is 230 V/50 Hz; family IFU flow 0.125–5 LPM, 87–95.5% at 5 LPM, 14.5 kg, 300 W average; sound <58 dBA."
+    },
+    {
+      "label": "Nidek OCSI guide",
+      "url": "https://www.nidekmedical.com/wp-content/uploads/2023/03/2010-8401ce-rev-b-nuvo-lite-ocsi-english-single.pdf",
+      "checked_at": "2026-10-28",
+      "note": "Lists 45 to <40 dBA depending on model; OCSI/model applicability must be matched."
+    },
+    {
+      "label": "Nuvo Lite Mark 5 model 925 brochure",
+      "url": "https://www.somatco.com/NuvoLite-Mark5-NIDEK.pdf",
+      "checked_at": "2026-10-28",
+      "note": "Distributor-hosted Nidek brochure says 40 dBA typical and 90% (+6.5%/−3%) at 5 LPM; conflicts with family IFU. Exact unit/revision pending."
+    }
+  ]
 }

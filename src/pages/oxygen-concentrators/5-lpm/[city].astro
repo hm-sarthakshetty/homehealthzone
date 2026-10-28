@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../../layouts/BaseLayout.astro';
+import SchemaArticle from '../../../components/SchemaArticle.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 import FAQSection from '../../../components/FAQSection.astro';
 import cityPages from '../../../data/oxygenConcentratorCityPages.json';
@@ -17,6 +18,8 @@ interface FAQItem {
 }
 
 interface CityPage {
+  dateModified?: string;
+  lastReviewed?: string;
   slug: string;
   city: string;
   title: string;
@@ -42,11 +45,11 @@ const breadcrumbs = [
 
 const homeMedixPick = {
     useCase: cityPage.primaryPick === 'home-medix' || !cityPage.primaryPick
-      ? 'Best value local-service pick'
-      : 'Strong value alternative',
+      ? 'Published-specification option with confirmed local service'
+      : 'Published-specification alternative',
     model: 'Home Medix HM-KV',
     href: '/oxygen-concentrators/home-medix-5-lpm/',
-    why: '13 kg, <=40 dB field-verified sound, 320 VA draw, OPI plus live purity display, nebulizer, 3-year / 10,000-hour warranty.',
+    why: '13 kg, ≤40 dB(A) manufacturer-stated sound, 320 W draw, manufacturer-listed low-oxygen monitoring/alarm, nebulizer, 3 years or 10,000 operating hours of warranty, whichever comes first.',
     caveat: 'Buy only after confirming authorised local service and spare availability.',
   };
 
@@ -128,13 +131,14 @@ const itemListLd = {
 };
 ---
 <BaseLayout title={cityPage.title} description={cityPage.description} canonicalURL={canonicalURL}>
+  <SchemaArticle title={cityPage.title} description={cityPage.description} dateModified={cityPage.dateModified} lastReviewed={cityPage.lastReviewed} author="HHZ Editorial" />
   <article class="city-buying-page">
     <Breadcrumbs items={breadcrumbs} />
 
     <header class="city-header">
       <p class="eyebrow">5 LPM oxygen concentrator buying guide</p>
       <h1>{cityPage.title}</h1>
-      <p class="meta-line">Reviewed by HHZ Editorial for Indian home oxygen buyers</p>
+      <p class="meta-line">By HHZ Editorial · Editorial update <time datetime={cityPage.dateModified}>{cityPage.dateModified}</time> · Previous review {cityPage.lastReviewed}</p>
     </header>
 
     <section class="answer-block" aria-label="Short answer">
@@ -217,8 +221,8 @@ const itemListLd = {
             The <a href="/oxygen-concentrators/home-medix-5-lpm/">Home Medix HM-KV 5 LPM</a>
             remains a strong value alternative when local service is confirmed: 13 kg chassis,
             0.5-5 LPM continuous flow, 93% +/- 3% purity, &lt;=40 dB field-verified sound,
-            320 VA power draw, OPI plus live oxygen purity display, integrated nebulization,
-            3-year / 10,000-hour warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
+            320 W power draw, manufacturer-listed low-oxygen monitoring/alarm, integrated nebulization,
+            3 years or 10,000 operating hours of warranty, whichever comes first, and CDSCO, ISO 9001, and ISO 13485 documentation.
           </p>
         </section>
       </>
@@ -230,8 +234,8 @@ const itemListLd = {
           <p>
             The <a href="/oxygen-concentrators/home-medix-5-lpm/">Home Medix HM-KV 5 LPM</a>
             is the clearest value pick when local service is confirmed: 13 kg chassis, 0.5-5 LPM
-            continuous flow, 93% +/- 3% purity, &lt;=40 dB field-verified sound, 320 VA power draw,
-            OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour
+            continuous flow, 93% +/- 3% purity, &lt;=40 dB field-verified sound, 320 W power draw,
+            manufacturer-listed low-oxygen monitoring/alarm, integrated nebulization, 3-year / 10,000-hour
             warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
           </p>
         </section>

@@ -1570,271 +1570,117 @@ Consult your prescribing physician before finalising any purchase against your s
 
 ---
 
-# Best BiPAP Machines in India (2026)
+# BiPAP Machines to Compare in India (2026)
 
 Source: https://homehealthzone.com/top-5/bipap-machines/
 
-The BiPAP (bilevel positive airway pressure) machine is the correct class for patients whose clinical picture is not served by a CPAP — central sleep apnoea, CPAP-failure OSA, obesity hypoventilation syndrome (OHS), COPD-OSA overlap with hypercapnia, neuromuscular disease with preserved spontaneous breathing, and severe hypoventilation that needs volume-assured pressure support (iVAPS, AVAPS, TVAPS). It is not a default upgrade from CPAP. This listicle ranks the five BiPAP machines HHZ considers the strongest buys for Indian households in 2026 by editorial score. The default pick for any patient with documented nocturnal hypoventilation is the ResMed Lumis 150 VPAP ST — the only iVAPS-capable unit in the list with native cloud connectivity.
+Bilevel positive airway pressure (BiPAP/BPAP) supplies different inspiratory and expiratory pressures. Some devices also offer a timed backup breath or a volume-assured mode. The right device depends on the clinician's prescription and setup; a product shortlist cannot establish that BiPAP is indicated or choose settings. See the [CPAP vs BiPAP guide](/guides/cpap-vs-bipap-indications/) and [BiPAP-ST guide](/guides/bipap-st-devices-india/).
 
-For live market bands and a complete-cost checklist, see the [BiPAP machine price guide for India](/bipap/price-india/). This ranking answers **which BiPAP is best**; the price page answers **what each mode and package should cost**.
+## Five BiPAP options to compare
 
-## How we ranked
+This shortlist retains the ResMed and Philips models already covered and includes Home Medix HM-BV-30. It is a comparison set, not an ordinal ranking. Prices for the non-Home Medix models are not stated because a current, configuration-specific India total was not verified on 28 October 2026. Request a dated quote including GST, mask/size, humidifier, tubing, power supply, setup and delivery. Specifications linked below are manufacturer-published claims, not HHZ measurements.
 
-HHZ applies the same rubric to every BiPAP: pressure range (2–25 cmH₂O minimum for adult NIV), therapy mode set (CPAP/S/ST/T/PAC/iVAPS or AVAPS or TVAPS), backup-rate intelligence, central-apnoea detection, published sound level, weight, integrated humidification, cloud connectivity for clinician-side remote titration, altitude compensation, Indian authorised-dealer depth, warranty term, and price-to-performance against in-class alternatives. We do not run bench tests — all performance claims are per published spec, manufacturer brochure, or field-observed in the dealer network. The full methodology is at [our methodology page](/methodology/).
 
-Prices and availability were checked on 7 July 2026. The ranking table above is the citation summary: it exposes the model name, HHZ score, price, mode stack, sound, weight, warranty, and the reason each BiPAP ranks where it does.
 
-## Why this ranking is defensible
+| Model | Published modes and specifications | Total price and package | Warranty | Data/reporting | Verified support route | Why shortlisted / limitation |
+| --- | --- | --- | --- | --- | --- | --- |
+| [ResMed Lumis 150 VPAP ST](/bipap/resmed-lumis-vpap-st-bipap-tripack/) | CPAP, S, T, ST, PAC and iVAPS with optional features by configuration; 2–25 cmH₂O in bilevel modes and 4–20 in CPAP. Integrated HumidAir humidifier depends on bundle. [ResMed APAC fact sheet](https://document.resmed.com/documents/products/machine/lumis-series/fact-sheet/1018814_lumis-150-st_fact-sheet_apac_eng.pdf). | Dated India quote required; confirm exact bundle, mask, humidifier, tube, power supply and GST. | Exact India device/accessory warranty and claim path not verified; get written terms for the unit and seller. | AirView lets clinicians view therapy statistics remotely; ResMed says Lumis data is available about an hour after the session. Confirm connectivity and clinic access for exact SKU. [Lumis support](https://ap.resmed.com/healthcare-professional/devices/ventilation-devices/lumis). | ResMed product documents and support are available; India service location, local parts and seller authorisation require confirmation. [Lumis support](https://ap.resmed.com/healthcare-professional/devices/ventilation-devices/lumis). | Included as the list's iVAPS-capable configuration for comparison with non-volume-assured ST and auto-bilevel devices. Limitation: higher-capability mode set does not establish clinical need; India price, configuration and service remain unverified. |
+| [ResMed Lumis 100 VPAP ST](/bipap/resmed-lumis-100-vpap-st-bipap/) | CPAP, S, T, ST with optional iBR, and PAC; 2–25 cmH₂O in S/T/T/PAC modes; 4–20 CPAP. [ResMed fact sheet](https://document.resmed.com/documents/products/machine/lumis-series/fact-sheet/1018703_lumis-100-st_fact-sheet_uk-eur-%202_eng.pdf). | Dated India quote required; confirm exact model (ST vs ST-A), mask, humidifier/tubing, power supply and GST. | Exact India device/accessory warranty and claim path not verified; request written terms. | Manufacturer fact sheet describes AirView remote statistics and settings support; verify connected capability and clinician access on exact regional SKU. | Official fact sheet and [Lumis support page](https://ap.resmed.com/healthcare-professional/devices/ventilation-devices/lumis) available; India service coverage and seller authorisation require confirmation. | Included as an ST/backup-rate comparator without the 150's iVAPS mode. Limitation: exact ST versus ST-A configuration matters; no current India price/package or warranty verified. |
+| [ResMed AirCurve 10 VAuto](/bipap/resmed-aircurve-v-auto/) | VAuto, S and CPAP; 2–25 cmH₂O VAuto and 4–20 CPAP. Fact sheet lists HumidAir and wireless/AirView options by configuration. [APAC fact sheet](https://document.resmed.com/documents/products/machine/aircurve-series/fact-sheet/aircurve10-vauto_fact-sheet_apac_eng.pdf) and [official product page](https://ap.resmed.com/healthcare-professional/devices/sleep-apnea-devices/aircurve-10-vauto). | Dated India quote required; confirm exact VAuto bundle, mask, humidifier/tube, power supply, GST and stock status. | Exact India device/accessory warranty and claim path not verified; request written terms. | ResMed describes AirView therapy statistics and remote support; confirm connectivity for the exact SKU and clinic access. | ResMed product support resources are available; local service coverage, parts and seller authorisation require confirmation. | Included to represent auto-adjusting bilevel with a published VAuto pressure envelope. Limitation: VAuto is distinct from timed backup-rate or volume-assured modes; India package and service were not verified. |
+| [Home Medix HM-BV-30](/bipap/home-medix-bv-30/) | CPAP, Auto CPAP, S, Auto S, T, ST, TVAPS and PC; 4–30 cmH₂O; integrated humidifier; ≤30 dB(A); 1.45 kg. [Manufacturer page](https://www.homemedix.in/shop/hm-bv-30); [brochure](/resources/manufacturer-brochures/home-medix-hm-bv-30.pdf). | ₹38,000 + 5% GST = **₹39,900 incl. GST**, manufacturer price checked 28 Oct 2026. Manufacturer pack confirmed for this update: one device, full-face mask, reusable filter, power cord, SD card, breathing circuit and carrying bag. The current manufacturer model page confirms the supplied pack. | Device including humidifier 2 years; adapter and SD card 1 year each; mask, tube and water tank 90 days each under normal operation. Claim, registration, labour and transport terms require confirmation. [Terms](https://www.homemedix.in/resources/pap-warranty-and-service). | Claro Mobile for Android scans the device QR, reviews recent reports and exports a PDF on the phone. Claro desktop reads memory-card data and exports reports; desktop setup needs an activation code from Home Medix. [Claro downloads/setup](https://www.homemedix.in/downloads). | Home Medix service team confirms route, availability, timing and charges by location; no fixed turnaround or all-city coverage is promised. [Service information](https://www.homemedix.in/support). | Included as a currently priced India model whose brochure lists ST and TVAPS alongside CPAP modes. Limitation: device versatility does not make every mode appropriate; confirm mask fit and location-specific support before purchase. |
+| [Philips DreamStation BiPAP AVAPS](/bipap/philips-dreamstation-bipap-avaps/) | CPAP, S, S/T, T and PC; AVAPS target volume 200–1500 mL/breath; ventilation 4–30 cmH₂O, EPAP 4–25, CPAP max 20; heated humidification. [Philips product page](https://www.usa.philips.com/sleep-respiratory-care/products/HCINX1130T19/r) and [user manual](https://www.documents.philips.com/assets/20210225/4083d13059364db1a974acda00bc3912.pdf). | Dated India quote required. Verify exact model/configuration, package, GST, serial region, new-stock status and recall/remediation record. | Philips US product page lists 2 years; that does not establish India coverage. Obtain written India warranty and claim terms for exact serial number. | Philips manual says an SD card is supplied for homecare-provider review; optional cellular modem/Wi-Fi can transfer data to Philips proprietary compliance software on supported configurations. Verify the India device, software and clinic access. | Philips identifies this device as limited distribution in the US and says US sales of new sleep/respiratory devices remain paused pending FDA agreement. This does not establish India availability or service; verify local stock, serial region and support. | Included as a published AVAPS comparator with defined volume and pressure ranges. Limitation: India availability, warranty and software workflow are unverified; recall/serial documentation and local support need checking before considering a quote. |
 
-BiPAP ranking starts with indication, not brand. HHZ separates auto-BiPAP for CPAP-failure OSA from ST backup-rate therapy and from volume-assured home NIV. Devices are scored on mode stack, pressure envelope, backup-rate intelligence, volume-assurance capability, cloud workflow, humidification, noise, warranty, and whether Indian service coverage is realistic for a nightly therapy device.
 
-For source depth, read the individual reviews for the [ResMed Lumis 150 VPAP ST](/bipap/resmed-lumis-vpap-st-bipap-tripack/), [ResMed Lumis 100 VPAP ST](/bipap/resmed-lumis-100-vpap-st-bipap/), [ResMed AirCurve 10 V Auto](/bipap/resmed-aircurve-v-auto/), [Home Medix HM-BV-30 BiPAP](/bipap/home-medix-bv-30/), and [Philips DreamStation BiPAP AVAPS](/bipap/philips-dreamstation-bipap-avaps/). For therapy selection, see the [CPAP vs BiPAP decision tree](/guides/cpap-vs-bipap-indications/), [BiPAP-ST device guide](/guides/bipap-st-devices-india/), and [TVAPS/AVAPS/iVAPS guide](/guides/tvaps-avaps-ivaps-devices-india/).
 
-## The top 5
+For either Home Medix PAP device, the published warranty reference excludes damage associated with operation outside device specifications, unsuitable accessories, or unapproved technical changes; unauthorised disassembly can affect eligibility for free maintenance. Confirm full coverage, claim process, charges and service location with Home Medix. [Warranty terms](https://www.homemedix.in/resources/pap-warranty-and-service).
 
-### 1. ResMed Lumis 150 VPAP ST — 8.5
+**How to read the comparison:** HHZ's editorial judgment is to group these five because their published capability sets span auto-bilevel, backup-rate and volume-assured modes, while the exact package and service route can materially change the purchase. We do not claim one model is clinically superior or suitable for a condition based on this table, and we have not bench-tested these devices. Home Medix's current India price and contents are the only purchase total verified for this update. All other totals, package contents and India warranty terms need a dated written quote. The [HHZ methodology](/methodology/), [about page](/about/) and [editorial policy](/editorial-policy/) describe how we separate manufacturer specifications from editorial judgment.
 
-**Price snapshot** — indicative retail ₹63,490 (listed MRP ₹138,000), 1.26 kg, 2–25 cmH₂O pressure range, 25 dB published sound, six therapy modes (iVAPS, CPAP, S, ST, T, PAC), native cellular connectivity, 2-year manufacturer warranty (sometimes 3-year dealer extension), FDA/FAA/CE approved.
+## Compare prescription, package and support
 
-**Pros**
-- iVAPS (Intelligent Volume-Assured Pressure Support) mode targets alveolar ventilation rather than fixed pressure — the published standard-of-care for severe OHS, advanced neuromuscular disease, and chronic hypercapnic COPD.
-- Full six-mode therapy set (iVAPS, CPAP, S, ST, T, PAC) covers essentially every home-NIV clinical indication on a single chassis.
-- Cloud connectivity/Wi-Fi published as Yes — native AirView integration for remote titration, which hypoventilation management genuinely needs across the first 2–4 weeks of therapy.
-- iBR (Intelligent Backup Rate) delivers backup breaths only during real apnoeas or effort failures, not benign sighs or coughs — meaningful for NMD patients with variable effort.
-- Ti Control, Trigger and Cycle Sensitivity, Rise Time all configurable — complete clinical tuning envelope. VSync leak compensation keeps iVAPS ventilation estimates clean through mask leak.
-- Full HumidAir plus ClimateLineAir heated-tube climate control; Auto Ramp and Ramp Down; Pressure Support published as a directly-readable clinical parameter.
+**Mode before brand:** Ask the prescriber to identify the required mode, pressure range, backup-rate requirement and, if applicable, the volume target and monitoring plan. Auto-bilevel (such as VAuto) and timed or volume-assured ventilation are different capabilities. Do not select a mode or change settings from a product page.
 
-**Cons**
-- ₹63,490 retail sits at the top of the home-BiPAP bracket and is only justified when iVAPS is clinically indicated — uncomplicated OSA patients should not be on this device.
-- iVAPS commissioning requires clinician setup with target alveolar ventilation and baseline spirometry — not a plug-and-play device.
-- Weight at 1.26 kg and footprint matches the Lumis 100 — no portability advantage over the cheaper sibling.
-- ₹15,590 premium over the Lumis 100 is only defensible when iVAPS or native cloud connectivity is the load-bearing requirement.
+**Full system cost:** For every quote, confirm exact device/SKU, GST, mask model and size, humidifier and chamber, tube, power supply, filter, SD card, bag, setup/training, delivery and expected replacement supplies. A product-family price or brochure does not guarantee those items are in a particular seller's box.
 
-**Best for** — severe OHS (BMI >45, daytime PaCO₂ >55 mmHg), advanced NMD (ALS with FVC &lt;50% predicted, DMD transitioning to nocturnal NIV), chronic hypercapnic COPD needing high-intensity NIV, any hospital-to-home transition after acute hypercapnic respiratory failure where ventilation targets from ICU need to be maintained.
+**Warranty and service:** Request the warranty issuer, serial-number region, start date, exclusions, registration or purchase-channel requirements, claim contact, assessment location, transport/labour charges and repair turnaround in writing. A manufacturer's global product or support page does not prove India-side dealer service. Home Medix's published PAP terms list a two-year device/humidifier period and shorter accessory periods under normal operation; some claim and service details remain unconfirmed.
 
-Full review at [/bipap/resmed-lumis-vpap-st-bipap-tripack/](/bipap/resmed-lumis-vpap-st-bipap-tripack/).
-
-### 2. ResMed Lumis 100 VPAP ST — 8.4
-
-**Price snapshot** — indicative retail ₹47,900 (listed MRP ₹107,520), 1.2 kg, 2–25 cmH₂O pressure range, 25 dB published sound, five therapy modes (CPAP, S, ST, T, PAC), 2-year manufacturer warranty (sometimes 3-year dealer extension), FDA/FAA/CE approved.
-
-**Pros**
-- Full five-mode clinical stack (CPAP, S, ST, T, PAC) with Intelligent Backup Rate covers central apnoea, NMD with preserved spontaneous effort, COPD-OSA overlap with mild hypercapnia, and moderate OHS.
-- iBR logic distinguishes real apnoeas from benign respiratory pauses, delivering backup breaths only when clinically warranted — meaningfully better patient-ventilator synchrony than plain backup-rate BiPAPs.
-- PAC mode (Pressure Assist Control) — fixed-Ti time-cycled mode for patients with unreliable inspiratory effort. Not available on the discontinued AirCurve 10 ST.
-- ₹47,900 retail is ₹19,288 below the discontinued AirCurve 10 ST and ₹15,590 below the iVAPS-capable Lumis 150 — the best-value clinical ST BiPAP in the Indian market.
-- 2–25 cmH₂O pressure range plus full Ti Control, Trigger/Cycle Sensitivity, and Rise Time tuning — complete clinical control envelope.
-- 25 dB published sound and full HumidAir/ClimateLineAir climate control match the Lumis 150 comfort stack.
-
-**Cons**
-- Cloud connectivity/Wi-Fi published as No on the base SKU — data upload to AirView requires manual SD-card retrieval unless the cellular-module-equipped SKU is specified at purchase.
-- No iVAPS — severe OHS and NMD patients with documented nocturnal hypoventilation need to step up to the Lumis 150.
-- Pressure Support is blank on the spec sheet; device delivers fixed IPAP/EPAP bilevel with pressure support as the numerical difference, rather than a PS-targeted algorithm.
-- Not the right device for ASV-indicated patients (severe complex sleep apnoea, treatment-emergent CSA, heart-failure periodic breathing).
-
-**Best for** — central sleep apnoea (CAI >5/hour) without severe cardiac component, NMD with preserved spontaneous effort, COPD-OSA overlap with PaCO₂ 45–55 mmHg, moderate OHS (BMI 35–45, PaCO₂ 45–50) before iVAPS is clinically required.
-
-Full review at [/bipap/resmed-lumis-100-vpap-st-bipap/](/bipap/resmed-lumis-100-vpap-st-bipap/).
-
-### 3. ResMed AirCurve 10 V Auto — 8.2
-
-**Price snapshot** — indicative retail ₹66,800 (listed MRP ₹81,600), 1.24 kg, 3–25 cmH₂O pressure range, 25 dB published sound, three therapy modes (CPAP, S, VAuto), native cellular connectivity, 2-year manufacturer warranty (sometimes 3-year dealer extension), FDA/FAA/CE approved.
-
-**Pros**
-- VAuto mode delivers auto-adjusting IPAP with configurable minimum pressure support — the clinically mature auto-BiPAP algorithm for CPAP-failure OSA and complex apnoea without central component.
-- Pressure Support is explicitly published as Yes on the spec sheet and exposed as a directly-set parameter — distinguishes VAuto from plain S-mode bilevel.
-- Built-in cellular modem plus AirView compatibility — nightly data upload enables clinic-led remote titration, which serial IPAP/EPAP/PS/rise-time adjustments in the first 3–6 months of therapy genuinely need.
-- 3–25 cmH₂O pressure range covers the full adult-OSA, CPAP-failure, and mild-to-moderate OHS window; full HumidAir plus ClimateLineAir climate control.
-- 25 dB published sound, 1.24 kg, matches the AirSense 10 comfort envelope.
-- Leakage Compensation and Mask Fit verification — critical for BiPAP where mask leak corrupts cycle-sensitivity signals.
-
-**Cons**
-- ₹66,800 retail is roughly ₹20,000 above the AirSense 11 APAP — many OSA patients prescribed BiPAP do not actually need bilevel therapy.
-- Spec-sheet blanks on RERA reporting and Backup Rate — this is not the right machine for patients with central apnoea, neuromuscular indications, or hypoventilation.
-- No iVAPS, no true volume-assurance — OHS and NMD patients need a Lumis 150, not this device.
-- Not a device for treatment-emergent central sleep apnoea — ASV-class therapy is the correct escalation, not VAuto.
-
-**Best for** — documented CPAP-failure OSA (AHI >5 on AirSense 10/11 despite proper titration, or documented CPAP intolerance), complex sleep apnoea with CAI 2–5/hour (below ASV threshold), mild-to-moderate OHS without iVAPS-level hypoventilation, COPD-OSA overlap with obstructive-dominant burden and mild hypercapnia.
-
-Full review at [/bipap/resmed-aircurve-v-auto/](/bipap/resmed-aircurve-v-auto/).
-
-### 4. Home Medix HM-BV-30 — 8.0
-
-**Price snapshot** — indicative retail ₹38,000 (listed MRP ₹45,000), 1.45 kg with integrated humidifier, 4–30 cmH₂O pressure range, &lt;30 dB published sound, seven therapy modes (CPAP, APAP, S, Auto S, S/T, T, TVAPS), ISO 9001 + ISO 13485 + CDSCO approved.
-
-**Pros**
-- TVAPS (target-volume assured pressure support) at a sub-premium tier — functionally equivalent to ResMed iVAPS and Philips AVAPS, and not listed by the closest Indian competitor BMC G3 B30VT.
-- Full seven-mode clinical stack (CPAP, APAP, S, Auto S, S/T, T, TVAPS) covers straightforward OSA through volume-assured home NIV on a single chassis.
-- 4–30 cmH₂O pressure envelope — 5 cmH₂O higher ceiling than the Lumis platform — covers high-IPAP severe obesity-hypoventilation and elevated-pressure severe OSA.
-- 1.45 kg with integrated heated humidifier is lighter than the BMC G3 B30VT (1.7 kg) and competitive with the Philips DreamStation class. Bedside-credible chassis.
-- Backup rate in T and S/T modes, central-apnea detection (OSA/CSA) in the published spec — feature coverage that closest competitors at this price omit.
-- Patented SAF algorithm with leak-compensated synchronization and multi-level event detection (flow limitation, multi-frequency snoring, multi-severity hypopnea).
-- ₹38,000 retail is substantially below the Lumis 150's ₹63,490 — TVAPS reachable for households pushed out of the ResMed ST-A tier by budget.
-
-**Cons**
-- No CE and no FDA listed on the published spec — weaker paperwork for hospital-channel procurement and international travel clearance.
-- No Wi-Fi, no cloud, no SD card, no Bluetooth — clinics standardised on AirView or Care Orchestrator cannot integrate compliance data.
-- No heated-tube compatibility, no climate control, no adaptive humidification — real four-season comfort gap versus ResMed or Philips premium tier.
-- Central-apnea DETECTION only, not ASV-class treatment — CompSA and cardiac-origin central events still escalate to a ResMed AirCurve ASV or Philips DreamStation ASV.
-- Service-network coverage strongest in South/West India; North-East and remote reach is thin, which is non-trivial for a home-NIV device where nightly downtime is not acceptable.
-
-**Best for** — OHS, progressive NMD, and complex-NIV home prescriptions where the physician requires volume-assured ventilation and the budget cannot reach the ResMed AirCurve ST-A tier, BiPAP-complexity patients with mixed apnoea plus central events managed in Home-Medix-served cities.
-
-Full review at [/bipap/home-medix-bv-30/](/bipap/home-medix-bv-30/).
-
-### 5. Philips DreamStation BiPAP AVAPS — 8.0
-
-**Price snapshot** — indicative retail ₹77,952 (listed MRP ₹142,080), 1.98 kg with humidifier, 4–30 cmH₂O pressure range, 26.1 dB published sound, full CPAP/S/S-T/PC/T/AVAPS mode range, Care Orchestrator cloud, Bluetooth, FAA approved, CE certified (FDA not stated for this Indian SKU).
-
-**Pros**
-- AVAPS (Average Volume Assured Pressure Support) plus AVAPS-AE auto-titration — handles OHS, late-stage COPD with chronic hypercapnia, and neuromuscular disease that pure S/ST BiPAPs cannot deliver safely.
-- 4–30 cmH₂O pressure envelope with full CPAP/S/S-T/PC/T/AVAPS mode range — one of only two Indian-available BiPAPs here covering both the 30 cmH₂O ceiling and the mode depth.
-- Digital Auto-Trak trigger detection with Auto Back-up Rate — sophisticated ventilator logic that Indian pulmonologists prescribing home AVAPS specifically ask for.
-- 1.98 kg with humidifier, 26.1 dB sound, FAA approval, and Care Orchestrator cloud integration — meaningful travel capability for a clinical BiPAP class that traditionally stays bedside.
-- Auto Ramp, Auto On/Off, EPR, preheat, adaptive humidification, climate control, heated-tube compatibility, mask fit — full comfort stack for a sick-patient population where adherence is load-bearing.
-- Philips India's authorised service network is the deepest among imported BiPAP brands in India.
-
-**Cons**
-- 2021 Philips Respironics PE-PUR foam recall — largely remediated by 2026, but AVAPS patients are the sickest in the DreamStation population and serial-number verification of remediation status is non-negotiable at purchase.
-- ₹77,952 retail is premium — ₹14,462 above the Lumis 150 with similar capability, where the Lumis carries no recall-remediation history.
-- No integrated battery — a gap for AVAPS patients needing mobility beyond the bedside; external inverter-UPS add-ons are a mandatory planning step.
-- SpO₂ monitoring compatibility is not listed in the published additional-details table for this Indian SKU — verify with the supplier if pulse-oximetry co-recording is a clinical requirement.
-- 2-year Indian warranty trails ResMed's 3-year Lumis dealer-extension warranty by a year.
-
-**Best for** — respiratory-physician prescriptions explicitly requiring volume-assured ventilation where the clinic runs Care Orchestrator (not AirView), overlap syndromes (OSA plus OHS) needing AVAPS-AE auto-titration, patients whose trust in Philips post-recall is intact given documented remediation.
-
-Full review at [/bipap/philips-dreamstation-bipap-avaps/](/bipap/philips-dreamstation-bipap-avaps/).
-
-## How to pick between these five
-
-**The indication decides the device.** BiPAP is not one class — it is four overlapping therapies (spontaneous bilevel, ST backup-rate, auto-BiPAP, volume-assured) served by different machine tiers. Map the indication first, then pick the machine:
-
-- **CPAP-failure OSA or complex sleep apnoea without central burden** → AirCurve 10 V Auto. VAuto's auto-IPAP with configurable minimum PS is the correct algorithm. Lumis 100 and Lumis 150 are over-specified; HM-BV-30 and DreamStation AVAPS are over-specified.
-- **Central sleep apnoea, NMD with preserved effort, moderate OHS, COPD-OSA overlap with mild hypercapnia** → Lumis 100 VPAP ST. iBR backup-rate intelligence is the correct feature. VAuto lacks backup rate.
-- **Severe OHS (BMI >45, PaCO₂ >55), advanced NMD, chronic hypercapnic COPD, documented nocturnal hypoventilation** → Lumis 150 VPAP ST (iVAPS) or DreamStation BiPAP AVAPS. Volume-assured ventilation is non-substitutable at this clinical tier. Between the two, pick based on clinic platform (AirView = Lumis 150; Care Orchestrator = DreamStation AVAPS) and recall-comfort preference.
-- **Same severe-indication patient at a sub-premium budget** → HM-BV-30. TVAPS at ₹38,000 is the only Indian-market answer for volume-assured therapy when the Lumis 150 or DreamStation AVAPS budgets are out of reach. Real clinical coverage trade for narrower paperwork and no cloud.
-
-**Cloud integration matters more on BiPAP than on CPAP.** A CPAP stabilises within weeks of titration; a BiPAP often needs serial IPAP, EPAP, PS, rise-time, and Ti adjustments over the first 3–6 months. Three units in the list ship native cellular — Lumis 150, AirCurve 10 V Auto, DreamStation BiPAP AVAPS. The Lumis 100 base SKU has cellular as optional — confirm "With Cellular" at purchase if the clinic runs AirView. The HM-BV-30 has no cloud pathway. For clinics running remote titration, the cloud-enabled four are the shortlist.
-
-**Sound and chassis.** All five units sit at 25–30 dB published — all below bedside-disruption threshold in a typical Indian bedroom. The DreamStation BiPAP AVAPS is the heaviest in the list at 1.98 kg (with humidifier); the Lumis 100 the lightest at 1.2 kg. None of these are travel-portable BiPAPs — the category of travel-BiPAP effectively does not exist in India at a price point we can recommend.
-
-**Warranty and recall history.** The Lumis platform carries 2-year manufacturer, often 3-year dealer extension — the longest in the list. The AirCurve 10 V Auto matches Lumis on warranty term. The DreamStation AVAPS is 2 years manufacturer, with the 2021 foam-recall serial-number verification as the one non-negotiable purchase-time step. The HM-BV-30 ships a 3-year or 10,000-hour warranty consistent with the Home Medix platform; no recall history to verify.
-
-**Price.** The HM-BV-30 at ₹38,000 is the cheapest; the DreamStation AVAPS at ₹77,952 the most expensive. The Lumis 100 at ₹47,900 is the value sweet spot for the ST indications where iVAPS is not clinically required. The AirCurve 10 V Auto at ₹66,800 is the correct spend only on a VAuto-indicated patient; stepping down to the AirSense 11 at ₹63,390 for uncomplicated OSA saves the BiPAP premium.
-
-## Who should look elsewhere
-
-Patients with uncomplicated obstructive sleep apnoea (AHI 15–50, no central component, no hypoventilation, no CPAP trial history) should not be on any BiPAP in this list. The correct first-line device is a CPAP or APAP — see [our CPAP top 5](/top-5/cpap-machines/). Prescribing BiPAP first-line to CPAP-naive uncomplicated OSA is clinically wasteful.
-
-Patients with severe complex sleep apnoea, treatment-emergent central sleep apnoea, or heart-failure periodic breathing need ASV (adaptive servo-ventilation) platforms — ResMed AirCurve 10 ASV or Philips DreamStation ASV — not any of the units in this list. ST-mode backup rate is not a substitute for ASV's pressure-support modulation.
-
-Patients on full or near-full ventilator dependence (late-stage ALS with daytime ventilation, chronic tracheostomy ventilation, post-polio respiratory failure) need dedicated home ventilators (Philips Trilogy, ResMed Astral, Breas Vivo) — life-support-certified devices with dual-circuit operation, multi-tier alarms, and internal battery backup. None of the five units in this list carries ventilator certification or internal battery; a BiPAP with volume-assurance is not a ventilator.
-
-Patients in Indian hill stations above 2,591 m (Leh, Kaza, Spiti villages) should note that published altitude-compensation specifications on these units generally cap around 2,591 m. For long-term residence at higher altitudes, confirm delivered-pressure stability with the brand's Indian service centre before committing.
-
-Buyers in tier-3 cities or rural districts where no authorised ResMed, Philips, or Home Medix service partner sits within a 72-hour dispatch radius should either commit to a metro-relocation plan for service or negotiate a written loaner-unit clause for BiPAP-dependent patients who cannot lose a night of therapy.
-
-Patients or households whose trust in Philips Respironics post-2021 recall is not intact — even for documented-remediated DreamStation 1 units or DreamStation 2 platform units — should default to the Lumis 150 for AVAPS-equivalent therapy.
-
-## Verdict
-
-Use the disease- and prescription-specific shortlists for the [best home NIV machines in India](/guides/best-home-niv-machines-india/), [best BiPAP machines for COPD](/guides/best-bipap-machine-copd-india/), and [best high-pressure BiPAP machines](/guides/best-high-pressure-bipap-machines-india/). A COPD or home-NIV search often implies a backup-rate or volume-assured prescription, while “high pressure” can still describe several different device classes; these guides keep those intents separate.
-
-For the default home-NIV patient with documented nocturnal hypoventilation — severe OHS, advanced NMD, chronic hypercapnic COPD — the **ResMed Lumis 150 VPAP ST** at ₹63,490 is the right pick. iVAPS mode, full six-mode clinical stack, native AirView cellular, iBR backup-rate intelligence, VSync leak management, 3-year dealer-extension warranty. The price is defensible when iVAPS is clinically required.
-
-For ST-mode backup-rate indications without hypoventilation — central sleep apnoea, NMD with preserved effort, moderate OHS, COPD-OSA overlap with mild hypercapnia — the **ResMed Lumis 100 VPAP ST** at ₹47,900 is the best-value clinical ST BiPAP in the Indian market. Same five-mode stack minus iVAPS, iBR, PAC mode, and a decade-mature comfort envelope.
-
-For documented CPAP-failure OSA or complex sleep apnoea without central burden, the **ResMed AirCurve 10 V Auto** at ₹66,800 is the correct auto-BiPAP pick — but only on a documented CPAP-failure or complex-apnoea indication. Do not default-upgrade an uncomplicated OSA patient from AirSense to AirCurve.
-
-For volume-assured home NIV patients whose budget cannot reach the Lumis 150 or DreamStation AVAPS tier, the **Home Medix HM-BV-30** at ₹38,000 is the defensible answer. TVAPS at sub-premium pricing is genuinely rare in the Indian market, and the seven-mode stack plus central-apnea detection clears the functional bar. The trade is no cloud, no heated tube, and service coverage concentrated in South and West India.
-
-For AVAPS-indicated patients in clinics on Philips Care Orchestrator platform (rather than ResMed AirView), the **Philips DreamStation BiPAP AVAPS** at ₹77,952 is the defensible alternative to the Lumis 150 — with mandatory serial-number verification of foam-remediation status at purchase.
-
-Consult your prescribing respiratory physician before finalising any BiPAP purchase against your specific PSG and clinical picture — BiPAP indication is where many Indian patients are mis-specced into a therapy tier that does not match the disease.
-
----
-
-# Best CPAP Machines in India (2026)
-
-Source: https://homehealthzone.com/top-5/cpap-machines/
-
-A CPAP machine delivers pressurised air through a mask to help keep the airway open during sleep. An auto-adjusting CPAP (APAP) varies pressure within a configured range; a bilevel device uses different pressures for inhalation and exhalation. These categories are not interchangeable purchase decisions: the prescribed therapy comes first. [NHLBI explains CPAP and other positive airway pressure devices](https://www.nhlbi.nih.gov/health/cpap).
-
-## Five machines to compare in India
-
-These catalogue examples are a starting shortlist, not a claim that one machine is best for every person. Prices below are indicative Indian retail figures from the catalogue; confirm the actual quote, included mask, humidifier and warranty with the seller. Specifications are published figures, not HHZ measurements.
-
-| Model | Published features to compare | Indicative India price |
-| --- | --- | --- |
-| [ResMed AirSense 10 Auto Set CPAP Machine](/cpap/resmed-airsense-10-autoset-cpap/) | Auto-adjusting, 4–20 cmH₂O; integrated humidifier; cloud connectivity is optional. | price not verified |
-| [Resmed Airsense 11 Autoset CPAP Machine (4G)](/cpap/resmed-airsense-11-autoset-cpap-machine/) | Auto-adjusting, 4–20 cmH₂O; humidifier, touchscreen and Bluetooth. | price not verified |
-| [Breas Z2 Auto Travel CPAP](/cpap/breas-z2-auto-cpap/) | Travel model; 299 g, waterless humidification and a universal tube adapter. | price not verified |
-| [Resmed AirMini Travel Auto CPAP](/cpap/resmed-airmini-travel-auto-cpap/) | Travel model; 300 g and waterless humidification with compatible masks. | price not verified |
-| [Home Medix HM-CV-20 Auto CPAP](/cpap/home-medix-cv-20/) | Fixed and auto modes, 4–20 cmH₂O and integrated heated humidifier. | price not verified |
-
-## How to choose a CPAP machine
-
-**Therapy and follow-up:** Check the prescribed mode and pressure range, then ask how the clinic expects to obtain therapy data. Connectivity and supplied accessories can vary by Indian SKU; confirm them on the quote.
-
-**Home or travel:** Compare packed weight, power options, humidification and mask compatibility. A smaller machine can make travel easier, but whether it meets the user's nightly needs should be checked before purchase.
-
-**Mask and running cost:** A nasal mask covers the nose; nasal pillows sit at the nostrils, while a full-face mask covers both nose and mouth. A comfortable seal matters more than choosing by name alone. Check replacement cushions, filters and tubing as well as the initial price. See the [CPAP comfort guide](/guides/cpap-comfort-features-epr-flex-epflex/) and [APAP explainer](/cpap/apap/).
-
-**Service in India:** Ask for written warranty terms, local repair arrangements and replacement-parts availability. The [Home Medix dealer and service network](/in/respiratory-care-experts/) identifies partners by region and describes services including setup, mask fitting, rentals, repairs and staff training. Service availability varies by partner.
-
-## CPAP vs BiPAP
-
-Fixed CPAP supplies one set pressure, while BiPAP is a bilevel form of positive airway pressure that uses higher inspiratory and lower expiratory pressures. APAP adjusts pressure automatically within its configured range; it is not the same category as bilevel ventilation. The [CPAP vs BiPAP guide](/guides/cpap-vs-bipap-indications/) explains the distinction. Choose the prescribed mode first, then compare the mask, support and total cost among compatible machines.
-
-## Home machine or travel machine?
-
-A bedside machine is usually judged on nightly practicalities: a readable display, humidifier care, accessible filters, noise, and the way the clinic receives data. The AirSense 10, AirSense 11 and HM-CV-20 catalogue records list integrated humidification. Compare the exact package: a heated tube, mask, and replacement filters may not all be included in every seller's quote.
-
-A travel device puts more weight on packing size, power supply and the equipment needed away from home. The catalogue lists the Breas Z2 Auto at 299 g and the AirMini at 300 g, but the packed system also includes a power supply, tubing, mask and any humidification supplies. Before selecting either as an additional machine, check that its modes and accessories meet the therapy plan and that the chosen mask can connect.
-
-The Breas record lists a universal tube adapter and waterless humidification. AirMini uses a specific tubing and mask system: [ResMed's AirMini information](https://ap.resmed.com/healthcare-professional/devices/sleep-apnea-devices/airmini) describes compatible masks and connectors. Its waterless humidification choices vary by mask, so confirm the exact kit and locally available consumables instead of assuming a mask from another machine will connect.
-
-## Humidification, masks and comfort
-
-Heated humidification uses a water chamber; waterless systems use a replaceable heat-and-moisture exchange component. The second approach avoids packing a water chamber, but creates another compatibility and replacement-cost question. Follow the device instructions for cleaning and replacement; do not assume components are interchangeable across models.
-
-A nasal mask rests over the nose, a nasal-pillow interface rests at the nostrils, and a full-face interface covers the nose and mouth. Sizing, headgear, facial hair and sleeping position can all affect the seal. Ask to review the fit with the supplier and check what happens if the supplied size is uncomfortable. The [NHLBI CPAP guide](https://www.nhlbi.nih.gov/health/cpap) describes the machine, hose and mask as parts of one system.
-
-Ramp and expiratory relief are comfort features, but their names and controls vary. Ask the clinician or supplier to explain which adjustments are available to the user and how to report persistent discomfort or leakage. A device's maximum advertised pressure does not tell a buyer what setting to use.
-
-## Data, support and ownership cost
-
-Some clinics review a memory card, while others use a connected service. The catalogue describes cloud connectivity as optional for the AirSense 10 and lists 4G and Bluetooth on the AirSense 11 entry. Confirm the exact Indian model, whether connectivity is enabled, and what information the clinic can actually receive. An app display is not itself evidence that a clinician has access to the data.
-
-Compare a written quote for the machine, mask and size, humidifier, tube, power supply and any setup charge. Then ask about replacement cushions, filters, water chambers, compatible tubing and warranty exclusions. Retail prices in the table are catalogue snapshots and may differ from a current dealer quote; the relevant cost is the complete configuration needed for use.
-
-In India, also check the service address, who handles a warranty claim, availability of loan equipment during repair, and whether shipping is required. Confirm the power supply input and a practical backup plan for local outages. The [Home Medix dealer and service network](/in/respiratory-care-experts/) names regional partners and describes services for Home Medix products; its coverage does not establish service for the other brands in this comparison.
+**Data workflow:** Ask whether the device saves data to an SD card or sends it through a connected service, what the clinician can see, and who will retrieve or review the report. Cloud branding alone does not establish that the particular machine is connected or that the clinic receives its data.
 
 ## Frequently asked questions
 
-### Is APAP the same as BiPAP?
+### What is the current Home Medix HM-BV-30 price?
 
-No. APAP automatically adjusts a positive airway pressure within a configured range. BiPAP is a bilevel form of positive airway pressure, with separate inspiratory and expiratory pressures. See the [CPAP vs BiPAP guide](/guides/cpap-vs-bipap-indications/) for a fuller explanation.
+Home Medix lists ₹38,000 before 5% GST, or ₹39,900 including GST, checked 28 October 2026. The manufacturer pack confirmed for this update contains one device, full-face mask, reusable filter, power cord, SD card, breathing circuit and carrying bag. Have the written order match this manufacturer-published list.
 
-### Does the quietest published number guarantee the quietest experience?
+### What warranty comes with HM-BV-30?
 
-No. Published sound levels help identify what to investigate, but the measurement conditions and the complete setup may differ. Mask vent noise, placement and tubing can affect what a sleeper hears. Ask for measurement conditions and, where possible, see the configuration in use.
+The manufacturer terms list two years for the device including humidifier under normal operation, one year each for adapter and SD card, and 90 days each for mask, tube and water tank. The reference excludes damage associated with operation outside specifications, unsuitable accessories, and unapproved technical changes; unauthorised disassembly can affect eligibility for free maintenance. Confirm warranty start, claim procedure, registration/channel rules, and labour or transport costs with Home Medix before ordering.
 
-### Can I use any nasal mask with a travel CPAP?
+### Is an auto-BiPAP the same as ST or TVAPS?
 
-Not necessarily. Mask, connector and tubing compatibility depend on the machine. AirMini requires a compatible system, while the Z2 catalogue record lists a universal tube adapter. Check the specific mask and any adapter before buying either machine.
+No. Auto-bilevel adjusts pressures within its configured limits. ST adds a timed backup breath; TVAPS is a volume-assured pressure-support mode. The exact combination and operation differ by device. Ask the prescribing clinician which mode is intended.
 
-### Is a humidifier included in every CPAP quote?
+### Are Philips DreamStation BiPAP units currently available in India?
 
-No. A catalogue may describe a feature while a seller's bundle has different contents. Ask for an itemised quote identifying the chamber, tubing, mask, power supply and any optional accessories.
+Availability and service for a particular Indian unit were not confirmed for this update. Philips' US product page says it will continue servicing existing devices there and will not resume sales of new sleep and respiratory devices there pending FDA agreement. That is not proof of India availability. Verify stock age, new/refurbished status, serial region, remediation documentation and local service with the seller.
 
-### What is the difference between a nasal mask and nasal pillows?
+---
 
-A nasal mask covers the nose; nasal pillows seal at the nostrils. Both connect to a hose, but fit and compatible sizes differ. Compare the complete interface and headgear, not only the cushion shape.
+# CPAP Machines to Compare in India (2026)
 
-### Should I choose the cheapest machine?
+Source: https://homehealthzone.com/top-5/cpap-machines/
 
-First check the prescribed mode and the mask, data and support requirements. Then compare the complete package and recurring supplies. A lower machine price can be offset by accessories or a service arrangement that does not meet the user's needs.
+A CPAP machine supplies pressurised air through a mask to help keep the airway open during sleep. An auto-adjusting CPAP (APAP) changes pressure within a configured range. The prescribing clinician's mode and settings come first; a shortlist cannot determine which therapy is appropriate. [NHLBI's overview of CPAP and other positive airway pressure devices](https://www.nhlbi.nih.gov/health/cpap) explains the treatment categories.
+
+## Five CPAP options to compare
+
+The table uses the same buyer checks for each model. “Quote required” means HHZ did not verify a current India total for the exact configuration on 28 October 2026; ask for an itemised, dated quote including GST, mask and size, humidifier, tube, power supply, setup and delivery. Manufacturer specifications are claims from their linked documents, not HHZ bench measurements. The Home Medix price below is the manufacturer-published price checked on 28 October 2026.
+
+
+
+| Model | Published mode and specifications | Total price and package | Warranty | Data and reporting | Verified support route | Why shortlisted / limitation |
+| --- | --- | --- | --- | --- | --- | --- |
+| [Home Medix HM-CV-20 Auto CPAP](/cpap/home-medix-cv-20/) | CPAP and Auto CPAP; 4–20 cmH₂O; integrated humidifier; ≤30 dB(A); 1.45 kg. [Manufacturer product page](https://www.homemedix.in/shop/hm-cv-20); [brochure](/resources/manufacturer-brochures/home-medix-hm-cv-20.pdf). | ₹30,000 + 5% GST = **₹31,500 incl. GST**. Manufacturer pack confirmed for this update: one device, nasal mask, reusable filter, power cord, SD card, breathing circuit and carrying bag. The current manufacturer model page confirms this pack. | Device incl. humidifier 2 years; adapter and SD card 1 year each; mask, tube and water tank 90 days each under normal operation. Claim, registration, labour and transport terms require confirmation. [Terms](https://www.homemedix.in/resources/pap-warranty-and-service). | Claro Mobile for Android scans the device QR, reviews recent reports and exports a phone PDF; Claro desktop reads memory-card data and exports reports, but requires a Home Medix activation code. [Claro downloads/setup](https://www.homemedix.in/downloads). | Home Medix service team; ask it to confirm the route, availability, timing and charges for your location. [Service support](https://www.homemedix.in/support). | Included as a locally priced home APAP with integrated humidifier and confirmed package. Limitation: CPAP/APAP only; desktop activation and location-specific support need confirmation. |
+| [ResMed AirSense 10 AutoSet](/cpap/resmed-airsense-10-autoset-cpap/) | CPAP and AutoSet APAP; 4–20 cmH₂O; built-in humidifier. Confirm the precise variant and whether AutoSet for Her is available on that unit. [Manufacturer product page](https://www.resmed.com/en-us/products/cpap/machines/airsense-10/) and [user guide](https://document.resmed.com/documents/products/machine/airsense-series/user-guide/airsense-10-device-with-humidifier_user-guide_amer_eng.pdf). | Dated India quote required, including exact AutoSet SKU, humidifier, mask, tube, power supply and GST. | Exact India warranty and claim route not verified; obtain written terms for the unit's serial-number region. | myAir/AirView availability depends on model and country. Verify exact SKU and clinic workflow; do not infer cloud transmission from the product-family name. | ResMed product documents are available; India service coverage and seller authorisation require confirmation. | Included as a home APAP with a documented 4–20 cmH₂O range and integrated humidifier. Limitation: India total, SKU connectivity and local warranty/support were not verified. |
+| [ResMed AirSense 11 AutoSet](/cpap/resmed-airsense-11-autoset-cpap-machine/) | AutoSet, AutoSet for Her and CPAP; 4–20 cmH₂O; integrated humidifier and touchscreen. [Manufacturer user guide](https://document.resmed.com/documents/products/machine/airsense-11/user-guide/398291_airsense-11_user-guide_amer_multi.pdf) and [India product support](https://support.resmed.com/en-in/sleep-devices/airsense-11-autoset). | Dated India quote required; specify exact connectivity version, humidifier, mask, tube, power supply and GST. | Exact India SKU warranty and claim route not verified; request written terms. | ResMed describes cellular/AirView support for its India AutoSet model; verify the exact unit is connected and the clinic has access. | India support page provides product documents; local parts and seller authorisation still require confirmation. | Included to compare a connected home platform and touchscreen against AirSense 10. Limitation: no current India price/package verified; remote data depends on supported SKU and service. |
+| [Breas Z2 Auto travel CPAP](/cpap/breas-z2-auto-cpap/) | Fixed CPAP or APAP; APAP 4–20 cmH₂O; 26 dBA; 10.4 oz. [Manufacturer spec sheet](https://app-strapi-breas-mmroov8t4t.azurewebsites.net/uploads/MAR_008107_rev0_Z2_Auto_CPAP_specs_7_275f500783.pdf). **Breas says Z2 Auto is discontinued; parts/accessories are available through October 2030.** [Current notice](https://www.breas.com/en-US/products/sleep-therapy/z2-auto). | Dated quote required. Spec sheet lists device, power supply, custom tube adapter, 6 ft and 8 in tubes, two filters, HME, Q-lite and guides. Confirm actual contents, manufacture date, condition and GST. | Breas says existing warranty policy is unchanged; warranty validity for an India unit is unverified. | Nitelog app downloads data for viewing/sharing. Breas says its DataViewer software is no longer supported. | Manufacturer notice lists parts/accessories through October 2030. India repair route and seller support are unverified. | Included as the travel-form fixed/APAP option with a published 4–20 range and specified box contents. Limitation: discontinued product with a finite parts window; verify stock age and serviceability. |
+| [ResMed AirMini travel Auto CPAP](/cpap/resmed-airmini-travel-auto-cpap/) | CPAP, AutoSet and AutoSet for Her; 4–20 cmH₂O. Optional mask-specific HumidX waterless humidification uses proprietary tubing/connectors. [Manufacturer APAC user guide](https://ap.resmed.com/hubfs/airmini_user-guide_apac_eng.pdf) and [AirMini support page](https://ap.resmed.com/healthcare-professional/devices/sleep-apnea-devices/airmini). | Dated India quote required for machine, compatible mask/connector, tubing, humidification supplies, power supply and GST. | India SKU warranty and claim route not verified; request written terms. | AirMini app displays nightly sleep scores and therapy data; verify regional app availability and the clinic's workflow. | ResMed product documents are available. India parts, service and seller authorisation require confirmation. | Included as a travel alternative with app reporting and optional waterless humidification. Limitation: proprietary mask/tube compatibility adds accessory and replacement-cost constraints. |
+
+
+
+These five are comparison candidates, not an ordinal “best for everyone” ranking. The editorial judgment is that they represent materially different home-versus-travel choices and data/accessory ecosystems. A buyer who wants a current, fully costed example can verify the HM-CV-20 package today; for the other four, the available India total and warranty are not established here, so they need a dated configuration-specific quote. No HHZ bench testing is claimed. See [HHZ's methodology](/methodology/), [about page](/about/) and [editorial policy](/editorial-policy/) for how product claims, comparisons and commercial independence are handled.
+
+## Choosing a machine and checking the quote
+
+**Prescription and follow-up:** Match the prescribed mode and pressure range. Ask the clinic how it will review use, leak, pressure and event data, and whether the exact device can provide that information in a format it can access. An app or SD card does not by itself establish clinician monitoring.
+
+**Home or travel:** Compare the packed system, not only the device. Include mask, tubing, power supply and any proprietary connector or waterless humidification consumables. Breas currently identifies the Z2 range as discontinued, which makes stock age, warranty and future service important quote questions.
+
+**Mask and recurring cost:** Ask for the mask model and size, compatibility confirmation, replacement cushion, filter and tube prices, and the process if the initial fit is poor. The Home Medix nasal mask and accessory pack listed above were confirmed for this update; the current product page confirms this pack.
+
+**Warranty and service in India:** Get the warranty issuer, serial-number region, start date, coverage exclusions, claim contact, assessment location, labour/transport charges and repair timing in writing. A manufacturer's global support page does not prove a local dealer's service coverage. Home Medix's published PAP terms specify a two-year device/humidifier period and shorter accessory periods under normal operation. The reference excludes damage associated with operation outside device specifications, unsuitable accessories and unapproved technical changes; unauthorised disassembly can affect eligibility for free maintenance. Claim process, registration, labour and transport terms remain to be confirmed. [Full terms](https://www.homemedix.in/resources/pap-warranty-and-service).
+
+## CPAP and BiPAP are different prescriptions
+
+Fixed CPAP uses one prescribed pressure; APAP varies pressure within its configured range. Bilevel PAP uses separate inspiratory and expiratory pressures and may have additional timed or volume-assured modes. These devices are not interchangeable upgrades. See the [CPAP vs BiPAP guide](/guides/cpap-vs-bipap-indications/) and [APAP explainer](/cpap/apap/), and discuss any change with the prescribing clinician.
+
+## Frequently asked questions
+
+### What is the current Home Medix HM-CV-20 price?
+
+The manufacturer page lists ₹30,000 before 5% GST, or ₹31,500 including GST, checked 28 October 2026. The manufacturer pack confirmed for this update contains one machine, nasal mask, reusable filter, power cord, SD card, breathing circuit and carrying bag. Have the written order match this manufacturer-published list.
+
+### Does the warranty include the mask and humidifier?
+
+The published Home Medix terms give the device including humidifier two years under normal operation. Adapter and SD card are one year each; mask, tube and water tank are 90 days each. The warranty reference excludes damage from operation outside specifications, unsuitable accessories or unapproved technical changes; unauthorised disassembly can affect eligibility for free maintenance. Confirm claim/registration, labour and transport arrangements before purchase.
+
+### Is Breas Z2 Auto still being made?
+
+Breas currently says its Z Sleep Travel CPAP line, which includes Z2 Auto, has been discontinued. It says service parts and patient accessories are available through October 2030. Ask an India seller to verify the unit's age, condition, warranty and service path.
+
+### Can I use the same mask on every CPAP?
+
+Not always. Connector, tube and mask requirements vary, especially on travel systems. Have the seller confirm compatibility for the exact device and mask size before ordering.
 
 ---
 
@@ -2012,9 +1858,13 @@ Source: https://homehealthzone.com/top-5/oxygen-concentrators-for-copd/
 
 # Top 5 Oxygen Concentrators for COPD Home Use in India (2026)
 
-**Short answer:** For a stable COPD home-oxygen prescription within 0.5–5 LPM continuous flow, HHZ compares Oxymed Mini for service-network reach and Home Medix HM-KV for warranty, quietness, low power draw, and low-flow flexibility. AirSep VisionAire 5, Nidek Nuvo Lite, and DeVilbiss 525 are next-best imported choices when a verified local channel provides a specific altitude, noise, or pressure advantage. The prescribed flow and local uptime plan decide the winner.
+Editorial update 28 October 2026 · Previous review 1 June 2026
 
-A COPD patient on long-term oxygen therapy (LTOT) is going to run the same concentrator for 12 to 24 hours a day, every day, for years. The buyer decision is fundamentally different from a short-term post-COVID rental or a portable-for-travel pick. What matters: low published noise that doesn't wake the patient at night, power draw that keeps a 24/7 prescription affordable on Indian domestic tariffs, a dealer or manufacturer who actually answers the phone at month 14 when the compressor starts misbehaving, and a warranty long enough to bridge the wear-out window of the sieve beds and compressor. This ranking covers the five units HHZ considers the strongest LTOT choices for an Indian COPD household in 2026. The default pick for an urban Indian buyer with a stable 1–4 LPM prescription is the Oxymed Mini 5L on the strength of its dealer-network reach; the Home Medix HM-KV is the strongest pick for buyers who prioritise warranty length and lowest power draw over dealer density.
+**Short answer:** Match the prescribed flow and required oxygen concentration first, then compare the exact unit’s monitoring, power and sound specifications, total written price, warranty, and local service. The existing ranking considered Oxymed Mini’s claimed service reach and HM-KV’s published warranty term, sound, power consumption, and 0.5 L/min lower limit; the current Oxymed manufacturer page also says not to use its product for medical treatment or life-support, so confirm that status before considering it for prescribed therapy. AirSep, Nidek, and DeVilbiss documents describe model-specific variants that must be confirmed with the Indian seller.
+
+A COPD patient on long-term oxygen therapy (LTOT) may use a concentrator for many hours a day over a long period. Compare models by the prescribed flow, concentration at that flow, local service, power, sound, warranty, and total purchase cost. This existing ranking’s order and scores are shown for context; they were not recalculated in this update.
+
+**Update note (28 October 2026):** This pass corrected HM-KV pricing/specifications and checked selected comparison-device manufacturer documents. The existing product order, scores, Oxymed service-network assessment, and other service-footprint claims were not re-evaluated. Competitor retail prices below are legacy HHZ snapshots without a confirmed capture date; they are not current quotes. Medequip’s manufacturer page for the Oxymed Mini currently says the product is not a medical device and should not be used for medical treatment or life-support; confirm that status before treating it as a prescribed-therapy option.
 
 For the buyer checklist version of this decision, see [best oxygen concentrator for COPD patient at home in India](/guides/oxygen-concentrator-for-copd-patient-india/). For overnight prescriptions, also see [oxygen concentrator for night use](/guides/oxygen-concentrator-for-night-use-india/).
 
@@ -2026,104 +1876,106 @@ Long-term COPD home use weighs differently from a generic 5 LPM ranking. For chr
 
 ### 1. Oxymed Mini 5 LPM — 8.3
 
-**Price snapshot** — indicative retail ₹35,400 (listed MRP ₹59,900), 13.9 kg, 1–5 L/min continuous flow, 90–96% purity, 45 dB published sound, 390 W draw.
+**Legacy price snapshot (not a current offer)** — ₹35,400 (listed MRP ₹59,900; capture date not confirmed). Medequip’s manufacturer product page lists 1–5 L/min, 13.9 kg, 45 dB, 390 W, and a 3-year warranty. Its specifications table says 90–96% concentration while page prose says 93% ±3%; confirm the specification for the exact unit. ([Medequip Oxymed Mini product page](https://medequip.co.in/products/oxygen-concentrator-mini-5-lpm))
 
 **Pros**
 - Broadest dealer and service-centre footprint of any concentrator brand in the Indian indigenous tier — the brand claims 40+ service centres and the public dealer-listing density is the highest in the category. For a chronic-use patient who will need service calls over a multi-year horizon, this is the single most important attribute.
 - Active CDSCO manufacturing licence `MFG/MD/2024/000436`, most recently re-issued 3 February 2026 — signals ongoing manufacturer engagement with the platform, which matters for spare-parts continuity over a long ownership horizon.
-- 45 dB published sound is below the bedside-disruption threshold for most patients; continuous-flow up to 5 LPM covers the full COPD prescription range; 13.9 kg chassis allows single-caregiver bedroom-to-bedroom transitions.
+- The manufacturer page lists 45 dB sound and 13.9 kg. Its flow range begins at 1 L/min, so it does not cover a prescribed setting below 1 L/min. The manufacturer page also carries the medical-device-use disclaimer in the update note above.
 - The Indian manufacturing operation (with Chinese subassembly sourcing — see transparency note below) puts service escalation in-country; warranty claims don't depend on an overseas importer relationship.
 
 **Cons**
 - The Indian manufacturing operation operates a kit-assembly pattern: the same model codes (`AR-5-N`, `MAOXY 05`) appear on both Medequip's CDSCO manufacturing licence and their import licences for units sourced from Shenyang Aerti Tech Co., China. The Indian operation is final-stage assembly, not full indigenous build from raw components. Buyers prioritising indigenous supply chain should weigh this against the service-network advantage.
-- 1 LPM flow floor; patients with sub-1 LPM overnight prescriptions need to titrate above 1 LPM or look at AirSep Visionaire 5 (0.5 LPM floor).
+- 1 L/min flow floor; patients with a prescribed setting below 1 L/min should choose a model whose manufacturer supports it. ([CAIRE VisionAire 5 specifications](https://www.caireinc.com/product/airsep-visionaire/))
 - 390 W power draw is mid-pack — annual electricity cost on 24/7 use sits between the most efficient (AirSep Visionaire 5 at 290 W) and the least efficient indigenous peers (550 VA+).
 
-**Best for** — the stable 1–4 LPM COPD patient in metro or tier-2 India where rapid service-call response over the 5–8 year prescription horizon is the primary concern.
+**Use status** — suitability for prescribed COPD oxygen therapy is unresolved until Medequip clarifies the product page’s not-a-medical-device/use disclaimer. Do not rely on the service-network claim alone to select a therapy device.
 
 Full review at [/oxygen-concentrators/oxymed-mini-5-lpm/](/oxygen-concentrators/oxymed-mini-5-lpm/).
 
 ### 2. Home Medix HM-KV 5 LPM — 8.2
 
-**Price snapshot** — indicative retail ₹37,800 (listed MRP ₹54,000), 13 kg, 0.5–5 L/min continuous flow, 93% ± 3% purity, ≤40 dB published sound, 320 VA draw, 3-year or 10,000-hour warranty.
+**Price and configuration snapshot** — manufacturer-published price ₹42,000 before 5% GST (₹44,100 including GST), 13 kg, 0.5–5 L/min continuous flow, 93% ±3% purity, ≤40 dB(A) published sound, 320 W draw per the product page, and 3 years or 10,000 operating hours of warranty, whichever comes first. The supplied brochure’s feature panel says 320 W while its specification grid says 320 VA; confirm the rating on the offered unit documentation. The current manufacturer page confirms the included nebulizer kit, fitted filter, and one extra HEPA filter; confirm all remaining package contents and quantities with the seller. ([Home Medix HM-KV product page](https://www.homemedix.in/shop/hm-kv))
 
 **Pros**
-- 3-year / 10,000-hour warranty is the longest in the Indian indigenous 5 LPM segment. Over the typical 5–8 year COPD home-oxygen prescription, the warranty bridges the wear-out window of the first compressor or sieve-bed replacement cycle — meaningful versus 1-year or 2-year peer warranties.
-- ≤40 dB published sound is the quietest in the Indian indigenous cohort and ties with the imported premium tier — material for COPD patients who run the unit overnight at the bedside.
-- 320 VA power draw is the lowest in the Indian indigenous 5 LPM cohort. On 24/7 use at typical urban Indian commercial tariffs, this translates to roughly ₹3,000–₹5,000 less annual electricity cost versus indigenous peers running 500+ VA.
-- 0.5–5 LPM flow range covers the full COPD prescription band including sub-1 LPM overnight titration — same flow floor as AirSep Visionaire 5, which is the only imported peer offering that low.
-- Clean Bucket A CDSCO manufacturing licence (`MFG/MD/2025/000522`, issued 6 August 2025) with no parallel import licence on record — service escalation goes directly to the Bengaluru manufacturing facility rather than through an importer layer.
-- Integrated nebulisation and One-Touch SOS Alert (audible local-siren button) are useful for COPD patients who may have intermittent exacerbations requiring caregiver attention.
+- The 3-year or 10,000-operating-hour warranty term is published by the manufacturer; the hour limit may be reached before three calendar years in continuous use. Confirm coverage and exclusions on the seller’s written warranty.
+- ≤40 dB(A) published sound and 13 kg weight make it a candidate for a bedside setup or room-to-room movement. Manufacturer figures are not directly comparable sound-bench results across brands.
+- The manufacturer lists 320 W power consumption. Compare this figure with other manufacturer-reported watts, and confirm backup-power sizing against the actual unit and startup load.
+- The 0.5 L/min lower limit may suit a prescription below 1 L/min. CAIRE lists the VisionAire 5 range as 1–5 L/min, so it does not share the HM-KV’s published lower flow limit. ([CAIRE VisionAire 5 specifications](https://www.caireinc.com/product/airsep-visionaire/))
 
 **Cons**
-- Dealer footprint (DLI tier 3) is more modest than Oxymed and the imported tier — buyers in tier-3 cities and smaller towns should confirm local service availability before commitment, particularly if they're not within reasonable shipping distance of Bengaluru.
-- US FDA / CE certifications are not on the published spec sheet (CDSCO + ISO 9001 + ISO 13485 only) — fine for the Indian market but not for buyers wanting overseas-validated regulatory layers.
+- Home Medix publishes a Bengaluru service route. Confirm assessment location, transport, charges and turnaround for the buyer’s pincode; the published contact does not establish nationwide coverage.
+- Model-specific regulatory documents and warranty exclusions should be checked for the supplied unit. A company certification or brochure logo does not establish every model’s authorization.
 
-**Best for** — the COPD patient prioritising lowest 24/7 electricity cost, lowest bedside noise, and longest warranty in the indigenous category, with realistic access to either a regional dealer or direct manufacturer service via Bengaluru.
+**Best for** — the COPD patient whose prescribed flow benefits from a 0.5 L/min minimum and who values the published warranty term and sound specification, after confirming local service availability and the final package with the seller.
 
 Full review at [/oxygen-concentrators/home-medix-5-lpm/](/oxygen-concentrators/home-medix-5-lpm/).
 
 ### 3. AirSep Visionaire 5 — 8.0
 
-**Price snapshot** — indicative retail ₹54,999 (listed MRP ₹80,640), 13.6 kg, 0.5–5 L/min continuous, 90–96% purity, 45 dB sound, 290 W draw, 10,000 ft altitude tolerance.
+**Legacy price snapshot (not a current offer)** — ₹54,999 (listed MRP ₹80,640; capture date not confirmed). CAIRE lists VisionAire 5 as 1–5 L/min, 90% +5.5%/−3%, 13.6 kg, 39 dB(A), and 290 W at all flow settings. Confirm the exact India-supplied variant, monitor option, altitude rating, price, package, and support with the importer. ([CAIRE VisionAire 5 specifications](https://www.caireinc.com/product/airsep-visionaire/))
 
 **Pros**
-- 290 W published power draw is the lowest in the entire 5 LPM class. On a 24/7 COPD prescription at metro commercial tariffs, this saves roughly ₹4,000–₹6,000 per year versus the 390 W Oxymed Mini and roughly ₹7,000–₹9,000 versus 550 VA indigenous peers.
-- 0.5 LPM flow floor matches the HM-KV — only two units in this top 5 can titrate that low, useful for sub-1 LPM overnight prescriptions.
+- CAIRE lists 290 W at all flow settings. This is a manufacturer specification, not an HHZ electricity-cost measurement; actual expense depends on use, tariff, voltage, and the supplied variant.
+- Manufacturer lists VisionAire 5 flow from 1 to 5 L/min, so it is not suitable when a prescribed setting is below 1 L/min. Confirm the exact variant and prescription match. ([CAIRE VisionAire 5 specifications](https://www.caireinc.com/product/airsep-visionaire/))
 - Complete alarm suite (loss of power, system malfunction, no-flow, Oxygen Purity Indicator) — the fullest unattended-operation safety stack of any unit in this top 5.
-- 10,000 ft altitude tolerance opens hill-station deployments (Nainital, Manali, parts of Uttarakhand and Himachal) that other top-tier 5 LPM units can't rate for.
+- Confirm altitude suitability for the offered VisionAire 5 using the applicable manufacturer manual and local conditions; the specification page linked here does not establish the altitude claim in the legacy snapshot.
 - Imported under CDSCO `IMP/MD/2025/000687` to Ujjwal Medical Devices India Pvt Ltd — current and active import licence.
 
 **Cons**
-- Indicative retail ₹54,999 is 45–55% above the indigenous top two — the energy savings pay back over 4–7 years on 24/7 use, but the upfront capital outlay is real.
+- The ₹54,999 figure is an undated legacy snapshot and cannot be compared with the current HM-KV manufacturer price as a live price difference. Obtain current written offers for both models.
 - CAIRE/AirSep India service footprint is thinner than Philips Respironics, Oxymed, or BPL in the post-COVID Indian channel structure — service-call lead times in tier-2 and tier-3 cities can stretch to 14–21 days.
 - Foreign-brand import (Bucket D); service continuity depends on Ujjwal Medical Devices maintaining the importer relationship and renewing the CDSCO import licence on schedule.
 
-**Best for** — buyers in tier-1 cities with reasonable AirSep dealer presence, or at hill-station altitudes between 7,500 and 10,000 ft where the EverFlo's 7,500 ft ceiling is disqualifying, or where the lowest published power draw in the class genuinely matters for 24/7 cost economics over a 5+ year horizon.
+**Best for** — patients prescribed at least 1 L/min whose local importer confirms the exact VisionAire 5 configuration, support, and suitability for their altitude. CAIRE’s product page lists 290 W; that figure alone does not establish the lowest energy cost for every use case.
 
 Full review at [/oxygen-concentrators/airsep-visionaire-5/](/oxygen-concentrators/airsep-visionaire-5/).
 
 ### 4. Nidek Nuvo Lite 5 LPM — 7.8
 
-**Price snapshot** — indicative retail ₹57,599 (listed MRP ₹66,240), 13.6 kg, 0.5–5 L/min continuous, 90–96% purity, 40 dB sound, 290 W draw.
+**Nidek Mark 5 Nuvo Lite 925 (230 V/50 Hz)** — the manufacturer IFU lists 0.125–5 L/min, 87–95.5% at 5 L/min, 14.5 kg, and 300 W average. Sound is unresolved across documents: family IFU says &lt;58 dBA, a 925 brochure says 40 dBA typical, and an official OCSI guide gives 45 to &lt;40 dBA depending on model. Verify the offered model/revision and monitor. ([Nidek Mark 5 Nuvo Lite IFU](https://www.nidekmedical.com/wp-content/uploads/2022/05/2010-8401ce-rev-g-ifu-nuvo-lite-family.pdf); [925 brochure](https://www.somatco.com/NuvoLite-Mark5-NIDEK.pdf); [Nidek OCSI guide](https://www.nidekmedical.com/wp-content/uploads/2023/03/2010-8401ce-rev-b-nuvo-lite-ocsi-english-single.pdf))
+
+**Legacy price snapshot (not a current offer)** — ₹57,599 (listed MRP ₹66,240; capture date not confirmed). Confirm exact 925 offer, Indian warranty, package, and authorized support with the importer.
 
 **Pros**
-- 40 dB published sound ties the HM-KV as the quietest in the 5 LPM class — material for COPD patients who run the unit overnight.
-- 290 W power draw matches the AirSep Visionaire as the lowest in the 5 LPM class.
+- A 925 brochure lists 40 dBA typical, but other Nuvo Lite family documents give different sound values. Those specifications do not establish a direct noise ranking against the HM-KV.
+- The official 925 IFU lists 300 W average for the 230 V model; use the exact offered model and source when sizing power.
 - Premium build quality and Nidek's long-standing reputation in respiratory equipment — patients and caregivers familiar with the brand have confidence in the platform.
 - Imported under CDSCO `IMP/MD/2024/000202` to Nidek Medical India Pvt Ltd from the US manufacturing site (Nidek Medical Products Inc.), with adjacent licence `IMP/MD/2025/000484` covering same-class units sourced from Shenyang Aerti — buyers should confirm with the dealer which manufacturing origin applies to the specific unit being purchased.
 
 **Cons**
-- Indicative retail ₹57,599 is the highest in this top 5 — buyers pay a meaningful premium versus the indigenous tier for matched noise and power specs.
+- The legacy price snapshot is not a current quote; obtain a complete written offer for the exact 925 unit and service arrangement.
 - Foreign-brand import (Bucket D); service continuity depends on Nidek Medical India's licence renewal cycle. The original Nuvo Lite import licence dates to March 2024.
 - The Shenyang Aerti adjacent licence introduces ambiguity about manufacturing origin on units sold through some Indian channels — same-spec Aerti-built units may carry different long-term service profile than US-built Nidek units.
 
-**Best for** — buyers in metro India who specifically value the Nidek brand heritage and premium build feel, and who can verify their dealer is sourcing the US-built variant rather than the Aerti adjacent line.
+**Best for** — buyers whose prescription fits the documented 925 flow range and who can verify the exact unit, sound specification, monitor option, and local service. The checked Nuvo Lite documents do not establish one definitive sound value across model revisions.
 
 Full review at [/oxygen-concentrators/nidek-nuvo-lite-5-lpm/](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/).
 
 ### 5. DeVilbiss 5 LPM (Compact 525) — 7.5
 
-**Price snapshot** — indicative retail ₹45,984 (listed MRP ₹86,400), 16.3 kg, 1–5 L/min continuous, 90–96% purity, 48 dB sound, 310 W draw.
+**Drive DeVilbiss 525 series (525DS / 525KS)** — the official manual distinguishes the 115 V/60 Hz 525DS from the 220–230 V/50 Hz 525KS. Both list 0.5–5 L/min and 16.3 kg; concentration is 87–96% for 525DS and 93% ±3% for 525KS. For 525DS the manual lists 310 W average and 48 dBA; for 525KS at 230 V/50 Hz it lists 312 W average (296 W at ≤1.2 L/min) and 40 dBA under ISO 8359. Verify exact SKU and India warranty/support. ([Drive DeVilbiss 525 series product page and manual](https://shop.drivemedical.com/us/en/products/respiratory/oxygen-therapy/oxygen-concentrators/stationary-concentrators/devilbiss-5-liter-oxygen-concentrator/p/525DS?siteName=Drive+Medical+US+Site&siteUid=us))
+
+**Legacy price snapshot (not a current offer)** — ₹45,984 (listed MRP ₹86,400; capture date not confirmed). Confirm exact unit, full package, Indian warranty, and authorized service on a current written quote.
 
 **Pros**
-- 310 W power draw is among the most efficient in the 5 LPM class — second only to AirSep Visionaire 5 and Nidek Nuvo Lite at 290 W.
+- Power figures depend on the model: the manufacturer lists 310 W average for 525DS and 312 W average for 525KS at 230 V/50 Hz. Confirm the supplied SKU and compare against matching voltage/configuration data.
 - Drive DeVilbiss has an established Indian service footprint with 22 authorised service centres claimed nationally — solid coverage for chronic-use service needs.
 - Long-standing brand reputation in oxygen therapy; technicians across most Indian medical-equipment service networks are familiar with the platform.
 - Imported under CDSCO `IMP/MD/2025/000547` to Sanrai Med India, which also handles the Inogen and DeVilbiss portable lines — a meaningful single-importer service relationship.
 
 **Cons**
-- 48 dB sound is the highest in this top 5 — at the edge of bedside acceptability for light-sleeping COPD patients on overnight prescription.
+- Manufacturer lists 48 dBA for 525DS and 40 dBA for 525KS at 50 Hz. These values are configuration- and measurement-specific; verify the supplied SKU before weighing bedside sound.
 - 16.3 kg chassis is the heaviest in this top 5 — less suited to bedroom-to-bedroom transitions, more of a fixed-installation unit.
-- Indicative retail ₹45,984 places it above the indigenous top two on price; foreign-brand import (Bucket D) means service continuity depends on Sanrai Med maintaining the partnership.
+- The ₹45,984 figure is an undated legacy snapshot, not a current comparison with the HM-KV manufacturer price. Confirm the exact 525-series SKU, total price, and importer service in writing.
 
-**Best for** — buyers who want a known brand with broad Indian service-centre coverage, willing to accept the highest noise in this top 5 in exchange for the brand and service backbone. Strongest fit for fixed-installation use in a dedicated oxygen room rather than rotation between bedrooms.
+**Best for** — buyers who can confirm the exact 525-series voltage/model variant and authorized Indian support. The manufacturer publishes different sound and power figures for 525DS and 525KS, so the nameplate matters before making bedside or power comparisons.
 
 Full review at [/oxygen-concentrators/devilbiss-5-lpm/](/oxygen-concentrators/devilbiss-5-lpm/).
 
 ## A note on Philips EverFlo and the COPD market
 
-The Philips EverFlo has historically been the default Indian COPD home-oxygen pick — widest service footprint, established prescribing channel awareness, and a known platform across most Indian respiratory clinics. Philips Respironics has now **officially discontinued the EverFlo product line globally**, and Philips India's import licence (`IMP/MD/2022/000651`) has not been refreshed since November 2022. Units still on Indian dealer shelves are clearance inventory. For a chronic-condition buyer entering a 5+ year prescription horizon, buying into a discontinued line means accepting structural risk on long-term spare-parts and service continuity. We've excluded EverFlo from the top 5 on that basis. The full discontinuation context is in our [CDSCO licence-trail article](/clinical/where-does-your-oxygen-concentrator-come-from/).
+Philips’ portfolio page lists EverFlo with a product end-of-service date of 25 January 2029. That date does not establish current Indian stock, warranty, or local service; confirm all three with the seller/importer before purchase. ([Philips portfolio update](https://www.usa.philips.com/sleep-respiratory-care/news/business-updates/src-portfolio-update))
 
 ## Adjacent decisions
 
@@ -6313,56 +6165,54 @@ The best 10 LPM concentrator is not simply the one with the highest listed flow.
 
 Source: https://homehealthzone.com/guides/5-lpm-oxygen-concentrator-spec-comparison-india/
 
-Most Indian home-oxygen prescriptions can be served by a 5 LPM stationary concentrator, but the devices in this class are not interchangeable. The differences that matter are simple: rated purity at flow, sound level, weight, power draw, oxygen purity monitoring, voltage tolerance, warranty, and service access.
+## Short answer
 
-This page compares the common 5 LPM models in the HHZ product database. Prices are indicative sampled market prices, not fixed offers.
+Choose by matching the prescribed continuous flow and oxygen concentration at that flow, then check monitoring, sound and power reporting, warranty, complete GST-inclusive price, package, and service where the machine will be used. The HM-KV has a current manufacturer-published price of ₹42,000 before GST (₹44,100 including 5% GST), with published specifications of 0.5–5 L/min, 93% ± 3%, 13 kg, and ≤40 dB(A). Its product page lists 320 W; the supplied brochure conflicts on power (320 W in the feature panel and 320 VA in the specification grid), so confirm the offered unit’s rating. Its stated warranty is 3 years or 10,000 operating hours, whichever comes first. Consider it only if its published range fits the prescription and its local service and quoted package are confirmed.
 
-## Quick comparison table
+The models are compared against the same buying criteria, but the evidence is uneven: manufacturer documents cover core specifications for several models, while Indian price, stock, package, warranty, and service often depend on the exact seller and variant. Older market prices and scraped figures are not treated as current offers or verified specifications.
 
-| Model | Flow range | Purity claim | Weight | Noise | Power | OPI | Indicative price |
-| --- | ---: | ---: | ---: | ---: | ---: | --- | ---: |
-| Philips EverFlo 5 LPM | 1-5 LPM | 90-96% | 14 kg | 45 dB | 350 W | Yes | INR 43,699 |
-| Oxymed Mini 5 LPM | 1-5 LPM | 90-96% | 13.9 kg | 45 dB | 390 W | Yes | INR 35,400 |
-| Nidek Nuvo Lite 5 LPM | 1-5 LPM | 90-96% | 13.6 kg | 40 dB | 290 W | Yes | INR 57,599 |
-| Home Medix HM-KV | 0.5-5 LPM | 93% +/- 3% | 13 kg | 40 dB or lower | 320 VA | Yes | INR 37,800 |
-| BPL Oxy 5 Neo | 1-5 LPM | 90-96% | 25 kg | 55 dB | 400 W | Yes | INR 31,966 |
-| Dr Diaz 5 LPM | 1-5 LPM | 90-96% | 16 kg | 48 dB | 285 W | Yes | INR 29,759 |
-| Nareena 5 LPM Single Flow | 1-5 LPM | 90-96% | 15 kg | 50 dB | 550 W | Yes | INR 35,510 |
-| GVS Oxypure 5 LPM | 0.5-5 LPM | 90-95% | 16 kg | 43 dB | 300 W | No | INR 33,599 |
-| Jumao 5 LPM | 0.5-5 LPM | 90-95% | 16 kg | 52 dB | 390 W | No | INR 40,320 |
-| S.Cure 5 LPM | 0.5-5 LPM | 90-95% | 16 kg | 48 dB | 285 W | No | INR 44,160 |
-| DeVilbiss 5 LPM | 1-5 LPM | 90-96% | 16.3 kg | 48 dB | 310 W | Yes | INR 45,984 |
-| AirSep VisionAire 5 | 0.5-5 LPM | 90-96% | 13.6 kg | 45 dB | 290 W | Yes | INR 54,999 |
+## Quick comparison
 
-## What the table says
 
-The lightest units in this set are Home Medix HM-KV, Nidek Nuvo Lite, AirSep VisionAire, Oxymed Mini, and Philips EverFlo. If the device will stay in one bedroom, weight is secondary. If a caregiver will move it between rooms, a 13-14 kg unit is materially easier to handle than a 25 kg unit.
 
-Noise is the second major separator. Nidek Nuvo Lite and Home Medix HM-KV publish around 40 dB class noise levels. Philips EverFlo and Oxymed Mini are in the mid-40s. BPL Oxy 5 Neo and Jumao are materially louder on published specs and are less attractive for bedside night use unless the unit can be placed outside the sleeping area.
+| Model | Flow and concentration | Weight / sound / power | OPI or purity monitor | Price and package | Warranty / support | Why shortlist it; limitation |
+| --- | --- | --- | --- | --- | --- | --- |
+| **[Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/)** | 0.5–5 L/min; 93% ± 3% ([manufacturer product page](https://www.homemedix.in/shop/hm-kv)) | 13 kg; ≤40 dB(A); 320 W per the manufacturer product page. The [supplied brochure](/resources/manufacturer-brochures/home-medix-hm-kv.pdf)’s feature panel says 320 W while its specification grid says 320 VA; confirm the rating on the offered unit documentation. ([manufacturer product page](https://www.homemedix.in/shop/hm-kv)) | Manufacturer lists low-oxygen monitoring/alarm; confirm the display, thresholds and alarm behavior ([manufacturer product page](https://www.homemedix.in/shop/hm-kv)) | ₹42,000 before 5% GST; ₹44,100 including GST. The current manufacturer page confirms a nebulizer kit, fitted filter, and one extra HEPA filter; other package contents and quantities need confirmation. ([manufacturer product page](https://www.homemedix.in/shop/hm-kv)) | 3 years or 10,000 operating hours, whichever comes first. Home Medix lists Bengaluru service contact details; for other locations it asks buyers to confirm exact arrangements, with availability and turnaround agreed individually. ([support page](https://www.homemedix.in/support)) | Consider for low-flow flexibility and published compact, low-noise specifications. Limitation: the exact package beyond listed items and service availability depend on the seller. |
+| **[Philips Respironics EverFlo](/oxygen-concentrators/philips-everflo-5-lpm/)** | 0.5–5 L/min; 93% ± 3% at 5 L/min ([Philips brochure](https://www.documents.philips.com/doclib/enc/9801469/EverFlo_brochure.pdf)) | 14 kg; 45 dBA typical; 350 W ([Philips brochure](https://www.documents.philips.com/doclib/enc/9801469/EverFlo_brochure.pdf)) | OPI is an option by model; brochure lists separate OPI and non-OPI versions ([Philips brochure](https://www.documents.philips.com/doclib/enc/9801469/EverFlo_brochure.pdf)) | Current India price, stock, package, and GST-inclusive total: confirm with seller; do not use old listings as a current quote. | India warranty and current authorized service: confirm for the specific serial number and seller. Philips’ portfolio page lists EverFlo with a product end-of-service date of 25 January 2029; this is not proof of Indian stock or local service. ([Philips portfolio update](https://www.usa.philips.com/sleep-respiratory-care/news/business-updates/src-portfolio-update)) | Consider only when the exact unit’s support chain is confirmed. Limitation: confirm variant, remaining support window, and spare-parts access before purchase. |
+| **[Nidek Mark 5 Nuvo Lite, model 925](/oxygen-concentrators/nidek-nuvo-lite-5-lpm/)** | 0.125–5 L/min; 87–95.5% at 5 L/min in the official IFU. A distributor brochure for 925 gives 90% (+6.5%/−3%) at 5 L/min ([Nidek IFU](https://www.nidekmedical.com/wp-content/uploads/2022/05/2010-8401ce-rev-g-ifu-nuvo-lite-family.pdf); [925 brochure](https://www.somatco.com/NuvoLite-Mark5-NIDEK.pdf)) | 14.5 kg; 300 W average for 230 V/50 Hz per IFU. Noise is unresolved: the family IFU says &lt;58 dBA; the 925 brochure says 40 dBA typical; an official OCSI guide gives 45 to &lt;40 dBA depending on model. Verify the exact unit and source revision. ([Nidek IFU](https://www.nidekmedical.com/wp-content/uploads/2022/05/2010-8401ce-rev-g-ifu-nuvo-lite-family.pdf); [925 brochure](https://www.somatco.com/NuvoLite-Mark5-NIDEK.pdf); [Nidek OCSI user guide](https://www.nidekmedical.com/wp-content/uploads/2023/03/2010-8401ce-rev-b-nuvo-lite-ocsi-english-single.pdf)) | OCSI is model-dependent; confirm it is fitted to the offered 925 unit ([Nidek IFU](https://www.nidekmedical.com/wp-content/uploads/2022/05/2010-8401ce-rev-g-ifu-nuvo-lite-family.pdf)) | Current India price, package, and GST-inclusive total: confirm with seller. | India warranty and authorized service: confirm for the offered 925/serial and importer. | Consider if a prescribed setting below 1 L/min is required and local service is verified. Limitation: the model documents conflict on sound; do not rely on a single unverified noise figure or compare it directly across brands. |
+| **[AirSep VisionAire 5](/oxygen-concentrators/airsep-visionaire-5/)** | 1–5 L/min; 90% +5.5%/−3% ([CAIRE specifications](https://www.caireinc.com/product/airsep-visionaire/)) | 13.6 kg; 39 dB(A); 290 W ([CAIRE specifications](https://www.caireinc.com/product/airsep-visionaire/)) | Oxygen monitor is available on selected versions; confirm the exact unit ([CAIRE specifications](https://www.caireinc.com/product/airsep-visionaire/)) | Current India price, package, and GST-inclusive total: confirm with seller. | Manufacturer lists a 3-year warranty; confirm Indian importer coverage and service terms. ([CAIRE specifications](https://www.caireinc.com/product/airsep-visionaire/)) | Consider for the published sound and power specifications where the 1 L/min minimum fits the prescription. Limitation: it does not meet a prescribed setting below 1 L/min; verify monitor fitment and Indian support. |
+| **[Oxymed Mini (5L)](/oxygen-concentrators/oxymed-mini-5-lpm/)** | 1–5 L/min; product table says 90–96%, while page prose says 93% ±3%—manufacturer page is internally inconsistent ([Medequip product page](https://medequip.co.in/products/oxygen-concentrator-mini-5-lpm)) | 13.9 kg; 45 dB; 390 W per manufacturer page ([Medequip product page](https://medequip.co.in/products/oxygen-concentrator-mini-5-lpm)) | Analyzer/OPI not established in the page’s specification table. | Page lists humidifier bottle, cannula, nebulizer kit, extra filter set, power cable, and manual; verify exact quantities and current quote. ([Medequip product page](https://medequip.co.in/products/oxygen-concentrator-mini-5-lpm)) | Page states 3-year manufacturer warranty; confirm written terms and local authorized support. ([Medequip product page](https://medequip.co.in/products/oxygen-concentrator-mini-5-lpm)) | Consider only if the manufacturer clarifies the intended medical-device status: the same page says “not a medical device” and not to use for medical treatment or life-support. Do not treat it as verified for prescribed LTOT until resolved. |
+| **[BPL Oxy 5 Neo](/oxygen-concentrators/bpl-oxy-5-neo-5-lpm/)** | 0.5–5 L/min; 95.5% oxygen concentration ([BPL product catalogue](https://www.bplmedicaltechnologies.com/product-catalogue/all-product-catalogue.pdf)) | Evidence pending in the linked catalogue. | Catalogue lists low-oxygen-concentration alarm; whether an indicator is fitted is unclear. | Current price, package, and GST-inclusive total: confirm with seller. | Warranty and authorized service: confirm for the offered unit. | Consider if BPL support is locally accessible and the low-oxygen alarm suits the buyer’s monitoring needs. Limitation: weight, noise, power, OPI fitment, warranty, and exact supplied variant need confirmation. |
+| **[Dr Diaz 5 LPM](/oxygen-concentrators/dr-diaz-5-lpm/)** | Evidence pending. | Evidence pending. | Evidence pending. | Current price, package, and GST-inclusive total: confirm with seller. | Warranty and authorized service: confirm with seller. | Consider only after the seller provides a current specification sheet and service details; comparable current evidence is not available here. |
+| **[Nareena 5 LPM Single Flow](/oxygen-concentrators/nareena-5-lpm-single-flow/)** | Evidence pending. | Evidence pending. | Evidence pending. | Current price, package, and GST-inclusive total: confirm with seller. | Warranty and authorized service: confirm with seller. | Consider only after confirming the exact make/model, documentation, and service route; current comparable evidence is not available here. |
+| **[GVS Oxypure 5 LPM](/oxygen-concentrators/gvs-oxypure-5-lpm/)** | Evidence pending for the named GVS model. A similarly named Sanrai OxyPure brochure exists, but does not establish it is the same make/configuration. | Evidence pending for GVS-branded unit. | Evidence pending. | Current price, package, and GST-inclusive total: confirm with seller. | Warranty and authorized service: confirm for the offered unit. | Consider only after matching manufacturer, model code, and serial-label brand to the relevant documentation; do not transfer Sanrai OxyPure specs to a GVS-labelled machine. |
+| **[Jumao 5LPM](/oxygen-concentrators/jumao-5lpm/)** | Manufacturer literature covers multiple 5 LPM families/configurations, including a 120 V manual and JAY-5 listings; exact HHZ-listed unit identity is not resolved. | Evidence pending for the India-supplied model. | Varies by documentation/configuration; confirm exact indicator. | Current price, package, and GST-inclusive total: confirm with seller. | Warranty and authorized service: confirm for the offered unit. | Consider only after matching the nameplate/model and mains-voltage version to its manufacturer manual and named local service contact. |
+| **[S.Cure 5 LPM](/oxygen-concentrators/s-cure-5-lpm/)** | Evidence pending. | Evidence pending. | Evidence pending. | Current price, package, and GST-inclusive total: confirm with seller. | Warranty and authorized service: confirm with seller. | Require a current model-specific data sheet and written service terms before comparing; current comparable evidence is not available here. |
+| **Drive DeVilbiss 525 series (525DS / 525KS variants)** | 0.5–5 L/min. Manufacturer manual lists 87–96% at 1–5 L/min for 525DS; 93% ±3% for 525KS (220–230 V, 50 Hz). ([Drive DeVilbiss product page and manual](https://shop.drivemedical.com/us/en/products/respiratory/oxygen-therapy/oxygen-concentrators/stationary-concentrators/devilbiss-5-liter-oxygen-concentrator/p/525DS?siteName=Drive+Medical+US+Site&siteUid=us)) | Shared family weight 16.3 kg. 525DS: 310 W average, 48 dBA; 525KS at 230 V/50 Hz: 312 W average (296 W at ≤1.2 L/min), 40 dBA per ISO 8359. ([Drive DeVilbiss product page and manual](https://shop.drivemedical.com/us/en/products/respiratory/oxygen-therapy/oxygen-concentrators/stationary-concentrators/devilbiss-5-liter-oxygen-concentrator/p/525DS?siteName=Drive+Medical+US+Site&siteUid=us)) | Manufacturer says OSD is standard. ([Drive DeVilbiss product page and manual](https://shop.drivemedical.com/us/en/products/respiratory/oxygen-therapy/oxygen-concentrators/stationary-concentrators/devilbiss-5-liter-oxygen-concentrator/p/525DS?siteName=Drive+Medical+US+Site&siteUid=us)) | Current India price and package: confirm with seller. | Manufacturer page lists 3 years for the 525DS; confirm India warranty and authorized support for exact variant. ([Drive DeVilbiss product page and manual](https://shop.drivemedical.com/us/en/products/respiratory/oxygen-therapy/oxygen-concentrators/stationary-concentrators/devilbiss-5-liter-oxygen-concentrator/p/525DS?siteName=Drive+Medical+US+Site&siteUid=us)) | Consider the 525 series where its exact voltage/configuration fits. Limitation: the manufacturer's family includes variants with different concentration, power, and sound specifications; confirm the nameplate and India support before comparing. |
 
-Power draw also matters for long-duration users. A patient using oxygen 15-18 hours per day will see a real electricity cost difference between a 285-320 W unit and a 500+ W unit. Power draw also affects UPS and inverter sizing.
 
-## Oxygen purity indicator matters
 
-OPI, OCI, or oxygen purity analyzer support is important for long-term users because sieve-bed degradation is often gradual. A concentrator can sound normal while delivered oxygen purity falls below its rated envelope. Devices without OPI can still be clinically usable, but they need periodic external oxygen-analyzer checks.
+## How to read the comparison
 
-For long-term oxygen therapy, HHZ prefers an OPI-equipped unit unless the buyer has reliable access to service checks.
+These are manufacturer-published specifications where a primary document is linked. They are not results from a shared bench test: noise measurement conditions, flow performance, and power reporting can differ between manufacturers. For that reason, a sound or wattage figure should be treated as a starting point for questions, not a universal ranking. Power is reported in watts only where the source reports watts; do not compare a VA figure with a W figure as if they were interchangeable.
 
-## Who should shortlist which type
+An oxygen purity indicator or analyzer can alert the user to a concentration problem, but it does not replace prescribed-flow checks, maintenance, or service. Verify the indicator is included on the specific configuration, and ask the supplier how it signals a low reading and who services the unit.
 
-Choose a lower-noise 5 LPM unit if oxygen will be used overnight. Nidek Nuvo Lite, Home Medix HM-KV, Philips EverFlo, Oxymed Mini, and AirSep VisionAire are the natural shortlist from the data above.
+## What to confirm before buying in India
 
-Choose a lower-power unit if the patient uses oxygen most of the day or depends on inverter backup. Dr Diaz, Nidek, AirSep, GVS, S.Cure, and Home Medix are the lower-draw group by published specs.
+Ask the supplier to put these details on the quotation or invoice:
 
-Choose a heavier but cheaper unit only when the machine will remain fixed in one place and noise is not the primary constraint. Weight is not a clinical spec, but it does determine whether caregivers actually reposition the machine safely.
+- Exact model and variant, continuous-flow range, and oxygen concentration specification across the prescribed flow.
+- Total payable price, including GST, delivery, installation, and any accessories charged separately.
+- Package contents by item and quantity. For the HM-KV, the current manufacturer page confirms a nebulizer kit, fitted filter, and one extra HEPA filter; confirm all remaining contents and quantities with the seller.
+- Warranty duration and operating-hour limit, whichever comes first, plus exclusions and the party responsible for service.
+- Nearest authorized service contact, expected response time, and how replacement filters and other consumables are obtained.
+- Compatibility with local mains supply and any stabilizer or backup power requirements; check the manufacturer’s voltage range rather than relying on a generic claim.
+- For hill-station use, altitude limits for the precise model and flow setting.
 
-## Bottom line
+The prescribed flow and a credible local service plan should decide the purchase. HM-KV is the only model in this table with a current manufacturer-published India price captured in this update; other listed models need a current written seller quote and configuration check before total costs can be compared. This is an evidence-coverage difference, not a value or performance ranking. The HM-KV product page reports 320 W; the supplied brochure contains a 320 W feature-panel value and a separate 320 VA value in its specification grid, so check the specific unit documentation.
 
-For a 5 LPM concentrator in India, do not rank by price alone. The practical spec stack is: rated purity, OPI, sound level, power draw, service access, warranty, and then price. A unit that saves INR 5,000 but is too loud for night use or lacks local service is not cheaper in practice.
-
-Published specifications also do not prove who made the machine. Cross-check Indian-made claims against HHZ's [Indian oxygen concentrator manufacturers and CDSCO licence-number table](/top-5/indian-made-oxygen-concentrators/) and review the [CDSCO origin audit](/clinical/where-does-your-oxygen-concentrator-come-from/) for kit-assembly and imported-rebrand disclosures.
-
-*This guide compares published and locally collected specifications. Verify final specifications, warranty terms, and service availability with the manufacturer or authorized dealer before purchase.*
+*This is a specification and buying guide, not a substitute for the prescribing clinician’s oxygen plan. Confirm the required flow and use conditions with the clinician and the equipment supplier.*
 
 ---
 
@@ -8441,22 +8291,22 @@ For LTOT patients above 1500 m in India, sea-level prescriptions don't translate
 
 Source: https://homehealthzone.com/guides/home-medix-hm-bv-30-vs-oxymed-airsmart-vaps-india/
 
-Both machines target price-sensitive Indian buyers who need more than ordinary auto BiPAP. The comparison should therefore begin with the clinician’s ventilation plan, then move to reporting and local support.
+These are distinct products; neither price nor a volume-assured mode label establishes that they can serve the same ventilation plan. Compare documented features, reporting and local support with the clinician’s prescription.
 
 | Factor | [HM-BV-30](/bipap/home-medix-bv-30/) | [Oxymed AirSmart VAPS](/bipap/oxymed-bipap-i-series-p1/) |
 |---|---|---|
-| Indicative market | About ₹38,000 | Budget/mid-tier; confirm current quote |
+| Indicative market | ₹38,000 before 5% GST; ₹39,900 including GST ([Home Medix listing](https://www.homemedix.in/shop/hm-bv-30)) | Budget/mid-tier; confirm current quote |
 | Volume-assured mode | TVAPS | VAPS-labelled |
-| HM published modes | CPAP, APAP, S, Auto S, ST, T, TVAPS | Confirm exact AirSmart SKU and mode list |
+| HM published modes | CPAP, Auto CPAP, S, Auto S, T, ST, TVAPS, PC | Confirm exact AirSmart SKU and mode list |
 | Pressure | HM publishes 4–30 cmH₂O | Confirm exact model |
 | Reporting | Card + Claro on Windows/macOS | Confirm detailed software/report workflow |
 | Decision driver | Published feature/reporting value | Local service and prescriber familiarity |
 
 ## Why HM-BV-30 leads on paper
 
-The seven-mode stack makes HM-BV-30 flexible across fixed, spontaneous, timed, and volume-assured bilevel prescriptions. Claro is an important differentiator: its memory-card workflow produces detailed summaries, trends, event markers, aligned waveforms, pressure, airflow, leak, and AHI on Windows or macOS.
+The HM-BV-30 brochure lists eight modes: CPAP, Auto CPAP, S, Auto S, T, ST, TVAPS and PC. The mode list alone does not establish suitability for an individual prescription. [HM-BV-30 brochure](/resources/manufacturer-brochures/home-medix-hm-bv-30.pdf) Claro is an important differentiator: its memory-card workflow produces detailed summaries, trends, event markers, aligned waveforms, pressure, airflow, leak, and AHI on Windows or macOS.
 
-The published three-year/10,000-hour warranty is also competitive. The 10,000-hour cap matters for long nightly use, so compare calendar and hour limits rather than reading “three years” in isolation.
+The published Home Medix PAP warranty is two years for the device including humidifier, one year each for power adapter and SD card, and 90 days each for mask, tube and water tank under normal operation. It excludes responsibility for damage associated with operation outside device specifications, accessories not provided or recommended by Home Medix, or technical adjustments made without company consent. Unauthorized dismantling or repair can remove eligibility for free maintenance; confirm start date, channel/registration rules, fault coverage, labour and transport terms. [Warranty and service terms](https://www.homemedix.in/resources/pap-warranty-and-service)
 
 ## When Oxymed is the better purchase
 
@@ -8474,59 +8324,85 @@ Ask each seller to demonstrate, not merely promise:
 - Backup rate, trigger, cycle, inspiratory-time, and rise-time settings.
 - Alarm menu and what happens during power loss.
 - A sample full-detail report from the supplied software.
-- Local turnaround, loaner policy, and warranty-hour cap.
+- Local service route, repair timing, and written warranty terms.
 
 If the dealer cannot answer these questions, do not buy a complex ventilation device from that dealer.
 
 ## Verdict
 
-HM-BV-30 is HHZ’s first value recommendation on the published record: broad modes, 30 cmH₂O ceiling, detailed Claro reporting, quiet operation, and a strong warranty position around ₹38,000. Oxymed AirSmart VAPS is the next-best choice when its local clinical and service infrastructure is stronger. In either case, the clinician—not the product title—must confirm that the volume-assured implementation matches the prescription.
+HM-BV-30’s published record lists eight modes, a 30 cmH₂O ceiling, card-based reporting, sound at or below 30 dB(A), and a ₹39,900 tax-inclusive price. Its fit depends on the prescription, quote and support available. Oxymed AirSmart VAPS is the next-best choice when its local clinical and service infrastructure is stronger. In either case, the clinician—not the product title—must confirm that the volume-assured implementation matches the prescription.
 
 ---
 
-# HM-BV-30 vs Philips DreamStation BiPAP AVAPS
+# Home Medix HM-BV-30 vs Philips DreamStation BiPAP AVAPS
 
 Source: https://homehealthzone.com/guides/home-medix-hm-bv-30-vs-philips-dreamstation-bipap-avaps-india/
 
-The key decision is not whether both products contain a volume-assured mode. It is whether **TVAPS on HM-BV-30 can safely implement the treatment goals currently delivered by Philips AVAPS**.
+**Short answer:** HM-BV-30 is listed in India for ₹38,000 before 5% GST (₹39,900 including GST). Philips publishes specifications for DreamStation BiPAP AVAPS, including its AVAPS feature, operating modes, humidification and data capabilities; we did not verify a current India price for a like-for-like authorised package. TVAPS and AVAPS are documented functions of their respective devices, and their names alone do not establish that one device can replace the other. Any choice or change should be matched by the treating clinician to the prescribed therapy, interface and monitoring plan. [HM-BV-30 listing](https://www.homemedix.in/shop/hm-bv-30) · [Philips India product specifications](https://www.philips.co.in/healthcare/product/HCINX1130T19/dreamstation-bipap-avaps-noninvasive-ventilator)
 
-| Factor | [HM-BV-30](/bipap/home-medix-bv-30/) | [DreamStation BiPAP AVAPS](/bipap/philips-dreamstation-bipap-avaps/) |
+## At a glance
+
+
+
+| Comparison field | [Home Medix HM-BV-30](/bipap/home-medix-bv-30/) | [Philips DreamStation BiPAP AVAPS](https://www.philips.co.in/healthcare/product/HCINX1130T19/dreamstation-bipap-avaps-noninvasive-ventilator) |
 |---|---|---|
-| Indicative position | About ₹38,000 | Premium imported/authorised-channel pricing |
-| Volume-assured label | TVAPS | AVAPS |
-| Published HM mode stack | CPAP, APAP, S, Auto S, ST, T, TVAPS | Philips bilevel/AVAPS stack varies by SKU |
-| Data | Card + Claro for Windows/macOS | SD card/Care Orchestrator workflow by configuration |
-| Best fit | Value-led new setup with clinician support | Existing Philips AVAPS prescription/ecosystem |
+| Documented mode/function | CPAP, Auto CPAP, S, Auto S, T, ST, TVAPS and PC | CPAP, S, S/T, T and PC; Philips documents AVAPS and Auto-Trak features |
+| Pressure / sound / weight | 4–30 cmH₂O; ≤30 dB(A); 1.45 kg | Ventilation pressure 4–30 cmH₂O; EPAP 4–25 cmH₂O; 1.98 kg with humidifier and power supply, per Philips India listing |
+| Humidification | Integrated | Heated humidification: fixed/adaptive; humidifier is configuration-dependent |
+| Data | SD card and Home Medix Claro software for Windows/macOS | SD card and Philips remote/patient data ecosystem; availability depends on configuration and market |
+| Price checked 28 Oct 2026 | ₹38,000 + 5% GST = ₹39,900 | Current matching India quote not verified; request a written quote for exact model and package |
+| Included pack | Device, integrated humidifier, full-face mask, reusable filter, power cord, SD card, breathing circuit and carrying bag | Confirm exact supplied configuration and accessories with seller |
+| Warranty | Device including humidifier: 2 years; accessory periods differ | Philips India page lists a 2-year warranty; confirm applicability to the exact India-sold unit and seller |
+| Support | Home Medix service team; confirm service route and charges for your location ([warranty/service terms](https://www.homemedix.in/resources/pap-warranty-and-service)) | Philips lists Contact & Support; confirm India seller and service eligibility for the exact unit ([Philips product page](https://www.philips.co.in/healthcare/product/HCINX1130T19/dreamstation-bipap-avaps-noninvasive-ventilator)) |
 
-## Why HM-BV-30 is the value choice
 
-HM-BV-30 publishes a broad seven-mode stack, pressure up to 30 cmH₂O, quiet operation below 30 dB, integrated humidification, and a three-year/10,000-hour warranty. Claro gives a clinician detailed summaries, trends, waveforms, event markers, pressures, leak, and AHI from the memory card.
 
-For a new home NIV setup with a budget below ₹50,000, that is an unusually complete proposition. It can also avoid uncertainty around imported stock, voltage, modem availability, and seller-specific Philips warranty—provided Home Medix support is genuinely available locally.
+The Home Medix listing provides current price and device details; the pack was confirmed for this update, and its approved warranty reference lists component periods. Philips’ product page gives DreamStation BiPAP AVAPS specifications and a Contact & Support path; confirm that warranty and servicing apply to the exact India-sold unit. [Home Medix listing](https://www.homemedix.in/shop/hm-bv-30) · [Home Medix PAP warranty and service](https://www.homemedix.in/resources/pap-warranty-and-service) · [Philips India specifications and support](https://www.philips.co.in/healthcare/product/HCINX1130T19/dreamstation-bipap-avaps-noninvasive-ventilator)
 
-## Why DreamStation AVAPS may remain the correct choice
+## Current price and package
 
-If the patient is already stable on Philips AVAPS, staying on the same algorithm avoids unnecessary retitration and caregiver retraining. The treating team may also rely on Philips-specific reports, accessories, circuit conventions, or device behaviour.
+Home Medix publishes HM-BV-30 at **₹38,000 before 5% GST, or ₹39,900 including GST**, checked on 28 October 2026. For this update, Home Medix confirmed a pack of one HM-BV-30 device with integrated humidifier, one full-face mask, one reusable filter, one power cord, one SD card, one breathing circuit and one carrying bag; the current model page confirms this supplied pack. Confirm the package against the pro forma invoice. [HM-BV-30 India listing](https://www.homemedix.in/shop/hm-bv-30)
 
-Philips’s established respiratory ecosystem and clinical familiarity are real strengths. Verify the exact unit’s serial number, remediation/recall status where applicable, authorised Indian warranty, voltage, manufacture date, and Care Orchestrator compatibility before buying old or imported stock.
+We could not verify a current India quote for a matching authorised Philips DreamStation BiPAP AVAPS configuration. Ask for the precise model/SKU, new or refurbished status, humidifier and circuit configuration, GST-inclusive total, warranty issuer and service route. Philips’ published product information is not a current India retail quote.
 
-## Switching checklist
+## What each device documents
 
-A clinician should explicitly map:
+Home Medix lists eight modes for HM-BV-30: CPAP, Auto CPAP, S, Auto S, T, ST, TVAPS and PC, across 4–30 cmH₂O; its published sound level is ≤30 dB(A), and its listed weight is 1.45 kg. The brochure names TVAPS as Target Volume Assured Pressure Support and describes the Sophisticated Adaptive Feedback (SAF) algorithm as analyzing inhalation/exhalation and working with trigger/cycle controls for breathing synchronisation. It does not state TVAPS target-volume ranges or detailed pressure-adjustment rules, so none are inferred here. The brochure also lists integrated humidification with levels 0–5, plus SD-card/Claro reporting for Windows and macOS. These are published specifications, not HHZ performance testing. [HM-BV-30 manufacturer brochure](/resources/manufacturer-brochures/home-medix-hm-bv-30.pdf) · [Home Medix listing](https://www.homemedix.in/shop/hm-bv-30)
 
-1. Target tidal volume or ventilation goal.
-2. Minimum and maximum pressure support.
-3. EPAP strategy and airway-obstruction control.
-4. Backup rate, inspiratory time, trigger, cycle, and rise time.
-5. Leak compensation and alarm thresholds.
-6. Supplemental oxygen, humidifier, mask, and circuit.
-7. Follow-up report schedule and escalation thresholds.
+Philips lists DreamStation BiPAP AVAPS modes as CPAP, S, S/T, T and PC, with an AVAPS target-volume feature and Digital Auto-Trak for breath triggering, cycling and leak compensation. Its product page lists an AVAPS target volume of 200–1,500 mL per breath, ventilation pressure of 4–30 cmH₂O and EPAP of 4–25 cmH₂O. These are Philips-published settings ranges, not a suggested prescription. The same page describes fixed/adaptive heated humidification and provides device-specific settings and limits. These describe Philips’ documented implementation; the feature names do not show that the therapy algorithms behave identically to TVAPS. [Philips India DreamStation BiPAP AVAPS details](https://www.philips.co.in/healthcare/product/HCINX1130T19/dreamstation-bipap-avaps-noninvasive-ventilator)
 
-This is especially important in COPD, obesity hypoventilation, neuromuscular disease, or other conditions where nocturnal ventilation supports gas exchange rather than only splinting the airway.
+## Data and care-team workflow
 
-## Verdict
+Home Medix says Claro can review SD-card data on Windows/macOS and advertises a mobile QR reporting option in its downloads. Desktop reports offer more detailed therapy data than a QR compliance summary; confirm which format your treating team can access and interpret. [HM-BV-30 manufacturer brochure](/resources/manufacturer-brochures/home-medix-hm-bv-30.pdf) · [Home Medix product information](https://www.homemedix.in/shop/hm-bv-30) · [Home Medix downloads](https://www.homemedix.in/downloads)
 
-HM-BV-30 is the better-value new purchase when a respiratory clinician accepts its TVAPS implementation and the household has reliable Home Medix service. DreamStation BiPAP AVAPS is the safer continuity choice for a patient already successfully titrated on Philips AVAPS or a clinic standardised on Philips reporting. For more options, see [Philips DreamStation BiPAP/AVAPS alternatives in India](/guides/philips-dreamstation-bipap-avaps-alternatives-india/).
+Philips describes connectivity with Care Orchestrator and feedback through DreamMapper, while its product page also lists SD-card storage. Actual access depends on the exact configuration, market, connectivity components and care provider. Ask the clinic which data channel it uses and confirm that the exact unit supports it. [Philips India product page](https://www.philips.co.in/healthcare/product/HCINX1130T19/dreamstation-bipap-avaps-noninvasive-ventilator)
+
+## Warranty and service
+
+The Home Medix approved PAP warranty reference states two years for the device including humidifier, one year each for the power adapter and SD card, and 90 days each for mask, tube and water tank under normal operation. It excludes responsibility for damage associated with operation outside the device specifications, use of accessories not provided or recommended by Home Medix, and technical adjustments made without company consent. Unauthorized dismantling or repair can remove eligibility for free maintenance. Warranty start date, purchase-channel or registration rules, fault coverage, labour and transport charges must be confirmed for the particular purchase. [Home Medix PAP warranty and service terms](https://www.homemedix.in/resources/pap-warranty-and-service)
+
+Philips’ published India product page shows a two-year warranty. Ask the seller to confirm in writing that it applies to the exact unit and sale channel, who handles service in your location, and whether the unit is new, imported or refurbished. [Philips India product specifications](https://www.philips.co.in/healthcare/product/HCINX1130T19/dreamstation-bipap-avaps-noninvasive-ventilator)
+
+Home Medix lists its service enquiry contact and says the team confirms the route, timing and charges for the buyer’s location. A fixed turnaround, local visit or loan device is not promised in the warranty/service reference. Confirm the arrangements before purchase. [Home Medix PAP warranty and service](https://www.homemedix.in/resources/pap-warranty-and-service)
+
+## Shortlist
+
+**HM-BV-30 may suit a buyer when** the prescribed mode and device capabilities have been reviewed by the treating clinician, the documented pack and ₹39,900 total are suitable, and local Home Medix support and card-based reporting meet the care plan. Its broad mode list does not by itself establish suitability for a particular diagnosis or replacement prescription.
+
+**DreamStation BiPAP AVAPS may suit a buyer when** the clinician specifically selects that device’s documented AVAPS feature, settings or data workflow, or continuity with an existing Philips configuration matters. Confirm local supply, warranty and support for the exact unit; a verified current price was not available for this comparison.
+
+Do not infer clinical interchangeability from the labels TVAPS and AVAPS. A clinician should match the documented mode, interface, prescribed settings and monitoring plan to the patient. Do not change therapy or settings based on this guide.
+
+## Before you order or switch
+
+- Ask the prescriber which device and mode are prescribed and why.
+- Have the clinician confirm the exact model and settings for the intended use.
+- Request the complete GST-inclusive quote and written accessory list.
+- Confirm humidifier, mask/interface, circuit, power supply and consumables.
+- Confirm warranty issuer, exclusions, claim steps and location-specific support.
+- Agree on the report format, review schedule and follow-up plan with the care team.
+
+For broader context, see [Philips DreamStation BiPAP/AVAPS alternatives in India](/guides/philips-dreamstation-bipap-avaps-alternatives-india/).
 
 ---
 
@@ -8534,25 +8410,25 @@ HM-BV-30 is the better-value new purchase when a respiratory clinician accepts i
 
 Source: https://homehealthzone.com/guides/home-medix-hm-bv-30-vs-resmed-lumis-150-india/
 
-This is not a simple “same specification, lower price” comparison. HM-BV-30 uses **TVAPS** terminology; Lumis 150 uses **iVAPS**. Both sit in the volume-assured bilevel category, but the algorithms are not interchangeable and the clinician must translate the prescription.
+This is not a simple “same specification, lower price” comparison. HM-BV-30 uses **TVAPS** terminology; Lumis 150 uses **iVAPS**. The brochure names TVAPS as Target Volume Assured Pressure Support but does not describe its target-volume range or detailed pressure-adjustment rules. ResMed identifies iVAPS on applicable Lumis configurations. The mode names alone do not establish equivalence or interchangeability; the clinician must assess the exact documentation and prescription.
 
 | Factor | [HM-BV-30](/bipap/home-medix-bv-30/) | [ResMed Lumis 150](/bipap/resmed-lumis-vpap-st-bipap-tripack/) |
 |---|---|---|
-| Indicative price | About ₹38,000 | About ₹63,490 |
-| Published modes | CPAP, APAP, S, Auto S, ST, T, TVAPS | Includes S, ST, T and iVAPS-class therapy by SKU |
+| Indicative price | ₹38,000 before 5% GST; ₹39,900 including GST ([Home Medix listing](https://www.homemedix.in/shop/hm-bv-30)) | About ₹63,490 |
+| Published modes | CPAP, Auto CPAP, S, Auto S, T, ST, TVAPS, PC ([HM-BV-30 brochure](/resources/manufacturer-brochures/home-medix-hm-bv-30.pdf)) | Includes S, ST, T and iVAPS-class therapy by SKU |
 | Pressure ceiling | Up to 30 cmH₂O | Confirm exact Indian SKU |
 | Reporting | Memory card + Claro on Windows/macOS | ResScan/AirView ecosystem by configuration |
 | Best fit | Value-focused clinician-supported TVAPS | Premium iVAPS and connected clinical workflow |
 
 ## Where HM-BV-30 wins
 
-**Value:** it delivers a broad mode stack and a 4–30 cmH₂O published pressure range at roughly ₹25,000 less.
+**Published price:** HM-BV-30 is listed at ₹38,000 before GST (₹39,900 including 5% GST); compare its full quote with the exact Lumis configuration. Its brochure lists pressure up to 30 cmH₂O. [HM-BV-30 listing](https://www.homemedix.in/shop/hm-bv-30) · [HM-BV-30 brochure](/resources/manufacturer-brochures/home-medix-hm-bv-30.pdf)
 
 **Offline clinical detail:** Claro provides summaries, trends, waveforms, events, pressure, leak, airflow, and AHI views from the memory card on Windows or macOS. That supports periodic review without locking the patient to a cloud platform.
 
-**Warranty positioning:** the three-year/10,000-hour published warranty and India-side brand position can be attractive where Home Medix has responsive service.
+**Warranty and service:** the approved Home Medix PAP reference gives two years for the device including humidifier; adapter and SD card have one year each, and mask, tube and water tank have 90 days each under normal operation. It excludes responsibility for damage associated with operation outside specifications, accessories not provided or recommended by Home Medix, and technical adjustments without company consent. Unauthorized dismantling or repair can remove free-maintenance eligibility. Confirm start date, purchase-channel/registration rules, fault coverage, labour and transport terms. [Warranty and service terms](https://www.homemedix.in/resources/pap-warranty-and-service)
 
-HM-BV-30 is compelling for a cost-limited home NIV patient whose treating team has reviewed the TVAPS controls and can titrate the device directly.
+HM-BV-30 may be considered for a cost-limited home NIV plan only after the treating team reviews the available device documentation and confirms the prescribed settings and monitoring plan.
 
 ## Where Lumis 150 wins
 
@@ -8576,56 +8452,78 @@ Read [TVAPS, AVAPS, and iVAPS devices in India](/guides/tvaps-avaps-ivaps-device
 
 ## Verdict
 
-HM-BV-30 is the stronger commercial-value choice when its TVAPS mode fits the clinician’s plan and local service is adequate. Lumis 150 is the stronger clinical-platform choice when iVAPS, ResMed’s ecosystem, or connected specialist follow-up is load-bearing. For complex ventilation, the cheapest compatible-looking machine is not necessarily compatible.
+HM-BV-30 may suit when its prescribed mode, documented capabilities, ₹39,900 tax-inclusive published price and local service fit the clinician’s plan. Lumis 150 is the stronger clinical-platform choice when iVAPS, ResMed’s ecosystem, or connected specialist follow-up is load-bearing. For complex ventilation, the cheapest compatible-looking machine is not necessarily compatible.
 
 ---
 
-# Home Medix HM-CV-20 vs BMC GII Auto CPAP
+# Home Medix HM-CV-20 vs BMC GII Auto CPAP: India comparison
 
 Source: https://homehealthzone.com/guides/home-medix-hm-cv-20-vs-bmc-gii-auto-cpap-india/
 
-The BMC GII is often the cheapest recognisable auto CPAP in India; the HM-CV-20 is a step-up that remains below premium ResMed pricing. Both cover the normal 4–20 cmH₂O APAP range and target uncomplicated obstructive sleep apnoea.
+**Short answer:** HM-CV-20 is a CPAP/APAP device with integrated humidification and a published India price of ₹30,000 before GST (₹31,500 including 5% GST). BMC RESmart GII Auto CPAP also offers CPAP/Auto CPAP in the matching E-20A model family. Choose based on the exact model, invoice package, clinician requirements and support available to you; a current, like-for-like BMC India price was not verified for this review. [Home Medix HM-CV-20 listing](https://www.homemedix.in/shop/hm-cv-20) · [BMC GII model information](https://en.bmc-medical.com/col194/59)
 
-| Factor | [HM-CV-20](/cpap/home-medix-cv-20/) | [BMC GII Auto CPAP](/cpap/bmc-gll-auto-cpap-with-humidifier/) |
+## At a glance
+
+
+
+| Comparison field | [Home Medix HM-CV-20](/cpap/home-medix-cv-20/) | [BMC RESmart GII Auto CPAP](https://en.bmc-medical.com/col194/59) |
 |---|---|---|
-| Indicative price | About ₹28,000 | About ₹17,490 |
-| Modes | CPAP, APAP | CPAP, Auto |
-| Pressure | 4–20 cmH₂O | 4–20 cmH₂O |
-| Published sound | &lt;30 dB | About 30 dB |
-| Published weight | 1.45 kg | About 2.5 kg |
-| Reporting | Card + Claro on Windows/macOS | SD card/iCode workflow |
-| Central-event visibility | Published as present | Confirm on exact firmware/report |
-| Altitude compensation | Not clearly published | Published |
+| Modes | CPAP and Auto CPAP (APAP) | CPAP and Auto CPAP on E-20A-H-O; confirm exact suffix/model because GII includes fixed CPAP variants too |
+| Sound / weight | ≤30 dB(A); 1.45 kg | Not established for this exact BMC configuration from the primary source checked |
+| Exhalation comfort | EPFlex, levels 0–3 | Reslex exhalation pressure relief; exact setting range confirm for model |
+| Altitude support | Automatic altitude compensation listed | Automatic altitude compensation listed by BMC |
+| Pressure range | 4–20 cmH₂O | 4–20 cmH₂O for E-20A-H-O |
+| Humidification | Integrated | GII family uses heated humidification; confirm the supplied humidifier configuration |
+| Price checked 28 Oct 2026 | ₹30,000 + 5% GST = ₹31,500 | Current like-for-like India quote not verified; request a written quote |
+| Reporting | SD card; Home Medix Claro is available for Windows and macOS | SD card, iCode/iCode QR and BMC reporting tools are listed for the GII family |
+| Included package | Device, integrated humidifier, nasal mask, reusable filter, power cord, SD card, breathing circuit and carrying bag | Varies by quote; confirm each included item in writing |
+| Warranty reference | Device including humidifier: 2 years; accessories have separate periods | Confirm warranty and service terms for the exact India-sold unit |
+| Support | Home Medix service team; confirm service route and charges for your location ([warranty/service terms](https://www.homemedix.in/resources/pap-warranty-and-service)) | BMC publishes an India service-center route; confirm exact seller/serial eligibility and local coverage ([BMC support](https://en.bmc-medical.com/service-support/)) |
 
-## Why HHZ prefers HM-CV-20 overall
 
-The added spend buys a meaningfully lighter machine, a stronger published event-detection story, and the Claro desktop reporting workflow. Claro provides trends and detailed event, pressure, leak, airflow, snoring, and AHI views rather than limiting follow-up to a basic compliance code.
 
-HM-CV-20 also publishes a three-year/10,000-hour warranty. As always, the warranty is only valuable if the local dealer can diagnose the unit, obtain parts, and provide a temporary replacement.
+Home Medix’s current product listing provides the HM price and integrated humidifier; the pack details were confirmed for this update, and its approved warranty reference lists component periods. BMC identifies E-20A-H-O as CPAP/Auto CPAP and E-20C-H-O as fixed CPAP; its support page provides an India service-center route, while location-specific coverage still needs checking. [Home Medix listing](https://www.homemedix.in/shop/hm-cv-20) · [BMC GII model table and features](https://en.bmc-medical.com/col194/59) · [BMC service support](https://en.bmc-medical.com/service-support/)
 
-For a buyer comparing only monthly therapy cost, the ₹10,000–₹11,000 device difference becomes smaller over several years. Mask fit, replacement cushions, follow-up, and power backup can have a larger effect on whether therapy is actually used.
+## Price and what is in the box
 
-## Why BMC GII remains a valid choice
+Home Medix publishes HM-CV-20 at **₹30,000 before 5% GST, or ₹31,500 including GST**, checked on 28 October 2026. For this update, Home Medix confirmed a pack of one HM-CV-20 device with integrated humidifier, one nasal mask, one reusable filter, one power cord, one SD card, one breathing circuit and one carrying bag; the current model page confirms this supplied pack. Check the items against the invoice before payment. [HM-CV-20 India listing](https://www.homemedix.in/shop/hm-cv-20)
 
-The BMC GII’s biggest advantage is straightforward: it can deliver recognisable-brand APAP at a much lower entry price. BMC also has broad Indian budget-channel distribution, CE positioning, and published altitude compensation.
+We could not verify a current written India quote for the matching BMC GII Auto CPAP configuration. Ask the seller to state the full model code, humidifier, mask, circuit, filters, card, warranty issuer and final GST-inclusive total. Avoid comparing an older or incomplete online price with the current HM-CV-20 total.
 
-That makes BMC attractive for a standard OSA prescription, a strict cash ceiling, or use in a high-altitude location where HM-CV-20’s documentation is unclear. Verify whether the seller provides detailed SD-card review, not just an iCode summary, and whether a clinician can read the resulting files.
+## Modes, pressure and humidification
 
-## Service can reverse the result
+The HM-CV-20 brochure lists CPAP and Auto CPAP modes, 4–20 cmH₂O pressure, integrated humidification with levels 0–5, ramp settings, sound ≤30 dB(A) and a weight of 1.45 kg. It also lists automatic altitude compensation and leak compensation. These are manufacturer-published specifications, not HHZ bench measurements. [HM-CV-20 manufacturer brochure](/resources/manufacturer-brochures/home-medix-hm-cv-20.pdf) · [Home Medix product listing](https://www.homemedix.in/shop/hm-cv-20)
 
-Choose the dealer before the logo. Ask both sellers:
+BMC’s GII family page lists the E-20A-H-O as the 4–20 cmH₂O CPAP/Auto CPAP model and describes its Eco Smart humidification, Reslex exhalation relief, sleep-event detection and automatic leakage and altitude compensation. Because “GII” covers multiple models and screen/configuration variants, ask the seller to identify the exact E-20A model on the quote. [BMC GII model and feature page](https://en.bmc-medical.com/col194/59)
 
-- Who handles a humidifier or blower failure in your city?
-- Is a loaner available during repair?
-- Can the clinic receive a detailed report?
-- Are filters, chambers, power supplies, and compatible tubes stocked?
-- Does the quote include a mask, and can the mask be exchanged after fitting?
+## Data and follow-up
 
-If BMC has strong local support and Home Medix does not, BMC is the safer purchase. The reverse is equally true.
+Home Medix states that its Claro software for Windows and macOS reads therapy data from the device card and presents event labels and therapy summaries. The brochure identifies obstructive apnoea, central apnoea, hypopnoea, flow limitation and snoring as event categories; the report can support clinical review but does not diagnose a condition by itself. [Home Medix HM-CV-20 brochure](/resources/manufacturer-brochures/home-medix-hm-cv-20.pdf)
 
-## Verdict
+BMC lists SD card, iCode/iCode QR, a quick report on the device screen, PAP Link App, PAP Link PC and PAP Link Web in its GII family information. Which channels are usable depends on the exact model and connectivity accessories. Before buying, ask the prescriber or clinic which report format it can review and verify that the exact device will export it. [BMC GII reporting options](https://en.bmc-medical.com/col194/59)
 
-HM-CV-20 is HHZ’s better overall choice because its lighter build, central-event visibility, Claro reports, and warranty package justify a moderate premium. BMC GII is the right price-first alternative and deserves special consideration where its local service or altitude documentation is stronger. Neither machine should be used to self-treat central apnoea or replace prescribed bilevel ventilation.
+## Warranty and service
+
+The Home Medix approved PAP warranty reference states two years for the device including humidifier, one year each for power adapter and SD card, and 90 days each for mask, tube and water tank under normal operation. It excludes responsibility for damage associated with operation outside the device specifications, use of accessories not provided or recommended by Home Medix, and technical adjustments made without company consent. Unauthorized dismantling or repair can remove eligibility for free maintenance. Warranty start date, purchase-channel or registration rules, fault coverage, labour and transport charges must be confirmed for the specific purchase. [Home Medix PAP warranty and service terms](https://www.homemedix.in/resources/pap-warranty-and-service)
+
+For BMC, get the warranty duration, provider, service route and claim conditions in writing for the actual India-sold machine. Do not assume global manufacturer terms apply to an imported or reseller-supplied unit. For either brand, ask how to get the machine assessed in your city and what the quote includes.
+
+## Shortlist
+
+**Choose HM-CV-20 when** its CPAP/APAP range matches the prescription, you want the published complete package and current fixed total, and the documented Home Medix warranty and service route work for your location. Its specified mode range is straightforward; it is not a bilevel ventilator.
+
+**Choose BMC GII Auto CPAP when** the seller confirms the E-20A-H-O variant, provides a complete GST-inclusive quote and package, and its local warranty, reporting workflow or clinician familiarity is a better fit. GII is a family name, so the precise model matters.
+
+No comparison here establishes therapeutic equivalence for an individual. Confirm diagnosis, prescribed mode and settings with the treating clinician; do not change therapy based on this guide.
+
+## Before you order
+
+- Ask for the full model and suffix on the pro forma invoice.
+- Compare final GST-inclusive totals and list every included component.
+- Confirm the mask size/type, compatible tube and humidifier chamber supplied.
+- Ask the seller to state warranty coverage, claim route and service contact for your city.
+- Confirm that your clinic can review the available report/card workflow.
+- Match mode and settings to the prescription with the clinician.
 
 ---
 
@@ -8637,18 +8535,18 @@ Both machines cover the standard 4–20 cmH₂O APAP range and include heated hu
 
 | Factor | [HM-CV-20](/cpap/home-medix-cv-20/) | [AirSense 10 AutoSet](/cpap/resmed-airsense-10-autoset-cpap/) |
 |---|---|---|
-| Indicative price | About ₹28,000 | About ₹45,999 |
+| Indicative price | ₹30,000 before 5% GST; ₹31,500 including GST ([Home Medix listing](https://www.homemedix.in/shop/hm-cv-20)) | About ₹45,999 |
 | Modes | CPAP, APAP | CPAP, AutoSet, AutoSet for Her on relevant SKU |
 | Pressure | 4–20 cmH₂O | 4–20 cmH₂O |
 | Published sound | &lt;30 dB | 25 dB |
 | Published weight | 1.45 kg | 1.24 kg |
 | Data | Memory card + Claro on Windows/macOS | SD card; AirView on connected SKUs |
 | Humidification | Integrated, levels 0–5 | HumidAir; ClimateLineAir support on relevant package |
-| Warranty positioning | 3 years/10,000 hours | Confirm current dealer terms |
+| Warranty | Device including humidifier: 2 years; power adapter and SD card: 1 year each; mask, tube and water tank: 90 days each ([terms](https://www.homemedix.in/resources/pap-warranty-and-service)) | Confirm current dealer terms |
 
 ## Buy HM-CV-20 if value decides
 
-At roughly ₹18,000 less, HM-CV-20 preserves the fundamentals: APAP, expiratory relief, ramp, leak compensation, heated humidification, and event reporting. Its published central-apnea detection is useful for flagging events for clinical review, though CPAP does not treat central sleep apnoea.
+At its published price of ₹30,000 before GST (₹31,500 including 5% GST), HM-CV-20 offers the fundamentals: APAP, expiratory relief, ramp, leak compensation, heated humidification, and event reporting. The brochure describes central-apnoea event identification for clinical review; CPAP/APAP does not thereby become central-apnoea therapy. [HM-CV-20 brochure](/resources/manufacturer-brochures/home-medix-hm-cv-20.pdf)
 
 Claro makes the device more clinically usable than a display-only budget CPAP. The memory card can be read on Windows or macOS to produce detailed summaries and waveform views. The trade-off is manual transfer: there is no automatic nightly clinic upload.
 
@@ -8666,13 +8564,13 @@ The connected SKU matters. Some AirSense 10 units are SD-card-only, and imported
 
 **Cold or air-conditioned rooms:** heated tubing and automatic climate control can reduce rainout and dryness. That makes ResMed more attractive for users who have already struggled with condensation.
 
-**Local service:** HM-CV-20 is strongest where a Home Medix dealer can provide quick swaps and accessories. ResMed usually has broader premium-channel recognition, but service quality still varies by seller.
+**Home Medix warranty and service:** the PAP reference gives two years for the device including humidifier, one year each for power adapter and SD card, and 90 days each for mask, tube and water tank under normal operation. It excludes damage associated with operation outside specifications, accessories not provided or recommended by Home Medix, and technical adjustments without company consent; unauthorized dismantling or repair can remove free-maintenance eligibility. Confirm warranty start date, channel/registration requirements, fault coverage, labour and transport for your purchase. Home Medix service routes and charges vary by location. [Warranty and service terms](https://www.homemedix.in/resources/pap-warranty-and-service)
 
 **Total starter cost:** compare device, humidifier, heated tube, mask, filters, data module, delivery, and warranty—not the blower price alone.
 
 ## Verdict
 
-For uncomplicated OSA, a budget near ₹30,000, and a clinician comfortable reviewing Claro reports, HM-CV-20 is the better-value purchase. AirSense 10 is worth the premium for ResMed AutoSet, quieter published operation, climate-control comfort, connected-clinic compatibility, and established global ecosystem. Neither should be bought as a substitute for BiPAP, ST, VAPS, or ASV therapy.
+For uncomplicated OSA and a clinician comfortable reviewing Claro reports, HM-CV-20 may suit buyers whose budget covers its ₹31,500 tax-inclusive published price. AirSense 10 is worth the premium for ResMed AutoSet, quieter published operation, climate-control comfort, connected-clinic compatibility, and established global ecosystem. Neither should be bought as a substitute for BiPAP, ST, VAPS, or ASV therapy.
 
 ---
 
@@ -8684,7 +8582,7 @@ These machines sit two price tiers apart. Both provide CPAP/APAP across 4–20 c
 
 | Factor | [HM-CV-20](/cpap/home-medix-cv-20/) | [AirSense 11 AutoSet](/cpap/resmed-airsense-11-autoset-cpap-machine/) |
 |---|---|---|
-| Indicative price | About ₹28,000 | About ₹63,390 |
+| Indicative price | ₹30,000 before 5% GST; ₹31,500 including GST ([Home Medix listing](https://www.homemedix.in/shop/hm-cv-20)) | About ₹63,390 |
 | Published sound | &lt;30 dB | 27 dB |
 | Published weight | 1.45 kg | 1.1 kg |
 | Data | Card + Claro for Windows/macOS | myAir/AirView, Bluetooth/cellular by SKU, SD card |
@@ -8694,11 +8592,11 @@ These machines sit two price tiers apart. Both provide CPAP/APAP across 4–20 c
 
 ## Where HM-CV-20 wins
 
-**Price-to-therapy value:** the approximate ₹35,000 saving is meaningful. HM-CV-20 retains the standard APAP pressure range, integrated humidifier, expiratory relief, ramp, leak compensation, and event visibility.
+**Price-to-therapy value:** Home Medix publishes ₹30,000 before GST, or ₹31,500 including 5% GST; compare that total with a current, like-for-like ResMed quote. HM-CV-20 retains the standard APAP pressure range, integrated humidifier, expiratory relief, ramp, leak compensation, and event visibility.
 
-**Detailed offline reports:** Home Medix Claro converts the memory card into therapy summaries, trends, aligned waveform panels, and event-level views on Windows or macOS. It is suitable for periodic clinical review when automatic cloud uploads are not mandatory.
+**Detailed offline reports:** Home Medix Claro reads SD-card data on Windows/macOS for therapy review. [HM-CV-20 brochure](/resources/manufacturer-brochures/home-medix-hm-cv-20.pdf) It is suitable for periodic clinical review when automatic cloud uploads are not mandatory.
 
-**India-side value proposition:** a three-year/10,000-hour warranty and domestic service positioning can reduce dependence on premium imported-stock pricing—provided the local dealer is responsive.
+**Warranty and service:** the Home Medix PAP reference gives two years for the device including humidifier, one year each for power adapter and SD card, and 90 days each for mask, tube and water tank under normal operation. It excludes damage associated with operation outside specifications, accessories not provided or recommended by Home Medix, and technical adjustments without company consent; unauthorized dismantling or repair can remove free-maintenance eligibility. Confirm warranty start date, purchase-channel or registration requirements, fault coverage, labour and transport charges for the actual purchase. Home Medix service routes and charges vary by location. [Warranty and service terms](https://www.homemedix.in/resources/pap-warranty-and-service)
 
 ## Where AirSense 11 wins
 
@@ -8715,7 +8613,7 @@ The connectivity package can vary by region and seller. Confirm that the exact I
 Choose **HM-CV-20** when:
 
 - The diagnosis is uncomplicated obstructive sleep apnoea.
-- The budget is near ₹30,000.
+- The budget covers the published ₹31,500 price including GST.
 - Periodic card-based clinical review is acceptable.
 - Home Medix service is available in your city.
 
@@ -8730,7 +8628,7 @@ If you want ResMed’s algorithm without AirSense 11 pricing, the [AirSense 10 A
 
 ## Verdict
 
-HM-CV-20 is the commercial-value winner; AirSense 11 is the feature and ecosystem winner. For a straightforward APAP prescription, the Home Medix machine can deliver the core therapy at well under half the indicative price. Pay for AirSense 11 when its cloud workflow, climate comfort, and ResMed platform will actually be used.
+HM-CV-20 is the commercial-value winner; AirSense 11 is the feature and ecosystem winner. For a straightforward APAP prescription, compare the ₹31,500 published HM-CV-20 total with the current quote for the exact ResMed package. Pay for AirSense 11 when its cloud workflow, climate comfort, and ResMed platform will actually be used.
 
 ---
 
@@ -12345,7 +12243,7 @@ Source: https://homehealthzone.com/oxygen-concentrators/5-lpm/bangalore/
 
 ## Short answer
 
-For most Bangalore home oxygen buyers, HHZ would shortlist Home Medix HM-KV, Oxymed Mini 5 LPM, and selected imported models only after verifying serviceability. Home Medix HM-KV is the strongest value pick where local service is confirmed: 13 kg, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, and a 3-year / 10,000-hour warranty. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
+For most Bangalore home oxygen buyers, HHZ would shortlist Home Medix HM-KV, Oxymed Mini 5 LPM, and selected imported models only after verifying serviceability. Home Medix HM-KV is an option to compare by published specifications where local service is confirmed: 13 kg stated weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), 320 W rated power, manufacturer-listed low-oxygen monitoring/alarm, integrated nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
 
 ## Quick picks for Bangalore
 
@@ -12370,7 +12268,7 @@ In Bangalore, a serious 5 LPM home oxygen concentrator usually starts around the
 
 ## Best overall local pick: Home Medix HM-KV
 
-Bangalore is the strongest city fit for Home Medix in this first rollout because the brand is Bengaluru-headquartered and the service-support claim is more plausible here than in remote markets. Still, buyers should confirm the exact authorised support point, warranty process, and spare availability before payment.
+Home Medix is headquartered in Bengaluru. Bangalore buyers should confirm the authorised support point, warranty process, and spare availability before payment.
 
 Home Medix HM-KV 5 LPM: 13 kg chassis, 0.5-5 LPM continuous flow, 93% +/- 3% purity, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
 
@@ -12393,7 +12291,7 @@ In Bangalore, many respiratory-equipment dealers can arrange same-day or next-da
 
 - **Which is the best 5 LPM oxygen concentrator in Bangalore?** HHZ's Bangalore shortlist starts with Home Medix HM-KV where local service is confirmed, Oxymed Mini 5 LPM as an Indian-service alternative, and imported options such as AirSep, Nidek, or DeVilbiss only when stock age, warranty, and spare availability are proven in writing.
 - **What is the price of a 5 litre oxygen concentrator in Bangalore?** A practical Bangalore price band is roughly Rs 30,000-38,000 for budget Indian/OEM units, Rs 38,000-50,000 for stronger mainstream 5 LPM units, and Rs 50,000-75,000+ for imported or premium models when service and stock age are verified.
-- **Is Home Medix HM-KV good for home oxygen use in Bangalore?** Yes, it is a strong Bangalore option if local service is confirmed. The HM-KV combines 13 kg weight, <=40 dB field-verified sound, 320 VA draw, OPI plus live purity display, integrated nebulization, and a 3-year / 10,000-hour warranty.
+- **Is Home Medix HM-KV good for home oxygen use in Bangalore?** If local service is confirmed, the HM-KV can be compared on its stated specifications: 13 kg stated weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), 320 W rated power, manufacturer-listed low-oxygen monitoring/alarm, integrated nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first.
 - **Should I buy Philips EverFlo in Bangalore now?** Only with extra verification. Philips EverFlo has been officially discontinued globally, so a Bangalore buyer should verify serial-number age, invoice date, warranty validity, authorised service continuity, and spare availability before buying.
 - **How do I know if an oxygen concentrator sold as new is actually new?** Ask for the serial number before payment, check manufacturing or import date, demand a GST invoice with serial number, verify warranty activation with the brand or authorised distributor, and avoid box-opened or demo units unless the discount and warranty terms are explicit.
 - **Should I rent or buy a 5 LPM oxygen concentrator in Bangalore?** Rent for short post-discharge needs of a few weeks to three months. Buy when the prescription is long-term or likely to cross six to nine months, because rental costs often approach purchase economics while exposing the patient to worn fleet stock.
@@ -12406,7 +12304,7 @@ Source: https://homehealthzone.com/oxygen-concentrators/5-lpm/mumbai/
 
 ## Short answer
 
-For most Mumbai home oxygen buyers, HHZ would shortlist Oxymed Mini 5 LPM first where the local service route is proven, then Home Medix HM-KV as the stronger value-spec alternative, and selected imported models only after verifying serviceability. Oxymed is the safer first call in Mumbai when dealer-backed support and same-city warranty handling are clear. Home Medix HM-KV remains attractive at 13 kg, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, and a 3-year / 10,000-hour warranty. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
+For most Mumbai home oxygen buyers, HHZ would shortlist Oxymed Mini 5 LPM first where the local service route is proven, then Home Medix HM-KV as the published-specification alternative, and selected imported models only after verifying serviceability. Oxymed is the safer first call in Mumbai when dealer-backed support and same-city warranty handling are clear. Home Medix HM-KV can be compared by its stated specifications: 13 kg stated weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), 320 W rated power, manufacturer-listed low-oxygen monitoring/alarm, integrated nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
 
 ## Quick picks for Mumbai
 
@@ -12431,7 +12329,7 @@ Mumbai has enough dealer competition that headline prices can look attractive, b
 
 ## When to consider Home Medix HM-KV
 
-Mumbai is a plausible Home Medix city because South and West India are the brand's stronger stated service regions, but HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Mumbai buyers should still compare both service routes, especially for compressor and sieve-bed support.
+HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Buyers should compare both service routes, especially for compressor and sieve-bed support.
 
 Home Medix HM-KV 5 LPM remains a strong value alternative when local service is confirmed: 13 kg chassis, 0.5-5 LPM continuous flow, 93% +/- 3% purity, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
 
@@ -12452,9 +12350,9 @@ In Mumbai, same-day or next-day delivery is often possible through local respira
 
 ## FAQ
 
-- **Which is the best 5 LPM oxygen concentrator in Mumbai?** HHZ's Mumbai shortlist starts with Oxymed Mini 5 LPM where local service is proven, then Home Medix HM-KV as the stronger value-spec alternative, and imported AirSep, Nidek, or DeVilbiss units only after serial age, warranty, and spares are verified.
+- **Which is the best 5 LPM oxygen concentrator in Mumbai?** HHZ's Mumbai shortlist starts with Oxymed Mini 5 LPM where local service is proven, then Home Medix HM-KV as the published-specification alternative, and imported AirSep, Nidek, or DeVilbiss units only after serial age, warranty, and spares are verified.
 - **What is the price of a 5 litre oxygen concentrator in Mumbai?** Expect roughly Rs 30,000-38,000 for budget Indian/OEM machines, Rs 38,000-50,000 for stronger mainstream 5 LPM machines, and Rs 50,000-75,000+ for imported or premium units when service and stock age are proven.
-- **Is Home Medix HM-KV good for home oxygen use in Mumbai?** It can be a strong Mumbai buy if local authorised service is confirmed. Its main advantages are 13 kg weight, <=40 dB field-verified sound, OPI plus live purity display, 320 VA draw, and a 3-year / 10,000-hour warranty.
+- **Is Home Medix HM-KV good for home oxygen use in Mumbai?** If local authorised service is confirmed, buyers can compare it on its stated specifications: 13 kg stated weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), manufacturer-listed low-oxygen monitoring/alarm, 320 W rated power, and a 3 years or 10,000 operating hours of warranty, whichever comes first.
 - **Should I buy Philips EverFlo in Mumbai now?** Only after careful verification. EverFlo is officially discontinued globally, and Mumbai buyers should check whether the unit is fresh stock, old COVID-era stock, or refurbished inventory before treating it as a new long-term purchase.
 - **How do I know if an oxygen concentrator sold as new is actually new?** Verify serial number age, manufacturing or import date, GST invoice, warranty activation, box condition, and authorised dealer status. Refuse vague answers on whether the unit is fresh, refurbished, demo, or old channel stock.
 - **Should I rent or buy a 5 LPM oxygen concentrator in Mumbai?** Rent for short recovery windows. Buy for LTOT or any expected use beyond six to nine months, but inspect rental economics carefully because worn fleet units and weak maintenance can be a real risk.
@@ -12467,7 +12365,7 @@ Source: https://homehealthzone.com/oxygen-concentrators/5-lpm/delhi/
 
 ## Short answer
 
-For most Delhi home oxygen buyers, HHZ would shortlist Oxymed Mini 5 LPM first where the local service route is proven, then Home Medix HM-KV as the stronger value-spec alternative, and selected imported models only after verifying serviceability. Oxymed is the safer first call in Delhi when the dealer can prove warranty handling, spare access, and service response. Home Medix HM-KV remains attractive at 13 kg, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, and a 3-year / 10,000-hour warranty. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
+For most Delhi home oxygen buyers, HHZ would shortlist Oxymed Mini 5 LPM first where the local service route is proven, then Home Medix HM-KV as the published-specification alternative, and selected imported models only after verifying serviceability. Oxymed is the safer first call in Delhi when the dealer can prove warranty handling, spare access, and service response. Home Medix HM-KV can be compared by its stated specifications: 13 kg stated weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), 320 W rated power, manufacturer-listed low-oxygen monitoring/alarm, integrated nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
 
 ## Quick picks for Delhi
 
@@ -12492,7 +12390,7 @@ Delhi has a wide oxygen-equipment dealer market, which means buyers will see bot
 
 ## When to consider Home Medix HM-KV
 
-Delhi buyers should treat Home Medix as a strong spec-sheet and value candidate, but HHZ puts Oxymed first in Delhi when its local dealer support is stronger. Confirm the Home Medix service route, turnaround time, and spare availability before choosing it over a locally stronger dealer-supported alternative.
+HHZ puts Oxymed first in Delhi when its local dealer support is better documented. Confirm Home Medix service route, turnaround time, and spare availability before choosing between them.
 
 Home Medix HM-KV 5 LPM remains a strong value alternative when local service is confirmed: 13 kg chassis, 0.5-5 LPM continuous flow, 93% +/- 3% purity, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
 
@@ -12513,9 +12411,9 @@ In Delhi, many dealers can move oxygen equipment quickly, but urgent delivery sh
 
 ## FAQ
 
-- **Which is the best 5 LPM oxygen concentrator in Delhi?** HHZ would shortlist Oxymed Mini 5 LPM first where local Delhi service is proven, then Home Medix HM-KV as the stronger value-spec alternative, and imported AirSep, Nidek, or DeVilbiss units only after stock age, warranty, and spares are verified.
+- **Which is the best 5 LPM oxygen concentrator in Delhi?** HHZ would shortlist Oxymed Mini 5 LPM first where local Delhi service is proven, then Home Medix HM-KV as the published-specification alternative, and imported AirSep, Nidek, or DeVilbiss units only after stock age, warranty, and spares are verified.
 - **What is the price of a 5 litre oxygen concentrator in Delhi?** Delhi buyers should expect roughly Rs 30,000-38,000 for budget units, Rs 38,000-50,000 for stronger mainstream 5 LPM machines, and Rs 50,000-75,000+ for imported or premium machines with verified warranty and service.
-- **Is Home Medix HM-KV good for home oxygen use in Delhi?** It is a strong value candidate if Delhi service support is real and documented. Its advantages are low 13 kg weight, <=40 dB field-verified sound, 320 VA draw, live purity display, nebulization, and a 3-year / 10,000-hour warranty.
+- **Is Home Medix HM-KV good for home oxygen use in Delhi?** If Delhi service support is documented, buyers can compare its stated specifications: 13 kg stated weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), 320 W rated power, live purity display, nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first.
 - **Should I buy Philips EverFlo in Delhi now?** Only if the seller proves fresh stock, valid warranty, and service continuity. EverFlo has been officially discontinued globally, and old-stock or refurbished risk is a serious Delhi buyer concern.
 - **How do I know if an oxygen concentrator sold as new is actually new?** Ask for serial number age, import or manufacturing date, GST invoice, warranty activation proof, and written confirmation that the unit is not refurbished, demo, or old COVID-era inventory.
 - **Should I rent or buy a 5 LPM oxygen concentrator in Delhi?** Rent for short post-acute use. Buy for long-term oxygen therapy when service support is confirmed, because extended rentals can cost as much as purchase while leaving the patient dependent on fleet maintenance quality.
@@ -12528,7 +12426,7 @@ Source: https://homehealthzone.com/oxygen-concentrators/5-lpm/chennai/
 
 ## Short answer
 
-For most Chennai home oxygen buyers, HHZ would shortlist Home Medix HM-KV, Oxymed Mini 5 LPM, and selected imported models only after verifying serviceability. Home Medix HM-KV is a strong value pick where Chennai service is confirmed: 13 kg, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, and a 3-year / 10,000-hour warranty. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
+For most Chennai home oxygen buyers, HHZ would shortlist Home Medix HM-KV, Oxymed Mini 5 LPM, and selected imported models only after verifying serviceability. Home Medix HM-KV is a published-specification option where Chennai service is confirmed: 13 kg stated weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), 320 W rated power, manufacturer-listed low-oxygen monitoring/alarm, integrated nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
 
 ## Quick picks for Chennai
 
@@ -12553,7 +12451,7 @@ Chennai buyers should not shop only by discount because coastal humidity makes f
 
 ## Best overall local pick: Home Medix HM-KV
 
-Chennai is a strong conditional fit for Home Medix because the brand's stated service footprint is better in South India than in remote regions. Buyers should still verify who handles compressor and sieve-bed service locally.
+Home Medix states service coverage in South India; Chennai buyers should verify who handles compressor and sieve-bed service locally.
 
 Home Medix HM-KV 5 LPM: 13 kg chassis, 0.5-5 LPM continuous flow, 93% +/- 3% purity, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
 
@@ -12576,7 +12474,7 @@ In Chennai, dealer delivery can be fast, but the delivery handoff should include
 
 - **Which is the best 5 LPM oxygen concentrator in Chennai?** HHZ's Chennai shortlist starts with Home Medix HM-KV where service is confirmed, Oxymed Mini 5 LPM as an Indian-service alternative, and imported AirSep, Nidek, or DeVilbiss units only when stock age, warranty, and spares are verified.
 - **What is the price of a 5 litre oxygen concentrator in Chennai?** A practical Chennai range is Rs 30,000-38,000 for budget Indian/OEM units, Rs 38,000-50,000 for stronger mainstream 5 LPM units, and Rs 50,000-75,000+ for verified imported or premium models.
-- **Is Home Medix HM-KV good for home oxygen use in Chennai?** Yes, if local authorised support is confirmed. It offers 13 kg weight, <=40 dB field-verified sound, 320 VA power draw, live oxygen purity display, OPI, nebulization, and a 3-year / 10,000-hour warranty.
+- **Is Home Medix HM-KV good for home oxygen use in Chennai?** If local authorised support is confirmed, its stated specifications include 13 kg stated weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), 320 W rated power, live oxygen purity display, OPI, nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first.
 - **Should I buy Philips EverFlo in Chennai now?** Only after verification. EverFlo is officially discontinued globally, so Chennai buyers should check serial age, invoice date, warranty validity, service continuity, and spare availability before buying.
 - **How do I know if an oxygen concentrator sold as new is actually new?** Get serial-number proof, manufacturing or import date, GST invoice, warranty activation confirmation, and written disclosure if the unit is refurbished, demo, or old channel stock.
 - **Should I rent or buy a 5 LPM oxygen concentrator in Chennai?** Rent for short-term recovery. Buy for long-term COPD, ILD, or post-discharge oxygen needs expected to run beyond six to nine months, provided service support is confirmed.
@@ -12589,7 +12487,7 @@ Source: https://homehealthzone.com/oxygen-concentrators/5-lpm/pune/
 
 ## Short answer
 
-For most Pune home oxygen buyers, HHZ would shortlist Home Medix HM-KV first where local service is confirmed, then Oxymed Mini 5 LPM as the Indian-service alternative, and selected imported models only after verifying serviceability. Home Medix HM-KV is the strongest value pick in Pune when service is confirmed: 13 kg, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, and a 3-year / 10,000-hour warranty. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
+For most Pune home oxygen buyers, HHZ would shortlist Home Medix HM-KV first where local service is confirmed, then Oxymed Mini 5 LPM as the Indian-service alternative, and selected imported models only after verifying serviceability. Home Medix HM-KV is an option to compare by published specifications in Pune when service is confirmed: 13 kg stated weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), 320 W rated power, manufacturer-listed low-oxygen monitoring/alarm, integrated nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
 
 ## Quick picks for Pune
 
@@ -12614,7 +12512,7 @@ Pune buyers should treat the high-30,000 to low-50,000 rupee band as the practic
 
 ## Best overall local pick: Home Medix HM-KV
 
-Pune is a strong Home Medix fit in this rollout because it sits inside the brand's stronger West India service geography and is close enough to Mumbai's respiratory-equipment supply chain to make service verification practical. Buyers should still confirm the exact authorised service point and spare route before payment.
+Pune buyers should verify the exact authorised Home Medix service point and spare route before payment.
 
 Home Medix HM-KV 5 LPM: 13 kg chassis, 0.5-5 LPM continuous flow, 93% +/- 3% purity, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
 
@@ -12637,7 +12535,7 @@ In Pune, many medical-equipment dealers can arrange same-day or next-day deliver
 
 - **Which is the best 5 LPM oxygen concentrator in Pune?** HHZ's Pune shortlist starts with Home Medix HM-KV where local service is confirmed, then Oxymed Mini 5 LPM as the Indian-service alternative, and imported AirSep, Nidek, or DeVilbiss units only after serial age, warranty, and spares are verified.
 - **What is the price of a 5 litre oxygen concentrator in Pune?** A practical Pune range is roughly Rs 30,000-38,000 for budget Indian/OEM units, Rs 38,000-50,000 for stronger mainstream 5 LPM units, and Rs 50,000-75,000+ for imported or premium models when service and stock age are verified.
-- **Is Home Medix HM-KV good for home oxygen use in Pune?** Yes, if local authorised service is confirmed. The HM-KV combines 13 kg weight, <=40 dB field-verified sound, 320 VA draw, OPI plus live purity display, integrated nebulization, and a 3-year / 10,000-hour warranty.
+- **Is Home Medix HM-KV good for home oxygen use in Pune?** Yes, if local authorised service is confirmed. The HM-KV is specified at 13 kg stated weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), 320 W rated power, manufacturer-listed low-oxygen monitoring/alarm, integrated nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first.
 - **Should I buy Philips EverFlo in Pune now?** Only after extra verification. EverFlo is officially discontinued globally, so a Pune buyer should verify serial-number age, invoice date, warranty validity, service continuity, and spare availability before buying.
 - **How do I know if an oxygen concentrator sold as new is actually new?** Ask for the serial number before payment, check manufacturing or import date, demand a GST invoice with serial number, verify warranty activation, and avoid box-opened or demo units unless the discount and warranty terms are explicit.
 - **Should I rent or buy a 5 LPM oxygen concentrator in Pune?** Rent for short recovery windows. Buy for long-term oxygen therapy or any expected use beyond six to nine months, provided local service support is confirmed.
@@ -12650,7 +12548,7 @@ Source: https://homehealthzone.com/oxygen-concentrators/5-lpm/hyderabad/
 
 ## Short answer
 
-For most Hyderabad home oxygen buyers, HHZ would shortlist Home Medix HM-KV, Oxymed Mini 5 LPM, and selected imported models only after verifying serviceability. Home Medix HM-KV is a strong value pick where Hyderabad service is confirmed: 13 kg, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, and a 3-year / 10,000-hour warranty. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
+For most Hyderabad home oxygen buyers, HHZ would shortlist Home Medix HM-KV, Oxymed Mini 5 LPM, and selected imported models only after verifying serviceability. Home Medix HM-KV is a published-specification option where Hyderabad service is confirmed: 13 kg stated weight, manufacturer-stated sound ≤40 dB(A) (not field-verified), 320 W rated power, manufacturer-listed low-oxygen monitoring/alarm, integrated nebulization, and a 3 years or 10,000 operating hours of warranty, whichever comes first. Imported models such as Philips EverFlo, AirSep, DeVilbiss, and Nidek have strong reputations, but Indian supply is thin, EverFlo is officially discontinued globally, and old-stock/refurbished risk must be checked before payment.
 
 ## Quick picks for Hyderabad
 
@@ -12675,7 +12573,7 @@ Hyderabad buyers should expect meaningful variation between online listings and 
 
 ## Best overall local pick: Home Medix HM-KV
 
-Hyderabad is a strong conditional Home Medix market in this rollout because it falls inside the brand's stronger South India service geography. Buyers should still verify whether the service visit, spare supply, and warranty decision are handled by the brand or by a dealer.
+Hyderabad buyers should verify whether Home Medix service visits, spare supply, and warranty decisions are handled by the brand or a dealer.
 
 Home Medix HM-KV 5 LPM: 13 kg chassis, 0.5-5 LPM continuous flow, 93% +/- 3% purity, <=40 dB field-verified sound, 320 VA power draw, OPI plus live oxygen purity display, integrated nebulization, 3-year / 10,000-hour warranty, and CDSCO, ISO 9001, and ISO 13485 documentation.
 
@@ -12698,7 +12596,7 @@ In Hyderabad, many medical-equipment dealers can arrange quick delivery, but a l
 
 - **Which is the best 5 LPM oxygen concentrator in Hyderabad?** HHZ's Hyderabad shortlist starts with Home Medix HM-KV where service is confirmed, Oxymed Mini 5 LPM as an Indian-service alternative, and imported AirSep, Nidek, or DeVilbiss units only after serial age, warranty, and spares are verified.
 - **What is the price of a 5 litre oxygen concentrator in Hyderabad?** A practical Hyderabad range is Rs 30,000-38,000 for budget Indian/OEM units, Rs 38,000-50,000 for stronger mainstream 5 LPM units, and Rs 50,000-75,000+ for imported or premium models when service and stock age are proven.
-- **Is Home Medix HM-KV good for home oxygen use in Hyderabad?** Yes, if Hyderabad authorised service is confirmed. The HM-KV is light at 13 kg, quiet at <=40 dB field-verified sound, draws 320 VA, has OPI plus live purity display, and carries a 3-year / 10,000-hour warranty.
+- **Is Home Medix HM-KV good for home oxygen use in Hyderabad?** If Hyderabad authorised service is confirmed, the HM-KV is specified at 13 kg, with manufacturer-stated sound ≤40 dB(A) (not field-verified) and 320 W rated power. It also has OPI plus a live purity display and carries a 3 years or 10,000 operating hours of warranty, whichever comes first.
 - **Should I buy Philips EverFlo in Hyderabad now?** Only after extra checks. EverFlo has been officially discontinued globally, and Hyderabad buyers should verify serial age, invoice date, warranty validity, service support, and spare availability before buying.
 - **How do I know if an oxygen concentrator sold as new is actually new?** Ask for serial number, manufacturing or import date, warranty activation proof, GST invoice, and written confirmation that the unit is not refurbished, demo, or old COVID-era channel stock.
 - **Should I rent or buy a 5 LPM oxygen concentrator in Hyderabad?** Rent for short recovery needs. Buy for long-term home oxygen use once the prescription and service support are clear, because rental break-even often arrives within six to nine months.
@@ -12719,7 +12617,7 @@ In Bangalore, oxygen concentrator decisions should be made by pincode-level serv
 
 
 
-Bangalore is the strongest city fit for Home Medix in this first rollout because the brand is Bengaluru-headquartered and the service-support claim is more plausible here than in remote markets. Still, buyers should confirm the exact authorised support point, warranty process, and spare availability before payment.
+Home Medix is headquartered in Bengaluru. Bangalore buyers should confirm the authorised support point, warranty process, and spare availability before payment.
 
 Bangalore buyers can still find imported 5 LPM machines through hospital and dealer channels, but availability should be treated as case-by-case. Do not assume that a sealed imported box is fresh stock without serial-number and warranty verification.
 
@@ -12777,7 +12675,7 @@ In Bangalore, oxygen concentrator decisions should be made by pincode-level serv
 
 
 
-Bangalore is the strongest city fit for Home Medix in this first rollout because the brand is Bengaluru-headquartered and the service-support claim is more plausible here than in remote markets. Still, buyers should confirm the exact authorised support point, warranty process, and spare availability before payment.
+Home Medix is headquartered in Bengaluru. Bangalore buyers should confirm the authorised support point, warranty process, and spare availability before payment.
 
 Bangalore buyers can still find imported 5 LPM machines through hospital and dealer channels, but availability should be treated as case-by-case. Do not assume that a sealed imported box is fresh stock without serial-number and warranty verification.
 
@@ -12835,7 +12733,7 @@ In Bangalore, oxygen concentrator decisions should be made by pincode-level serv
 
 
 
-Bangalore is the strongest city fit for Home Medix in this first rollout because the brand is Bengaluru-headquartered and the service-support claim is more plausible here than in remote markets. Still, buyers should confirm the exact authorised support point, warranty process, and spare availability before payment.
+Home Medix is headquartered in Bengaluru. Bangalore buyers should confirm the authorised support point, warranty process, and spare availability before payment.
 
 Bangalore buyers can still find imported 5 LPM machines through hospital and dealer channels, but availability should be treated as case-by-case. Do not assume that a sealed imported box is fresh stock without serial-number and warranty verification.
 
@@ -12893,7 +12791,7 @@ In Bangalore, oxygen concentrator decisions should be made by pincode-level serv
 
 In Bangalore, a serious 5 LPM home oxygen concentrator usually starts around the high-30,000 rupee band. The cheapest listings are not automatically the safest buy for a long-term oxygen prescription; service proof, invoice clarity, and stock age matter more than a small upfront discount.
 
-Bangalore is the strongest city fit for Home Medix in this first rollout because the brand is Bengaluru-headquartered and the service-support claim is more plausible here than in remote markets. Still, buyers should confirm the exact authorised support point, warranty process, and spare availability before payment.
+Home Medix is headquartered in Bengaluru. Bangalore buyers should confirm the authorised support point, warranty process, and spare availability before payment.
 
 Bangalore buyers can still find imported 5 LPM machines through hospital and dealer channels, but availability should be treated as case-by-case. Do not assume that a sealed imported box is fresh stock without serial-number and warranty verification.
 
@@ -12951,7 +12849,7 @@ In Bangalore, oxygen concentrator decisions should be made by pincode-level serv
 
 
 
-Bangalore is the strongest city fit for Home Medix in this first rollout because the brand is Bengaluru-headquartered and the service-support claim is more plausible here than in remote markets. Still, buyers should confirm the exact authorised support point, warranty process, and spare availability before payment.
+Home Medix is headquartered in Bengaluru. Bangalore buyers should confirm the authorised support point, warranty process, and spare availability before payment.
 
 Bangalore buyers can still find imported 5 LPM machines through hospital and dealer channels, but availability should be treated as case-by-case. Do not assume that a sealed imported box is fresh stock without serial-number and warranty verification.
 
@@ -13009,7 +12907,7 @@ In Mumbai, oxygen concentrator decisions should be made by pincode-level service
 
 
 
-Mumbai is a plausible Home Medix city because South and West India are the brand's stronger stated service regions, but HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Mumbai buyers should still compare both service routes, especially for compressor and sieve-bed support.
+HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Buyers should compare both service routes, especially for compressor and sieve-bed support.
 
 Mumbai's dealer market often has imported concentrator listings, including older premium names. Treat imported 5 LPM availability as constrained, and verify that the unit is not old COVID-era stock or refurbished inventory presented as fresh stock.
 
@@ -13067,7 +12965,7 @@ In Mumbai, oxygen concentrator decisions should be made by pincode-level service
 
 
 
-Mumbai is a plausible Home Medix city because South and West India are the brand's stronger stated service regions, but HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Mumbai buyers should still compare both service routes, especially for compressor and sieve-bed support.
+HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Buyers should compare both service routes, especially for compressor and sieve-bed support.
 
 Mumbai's dealer market often has imported concentrator listings, including older premium names. Treat imported 5 LPM availability as constrained, and verify that the unit is not old COVID-era stock or refurbished inventory presented as fresh stock.
 
@@ -13125,7 +13023,7 @@ In Mumbai, oxygen concentrator decisions should be made by pincode-level service
 
 
 
-Mumbai is a plausible Home Medix city because South and West India are the brand's stronger stated service regions, but HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Mumbai buyers should still compare both service routes, especially for compressor and sieve-bed support.
+HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Buyers should compare both service routes, especially for compressor and sieve-bed support.
 
 Mumbai's dealer market often has imported concentrator listings, including older premium names. Treat imported 5 LPM availability as constrained, and verify that the unit is not old COVID-era stock or refurbished inventory presented as fresh stock.
 
@@ -13183,7 +13081,7 @@ In Mumbai, oxygen concentrator decisions should be made by pincode-level service
 
 Mumbai has enough dealer competition that headline prices can look attractive, but the real buying decision is invoice-backed warranty plus service access. Coastal humidity also makes sieve-bed and filter maintenance more important than it looks on a price quote.
 
-Mumbai is a plausible Home Medix city because South and West India are the brand's stronger stated service regions, but HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Mumbai buyers should still compare both service routes, especially for compressor and sieve-bed support.
+HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Buyers should compare both service routes, especially for compressor and sieve-bed support.
 
 Mumbai's dealer market often has imported concentrator listings, including older premium names. Treat imported 5 LPM availability as constrained, and verify that the unit is not old COVID-era stock or refurbished inventory presented as fresh stock.
 
@@ -13241,7 +13139,7 @@ In Mumbai, oxygen concentrator decisions should be made by pincode-level service
 
 
 
-Mumbai is a plausible Home Medix city because South and West India are the brand's stronger stated service regions, but HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Mumbai buyers should still compare both service routes, especially for compressor and sieve-bed support.
+HHZ puts Oxymed first in Mumbai when the local Oxymed dealer can prove faster service response. Buyers should compare both service routes, especially for compressor and sieve-bed support.
 
 Mumbai's dealer market often has imported concentrator listings, including older premium names. Treat imported 5 LPM availability as constrained, and verify that the unit is not old COVID-era stock or refurbished inventory presented as fresh stock.
 
@@ -13299,7 +13197,7 @@ In Delhi, oxygen concentrator decisions should be made by pincode-level service 
 
 
 
-Delhi buyers should treat Home Medix as a strong spec-sheet and value candidate, but HHZ puts Oxymed first in Delhi when its local dealer support is stronger. Confirm the Home Medix service route, turnaround time, and spare availability before choosing it over a locally stronger dealer-supported alternative.
+HHZ puts Oxymed first in Delhi when its local dealer support is better documented. Confirm Home Medix service route, turnaround time, and spare availability before choosing between them.
 
 Delhi buyers may see many imported brand names because the NCR dealer channel is broad. That does not remove the EverFlo discontinuation issue, imported-stock shortage, or refurbished/old-stock risk.
 
@@ -13357,7 +13255,7 @@ In Delhi, oxygen concentrator decisions should be made by pincode-level service 
 
 
 
-Delhi buyers should treat Home Medix as a strong spec-sheet and value candidate, but HHZ puts Oxymed first in Delhi when its local dealer support is stronger. Confirm the Home Medix service route, turnaround time, and spare availability before choosing it over a locally stronger dealer-supported alternative.
+HHZ puts Oxymed first in Delhi when its local dealer support is better documented. Confirm Home Medix service route, turnaround time, and spare availability before choosing between them.
 
 Delhi buyers may see many imported brand names because the NCR dealer channel is broad. That does not remove the EverFlo discontinuation issue, imported-stock shortage, or refurbished/old-stock risk.
 
@@ -13415,7 +13313,7 @@ In Delhi, oxygen concentrator decisions should be made by pincode-level service 
 
 
 
-Delhi buyers should treat Home Medix as a strong spec-sheet and value candidate, but HHZ puts Oxymed first in Delhi when its local dealer support is stronger. Confirm the Home Medix service route, turnaround time, and spare availability before choosing it over a locally stronger dealer-supported alternative.
+HHZ puts Oxymed first in Delhi when its local dealer support is better documented. Confirm Home Medix service route, turnaround time, and spare availability before choosing between them.
 
 Delhi buyers may see many imported brand names because the NCR dealer channel is broad. That does not remove the EverFlo discontinuation issue, imported-stock shortage, or refurbished/old-stock risk.
 
@@ -13473,7 +13371,7 @@ In Delhi, oxygen concentrator decisions should be made by pincode-level service 
 
 Delhi has a wide oxygen-equipment dealer market, which means buyers will see both strong options and questionable old-stock listings. A low price is not enough; require invoice-backed warranty, serial-number traceability, and serviceability proof.
 
-Delhi buyers should treat Home Medix as a strong spec-sheet and value candidate, but HHZ puts Oxymed first in Delhi when its local dealer support is stronger. Confirm the Home Medix service route, turnaround time, and spare availability before choosing it over a locally stronger dealer-supported alternative.
+HHZ puts Oxymed first in Delhi when its local dealer support is better documented. Confirm Home Medix service route, turnaround time, and spare availability before choosing between them.
 
 Delhi buyers may see many imported brand names because the NCR dealer channel is broad. That does not remove the EverFlo discontinuation issue, imported-stock shortage, or refurbished/old-stock risk.
 
@@ -13531,7 +13429,7 @@ In Delhi, oxygen concentrator decisions should be made by pincode-level service 
 
 
 
-Delhi buyers should treat Home Medix as a strong spec-sheet and value candidate, but HHZ puts Oxymed first in Delhi when its local dealer support is stronger. Confirm the Home Medix service route, turnaround time, and spare availability before choosing it over a locally stronger dealer-supported alternative.
+HHZ puts Oxymed first in Delhi when its local dealer support is better documented. Confirm Home Medix service route, turnaround time, and spare availability before choosing between them.
 
 Delhi buyers may see many imported brand names because the NCR dealer channel is broad. That does not remove the EverFlo discontinuation issue, imported-stock shortage, or refurbished/old-stock risk.
 
@@ -13589,7 +13487,7 @@ In Chennai, oxygen concentrator decisions should be made by pincode-level servic
 
 
 
-Chennai is a strong conditional fit for Home Medix because the brand's stated service footprint is better in South India than in remote regions. Buyers should still verify who handles compressor and sieve-bed service locally.
+Home Medix states service coverage in South India; Chennai buyers should verify who handles compressor and sieve-bed service locally.
 
 Chennai buyers may still find imported 5 LPM models, but current supply should be treated carefully. Imported units need serial-age and warranty verification before they are trusted for a multi-year home prescription.
 
@@ -13647,7 +13545,7 @@ In Chennai, oxygen concentrator decisions should be made by pincode-level servic
 
 
 
-Chennai is a strong conditional fit for Home Medix because the brand's stated service footprint is better in South India than in remote regions. Buyers should still verify who handles compressor and sieve-bed service locally.
+Home Medix states service coverage in South India; Chennai buyers should verify who handles compressor and sieve-bed service locally.
 
 Chennai buyers may still find imported 5 LPM models, but current supply should be treated carefully. Imported units need serial-age and warranty verification before they are trusted for a multi-year home prescription.
 
@@ -13705,7 +13603,7 @@ In Chennai, oxygen concentrator decisions should be made by pincode-level servic
 
 
 
-Chennai is a strong conditional fit for Home Medix because the brand's stated service footprint is better in South India than in remote regions. Buyers should still verify who handles compressor and sieve-bed service locally.
+Home Medix states service coverage in South India; Chennai buyers should verify who handles compressor and sieve-bed service locally.
 
 Chennai buyers may still find imported 5 LPM models, but current supply should be treated carefully. Imported units need serial-age and warranty verification before they are trusted for a multi-year home prescription.
 
@@ -13763,7 +13661,7 @@ In Chennai, oxygen concentrator decisions should be made by pincode-level servic
 
 Chennai buyers should not shop only by discount because coastal humidity makes filter discipline, sieve-bed health, and service response important. The better buy is the machine with traceable warranty and service, not necessarily the lowest listing.
 
-Chennai is a strong conditional fit for Home Medix because the brand's stated service footprint is better in South India than in remote regions. Buyers should still verify who handles compressor and sieve-bed service locally.
+Home Medix states service coverage in South India; Chennai buyers should verify who handles compressor and sieve-bed service locally.
 
 Chennai buyers may still find imported 5 LPM models, but current supply should be treated carefully. Imported units need serial-age and warranty verification before they are trusted for a multi-year home prescription.
 
@@ -13821,7 +13719,7 @@ In Chennai, oxygen concentrator decisions should be made by pincode-level servic
 
 
 
-Chennai is a strong conditional fit for Home Medix because the brand's stated service footprint is better in South India than in remote regions. Buyers should still verify who handles compressor and sieve-bed service locally.
+Home Medix states service coverage in South India; Chennai buyers should verify who handles compressor and sieve-bed service locally.
 
 Chennai buyers may still find imported 5 LPM models, but current supply should be treated carefully. Imported units need serial-age and warranty verification before they are trusted for a multi-year home prescription.
 
@@ -13879,7 +13777,7 @@ In Pune, oxygen concentrator decisions should be made by pincode-level service p
 
 
 
-Pune is a strong Home Medix fit in this rollout because it sits inside the brand's stronger West India service geography and is close enough to Mumbai's respiratory-equipment supply chain to make service verification practical. Buyers should still confirm the exact authorised service point and spare route before payment.
+Pune buyers should verify the exact authorised Home Medix service point and spare route before payment.
 
 Pune buyers may see imported 5 LPM machines through Mumbai-linked dealer channels, but that does not remove stock-age risk. Verify whether the unit is fresh stock, COVID-era channel inventory, or refurbished before treating it as new.
 
@@ -13937,7 +13835,7 @@ In Pune, oxygen concentrator decisions should be made by pincode-level service p
 
 
 
-Pune is a strong Home Medix fit in this rollout because it sits inside the brand's stronger West India service geography and is close enough to Mumbai's respiratory-equipment supply chain to make service verification practical. Buyers should still confirm the exact authorised service point and spare route before payment.
+Pune buyers should verify the exact authorised Home Medix service point and spare route before payment.
 
 Pune buyers may see imported 5 LPM machines through Mumbai-linked dealer channels, but that does not remove stock-age risk. Verify whether the unit is fresh stock, COVID-era channel inventory, or refurbished before treating it as new.
 
@@ -13995,7 +13893,7 @@ In Pune, oxygen concentrator decisions should be made by pincode-level service p
 
 
 
-Pune is a strong Home Medix fit in this rollout because it sits inside the brand's stronger West India service geography and is close enough to Mumbai's respiratory-equipment supply chain to make service verification practical. Buyers should still confirm the exact authorised service point and spare route before payment.
+Pune buyers should verify the exact authorised Home Medix service point and spare route before payment.
 
 Pune buyers may see imported 5 LPM machines through Mumbai-linked dealer channels, but that does not remove stock-age risk. Verify whether the unit is fresh stock, COVID-era channel inventory, or refurbished before treating it as new.
 
@@ -14053,7 +13951,7 @@ In Pune, oxygen concentrator decisions should be made by pincode-level service p
 
 Pune buyers should treat the high-30,000 to low-50,000 rupee band as the practical range for a serious 5 LPM home oxygen concentrator. Do not let a lower listing price outrank invoice-backed warranty, serial-number clarity, and local service support.
 
-Pune is a strong Home Medix fit in this rollout because it sits inside the brand's stronger West India service geography and is close enough to Mumbai's respiratory-equipment supply chain to make service verification practical. Buyers should still confirm the exact authorised service point and spare route before payment.
+Pune buyers should verify the exact authorised Home Medix service point and spare route before payment.
 
 Pune buyers may see imported 5 LPM machines through Mumbai-linked dealer channels, but that does not remove stock-age risk. Verify whether the unit is fresh stock, COVID-era channel inventory, or refurbished before treating it as new.
 
@@ -14111,7 +14009,7 @@ In Pune, oxygen concentrator decisions should be made by pincode-level service p
 
 
 
-Pune is a strong Home Medix fit in this rollout because it sits inside the brand's stronger West India service geography and is close enough to Mumbai's respiratory-equipment supply chain to make service verification practical. Buyers should still confirm the exact authorised service point and spare route before payment.
+Pune buyers should verify the exact authorised Home Medix service point and spare route before payment.
 
 Pune buyers may see imported 5 LPM machines through Mumbai-linked dealer channels, but that does not remove stock-age risk. Verify whether the unit is fresh stock, COVID-era channel inventory, or refurbished before treating it as new.
 
@@ -14169,7 +14067,7 @@ In Hyderabad, oxygen concentrator decisions should be made by pincode-level serv
 
 
 
-Hyderabad is a strong conditional Home Medix market in this rollout because it falls inside the brand's stronger South India service geography. Buyers should still verify whether the service visit, spare supply, and warranty decision are handled by the brand or by a dealer.
+Hyderabad buyers should verify whether Home Medix service visits, spare supply, and warranty decisions are handled by the brand or a dealer.
 
 Hyderabad buyers can still see imported-brand listings, but supply of fresh 5 LPM imported stock is not something to assume. Imported machines need stock-age, service, and spare-parts checks before purchase.
 
@@ -14227,7 +14125,7 @@ In Hyderabad, oxygen concentrator decisions should be made by pincode-level serv
 
 
 
-Hyderabad is a strong conditional Home Medix market in this rollout because it falls inside the brand's stronger South India service geography. Buyers should still verify whether the service visit, spare supply, and warranty decision are handled by the brand or by a dealer.
+Hyderabad buyers should verify whether Home Medix service visits, spare supply, and warranty decisions are handled by the brand or a dealer.
 
 Hyderabad buyers can still see imported-brand listings, but supply of fresh 5 LPM imported stock is not something to assume. Imported machines need stock-age, service, and spare-parts checks before purchase.
 
@@ -14285,7 +14183,7 @@ In Hyderabad, oxygen concentrator decisions should be made by pincode-level serv
 
 
 
-Hyderabad is a strong conditional Home Medix market in this rollout because it falls inside the brand's stronger South India service geography. Buyers should still verify whether the service visit, spare supply, and warranty decision are handled by the brand or by a dealer.
+Hyderabad buyers should verify whether Home Medix service visits, spare supply, and warranty decisions are handled by the brand or a dealer.
 
 Hyderabad buyers can still see imported-brand listings, but supply of fresh 5 LPM imported stock is not something to assume. Imported machines need stock-age, service, and spare-parts checks before purchase.
 
@@ -14343,7 +14241,7 @@ In Hyderabad, oxygen concentrator decisions should be made by pincode-level serv
 
 Hyderabad buyers should expect meaningful variation between online listings and dealer quotes. Treat the final price as valid only when it includes GST invoice, serial number, warranty start date, and service-contact clarity.
 
-Hyderabad is a strong conditional Home Medix market in this rollout because it falls inside the brand's stronger South India service geography. Buyers should still verify whether the service visit, spare supply, and warranty decision are handled by the brand or by a dealer.
+Hyderabad buyers should verify whether Home Medix service visits, spare supply, and warranty decisions are handled by the brand or a dealer.
 
 Hyderabad buyers can still see imported-brand listings, but supply of fresh 5 LPM imported stock is not something to assume. Imported machines need stock-age, service, and spare-parts checks before purchase.
 
@@ -14401,7 +14299,7 @@ In Hyderabad, oxygen concentrator decisions should be made by pincode-level serv
 
 
 
-Hyderabad is a strong conditional Home Medix market in this rollout because it falls inside the brand's stronger South India service geography. Buyers should still verify whether the service visit, spare supply, and warranty decision are handled by the brand or by a dealer.
+Hyderabad buyers should verify whether Home Medix service visits, spare supply, and warranty decisions are handled by the brand or a dealer.
 
 Hyderabad buyers can still see imported-brand listings, but supply of fresh 5 LPM imported stock is not something to assume. Imported machines need stock-age, service, and spare-parts checks before purchase.
 

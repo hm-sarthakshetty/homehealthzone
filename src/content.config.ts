@@ -32,6 +32,10 @@ const priceEntrySchema = z.object({
   mrp: z.number().positive().optional(),
   source_url: z.url().optional(),
   checked_at: z.string().optional(),
+  basis: z.enum(['manufacturer-published', 'dealer-quotation']).optional(),
+  tax_note: z.string().optional(),
+  amount_before_tax: z.number().positive().optional(),
+  configuration: z.string().optional(),
 });
 
 const pricesSchema = z
@@ -57,6 +61,13 @@ const productSchema = z.object({
   price_mrp: z.string().nullable().optional(),
   price_symbol: z.string().default('₹'),
   prices: pricesSchema,
+  dateModified: z.string().optional(),
+  evidence: z.array(z.object({
+    label: z.string(),
+    url: z.string(),
+    checked_at: z.string(),
+    note: z.string().optional(),
+  })).default([]),
   // Markets where the product is sold and may be listed. India is implicit.
   countries: z.array(z.enum(['IN', 'US', 'GB', 'SG', 'AU', 'CA', 'NZ'])).default(['IN']),
   rating_value: z.string().nullable().optional(),

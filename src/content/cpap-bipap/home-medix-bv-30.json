@@ -1,23 +1,28 @@
 {
   "slug": "home-medix-bv-30",
-  "source_url": "https://www.homemedix.in/",
+  "source_url": "https://www.homemedix.in/shop/hm-bv-30",
   "product_name": "Home Medix HM-BV-30 BiPAP",
   "brand": "Home Medix",
   "brand_href": "/brand/home-medix/",
   "category": "BiPAP",
-  "price_current": "38,000",
-  "price_mrp": "45,000",
+  "price_current": "39,900",
+  "price_mrp": null,
   "price_symbol": "₹",
   "prices": {
     "IN": {
-      "amount": 38000,
+      "amount": 39900,
       "currency": "INR",
-      "mrp": 45000
+      "source_url": "https://www.homemedix.in/shop/hm-bv-30",
+      "checked_at": "2026-10-28",
+      "basis": "manufacturer-published",
+      "tax_note": "Including 5% GST",
+      "amount_before_tax": 38000,
+      "configuration": "One device with integrated humidifier, one full-face mask, one reusable filter, one power cord, one SD card, one breathing circuit and one carrying bag."
     }
   },
   "rating_value": null,
   "rating_count": null,
-  "stock": "In Stock",
+  "stock": "Confirm availability with manufacturer",
   "images": [
     {
       "src": "/images/products/hm-bv-30-hero.png",
@@ -26,78 +31,65 @@
     }
   ],
   "key_features": {
-    "Type": "BiPAP with TVAPS",
-    "Modes": "CPAP, APAP, S, Auto S, S/T, T, TVAPS",
-    "Pressure Range": "4-30cmH₂O",
-    "Sound level": "<30dB",
-    "Weight": "1.45kg",
-    "Humidifier": "Heated (0–5 levels)"
+    "Type": "BPAP with TVAPS",
+    "Modes": "CPAP, Auto CPAP, S, Auto S, T, ST, TVAPS, PC",
+    "Pressure Range": "4–30 cmH₂O",
+    "Sound level": "≤30 dB(A) (manufacturer specification)",
+    "Weight": "1.45 kg",
+    "Humidifier": "Integrated, levels 0–5",
+    "Warranty": "2 years for device including humidifier under normal operation"
   },
   "spec_tables": {
     "Technical details": {
-      "Type": "BiPAP with TVAPS (target-volume assured pressure support)",
-      "Modes": "CPAP, APAP, S, Auto S, S/T, T, TVAPS",
-      "Algorithm": "Patented SAF (Synchronized Auto-Flow) — leak-compensated synchronization",
-      "Pressure Range": "4-30cmH₂O",
-      "Sound level": "<30dB",
-      "Weight": "1.45kg",
+      "Modes": "CPAP, Auto CPAP, S, Auto S, T, ST, TVAPS, PC",
+      "Pressure Range": "4–30 cmH₂O",
+      "Sound level": "≤30 dB(A), manufacturer specification; test conditions not supplied",
+      "Weight": "1.45 kg (manufacturer-listed configuration)",
       "Dimensions": "253 × 168 × 121 mm",
-      "Humidifier": "Heated (0–5 levels, integrated)",
-      "Back up rate": "Yes (T and S/T modes)",
-      "Ramp": "Yes",
-      "Auto On/Off": "Yes",
-      "Central Apnea Detection": "Yes (OSA / CSA)"
+      "Humidifier": "Integrated, levels 0–5",
+      "Ramp": "Auto, 0–60 minutes",
+      "EPFlex Comfort": "0–3 for CPAP modes",
+      "Alarms": "Leak, patient disconnect, power failure",
+      "Smart features": "Auto On, Auto Off, automatic altitude compensation, leak compensation",
+      "SAF": "Sophisticated Adaptive Feedback, manufacturer description; no comparative clinical performance established"
     },
-    "Additional details": {
-      "VAPS": "Yes (TVAPS — target-volume assured)",
-      "Pressure Support": "Yes (S, Auto S, S/T modes)",
-      "Trigger & Cycle sensitivity": "Yes (SAF synchronization)",
-      "Leak Alert": "Yes",
-      "Leakage Compensation": "Yes (SAF algorithm)",
-      "Flow Limitation Detection": "Yes",
-      "Hypopnea Detection": "Yes (multi-severity)",
-      "Snoring Detection": "Yes (multi-frequency)",
-      "Altitude Compensation": "",
-      "Heated Tube Compatibility": "",
-      "Climate control": "",
-      "Adaptive Humidification": "",
-      "SD card": "",
-      "Cloud connectivity/Wifi": "",
-      "Bluetooth": "",
-      "RERA Reporting": "",
-      "SpO2 Monitoring Compatibility": "",
-      "Company Headquarters": "India",
-      "Indian Voltage Model": "Yes",
-      "CDSCO": "Approved",
-      "ISO 9001": "Yes",
-      "ISO 13485": "Yes",
-      "CE": "",
-      "FDA": "",
-      "FAA": ""
+    "Package and warranty": {
+      "Confirmed supplied pack": "One device with integrated humidifier, one full-face mask, one reusable filter, one power cord, one SD card, one breathing circuit and one carrying bag.",
+      "Package evidence": "Current manufacturer model page and approved pack confirmation checked 2026-10-28 include one of each listed item and a carrying bag. The brochure depicts six items without specifying the bag/quantities.",
+      "Warranty": "Device including humidifier: 2 years under normal operation. Power adapter and SD card: 1 year each. Mask, tube and water tank: 90 days each.",
+      "Conditions and exclusions": "Excludes damage associated with operation outside specifications, accessories not supplied or recommended by Home Medix, and technical changes without company consent. Unauthorized disassembly or repair can remove free-maintenance eligibility.",
+      "Unconfirmed terms": "Warranty start date, claim process, registration and purchase-channel rules, labour and transport charges remain unconfirmed; agree these with Home Medix before purchase."
+    },
+    "Reporting and support": {
+      "SD card": "Included; desktop memory-card import",
+      "Home Medix Claro": "Windows/macOS desktop reports; activation code required from Home Medix. Mobile QR-code report retrieval and PDF export described on downloads page.",
+      "Reported measures": "AHI, usage, pressure, leak and respiratory-event trends; brochure labels obstructive/central apnoea, hypopnoea, flow limitation and snoring. Device event flags are not a diagnosis.",
+      "Connectivity limitations": "Automatic clinic cloud upload, Wi-Fi/Bluetooth, heated-tube compatibility and SpO₂ integration not established by reviewed sources.",
+      "Support": "Home Medix service: +91 95137 55596; service@homemedix.in; Monday–Saturday 10 am–6 pm. Location, assessment, turnaround and charges require confirmation."
     }
   },
   "faqs": [
     {
-      "q": "What modes does the HM-BV-30 support?",
-      "a": "CPAP, APAP, S, Auto S, S/T, T, and TVAPS. That is the full clinical mode set for BiPAP and home non-invasive ventilation — covers obstructive sleep apnea (CPAP / APAP), mixed apnea with central events (S/T, T with back-up rate), and volume-targeted therapy for obesity-hypoventilation and neuromuscular disease (TVAPS)."
+      "q": "What modes does HM-BV-30 support?",
+      "a": "CPAP, Auto CPAP, S, Auto S, T, ST, TVAPS, PC, at 4–30 cmH₂O according to the manufacturer brochure. The treating team must confirm the prescribed mode and settings."
     },
     {
-      "q": "What is TVAPS?",
-      "a": "Target-Volume Assured Pressure Support — the machine auto-adjusts inspiratory pressure to deliver a clinician-set tidal volume despite changes in airway resistance or patient effort. Equivalent to ResMed's iVAPS and Philips' AVAPS. Clinically important for obesity-hypoventilation syndrome, progressive neuromuscular disease (Duchenne, ALS), and other conditions where volume delivery must be guaranteed."
+      "q": "What package and warranty are confirmed?",
+      "a": "One device with integrated humidifier, one full-face mask, one reusable filter, one power cord, one SD card, one breathing circuit and one carrying bag. Device including humidifier: 2 years under normal operation. Power adapter and SD card: 1 year each. Mask, tube and water tank: 90 days each. Excludes damage associated with operation outside specifications, accessories not supplied or recommended by Home Medix, and technical changes without company consent. Unauthorized disassembly or repair can remove free-maintenance eligibility. Warranty start date, claim process, registration and purchase-channel rules, labour and transport charges remain unconfirmed; agree these with Home Medix before purchase."
     },
     {
-      "q": "How loud is the HM-BV-30?",
-      "a": "The published specification is <30 dB — matching the HM-CV-20 CPAP sibling and competitive with the BMC G3 B30VT (26 dB) and ResMed AirCurve class."
+      "q": "How can the therapy data be reviewed?",
+      "a": "Home Medix describes Claro desktop memory-card import for Windows/macOS and mobile QR-code reports/PDF export. Confirm software activation and demonstrate an export to the treating team. Automatic clinic cloud access is not established by the reviewed sources."
     },
     {
-      "q": "What is the pressure range?",
-      "a": "4–30 cmH₂O — the full BiPAP range, supporting high-pressure-need patients (severe OSA, obesity-hypoventilation on elevated IPAP). The CPAP sibling HM-CV-20 caps at 20 cmH₂O."
+      "q": "Does TVAPS make this interchangeable with Philips AVAPS?",
+      "a": "No clinical interchangeability is established by the shared volume-assured terminology. The brochure identifies a Target Volume Assured Pressure Support mode; algorithm behaviour, settings, alarms, monitoring and clinical suitability must be assessed for the exact device by the treating team."
     }
   ],
-  "description_text": "The HM-BV-30 is Home Medix's BiPAP with TVAPS (target-volume assured pressure support), covering the full clinical mode set — CPAP, APAP, S, Auto S, S/T, T, and TVAPS — across a 4–30 cmH₂O pressure range. Built on the patented SAF algorithm for leak-compensated synchronization. Multi-level respiratory event detection includes flow limitations, multi-frequency snoring, multi-severity hypopnea, and OSA/CSA apnea. Published specs: <30 dB sound, 1.45 kg with integrated heated humidifier (0–5 levels), 253 × 168 × 121 mm footprint. ISO 9001 + ISO 13485 + CDSCO approved. Positioned against the BMC G3 B30VT, ResMed AirCurve ST, Philips DreamStation BiPAP, and Lowenstein Prisma family.",
+  "description_text": "Home Medix HM-BV-30 supports CPAP, Auto CPAP, S, Auto S, T, ST, TVAPS, PC across 4–30 cmH₂O, with integrated humidification, manufacturer-listed ≤30 dB(A) sound and 1.45 kg weight. Claro provides therapy reporting. Manufacturer-published price checked 28 October 2026: ₹38,000 before 5% GST, ₹39,900 including GST. Device including humidifier: 2 years under normal operation. Power adapter and SD card: 1 year each. Mask, tube and water tank: 90 days each. Confirm clinical suitability, package and local support before purchase.",
   "related_links": [
     "/bipap/bmc-g3-b30vt-bipap-machine/",
-    "/bipap/resmed-aircurve-v-auto/",
+    "/bipap/resmed-aircurve-10-st-bipap/",
     "/cpap/home-medix-cv-20/",
     "/oxygen-concentrators/home-medix-5-lpm/"
   ],
@@ -108,8 +100,37 @@
     "pressure_min_cmh2o": 4,
     "pressure_max_cmh2o": 30,
     "has_humidifier": true,
-    "faa_approved": false,
-    "ce_certified": false,
-    "indian_voltage": true
-  }
+    "indian_voltage": true,
+    "warranty_years": 2
+  },
+  "dateModified": "2026-10-28",
+  "evidence": [
+    {
+      "label": "Manufacturer model and purchase information",
+      "url": "https://www.homemedix.in/shop/hm-bv-30",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "label": "Currently published manufacturer brochure",
+      "url": "https://www.homemedix.in/brochures/2026-10/hm-bv-30-brochure.pdf",
+      "checked_at": "2026-10-28",
+      "note": "Technical and reporting text checked against the supplied brochure. Issue date not printed."
+    },
+    {
+      "label": "Archived manufacturer brochure (matches supplied brochure text)",
+      "url": "/resources/manufacturer-brochures/home-medix-hm-bv-30.pdf",
+      "checked_at": "2026-10-28",
+      "note": "Manufacturer specifications; no HHZ bench test. Brochure issue date not printed."
+    },
+    {
+      "label": "Approved PAP warranty and service explanation",
+      "url": "https://www.homemedix.in/resources/pap-warranty-and-service",
+      "checked_at": "2026-10-28"
+    },
+    {
+      "label": "Claro reporting, supported platforms and activation",
+      "url": "https://www.homemedix.in/downloads",
+      "checked_at": "2026-10-28"
+    }
+  ]
 }
