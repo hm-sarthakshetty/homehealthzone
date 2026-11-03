@@ -27,6 +27,8 @@ export interface Props {
     pros?: string[];
     cons?: string[];
     score?: number;
+    scoreStatus?: string;
+    scoreNote?: string;
     lastReviewed?: string;
     author?: string;
     reviewedBy?: string;
@@ -174,6 +176,13 @@ const topFive = topFivePillar(product.category);
             <span class="product__score-label">HHZ SCORE</span>
             <span class="product__score-value mono-data">{reviewFrontmatter.score.toFixed(1)}<span class="product__score-denom">/10</span></span>
           </p>
+        )}
+        {reviewFrontmatter?.score === undefined && reviewFrontmatter?.scoreStatus && (
+          <div class="product__score-status">
+            <p><strong>HHZ score: {reviewFrontmatter.scoreStatus}</strong></p>
+            {reviewFrontmatter.scoreNote && <p>{reviewFrontmatter.scoreNote}</p>}
+            <a href="/methodology/#rubric-and-scoring-weights">Scoring methodology</a>
+          </div>
         )}
         {reviewFrontmatter?.verdict && (
           <p class="product__verdict">{reviewFrontmatter.verdict}</p>
@@ -375,6 +384,8 @@ const topFive = topFivePillar(product.category);
     border-top: 1px solid var(--color-border);
     padding-top: var(--space-3);
   }
+  .product__score-status { border-top: 1px solid var(--color-border); padding-top: var(--space-3); font-size: var(--text-sm); }
+  .product__score-status p { margin: 0 0 var(--space-2); }
   .product__score-label {
     display: block;
     font-size: var(--text-xs);

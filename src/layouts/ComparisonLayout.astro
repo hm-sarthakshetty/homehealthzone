@@ -282,6 +282,7 @@ const topFive = topFivePillar(productA.category);
             </span>
           </p>
         )}
+        {hasEditorialMetadata && productAScore === undefined && <p class="compare__score-status">HHZ score: Not yet scored — <a href="/methodology/#rubric-and-scoring-weights">see methodology</a>.</p>}
       </section>
 
       <section
@@ -333,6 +334,7 @@ const topFive = topFivePillar(productA.category);
             </span>
           </p>
         )}
+        {hasEditorialMetadata && productBScore === undefined && <p class="compare__score-status">HHZ score: Not yet scored — <a href="/methodology/#rubric-and-scoring-weights">see methodology</a>.</p>}
       </section>
     </div>
 

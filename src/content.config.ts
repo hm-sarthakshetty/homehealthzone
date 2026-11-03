@@ -181,6 +181,8 @@ const productReviewSchema = z.object({
   pros: z.array(z.string()).default([]),
   cons: z.array(z.string()).default([]),
   score: z.number().optional(),
+  scoreStatus: z.string().optional(),
+  scoreNote: z.string().optional(),
   tags: z.array(z.string()).default([]),
 });
 

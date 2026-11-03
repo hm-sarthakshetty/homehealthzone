@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from 'astro:content';
 import { formatPrice, resolvePrice } from '../lib/price';
+import { buildComparisonSpecRows } from '../lib/comparison-specs.mjs';
 
 type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
 
@@ -53,36 +54,7 @@ for (const [key, a, b] of basicPairs) {
   if (a || b) rows.push({ key, a, b, section: 'Overview' });
 }
 
-// Key features merged (union of keys).
-const keyFeatureKeys = Array.from(
-  new Set([
-    ...Object.keys(productA.key_features || {}),
-    ...Object.keys(productB.key_features || {}),
-  ])
-);
-for (const key of keyFeatureKeys) {
-  const a = sanitize(productA.key_features?.[key]);
-  const b = sanitize(productB.key_features?.[key]);
-  if (a || b) rows.push({ key, a, b, section: 'Key features' });
-}
-
-// Spec tables merged: union of (table, key) pairs.
-const specTableNames = Array.from(
-  new Set([
-    ...Object.keys(productA.spec_tables || {}),
-    ...Object.keys(productB.spec_tables || {}),
-  ])
-);
-for (const tableName of specTableNames) {
-  const tableA = productA.spec_tables?.[tableName] || {};
-  const tableB = productB.spec_tables?.[tableName] || {};
-  const specKeys = Array.from(new Set([...Object.keys(tableA), ...Object.keys(tableB)]));
-  for (const key of specKeys) {
-    const a = sanitize(tableA[key]);
-    const b = sanitize(tableB[key]);
-    if (a || b) rows.push({ key, a, b, section: tableName });
-  }
-}
+rows.push(...buildComparisonSpecRows(productA, productB));
 
 // Group rows by section for rendering.
 const sections = new Map<string, Row[]>();
@@ -93,10 +65,11 @@ for (const row of rows) {
 }
 
 const differs = (a: string, b: string) => {
-  if (!a || !b) return true;
+  if (!a || !b) return false;
   return a.trim().toLowerCase() !== b.trim().toLowerCase();
 };
 ---
+<p class="comparison-table__note">Equivalent fields are shown together. “Not documented” means the reviewed product record does not establish that detail; it does not mean the feature is absent. Electrical ratings retain their published W or VA units.</p>
 <table class="spec-table comparison-table">
   <caption>Side-by-side comparison</caption>
   <thead>
@@ -115,8 +88,8 @@ const differs = (a: string, b: string) => {
         {sectionRows.map((row) => (
           <tr class={differs(row.a, row.b) ? 'row-differ' : undefined}>
             <th scope="row">{row.key}</th>
-            <td>{row.a || '—'}</td>
-            <td>{row.b || '—'}</td>
+            <td>{row.a || 'Not documented'}</td>
+            <td>{row.b || 'Not documented'}</td>
           </tr>
         ))}
       </>
@@ -125,6 +98,7 @@ const differs = (a: string, b: string) => {
 </table>
 
 <style>
+  .comparison-table__note { font-size: var(--text-sm); color: var(--color-text-muted); }
   .comparison-table thead th {
     font-family: var(--font-sans);
     font-weight: 600;

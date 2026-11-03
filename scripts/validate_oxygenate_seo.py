@@ -20,10 +20,19 @@ class Page(HTMLParser):
         self.title, self.h1_count, self.canonical = '', 0, []
         self.in_title, self.in_schema, self.schema_text = False, False, ''
         self.hidden_depth, self.visible_parts = 0, []
+        self.in_spec_table, self.in_spec_cell = False, False
+        self.spec_rows, self.spec_row, self.spec_cell = [], [], []
         self.feed(self.html)
 
     def handle_starttag(self, tag, attrs):
         a = dict(attrs)
+        if tag == 'table' and 'comparison-table' in a.get('class', '').split():
+            self.in_spec_table = True
+        if self.in_spec_table:
+            if tag == 'tr':
+                self.spec_row = []
+            if tag in ('th', 'td'):
+                self.in_spec_cell, self.spec_cell = True, []
         if a.get('id'):
             self.ids.add(a['id'])
         if tag == 'meta':
@@ -44,6 +53,8 @@ class Page(HTMLParser):
             self.in_schema, self.schema_text = True, ''
 
     def handle_data(self, data):
+        if self.in_spec_cell:
+            self.spec_cell.append(data)
         if self.in_title:
             self.title += data
         if self.in_schema:
@@ -52,6 +63,14 @@ class Page(HTMLParser):
             self.visible_parts.append(data)
 
     def handle_endtag(self, tag):
+        if self.in_spec_table:
+            if tag in ('th', 'td'):
+                self.spec_row.append(' '.join(' '.join(self.spec_cell).split()))
+                self.in_spec_cell = False
+            if tag == 'tr' and len(self.spec_row) == 3:
+                self.spec_rows.append(self.spec_row)
+            if tag == 'table':
+                self.in_spec_table = False
         if tag == 'title':
             self.in_title = False
         if tag == 'script' and self.in_schema:
@@ -102,6 +121,9 @@ assert schema['image'].endswith('/philips-oxygenate-5-brochure-cover.jpg')
 assert any(img.get('src', '').endswith('philips-oxygenate-5-ksw-5.webp') for img in product.images)
 assert 'exact photographed model' in ' '.join(product.visible_parts).lower()
 assert 'aggregateRating' not in schema and 'reviewRating' not in schema.get('review', {})
+assert 'HHZ score: Not yet scored' in ' '.join(product.visible_parts)
+assert 'numeric overall rating is pending' in ' '.join(product.visible_parts)
+assert '/methodology/#rubric-and-scoring-weights' in product.links
 a = next(s for s in article.schemas if s.get('@type') == 'Article')
 assert a['image'] == [article.meta['og:image']]
 assert any(item['@id'] == schema['@id'] for item in a['about'])
@@ -147,6 +169,15 @@ visible = ' '.join(' '.join(comparison.visible_parts).split())
 for text in ['Konsung-branded reference photograph', '₹44,100', '₹45,000–₹55,000', 'HHZ budget estimate', '27.8%']:
     assert text in visible, text
 assert 'Head-to-head scored against' not in visible
+for key in ['Warranty', 'Oxygen concentration', 'Flow control / display', 'Electrical rating (as published)', 'Model designation', 'Manufacturer']:
+    matches = [row for row in comparison.spec_rows if row[0] == key]
+    assert len(matches) == 1, (key, matches)
+    assert all(cell and cell != 'Not documented' for cell in matches[0][1:]), matches
+warranty = next(row for row in comparison.spec_rows if row[0] == 'Warranty')
+assert '3 years or 10,000 operating hours, whichever comes first' in warranty[1]
+assert '3-year limited warranty' in warranty[2] and '10,000-hour sieve warranty' in warranty[2]
+assert 'HHZ score: Not yet scored' in visible
+assert 'rubric-and-scoring-weights' in Page('/methodology/').ids
 faqs = next(s for s in comparison.schemas if s.get('@type') == 'FAQPage')['mainEntity']
 assert len(faqs) == 6 and len({q['name'] for q in faqs}) == 6
 for faq in faqs:

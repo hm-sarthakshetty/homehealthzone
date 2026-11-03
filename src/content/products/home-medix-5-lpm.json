@@ -50,13 +50,20 @@
       "Flow control": "Electronic flowmeter",
       "Nebulization": "Integrated",
       "SOS alert": "One-touch audible alert; not a remote clinical monitoring service",
-      "Safety alarms": "Low oxygen, power failure and high temperature per current manufacturer page"
+      "Safety alarms": "Low oxygen, power failure and high temperature per current manufacturer page",
+      "Model designation": "HM-KV, per manufacturer brochure"
     },
     "Package and warranty": {
       "Warranty": "3 years or 10,000 operating hours, whichever comes first",
       "Confirmed inclusions": "Nebulizer kit, fitted filter and one extra HEPA filter confirmed. Remaining box contents and quantities pending.",
       "Support": "Home Medix publishes India product/service contact routes. Confirm service location, setup, charges, transport, parts and turnaround for your pincode.",
-      "Evidence limitation": "Brochure feature panel prints 320 W and grid prints 320 VA; this update uses the confirmed 320 W correction. Rated power is not measured energy consumption or compressor startup load."
+      "Evidence limitation": "Brochure feature panel prints 320 W and grid prints 320 VA; this update uses the confirmed 320 W correction. Rated power is not measured energy consumption or compressor startup load.",
+      "Filters": "Fitted filter and one extra HEPA filter, per current manufacturer page; verify supplied package."
+    },
+    "Manufacturer and origin": {
+      "Manufacturer": "Home Medix India Private Limited, named in the manufacturer brochure",
+      "Manufacturer address": "Bengaluru, Karnataka, India, per manufacturer brochure; this is the listed manufacturer address",
+      "Brand / distribution role": "Home Medix brand; brochure identifies Home Medix India Private Limited as manufacturer."
     }
   },
   "faqs": [
@@ -98,8 +105,8 @@
     {
       "label": "Currently published manufacturer brochure",
       "url": "https://www.homemedix.in/brochures/2026-10/hm-kv-brochure.pdf",
-      "checked_at": "2026-10-28",
-      "note": "Technical and reporting text checked against the supplied brochure. Issue date not printed."
+      "checked_at": "2026-11-03",
+      "note": "Live PDF verified identical to the archived brochure on 3 November 2026. Model, manufacturer name/address and warranty are documented; issue date is not printed."
     },
     {
       "label": "Archived manufacturer brochure (matches supplied brochure text)",
@@ -107,5 +114,7 @@
       "checked_at": "2026-10-28",
       "note": "Manufacturer specifications; no HHZ bench test. Brochure issue date not printed."
     }
-  ]
+  ],
+  "manufacturer_name": "Home Medix India Private Limited",
+  "model": "HM-KV"
 }
