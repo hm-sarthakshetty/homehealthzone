@@ -8068,6 +8068,8 @@ The Philips photograph comes from the supplied India brochure. The other photogr
 
 **The manufacturer comparison rests on identifiable product documents, not a visual resemblance alone.** Readers can check the document versions and page references below. Philips-authored literature hosted by distributors is identified as such; the German medical-aid listing is not presented as an Indian regulatory authorization.
 
+
+
 | Source document | Identifier and date | What the document establishes | Scope limit |
 | --- | --- | --- | --- |
 | [Philips Respironics Oxygenate 5 brochure](https://medidyne.se/wp-content/uploads/sites/7/ENG-Philips-Oxygenate-5-Brochure.pdf) | MCI 4112765 v00; May 2025 | Page 8 identifies manufacturer and distributor; page 7 gives a US-sale restriction. | Market-specific availability; not an explanation of the restriction. |
@@ -8075,6 +8077,8 @@ The Philips photograph comes from the supplied India brochure. The other photogr
 | [Oxygenate 5 user manual](https://www.lungenliga.ch/sites/default/files/documents/philips-oxygenate-5-bedienungsanleitung-en.pdf) | P/N 138040442; version 1.0; June 2024 | PDF page 2 gives the manual identifier; printed page 5 uses KSW-5 (Oxygenate 5). | Regional features and configurations can differ. |
 | [Philips India product page](https://www.philips.co.in/healthcare/product/HC1156380/oxygenate-5-stationary-oxygen-concentrator) | Product code 1156380 | India-published specifications. | Published claims, not HHZ measurements. |
 | [FDA model-family record](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223740) | 510(k) K223740; decision 5 October 2023 | A substantially equivalent decision for the listed Konsung model family. | Does not automatically establish the status of every branded or regional configuration. |
+
+
 
 The supplied India brochure is dated October 2026. The US-sale sentence and MCI identifier cited here belong to the separate May 2025 brochure; the two documents should not be confused.
 
