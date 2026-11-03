@@ -249,9 +249,11 @@ const hreflangLinks = hreflangPair
       </div>
     </header>
 
-    <main id="main" class:list={['container', { 'comparison-wave': isComparisonWave }]}>
-      {isComparisonWave && <ComparisonDisclosure />}
-      <slot />
+    <main id="main" class:list={['container', { 'comparison-wave': isComparisonWave, 'main-with-promotion': showOxygenBanner }]}>
+      <div class="main-content">
+        {isComparisonWave && <ComparisonDisclosure />}
+        <slot />
+      </div>
       {showOxygenBanner && <HomeMedixBanner />}
     </main>
 
@@ -275,3 +277,15 @@ const hreflangLinks = hreflangPair
     </footer>
   </body>
 </html>
+
+<style>
+  .main-content { min-width: 0; }
+  @media (min-width: 1100px) {
+    .main-with-promotion {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 260px;
+      gap: var(--space-10);
+      align-items: start;
+    }
+  }
+</style>
