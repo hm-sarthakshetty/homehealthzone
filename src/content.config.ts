@@ -147,6 +147,7 @@ const editorialSchema = z.object({
   faqs: z
     .array(
       z.object({
+        topic: z.string().optional(),
         q: z.string(),
         a: z.string(),
       })

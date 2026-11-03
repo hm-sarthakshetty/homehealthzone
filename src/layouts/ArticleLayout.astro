@@ -82,10 +82,18 @@ const formattedNextReview = formatDate(frontmatter.nextReview);
 const formattedPublished = formatDate(frontmatter.datePublished);
 const formattedModified = formatDate(frontmatter.dateModified);
 
-// Compute reading time from the raw body (glob-loader exposes this on the entry).
+const answer: string | undefined = frontmatter.answer;
+const faqs = frontmatter.faqs ?? [];
+const faqGroups = [...new Set(faqs.map((faq) => faq.topic ?? ''))].map((topic) => ({
+  topic,
+  items: faqs.filter((faq) => (faq.topic ?? '') === topic),
+}));
+
+// Include the visible summary and FAQs in reading time and Article word count.
 const rawBody: string = (entry as any).body ?? '';
-const wordCount = rawBody
-  ? rawBody
+const readingText = [rawBody, answer ?? '', ...faqs.flatMap((faq) => [faq.q, faq.a])].join(' ');
+const wordCount = readingText.trim()
+  ? readingText
       .replace(/```[\s\S]*?```/g, '') // skip code blocks
       .replace(/[#>*_`[\]()~\-]/g, ' ') // strip common markdown punctuation
       .split(/\s+/)
@@ -143,10 +151,6 @@ try {
 const title = titleProp ?? frontmatter.title;
 const description = descriptionProp ?? frontmatter.description;
 
-// Optional GEO extraction fields (answer block + FAQs) — present on entries
-// whose frontmatter opts in via editorialSchema.
-const answer: string | undefined = (frontmatter as any).answer;
-const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
 const image = frontmatter.image ? new URL(frontmatter.image, Astro.site).toString() : undefined;
 const toc = frontmatter.showToc ? headings.filter((h) => h.depth === 2) : [];
 ---
@@ -196,7 +200,10 @@ const toc = frontmatter.showToc ? headings.filter((h) => h.depth === 2) : [];
     {toc.length > 0 && (
       <nav class="article__toc content-width" aria-label="On this page">
         <h2>On this page</h2>
-        <ul>{toc.map((heading) => <li><a href={`#${heading.slug}`}>{heading.text}</a></li>)}</ul>
+        <ul>
+          {toc.map((heading) => <li><a href={`#${heading.slug}`}>{heading.text}</a></li>)}
+          {faqs.length > 0 && <li><a href="#article-faq-heading">Buying questions and FAQs</a></li>}
+        </ul>
       </nav>
     )}
 
@@ -207,14 +214,19 @@ const toc = frontmatter.showToc ? headings.filter((h) => h.depth === 2) : [];
     {faqs.length > 0 && (
       <section class="article__faq content-width" aria-labelledby="article-faq-heading">
         <h2 id="article-faq-heading">Frequently asked questions</h2>
-        <dl>
-          {faqs.map((f) => (
-            <>
-              <dt>{f.q}</dt>
-              <dd>{f.a}</dd>
-            </>
-          ))}
-        </dl>
+        {faqGroups.map((group) => (
+          <div>
+            {group.topic && <h3>{group.topic}</h3>}
+            <dl>
+              {group.items.map((f) => (
+                <>
+                  <dt>{f.q}</dt>
+                  <dd>{f.a}</dd>
+                </>
+              ))}
+            </dl>
+          </div>
+        ))}
       </section>
     )}
 
@@ -292,6 +304,7 @@ const toc = frontmatter.showToc ? headings.filter((h) => h.depth === 2) : [];
     padding-top: var(--space-8);
     border-top: 1px solid var(--color-border);
   }
+  .article__faq h2 { scroll-margin-top: 14rem; }
   .article__faq dt {
     font-family: var(--font-sans);
     font-weight: 600;

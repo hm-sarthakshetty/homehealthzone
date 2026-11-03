@@ -19,6 +19,7 @@ class Page(HTMLParser):
         self.meta, self.links, self.ids, self.images, self.schemas = {}, [], set(), [], []
         self.title, self.h1_count, self.canonical = '', 0, []
         self.in_title, self.in_schema, self.schema_text = False, False, ''
+        self.hidden_depth, self.visible_parts = 0, []
         self.feed(self.html)
 
     def handle_starttag(self, tag, attrs):
@@ -37,6 +38,8 @@ class Page(HTMLParser):
             self.h1_count += 1
         if tag == 'title':
             self.in_title = True
+        if tag in ('script', 'style'):
+            self.hidden_depth += 1
         if tag == 'script' and a.get('type') == 'application/ld+json':
             self.in_schema, self.schema_text = True, ''
 
@@ -45,6 +48,8 @@ class Page(HTMLParser):
             self.title += data
         if self.in_schema:
             self.schema_text += data
+        if not self.hidden_depth:
+            self.visible_parts.append(data)
 
     def handle_endtag(self, tag):
         if tag == 'title':
@@ -52,6 +57,8 @@ class Page(HTMLParser):
         if tag == 'script' and self.in_schema:
             self.schemas.append(json.loads(self.schema_text))
             self.in_schema = False
+        if tag in ('script', 'style'):
+            self.hidden_depth -= 1
 
 
 pages = {route: Page(route) for route in [PRODUCT, ARTICLE]}
@@ -97,9 +104,26 @@ assert any(item['@id'] == schema['@id'] for item in a['about'])
 assert a['citation'] and all(url.startswith('https://') for url in a['citation'])
 assert article.meta['og:type'] == 'article' and article.meta['article:published_time'] == a['datePublished']
 assert 'aria-label="On this page"' in article.html
+assert '#article-faq-heading' in article.links
+corpus = (DIST / 'llms-full.txt').read_text()
+article_corpus = corpus.split('Source: ' + ORIGIN + ARTICLE + '\n', 1)[1].split('\n---\n', 1)[0]
+for page, minimum in [(article, 23), (product, 11)]:
+    faq_schemas = [s for s in page.schemas if s.get('@type') == 'FAQPage']
+    assert len(faq_schemas) == 1
+    questions = faq_schemas[0]['mainEntity']
+    assert len(questions) >= minimum
+    assert len({q['name'] for q in questions}) == len(questions)
+    visible = ' '.join(' '.join(page.visible_parts).split())
+    for question in questions:
+        for text in [question['name'], question['acceptedAnswer']['text']]:
+            assert ' '.join(text.split()) in visible, text
+            if page is article:
+                assert text in article_corpus, text
+for topic in ['Price and buying decisions', 'Manufacturer, origin and engineering', 'Weight, sieve chemistry and efficiency', 'Regulation, comparisons and support']:
+    assert topic in ' '.join(article.visible_parts) and topic in article_corpus, topic
 index = json.loads((DIST / 'search-index.json').read_text())
 assert all(any(item['h'] == route for item in index) for route in pages)
 for route in ['/oxygen-concentrators/brands/', '/oxygen-concentrators/5-lpm/', '/guides/philips-everflo-replacement-india/']:
     source = Page(route)
     assert ARTICLE in source.links and PRODUCT in source.links, route
-print('Verified Oxygenate SEO: titles, descriptions, share images, schema entities, price range, citations, TOC, search and contextual links.')
+print('Verified Oxygenate SEO: metadata, entities, price range, citations, TOC, search, links and visible FAQs matching schema and text export.')

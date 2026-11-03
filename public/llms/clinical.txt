@@ -145,6 +145,20 @@ For the specific machines that run these algorithms in the Indian market, ranked
 
 Consult your sleep physician before switching between APAP brands or algorithms — the residual-AHI difference should be interpreted against your specific sleep physiology, not the population average.
 
+## Frequently asked questions
+
+**Which APAP algorithm is best?**
+
+No algorithm is best for every patient. Compare residual event types, flow limitation, leak, pressure behaviour, symptoms, and comfort on actual download data rather than choosing from brand reputation alone.
+
+**Will two APAP machines set to the same range behave the same?**
+
+No. Detection thresholds and the speed and size of pressure changes differ by manufacturer, so two machines using the same minimum and maximum can produce different pressure profiles and residual AHI.
+
+**Should I switch APAP brands because my AHI is high?**
+
+First exclude mask leak, inadequate minimum pressure, central events, and poor adherence with a clinician. A different algorithm can help some patients, but a brand change is not a substitute for reviewing the cause.
+
 ---
 
 # BiPAP backup rate: what it is and why your prescription has one
@@ -211,6 +225,24 @@ If your backup rate is being set or reviewed, the useful inputs are: your record
 The backup rate is the minimum breathing rate your BiPAP enforces — a floor, in breaths per minute, that only acts when your own breathing slows or stops. It is what makes a machine "ST," it is set just below your natural rate, and it exists because your prescription is for a situation where your breathing drive itself can pause. It is not the same as your breath rate, it does not mean your breathing has failed, and a well-set one should be all but invisible to you.
 
 For the ST-capable platforms available in India, ranked against a published rubric, see our [Top 5 BiPAP machines in India (2026)](/top-5/bipap-machines/). Always have backup-rate settings chosen and adjusted by your prescribing physician with download data, never empirically at home. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
+
+## Frequently asked questions
+
+**What is a normal backup rate for a BiPAP?**
+
+For adult home use the backup rate usually sits between 10 and 16 breaths per minute, with 12 the common starting point. It is typically set a little below the patient's own resting breathing rate, so the machine only steps in when breathing actually slows or pauses.
+
+**Is the backup rate the same as the breath rate?**
+
+No. Your breath rate (respiratory rate) is how often you actually breathe. The backup rate is the floor the machine enforces — the minimum it will allow before delivering a timed breath of its own. When you breathe above the backup rate, the backup rate does nothing; it only acts when you drop below it.
+
+**Why does my BiPAP prescription have a backup rate of 12?**
+
+A backup rate of 12 means that if more than five seconds pass without you starting a breath, the machine delivers one — keeping you at a minimum of 12 breaths a minute. It is prescribed when your breathing can pause on its own, so 12 guarantees adequate ventilation through those pauses.
+
+**Does a backup rate mean my breathing has stopped working?**
+
+No. A backup rate is a safety floor, not a takeover. Most people on an ST machine still trigger the large majority of their own breaths; the backup only fills in the gaps when a breath is late or missing. It means your drive can be unreliable in certain moments — typically deep sleep, REM, or with certain medications — not that you have stopped breathing on your own.
 
 ---
 
@@ -339,6 +371,20 @@ Any patient being initiated on BiPAP-ST mode should be titrated in a sleep labor
 
 For the ST-capable BiPAP platforms available in India, ranked against a published rubric, see our [Top 5 BiPAP machines in India (2026)](/top-5/bipap-machines/). Once the prescription specifies S/T versus a volume-assured mode, use the [BiPAP-ST device comparison](/guides/bipap-st-devices-india/) and [best BiPAP machines under ₹50,000](/guides/best-bipap-under-50000-india/) to compare price, reporting, warranty, and service within the correct class.
 
+## Frequently asked questions
+
+**What is the difference between BiPAP S and BiPAP ST?**
+
+S mode changes between IPAP and EPAP only when the patient triggers a breath. ST mode also delivers timed breaths at a prescribed backup rate when spontaneous triggering is absent or too slow.
+
+**Who needs a backup rate on BiPAP?**
+
+It is most relevant when breathing drive or muscle strength can become inadequate, including central apnea, neuromuscular disease, obesity hypoventilation, and selected chronic hypercapnic conditions.
+
+**Can a patient set the BiPAP backup rate themselves?**
+
+No. An inappropriate rate or timing can create poor synchrony or inadequate ventilation. A sleep or respiratory clinician should set and review it using symptoms, gas exchange, and device data.
+
 ---
 
 # BiPAP trigger, cycle, rise time, Ti Min and Ti Max explained
@@ -447,6 +493,24 @@ Trigger starts IPAP, cycle ends it, rise time shapes the climb, and Ti Min/Ti Ma
 Do not change them by copying another user’s settings. The right combination depends on respiratory mechanics, muscle strength, leak, mode and ventilation goals, and should be reviewed with waveform or download data.
 
 **Primary references:** [ResMed AirCurve 11 VAuto professional information](https://www.resmed.com/en-us/health-professionals/products/cpap/machines/aircurve-11-vauto/); [ResMed AirCurve user guide](https://document.resmed.com/en-us/documents/products/machine/aircurve-series/user-guide/aircurve-10-vauto-s-st-device-with-humidifier_user-guide_amer_spa.pdf); [PAP technology review](https://pmc.ncbi.nlm.nih.gov/articles/PMC4629962/); [home NIV setup review](https://pmc.ncbi.nlm.nih.gov/articles/PMC6558539/).
+
+## Frequently asked questions
+
+**What does trigger sensitivity mean on BiPAP?**
+
+It controls how much change in inspiratory flow the machine needs before switching to IPAP. More-sensitive triggering detects weaker efforts but can also misread leak, movement or cardiac oscillation as a breath.
+
+**What does cycle sensitivity mean on BiPAP?**
+
+It controls when the machine decides inspiration is ending and returns to EPAP, often using the fall in inspiratory flow from its peak. Earlier cycling shortens IPAP; later cycling prolongs it.
+
+**What is rise time?**
+
+Rise time is how quickly pressure increases from EPAP to IPAP. Too fast may feel like an air blast; too slow may feel as though the machine is not giving enough support at the start of the breath.
+
+**What do Ti Min and Ti Max do?**
+
+Ti Min prevents IPAP ending too quickly, while Ti Max prevents it continuing too long. They create a timing window within which flow-based cycling can follow the patient’s spontaneous breath.
 
 ---
 
@@ -1836,6 +1900,24 @@ Use a multi-night trend and read it beside pressure range, median, leak, residua
 
 **Primary references:** [ResMed sleep-lab titration guide](https://document.resmed.com/en-us/documents/products/titration/s9-vpap-tx/user-guide/1013904_Sleep_Lab_Titration_Guide_amer_eng.pdf); [ResMed AirView materials](https://document.resmed.com/en-us/documents/products/data-management/airview/product-brochure/1018349r1_ProdBro_AirView_RDE.pdf); [AASM PAP titration guideline](https://aasm.org/resources/clinicalguidelines/040210.pdf).
 
+## Frequently asked questions
+
+**Is 95th-percentile pressure the highest pressure my CPAP reached?**
+
+No. It excludes the highest 5% of pressure values, so the true maximum may be higher. The maximum can be a brief spike and is usually less representative than P95.
+
+**Should fixed CPAP be set to the 95th-percentile APAP pressure?**
+
+P95 can inform titration, but it should not be copied automatically. Clinicians review several nights together with AHI, event type, leak, comfort and sleep position before choosing a fixed pressure or narrowing an APAP range.
+
+**Why is my 95% pressure equal to the APAP maximum?**
+
+The machine may be spending substantial time against the pressure ceiling. That can mean residual obstruction, a minimum that is too low and forces repeated climbs, leak or an artefact. It warrants report review rather than automatically raising the maximum.
+
+**Is a high P95 bad?**
+
+Not by itself. Some airways require higher pressure, especially during REM or supine sleep. The important questions are whether events are controlled, leak is acceptable, therapy is comfortable and the machine is operating within a sensible prescribed range.
+
 ---
 
 # CPAP adherence: the 4-hour threshold, what drives it, and Indian reality
@@ -2381,6 +2463,20 @@ If the leak diagnosis points to the mask rather than pressure or device configur
 
 *References: Manufacturer mask-vent datasheets — ResMed, Philips, Fisher & Paykel [CITATION]; ResMed AirSense 11 clinician manual — leak thresholds [CITATION]; CPAP adherence literature — leak as predictor [CITATION]; Indian climate and seasonal variation literature [CITATION].*
 
+## Frequently asked questions
+
+**Is some CPAP mask leak normal?**
+
+Yes. Every vented mask deliberately releases air to clear exhaled carbon dioxide. The problem is excess unintentional leak beyond that designed vent flow.
+
+**How can I tell a mask leak from a mouth leak?**
+
+Mask leaks often change with position or improve when the cushion is reseated; mouth leaks commonly accompany dry mouth and long leak plateaus. Report shape and an awake fit check at therapy pressure help separate them.
+
+**Will a full-face mask fix every CPAP leak?**
+
+No. It can contain oral leak, but it has a larger sealing surface and can itself leak. Correct size, cushion condition, hose routing, and pressure-time fit still matter.
+
 ---
 
 # CPAP mask types and Indian facial morphology — nasal pillows, nasal, full-face, hybrid
@@ -2655,6 +2751,20 @@ For the CPAP machines that run these titration algorithms in the Indian market, 
 
 Consult your sleep physician for interpretation of your specific titration result and for prescription decisions — the report, not the headline pressure number, is the clinically useful document.
 
+## Frequently asked questions
+
+**Is laboratory CPAP titration better than home auto-titration?**
+
+A lab sees sleep stages, position, effort, oxygen, and arousals directly and is preferable for complex disease. Home APAP is more accessible and can work well for uncomplicated obstructive sleep apnea when follow-up data are reviewed.
+
+**Should CPAP be set to the report's 95th-percentile pressure?**
+
+Not automatically. That statistic can be inflated by leak or short periods of high need and does not show event type. It should be interpreted with the full report and symptoms.
+
+**When should CPAP pressure be retitrated?**
+
+Seek review when symptoms or residual events persist, weight or health changes substantially, central events appear, pressure becomes intolerable, or the original study no longer reflects the clinical picture.
+
 ---
 
 # Why is there water in my CPAP hose, and how do I stop it? (rainout)
@@ -2700,6 +2810,24 @@ The instinct when rainout strikes is to switch humidification off completely. Th
 Rainout is condensation — warm humidified air cooling and dropping its moisture as water inside the hose — and it is physics, not a malfunction. It worsens whenever the room is much cooler than the air in the tube, which is why winter, AC rooms, and humid coasts trigger it. Close the temperature gap: a heated tube is the real fix, supported by a lower humidity setting, a hose cover, sensible machine placement, and keeping cold airflow off the tubing. Avoid the trap of simply turning humidity off and drying yourself out instead.
 
 This is general information, not medical advice. If reducing humidity to control rainout leaves your airway dry or irritated, raise it with your provider rather than tolerating either problem.
+
+## Frequently asked questions
+
+**What is CPAP rainout?**
+
+Rainout is condensation inside the CPAP tube. The humidifier warms and moistens the air; as that air travels through the hose and cools toward room temperature, the moisture condenses into water droplets — the same way dew forms. The water can pool in the tube or trickle toward the mask.
+
+**Why is water building up in my CPAP tube?**
+
+Because the room is cooler than the humidified air. The bigger the gap between the warm, moist air leaving the humidifier and the cool room around the hose, the more it condenses. That is why rainout spikes in winter, in air-conditioned bedrooms, and in humid coastal climates.
+
+**How do I stop CPAP condensation?**
+
+Reduce the temperature difference: turn the humidifier level down a notch, add a heated tube that keeps the air warm the whole way to the mask, cover or insulate the hose, position the machine lower than your head so any water drains back, and keep AC airflow off the tubing.
+
+**Is CPAP rainout dangerous?**
+
+It is not dangerous in the sense of harming you — you will not inhale a harmful amount of water — but it is disruptive and undermines therapy: the gurgling and splashes wake you, and people often turn the humidifier off entirely to escape it, which then dries out the airway. So it is worth fixing properly rather than living with or over-correcting.
 
 ---
 
@@ -2813,6 +2941,24 @@ OA is an obstructive-apnea estimate, CA is a clear-airway/central estimate, H is
 Treat the flags as a useful map of breathing, not a final diagnosis. Trends, leak, symptoms and clinical context decide what the map means.
 
 **Primary references:** [AASM respiratory-event scoring update](https://pmc.ncbi.nlm.nih.gov/articles/PMC3459210/); [AASM PAP titration guideline](https://aasm.org/resources/clinicalguidelines/040210.pdf); [Philips Encore interpretation guide](https://www.philips.com/c-dam/b2c/ko_KR/experience/hs/sleep-apnea/software-compliance-report.pdf); [device-versus-polysomnography event-detection study](https://pmc.ncbi.nlm.nih.gov/articles/PMC9669528/).
+
+## Frequently asked questions
+
+**Does CA on my CPAP mean I have central sleep apnea?**
+
+Not by itself. CA usually means the device detected an apnea while the airway appeared open. Awake breath-holding, sleep–wake transitions, leak and algorithm error can also create clear-airway flags. A persistent or rising central-apnea index needs clinician review and may require a sleep study.
+
+**Do flow limitations count in AHI?**
+
+No. Flow limitation is generally a separate signal and does not enter the AHI unless the reduced flow becomes severe and long enough to meet the device’s hypopnea or apnea criteria.
+
+**Is RERA included in AHI?**
+
+No. AHI counts apneas and hypopneas. In a laboratory, RERAs contribute to RDI rather than AHI. Device-detected RERA is an estimate because a standard CPAP cannot measure the EEG arousal required to confirm a true RERA.
+
+**Why do different CPAP brands show different event labels?**
+
+Each manufacturer uses its own sensors, thresholds and algorithms. Philips often uses clear-airway terminology, ResMed reports central-apnea-related metrics, and some devices do not expose flow limitation or RERA at all. Values should not be compared as if the algorithms were identical.
 
 ---
 
@@ -3114,6 +3260,20 @@ CPAP lowers BP modestly on average — 2 to 3 mmHg systolic in pooled meta-analy
 
 Any patient considering CPAP primarily for BP reasons or considering tapering antihypertensives because of CPAP use should have this decision managed by their cardiologist or hypertension specialist in conjunction with the sleep physician, because discontinuing medication inappropriately has worse downside than the BP reduction from CPAP has upside. .
 
+## Frequently asked questions
+
+**How long does CPAP take to lower blood pressure?**
+
+Changes can emerge over weeks to a few months, but response varies and depends strongly on nightly use. Ambulatory or home measurements are more informative than a single clinic reading.
+
+**Can I stop blood-pressure medicine after starting CPAP?**
+
+Not without the prescribing clinician. CPAP's average effect is smaller than that of most antihypertensive medicines, though individual responses can be larger.
+
+**Who is most likely to see a blood-pressure benefit from CPAP?**
+
+People with resistant hypertension, more severe sleep apnea, higher baseline pressure, and strong nightly adherence tend to show larger average reductions.
+
 ---
 
 # Does an oxygen concentrator make the room hot or humid?
@@ -3162,6 +3322,24 @@ If noise and heat at the bedside are the deciding factors, the quieter, lower-ou
 An oxygen concentrator does warm the room — it converts its power into heat and can lift a small closed bedroom a couple of degrees overnight — but it does not raise room humidity; the moisture you notice is the humidifier bottle on the oxygen line or condensation in the tubing, not the room. Manage the heat with clearance, ventilation, a cooler room plus extension tubing, and summer cooling — both for your sleep and to keep the machine inside its oxygen-purity spec.
 
 This is general information, not medical advice. Do not change your prescribed flow or therapy to manage room temperature; speak to your provider if heat or noise is genuinely affecting use.
+
+## Frequently asked questions
+
+**Why does my oxygen concentrator make the room hot?**
+
+Because nearly all the electricity it uses ends up as heat. A 350-watt concentrator dumps roughly 1,200 BTU per hour into the room — comparable to a small heater on low or a person sitting in the room continuously. Over a night in a small, closed room that can lift the temperature by a couple of degrees.
+
+**Does an oxygen concentrator increase humidity?**
+
+No. The machine pulls in room air and removes nitrogen to concentrate oxygen; it does not release water vapour into the room. People associate concentrators with moisture because of the humidifier bottle attached to the oxygen output — but that humidifies the gas you breathe through the cannula, not the room air.
+
+**Can I put an oxygen concentrator in a closed room?**
+
+It is better not to seal it in a small, unventilated space. The unit needs airflow around it to stay cool and to draw fresh intake air, and in a closed room its own heat can build up and, in hot weather, push it toward high-temperature derating or alarms. Leave clearance around it and some ventilation, or run extension tubing from a cooler adjacent room.
+
+**Is it safe to run an oxygen concentrator with the air conditioner on?**
+
+Yes, and in Indian summers it is often the sensible choice — AC keeps the room below the unit's high-temperature alarm threshold and keeps you comfortable. Just keep the concentrator's air intake and vents clear of curtains or furniture, and do not point the AC airflow directly at the oxygen tubing, which can cause condensation in the line.
 
 ---
 
@@ -3305,6 +3483,20 @@ HHZ's editorial view: EPR should be on for most patients by default at initiatio
 Consult your sleep physician if pressure intolerance, aerophagia, or unexpected AHI changes emerge after EPR-setting changes — these are the scenarios where small setting differences produce clinically meaningful outcomes.
 
 *References: ResMed AirSense EPR white paper [CITATION]; Philips DreamStation C-Flex / A-Flex / Bi-Flex clinician manual [CITATION]; BMC RESmart firmware documentation [CITATION]; CPAP comfort and adherence literature [CITATION].*
+
+## Frequently asked questions
+
+**Are EPR and C-Flex the same?**
+
+They serve the same comfort goal but use different manufacturer algorithms and timing. A numbered setting on one platform is not guaranteed to equal the same number on another.
+
+**Can exhalation relief make CPAP less effective?**
+
+It can in some patients because pressure during expiration helps keep the airway open. If obstructive events increase, the pressure range or relief setting may need clinical review.
+
+**Is CPAP with EPR the same as BiPAP?**
+
+No. Relief is a limited comfort feature within CPAP, while bilevel therapy independently controls inspiratory and expiratory pressures and can provide much greater pressure support and timed modes.
 
 ---
 
@@ -3560,6 +3752,20 @@ HHZ's editorial view: every CPAP data-review consultation should include a speci
 Consult your sleep physician if you remain symptomatic on CPAP despite a good AHI — flow limitation, UARS, and other sub-apnea phenomena may require a specific investigation and adjustment.
 
 *References: Guilleminault C et al — UARS classical description [CITATION]; AASM Manual v3 — RERA scoring [CITATION]; ResMed AutoSet algorithm white paper [CITATION]; Azarbarzin A et al, Eur Heart J 2019 — hypoxic burden [CITATION]; Philips DreamStation 2 clinician guide [CITATION].*
+
+## Frequently asked questions
+
+**What is the difference between flow limitation and hypopnea?**
+
+Flow limitation describes the shape and restriction of inspiration. A hypopnea must cross a defined airflow-reduction threshold and meet an oxygen-desaturation or arousal rule in a sleep study.
+
+**Can a CPAP machine detect flow limitation?**
+
+Many modern APAP devices estimate it from the flow waveform and may raise pressure in response, but brands report it differently and the result is not equivalent to a scored sleep study.
+
+**Should I increase CPAP pressure for flow limitation?**
+
+Not solely from one graph. Leak, nasal obstruction, sleep position, event type, comfort, and central apnea risk all matter; review persistent symptoms or limitation with the treating clinician.
 
 ---
 
@@ -3923,6 +4129,20 @@ Consult your treating physician for therapy decisions; this article is education
 The PSA oxygen concentrator is a remarkably durable piece of commodity chemical engineering. The underlying adsorption science — Na⁺ and Li⁺ cations in zeolite cages producing a quadrupole-moment-driven selectivity for N₂ over O₂ — has not materially changed in 40 years; what has changed is the cost of the zeolite, the availability of reliable oil-free compressors, and the maturity of the solenoid valves. The output spec of 93% ± 3% is not a shortcoming; it is what argon-limited zeolite PSA fundamentally produces, and it has been clinically adequate for the overwhelming majority of long-term oxygen therapy prescriptions written in the last three decades. A concentrator that delivers rated purity at rated flow, reliably, for three to five years, with a serviceable sieve bed and a factory-authorised service network in the owner's city, is doing everything it is asked to do.
 
 *Further reading for practitioners and biomedical engineers: the reference chapters on PSA chemistry in the adsorption literature, and the ISO 80601-2-69 standard for home oxygen concentrators. ([ISO 80601-2-69](https://www.iso.org/standard/73645.html))*
+
+## Frequently asked questions
+
+**Does an oxygen concentrator make or store oxygen?**
+
+It separates oxygen already present in room air and usually stores only a small buffer volume inside the machine. It does not contain a refillable high-pressure oxygen supply.
+
+**Why is concentrator oxygen about 93% rather than 100%?**
+
+Zeolite removes nitrogen efficiently but standard PSA does not separate argon from oxygen well. Residual argon plus small process losses set the practical medical-concentrator range.
+
+**Why do sieve beds wear out?**
+
+Moisture, dust, oil contamination, valve timing problems, and long-term zeolite attrition reduce nitrogen adsorption. High humidity and inadequate filtration accelerate the decline.
 
 ---
 
@@ -4589,6 +4809,20 @@ Consult your sleep physician when the AHI numbers across sources — lab, HSAT, 
 
 *References: AASM Manual for the Scoring of Sleep and Associated Events v3 [CITATION]; Berry RB et al, Sleep Breath 2013 [CITATION]; BaHammam AS et al — regional scoring variation [CITATION]; ResMed AutoSet algorithm white paper [CITATION]; manufacturer firmware release notes [CITATION].*
 
+## Frequently asked questions
+
+**What is the main difference between apnea and hypopnea?**
+
+An apnea is near-complete loss of airflow; a hypopnea is partial reduction that also meets a desaturation or arousal criterion in formal sleep-study scoring.
+
+**Why does CPAP AHI differ from sleep-study AHI?**
+
+A CPAP estimates events from its own airflow and pressure signals while a sleep study also measures sleep time, brain arousals, oxygen, and respiratory effort. Awake time and brand algorithms create further differences.
+
+**Are hypopneas less important than apneas?**
+
+Not necessarily. Repeated hypopneas can cause substantial oxygen drops and sleep fragmentation; overall frequency, duration, desaturation, symptoms, and comorbidity determine clinical importance.
+
 ---
 
 # IPAP vs EPAP vs pressure support: reading a BiPAP prescription
@@ -4708,6 +4942,24 @@ IPAP is the inspiratory pressure, EPAP is the expiratory baseline, and pressure 
 Do not change a bilevel prescription from the arithmetic alone. The same numbers behave differently across modes, diseases and synchrony settings, and ST or volume-assured users may depend on them for ventilation.
 
 **Primary references:** [ResMed sleep-lab titration guide](https://document.resmed.com/en-us/documents/products/titration/s9-vpap-tx/user-guide/1013904_Sleep_Lab_Titration_Guide_amer_eng.pdf); [AASM PAP treatment guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC6374094/); [PAP technology review](https://pmc.ncbi.nlm.nih.gov/articles/PMC4629962/).
+
+## Frequently asked questions
+
+**What does BiPAP 16/8 mean?**
+
+It means an inspiratory pressure (IPAP) of 16 cmH₂O and an expiratory pressure (EPAP) of 8 cmH₂O. The pressure support is the difference: 16 minus 8 equals 8 cmH₂O.
+
+**Is pressure support added on top of IPAP?**
+
+No. Pressure support is the difference between IPAP and EPAP, not a third pressure added to both. If EPAP is 8 and pressure support is 4, the resulting IPAP is 12.
+
+**Which setting treats obstructive apnea: IPAP or EPAP?**
+
+EPAP is the baseline pressure most directly used to splint the upper airway and prevent obstructive collapse. IPAP also contributes during inspiration, but the pressure-support gap is primarily the inspiratory assistance component.
+
+**Can I change IPAP or EPAP for comfort?**
+
+Do not change prescribed bilevel pressures without the treating clinician or respiratory therapist. A comfort change can alter airway control, ventilation, leak, tidal volume and carbon-dioxide clearance, especially in ST or volume-assured therapy.
 
 ---
 
@@ -4892,6 +5144,24 @@ A concentrator's 93% and a cylinder's 99% are clinically equivalent for home oxy
 
 This is general information, not medical advice. Follow the flow rate your physician prescribed, and raise any concern about your oxygenation — breathlessness, a falling pulse-oximeter reading — with them directly rather than adjusting therapy yourself.
 
+## Frequently asked questions
+
+**Is 93% oxygen as good as 99%?**
+
+For standard home oxygen therapy through a nasal cannula, yes. The clinical effect is set by how much oxygen reaches you per minute, which is governed by your prescribed flow rate, not by the difference between 93% and 99% purity. National and international bodies accept 93% ±3% as the standard for home concentrators.
+
+**What is the 7% in concentrator oxygen?**
+
+Mostly argon, with a trace of residual nitrogen. A concentrator pulls nitrogen out of room air using a zeolite sieve, but it cannot remove argon (which behaves similarly to oxygen in the process), so argon concentrates alongside the oxygen. Argon is inert and biologically harmless at these levels.
+
+**Is concentrator oxygen safe for long-term use?**
+
+Yes. Millions of long-term oxygen therapy patients worldwide use concentrators delivering 93% ±3% oxygen for years. The important thing is that the concentrator actually holds its rated purity at your prescribed flow — which is why units with a real-time purity display are useful for spotting drift over time.
+
+**When would I actually need a cylinder instead of a concentrator?**
+
+Cylinders earn their place as a power-cut backup, for short acute needs before a concentrator is arranged, for prescribed flows above what your concentrator delivers at rated purity, and for genuinely portable continuous-flow use away from mains power. The reason is practical — runtime, mobility, and backup — not the purity difference, which does not matter for ordinary home cannula therapy.
+
 ---
 
 # Is BiPAP the same as a ventilator? What it means to be prescribed one
@@ -4944,6 +5214,24 @@ For most home BiPAP users, daily life looks almost exactly like CPAP life: a mas
 BiPAP is non-invasive ventilation — it ventilates by assisting your breathing through a mask — but it is not the tube-based life-support ventilator the word usually brings to mind. "Bilevel" simply means two pressures instead of one. Being prescribed it most often means your apnea needed a higher pressure than a CPAP could deliver comfortably, though it is also used for COPD, hypoventilation, and neuromuscular conditions. The seriousness lives in the underlying diagnosis, not in the machine — and most users live an ordinary life around it.
 
 For the bilevel platforms available in India, ranked against a published rubric, see our [Top 5 BiPAP machines in India (2026)](/top-5/bipap-machines/). Discuss what your specific prescription means for your condition with your treating physician. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
+
+## Frequently asked questions
+
+**Is BiPAP a ventilator?**
+
+BiPAP is a type of non-invasive ventilation — it ventilates by assisting your breathing through a mask. But it is not an invasive life-support ventilator, which breathes for a patient through a tube in the windpipe. BiPAP supports the breathing you are still doing yourself; it does not replace it.
+
+**Is BiPAP the same as NIV?**
+
+BiPAP is one form of NIV (non-invasive ventilation). NIV is the umbrella term for any breathing support delivered through a mask rather than a tube; BiPAP — bilevel pressure — is the most common type of NIV used at home. So all home BiPAP is NIV, but NIV also covers other modes.
+
+**Does needing a BiPAP mean my condition is serious?**
+
+Not by itself. Many people use BiPAP simply because they could not tolerate the high pressure a CPAP required, which is a comfort issue, not a crisis. Others use it for COPD or hypoventilation. It signals that your breathing needs more support than basic CPAP — the seriousness depends entirely on the underlying condition, which your physician can put in context.
+
+**What's the difference between BiPAP and a home ventilator?**
+
+It is mostly about how dependent you are. A BiPAP supports your breathing for part of the day — typically while you sleep — while you breathe independently the rest of the time. A home ventilator is for people who need breathing support for most of the 24-hour cycle, often through a tracheostomy, with more modes, alarms, and battery backup. Some advanced BiPAPs blur this line, but the categories are distinct in regulation and support requirements.
 
 ---
 
@@ -5183,6 +5471,24 @@ A nasal cannula is usually the practical choice for stable low-flow home oxygen.
 Use the interface and flow on the prescription. If the prescribed setup no longer meets the person’s saturation target, contact the treating service rather than switching masks or increasing flow without a plan.
 
 **Primary references:** [British Thoracic Society oxygen guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC5531304/); [BTS home-oxygen equipment appendix](https://www.brit-thoracic.org.uk/document-library/guidelines/home-oxygen-for-adults/appendix-12-home-oxygen-equipment/); [AARC adult acute-care oxygen guideline](https://www.aarc.org/wp-content/uploads/2022/10/cpg-clinical-mangement-adult-o2-acute-settings.pdf).
+
+## Frequently asked questions
+
+**Does an oxygen mask give more oxygen than a nasal cannula?**
+
+A simple face mask generally supports a higher oxygen concentration than a conventional low-flow cannula, but the categories overlap and both are variable-performance devices. A Venturi mask and a non-rebreather mask behave differently again, so 'mask' is not one single oxygen dose.
+
+**Can I sleep with a nasal cannula?**
+
+Yes. A nasal cannula is usually the most practical interface for prescribed overnight home oxygen. Secure the tubing without tightening it around the neck, protect the skin over the ears, and follow the prescribed flow rather than changing it for sleep without review.
+
+**What if I breathe through my mouth while using a nasal cannula?**
+
+A cannula can still raise inspired oxygen in many mouth breathers because oxygen collects in the upper airway, but severe nasal obstruction and rapid mouth breathing make delivery less predictable. If targets are not met, the clinician should reassess the interface and flow.
+
+**Can I run a simple oxygen mask at 2 or 3 L/min?**
+
+No. A conventional simple face mask needs enough flow to flush exhaled carbon dioxide from the mask, commonly at least 5 L/min according to the mask instructions and oxygen guidelines. Low-flow home prescriptions are usually delivered by nasal cannula instead.
 
 ---
 
@@ -5494,6 +5800,20 @@ Consult your sleep physician or pulmonologist before initiating any positive-pre
 
 *References: ATS/ERS statement on NIV; AASM clinical practice guidelines on positive-pressure therapy; SERVE-HF for ASV contraindication in HFrEF; Pickwick trial for TVAPS in OHS; individual mode-specific citations in the linked articles [CITATION].*
 
+## Frequently asked questions
+
+**Is NIV the same as BiPAP?**
+
+BiPAP is a commonly used form of non-invasive ventilation, but NIV is broader and also includes other pressure-support and volume-assured modes delivered without an invasive airway.
+
+**When is BiPAP preferred over CPAP?**
+
+It is considered when ventilation or carbon-dioxide clearance is inadequate, when a large pressure difference is needed, or when specific bilevel modes are clinically indicated—not simply because BiPAP is a more expensive machine.
+
+**When is a home ventilator needed instead of a BiPAP?**
+
+A ventilator becomes relevant when dependence, alarm requirements, backup power, circuit options, secretion management, or disease progression exceed what a sleep-therapy bilevel can safely provide.
+
 ---
 
 # What's a normal CPAP leak number? (and when leak is the real problem)
@@ -5551,6 +5871,24 @@ A screenshot of the leak *graph* (not just the number), noting when the spikes o
 Some leak is always normal — every mask vents on purpose to clear carbon dioxide. The number that matters is the *unintentional* leak, judged against your specific brand's scale (ResMed: 95th-percentile under 24 L/min; Philips: a higher total-leak figure that already includes the vent). Read the graph, not the average, because the damage is usually in the spikes — and if it is high, most cases are solved by a fresh cushion, a better fit, or fixing mouth leak. If you cannot fix it yourself, the leak graph is the thing to take to your supplier.
 
 This is general information, not medical advice; persistent high leak, or leak paired with a rising AHI, should be reviewed with your sleep clinician. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
+
+## Frequently asked questions
+
+**What is a good leak number on a CPAP?**
+
+On ResMed devices, aim for a 95th-percentile leak under 24 L/min; under 10 is excellent. Philips reports total leak including the mask's intentional vent flow, so a Philips 'leak' figure is naturally higher and is not directly comparable to a ResMed number — check what your specific machine is measuring before judging it.
+
+**What is the 95th percentile leak?**
+
+It is the leak level your machine stayed below for 95% of the night — a better measure than the average because it captures the bad stretches. A low average with a high 95th-percentile means you had significant leak for part of the night, often during REM or after turning over, even though the night 'averaged out' fine.
+
+**Is some CPAP leak normal?**
+
+Yes. Every CPAP mask has intentional vent holes that release a constant flow to wash out exhaled carbon dioxide — that flow is designed in and is not a problem. 'Leak' as a problem refers to the extra, unintentional leak from a poor seal or an open mouth, on top of the intentional vent flow.
+
+**Can mask leak raise my AHI?**
+
+Yes. A large leak bleeds off pressure so the airway splint weakens, letting apneas and hypopneas slip through, and it can also confuse the machine's event detection. A rising residual AHI that tracks with leak spikes on the same nights is a strong sign the leak — not your apnea itself — is the problem to fix.
 
 ---
 
@@ -7137,6 +7475,20 @@ Reporting should be part of the buying decision when a clinic reviews therapy re
 
 *References: ResMed AirView clinician guide; Philips Care Orchestrator technical documentation; BMC iCode user manual; [Home Medix Claro software description](https://homemedix.in/bpap/); Weaver TE et al, Sleep 2007; AASM clinical practice guidance on PAP therapy.*
 
+## Frequently asked questions
+
+**What numbers matter most on a CPAP report?**
+
+Start with nightly use, residual obstructive versus central events, excess leak, pressure distribution, and trends. A single total AHI can hide the reason therapy is underperforming.
+
+**Can patients read their own CPAP data?**
+
+Yes, for adherence and trend awareness, but event classification and treatment changes need context. Persistent symptoms, central events, severe leak, or low oxygen deserve clinician review.
+
+**Does Home Medix Claro work on Windows and macOS?**
+
+Yes. Home Medix Claro supports both Windows and macOS for compatible device-data review; confirm the required reader, cable, or SD-card workflow for the specific machine.
+
 ---
 
 # Refurbished oxygen concentrators in India: the legitimate market and its pitfalls
@@ -7575,6 +7927,24 @@ A simple mask is a moderate-concentration, no-reservoir interface used at 5–10
 New severe breathlessness, confusion, cyanosis, chest pain or a rapidly falling saturation is an emergency. Use the patient’s emergency plan and local emergency services rather than experimenting with masks.
 
 **Primary references:** [British Thoracic Society oxygen guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC5531304/); [BTS oxygen-equipment appendix](https://www.brit-thoracic.org.uk/document-library/guidelines/home-oxygen-for-adults/appendix-12-home-oxygen-equipment/); [European Respiratory Society device review](https://publications.ersnet.org/content/breathe/15/3/e108).
+
+## Frequently asked questions
+
+**How can I tell a simple mask from a non-rebreather?**
+
+A simple mask is just the mask body with side openings and oxygen tubing. A non-rebreather has a soft reservoir bag hanging below the mask and usually one-way valve discs at the bag connection and side ports.
+
+**What flow is used for a simple oxygen mask?**
+
+Common guidance is 5–10 L/min, with the precise minimum stated by the mask manufacturer. The minimum matters because fresh gas must flush exhaled carbon dioxide from the mask.
+
+**What flow is used for a non-rebreather?**
+
+A non-rebreather is commonly run at 10–15 L/min and often at 15 L/min in acute care. Use enough flow to pre-inflate the reservoir and keep it at least partly inflated during inspiration.
+
+**Is a non-rebreather the same as BiPAP?**
+
+No. A non-rebreather supplies oxygen but does not provide pressure support or assist ventilation. BiPAP provides positive airway pressure and can support ventilation; oxygen may be added separately when prescribed.
 
 ---
 
@@ -8201,6 +8571,24 @@ Oxygen is a prescribed medicine. Do not change a patient’s FiO₂ or target ra
 
 **Primary references:** [British Thoracic Society oxygen guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC5531304/); [BTS summary recommendations](https://www.brit-thoracic.org.uk/document-library/guidelines/emergency-oxygen/bts-guideline-for-oxygen-use-in-healthcare-and-emergency-settings-summary-of-recommendations/); [European Respiratory Society oxygen-device review](https://publications.ersnet.org/content/breathe/15/3/e108).
 
+## Frequently asked questions
+
+**What do the colours on a Venturi mask mean?**
+
+Each colour identifies an adapter designed for a particular oxygen concentration and minimum source flow. The exact colour mapping varies between manufacturers, so the printed percentage and L/min on the adapter are authoritative.
+
+**Does increasing the flow change the Venturi oxygen percentage?**
+
+Not when the adapter is operating correctly. Raising source flow above the stated minimum increases total gas flow while the entrainment ratio remains approximately the same. To change FiO₂, use the prescribed adapter or adjustable setting.
+
+**Why can a 28% Venturi use only 4 L/min but deliver much more total flow?**
+
+The oxygen jet pulls room air through the entrainment ports. Four litres per minute of source oxygen may entrain several times that amount of air, so total flow reaching the mask is much higher than the number on the wall flowmeter.
+
+**Which Venturi colour is used for COPD?**
+
+Controlled oxygen often begins at 24% or 28% for a patient at risk of hypercapnic respiratory failure, but the adapter, target saturation and escalation plan must come from the clinical prescription and prior oxygen-alert information.
+
 ---
 
 # Venturi mask vs non-rebreather mask: controlled oxygen or maximum oxygen?
@@ -8283,6 +8671,24 @@ Choose a Venturi mask when the clinical question is **“what controlled oxygen 
 This article explains equipment, not an individual prescription. New severe breathlessness, confusion, blue lips, chest pain or a saturation below the person’s emergency threshold requires urgent medical care.
 
 **Primary references:** [British Thoracic Society oxygen guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC5531304/); [BTS home-oxygen equipment appendix](https://www.brit-thoracic.org.uk/document-library/guidelines/home-oxygen-for-adults/appendix-12-home-oxygen-equipment/); [European Respiratory Society oxygen-device review](https://publications.ersnet.org/content/breathe/15/3/e108).
+
+## Frequently asked questions
+
+**Which gives more oxygen: a Venturi mask or a non-rebreather?**
+
+A properly set up non-rebreather generally delivers the higher concentration. A Venturi mask deliberately mixes oxygen with room air to deliver the percentage printed on its adapter; a non-rebreather uses a reservoir bag and high source flow to minimise room-air dilution.
+
+**Why is a Venturi mask commonly used for COPD?**
+
+Some people with COPD are at risk of hypercapnic respiratory failure and need oxygen titrated to a prescribed saturation range rather than given without a target. A Venturi mask provides a known concentration while blood gases and the clinical response are assessed.
+
+**Should the reservoir bag on a non-rebreather stay inflated?**
+
+Yes. Inflate it before applying the mask and use enough flow that it remains at least partly inflated during inspiration. A bag that collapses substantially means the setup is not supplying enough reservoir flow and needs immediate attention.
+
+**Can either mask be used routinely at home?**
+
+A Venturi mask may occasionally form part of a clinician-directed home plan, but most long-term home oxygen is delivered by nasal cannula. A non-rebreather is principally an acute-care or emergency bridge, not a substitute for a chronic home-oxygen prescription.
 
 ---
 
@@ -8544,6 +8950,20 @@ Stopping CPAP produces measurable physiological deterioration within days and ac
 
 Patients considering a CPAP break for tolerability reasons should first rule out whether the tolerability problem is addressable with mask, pressure, or humidification adjustment. Patients considering a break for clinical reasons — "I feel fine, I don't think I need it" — should discuss this with their sleep physician before abandoning therapy, because the subjective absence of sleepiness does not mean the underlying vascular and metabolic costs have gone away. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/)).
 
+## Frequently asked questions
+
+**Does CPAP cure sleep apnea?**
+
+Usually no. It mechanically prevents airway collapse during use. Some underlying cases improve after substantial weight loss, surgery, or other change, but that requires reassessment rather than assuming a cure.
+
+**Is missing one night of CPAP dangerous?**
+
+The airway obstruction can return immediately, with next-day sleepiness and driving or workplace risk. Individual medical risk varies; use extra caution and follow the treating clinician's advice.
+
+**Can I restart CPAP after not using it for months?**
+
+Ask for review if weight, cardiopulmonary health, symptoms, mask, or prescription may have changed. The machine, humidifier, filters, tubing, and stored data should also be checked before resuming.
+
 ---
 
 # What's a good AHI on CPAP — is my therapy actually working?
@@ -8598,6 +9018,24 @@ If your AHI is high or rising, the useful inputs are: the event-type breakdown, 
 A residual AHI under 5 on CPAP means your apneas are controlled — under 2 is excellent — but remember it is your machine's estimate, not a repeat sleep study, and it does not measure everything that affects how you feel. Judge it as a trend over weeks, not a single night. If your AHI is good and you feel good, your therapy is working; if it is good and you still feel awful, look at the data the AHI omits; and if it is genuinely not under 5, take the event-type breakdown to your physician.
 
 This is general information, not medical advice. Interpret your residual AHI with your sleep physician, especially if it is rising or paired with persistent symptoms. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
+
+## Frequently asked questions
+
+**What is a good AHI number on CPAP?**
+
+Under 5 events per hour is the accepted target for controlled therapy, and under 2 is excellent. For reference, untreated sleep apnea is graded mild at 5–15, moderate at 15–30, and severe above 30 — so getting a severe patient down to 3 on CPAP is the therapy doing its job.
+
+**Is the AHI on my CPAP the same as my sleep study?**
+
+No. A sleep study scores events using brain-wave, airflow, effort, and oxygen sensors. Your CPAP estimates events from airflow and pressure signals alone — it cannot see your brain or oxygen. The two numbers usually track in the same direction but are not identical, so do not compare them as if they were the same measurement.
+
+**My AHI is under 5 but I still feel tired — why?**
+
+Because the AHI does not capture everything that disturbs sleep. Residual flow limitation, RERAs, and mask leak can fragment your night while the AHI stays low. A good AHI is necessary but not sufficient for feeling rested — the data behind it needs checking too.
+
+**What if my AHI is high one night and low the next?**
+
+Some night-to-night variation is normal — alcohol, a cold, sleeping on your back, or a bad mask night all raise it temporarily. What matters is the trend over weeks, not a single reading. A persistent average above 5, or a sudden sustained rise, is what should prompt a look at the data and a word with your physician.
 
 ---
 
@@ -8660,6 +9098,24 @@ How to find and interpret these on your app or in OSCAR is covered in [reading y
 APAP and CPAP are not rival machines — APAP is a CPAP running in an auto-adjusting mode, and AutoSet is just ResMed's name for it. A fixed CPAP holds one pressure; an APAP works a range, giving you more pressure only when you need it, which often makes it gentler for new users and adaptable over time. Whether fixed or auto is right for you, and how wide the range should be, are clinical decisions from your titration data — not settings to flip on a hunch.
 
 For the machines that run these modes in the Indian market, ranked against a published rubric, see our [Top 5 CPAP machines in India (2026)](/top-5/cpap-machines/). Discuss any mode or range change with your sleep physician. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
+
+## Frequently asked questions
+
+**Is APAP the same as CPAP?**
+
+An APAP is a kind of CPAP. A plain CPAP holds one fixed pressure all night; an APAP automatically raises and lowers the pressure within a prescribed range as your needs change through the night. Most current machines can do both — fixed mode or auto mode — so the difference is usually a setting, not a separate device.
+
+**Is AutoSet the same as APAP?**
+
+Yes. AutoSet is simply ResMed's brand name for their APAP algorithm. Philips calls their version 'Auto', BMC and others use 'Auto-CPAP' — all describe a CPAP that auto-adjusts pressure within a range. The algorithms differ in detail, but the category is the same.
+
+**Should I use CPAP or APAP mode?**
+
+It depends on your titration. A patient with a clear, stable single effective pressure often does well on fixed CPAP; a patient whose needs vary by body position, sleep stage, or over time often does better with APAP's range. It is a clinical decision your sleep physician should make from your data — not a setting to switch on your own.
+
+**Is APAP good for a first-time CPAP user?**
+
+Often, yes. Because an APAP only delivers high pressure when it detects you need it, new users frequently tolerate it better than a fixed pressure held all night, and the recorded pressure data also helps fine-tune the long-term prescription. But for some conditions a fixed or bilevel mode is required from the start, so the choice still belongs with your physician.
 
 ---
 
@@ -9373,6 +9829,24 @@ Central apneas appearing after you start CPAP are treatment-emergent (complex) c
 
 This is general information, not medical advice. Do not stop CPAP because of central events; review the pattern with your sleep physician, who will decide whether and when a mode change is warranted. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
 
+## Frequently asked questions
+
+**Why does CPAP cause central apneas?**
+
+In susceptible people, the pressure and improved airflow from CPAP can briefly destabilise the body's carbon-dioxide control loop, causing the brain to pause its breathing signal — a central apnea — even though the airway is now open. It is thought to be a temporary readjustment of the breathing control system rather than a sign of harm.
+
+**What is complex sleep apnea?**
+
+Complex sleep apnea (also called treatment-emergent central sleep apnea) is when a person who started CPAP for obstructive sleep apnea develops central apneas on therapy. The obstruction is treated, but central events emerge. In most people these fade with continued CPAP use over a few weeks.
+
+**Do treatment-emergent central apneas go away?**
+
+Usually yes. The majority of cases resolve on their own within about eight weeks of consistent CPAP use as the breathing control system re-stabilises. The important thing is not to stop CPAP in the meantime. If centrals are still prominent after that window, your physician may switch you to a mode with a backup rate.
+
+**What does 'Clear Airway' mean on my CPAP report?**
+
+A Clear Airway event is the machine's label for an apnea where it detected that your airway was open during the pause — pointing to a central cause (no breathing effort) rather than an obstruction. A cluster of Clear Airway events, especially appearing after you started therapy, is the typical signature of treatment-emergent central sleep apnea.
+
 ---
 
 # Why Indian homes fail concentrator warranties: the field failure patterns
@@ -9655,6 +10129,24 @@ A 38-year-old woman, BMI 24, diagnosed with "mild" OSA (AHI 8), is put on fixed 
 A low AHI tells you the apneas are controlled. It does not tell you that you slept well. When tiredness persists despite good numbers, the answer is almost always in the data the AHI leaves out — flow limitation, RERAs, and leak — or in a cause outside sleep apnea altogether. Read the graphs, not just the headline, and if they are clean, look beyond the CPAP.
 
 Consult your sleep physician before changing pressure or settings; persistent sleepiness on well-controlled therapy is a clinical finding that deserves a proper look, not a self-adjustment. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
+
+## Frequently asked questions
+
+**Can you have a low AHI and still have sleep apnea symptoms?**
+
+Yes. The AHI only counts apneas and hypopneas that meet specific scoring criteria. Sub-threshold airflow restriction (flow limitation and RERAs) can fragment your sleep and leave you tired while never registering as an 'event', so the AHI reads low while you still feel unrefreshed.
+
+**What is a RERA and does CPAP fix it?**
+
+A RERA — respiratory effort-related arousal — is a brief awakening triggered by increasing effort to breathe against a narrowed airway, without enough airflow drop to count as a hypopnea. CPAP can reduce RERAs, but only if the pressure is high enough to relieve the flow limitation driving them, which is not always the pressure that controls frank apneas.
+
+**Should I raise my CPAP pressure if I feel tired but my AHI is low?**
+
+Not on your own. Sometimes residual flow limitation responds to a higher minimum pressure, but tiredness can also come from leak, central events, or non-sleep causes that more pressure won't fix. Review the detailed data with your sleep physician before changing anything.
+
+**How long does it take to feel better on CPAP?**
+
+Many people notice improvement within days to a couple of weeks, but a meaningful minority take one to three months as sleep debt clears and the body re-learns normal sleep architecture. If you are past three months of consistent, well-controlled use and still exhausted, that is no longer 'adjustment' — it warrants a proper look at the data and at non-apnea causes.
 
 ---
 

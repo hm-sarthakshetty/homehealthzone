@@ -49,6 +49,47 @@ def strip_frontmatter(md: str) -> tuple[dict, str]:
     return (fm, body)
 
 
+def frontmatter_faqs(md: str) -> str:
+    """Export the same quoted FAQ fields that ArticleLayout renders.
+
+    Editorial FAQ scalars use JSON-compatible double-quoted YAML strings.
+    Keep this deliberately narrow rather than silently misreading other YAML.
+    """
+    if not md.startswith("---\n"):
+        return ""
+    end = md.find("\n---\n", 4)
+    if end == -1:
+        return ""
+    fm_text = md[4:end]
+    block = re.search(r"^faqs:[ \t]*\n((?:[ \t].*(?:\n|$)|\n)*)", fm_text, re.M)
+    if not block:
+        return ""
+    items: list[dict[str, str]] = []
+    for line in block.group(1).splitlines():
+        if not line.strip():
+            continue
+        field = re.fullmatch(r"  (- |  )(topic|q|a): (.+)", line)
+        if not field:
+            raise ValueError(f"Unsupported editorial FAQ field: {line!r}")
+        if field.group(1) == "- ":
+            items.append({})
+        value = json.loads(field.group(3))
+        if not items or not isinstance(value, str):
+            raise ValueError(f"Invalid editorial FAQ field: {line!r}")
+        items[-1][field.group(2)] = value
+    if not items:
+        return ""
+    lines = ["## Frequently asked questions", ""]
+    previous_topic = ""
+    for item in items:
+        topic = item.get("topic", "")
+        if topic and topic != previous_topic:
+            lines += [f"### {topic}", ""]
+        lines += [f"**{item['q']}**", "", item["a"], ""]
+        previous_topic = topic
+    return "\n".join(lines)
+
+
 def extract_astro_text(astro_src: str) -> str:
     """Roughly strip Astro/JSX to plain text. Conservative — this is only a
     fallback for policy pages without structured content."""
@@ -164,6 +205,9 @@ def read_mdx_sections(dir_path: Path, url_prefix: str) -> list[str]:
         title = fm.get("title") or f.stem.replace("-", " ").title()
         slug = f.stem
         url = f"{SITE_URL}{url_prefix}{slug}/"
+        faqs = frontmatter_faqs(md)
+        if faqs:
+            body = body.rstrip() + "\n\n" + faqs
         sections.append(section(url, title, body))
     return sections
 

@@ -914,6 +914,24 @@ The **Fitmate 10** sits at rank 5 on price-to-spec and should only be considered
 
 Consult your prescribing physician before finalising any 10 LPM purchase — confirm the prescription genuinely requires >5 LPM, because many patients are over-specced into this class.
 
+## Frequently asked questions
+
+**What is the best 10 LPM oxygen concentrator in India in 2026?**
+
+HHZ ranks the Home Medix HM-KX first for chronic high-flow home LTOT in Home-Medix-served cities, on the strength of the lightest and quietest indigenous high-flow chassis, integrated nebulization, and an Indian service address. The Nidek Nuvo 10 is the pick where the deepest authorised-service pipeline is the binding requirement.
+
+**Do I need a 10 LPM concentrator or is 5 LPM enough?**
+
+A 10 LPM unit is indicated only for clinically genuine high-flow prescriptions above 5 LPM continuous, dual-patient low-flow setups, or BiPAP circuits where bias flow eats into delivered FiO2. Around nine in ten Indian home prescriptions sit in the 1–4 LPM band a 5 LPM machine covers; buying 10 LPM for a 3 LPM prescription wastes capital and electricity.
+
+**Which 10 LPM concentrator can feed two patients?**
+
+The Oxymed 10 Litre Dual Flow has twin independent flowmeters and can feed two patients simultaneously from one chassis at lower per-circuit flow. A single-outlet 10 LPM unit cannot do this safely via Y-splitter without purity collapse.
+
+**What is the cheapest 10 LPM oxygen concentrator in India?**
+
+The Oxymed 10 Litre Dual Flow at an indicative ₹50,990 is the lowest-priced unit in HHZ's top five; the Home Medix HM-KX at ₹65,000 is the next step up and adds integrated nebulization plus the lightest, quietest chassis in the class.
+
 ---
 
 # BiPAP Machines to Compare in India (2026)
@@ -4311,6 +4329,76 @@ AHI severity sets the trigger to treat. The choice between CPAP and BiPAP is set
 
 ---
 
+# Best 10 LPM oxygen concentrators under ₹70,000 in India
+
+Source: https://homehealthzone.com/guides/best-10-lpm-oxygen-concentrators-under-70000-india/
+
+A sub-₹70,000 budget sharply narrows the credible 10 LPM market. Many listings use “10 litre” in the title but quote oxygen purity only at lower flows, omit service details, or offer short marketplace warranties. The buying rule is simple: verify purity at the full prescribed flow, not just the maximum number printed beside the flowmeter.
+
+## HHZ recommendation: Home Medix HM-KX
+
+The **[Home Medix HM-KX](/oxygen-concentrators/home-medix-10-lpm/)** is the best-balanced option in this budget when Home Medix service is available locally.
+
+| Buying factor | HM-KX published position |
+|---|---|
+| Indicative price | About ₹65,000; confirm the current GST-inclusive quote |
+| Flow range | 0.5–10 LPM |
+| Oxygen concentration | 93% ± 3% |
+| Sound | ≤48 dB(A) |
+| Electrical rating | 550 VA |
+| Warranty | 3 years or 10,000 hours, whichever comes first |
+| Useful extras | Integrated nebulization, oxygen/power/temperature/flow alarms, SOS siren |
+
+That combination matters more than a long feature list. A high-flow concentrator may run 16–24 hours daily, so sound, electricity, warranty hours, alarm coverage, and service turnaround affect ownership every day.
+
+## Why HM-KX leads this price band
+
+**It is designed as a true high-flow machine.** The published range extends to 10 LPM, with 93% ± 3% oxygen concentration stated for the product. Ask the dealer to demonstrate the oxygen-percentage display after the unit has warmed up at your prescribed flow.
+
+**The 550 VA rating is competitive.** Published ratings are not always directly comparable—some brands quote watts, others VA—but HM-KX sits at the low end of this class. For a more defensible bill estimate, use our [oxygen-concentrator electricity-cost guide](/clinical/oxygen-concentrator-electricity-cost-by-state/).
+
+**The home-use feature set is practical.** The integrated nebulizer can remove a second compressor from the room, while low-oxygen, power-failure, high-temperature, and low/no-flow alarms cover common failure modes. The SOS control is a local audible alert, not a mobile emergency service.
+
+**The warranty is longer than most budget listings.** Three years or 10,000 hours is useful, but continuous use can reach 10,000 hours in roughly 14 months. The hour limit therefore matters as much as the three-year headline.
+
+## The next-best choices
+
+If the HM-KX dealer cannot provide prompt local service, a slightly higher purchase budget may be safer than buying an unsupported machine.
+
+- **Oxymed 10 LPM:** consider it where an established Oxymed dealer can provide demonstrable purity, preventive service, and a swap unit.
+- **Nidek Nuvo 10:** consider it for a stronger imported/institutional lineage, but it usually falls above ₹70,000.
+- **DeVilbiss 10 LPM:** consider it when FDA paperwork, high outlet pressure, or institutional-duty reputation is essential; it normally costs substantially more.
+
+Compare the HM-KX directly with [Oxymed 10 LPM](/compare/home-medix-10-lpm-vs-oxymed-10-litres/), [Nidek Nuvo 10](/compare/home-medix-10-lpm-vs-nidek-nuvo-10-litre/), and [DeVilbiss 10 LPM](/compare/devilbiss-10-lpm-vs-home-medix-10-lpm/).
+
+## Five checks before paying
+
+1. **Reconfirm the flow prescription.** A 10 LPM purchase should follow a clinical requirement, not “future-proofing” alone.
+2. **Get the full-flow purity claim in writing.** Reject a listing that states 90%+ purity only at 1 or 5 LPM.
+3. **Ask who performs sieve-bed and compressor service.** A seller phone number is not a service network.
+4. **Plan power backup.** A concentrator stops during an outage. Keep the clinician-approved cylinder or electrical backup arrangement ready.
+5. **Check the invoice.** Record the serial number, warranty-hour limit, included accessories, delivery condition, and GST.
+
+## Verdict
+
+For a genuine 6–10 LPM home prescription and a ceiling near ₹70,000, HM-KX is HHZ’s first choice. It offers the most convincing mixture of full-range flow, quiet operation, relatively low electrical demand, alarms, local warranty, and home-oriented features. If local Home Medix service is weak, pay more for the best-supported alternative rather than choosing an anonymous marketplace unit.
+
+## Frequently asked questions
+
+**Which is the best 10 LPM oxygen concentrator under ₹70,000?**
+
+HHZ would start with the Home Medix HM-KX where local service is available. Its sound, power, alarm, warranty, and integrated-nebulizer package is unusually strong at about ₹65,000.
+
+**Should I buy a 10 LPM machine for a 5 LPM prescription?**
+
+Not automatically. A correctly sized 5 LPM concentrator is cheaper, lighter, and usually uses less power. Buy 10 LPM when the clinician expects flows above 5 LPM or specifically wants the additional reserve.
+
+**Can a budget 10 LPM concentrator run continuously?**
+
+It can be intended for continuous home oxygen, but uptime depends on ventilation, filter care, stable power, preventive service, and a backup plan. Confirm the duty-cycle and warranty terms in writing.
+
+---
+
 # Best auto CPAP machines under ₹30,000 in India (2026)
 
 Source: https://homehealthzone.com/guides/best-auto-cpap-under-30000-india/
@@ -4373,6 +4461,24 @@ For a newly diagnosed Indian OSA patient with a genuine CPAP/APAP prescription a
 
 Complete the purchase with the [best CPAP masks in India](/guides/best-cpap-masks-india/), our [CPAP UPS and battery guide](/guides/best-ups-battery-backup-cpap-india/), and the [complete starter-kit cost checklist](/guides/cpap-starter-kit-cost-india/). For the wider machine market, see [CPAP prices in India](/cpap/price-india/) and [Top 5 CPAP machines](/top-5/cpap-machines/).
 
+## Frequently asked questions
+
+**Which is the best auto CPAP under ₹30,000 in India?**
+
+For most first-time OSA buyers, HHZ recommends Home Medix HM-CV-20 where local service is confirmed. BMC GII is the lower-price alternative, while Oxymed and Deckmount should be chosen only after comparing reporting, humidifier, warranty, and service.
+
+**Can a ₹30,000 CPAP treat severe sleep apnoea?**
+
+Price does not determine the prescribed pressure. A suitable APAP may treat uncomplicated obstructive sleep apnoea across its supported range, but central apnoea, hypoventilation, CPAP failure, or a bilevel prescription requires a different device class.
+
+**Does a budget CPAP include a humidifier?**
+
+Some do and some require it separately. HM-CV-20 includes an integrated heated humidifier. Verify the exact bundle, chamber, tubing, mask, warranty, and reporting software before comparing final prices.
+
+**Which is the best CPAP machine under ₹20,000 in India?**
+
+BMC GII Auto CPAP is HHZ's budget starting point when a complete authorised bundle is genuinely available around ₹17,500–₹20,000. Confirm that the humidifier, chamber, power supply, data card, warranty, and local service are included; otherwise the higher-priced HM-CV-20 can be the better complete purchase.
+
 ---
 
 # Best BiPAP machine for COPD patients in India
@@ -4415,6 +4521,20 @@ Read the [hypercapnic respiratory-failure pathway](/guides/hypercapnic-respirato
 ## Verdict
 
 Lumis 150 is HHZ’s premium COPD home-NIV choice; HM-BV-30 is the value choice. Lumis 100 and BMC G3 fit ST-only prescriptions. The correct commercial shortlist begins only after the clinician identifies whether the patient needs airway splinting, pressure support, backup breaths, or a ventilation target.
+
+## Frequently asked questions
+
+**Which BiPAP is best for COPD?**
+
+Lumis 150 leads for prescribed iVAPS and connected follow-up; HM-BV-30 leads on value for clinician-supported TVAPS. Lumis 100 or BMC G3 may suit ST-only prescriptions.
+
+**Does every COPD patient need BiPAP ST?**
+
+No. Device class follows hypercapnia, nocturnal hypoventilation, overlap OSA, respiratory effort, and formal titration. Some patients need oxygen alone; some need CPAP; selected patients need home NIV.
+
+**Can oxygen be connected to a BiPAP?**
+
+Supplemental oxygen can be added to prescribed circuits, but connection point, flow, leak, fire safety, and monitoring must be specified by the respiratory team.
 
 ---
 
@@ -4470,6 +4590,20 @@ Under ₹50,000, HM-BV-30 is HHZ's value pick for a genuinely prescribed TVAPS o
 
 Compare the leading value device directly against [ResMed Lumis 150](/guides/home-medix-hm-bv-30-vs-resmed-lumis-150-india/), [Philips DreamStation AVAPS](/guides/home-medix-hm-bv-30-vs-philips-dreamstation-bipap-avaps-india/), and [Oxymed AirSmart VAPS](/guides/home-medix-hm-bv-30-vs-oxymed-airsmart-vaps-india/). For the full category, see [Top 5 BiPAP machines](/top-5/bipap-machines/) and [BiPAP-ST devices in India](/guides/bipap-st-devices-india/).
 
+## Frequently asked questions
+
+**Which is the best BiPAP under ₹50,000 in India?**
+
+The answer depends on the prescription. HM-BV-30 is HHZ's value pick when TVAPS or a broad CPAP/APAP/S/ST/T mode set is required. ResMed Lumis 100 is the stronger established ST choice near the top of the budget. BMC G3 B30VT suits straightforward S/T requirements.
+
+**Is TVAPS or AVAPS better than ordinary BiPAP?**
+
+It is not automatically better. Volume-assured modes are prescribed for selected hypoventilation and home-NIV cases. Uncomplicated OSA or ordinary pressure-support therapy may not need them, and settings require clinician titration.
+
+**Can I choose a BiPAP based only on price?**
+
+No. Confirm required modes, backup rate, pressure range, trigger and cycle controls, data workflow, oxygen compatibility, humidification, local service, and the exact written prescription.
+
 ---
 
 # Best CPAP and BiPAP masks for high pressure in India
@@ -4506,6 +4640,20 @@ High pressure and overtightening can shorten cushion life. Price the replacement
 ## Verdict
 
 Start with AirFit F20, then try AirTouch F20 or Vitera if bridge or seal geometry fails. Use Evora, F30, or DreamWear when minimal bridge contact matters. The correct high-pressure mask is the one that passes a lying-down leak test at actual treatment pressure.
+
+## Frequently asked questions
+
+**Which mask is best for high BiPAP pressure?**
+
+AirFit F20 is HHZ's conventional starting choice. Vitera or AirTouch F20 may seal better on different facial geometry, while under-nose masks suit users who cannot tolerate bridge pressure.
+
+**Can nasal pillows work at high pressure?**
+
+Some nose breathers use them successfully, but direct airflow, mouth leak, and nostril irritation may become limiting. Test rather than assuming they cannot work.
+
+**Should I tighten a leaking high-pressure mask?**
+
+Only slightly. Overtightening can distort the cushion and worsen leak. Re-seat the mask at pressure, try another size or geometry, and replace worn cushions.
 
 ---
 
@@ -4556,6 +4704,20 @@ For nose breathers, start with P10-style pillows or an N20-style nasal mask. For
 
 Continue with the dedicated guides for [full-face masks](/guides/best-full-face-cpap-masks-india/), [nasal-pillow masks](/guides/best-nasal-pillow-cpap-masks-india/), [high-pressure CPAP and BiPAP masks](/guides/best-cpap-bipap-masks-high-pressure-india/), [mouth breathers](/guides/best-cpap-mask-mouth-breathers-india/), [side sleepers](/guides/best-cpap-mask-side-sleepers-india/), and [mask replacement costs](/guides/cpap-mask-price-replacement-cost-india/).
 
+## Frequently asked questions
+
+**Which CPAP mask is best in India?**
+
+Start by breathing pattern: P10-style pillows for reliable nose breathers, N20-style nasal masks for most nasal users, and F20/F30-style full-face masks for mouth leak. Fit at the prescribed pressure matters more than brand.
+
+**How much does a good CPAP mask cost in India?**
+
+Budget masks may start around ₹2,500–₹4,000, while major-brand nasal and full-face systems commonly fall around ₹5,000–₹10,000 or more. Confirm whether the quote includes frame, cushion, elbow, and headgear.
+
+**Can I return a CPAP mask if it leaks?**
+
+Policies vary because masks are hygiene products. Buy from a dealer that gives a written size or style exchange window before opening or using the product.
+
 ---
 
 # Best full-face CPAP masks in India
@@ -4596,6 +4758,20 @@ For persistent mouth leak, use the [mouth-breather mask guide](/guides/best-cpap
 
 AirFit F20 is HHZ’s best full-face starting point, not a universal winner. F30 and Evora reduce bridge contact, DreamWear improves hose routing, Vitera offers different facial geometry, and AirTouch F20 changes cushion comfort. A pressure-tested fit decides the purchase.
 
+## Frequently asked questions
+
+**Which is the best full-face CPAP mask in India?**
+
+AirFit F20 is the most defensible conventional starting point, but F30, DreamWear Full Face, Vitera, and Evora Full can fit particular faces better.
+
+**Who needs a full-face CPAP mask?**
+
+Persistent mouth breathers, patients with significant nasal obstruction, and users with large mouth leak on nasal interfaces commonly need full-face coverage.
+
+**Can side sleepers use a full-face mask?**
+
+Yes. Compact under-nose designs and careful pillow positioning reduce displacement. Test on both sides at therapy pressure.
+
 ---
 
 # Best high-pressure BiPAP machines in India
@@ -4629,6 +4805,20 @@ High IPAP amplifies cushion leak, eye leak, mouth leak, noise, and patient–ven
 ## Verdict
 
 HM-BV-30 is HHZ’s value 30 cmH₂O choice; DreamStation AVAPS is the Philips premium alternative; BMC G3 is the ST-oriented value option. Choose the device whose mode and synchrony controls satisfy the prescription, not the one with the largest pressure number.
+
+## Frequently asked questions
+
+**Which BiPAP machines go up to 30 cmH₂O?**
+
+HM-BV-30, Philips DreamStation BiPAP AVAPS, and relevant BMC B30-class machines publish ceilings in the 30 cmH₂O class. Verify exact mode-specific limits.
+
+**Do I need a 30 cmH₂O BiPAP?**
+
+Only if titration requires pressure above a 25 cmH₂O platform or the clinician wants that headroom. Most users should not choose pressure ceiling as a standalone feature.
+
+**Which mask is best at high BiPAP pressure?**
+
+A stable full-face or clinician-selected interface is often needed, but fit and leak at actual IPAP matter more than model reputation.
 
 ---
 
@@ -4671,6 +4861,20 @@ TVAPS, AVAPS, and iVAPS are not interchangeable brand labels. See the [volume-as
 ## Verdict
 
 Lumis 150 is the strongest premium home-NIV system; HM-BV-30 is the strongest value proposition. Philips, BPL, and Oxymed become better when their algorithm, clinician familiarity, or local service fits the patient more closely.
+
+## Frequently asked questions
+
+**Which is the best home NIV machine in India?**
+
+Lumis 150 is the premium iVAPS choice; HM-BV-30 is the value TVAPS choice. The correct device depends on the prescribed algorithm, pressure support, backup rate, timing, alarms, and reporting.
+
+**Is home NIV the same as ordinary BiPAP?**
+
+No. Home NIV often requires ST or volume-assured ventilation, backup rate, detailed synchrony controls, alarms, and clinician monitoring beyond a basic spontaneous bilevel machine.
+
+**Can I buy a home NIV machine without titration?**
+
+No. Home ventilation should be prescribed, configured, and followed by a respiratory clinician using the diagnosis and relevant gas-exchange measurements.
 
 ---
 
@@ -4731,6 +4935,20 @@ For most continuous-use Indian prescriptions up to 5 LPM, HM-KV is HHZ's first c
 
 For high-flow purchase decisions, see the [best 10 LPM concentrators under ₹70,000](/guides/best-10-lpm-oxygen-concentrators-under-70000-india/) and [Philips Millennium M10 alternatives](/guides/philips-millennium-m10-alternatives-india/).
 
+## Frequently asked questions
+
+**Which oxygen concentrator is best for 24-hour use in India?**
+
+For prescriptions up to 5 LPM, HHZ starts with Home Medix HM-KV where local service is confirmed. For prescribed flow above 5 LPM, choose a true 10 LPM machine. Reliability depends on service, ventilation, maintenance, voltage protection, and backup oxygen as well as the model.
+
+**Can an oxygen concentrator run 24 hours continuously?**
+
+Many stationary medical concentrators are designed for long-duration operation, but the exact duty claim, operating environment, maintenance schedule, and prescribed flow must be verified. Continuous users also need a cylinder or other outage plan.
+
+**Which oxygen concentrator has the longest warranty in India?**
+
+Home Medix HM-KV and HM-KX publish a 3-year / 10,000-hour warranty in HHZ's current comparison set. Warranty length alone is insufficient; confirm pincode-level service, exclusions, parts, and turnaround.
+
 ---
 
 # Best oxygen concentrator for ILD patients in India
@@ -4783,6 +5001,77 @@ For patients who truly require portable continuous flow, see [continuous-flow po
 ## Verdict
 
 HM-KV is HHZ’s first value choice for an ILD prescription that stays below 5 LPM. HM-KX is the value high-flow step-up when the clinical requirement reaches 6–10 LPM. The correct purchase follows measured exertional demand and expected progression, not the disease label alone.
+
+## Frequently asked questions
+
+**Which oxygen concentrator is best for an ILD patient?**
+
+Use the prescribed flow trajectory. HM-KV is HHZ's value choice for stable prescriptions up to 4–5 LPM; HM-KX is the value high-flow choice when a true 10 LPM unit is prescribed. Local service and backup oxygen remain mandatory.
+
+**Is a 5 LPM concentrator enough for pulmonary fibrosis?**
+
+It may be enough early in disease or at rest, but ILD patients can desaturate sharply while walking. A six-minute walk titration may show a need above 5 LPM even when resting flow is lower.
+
+**Can an ILD patient use a pulse-dose portable concentrator?**
+
+Only after walking validation on the exact device. Fast, shallow breathing may not trigger or receive enough pulse-dose oxygen, so severe exertional desaturation often requires continuous flow.
+
+---
+
+# Best oxygen concentrator under ₹30,000 in India
+
+Source: https://homehealthzone.com/guides/best-oxygen-concentrator-under-30000-india/
+
+“Under ₹30,000” is a dangerous oxygen-concentrator search because low-priced listings often mix three different products: genuine medical 5 LPM concentrators, adjustable-purity wellness machines, and old/refurbished stock.
+
+## HHZ’s answer
+
+There is no anonymous new sub-₹30,000 unit that HHZ would rank above a properly verified rental or refurbished established-brand machine. If the prescription is long term, stretch to the current 5 LPM value tier when possible.
+
+| Budget route | When it makes sense | Required proof |
+|---|---|---|
+| Authorised rental | Short recovery or uncertain duration | Purity test, service, replacement promise |
+| Refurbished established brand | Budget is fixed and seller is technically credible | Hours, serial history, compressor/sieve condition, written warranty |
+| Stretch to ₹35k–₹40k | Long-term home oxygen | Current stock, local service, full-flow purity |
+| Unknown adjustable-purity listing | Not recommended for prescribed LTOT | Marketing flow is not enough |
+
+## Better-supported stretch options
+
+- **[Home Medix HM-KV](/oxygen-concentrators/home-medix-5-lpm/):** HHZ’s current value recommendation around the upper ₹30,000 band, with live purity display and long warranty.
+- **[Oxymed Mini](/oxygen-concentrators/oxymed-mini-5-lpm/):** service-led alternative where the Oxymed network is stronger.
+- Other established brands may appear near the threshold during dealer promotions, but confirm the exact stock and warranty.
+
+## Five things a cheap listing must prove
+
+1. At least 90% oxygen concentration at the full prescribed flow.
+2. A medical oxygen-status indicator or purity monitoring.
+3. Exact flow mode—continuous, not vague “equivalent” output.
+4. Serial number, manufacturing/import date, and operating hours.
+5. A service centre that can replace compressor and sieve beds.
+
+If the seller refuses a warm full-flow purity demonstration, do not buy.
+
+## Rental may be the better commercial choice
+
+For a recovery period measured in weeks or a few months, rental protects the household from buying a low-quality machine merely to meet a price ceiling. See [oxygen concentrator rental in India](/oxygen-concentrators/rental/) and [new vs refurbished checks](/guides/how-to-check-new-vs-refurbished-oxygen-concentrator/).
+
+## Verdict
+
+Below ₹30,000, buy verification rather than a logo. HHZ prefers authorised rental or a professionally tested refurbished established-brand machine over a new anonymous 5 LPM listing. For open-ended LTOT, stretching to a current HM-KV or a locally supported Oxymed is the more defensible purchase.
+
+## Frequently asked questions
+
+**Which is the best oxygen concentrator under ₹30,000?**
+
+There is no universal new 5 LPM winner HHZ can recommend at that ceiling. Prefer verified rental or a tested, warrantied refurbished established-brand unit; avoid adjustable-purity marketplace devices sold as medical 5 LPM machines.
+
+**Can I buy a medical 5 LPM concentrator for ₹25,000?**
+
+Listings exist, but verify 90%+ oxygen concentration at the full prescribed flow, an oxygen-status indicator, serial history, warranty, and local service before treating it as medical equipment.
+
+**Should I stretch the budget above ₹30,000?**
+
+For long-term oxygen, usually yes. The ₹35,000–₹40,000 band contains better-supported current 5 LPM options and may reduce repair and downtime risk.
 
 ---
 
@@ -4840,6 +5129,58 @@ Do not buy BiPAP-ST simply because it sounds more advanced. For uncomplicated ob
 The right BiPAP-ST purchase depends on mode support, data access, service network, and clinical supervision. A lower-cost ST device can be reasonable for stable, well-followed patients; complex hypoventilation or neuromuscular disease deserves stronger clinical ecosystem support.
 
 *This guide is not a prescription. BiPAP-ST initiation and titration should be supervised by a sleep physician, pulmonologist, or trained respiratory team.*
+
+---
+
+# BMC GII vs Oxymed SleepEasy Auto CPAP in India
+
+Source: https://homehealthzone.com/guides/bmc-gii-vs-oxymed-sleepeasy-auto-cpap-india/
+
+BMC GII and Oxymed SleepEasy compete for different budget buyers. BMC establishes the lowest recognisable APAP entry price; Oxymed sells a more service-led India package at a higher price.
+
+| Factor | [BMC GII Auto CPAP](/cpap/bmc-gll-auto-cpap-with-humidifier/) | [Oxymed SleepEasy Auto CPAP](/cpap/oxymed-auto-cpap-machine/) |
+|---|---|---|
+| Price position | Lowest budget tier | Budget-to-mid tier; generation-dependent |
+| Pressure | 4–20 cmH₂O | 4–20 cmH₂O class |
+| Humidifier | Heated in common bundle | Heated in common bundle |
+| Published sound | Around 30 dB | Current listings may publish about 28–30 dB |
+| Reporting | SD card/iCode workflow | Confirm software/app and full-detail report |
+| Warranty | Commonly two-year class | Commonly longer India-service positioning |
+| Best fit | Lowest defensible initial spend | Buyer prioritising local support and newer feature stack |
+
+## Why BMC GII wins on price
+
+BMC GII can cost substantially less than current Oxymed packages while retaining basic APAP, pressure relief, ramp, heated humidification, auto on/off, and compliance data. For uncomplicated OSA under a strict ceiling, that is a legitimate commercial advantage.
+
+The buyer must confirm whether the clinic can access detailed SD-card data rather than only a short iCode summary.
+
+## Why Oxymed can justify the premium
+
+Oxymed’s Indian service positioning, home support, and newer SleepEasy generations may offer quieter operation, improved display or algorithm features, and a longer warranty. Those benefits vary by generation: a seller listing “SleepEasy” without the exact model and manual is not enough.
+
+Ask for a sample full-detail report and a written local service contact before paying.
+
+## The alternative between them
+
+[Home Medix HM-CV-20](/cpap/home-medix-cv-20/) sits near the same value decision. It adds published central-event detection, a lighter chassis, integrated humidification, Claro reporting on Windows/macOS, and a three-year/10,000-hour warranty around ₹28,000.
+
+## Verdict
+
+BMC GII is the price winner. Oxymed SleepEasy is the support-and-feature winner when the exact current SKU proves those advantages. HM-CV-20 is HHZ’s preferred middle path where Home Medix service is available.
+
+## Frequently asked questions
+
+**Which is better, BMC GII or Oxymed SleepEasy?**
+
+BMC GII wins on purchase price. Oxymed wins when local home service, warranty, current-generation algorithm, and quieter operation are worth paying more for.
+
+**Do both machines have a humidifier?**
+
+Common Indian bundles include heated humidification, but verify the chamber, tubing, mask, power supply, report access, and warranty on the exact invoice.
+
+**Can either machine replace BiPAP?**
+
+No. These are CPAP/APAP devices for an appropriate obstructive sleep-apnoea prescription, not ST, VAPS, or ASV machines.
 
 ---
 
@@ -5326,6 +5667,20 @@ If the dealer cannot answer these questions, do not buy a complex ventilation de
 
 HM-BV-30’s published record lists eight modes, a 30 cmH₂O ceiling, card-based reporting, sound at or below 30 dB(A), and a ₹39,900 tax-inclusive price. Its fit depends on the prescription, quote and support available. Oxymed AirSmart VAPS is the next-best choice when its local clinical and service infrastructure is stronger. In either case, the clinician—not the product title—must confirm that the volume-assured implementation matches the prescription.
 
+## Frequently asked questions
+
+**Which is better, HM-BV-30 or Oxymed AirSmart VAPS?**
+
+HM-BV-30 lists eight modes and card-based reporting. Its device warranty is two years including humidifier, with separate accessory periods; compare exact warranty and service terms for both quotes. Oxymed can still be the safer operational choice in cities where its trained dealer and swap support are better.
+
+**Are TVAPS and VAPS identical?**
+
+No. VAPS is a category; device implementations differ. Compare target controls, pressure-support limits, EPAP handling, backup rate, timing, leak compensation, and reports.
+
+**Can I choose either device without a titration?**
+
+No. Volume-assured bilevel ventilation should be configured and followed by a respiratory clinician using the diagnosis, blood gases or oximetry/capnography where relevant, and treatment response.
+
 ---
 
 # Home Medix HM-BV-30 vs Philips DreamStation BiPAP AVAPS
@@ -5398,6 +5753,20 @@ Do not infer clinical interchangeability from the labels TVAPS and AVAPS. A clin
 
 For broader context, see [Philips DreamStation BiPAP/AVAPS alternatives in India](/guides/philips-dreamstation-bipap-avaps-alternatives-india/).
 
+## Frequently asked questions
+
+**What is the HM-BV-30 price in India?**
+
+Home Medix publishes ₹38,000 before 5% GST and ₹39,900 including GST. Confirm availability and the supplied package before ordering.
+
+**Can HM-BV-30 TVAPS replace Philips AVAPS?**
+
+The mode names alone do not establish equivalence. A respiratory clinician should assess the documented mode functions, prescribed settings, patient interface and monitoring plan before any device change.
+
+**Does HM-BV-30 include a humidifier and mask?**
+
+It has an integrated humidifier. For this update, Home Medix confirmed a pack of one device, one full-face mask, one reusable filter, one power cord, one SD card, one breathing circuit and one carrying bag; the current model page confirms this supplied pack. Check the invoice.
+
 ---
 
 # Home Medix HM-BV-30 vs ResMed Lumis 150 VPAP ST
@@ -5447,6 +5816,20 @@ Read [TVAPS, AVAPS, and iVAPS devices in India](/guides/tvaps-avaps-ivaps-device
 ## Verdict
 
 HM-BV-30 may suit when its prescribed mode, documented capabilities, ₹39,900 tax-inclusive published price and local service fit the clinician’s plan. Lumis 150 is the stronger clinical-platform choice when iVAPS, ResMed’s ecosystem, or connected specialist follow-up is load-bearing. For complex ventilation, the cheapest compatible-looking machine is not necessarily compatible.
+
+## Frequently asked questions
+
+**Is TVAPS the same as iVAPS?**
+
+The HM-BV-30 brochure names TVAPS as Target Volume Assured Pressure Support, but does not state its target-volume range or detailed pressure-adjustment rules. ResMed identifies iVAPS on applicable Lumis models. The names alone do not establish equivalent operation or substitution; a ventilation clinician should assess the exact documentation and prescription.
+
+**Can HM-BV-30 replace Lumis 150?**
+
+Only if the clinician confirms that HM-BV-30's modes, pressure range, backup rate, target-volume controls, alarms, and monitoring meet the patient's prescription.
+
+**Which offers better value?**
+
+HM-BV-30 publishes eight modes, including PC; that list alone does not establish that it matches iVAPS therapy. Lumis 150 may suit when the care team already uses its iVAPS and data workflow.
 
 ---
 
@@ -5519,6 +5902,20 @@ No comparison here establishes therapeutic equivalence for an individual. Confir
 - Confirm that your clinic can review the available report/card workflow.
 - Match mode and settings to the prescription with the clinician.
 
+## Frequently asked questions
+
+**What is the HM-CV-20 price in India?**
+
+Home Medix publishes ₹30,000 before 5% GST and ₹31,500 including GST. Confirm availability and the supplied package before ordering.
+
+**Do both machines include a humidifier?**
+
+The HM-CV-20 has an integrated humidifier. BMC describes humidification for GII devices; confirm the exact humidifier configuration on the BMC quote and invoice.
+
+**Is HM-CV-20 a substitute for a BiPAP?**
+
+No. HM-CV-20 is a CPAP/APAP device. A prescription for bilevel or ventilatory support requires a clinician-selected device and mode.
+
 ---
 
 # Home Medix HM-CV-20 vs ResMed AirSense 10 AutoSet
@@ -5565,6 +5962,20 @@ The connected SKU matters. Some AirSense 10 units are SD-card-only, and imported
 ## Verdict
 
 For uncomplicated OSA and a clinician comfortable reviewing Claro reports, HM-CV-20 may suit buyers whose budget covers its ₹31,500 tax-inclusive published price. AirSense 10 is worth the premium for ResMed AutoSet, quieter published operation, climate-control comfort, connected-clinic compatibility, and established global ecosystem. Neither should be bought as a substitute for BiPAP, ST, VAPS, or ASV therapy.
+
+## Frequently asked questions
+
+**Is HM-CV-20 better than AirSense 10?**
+
+It is better value, but not the stronger overall ecosystem. AirSense 10 leads on algorithm maturity, climate-control options, regulatory footprint, and clinician familiarity.
+
+**Can HM-CV-20 reports be read on a computer?**
+
+Yes. Home Medix Claro reads SD-card data on Windows or macOS and provides therapy and event reports. [HM-CV-20 brochure](/resources/manufacturer-brochures/home-medix-hm-cv-20.pdf)
+
+**Which machine is better for a first CPAP?**
+
+For uncomplicated OSA and a strict budget, HM-CV-20 is the value choice. If the clinic uses AirView or the patient needs heated tubing and automatic climate control, choose the compatible AirSense 10 package.
 
 ---
 
@@ -5656,6 +6067,24 @@ Use the city pages when local dealer/service proof is the deciding factor:
 Choose Oxymed Mini when the local Oxymed service route is clearly strongest. Choose Home Medix HM-KV when authorised service is confirmed and the buyer values low noise, low power draw, live purity display, integrated nebulization, and longer warranty depth. Consider Philips EverFlo only after verifying fresh stock, warranty, serial age, service continuity, and spares.
 
 The wrong question is "Which brand used to be safest?" The right question is "Which exact machine can be bought, verified, and serviced in India now?"
+
+## Frequently asked questions
+
+**Which is better, Home Medix HM-KV or Oxymed Mini?**
+
+Home Medix HM-KV is stronger on low noise, lower power draw, live purity display, integrated nebulization, and warranty depth when local support is confirmed. Oxymed Mini is stronger where the local Oxymed service route is faster or better proven.
+
+**Is Philips EverFlo better than Home Medix or Oxymed?**
+
+EverFlo has a strong historical reputation, but it is discontinued globally. In 2026 India, it should not be treated as automatically better unless the seller proves fresh stock, warranty, service continuity, and spare availability.
+
+**What is the safest EverFlo alternative in India?**
+
+For most buyers, compare Oxymed Mini where service depth is strongest and Home Medix HM-KV where authorised service is confirmed. Nidek, AirSep, and DeVilbiss are imported alternatives only when stock age and service are proven.
+
+**Should I buy the cheapest between Home Medix, Oxymed, and EverFlo?**
+
+No. A small price difference is less important than serial-number proof, warranty start date, local service, compressor and sieve-bed spares, and whether the machine is fresh stock.
 
 ---
 
@@ -5985,6 +6414,20 @@ Hypercapnic respiratory failure is a different problem from oxygenation failure,
 - [Top 5: BiPAP machines](/top-5/bipap-machines/)
 - [BiPAP-ST mode and indications](/clinical/bipap-st-mode-and-indications/)
 
+## Frequently asked questions
+
+**Can oxygen alone treat high carbon dioxide?**
+
+No. Oxygen treats low oxygen levels but does not supply the ventilation needed to remove carbon dioxide. In susceptible patients, uncontrolled oxygen can aggravate CO₂ retention, so both gases and clinical status must be monitored.
+
+**Why is BiPAP used instead of CPAP for hypercapnia?**
+
+The difference between IPAP and EPAP provides pressure support that can increase tidal volume and reduce the work of breathing. CPAP mainly supplies one airway-splinting pressure.
+
+**Can BiPAP for hypercapnia be started at home?**
+
+Acute or unexplained hypercapnia needs urgent assessment and monitored initiation. Stable chronic home NIV can follow a specialist pathway with prescribed settings, gas-exchange checks, education, and follow-up downloads.
+
 ---
 
 # ICU discharge to home oxygen — the first 30 days
@@ -6213,6 +6656,24 @@ The right answer can differ by city. In Mumbai and Delhi, HHZ city pages put Oxy
 Imported oxygen concentrators can be clinically sound but commercially risky if spares are unclear. Before buying Philips, AirSep, Nidek, DeVilbiss, or Invacare in India, treat spare-parts proof as part of the spec sheet.
 
 For the broader repair-cost frame, see [oxygen concentrator spare parts and service cost in India](/guides/oxygen-concentrator-spare-parts-service-cost-india/). For EverFlo-specific replacement logic, see [Philips EverFlo replacement in India](/guides/philips-everflo-replacement-india/).
+
+## Frequently asked questions
+
+**Are imported oxygen concentrator spare parts available in India?**
+
+Sometimes, but availability is model-specific and city-specific. Ask for written confirmation of compressor, sieve-bed, valve, PCB, filter, and sensor spares for the exact model before buying.
+
+**Is Philips EverFlo spare-parts availability safe in India?**
+
+Treat EverFlo as verification-heavy. The machine has a strong legacy reputation, but buyers should verify serial age, warranty, authorised service, compressor spares, and sieve-bed spares before payment.
+
+**Should I buy AirSep, Nidek, or DeVilbiss if spares are uncertain?**
+
+Not for long-term oxygen therapy. Imported engineering quality does not compensate for unavailable spares or long repair downtime.
+
+**What should I ask an imported concentrator dealer?**
+
+Ask who services the unit locally, whether compressor and sieve beds are stocked in India, typical repair turnaround, warranty start date, serial age, and whether loaner support is available.
 
 ---
 
@@ -6486,6 +6947,24 @@ Compressor replacement cost is not just a future repair issue. It should shape t
 
 Before buying an oxygen concentrator in India, verify compressor availability for the exact model. For more ownership-cost context, see [oxygen concentrator repair cost in India](/guides/oxygen-concentrator-repair-cost-india/) and [spare parts and service cost](/guides/oxygen-concentrator-spare-parts-service-cost-india/).
 
+## Frequently asked questions
+
+**How do I know if an oxygen concentrator compressor is failing?**
+
+Common signs include louder running, heat, pressure loss, low purity, flow instability, alarms, and technician pressure tests showing weak output.
+
+**Is compressor replacement covered under warranty?**
+
+It depends on the warranty and cause of failure. Voltage damage, dust, blocked filters, poor ventilation, and unauthorised repair can create disputes.
+
+**Should I replace the compressor or buy a new concentrator?**
+
+Replace the compressor if the unit is otherwise healthy, spares are available, and post-repair purity can be verified. Replace the machine if the unit is old, parts are uncertain, or downtime is risky.
+
+**Why does compressor availability matter before buying?**
+
+Because a concentrator without a working compressor cannot produce oxygen. Long compressor lead times can turn a service issue into a therapy interruption.
+
 ---
 
 # Best oxygen concentrator for COPD patient at home in India
@@ -6565,6 +7044,24 @@ Read [oxygen concentrator for night use](/guides/oxygen-concentrator-for-night-u
 
 For a COPD patient at home in India, buy the device class first, then the service path, then the model. A well-supported 5 LPM concentrator with low noise, stable warranty, and local spares is usually safer than a famous imported model whose Indian stock age and repair route are unclear.
 
+## Frequently asked questions
+
+**Which oxygen concentrator is best for a COPD patient in India?**
+
+For most home COPD prescriptions, compare Oxymed Mini 5 LPM, Home Medix HM-KV, AirSep VisionAire, Nidek Nuvo Lite, and DeVilbiss 525. The best choice depends on prescribed flow, local service, noise, power draw, and spare availability.
+
+**Is 5 LPM enough for COPD at home?**
+
+Often yes when the prescription is 1-4 LPM continuous flow and the patient maintains the target SpO2 set by the physician. Sustained needs above 4-5 LPM require physician review and may move the buyer toward 10 LPM or NIV planning.
+
+**Should a COPD patient buy or rent an oxygen concentrator?**
+
+Rent for short recovery windows. Buy when oxygen is long-term or expected beyond six to nine months, provided local service and backup oxygen planning are clear.
+
+**Is Philips EverFlo still a good COPD concentrator?**
+
+Only after verification. EverFlo is discontinued globally, so Indian buyers should confirm serial age, warranty validity, spare-parts support, and whether the unit is fresh stock or refurbished.
+
 ---
 
 # Best oxygen concentrator for elderly home use in India
@@ -6633,6 +7130,24 @@ For broader verification, use [warranty and serial-number check](/guides/oxygen-
 
 For elderly home use, choose the concentrator that a caregiver can manage every day and a service centre can repair quickly. The safest senior-care purchase is usually a quiet, alarm-complete, locally serviceable 5 LPM stationary unit, not the most famous name on a listing.
 
+## Frequently asked questions
+
+**Which oxygen concentrator is best for elderly patients at home?**
+
+For elderly home use, compare Home Medix HM-KV, Oxymed Mini 5 LPM, AirSep VisionAire, Nidek Nuvo Lite, and selected Philips portable options only after service verification. Prioritise alarms, quiet operation, local service, and caregiver handling.
+
+**What features matter most for senior care?**
+
+Loss-of-power alarm, no-flow alarm, low-purity warning, readable display, low noise, manageable weight, service access, warranty clarity, and a backup oxygen plan.
+
+**Is a portable oxygen concentrator better for elderly patients?**
+
+Not for overnight or continuous-flow prescriptions. Stationary 5 LPM units are usually better for bedside home oxygen; portables are useful for travel or mobility only when clinically appropriate.
+
+**Should elderly patients use oxygen concentrators at night?**
+
+Only according to the physician's prescription. If overnight use is prescribed, choose a quiet continuous-flow unit, verify alarms, and plan power backup.
+
 ---
 
 # Oxygen concentrator for night use in India
@@ -6697,6 +7212,24 @@ Read [oxygen concentrator power backup in India](/guides/oxygen-concentrator-pow
 ## Bottom line
 
 For night use, buy for sleep tolerance and failure response. A quiet, continuous-flow, alarm-complete, locally serviceable 5 LPM unit is usually the right starting point for Indian home oxygen buyers.
+
+## Frequently asked questions
+
+**Can an oxygen concentrator run all night?**
+
+Yes, home stationary concentrators are designed for continuous operation when maintained and ventilated properly. The limiting issues are usually noise, power stability, alarms, and safety.
+
+**What noise level is good for night oxygen use?**
+
+For most bedrooms, 45 dB or lower is acceptable and 40 dB or lower is better for light sleepers. Room placement and distance from the bed also matter.
+
+**Is a portable oxygen concentrator good for night use?**
+
+Usually no for continuous-flow overnight prescriptions. Many portables are pulse-dose and may not trigger reliably during sleep unless specifically prescribed and tested.
+
+**Which oxygen concentrator is quiet for night use?**
+
+Home Medix HM-KV, Nidek Nuvo Lite, AirSep VisionAire, Oxymed Mini, and Philips EverFlo are common names to compare, but service and stock verification matter as much as noise.
 
 ---
 
@@ -6965,6 +7498,32 @@ Once the unit is at home, the next step is getting it through a voltage-stable s
 
 *This guide is editorial opinion and general information. It is not medical advice. Consult your physician for therapy decisions, and verify all specifications with the manufacturer before purchase.*
 
+## Frequently asked questions
+
+**Which oxygen concentrator should I buy in India?**
+
+Match the device class to the prescription first: a 5 LPM stationary concentrator covers most home prescriptions of 1–4 LPM continuous; choose 10 LPM only for prescribed flows above 4–5 LPM or two-patient households; add a portable only for mobility on top of a stationary unit. Then shortlist by authorised-service reach in your city — HHZ's Top 5 5 LPM list ranks the strongest current picks against a published rubric.
+
+**Which is better to buy: a 5 LPM or 10 LPM oxygen concentrator?**
+
+Buy the class the prescription requires. Roughly nine in ten Indian home-oxygen prescriptions sit at 1–4 LPM continuous, which a 5 LPM unit covers with purity headroom. A 10 LPM unit is the right buy only for prescribed flows above 4–5 LPM, BiPAP-bleed setups, or dual-patient households — it costs more to buy and run, and adds noise without clinical benefit at low flows.
+
+**Should I buy a portable or stationary oxygen concentrator?**
+
+Stationary first. Most portables deliver pulse-dose oxygen, which is not clinically equivalent to continuous flow for overnight use, and their continuous-flow ceilings are low. The standard Indian home setup is a 5 LPM stationary unit for home and sleep, with a portable added later for travel and daily mobility if the patient is ambulatory.
+
+**Should I rent or buy an oxygen concentrator in India?**
+
+Rent when the expected need is short — post-acute recovery in the 1–3 month band. Buy when the prescription is long-term: at typical Indian rentals of ₹4,000–₹8,000 a month, purchase usually breaks even inside 6–9 months, and ownership avoids the worn-fleet lottery of rental stock. Long-term oxygen for COPD or ILD is almost always a buy.
+
+**Which oxygen concentrator brands are reliable in India?**
+
+Reliability in India is mostly a service-network question. Philips and Nidek lead the import tier on service depth (with the EverFlo now discontinued globally — check the caveat before buying); Oxymed and BPL have the deepest Indian networks in the value tier; [Home Medix](https://homemedix.in/oxygen-concentrator-kv/) pairs an Indian service address with the longest warranty in its band (3-year / 10,000-hour). Confirm an authorised service point within reach of your city before any purchase.
+
+**Which is the best oxygen concentrator for home use in India?**
+
+For a typical 1–4 LPM continuous-flow home prescription, HHZ's first comparison is Home Medix HM-KV, Oxymed Mini, and a verified imported option such as Nidek Nuvo Lite, AirSep VisionAire, or DeVilbiss 525. HM-KV is the value-spec starting pick where Home Medix service is confirmed; local service and the patient's exact prescription can change the winner.
+
 ---
 
 # Oxygen cylinder vs concentrator for home use
@@ -7109,6 +7668,20 @@ Read [TVAPS, AVAPS, and iVAPS devices in India](/guides/tvaps-avaps-ivaps-device
 
 HM-BV-30 is the strongest budget alternative to DreamStation BiPAP AVAPS when TVAPS is clinically acceptable and Home Medix service is available. Lumis 150 is the premium iVAPS replacement. BPL and Oxymed are secondary options. None should be substituted without clinician-led mode and setting translation.
 
+## Frequently asked questions
+
+**What is the best alternative to Philips DreamStation BiPAP AVAPS in India?**
+
+For a budget-limited volume-assured prescription, HHZ starts with Home Medix HM-BV-30 when the clinician can titrate TVAPS and local service is confirmed. ResMed Lumis 150 is the premium iVAPS alternative with a deeper clinical and cloud ecosystem.
+
+**Are AVAPS, iVAPS, TVAPS, and eVAPS identical?**
+
+No. They share a volume- or ventilation-assurance objective but use different targets, algorithms, setup fields, backup-rate behaviour, and clinical workflows. A prescriber must translate the prescription.
+
+**Can I replace AVAPS with an ordinary Auto BiPAP?**
+
+Not when volume assurance is clinically required. Ordinary spontaneous or auto-bilevel therapy does not automatically maintain the prescribed ventilation target.
+
 ---
 
 # Philips EverFlo discontinued: India alternatives for 5 LPM buyers
@@ -7210,6 +7783,24 @@ Philips EverFlo is still a known 5 LPM platform, but it should no longer be the 
 3. Choose the machine with the best combination of fresh stock, local service, OPI/purity monitoring, warranty, and price.
 
 For ranked context, see HHZ's [Top 5 5 LPM oxygen concentrators](/top-5/5-lpm-oxygen-concentrators/) and [5 LPM spec comparison](/guides/5-lpm-oxygen-concentrator-spec-comparison-india/).
+
+## Frequently asked questions
+
+**Is Philips EverFlo discontinued?**
+
+Yes. HHZ treats EverFlo as officially discontinued globally. Indian listings may still exist, but buyers should verify whether the unit is fresh stock, old channel stock, demo stock, or refurbished stock before purchase.
+
+**Should I buy Philips EverFlo in India now?**
+
+Only if serial age, invoice date, warranty validity, authorised service support, and spare availability are proven in writing. For long-term oxygen therapy, a discontinued model with uncertain spares is a real risk.
+
+**What is the best Philips EverFlo alternative in India?**
+
+For 5 LPM buyers, HHZ's practical alternatives are Oxymed Mini where local service is strongest, Home Medix HM-KV where authorised support is confirmed, Nidek Nuvo Lite for quiet imported stock if fresh, AirSep VisionAire for efficiency, and DeVilbiss 525 for altitude use.
+
+**Can old Philips EverFlo stock still be sold as new?**
+
+A sealed box can still be old stock. Buyers should check manufacturing or import date, serial number, warranty activation, and whether the dealer will state in writing that the unit is not refurbished, demo, or old COVID-era inventory.
 
 ---
 
@@ -7361,6 +7952,32 @@ Oxymed Mini is the next choice where its service network is stronger. Nidek, Air
 
 For a direct three-way comparison, see [Home Medix HM-KV vs Oxymed Mini vs Philips EverFlo](/guides/home-medix-vs-oxymed-vs-philips-everflo-india/).
 
+## Frequently asked questions
+
+**What is the best Philips EverFlo replacement in India?**
+
+For most 5 LPM home-oxygen buyers, HHZ recommends Home Medix HM-KV first when authorised local service is confirmed. Oxymed Mini is the next choice where its service route is stronger. Nidek, AirSep, and DeVilbiss suit narrower low-flow, efficiency, altitude, outlet-pressure, or imported-brand requirements.
+
+**Is Home Medix HM-KV the best alternative to Philips EverFlo?**
+
+For a typical plains-altitude Indian household with a prescription of 0.5-5 LPM, it is HHZ's first choice when local service is confirmed. It combines a 13 kg chassis, 40 dB or lower published sound, real-time purity display, integrated nebulization, and a 3-year / 10,000-hour warranty.
+
+**What should I buy instead of Philips EverFlo?**
+
+Start with Home Medix HM-KV for the strongest current value-and-feature package. Choose Oxymed Mini where local Oxymed support is faster, DeVilbiss 525 for demanding altitude or long-tubing use, Nidek Nuvo Lite for quiet imported low-flow use, or AirSep VisionAire 5 for efficiency and altitude headroom.
+
+**Is Philips EverFlo discontinued in India?**
+
+HHZ treats EverFlo as an end-of-line purchase rather than a normal current-production default. Indian listings may remain, but buyers should verify serial age, manufacturing or import date, invoice-backed warranty, stock condition, service continuity, and spare-parts availability.
+
+**Does Philips oxygen concentrator replacement mean replacing the machine or its parts?**
+
+This guide covers replacing the complete EverFlo concentrator with another 5 LPM machine. Filters, sieve beds, compressors, valves, and other EverFlo replacement parts are a separate repair-and-spares question.
+
+**Is Home Medix HM-KV the best 5 litre oxygen concentrator in India?**
+
+It is HHZ's first current-production value choice for many plains-altitude home users when authorised service is available. It is not universal: prescriptions above 5 LPM, high-altitude use, very low paediatric flow, or stronger local support from another brand require a different shortlist.
+
 ---
 
 # Best Philips Millennium M10 alternatives in India
@@ -7412,6 +8029,20 @@ Online listings may mark a model unavailable, imported, or discontinued without 
 ## Verdict
 
 For most Indian homes, HM-KX is the best Philips Millennium M10 alternative because it balances acquisition cost, sound, power demand, alarm coverage, and local warranty. DeVilbiss is the next-best premium/institutional choice; Nidek and Oxymed should win when their local support is materially better. If the existing M10 supports a ventilator, unusually long tubing, or a high-pressure circuit, make the replacement as a clinical-equipment decision—not a retail swap.
+
+## Frequently asked questions
+
+**What is the best alternative to Philips Millennium M10 in India?**
+
+Home Medix HM-KX is the best-value mainstream alternative where its service network is available. DeVilbiss 10 LPM is the premium choice for institutional-duty use or procurement requiring FDA-listed paperwork.
+
+**Is Philips Millennium M10 discontinued in India?**
+
+Availability and warranty status vary by seller and exact SKU. Do not rely on a marketplace label: ask an authorised Philips channel to confirm current supply, voltage, manufacturer warranty, and parts support for the serialised unit.
+
+**Can I replace a Millennium M10 with any 10 LPM concentrator?**
+
+No. Match prescribed flow, oxygen purity at that flow, outlet pressure, continuous-duty suitability, alarms, voltage, and service support. High-pressure or ventilator-linked setups need clinician and equipment-provider review.
 
 ---
 
@@ -7475,6 +8106,51 @@ Philips advertises a **three-year limited warranty**, a **10,000-hour sieve warr
 
 Country of manufacture alone does not establish quality or performance. The reason to scrutinise this offer is the gap between what a familiar Philips name might lead a buyer to assume and what the product documents actually establish about its manufacturer and model.
 
+## 18 kg: a heavier machine behind the new branding
+
+**Oxygenate 5 weighs 18 kg. Philips' EverFlo brochure lists 14 kg: the newer India launch is 4 kg, or about 29%, heavier on those published figures.** That is a clear handling disadvantage for a buyer who needs to lift the machine. A contemporary cabinet and familiar logo do not reduce the load. [Philips Oxygenate 5 specifications](https://www.philips.co.in/healthcare/product/HC1156380/oxygenate-5-stationary-oxygen-concentrator) · [Philips EverFlo brochure, page 4](https://www.documents.philips.com/doclib/enc/9801469/EverFlo_brochure.pdf#page=4).
+
+For an older patient or a caregiver with limited strength, check the actual route between rooms, door thresholds and any planned vehicle loading. Wheels help on a suitable floor; they do not remove the need to lift at stairs or a car boot. If frequent handling is part of the purchase, HHZ would treat the extra mass as a reason to compare lighter suitable stationary models before paying.
+
+### Sieve chemistry and power efficiency need their own evidence
+
+The reviewed documents do not identify the Oxygenate 5's sodium-versus-lithium sieve chemistry. Konsung's older KSW-5 announcement describes a French-imported molecular sieve but does not name the grade. **An 18 kg total weight is not a chemical analysis**, and neither an old model name nor a new cabinet establishes sieve efficiency. [Konsung's 2021 KSW-5 announcement](https://www.konsungmedical.com/news/konsung-ksw-5-oxygen-concentrato/).
+
+Philips lists an electrical rating below **360 VA**. This does not establish measured electricity consumption in watts or an efficiency advantage over competing models. If a seller uses advanced sieve chemistry, power density or lower running costs to justify the price, ask for model-specific technical evidence and comparable real-power tests at the required oxygen output. Those advantages have not been established by this review.
+
+## A service premium needs a named repair route
+
+Philips' launch announcement promises customer support and advertises warranty coverage. It does not document a city-by-city stock of Oxygenate 5 PCB modules, valves or sieve columns. **A Philips sales presence is not proof that an Oxygenate 5 can be repaired promptly in your town.** A buyer in a Tier-2 or Tier-3 city should insist on a named service provider and written arrangements before assigning value to the badge. [Philips India launch announcement](https://www.philips.co.in/about/news-and-insights/press-release/philips-strengthens-its-sleep-and-respiratory-care-portfolio-with-the-launch-of-oxygenate-5-in-india).
+
+Ask who opens and repairs the unit: Philips staff, an authorised partner or another biomedical service provider. Obtain the repair location, approved-parts availability, expected turnaround, transport responsibility and support while the unit is away. A subcontracted repair route is not itself a defect; the question is whether the actual service offered justifies the amount being charged.
+
+### Price the repairs before paying for the brand
+
+Request itemised quotations for approved PCB modules, valves and sieve columns, with labour, taxes, transport and warranty exclusions shown separately. Compare the full repair bill and compatible part identification across offers. If a seller claims a Philips-specific component or service advantage, ask them to identify it in writing.
+
+HHZ has not verified that Philips and Konsung repair quotations cover identical parts, or that one charges a particular multiple of the other. The shared manufacturer model makes parts and service a useful area to investigate; it does not prove either interchangeability or a markup. **An undocumented service promise should not carry a premium in a procurement comparison.**
+
+## Compare the alternatives on documents and handling
+
+Use other stationary concentrators to test the Oxygenate 5 offer. These published weights make the handling comparison concrete; they do not establish a matched performance ranking or current Indian availability.
+
+
+
+| Product reference | Published weight | Decision point |
+| --- | --- | --- |
+| [Philips Oxygenate 5](/oxygen-concentrators/philips-oxygenate-5/) | 18 kg | Establish what the quoted package adds to the documented Konsung-manufactured model. |
+| [Philips Everflo 5 Liter Oxygen Concentrator](/oxygen-concentrators/philips-everflo-5-lpm/) | 14 kg | 4 kg lighter. Confirm the exact unit's origin, voltage, stock age, warranty and continuing support. |
+| [Oxymed Mini (5L) Oxygen Concentrator](/oxygen-concentrators/oxymed-mini-5-lpm/) | 13.9 kg | 4.1 kg lighter. Resolve the manufacturer's intended-use wording and applicable medical-device status before considering it for prescribed therapy. |
+| [Drive DeVilbiss 525 series (525DS / 525KS variants)](/oxygen-concentrators/devilbiss-5-lpm/) | 16.3 kg (family) | 1.7 kg lighter. Confirm the exact India-supplied voltage variant, origin, warranty and service. |
+
+
+
+Sources: [Philips Oxygenate 5 specifications](https://www.philips.co.in/healthcare/product/HC1156380/oxygenate-5-stationary-oxygen-concentrator), [Philips EverFlo brochure](https://www.documents.philips.com/doclib/enc/9801469/EverFlo_brochure.pdf), [Medequip's Oxymed Mini page](https://medequip.co.in/products/oxygen-concentrator-mini-5-lpm), and [Drive DeVilbiss Compact 525 page](https://drivemedical.co.uk/respiratory/5-litre-oxygen-concentrator). Medequip's page expressly describes wellness-only use and says the product is not for medical treatment; its lower weight is not a clinical recommendation.
+
+For a buyer specifically seeking documented U.S. manufacture, Philips' EverFlo brochure describes U.S. production, and Drive's UK page identifies its Compact 525 offering as Pennsylvania-made. Verify the label and documentation of the exact offered unit rather than extending those statements to every regional version or current shipment. Country of manufacture is a procurement criterion, not a substitute for evidence of suitability or quality.
+
+You can also request a current, model-specific quote for the [Yuwell 8F](/oxygen-concentrators/yuwell-8f-with-nebulizer/). Current comparable India prices and local service for these alternatives were not verified for this article. Calling them all cheaper or better-supported would go beyond the evidence. **Compare live offers with matching requirements, and make the Oxygenate 5 seller demonstrate the added value.**
+
 ## Dealer and hospital procurement checks
 
 For a B2B quote, request the exact manufacturer and model label, product code, unit condition, tax-inclusive price, accessories, warranty issuer and local repair arrangements. If the offer claims Philips-specific hardware or performance, ask for model-specific documentation or a matched test rather than treating a brand name as evidence. Use the [Oxygenate 5 India price and specifications page](/oxygen-concentrators/philips-oxygenate-5/) as the product reference; this article addresses its manufacturer relationship.
@@ -7483,9 +8159,113 @@ For a B2B quote, request the exact manufacturer and model label, product code, u
 
 **Evaluate Oxygenate 5 as a Chinese-made Konsung KSW-5 distributed under the Philips name.** Do not pay extra on the assumption that the logo establishes a newly developed Philips concentrator or superior performance. Any higher price should be justified by documented differences, applicable warranty and service you can actually use.
 
+The 18 kg published weight is a tangible disadvantage against the 14 kg EverFlo. For an offer that is heavier and has no established engineering or efficiency advantage in this review, the seller needs to make a concrete case on the package and local service. **HHZ would not pay a premium for the Philips name alone.**
+
 The manufacturer identity is clear. A claim of distinctive Philips engineering, a historical price premium or a regulatory-driven supplier switch needs additional evidence. Ask the seller to demonstrate the value of the particular offer before paying for the reputation attached to its badge.
 
 Use oxygen only as prescribed by a qualified clinician. See the [Philips Oxygenate 5 product listing](/oxygen-concentrators/philips-oxygenate-5/) for its published India specifications.
+
+## Frequently asked questions
+
+### Price and buying decisions
+
+**Is Philips Oxygenate 5 worth buying at ₹45,000–₹55,000?**
+
+HHZ would assess the Oxygenate 5 as a Konsung-manufactured KSW-5 with Philips branding. At the indicative ₹45,000–₹55,000 India price, it should meet the prescribed requirements and include a documented package, applicable warranty and usable local service. The Philips name alone would not justify paying more; the value of a particular offer depends on what is actually included.
+
+**Would HHZ pay a premium for the Philips name on Oxygenate 5?**
+
+HHZ would not pay extra for the Philips name alone. The manufacturer documents identify a Chinese-made Konsung KSW-5; the badge does not demonstrate a new Philips-developed design or better performance. A higher price would need documented technical differences, stronger applicable warranty or service that is demonstrably useful to the buyer. A historical price premium over an earlier India-sold KSW-5 has not been verified.
+
+**What does the Philips Oxygenate 5 offer add beyond the manufacturer model?**
+
+Philips advertises a three-year limited device warranty, a 10,000-hour sieve warranty and additional filters for the India offer. Philips branding and distribution are documented. Whether those terms provide more value than a separately sourced KSW-5 depends on the actual competing package, exclusions and local service arrangements; the reviewed documents do not establish an across-the-board advantage.
+
+**When could paying more for Philips Oxygenate 5 be reasonable?**
+
+A higher total could be reasonable if the exact offer provides better documented capability, a more useful package, applicable warranty or reliable local support than the alternative being quoted. Ask for written terms and model-specific evidence. Neither a familiar brand name nor a shared model number settles the value comparison.
+
+**Was the Konsung KSW-5 cheaper in India before the Philips launch?**
+
+A dated historical India price for a confirmed KSW-5 was not verified. An older generic Konsung 5L catalogue record does not establish the exact model or price date. HHZ therefore cannot calculate a reliable historical markup or claim that the current ₹45,000–₹55,000 indicative Oxygenate 5 range is a proven premium over that earlier model.
+
+### Manufacturer, origin and engineering
+
+**Who actually manufactures Philips Oxygenate 5?**
+
+Philips product documents identify Jiangsu Konsung Bio-Medical Science And Technology Co., Ltd. as the manufacturer and Philips as distributor. The manufacturer model code is KSW-5 and the Philips article number is 1156380. Those roles should be distinguished when assessing claims about the product.
+
+**Is Philips Oxygenate 5 made in China?**
+
+A Philips technical sheet identifies China as the country of production, Jiangsu Konsung as manufacturer and KSW-5 as the manufacturer model code. The Oxygenate 5 manual gives the manufacturer's address in Jiangsu Province, China. Confirm the label and accompanying documents for the individual India-sold unit.
+
+**Is Oxygenate 5 a rebranded or re-stickered Konsung KSW-5?**
+
+The documents support describing Oxygenate 5 as a Philips-branded, Konsung-manufactured KSW-5. They do not show a literal sticker replacement process or prove that every earlier KSW-5 has identical components, settings or accessories. Rebranding describes the documented brand/manufacturer relationship; complete hardware identity requires more evidence.
+
+**Does the Philips logo mean Philips designed the Oxygenate 5?**
+
+The logo does not establish who designed each part. The reviewed documents name Konsung as manufacturer but do not disclose how engineering work was divided or which changes Philips may have requested. It would be unsupported to claim either that Philips designed the entire device or that Philips contributed no engineering.
+
+**Does Philips branding prove better oxygen delivery, noise or reliability?**
+
+No. Branding alone does not establish a measured performance or reliability advantage. That would require evidence for the exact configurations under comparable conditions. HHZ has not published a matched bench test or teardown establishing that Oxygenate 5 performs better than a separately sold KSW-5.
+
+**Is Oxygenate 5 a genuinely new concentrator?**
+
+Philips announced its India launch on 29 October 2026, while Konsung had used the KSW-5 name in a 2021 announcement. The model name therefore predates the Philips India launch. That does not prove that all versions are unchanged; any claimed new hardware or performance improvement needs model-specific documentation.
+
+**Should I reject Oxygenate 5 simply because it is Chinese-made?**
+
+No. Country of manufacture alone does not establish quality, reliability or suitability. HHZ's criticism is of assuming added engineering value from the Philips name without evidence. Assess the exact device, documented performance, applicable warranty, local support and full price on their merits.
+
+### Weight, sieve chemistry and efficiency
+
+**Is the 18 kg Oxygenate 5 heavy compared with EverFlo?**
+
+Yes. Philips lists Oxygenate 5 at 18 kg, while its EverFlo brochure lists 14 kg. Oxygenate 5 is 4 kg, or about 29%, heavier on those published figures. That is a practical disadvantage when lifting or loading the machine. Assess the actual route, thresholds and available help before buying; wheels do not eliminate lifting.
+
+**Does Oxygenate 5 use sodium or lithium molecular sieve?**
+
+The reviewed documents do not identify its sieve chemistry or establish sieve efficiency. Total machine weight cannot verify a sodium-versus-lithium grade. Konsung's 2021 KSW-5 announcement describes a French-imported molecular sieve without specifying that chemistry. Any sodium, lithium or comparative efficiency claim needs evidence for the exact device.
+
+**Is Oxygenate 5 more energy-efficient than EverFlo or DeVilbiss?**
+
+The reviewed data do not establish that. Philips publishes a rating below 360 VA for Oxygenate 5; VA is apparent power, not a matched measurement of electricity consumption in watts. Comparing it directly with another model's watt figure cannot establish energy savings. A defensible comparison needs real-power measurements under matching operating conditions and delivered oxygen requirements.
+
+### Regulation, comparisons and support
+
+**Did Philips switch to Konsung because its FDA approval was revoked?**
+
+That causal claim is not established. In April 2024, a consent decree restricted specified Philips Respironics U.S. manufacturing and distribution operations. It was not a blanket revocation of all Philips FDA authorizations. The records reviewed do not explain why Philips selected Konsung.
+
+**Does the Philips Respironics recall prove Oxygenate 5 has the same problem?**
+
+No. The FDA action discussed here followed the recall of certain ventilators, CPAP and BiPAP machines involving sound-abatement foam. Those facts do not establish that Oxygenate 5 shares the recalled devices' defect. Equally, this article is not a device-specific safety certification; check the exact model, serial number and applicable manufacturer notices.
+
+**Does the Chinese-made KSW-5 have an FDA record?**
+
+FDA record K223740 lists Konsung's KSW-5, KSN-5 and KSOC-5 model family and a substantially equivalent decision dated 5 October 2023. That record does not by itself establish U.S. clearance or availability of the exact India-sold Oxygenate 5 configuration.
+
+**Is Philips Oxygenate 5 the same as Philips EverFlo?**
+
+Oxygenate 5 and EverFlo are different named models. The reviewed Oxygenate 5 documents identify Konsung and KSW-5; they do not establish shared components, accessories or warranty with EverFlo. Compare the exact model documents and the actual offers rather than treating the Philips name as interchangeability evidence.
+
+**Can I use cheaper Konsung parts or accessories with Oxygenate 5?**
+
+Do not assume compatibility from the KSW-5 name. Obtain written confirmation that the exact part or accessory is approved for the specific unit and check the warranty implications with the responsible service provider. The documents reviewed do not establish unrestricted parts interchangeability between all branded or regional versions.
+
+**Does the Philips name guarantee Oxygenate 5 service in Tier-2 and Tier-3 cities?**
+
+The name alone does not establish service for your location. Ask for the responsible service provider, whether work is performed locally or sent elsewhere, availability of approved PCB modules, valves and sieve columns, repair turnaround and charges. The reviewed launch material does not document a city-by-city parts inventory or prove that all repairs are handled directly by Philips.
+
+**Are Oxygenate 5 replacement parts more expensive than identical Konsung parts?**
+
+HHZ has not verified matching part numbers, written compatibility confirmation and comparable repair quotations establishing that claim. Ask for itemised prices for approved parts, labour, taxes and transport. A brand premium on repairs should be examined through actual quotes; it should not be assumed from the shared KSW-5 designation.
+
+**What should a dealer, hospital or rental provider compare before paying?**
+
+Compare matching model/version and unit condition, the tax-inclusive package, accessories, warranty issuer and exclusions, parts availability, repair location, transport and labour charges, and the written service process. Ask for evidence of any claimed Philips-specific engineering advantage. A familiar logo is not a substitute for a documented procurement offer.
 
 ---
 
@@ -7525,6 +8305,20 @@ Do not put the machine in a closed drawer or under bedding.
 ## Verdict
 
 AirSense 10 is HHZ’s quietest home-primary recommendation. Z2 Auto is the travel choice, AirSense 11 the connected-premium choice, and HM-CV-20 the value choice. If noise follows breathing rather than coming continuously from the cabinet, investigate the mask and leak first.
+
+## Frequently asked questions
+
+**Which is the quietest CPAP machine in India?**
+
+ResMed AirSense 10 publishes about 25 dB and is HHZ's quiet home-primary choice. Z2 Auto is a compact travel option around 26 dB; AirSense 11 is around 27 dB.
+
+**Is a 30 dB CPAP loud?**
+
+Thirty decibels is quiet in ordinary bedrooms, but tonal blower noise, mask exhaust, hose resonance, and leaks can make two machines with similar specifications sound different.
+
+**Why is my mask louder than my CPAP?**
+
+Intentional exhaust flow, cushion leak, mouth leak, high pressure, and bedding near the vent can dominate perceived noise. Correct fit before replacing the machine.
 
 ---
 
@@ -7595,6 +8389,24 @@ For direct comparison, see [Home Medix vs Oxymed vs Philips EverFlo](/guides/hom
 Philips EverFlo should no longer be bought on brand recall alone. In India, the decision should be document-led: serial age, invoice, warranty, service, spares, stock condition, and delivery testing. If the seller cannot prove those, choose a current serviceable 5 LPM option instead.
 
 For replacement choices, read [Philips EverFlo replacement in India](/guides/philips-everflo-replacement-india/) and [Philips EverFlo discontinued: India alternatives](/guides/philips-everflo-discontinued-india-alternatives/). For the two highest-risk seller claims, use [old stock oxygen concentrators in India](/guides/old-stock-oxygen-concentrator-india/) and [imported oxygen concentrator spare parts in India](/guides/imported-oxygen-concentrator-spare-parts-india/).
+
+## Frequently asked questions
+
+**Should I buy Philips EverFlo in India now?**
+
+Only with written proof of serial age, invoice date, warranty validity, authorised service, and spare availability. Do not buy vague EverFlo clearance stock for chronic home oxygen.
+
+**Is Philips EverFlo still a good oxygen concentrator?**
+
+EverFlo remains a respected 5 LPM design, but the buying risk in India is stock age, warranty clarity, refurbished inventory, and future spares, not the basic design.
+
+**What should I ask before buying Philips EverFlo?**
+
+Ask for serial number, manufacturing or import date, GST invoice with serial number, warranty start date, authorised service proof, compressor and sieve-bed spare availability, and written stock-condition disclosure.
+
+**What should I compare against Philips EverFlo?**
+
+Compare Oxymed Mini where local service is strongest, Home Medix HM-KV where authorised support is confirmed, and imported Nidek, AirSep, or DeVilbiss only when fresh stock and spares are proven.
 
 ---
 
@@ -8875,6 +9687,28 @@ From the documents, the AirCurve 11 VAuto is an AirSense 11 platform with true b
 
 Related: [high AHI on CPAP](/us/guides/high-ahi-on-cpap/), [AirSense 11 settings](/us/guides/airsense-11-settings/), [CPAP with oxygen](/us/guides/cpap-with-oxygen/).
 
+## Frequently asked questions
+
+**What is the AirCurve 11 VAuto?**
+
+A ResMed bilevel (BiPAP) device whose VAuto mode automatically adjusts inhale (IPAP) and exhale (EPAP) pressure. ResMed's user guide says the VAuto is indicated for obstructive sleep apnea in patients over 66 lb. The same machine also offers CPAP and S (fixed bilevel) modes.
+
+**What pressure range does the AirCurve 11 VAuto have?**
+
+In VAuto mode, IPAP is 4–25 cmH2O, EPAP 4–25 cmH2O and pressure support 0–10 cmH2O, with a maximum of 25 cmH2O. CPAP mode is 4–20 cmH2O, per ResMed's user guide.
+
+**How much does the AirCurve 11 VAuto cost?**
+
+cpap.com listed it at $1,796 with the HumidAir humidifier on 13 October 2026. A prescription is required.
+
+**Is the AirCurve 11 VAuto for central sleep apnea?**
+
+Not per its indication. ResMed's guide indicates the AirCurve 11 VAuto for OSA. Only the AirCurve 11 ASV's ASV modes are also indicated for central or mixed apneas or periodic breathing.
+
+**Will Medicare cover a bilevel instead of CPAP?**
+
+Medicare has separate rules for bilevel devices without a backup rate, usually requiring that CPAP was tried and proved ineffective. See our BiPAP and ASV Medicare coverage guide.
+
 ---
 
 # AirSense 11 settings explained: Ramp, EPR and more
@@ -8949,6 +9783,28 @@ Related: [AirSense 11 vs AirSense 10](/us/guides/airsense-11-vs-airsense-10/), [
 
 See also: [AirSense 11 review](/us/guides/airsense-11-review/) and [ClimateLineAir heated tubing explained](/us/guides/climatelineair-heated-tubing/).
 
+## Frequently asked questions
+
+**Can I change my own pressure on the AirSense 11?**
+
+No, not from the patient menu. ResMed's user guide says your care provider sets the device up for your needs, and lists Ramp Time, Pressure Relief (EPR), SmartStart, SmartStop, humidity and tube temperature as the settings you can personalize in MY OPTIONS. EPR, SmartStart and SmartStop appear only if your care provider has enabled them. Pressure changes go through your prescribing clinician.
+
+**What does EPR do on the AirSense 11?**
+
+Expiratory Pressure Relief lowers the pressure while you breathe out, by 1, 2 or 3 cmH2O at levels 1 to 3. ResMed says the delivered pressure never goes below 4 cmH2O. It can make breathing out easier while you get used to therapy.
+
+**What is the best humidity setting on the AirSense 11?**
+
+ResMed recommends Climate Control Auto, its default, when you use ClimateLineAir 11 heated tubing with the HumidAir 11 tub. It targets 85% relative humidity with the tube at 80°F (27°C). Without heated tubing, use Humidity Level 1 to 8: turn it up for a dry nose or mouth and down for moisture in the mask.
+
+**What does Ramp Auto mean?**
+
+With Ramp set to Auto, the pressure starts low and the device raises it to your prescribed pressure once it detects you've fallen asleep. You can also set a fixed ramp of 5 to 45 minutes in 5-minute steps, or turn it off.
+
+**Why doesn't SmartStop work with my mask?**
+
+ResMed says SmartStop may not work, and should be disabled, with nasal pillows at pressures below 7 cmH2O or with conduit masks.
+
 ---
 
 # AirSense 11 vs AirSense 10: what changed (2026)
@@ -9013,6 +9869,28 @@ Settings are explained in [AirSense 11 settings explained](/us/guides/airsense-1
 Buy the AirSense 11 if you're new to CPAP, use high-flow oxygen, or want myAir's Bluetooth features. The AirSense 10 delivers the same pressure and comfort settings for less, so it's a fair choice on a budget. Neither is a reason to give up a working machine early.
 
 Related: [best auto CPAP machine](/us/guides/cpap-buyers-guide/), [APAP vs CPAP vs BiPAP](/us/guides/apap-vs-cpap-vs-bipap/), [CPAP batteries and camping power](/us/guides/cpap-battery-camping-power/).
+
+## Frequently asked questions
+
+**Is the AirSense 11 better than the AirSense 10?**
+
+For most new users, yes, mainly for the software: Bluetooth pairing with the myAir app, Personal Therapy Assistant and Test Drive are AirSense 11 only. Pressure range (4 to 20 cmH2O), humidity levels (Off, 1 to 8), ramp options and water tub size (380 mL) are the same in ResMed's US user guides.
+
+**Is the AirSense 10 still sold in the US?**
+
+Yes. ResMed's own US shop listed the AirSense 10 AutoSet with ClimateLineAir heated tubing at $1,008 on 13 October 2026.
+
+**Which is quieter?**
+
+ResMed lists the same 27 dBA sound pressure level for both machines with humidification. The AirSense 11 lists 25 dBA with the side cover instead of the tub; the AirSense 10 lists 25 dBA without humidification.
+
+**Which is better with supplemental oxygen?**
+
+ResMed lists a maximum supplemental oxygen flow of 15 L/min for the AirSense 11 and 4 L/min for the AirSense 10. Oxygen must be prescribed and set up by your clinician.
+
+**Can I use the AirSense 10 or 11 on a plane?**
+
+Yes. ResMed says both meet FAA requirements for use on aircraft. Empty the water tub and turn on Airplane Mode before using the device in flight.
 
 ---
 
@@ -9082,6 +9960,28 @@ Related: [AirSense 11 settings explained](/us/guides/airsense-11-settings/), [hi
 
 Model reviews: [AirSense 11 AutoSet](/us/guides/airsense-11-review/), [AirCurve 11 VAuto](/us/guides/aircurve-11-vauto-review/).
 
+## Frequently asked questions
+
+**Is APAP better than CPAP?**
+
+Neither is better as a rule. The AASM's 2019 guideline strongly recommends either CPAP or APAP for ongoing treatment of OSA in adults, and says PAP can be started either with APAP at home or with an in-lab titration in adults without significant comorbidities.
+
+**When is BiPAP used instead of CPAP?**
+
+The AASM suggests CPAP or APAP over bilevel for routine OSA treatment. Its titration guideline says a patient who is uncomfortable with or intolerant of high CPAP pressures may be tried on bilevel, or switched to it if obstructive events continue at 15 cmH2O of CPAP during titration. Bilevel is also used for conditions other than OSA, such as hypoventilation.
+
+**Does Medicare cover BiPAP for sleep apnea?**
+
+For OSA, Medicare covers a bilevel device without backup rate (E0470) only when CPAP (E0601) has been tried and proven ineffective, under LCD L33718. A bilevel device with backup rate (E0471) isn't covered for OSA under that policy.
+
+**What's the difference between CPAP and APAP?**
+
+CPAP delivers one fixed prescribed pressure all night. APAP (auto-CPAP) adjusts the pressure within a minimum and maximum set by your clinician. Most current machines, such as the ResMed AirSense 11, can run in either mode.
+
+**Can I switch from CPAP to BiPAP myself?**
+
+No. Bilevel needs a prescription with its own pressure settings (IPAP and EPAP), and Medicare has separate coverage rules for it. Talk to your sleep clinician if CPAP pressure feels intolerable.
+
 ---
 
 # Best travel CPAP machines in the US (2026)
@@ -9138,6 +10038,24 @@ For batteries, DC converters and FAA battery limits, see [CPAP batteries and cam
 Model reviews: [ResMed AirMini](/us/guides/resmed-airmini-review/), [Transcend Micro 510](/us/guides/transcend-micro-510-review/).
 
 See also: [Flying with a CPAP: TSA rules](/us/guides/flying-with-cpap-tsa/).
+
+## Frequently asked questions
+
+**What is the smallest travel CPAP?**
+
+Transcend lists the Micro 510 at 0.48 lb and 3.6 × 3.6 × 2.4 in and calls it the world's smallest auto CPAP. That is a manufacturer claim. ResMed's AirMini weighs about 0.3 kg (0.66 lb).
+
+**Can I bring a CPAP on a plane?**
+
+Yes. TSA allows CPAPs, BiPAPs and APAPs in carry-on and checked bags. In standard screening, the machine, mask and tubing may stay in the carrying case for X-ray but may have to come out of the carry-on bag. Devices with lithium batteries should go in carry-on. Under DOT rules at 14 CFR 382.121, airlines must not count assistive devices against your carry-on limit.
+
+**Can I use a travel CPAP on the plane?**
+
+Transcend's user manual says the Micro 510 meets FAA requirements for use on a plane, and that air travel compliance letters can be downloaded from its website. Ask your airline about in-flight use and power in advance.
+
+**Do travel CPAPs have a humidifier?**
+
+Not a water humidifier. The Micro 510 uses AirMist HME waterless humidification, included with the 510. The AirMini also uses waterless humidification only.
 
 ---
 
@@ -9212,6 +10130,28 @@ Related: [Medicare home oxygen coverage](/us/guides/medicare-oxygen-coverage/), 
 
 Device review: [ResMed AirCurve 11 VAuto](/us/guides/aircurve-11-vauto-review/).
 
+## Frequently asked questions
+
+**Does Medicare cover a BiPAP machine?**
+
+Yes, when you meet the criteria for your condition. For obstructive sleep apnea, LCD L33718 covers a bilevel without backup rate (E0470) only after CPAP has been tried and proven ineffective. For restrictive thoracic disorders, central or complex sleep apnea, hypoventilation syndrome and COPD-related respiratory failure, the Respiratory Assist Devices LCD L33800 sets the criteria.
+
+**What's the difference between E0470 and E0471?**
+
+E0470 is a bilevel respiratory assist device without a backup rate. E0471 has a backup rate. Under LCD L33718, E0471 isn't covered for obstructive sleep apnea.
+
+**Does Medicare cover ASV for central sleep apnea?**
+
+LCD L33800 covers an E0470 or E0471 device for central or complex sleep apnea when a complete facility-based, attended sleep study (PSG) documents the diagnosis and shows significant improvement on the device settings that will be used at home. Your treating practitioner chooses the device.
+
+**Who shouldn't use ASV?**
+
+ResMed's AirCurve 10 ASV user guide says ASV is contraindicated in patients with chronic, symptomatic heart failure (NYHA 2 to 4) with reduced ejection fraction (LVEF ≤ 45%) and moderate to severe predominant central sleep apnea. The AASM recommends against ASV in that group because of an increased risk of death.
+
+**What is the 61-day re-evaluation for BiPAP?**
+
+For restrictive thoracic disorders, central or complex sleep apnea and hypoventilation syndrome, L33800 requires a re-evaluation no sooner than 61 days after starting therapy. It must document symptom progress and use averaging 4 hours per 24 hours, along with a signed practitioner statement, before Medicare pays for month 4 onward.
+
 ---
 
 # Buying a CPAP online or used: what to check
@@ -9278,6 +10218,28 @@ Buy new, U.S.-region, from an authorized seller that asks for your prescription.
 
 Related: [CPAP buyer's guide](/us/guides/cpap-buyers-guide/), [best travel CPAP machines](/us/guides/best-travel-cpap-machines/), [AirSense 11 vs AirSense 10](/us/guides/airsense-11-vs-airsense-10/).
 
+## Frequently asked questions
+
+**Can I buy a CPAP on Amazon?**
+
+Whatever the marketplace, a CPAP is a prescription device in the US: ResMed's AirSense 11 guide says federal law restricts sale to physician order. Buy from a seller that asks for your prescription, sells U.S.-region units, and is an authorized dealer, so the manufacturer's warranty applies.
+
+**Is it legal to buy a used CPAP?**
+
+HHZ can't give legal advice on resale, and state rules and marketplace policies vary. You still need a prescription to use a CPAP safely at the right settings. Be aware the manufacturer's warranty won't follow the machine: ResMed's is available only to the initial consumer and isn't transferable.
+
+**Is a used CPAP safe?**
+
+It can carry risks: unknown hours and maintenance, contamination, and possible recall status. ResMed's AirSense 11 guide says its standard water tub is single-patient re-use and can't be reprocessed, and multi-patient reprocessing must follow ResMed's instructions. Always use a new mask, tubing, filters and tub.
+
+**Does the ResMed warranty cover machines bought online?**
+
+ResMed's limited warranty covers CPAP devices for 2 years. It's available only to the initial consumer, claims must be made at the point of purchase, and it's void on product sold or resold outside the region of original purchase.
+
+**Will Medicare pay if I buy my own CPAP?**
+
+Medicare covers CPAP through Medicare-enrolled suppliers when you meet its criteria (in-person evaluation, sleep test, adherence trial). Medicare covers CPAP supplied by Medicare-enrolled suppliers when you meet its criteria. Before buying privately, ask Medicare or a supplier whether later accessories would be covered. See our Medicare CPAP guide.
+
 ---
 
 # CPAP aerophagia (swallowing air): causes and fixes
@@ -9328,6 +10290,24 @@ Stomach pain that is severe, gets worse, or comes with vomiting isn't something 
 ## Verdict
 
 Start with what you control: sleep position and pillows, expiratory pressure relief if it's enabled, and any nasal congestion. Then try a different mask style. If bloating continues, take your therapy data to your clinician and ask about pressure, auto-PAP or bilevel. Don't stop using CPAP while you work it out unless your clinician agrees.
+
+## Frequently asked questions
+
+**What is CPAP aerophagia?**
+
+The AASM describes it as air passing into the throat and stomach, which can produce bloating, belching and/or flatulence.
+
+**How do I stop swallowing air with CPAP?**
+
+Options in AASM and ATS guidance: treat nasal congestion, change mask type, change sleep position or pillows, turn on expiratory pressure relief (EPR on ResMed machines), and ask your clinician about a lower pressure, auto-PAP or bilevel. Over-the-counter or prescribed gas remedies can help with symptoms.
+
+**Does auto CPAP help aerophagia?**
+
+The ATS suggests asking your healthcare provider whether switching to an auto-PAP or bilevel machine is right for you. Whether it helps depends on your case.
+
+**Can I lower my CPAP pressure myself?**
+
+No. Pressure is part of your prescription. Comfort features such as ramp and expiratory pressure relief can be changed on many machines, but therapy pressure changes should come from your clinician.
 
 ---
 
@@ -9388,6 +10368,20 @@ See [getting a CPAP prescription online](/us/guides/cpap-prescription-online/), 
 Model reviews: [React Health G3 X](/us/guides/react-health-g3-x-review/), [ResMed AirMini](/us/guides/resmed-airmini-review/), [Transcend Micro 510](/us/guides/transcend-micro-510-review/).
 
 Also reviewed: [ResMed AirSense 11](/us/guides/airsense-11-review/), [AirCurve 11 VAuto](/us/guides/aircurve-11-vauto-review/).
+
+## Frequently asked questions
+
+**Do I need a prescription for a CPAP machine in the US?**
+
+Yes. US retailers including cpap.com state that the ResMed AirSense 11 AutoSet and AirMini require a prescription before shipment.
+
+**How does Medicare cover CPAP?**
+
+Medicare Part B may cover a 12-week CPAP trial after an obstructive sleep apnea diagnosis. Coverage continues if your provider documents in person that you meet the conditions and the therapy is helping. Medicare pays the supplier to rent the machine for 13 continuous months, after which you own it; you pay 20% of the Medicare-approved amount after the Part B deductible.
+
+**Can I still buy a new Philips DreamStation in the US?**
+
+Under an April 2024 consent decree, Philips Respironics is restricted, with limited exceptions, from making and selling new CPAP and BiPAP machines from several US facilities until FDA requirements are met. HHZ's US shortlist therefore uses ResMed.
 
 ---
 
@@ -9450,6 +10444,28 @@ CPAP with oxygen is common and workable. Stay within your machine's limit (15 L/
 
 Related: [APAP vs CPAP vs BiPAP](/us/guides/apap-vs-cpap-vs-bipap/), [AirSense 11 settings explained](/us/guides/airsense-11-settings/).
 
+## Frequently asked questions
+
+**Can you use oxygen with a CPAP machine?**
+
+Yes, if your clinician prescribes it. ResMed lists a maximum supplemental oxygen flow of 15 L/min for the AirSense 11 and 4 L/min for the AirSense 10. Your clinician sets the oxygen flow; the CPAP pressure stays as prescribed.
+
+**Which do I turn on first, the CPAP or the oxygen?**
+
+The CPAP. ResMed's AirSense 10 and 11 user guides say to make sure the device is on and blowing air before turning on the oxygen, and to turn the oxygen off before turning the device off. This stops unused oxygen building up inside the device, which is a fire risk.
+
+**Is CPAP with oxygen a fire risk?**
+
+ResMed says supplemental oxygen must not be used while smoking or near an open flame, and its turn-on and turn-off order is designed to stop oxygen accumulating inside the machine.
+
+**Will my CPAP data be accurate with oxygen?**
+
+Possibly not. The AirSense 11 user guide notes that some displayed measurements may be inaccurate with leaks or supplemental oxygen, and the AirSense 10 guide says accuracy may be reduced by supplemental oxygen.
+
+**Does Medicare cover oxygen used with CPAP?**
+
+Medicare's home oxygen benefit has its own qualifying rules, separate from the CPAP rules. See our Medicare home oxygen coverage guide.
+
 ---
 
 # Flying with a CPAP: TSA and carry-on rules (2026)
@@ -9494,6 +10510,28 @@ Other models have their own documents; check yours before you fly.
 Carry your CPAP on, empty the humidifier, and be ready to take it out of the case at screening. For lighter options see [best travel CPAP machines](/us/guides/best-travel-cpap-machines/); if you use oxygen, read [FAA portable oxygen concentrator rules](/us/guides/faa-portable-oxygen-concentrator-rules/).
 
 Related: [Salt Lake City altitude guide](/us/guides/salt-lake-city-altitude-cpap-oxygen/), [Phoenix heat guide](/us/guides/phoenix-heat-cpap-oxygen/).
+
+## Frequently asked questions
+
+**Does a CPAP count as a carry-on bag?**
+
+ResMed's AirSense 11 user guide says medical devices don't count toward your carry-on luggage limit. Check with your airline too.
+
+**Do I have to take my CPAP out of its case at TSA?**
+
+TSA's two pages differ. The FAQ says to remove the CPAP from its case for X-ray. The CPAP item page (updated 15 July 2026) says it may stay in its case but may be required to be removed from your carry-on, and with TSA PreCheck it can stay in the case and the carry-on. Expect officers to ask.
+
+**Can I use my CPAP on the plane?**
+
+ResMed says the AirSense 11 meets FAA requirements for use on board, with the humidifier tub empty and inserted, and airplane mode on when airline staff require it. Its power supply is rated for 115 V, 400 Hz aircraft power.
+
+**Can I bring water for the humidifier?**
+
+Use on board is without water: ResMed warns not to use the device with water in the tub in transit. Empty the tub before you travel.
+
+**What about CPAP batteries?**
+
+TSA says devices with lithium batteries should be carried on. For portable oxygen concentrators, see our FAA POC rules guide.
 
 ---
 
@@ -9564,6 +10602,28 @@ The rules come down to five habits: no smoking, distance from heat and flame (at
 
 Related: [oxygen cylinders vs concentrators](/us/guides/oxygen-cylinders-vs-concentrators/), [oxygen concentrator electricity cost](/us/guides/oxygen-concentrator-electricity-cost/), [Medicare home oxygen coverage](/us/guides/medicare-oxygen-coverage/).
 
+## Frequently asked questions
+
+**How far should oxygen be from a heat source?**
+
+Advice varies by source. MedlinePlus says keep oxygen at least 6 feet (about 2 meters) from sources such as space heaters, wood stoves, candles, hairdryers and electric razors. Massachusetts' fire services say 10 feet, and Inogen's Rove 6 manual says no smoking or open flames within 2 m (6.56 ft). The larger distance gives the bigger margin.
+
+**Is it safe to smoke if I turn my oxygen off?**
+
+No. Massachusetts' fire services say there's no safe way to smoke around home oxygen, because clothing, hair, bedding and tubing stay oxygen-enriched. If someone must smoke, they advise disconnecting the oxygen, waiting ten minutes and going outside. That lowers the danger but doesn't make it safe.
+
+**What is an oxygen thermal fuse (firebreak)?**
+
+It's a device fitted in line with the oxygen tubing that melts when heated and blocks oxygen flow in a fire. The VA notes it doesn't prevent burns to the face or airway if ignition happens at the cannula, and it doesn't make smoking safe.
+
+**Can I use Vaseline with oxygen?**
+
+MedlinePlus says don't use Vaseline or other petroleum-based creams on your face or upper body unless your respiratory therapist or provider approves. It lists aloe vera and water-based products as safe.
+
+**What causes home oxygen fires?**
+
+Smoking is the leading ignition source reported to the VA's National Center for Patient Safety. Others reported include open flames such as candles and gas stoves, power tools, power strips, static electricity, portable electronics, grills, electric heaters and pilot lights.
+
 ---
 
 # Home sleep test vs in-lab sleep study (2026)
@@ -9622,6 +10682,28 @@ More in [Medicare CPAP coverage and the 90-day rule](/us/guides/medicare-cpap-co
 A home sleep test is a valid first test for most uncomplicated adults, and Medicare accepts it for CPAP. In-lab PSG is the right call for complex medical histories and whenever a home test comes back negative or inconclusive. Either way, see your practitioner in person first if you're on Medicare, and don't rely on a questionnaire alone.
 
 Related: [getting a CPAP prescription online](/us/guides/cpap-prescription-online/), [sleep apnea treatment alternatives to CPAP](/us/guides/sleep-apnea-alternatives-to-cpap/), [CPAP buyer's guide](/us/guides/cpap-buyers-guide/).
+
+## Frequently asked questions
+
+**Is a home sleep test as good as an in-lab study?**
+
+For the right patient, the AASM says yes. Its 2017 guideline recommends either in-lab polysomnography or a technically adequate home sleep apnea test for uncomplicated adults with signs of moderate to severe OSA. It recommends in-lab testing instead for people with significant heart or lung disease, neuromuscular weakness, hypoventilation, chronic opioid use, prior stroke or severe insomnia.
+
+**What if my home sleep test is negative?**
+
+The AASM recommends in-lab polysomnography if a single home test is negative, inconclusive or technically inadequate. A negative home test doesn't rule out sleep apnea.
+
+**Does Medicare cover a home sleep test for CPAP?**
+
+Yes. Medicare's CPAP coverage (NCD 240.4) accepts AHI or RDI measured by in-lab polysomnography or by a Type II, Type III or Type IV home sleep test measuring at least 3 channels. The DME LCD also requires an in-person evaluation by your treating practitioner before the test.
+
+**Can an online questionnaire diagnose sleep apnea?**
+
+No. The AASM strongly recommends against using clinical tools, questionnaires or prediction algorithms to diagnose OSA without polysomnography or home sleep apnea testing.
+
+**What if I fail the Medicare CPAP trial after a home test?**
+
+To requalify, the Medicare PAP LCD requires an in-person re-evaluation by your treating practitioner and a repeat sleep test in a facility (Type I study).
 
 ---
 
@@ -9707,6 +10789,24 @@ See also: [Medigap and DME costs](/us/guides/medigap-cpap-oxygen-costs/) and [DM
 
 See also: [How to appeal a Medicare DME denial](/us/guides/medicare-dme-appeal/).
 
+## Frequently asked questions
+
+**What is the Medicare CPAP compliance rule?**
+
+Under CMS LCD L33718, adherence is use of PAP for at least 4 hours per night on 70% of nights during a consecutive 30-day period anytime in the first three months of use. The treating practitioner must review that objective data and see you in person, no sooner than day 31 and no later than day 91, and document that your symptoms improved.
+
+**What happens if I fail the Medicare CPAP trial?**
+
+Continued coverage is denied. To re-qualify you need an in-person re-evaluation to find out why therapy failed, and a repeat sleep test in a facility (Type 1 study), per LCD L33718.
+
+**What AHI does Medicare require for CPAP?**
+
+An AHI or RDI of 15 or more events per hour with at least 30 events, or an AHI or RDI of 5–14 with at least 10 events plus documented excessive daytime sleepiness, impaired cognition, mood disorders or insomnia, or hypertension, ischemic heart disease or a history of stroke.
+
+**Do I own my CPAP machine with Medicare?**
+
+Yes, after 13 continuous months of rental payments. Medicare.gov states that after Medicare makes rental payments for 13 continuous months, you own the machine.
+
 ---
 
 # Oxlife Independence review: 3 LPM portable oxygen
@@ -9774,6 +10874,28 @@ We use the manual's figures, which are lower, for planning.
 From the documents, the Independence fills a gap that lightweight pulse-only POCs don't: real continuous flow up to 3 LPM, 24/7 duty, a high altitude rating and a 5-year warranty. The costs are weight and short battery life at continuous settings. Plan around the manual's battery table, not the marketing numbers.
 
 Related: [pulse dose vs continuous flow](/us/guides/pulse-dose-vs-continuous-flow/), [POC for sleeping](/us/guides/portable-oxygen-concentrator-for-sleeping/), [POC warranties compared](/us/guides/portable-oxygen-concentrator-warranties/), [cruising with oxygen](/us/guides/cruising-with-oxygen/).
+
+## Frequently asked questions
+
+**Does the Oxlife Independence have continuous flow?**
+
+Yes. It offers continuous flow from 0.5 to 3.0 LPM in 0.5 LPM steps, plus pulse dose from 0.5 to 6.0 (8–96 mL per breath), per O2 Concepts' manual (800-1097 Rev C).
+
+**How heavy is the Oxlife Independence?**
+
+16.7 lb for the device; the cart kit (wheels and pull handle) adds 2.17 lb and each battery weighs 1.4 lb, per the manual. It's a wheeled unit, not a shoulder-carry POC.
+
+**How long does the Independence battery last?**
+
+The manual's table, for two batteries at 20 breaths per minute, lists 4.75 h at 0.5 LPM continuous, 2.25 h at 2 LPM continuous and 1.5 h at 3 LPM. In pulse mode it lists 5 h at 0.5 and 3.75 h at setting 2. O2 Concepts' spec sheet gives higher figures (5.75 h at pulse 2 and 2.5 h at 2 LPM).
+
+**Can it be used with CPAP?**
+
+O2 Concepts' product page says it's compatible for use with CPAP and BiPAP. The user manual we read doesn't describe CPAP use, so follow your prescriber's and provider's setup instructions.
+
+**What's the warranty?**
+
+Five years from shipment for a new unit, two years for refurbished or demo units, two years on sieve tubes and one year on standard accessories including batteries, per O2 Concepts' warranty statement. It's not transferable.
 
 ---
 
@@ -9844,6 +10966,28 @@ Denver is manageable for many people with COPD if they plan. If you're hypoxemic
 Related: [cruising with oxygen](/us/guides/cruising-with-oxygen/), [switching Medicare oxygen suppliers](/us/guides/switch-medicare-oxygen-supplier/), [Medicare home oxygen coverage](/us/guides/medicare-oxygen-coverage/).
 
 See also: [Salt Lake City altitude guide](/us/guides/salt-lake-city-altitude-cpap-oxygen/).
+
+## Frequently asked questions
+
+**Do I need more oxygen in Denver?**
+
+Possibly. Denver is about 5,280 feet above sea level, and the FDA notes oxygen saturation is generally slightly lower at higher altitude. Ask your clinician before the trip whether to adjust your prescription for altitude, rest, exertion and sleep. Don't change it yourself.
+
+**Can I go to the mountains with COPD?**
+
+Many people can, with planning. A 2023 review on counseling COPD patients traveling to high altitude says those with very severe airflow obstruction, hypoxemia or hypercapnia near sea level shouldn't travel to high altitude without supplemental oxygen. It also advises being clinically stable, at least 1 month after an exacerbation.
+
+**Does my oxygen concentrator work at altitude?**
+
+Check the manual's operating altitude. Inogen Rove 6, OxyGo NEXT and CAIRE FreeStyle Comfort list up to 10,000 ft. A retailer lists the CAIRE Companion 5 to 9,879 ft. ResMed lists the AirSense 11 to 9,870 ft and the AirSense 10 to 8,500 ft.
+
+**Is pulse dose OK at altitude?**
+
+The 2023 review prefers continuous flow over pulse mode at altitude, because pulse devices can fail to trigger with nasal obstruction or mouth breathing. Discuss it with your clinician, especially for sleep.
+
+**Does Medicare cover oxygen when I travel to Colorado?**
+
+Medicare's oxygen policy (CMS A52514) puts travel responsibilities on your home supplier. Your home supplier has to provide or arrange service for the month it billed, and it can't bill for months it doesn't serve. Call your supplier well before the trip.
 
 ---
 
@@ -9919,6 +11063,24 @@ If you need a new CPAP or BiPAP in the US, assume a new Philips sleep-therapy de
 
 If you still use a recalled Philips device, don't stop on your own. Talk to your provider, register the serial number with Philips, and follow the FDA's do-nots on ozone and UV cleaners, filters and foam removal. If you're buying new, plan around a different manufacturer, and recheck the FDA's recall page before you decide, since the consent decree's restrictions last until the FDA confirms compliance.
 
+## Frequently asked questions
+
+**Which Philips CPAP machines were recalled?**
+
+The FDA lists devices made between 2009 and April 26, 2021, including DreamStation, DreamStation Go, DreamStation ASV, DreamStation ST/AVAPS, SystemOne (Q-Series), SystemOne ASV4, REMstar SE Auto, the A-Series BiPAPs, C-Series ASV and S/T/AVAPS, Dorma 400 and 500, E30, OmniLab Advanced+ and certain ventilators.
+
+**Should I stop using my recalled Philips CPAP?**
+
+The FDA says to discuss it with your health care provider. For some patients, stopping may be riskier than continuing; you and your provider may decide the benefits of continuing outweigh the risks.
+
+**Can I still buy a new Philips CPAP in the US?**
+
+The April 2024 consent decree restricts, with limited exceptions, the production and sale of new CPAP, BiPAP and other devices at several Philips Respironics facilities in Pennsylvania and California until certain requirements are met and FDA confirms compliance in writing.
+
+**How do I register my Philips device for the recall?**
+
+The FDA directs owners to find the serial number, then register on Philips' recall website or call Philips at 877-907-7508. Keep your registration confirmation number and check status on Philips' patient portal.
+
 ---
 
 # Philips DreamStation alternatives in the US (2026)
@@ -9982,6 +11144,24 @@ See [buying a CPAP online or used](/us/guides/buying-cpap-online-or-used/) and [
 
 See also the [React Health G3 X review](/us/guides/react-health-g3-x-review/).
 
+## Frequently asked questions
+
+**What is the best replacement for a Philips DreamStation CPAP?**
+
+HHZ's default is the ResMed AirSense 11 AutoSet, an auto CPAP with a 4–20 cmH₂O range and a built-in heated humidifier. The React Health G3 X APAP is the lower-cost alternative, with the same 4–20 cmH₂O range, an integrated humidifier and a 5-year warranty.
+
+**Can I still buy a new Philips DreamStation in the US?**
+
+An April 2024 consent decree restricts Philips Respironics, with limited exceptions, from producing and selling new CPAP and BiPAP machines from several US facilities until it meets FDA requirements and the FDA confirms compliance in writing.
+
+**Will my DreamStation mask work on a ResMed or React Health machine?**
+
+Usually yes. React Health says the G3 X works with standard CPAP masks and tubing. Check with your supplier before you switch. Heated tubing is matched to each machine.
+
+**Does Medicare pay for a replacement for my recalled DreamStation?**
+
+Medicare's PAP rules allow a replacement without a new sleep test when a device is lost, stolen or irreparably damaged during its 5-year reasonable useful lifetime. After 5 years, you need an in-person evaluation documenting continued use and benefit. Ask your supplier how it is handling your recall remedy.
+
 ---
 
 # Power outage plan for CPAP and home oxygen (2026)
@@ -10024,6 +11204,28 @@ Write the plan down: who to call, how long your batteries last at your setting, 
 Related: [home oxygen fire safety](/us/guides/home-oxygen-fire-safety/), [flying with a CPAP](/us/guides/flying-with-cpap-tsa/).
 
 See also: hurricane plans for [Miami](/us/guides/hurricane-plan-cpap-oxygen/#miami) and [Houston](/us/guides/hurricane-plan-cpap-oxygen/#houston).
+
+## Frequently asked questions
+
+**What should I do with my oxygen concentrator in a power outage?**
+
+Ready.gov advises talking to your medical provider about a power outage plan for medical devices powered by electricity, and planning for batteries and other alternatives. Ask your oxygen supplier what backup they provide.
+
+**Can I run a CPAP from a generator?**
+
+Ready.gov's safety rule is to use generators only outdoors, at least 20 feet from windows, and to install carbon monoxide detectors. For device power needs, see our CPAP battery guide.
+
+**Is CPAP considered electricity-dependent equipment?**
+
+In the HHS emPOWER program, electricity-dependent DME includes oxygen concentrators and BiPAP machines among other devices. CPAP isn't on that list, but you still need a plan if you rely on it.
+
+**Where should I go in extreme heat or cold during an outage?**
+
+Ready.gov says to go to a community location with power if heat or cold is extreme.
+
+**Can my utility help?**
+
+Ready.gov advises planning ahead. Ask your utility what it offers; we didn't verify individual utility programs.
 
 ---
 
@@ -10095,6 +11297,28 @@ Pulse dose makes small, light portables possible and stretches battery life. It 
 Related: [battery life by model](/us/guides/portable-oxygen-concentrator-battery-life/), [Rove 6 vs FreeStyle Comfort](/us/guides/inogen-rove-6-vs-caire-freestyle-comfort/), [oxygen concentrator buyer's guide](/us/guides/oxygen-concentrator-buyers-guide/).
 
 Continuous-flow portable example: [Oxlife Independence review](/us/guides/oxlife-independence-review/).
+
+## Frequently asked questions
+
+**What is the difference between pulse dose and continuous flow oxygen?**
+
+Continuous flow delivers a steady stream of oxygen measured in liters per minute, whether you're breathing in or out. Pulse dose delivers a puff (bolus) of oxygen only when the device senses you starting to inhale. CAIRE says pulse delivery conserves oxygen and extends battery life compared with continuous flow.
+
+**Is pulse setting 2 the same as 2 liters per minute?**
+
+No. Inogen's Rove 6 manual cautions that its settings may not correspond with the settings of continuous-flow devices or of other brands. Your clinician should prescribe and confirm the pulse setting separately.
+
+**Can I use a pulse dose concentrator with CPAP?**
+
+Not the models covered here. The Inogen Rove 6 manual says not to use it with a humidifier, nebulizer or CPAP, and the OxyGo NEXT manual says it isn't designed to be used with a humidifier, nebulizer or connected with any other equipment. ResMed gives CPAP oxygen limits in liters per minute. See our CPAP with oxygen guide.
+
+**What happens on pulse dose if I breathe through my mouth or breathe shallowly?**
+
+Pulse units need to detect your breath. Inogen says the Rove 6 is contraindicated if your normal resting breathing can't trigger the device. If no breath is detected, the Rove 6 and OxyGo NEXT switch to automatic pulses after 60 seconds, and the FreeStyle Comfort after 15 seconds, at 20 a minute.
+
+**Who needs continuous flow?**
+
+Your prescriber decides, based on testing at rest, during activity and during sleep. CAIRE says pulse settings must be determined for each user individually at rest, during exercise and when traveling.
 
 ---
 
@@ -10172,6 +11396,28 @@ Don't just stop CPAP. Fix comfort problems first, then work through the alternat
 
 Related: [home vs in-lab sleep test](/us/guides/home-sleep-test-vs-in-lab/), [CPAP prescription online](/us/guides/cpap-prescription-online/), [high AHI on CPAP](/us/guides/high-ahi-on-cpap/).
 
+## Frequently asked questions
+
+**Who qualifies for Inspire?**
+
+Per its FDA labeling, Inspire treats a subset of people with moderate to severe OSA (AHI 15 to 100) aged 22 and older who have failed or can't tolerate PAP and don't have complete concentric collapse at the soft palate. There are additional indications for ages 18–21, and for ages 13–18 with Down syndrome. The labeling notes safety and effectiveness data are available up to a BMI of 40.
+
+**Is Zepbound approved for sleep apnea?**
+
+Yes. On December 20, 2024 the FDA approved Zepbound (tirzepatide) for moderate to severe OSA in adults with obesity, used with a reduced-calorie diet and increased physical activity. It's a prescription injection with significant warnings, including thyroid C-cell tumors in rats.
+
+**Do oral appliances work for sleep apnea?**
+
+The AASM/AADSM guideline recommends that sleep physicians consider oral appliances, rather than no treatment, for adults with OSA who can't tolerate CPAP or prefer an alternative. It suggests a custom, titratable appliance made by a qualified dentist, and follow-up sleep testing to confirm it works.
+
+**Does Medicare cover an oral appliance for sleep apnea?**
+
+Medicare's oral appliance policy (LCD L33611) covers a custom-fabricated mandibular advancement device (E0486) when criteria are met. These include an in-person evaluation, a qualifying sleep test and an order from the treating practitioner, and a licensed dentist must provide and bill for it. If the AHI or RDI is over 30, PAP must be not tolerated or contraindicated. Prefabricated appliances (E0485) are denied.
+
+**Can I stop CPAP if I lose weight on a GLP-1?**
+
+Don't stop on your own. Ask your clinician to reassess. The FDA's approval of Zepbound was for treatment in combination with diet and exercise, and changes in your apnea should be confirmed by testing.
+
 ---
 
 # Transcend Micro 510 review: specs and price
@@ -10234,6 +11480,28 @@ From the documents, the Micro 510 is the lightest and cheapest of the two main t
 
 Related: [best travel CPAP machines](/us/guides/best-travel-cpap-machines/), [buying CPAP online or used](/us/guides/buying-cpap-online-or-used/), [CPAP dry mouth](/us/guides/cpap-dry-mouth/).
 
+## Frequently asked questions
+
+**Is the Transcend Micro 510 an auto CPAP?**
+
+Transcend markets it as the 'Micro 510 Auto CPAP' with auto-adjusting pressure. However, the technical specifications in the Micro 510 user manual (104347 Rev B) list the ventilator mode as CPAP, and describe Ramp and AirRelief as comfort features rather than separate modes. Ask your prescriber or seller to confirm which modes your unit supports.
+
+**How much does the Transcend Micro 510 weigh?**
+
+The Micro 510 user manual lists 0.49 lb (223.4 g) and dimensions of 3.6 x 3.6 x 2.4 in. Transcend's product page says it weighs under 0.5 lb.
+
+**How loud is the Micro 510?**
+
+The manual gives a standards-based sound pressure level of 31 dBA (±2) at 10 cmH2O, measured per ISO 80601-2-70 without a mask. A supplementary 'typical use environment' test gave 27 dBA. Transcend notes the standard values don't represent what a user hears during sleep.
+
+**Does the Micro 510 have humidification?**
+
+Not built in. The optional AirMist HME (heat and moisture exchanger) provides waterless humidification. HME cartridges are disposable and aren't cleaned.
+
+**What's the Micro 510 warranty?**
+
+Three years from original retail purchase by the initial consumer, per the manual and Transcend's site. Accessories and disposables are 90 days and batteries 1 year. It's non-transferable and void outside the country of original purchase.
+
 ---
 
 # CPAP subsidy in Singapore: the 2026 ACE rules
@@ -10289,6 +11557,20 @@ If the remaining bill is still hard to pay, ask the hospital's medical social wo
 ACE says its committee looked at clinical need, effectiveness, cost-effectiveness and the estimated annual cost. It found PAP gave clinically and statistically significant improvements in OSA severity and daytime sleepiness, measured on the Epworth Sleepiness Scale. The committee also considered 29 testimonials from patients and carers. Some said the device improved their blood pressure and made them less irritable during the day.
 
 If you are choosing a machine privately instead, compare prices in [CPAP machine prices in Singapore](/sg/guides/cpap-machine-price-singapore/).
+
+## Frequently asked questions
+
+**Which CPAP machines are subsidised in Singapore?**
+
+Only the ResMed AirSense 10 AutoSet, according to the ACE annex last updated 1 April 2026. The annex names two distributors: Junnimed Service Pte. Ltd. and Easmed Pte Ltd.
+
+**Is BiPAP subsidised?**
+
+No. ACE's committee left bilevel PAP out of scope, noting it is for a small subset of patients who need pressures above 20 cmH2O.
+
+**How often can I get the subsidy?**
+
+The guidance describes it as a one-time subsidy.
 
 ---
 
@@ -10351,6 +11633,20 @@ These need a specialist prescription for bilevel or adaptive servo-ventilation.
 ## Running accessories
 
 cpap.com.au prices: ResMed ClimateLine heated tube for AirSense 11, $75; AirSense 11 filters, $24 for 12 or $99 for 50; AirSense 11 DC/DC converter, $189; 65 W power supply, $80. Masks are in [CPAP masks in Australia](/au/guides/cpap-masks-australia/).
+
+## Frequently asked questions
+
+**How much is a CPAP machine in Australia?**
+
+Between $749 (Yuwell YH-680B at Rapid Medical) and $1,689 (AirSense 11 AutoSet at ResMed's shop) for the machines we checked on 14 October 2026.
+
+**Is ResMed's own shop cheaper?**
+
+Not on the day we checked: ResMed's shop listed the AirSense 11 AutoSet at $1,689, against $1,495 at cpap.com.au.
+
+**What is the difference between AutoSet and Elite?**
+
+AutoSet machines adjust pressure automatically through the night; Elite models deliver the fixed pressure your clinician sets. Your prescription decides which you need.
 
 ---
 
@@ -10424,6 +11720,20 @@ EnableNSW notes HRP clients may also qualify for the NSW Government's Life Suppo
 
 Other states run their own programs; see [home oxygen funding in Victoria and Queensland](/au/guides/home-oxygen-funding-victoria-queensland/).
 
+## Frequently asked questions
+
+**Does EnableNSW provide CPAP machines?**
+
+Yes. The Home Respiratory Program covers CPAP and respiratory support devices, but EnableNSW says waiting periods vary for CPAP because it prioritises primary home oxygen equipment.
+
+**Is there a co-payment for short-term oxygen?**
+
+No. EnableNSW says there is no co-payment for short-term oxygen therapy.
+
+**How do I contact EnableNSW?**
+
+EnableNSW's customer service line is 1800 362 253, Monday to Friday, 9am to 5pm.
+
 ---
 
 # Life support registration for CPAP and oxygen (AU)
@@ -10480,6 +11790,20 @@ EnableNSW notes its Home Respiratory Program clients may be eligible: see [Enabl
 
 Energy Made Easy is run by the Australian Energy Regulator. Rebates outside NSW are set by each state or territory; ask your retailer how registration and rebates work where you live.
 
+## Frequently asked questions
+
+**Does registering stop power cuts?**
+
+No. Energy Made Easy says power can go out without warning, so you still need a plan and charged backup equipment.
+
+**How much is the NSW Life Support Rebate for a CPAP?**
+
+Under the NSW Social Programs for Energy Code version 8.4, from 24 August 2026: $0.7096 a day (about $259 a year) for 24-hour use and $0.3589 a day (about $131 a year) for less than 24 hours.
+
+**How long does the NSW rebate last?**
+
+Four years from the date you apply. You can then apply again.
+
 ---
 
 # CPAP machine prices in Canada (2026)
@@ -10528,6 +11852,20 @@ Air Voel listed rentals of the AirSense 11 AutoSet, AirSense 10 AutoSet and AirM
 ## Check the licence
 
 Canadian CPAP Store says its AirSense 11 is ResMed’s Canadian model, licensed by Health Canada. The AirSense 11 appears in Health Canada’s licence database as licence 106650. See [Health Canada licensing for CPAP and oxygen](/ca/guides/health-canada-licence-cpap-oxygen/).
+
+## Frequently asked questions
+
+**How much is a CPAP machine in Canada?**
+
+Between $870 (AirSense 10 AutoSet at Canadian CPAP Store) and $1,444 (the same model at CPAP Machines Canada) for the auto-CPAP machines we checked on 14 October 2026.
+
+**Can I rent a CPAP in Canada?**
+
+Air Voel listed an AirSense 11 AutoSet rental at $278; the listing page did not state the rental period, so ask before you book.
+
+**Is there tax on a CPAP machine in Canada?**
+
+Air Voel says there is no HST on CPAP machines and masks. We did not find a CRA source that names CPAP, so check at checkout.
 
 ---
 
@@ -10579,6 +11917,20 @@ ADP may fund a replacement if your condition has changed, or the machine is worn
 
 For comparison, Canadian retailers listed the ResMed AirSense 11 AutoSet between C$1,300 and $1,435 on 14 October 2026; see [CPAP machine prices in Canada](/ca/guides/cpap-machine-price-canada/). The ADP price and your 25% share are set by ADP, not by these retail prices. Masks are not funded by ADP, so see [CPAP masks in Canada](/ca/guides/cpap-masks-canada/) for what they cost.
 
+## Frequently asked questions
+
+**Does ADP cover CPAP masks?**
+
+ADP covers the PAP machine but does not fund replacement masks or headgear for CPAP, according to Ontario’s respiratory equipment page.
+
+**Is ADP CPAP funding income-tested?**
+
+No. ADP says income is not considered for eligibility. People on Ontario Works, ODSP or Assistance for Children with Severe Disabilities have the 25% share paid too.
+
+**What happens if I buy a CPAP before ADP approves it?**
+
+Ontario says that if you buy the equipment before completing the steps, you pay the full cost yourself.
+
 ---
 
 # Funded home oxygen in New Zealand
@@ -10621,6 +11973,20 @@ Prices read on 14 October 2026. Orange NZ shows prices excluding GST.
 ## If the concentrator alarms
 
 Health NZ’s leaflet suggests checking for a power cut, a loose plug, kinked or blocked tubing, and overheating (some rooms are too hot). Wash the two filters weekly in warm soapy water. If you rely on the concentrator, register with your power company; see [medically dependent consumers](/nz/guides/medically-dependent-power-nz/).
+
+## Frequently asked questions
+
+**Is home oxygen free in New Zealand?**
+
+Healthify says home oxygen therapy is a funded service if you meet the eligibility criteria.
+
+**Can I get home oxygen if I smoke?**
+
+No. Health NZ’s Wellington leaflet says smokers must be smoke-free for at least 4 weeks before home oxygen is reconsidered, and it is removed if smoking continues.
+
+**Is a portable oxygen concentrator funded?**
+
+Healthify says funding for portable options varies; discuss it with your oxygen service provider if you need oxygen to keep working or studying.
 
 ---
 
@@ -10763,6 +12129,20 @@ For the specific machines that run these algorithms in the Indian market, ranked
 
 Consult your sleep physician before switching between APAP brands or algorithms — the residual-AHI difference should be interpreted against your specific sleep physiology, not the population average.
 
+## Frequently asked questions
+
+**Which APAP algorithm is best?**
+
+No algorithm is best for every patient. Compare residual event types, flow limitation, leak, pressure behaviour, symptoms, and comfort on actual download data rather than choosing from brand reputation alone.
+
+**Will two APAP machines set to the same range behave the same?**
+
+No. Detection thresholds and the speed and size of pressure changes differ by manufacturer, so two machines using the same minimum and maximum can produce different pressure profiles and residual AHI.
+
+**Should I switch APAP brands because my AHI is high?**
+
+First exclude mask leak, inadequate minimum pressure, central events, and poor adherence with a clinician. A different algorithm can help some patients, but a brand change is not a substitute for reviewing the cause.
+
 ---
 
 # BiPAP backup rate: what it is and why your prescription has one
@@ -10829,6 +12209,24 @@ If your backup rate is being set or reviewed, the useful inputs are: your record
 The backup rate is the minimum breathing rate your BiPAP enforces — a floor, in breaths per minute, that only acts when your own breathing slows or stops. It is what makes a machine "ST," it is set just below your natural rate, and it exists because your prescription is for a situation where your breathing drive itself can pause. It is not the same as your breath rate, it does not mean your breathing has failed, and a well-set one should be all but invisible to you.
 
 For the ST-capable platforms available in India, ranked against a published rubric, see our [Top 5 BiPAP machines in India (2026)](/top-5/bipap-machines/). Always have backup-rate settings chosen and adjusted by your prescribing physician with download data, never empirically at home. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
+
+## Frequently asked questions
+
+**What is a normal backup rate for a BiPAP?**
+
+For adult home use the backup rate usually sits between 10 and 16 breaths per minute, with 12 the common starting point. It is typically set a little below the patient's own resting breathing rate, so the machine only steps in when breathing actually slows or pauses.
+
+**Is the backup rate the same as the breath rate?**
+
+No. Your breath rate (respiratory rate) is how often you actually breathe. The backup rate is the floor the machine enforces — the minimum it will allow before delivering a timed breath of its own. When you breathe above the backup rate, the backup rate does nothing; it only acts when you drop below it.
+
+**Why does my BiPAP prescription have a backup rate of 12?**
+
+A backup rate of 12 means that if more than five seconds pass without you starting a breath, the machine delivers one — keeping you at a minimum of 12 breaths a minute. It is prescribed when your breathing can pause on its own, so 12 guarantees adequate ventilation through those pauses.
+
+**Does a backup rate mean my breathing has stopped working?**
+
+No. A backup rate is a safety floor, not a takeover. Most people on an ST machine still trigger the large majority of their own breaths; the backup only fills in the gaps when a breath is late or missing. It means your drive can be unreliable in certain moments — typically deep sleep, REM, or with certain medications — not that you have stopped breathing on your own.
 
 ---
 
@@ -10957,6 +12355,20 @@ Any patient being initiated on BiPAP-ST mode should be titrated in a sleep labor
 
 For the ST-capable BiPAP platforms available in India, ranked against a published rubric, see our [Top 5 BiPAP machines in India (2026)](/top-5/bipap-machines/). Once the prescription specifies S/T versus a volume-assured mode, use the [BiPAP-ST device comparison](/guides/bipap-st-devices-india/) and [best BiPAP machines under ₹50,000](/guides/best-bipap-under-50000-india/) to compare price, reporting, warranty, and service within the correct class.
 
+## Frequently asked questions
+
+**What is the difference between BiPAP S and BiPAP ST?**
+
+S mode changes between IPAP and EPAP only when the patient triggers a breath. ST mode also delivers timed breaths at a prescribed backup rate when spontaneous triggering is absent or too slow.
+
+**Who needs a backup rate on BiPAP?**
+
+It is most relevant when breathing drive or muscle strength can become inadequate, including central apnea, neuromuscular disease, obesity hypoventilation, and selected chronic hypercapnic conditions.
+
+**Can a patient set the BiPAP backup rate themselves?**
+
+No. An inappropriate rate or timing can create poor synchrony or inadequate ventilation. A sleep or respiratory clinician should set and review it using symptoms, gas exchange, and device data.
+
 ---
 
 # BiPAP trigger, cycle, rise time, Ti Min and Ti Max explained
@@ -11065,6 +12477,24 @@ Trigger starts IPAP, cycle ends it, rise time shapes the climb, and Ti Min/Ti Ma
 Do not change them by copying another user’s settings. The right combination depends on respiratory mechanics, muscle strength, leak, mode and ventilation goals, and should be reviewed with waveform or download data.
 
 **Primary references:** [ResMed AirCurve 11 VAuto professional information](https://www.resmed.com/en-us/health-professionals/products/cpap/machines/aircurve-11-vauto/); [ResMed AirCurve user guide](https://document.resmed.com/en-us/documents/products/machine/aircurve-series/user-guide/aircurve-10-vauto-s-st-device-with-humidifier_user-guide_amer_spa.pdf); [PAP technology review](https://pmc.ncbi.nlm.nih.gov/articles/PMC4629962/); [home NIV setup review](https://pmc.ncbi.nlm.nih.gov/articles/PMC6558539/).
+
+## Frequently asked questions
+
+**What does trigger sensitivity mean on BiPAP?**
+
+It controls how much change in inspiratory flow the machine needs before switching to IPAP. More-sensitive triggering detects weaker efforts but can also misread leak, movement or cardiac oscillation as a breath.
+
+**What does cycle sensitivity mean on BiPAP?**
+
+It controls when the machine decides inspiration is ending and returns to EPAP, often using the fall in inspiratory flow from its peak. Earlier cycling shortens IPAP; later cycling prolongs it.
+
+**What is rise time?**
+
+Rise time is how quickly pressure increases from EPAP to IPAP. Too fast may feel like an air blast; too slow may feel as though the machine is not giving enough support at the start of the breath.
+
+**What do Ti Min and Ti Max do?**
+
+Ti Min prevents IPAP ending too quickly, while Ti Max prevents it continuing too long. They create a timing window within which flow-based cycling can follow the patient’s spontaneous breath.
 
 ---
 
@@ -12532,6 +13962,20 @@ If the leak diagnosis points to the mask rather than pressure or device configur
 
 *References: Manufacturer mask-vent datasheets — ResMed, Philips, Fisher & Paykel [CITATION]; ResMed AirSense 11 clinician manual — leak thresholds [CITATION]; CPAP adherence literature — leak as predictor [CITATION]; Indian climate and seasonal variation literature [CITATION].*
 
+## Frequently asked questions
+
+**Is some CPAP mask leak normal?**
+
+Yes. Every vented mask deliberately releases air to clear exhaled carbon dioxide. The problem is excess unintentional leak beyond that designed vent flow.
+
+**How can I tell a mask leak from a mouth leak?**
+
+Mask leaks often change with position or improve when the cushion is reseated; mouth leaks commonly accompany dry mouth and long leak plateaus. Report shape and an awake fit check at therapy pressure help separate them.
+
+**Will a full-face mask fix every CPAP leak?**
+
+No. It can contain oral leak, but it has a larger sealing surface and can itself leak. Correct size, cushion condition, hose routing, and pressure-time fit still matter.
+
 ---
 
 # CPAP pressure titration — in-lab attended, home auto-titration, and how to read the numbers
@@ -12646,6 +14090,20 @@ HHZ's editorial view: for straightforward moderate-severe OSA in otherwise healt
 For the CPAP machines that run these titration algorithms in the Indian market, ranked against a published rubric, see our [Top 5 CPAP machines in India (2026)](/top-5/cpap-machines/).
 
 Consult your sleep physician for interpretation of your specific titration result and for prescription decisions — the report, not the headline pressure number, is the clinically useful document.
+
+## Frequently asked questions
+
+**Is laboratory CPAP titration better than home auto-titration?**
+
+A lab sees sleep stages, position, effort, oxygen, and arousals directly and is preferable for complex disease. Home APAP is more accessible and can work well for uncomplicated obstructive sleep apnea when follow-up data are reviewed.
+
+**Should CPAP be set to the report's 95th-percentile pressure?**
+
+Not automatically. That statistic can be inflated by leak or short periods of high need and does not show event type. It should be interpreted with the full report and symptoms.
+
+**When should CPAP pressure be retitrated?**
+
+Seek review when symptoms or residual events persist, weight or health changes substantially, central events appear, pressure becomes intolerable, or the original study no longer reflects the clinical picture.
 
 ---
 
@@ -12872,6 +14330,24 @@ An oxygen concentrator does warm the room — it converts its power into heat an
 
 This is general information, not medical advice. Do not change your prescribed flow or therapy to manage room temperature; speak to your provider if heat or noise is genuinely affecting use.
 
+## Frequently asked questions
+
+**Why does my oxygen concentrator make the room hot?**
+
+Because nearly all the electricity it uses ends up as heat. A 350-watt concentrator dumps roughly 1,200 BTU per hour into the room — comparable to a small heater on low or a person sitting in the room continuously. Over a night in a small, closed room that can lift the temperature by a couple of degrees.
+
+**Does an oxygen concentrator increase humidity?**
+
+No. The machine pulls in room air and removes nitrogen to concentrate oxygen; it does not release water vapour into the room. People associate concentrators with moisture because of the humidifier bottle attached to the oxygen output — but that humidifies the gas you breathe through the cannula, not the room air.
+
+**Can I put an oxygen concentrator in a closed room?**
+
+It is better not to seal it in a small, unventilated space. The unit needs airflow around it to stay cool and to draw fresh intake air, and in a closed room its own heat can build up and, in hot weather, push it toward high-temperature derating or alarms. Leave clearance around it and some ventilation, or run extension tubing from a cooler adjacent room.
+
+**Is it safe to run an oxygen concentrator with the air conditioner on?**
+
+Yes, and in Indian summers it is often the sensible choice — AC keeps the room below the unit's high-temperature alarm threshold and keeps you comfortable. Just keep the concentrator's air intake and vents clear of curtains or furniture, and do not point the AC airflow directly at the oxygen tubing, which can cause condensation in the line.
+
 ---
 
 # EPR, C-Flex, A-Flex, Bi-Flex — exhalation pressure relief explained
@@ -13014,6 +14490,20 @@ HHZ's editorial view: EPR should be on for most patients by default at initiatio
 Consult your sleep physician if pressure intolerance, aerophagia, or unexpected AHI changes emerge after EPR-setting changes — these are the scenarios where small setting differences produce clinically meaningful outcomes.
 
 *References: ResMed AirSense EPR white paper [CITATION]; Philips DreamStation C-Flex / A-Flex / Bi-Flex clinician manual [CITATION]; BMC RESmart firmware documentation [CITATION]; CPAP comfort and adherence literature [CITATION].*
+
+## Frequently asked questions
+
+**Are EPR and C-Flex the same?**
+
+They serve the same comfort goal but use different manufacturer algorithms and timing. A numbered setting on one platform is not guaranteed to equal the same number on another.
+
+**Can exhalation relief make CPAP less effective?**
+
+It can in some patients because pressure during expiration helps keep the airway open. If obstructive events increase, the pressure range or relief setting may need clinical review.
+
+**Is CPAP with EPR the same as BiPAP?**
+
+No. Relief is a limited comfort feature within CPAP, while bilevel therapy independently controls inspiratory and expiratory pressures and can provide much greater pressure support and timed modes.
 
 ---
 
@@ -13270,6 +14760,20 @@ Consult your sleep physician if you remain symptomatic on CPAP despite a good AH
 
 *References: Guilleminault C et al — UARS classical description [CITATION]; AASM Manual v3 — RERA scoring [CITATION]; ResMed AutoSet algorithm white paper [CITATION]; Azarbarzin A et al, Eur Heart J 2019 — hypoxic burden [CITATION]; Philips DreamStation 2 clinician guide [CITATION].*
 
+## Frequently asked questions
+
+**What is the difference between flow limitation and hypopnea?**
+
+Flow limitation describes the shape and restriction of inspiration. A hypopnea must cross a defined airflow-reduction threshold and meet an oxygen-desaturation or arousal rule in a sleep study.
+
+**Can a CPAP machine detect flow limitation?**
+
+Many modern APAP devices estimate it from the flow waveform and may raise pressure in response, but brands report it differently and the result is not equivalent to a scored sleep study.
+
+**Should I increase CPAP pressure for flow limitation?**
+
+Not solely from one graph. Leak, nasal obstruction, sleep position, event type, comfort, and central apnea risk all matter; review persistent symptoms or limitation with the treating clinician.
+
 ---
 
 # Heated tubing on CPAP: what the evidence actually supports
@@ -13505,6 +15009,20 @@ Consult your treating physician for therapy decisions; this article is education
 The PSA oxygen concentrator is a remarkably durable piece of commodity chemical engineering. The underlying adsorption science — Na⁺ and Li⁺ cations in zeolite cages producing a quadrupole-moment-driven selectivity for N₂ over O₂ — has not materially changed in 40 years; what has changed is the cost of the zeolite, the availability of reliable oil-free compressors, and the maturity of the solenoid valves. The output spec of 93% ± 3% is not a shortcoming; it is what argon-limited zeolite PSA fundamentally produces, and it has been clinically adequate for the overwhelming majority of long-term oxygen therapy prescriptions written in the last three decades. A concentrator that delivers rated purity at rated flow, reliably, for three to five years, with a serviceable sieve bed and a factory-authorised service network in the owner's city, is doing everything it is asked to do.
 
 *Further reading for practitioners and biomedical engineers: the reference chapters on PSA chemistry in the adsorption literature, and the ISO 80601-2-69 standard for home oxygen concentrators. ([ISO 80601-2-69](https://www.iso.org/standard/73645.html))*
+
+## Frequently asked questions
+
+**Does an oxygen concentrator make or store oxygen?**
+
+It separates oxygen already present in room air and usually stores only a small buffer volume inside the machine. It does not contain a refillable high-pressure oxygen supply.
+
+**Why is concentrator oxygen about 93% rather than 100%?**
+
+Zeolite removes nitrogen efficiently but standard PSA does not separate argon from oxygen well. Residual argon plus small process losses set the practical medical-concentrator range.
+
+**Why do sieve beds wear out?**
+
+Moisture, dust, oil contamination, valve timing problems, and long-term zeolite attrition reduce nitrogen adsorption. High humidity and inadequate filtration accelerate the decline.
 
 ---
 
@@ -14047,6 +15565,20 @@ Consult your sleep physician when the AHI numbers across sources — lab, HSAT, 
 
 *References: AASM Manual for the Scoring of Sleep and Associated Events v3 [CITATION]; Berry RB et al, Sleep Breath 2013 [CITATION]; BaHammam AS et al — regional scoring variation [CITATION]; ResMed AutoSet algorithm white paper [CITATION]; manufacturer firmware release notes [CITATION].*
 
+## Frequently asked questions
+
+**What is the main difference between apnea and hypopnea?**
+
+An apnea is near-complete loss of airflow; a hypopnea is partial reduction that also meets a desaturation or arousal criterion in formal sleep-study scoring.
+
+**Why does CPAP AHI differ from sleep-study AHI?**
+
+A CPAP estimates events from its own airflow and pressure signals while a sleep study also measures sleep time, brain arousals, oxygen, and respiratory effort. Awake time and brand algorithms create further differences.
+
+**Are hypopneas less important than apneas?**
+
+Not necessarily. Repeated hypopneas can cause substantial oxygen drops and sleep fragmentation; overall frequency, duration, desaturation, symptoms, and comorbidity determine clinical importance.
+
 ---
 
 # IPAP vs EPAP vs pressure support: reading a BiPAP prescription
@@ -14166,6 +15698,24 @@ IPAP is the inspiratory pressure, EPAP is the expiratory baseline, and pressure 
 Do not change a bilevel prescription from the arithmetic alone. The same numbers behave differently across modes, diseases and synchrony settings, and ST or volume-assured users may depend on them for ventilation.
 
 **Primary references:** [ResMed sleep-lab titration guide](https://document.resmed.com/en-us/documents/products/titration/s9-vpap-tx/user-guide/1013904_Sleep_Lab_Titration_Guide_amer_eng.pdf); [AASM PAP treatment guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC6374094/); [PAP technology review](https://pmc.ncbi.nlm.nih.gov/articles/PMC4629962/).
+
+## Frequently asked questions
+
+**What does BiPAP 16/8 mean?**
+
+It means an inspiratory pressure (IPAP) of 16 cmH₂O and an expiratory pressure (EPAP) of 8 cmH₂O. The pressure support is the difference: 16 minus 8 equals 8 cmH₂O.
+
+**Is pressure support added on top of IPAP?**
+
+No. Pressure support is the difference between IPAP and EPAP, not a third pressure added to both. If EPAP is 8 and pressure support is 4, the resulting IPAP is 12.
+
+**Which setting treats obstructive apnea: IPAP or EPAP?**
+
+EPAP is the baseline pressure most directly used to splint the upper airway and prevent obstructive collapse. IPAP also contributes during inspiration, but the pressure-support gap is primarily the inspiratory assistance component.
+
+**Can I change IPAP or EPAP for comfort?**
+
+Do not change prescribed bilevel pressures without the treating clinician or respiratory therapist. A comfort change can alter airway control, ventilation, leak, tidal volume and carbon-dioxide clearance, especially in ST or volume-assured therapy.
 
 ---
 
@@ -14350,6 +15900,24 @@ A concentrator's 93% and a cylinder's 99% are clinically equivalent for home oxy
 
 This is general information, not medical advice. Follow the flow rate your physician prescribed, and raise any concern about your oxygenation — breathlessness, a falling pulse-oximeter reading — with them directly rather than adjusting therapy yourself.
 
+## Frequently asked questions
+
+**Is 93% oxygen as good as 99%?**
+
+For standard home oxygen therapy through a nasal cannula, yes. The clinical effect is set by how much oxygen reaches you per minute, which is governed by your prescribed flow rate, not by the difference between 93% and 99% purity. National and international bodies accept 93% ±3% as the standard for home concentrators.
+
+**What is the 7% in concentrator oxygen?**
+
+Mostly argon, with a trace of residual nitrogen. A concentrator pulls nitrogen out of room air using a zeolite sieve, but it cannot remove argon (which behaves similarly to oxygen in the process), so argon concentrates alongside the oxygen. Argon is inert and biologically harmless at these levels.
+
+**Is concentrator oxygen safe for long-term use?**
+
+Yes. Millions of long-term oxygen therapy patients worldwide use concentrators delivering 93% ±3% oxygen for years. The important thing is that the concentrator actually holds its rated purity at your prescribed flow — which is why units with a real-time purity display are useful for spotting drift over time.
+
+**When would I actually need a cylinder instead of a concentrator?**
+
+Cylinders earn their place as a power-cut backup, for short acute needs before a concentrator is arranged, for prescribed flows above what your concentrator delivers at rated purity, and for genuinely portable continuous-flow use away from mains power. The reason is practical — runtime, mobility, and backup — not the purity difference, which does not matter for ordinary home cannula therapy.
+
 ---
 
 # Is BiPAP the same as a ventilator? What it means to be prescribed one
@@ -14402,6 +15970,24 @@ For most home BiPAP users, daily life looks almost exactly like CPAP life: a mas
 BiPAP is non-invasive ventilation — it ventilates by assisting your breathing through a mask — but it is not the tube-based life-support ventilator the word usually brings to mind. "Bilevel" simply means two pressures instead of one. Being prescribed it most often means your apnea needed a higher pressure than a CPAP could deliver comfortably, though it is also used for COPD, hypoventilation, and neuromuscular conditions. The seriousness lives in the underlying diagnosis, not in the machine — and most users live an ordinary life around it.
 
 For the bilevel platforms available in India, ranked against a published rubric, see our [Top 5 BiPAP machines in India (2026)](/top-5/bipap-machines/). Discuss what your specific prescription means for your condition with your treating physician. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
+
+## Frequently asked questions
+
+**Is BiPAP a ventilator?**
+
+BiPAP is a type of non-invasive ventilation — it ventilates by assisting your breathing through a mask. But it is not an invasive life-support ventilator, which breathes for a patient through a tube in the windpipe. BiPAP supports the breathing you are still doing yourself; it does not replace it.
+
+**Is BiPAP the same as NIV?**
+
+BiPAP is one form of NIV (non-invasive ventilation). NIV is the umbrella term for any breathing support delivered through a mask rather than a tube; BiPAP — bilevel pressure — is the most common type of NIV used at home. So all home BiPAP is NIV, but NIV also covers other modes.
+
+**Does needing a BiPAP mean my condition is serious?**
+
+Not by itself. Many people use BiPAP simply because they could not tolerate the high pressure a CPAP required, which is a comfort issue, not a crisis. Others use it for COPD or hypoventilation. It signals that your breathing needs more support than basic CPAP — the seriousness depends entirely on the underlying condition, which your physician can put in context.
+
+**What's the difference between BiPAP and a home ventilator?**
+
+It is mostly about how dependent you are. A BiPAP supports your breathing for part of the day — typically while you sleep — while you breathe independently the rest of the time. A home ventilator is for people who need breathing support for most of the 24-hour cycle, often through a tracheostomy, with more modes, alarms, and battery backup. Some advanced BiPAPs blur this line, but the categories are distinct in regulation and support requirements.
 
 ---
 
@@ -14487,6 +16073,24 @@ A nasal cannula is usually the practical choice for stable low-flow home oxygen.
 Use the interface and flow on the prescription. If the prescribed setup no longer meets the person’s saturation target, contact the treating service rather than switching masks or increasing flow without a plan.
 
 **Primary references:** [British Thoracic Society oxygen guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC5531304/); [BTS home-oxygen equipment appendix](https://www.brit-thoracic.org.uk/document-library/guidelines/home-oxygen-for-adults/appendix-12-home-oxygen-equipment/); [AARC adult acute-care oxygen guideline](https://www.aarc.org/wp-content/uploads/2022/10/cpg-clinical-mangement-adult-o2-acute-settings.pdf).
+
+## Frequently asked questions
+
+**Does an oxygen mask give more oxygen than a nasal cannula?**
+
+A simple face mask generally supports a higher oxygen concentration than a conventional low-flow cannula, but the categories overlap and both are variable-performance devices. A Venturi mask and a non-rebreather mask behave differently again, so 'mask' is not one single oxygen dose.
+
+**Can I sleep with a nasal cannula?**
+
+Yes. A nasal cannula is usually the most practical interface for prescribed overnight home oxygen. Secure the tubing without tightening it around the neck, protect the skin over the ears, and follow the prescribed flow rather than changing it for sleep without review.
+
+**What if I breathe through my mouth while using a nasal cannula?**
+
+A cannula can still raise inspired oxygen in many mouth breathers because oxygen collects in the upper airway, but severe nasal obstruction and rapid mouth breathing make delivery less predictable. If targets are not met, the clinician should reassess the interface and flow.
+
+**Can I run a simple oxygen mask at 2 or 3 L/min?**
+
+No. A conventional simple face mask needs enough flow to flush exhaled carbon dioxide from the mask, commonly at least 5 L/min according to the mask instructions and oxygen guidelines. Low-flow home prescriptions are usually delivered by nasal cannula instead.
 
 ---
 
@@ -14797,6 +16401,20 @@ Positive-pressure therapy is a stepped family of modes, not a single interventio
 Consult your sleep physician or pulmonologist before initiating any positive-pressure therapy.
 
 *References: ATS/ERS statement on NIV; AASM clinical practice guidelines on positive-pressure therapy; SERVE-HF for ASV contraindication in HFrEF; Pickwick trial for TVAPS in OHS; individual mode-specific citations in the linked articles [CITATION].*
+
+## Frequently asked questions
+
+**Is NIV the same as BiPAP?**
+
+BiPAP is a commonly used form of non-invasive ventilation, but NIV is broader and also includes other pressure-support and volume-assured modes delivered without an invasive airway.
+
+**When is BiPAP preferred over CPAP?**
+
+It is considered when ventilation or carbon-dioxide clearance is inadequate, when a large pressure difference is needed, or when specific bilevel modes are clinically indicated—not simply because BiPAP is a more expensive machine.
+
+**When is a home ventilator needed instead of a BiPAP?**
+
+A ventilator becomes relevant when dependence, alarm requirements, backup power, circuit options, secretion management, or disease progression exceed what a sleep-therapy bilevel can safely provide.
 
 ---
 
@@ -16199,6 +17817,20 @@ Reporting should be part of the buying decision when a clinic reviews therapy re
 
 *References: ResMed AirView clinician guide; Philips Care Orchestrator technical documentation; BMC iCode user manual; [Home Medix Claro software description](https://homemedix.in/bpap/); Weaver TE et al, Sleep 2007; AASM clinical practice guidance on PAP therapy.*
 
+## Frequently asked questions
+
+**What numbers matter most on a CPAP report?**
+
+Start with nightly use, residual obstructive versus central events, excess leak, pressure distribution, and trends. A single total AHI can hide the reason therapy is underperforming.
+
+**Can patients read their own CPAP data?**
+
+Yes, for adherence and trend awareness, but event classification and treatment changes need context. Persistent symptoms, central events, severe leak, or low oxygen deserve clinician review.
+
+**Does Home Medix Claro work on Windows and macOS?**
+
+Yes. Home Medix Claro supports both Windows and macOS for compatible device-data review; confirm the required reader, cable, or SD-card workflow for the specific machine.
+
 ---
 
 # Simple oxygen mask vs non-rebreather: the reservoir bag changes everything
@@ -16278,6 +17910,24 @@ A simple mask is a moderate-concentration, no-reservoir interface used at 5–10
 New severe breathlessness, confusion, cyanosis, chest pain or a rapidly falling saturation is an emergency. Use the patient’s emergency plan and local emergency services rather than experimenting with masks.
 
 **Primary references:** [British Thoracic Society oxygen guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC5531304/); [BTS oxygen-equipment appendix](https://www.brit-thoracic.org.uk/document-library/guidelines/home-oxygen-for-adults/appendix-12-home-oxygen-equipment/); [European Respiratory Society device review](https://publications.ersnet.org/content/breathe/15/3/e108).
+
+## Frequently asked questions
+
+**How can I tell a simple mask from a non-rebreather?**
+
+A simple mask is just the mask body with side openings and oxygen tubing. A non-rebreather has a soft reservoir bag hanging below the mask and usually one-way valve discs at the bag connection and side ports.
+
+**What flow is used for a simple oxygen mask?**
+
+Common guidance is 5–10 L/min, with the precise minimum stated by the mask manufacturer. The minimum matters because fresh gas must flush exhaled carbon dioxide from the mask.
+
+**What flow is used for a non-rebreather?**
+
+A non-rebreather is commonly run at 10–15 L/min and often at 15 L/min in acute care. Use enough flow to pre-inflate the reservoir and keep it at least partly inflated during inspiration.
+
+**Is a non-rebreather the same as BiPAP?**
+
+No. A non-rebreather supplies oxygen but does not provide pressure support or assist ventilation. BiPAP provides positive airway pressure and can support ventilation; oxygen may be added separately when prescribed.
 
 ---
 
@@ -16904,6 +18554,24 @@ Oxygen is a prescribed medicine. Do not change a patient’s FiO₂ or target ra
 
 **Primary references:** [British Thoracic Society oxygen guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC5531304/); [BTS summary recommendations](https://www.brit-thoracic.org.uk/document-library/guidelines/emergency-oxygen/bts-guideline-for-oxygen-use-in-healthcare-and-emergency-settings-summary-of-recommendations/); [European Respiratory Society oxygen-device review](https://publications.ersnet.org/content/breathe/15/3/e108).
 
+## Frequently asked questions
+
+**What do the colours on a Venturi mask mean?**
+
+Each colour identifies an adapter designed for a particular oxygen concentration and minimum source flow. The exact colour mapping varies between manufacturers, so the printed percentage and L/min on the adapter are authoritative.
+
+**Does increasing the flow change the Venturi oxygen percentage?**
+
+Not when the adapter is operating correctly. Raising source flow above the stated minimum increases total gas flow while the entrainment ratio remains approximately the same. To change FiO₂, use the prescribed adapter or adjustable setting.
+
+**Why can a 28% Venturi use only 4 L/min but deliver much more total flow?**
+
+The oxygen jet pulls room air through the entrainment ports. Four litres per minute of source oxygen may entrain several times that amount of air, so total flow reaching the mask is much higher than the number on the wall flowmeter.
+
+**Which Venturi colour is used for COPD?**
+
+Controlled oxygen often begins at 24% or 28% for a patient at risk of hypercapnic respiratory failure, but the adapter, target saturation and escalation plan must come from the clinical prescription and prior oxygen-alert information.
+
 ---
 
 # Venturi mask vs non-rebreather mask: controlled oxygen or maximum oxygen?
@@ -16986,6 +18654,24 @@ Choose a Venturi mask when the clinical question is **“what controlled oxygen 
 This article explains equipment, not an individual prescription. New severe breathlessness, confusion, blue lips, chest pain or a saturation below the person’s emergency threshold requires urgent medical care.
 
 **Primary references:** [British Thoracic Society oxygen guideline](https://pmc.ncbi.nlm.nih.gov/articles/PMC5531304/); [BTS home-oxygen equipment appendix](https://www.brit-thoracic.org.uk/document-library/guidelines/home-oxygen-for-adults/appendix-12-home-oxygen-equipment/); [European Respiratory Society oxygen-device review](https://publications.ersnet.org/content/breathe/15/3/e108).
+
+## Frequently asked questions
+
+**Which gives more oxygen: a Venturi mask or a non-rebreather?**
+
+A properly set up non-rebreather generally delivers the higher concentration. A Venturi mask deliberately mixes oxygen with room air to deliver the percentage printed on its adapter; a non-rebreather uses a reservoir bag and high source flow to minimise room-air dilution.
+
+**Why is a Venturi mask commonly used for COPD?**
+
+Some people with COPD are at risk of hypercapnic respiratory failure and need oxygen titrated to a prescribed saturation range rather than given without a target. A Venturi mask provides a known concentration while blood gases and the clinical response are assessed.
+
+**Should the reservoir bag on a non-rebreather stay inflated?**
+
+Yes. Inflate it before applying the mask and use enough flow that it remains at least partly inflated during inspiration. A bag that collapses substantially means the setup is not supplying enough reservoir flow and needs immediate attention.
+
+**Can either mask be used routinely at home?**
+
+A Venturi mask may occasionally form part of a clinician-directed home plan, but most long-term home oxygen is delivered by nasal cannula. A non-rebreather is principally an acute-care or emergency bridge, not a substitute for a chronic home-oxygen prescription.
 
 ---
 
@@ -17247,6 +18933,20 @@ Stopping CPAP produces measurable physiological deterioration within days and ac
 
 Patients considering a CPAP break for tolerability reasons should first rule out whether the tolerability problem is addressable with mask, pressure, or humidification adjustment. Patients considering a break for clinical reasons — "I feel fine, I don't think I need it" — should discuss this with their sleep physician before abandoning therapy, because the subjective absence of sleepiness does not mean the underlying vascular and metabolic costs have gone away. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/)).
 
+## Frequently asked questions
+
+**Does CPAP cure sleep apnea?**
+
+Usually no. It mechanically prevents airway collapse during use. Some underlying cases improve after substantial weight loss, surgery, or other change, but that requires reassessment rather than assuming a cure.
+
+**Is missing one night of CPAP dangerous?**
+
+The airway obstruction can return immediately, with next-day sleepiness and driving or workplace risk. Individual medical risk varies; use extra caution and follow the treating clinician's advice.
+
+**Can I restart CPAP after not using it for months?**
+
+Ask for review if weight, cardiopulmonary health, symptoms, mask, or prescription may have changed. The machine, humidifier, filters, tubing, and stored data should also be checked before resuming.
+
 ---
 
 # What is APAP (AutoSet) mode — and is it the same as CPAP?
@@ -17308,6 +19008,24 @@ How to find and interpret these on your app or in OSCAR is covered in [reading y
 APAP and CPAP are not rival machines — APAP is a CPAP running in an auto-adjusting mode, and AutoSet is just ResMed's name for it. A fixed CPAP holds one pressure; an APAP works a range, giving you more pressure only when you need it, which often makes it gentler for new users and adaptable over time. Whether fixed or auto is right for you, and how wide the range should be, are clinical decisions from your titration data — not settings to flip on a hunch.
 
 For the machines that run these modes in the Indian market, ranked against a published rubric, see our [Top 5 CPAP machines in India (2026)](/top-5/cpap-machines/). Discuss any mode or range change with your sleep physician. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
+
+## Frequently asked questions
+
+**Is APAP the same as CPAP?**
+
+An APAP is a kind of CPAP. A plain CPAP holds one fixed pressure all night; an APAP automatically raises and lowers the pressure within a prescribed range as your needs change through the night. Most current machines can do both — fixed mode or auto mode — so the difference is usually a setting, not a separate device.
+
+**Is AutoSet the same as APAP?**
+
+Yes. AutoSet is simply ResMed's brand name for their APAP algorithm. Philips calls their version 'Auto', BMC and others use 'Auto-CPAP' — all describe a CPAP that auto-adjusts pressure within a range. The algorithms differ in detail, but the category is the same.
+
+**Should I use CPAP or APAP mode?**
+
+It depends on your titration. A patient with a clear, stable single effective pressure often does well on fixed CPAP; a patient whose needs vary by body position, sleep stage, or over time often does better with APAP's range. It is a clinical decision your sleep physician should make from your data — not a setting to switch on your own.
+
+**Is APAP good for a first-time CPAP user?**
+
+Often, yes. Because an APAP only delivers high pressure when it detects you need it, new users frequently tolerate it better than a fixed pressure held all night, and the recorded pressure data also helps fine-tune the long-term prescription. But for some conditions a fixed or bilevel mode is required from the start, so the choice still belongs with your physician.
 
 ---
 
@@ -18020,5 +19738,23 @@ If you have been told you have treatment-emergent central apnea, the useful thin
 Central apneas appearing after you start CPAP are treatment-emergent (complex) central sleep apnea — your airway is now open, but your breathing control system is briefly overshooting and pausing the signal to breathe as it adjusts to more efficient breathing. It happens to a minority, shows up as "Clear Airway" events, and most often fades within about eight weeks if you keep using the machine. The cases that persist are managed by switching to a mode with a backup rate, chosen with your cardiac status in mind — not by stopping therapy.
 
 This is general information, not medical advice. Do not stop CPAP because of central events; review the pattern with your sleep physician, who will decide whether and when a mode change is warranted. ([AASM Practice Guidelines](https://aasm.org/clinical-resources/practice-standards/practice-guidelines/))
+
+## Frequently asked questions
+
+**Why does CPAP cause central apneas?**
+
+In susceptible people, the pressure and improved airflow from CPAP can briefly destabilise the body's carbon-dioxide control loop, causing the brain to pause its breathing signal — a central apnea — even though the airway is now open. It is thought to be a temporary readjustment of the breathing control system rather than a sign of harm.
+
+**What is complex sleep apnea?**
+
+Complex sleep apnea (also called treatment-emergent central sleep apnea) is when a person who started CPAP for obstructive sleep apnea develops central apneas on therapy. The obstruction is treated, but central events emerge. In most people these fade with continued CPAP use over a few weeks.
+
+**Do treatment-emergent central apneas go away?**
+
+Usually yes. The majority of cases resolve on their own within about eight weeks of consistent CPAP use as the breathing control system re-stabilises. The important thing is not to stop CPAP in the meantime. If centrals are still prominent after that window, your physician may switch you to a mode with a backup rate.
+
+**What does 'Clear Airway' mean on my CPAP report?**
+
+A Clear Airway event is the machine's label for an apnea where it detected that your airway was open during the pause — pointing to a central cause (no breathing effort) rather than an obstruction. A cluster of Clear Airway events, especially appearing after you started therapy, is the typical signature of treatment-emergent central sleep apnea.
 
 ---
