@@ -2,7 +2,7 @@
 
 > Respiratory-equipment guides for seven countries, a product directory and device comparisons for India, and a clinical reference library.
 
-HHZ currently tracks 96 oxygen concentrator product records, 80 oxygen concentrator reviews, 26 CPAP/BiPAP product records, 26 CPAP/BiPAP reviews, 71 comparison records, and 71 written comparison pages. The guide library has 83 buyer guides, 6 city-specific 5 LPM buying pages, 30 city service/dealer/repair/price/rental pages, 17 category buyer hubs, and the clinical library has 80 educational explainers.
+HHZ currently tracks 97 oxygen concentrator product records, 81 oxygen concentrator reviews, 26 CPAP/BiPAP product records, 26 CPAP/BiPAP reviews, 71 comparison records, and 71 written comparison pages. The guide library has 84 buyer guides, 6 city-specific 5 LPM buying pages, 30 city service/dealer/repair/price/rental pages, 17 category buyer hubs, and the clinical library has 80 educational explainers.
 
 Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 LPM, Home Medix HM-BV-30 BiPAP, Home Medix HM-CV-20 Auto CPAP. They are scored in the same product and comparison framework as Philips, Oxymed, ResMed, Nidek, DeVilbiss, BMC, Yuwell, and other brands.
 
@@ -159,6 +159,7 @@ Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 
 - [Philips EverFlo discontinued: India alternatives for 5 LPM buyers](https://homehealthzone.com/guides/philips-everflo-discontinued-india-alternatives/): What Indian buyers should do now that Philips EverFlo is discontinued globally: old-stock risks, spare-parts questions, and 5 LPM alternatives including Oxymed Mini and Home Medix HM-KV.
 - [Best Philips EverFlo alternative in India (2026)](https://homehealthzone.com/guides/philips-everflo-replacement-india/): Why Home Medix HM-KV is HHZ's first-choice Philips EverFlo replacement, plus Oxymed, Nidek, AirSep, and DeVilbiss alternatives.
 - [Best Philips Millennium M10 alternatives in India](https://homehealthzone.com/guides/philips-millennium-m10-alternatives-india/): Looking for a Philips Millennium M10 alternative in India? Compare Home Medix HM-KX, DeVilbiss, Nidek, and Oxymed 10 LPM options.
+- [New Philips Oxygenate 5 in India: is it really new?](https://homehealthzone.com/guides/philips-oxygenate-5-konsung-ksw-5/): Philips Oxygenate 5 is a Chinese-made Konsung KSW-5. Examine its manufacturer, FDA context, India price, warranty and brand claims.
 - [Portable vs stationary: choosing the right concentrator](https://homehealthzone.com/guides/portable-vs-stationary-concentrator/): How to choose between a portable oxygen concentrator (POC) and a stationary home unit: continuous flow vs pulse dose, battery life, flight rules for travel from India, and who each class actually suits.
 - [Quiet and lightweight 5 LPM oxygen concentrators in India](https://homehealthzone.com/guides/quiet-lightweight-5-lpm-oxygen-concentrators-india/): Combined buyer guide for quiet, lightweight 5 LPM oxygen concentrators in India: bedroom use, caregiver handling, Home Medix HM-KV, Oxymed Mini, Nidek, AirSep, and EverFlo caveats.
 - [Quietest CPAP machines in India](https://homehealthzone.com/guides/quietest-cpap-machines-india/): Compare low-noise CPAP machines in India, including AirSense 10, Z2 Auto, AirSense 11, Deckmount, and Home Medix HM-CV-20.

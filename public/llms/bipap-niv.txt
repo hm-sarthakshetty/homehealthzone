@@ -7407,6 +7407,76 @@ For most Indian homes, HM-KX is the best Philips Millennium M10 alternative beca
 
 ---
 
+# New Philips Oxygenate 5 in India: is it really new?
+
+Source: https://homehealthzone.com/guides/philips-oxygenate-5-konsung-ksw-5/
+
+**The Philips Oxygenate 5 is a Chinese-made oxygen concentrator manufactured by Jiangsu Konsung.** A Philips technical sheet identifies **China** as the country of production, **Jiangsu Konsung Bio-Medical Science And Technology Co., Ltd.** as manufacturer and **KSW-5** as the manufacturer model code. Philips' own brochure identifies Konsung as manufacturer and Philips North America as distributor. The Philips name on the cabinet should be read alongside those facts. [Philips technical sheet, page 1](https://www.elettromedicali.it/wp-content/plugins/ant-webcommerce/global/files/20-05-2025-14-55-34.pdf?x89244=#page=1) · [Philips brochure, page 8](https://medidyne.se/wp-content/uploads/sites/7/ENG-Philips-Oxygenate-5-Brochure.pdf#page=8).
+
+For an Indian buyer drawn to the Respironics name, the question is straightforward: **what does the Philips-branded offer add to the Konsung-made device?** A familiar logo does not establish a new Philips-developed concentrator. Ask for evidence of any claimed engineering differences and a clear account of the warranty and service included in the price.
+
+## A Chinese manufacturer behind the Philips branding
+
+The manufacturer identity is documented, rather than inferred from similar photographs. A German medical-aid record identifies **Oxygenate 5 (KSW-5)**, article **1156380**, and names Konsung as manufacturer. The Oxygenate 5 manual also uses the KSW-5 designation and gives Konsung's address in Jiangsu Province, China. Philips India's product page carries the corresponding 1156380 product code. [German medical-aid listing, page 1115](https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/hilfsmittel/neue_produkte/2025_04_01/2025_04_01_Veroeffentlichung_Neuaufnahme_Hilfsmittel.pdf#page=1115) · [Oxygenate 5 manual](https://www.lungenliga.ch/sites/default/files/documents/philips-oxygenate-5-bedienungsanleitung-en.pdf) · [Philips India product page](https://www.philips.co.in/healthcare/product/HC1156380/oxygenate-5-stationary-oxygen-concentrator).
+
+These records support calling Oxygenate 5 a **Philips-branded, Chinese-manufactured Konsung KSW-5**. They do not reveal which company designed every component or what engineering changes Philips may have requested. An assertion of special Philips engineering therefore needs its own evidence; it cannot be established from the badge.
+
+<OxygenateComparisonImages />
+
+Left: the Philips-branded product in its India brochure. Right: a Konsung-branded concentrator supplied to HHZ. The photographs illustrate the branding; the documents establish the model relationship. A photograph alone cannot verify internal components.
+
+## New India launch, older Konsung model name
+
+Philips announced Oxygenate 5 in India on **29 October 2026**. Konsung had already published an announcement about its **KSW-5 in October 2021**. The KSW-5 name therefore predates the Philips India launch by years. [Philips India launch](https://www.philips.co.in/about/news-and-insights/press-release/philips-strengthens-its-sleep-and-respiratory-care-portfolio-with-the-launch-of-oxygenate-5-in-india) · [Konsung's 2021 announcement](https://www.konsungmedical.com/news/konsung-ksw-5-oxygen-concentrato/).
+
+A new launch under the Philips name does not establish a newly developed concentrator. Equally, the older model name does not prove that every production version is unchanged. The supported conclusion is that Philips is bringing a Konsung-manufactured KSW-5 to India under its brand; any claimed technical advancement should be identified and demonstrated for the exact configuration being sold.
+
+## Philips Respironics' FDA problems: what the record actually says
+
+On **9 April 2024**, a U.S. court entered a consent decree against Philips Respironics and related defendants. FDA described restrictions, with exceptions, on manufacturing and distributing devices at or from specified U.S. facilities until remediation and compliance requirements were met. The action followed the 2021 recall of certain ventilators, CPAP and BiPAP machines involving sound-abatement foam. [FDA's consent-decree announcement](https://www.fda.gov/news-events/press-announcements/federal-court-enters-consent-decree-against-philips-respironics-following-recall-certain-sleep).
+
+That is a serious regulatory history, but it is **not a blanket revocation of every Philips FDA authorization**. The Oxygenate 5 India launch followed the decree; the records reviewed do not establish that the decree caused Philips to select Konsung, or that Oxygenate 5 shares the recalled devices' foam problem. The regulatory action and the sourcing decision should not be presented as a proven cause-and-effect story.
+
+Konsung's KSW-5 model family also has its own FDA record: **K223740** lists KSW-5, KSN-5 and KSOC-5 and a **substantially equivalent decision dated 5 October 2023**. That predates the 2024 decree. It does not establish U.S. clearance or availability of the exact India-sold Oxygenate 5 configuration, but it is relevant evidence when discussing the Chinese manufacturer's regulatory history. [FDA K223740 record](https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfpmn/pmn.cfm?ID=K223740).
+
+## Philips Oxygenate 5 vs Konsung KSW-5
+
+
+
+| What to compare | Philips Oxygenate 5 | Separately sold Konsung KSW-5 |
+| --- | --- | --- |
+| Brand and manufacturer | Philips branding; Jiangsu Konsung is the documented manufacturer. | Konsung branding; verify the exact manufacturer and version on the label. |
+| Country of production | Philips technical sheet identifies China. | Confirm the supplied unit's label and origin documents. |
+| Manufacturer model | KSW-5, Philips article 1156380. | Confirm the exact KSW-5 version; the name alone does not identify every configuration. |
+| Flow and concentration | Philips India lists 0.5–5 L/min and 93% ±3% oxygen concentration. | Use the exact unit's manual and specification sheet; do not copy values across versions. |
+| Weight and sound | Philips India lists 18 kg and sound below 40 dB(A) under specified conditions. | Confirm the configuration and sound test method before comparing. |
+| Electrical rating | Philips India lists 230 V / 50 Hz and less than 360 VA. | Verify the voltage, frequency and rating for the India-sold unit. |
+| Price in India | One retailer listed ₹45,000 on 3 November 2026; confirm the complete total. | A dated historical India price for a confirmed KSW-5 was not verified. |
+| Warranty | Philips India advertises a three-year limited warranty and a 10,000-hour sieve warranty, subject to written terms. | Obtain the actual seller's warranty issuer, coverage and claim process. |
+| Service and package | Additional filters are advertised; confirm local repair arrangements and all inclusions. | Confirm the package, repair route, parts availability and charges in writing. |
+
+
+
+The specifications are manufacturer-published claims, not HHZ measurements. The electrical value in VA describes apparent power and should not be treated as measured electricity use in watts. [Philips India specifications](https://www.philips.co.in/healthcare/product/HC1156380/oxygenate-5-stationary-oxygen-concentrator).
+
+## What are you paying for beyond the Philips name?
+
+One Indian retailer listed Oxygenate 5 at **₹45,000** when checked on 3 November 2026. That is a single asking price; confirm taxes, availability, delivery, installation and accessories. A dated India price for an earlier, confirmed Konsung KSW-5 was not verified, so this article does not establish a historical price markup. The older generic HHZ Konsung 5L record cannot fill that gap because it lacks a dated source and exact model identification. [India retail listing](https://respbuy.com/product/philips-oxygenate-5-oxygen-concentrator/).
+
+Philips advertises a **three-year limited warranty**, a **10,000-hour sieve warranty** and additional filters. Those are specific parts of the offer that buyers can examine. Obtain the exclusions, claim contact, repair location, labour and transport charges, parts availability and expected turnaround in writing. A service promise has value only if it applies to your unit and location. [Philips India launch and warranty information](https://www.philips.co.in/about/news-and-insights/press-release/philips-strengthens-its-sleep-and-respiratory-care-portfolio-with-the-launch-of-oxygenate-5-in-india).
+
+Country of manufacture alone does not establish quality or performance. The reason to scrutinise this offer is the gap between what a familiar Philips name might lead a buyer to assume and what the product documents actually establish about its manufacturer and model.
+
+## Our verdict
+
+**Evaluate Oxygenate 5 as a Chinese-made Konsung KSW-5 distributed under the Philips name.** Do not pay extra on the assumption that the logo establishes a newly developed Philips concentrator or superior performance. Any higher price should be justified by documented differences, applicable warranty and service you can actually use.
+
+The manufacturer identity is clear. A claim of distinctive Philips engineering, a historical price premium or a regulatory-driven supplier switch needs additional evidence. Ask the seller to demonstrate the value of the particular offer before paying for the reputation attached to its badge.
+
+Use oxygen only as prescribed by a qualified clinician. See the [Philips Oxygenate 5 product listing](/oxygen-concentrators/philips-oxygenate-5/) for its published India specifications.
+
+---
+
 # Quietest CPAP machines in India
 
 Source: https://homehealthzone.com/guides/quietest-cpap-machines-india/

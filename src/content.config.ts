@@ -55,6 +55,7 @@ const productSchema = z.object({
   source_url: z.string(),
   product_name: z.string(),
   brand: z.string().default(''),
+  manufacturer_name: z.string().optional(),
   brand_href: z.string().nullable().optional(),
   category: z.string().default(''),
   price_current: z.string().nullable().optional(),

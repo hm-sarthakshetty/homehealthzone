@@ -48,10 +48,10 @@ if (product.category) ld.category = product.category;
 if (product.slug) ld.sku = product.slug;
 if (product.slug) ld.mpn = product.slug;
 if (product.source_url?.startsWith('http')) ld.sameAs = product.source_url;
-if (product.brand) {
+if (product.manufacturer_name || product.brand) {
   ld.manufacturer = {
     '@type': 'Organization',
-    name: product.brand,
+    name: product.manufacturer_name || product.brand,
   };
 }
 

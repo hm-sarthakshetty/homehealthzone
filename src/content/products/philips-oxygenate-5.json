@@ -1,0 +1,134 @@
+{
+  "slug": "philips-oxygenate-5",
+  "source_url": "https://www.philips.co.in/healthcare/product/HC1156380/oxygenate-5-stationary-oxygen-concentrator",
+  "product_name": "Philips Oxygenate 5",
+  "brand": "Philips",
+  "brand_href": "",
+  "category": "5 LPM",
+  "price_current": "45,000",
+  "price_mrp": null,
+  "price_symbol": "₹",
+  "stock": "Confirm availability with seller",
+  "images": [
+    {
+      "src": "/images/products/philips-oxygenate-5-ksw-5.webp",
+      "alt": "White oxygen concentrator with a handle, humidifier bottle and Konsung branding",
+      "original": "Image supplied by user"
+    }
+  ],
+  "key_features": {
+    "Type": "Stationary, continuous flow",
+    "Continuous Flow": "0.5–5 L/min",
+    "Oxygen concentration": "93% ±3%",
+    "Weight": "18 kg",
+    "Sound level": "<40 dB(A), manufacturer specification",
+    "Electrical rating": "<360 VA; 230 V / 50 Hz",
+    "Warranty": "3-year limited device warranty; 10,000-hour sieve warranty, subject to terms",
+    "Manufacturer": "Jiangsu Konsung, China",
+    "Country of production": "China, per Philips technical sheet"
+  },
+  "spec_tables": {
+    "Technical details": {
+      "Model designation": "KSW-5 (Oxygenate 5, product code 1156380)",
+      "Continuous Flow": "0.5–5 L/min",
+      "Oxygen concentration": "93% ±3%, manufacturer specification",
+      "Weight": "18 kg",
+      "Dimensions": "41 × 26.5 × 56.6 cm ±2 cm, per Philips India",
+      "Sound level": "<40 dB(A), manufacturer specification; operating conditions may affect sound",
+      "Power supply": "230 V / 50 Hz",
+      "Power consumption": "<360 VA (apparent power rating, not measured watts)",
+      "Outlet pressure": "30–80 kPa",
+      "Flow display": "Digital flowmeter",
+      "Filtration": "Nine levels of filtration, per Philips India announcement"
+    },
+    "Package and warranty": {
+      "Warranty": "Philips India describes a 3-year limited warranty and a 10,000-hour sieve warranty. Obtain full written terms and exclusions for the unit.",
+      "Filters": "Philips India says the package ships with four additional air inlet filters and one additional air filter; confirm exact box contents with the seller.",
+      "Price and service": "One India retailer listed ₹45,000 on 3 November 2026; confirm tax, delivery, installation and location-specific service."
+    },
+    "Manufacturer and origin": {
+      "Manufacturer": "Jiangsu Konsung Bio-Medical Science & Technology Co., Ltd.",
+      "Country of production": "China, per Philips technical sheet; verify the individual India-sold unit label",
+      "Philips role": "Brand and distribution; published brochure names Konsung as manufacturer",
+      "Manufacturer model": "KSW-5; Philips article number 1156380"
+    }
+  },
+  "faqs": [
+    {
+      "q": "Is Philips Oxygenate 5 made in China?",
+      "a": "A Philips technical sheet identifies China as the country of production and Jiangsu Konsung as the manufacturer of Oxygenate 5, model KSW-5. Philips distributes it. Confirm the label and documents for the individual India-sold unit."
+    },
+    {
+      "q": "Is Philips Oxygenate 5 a Konsung KSW-5?",
+      "a": "A German medical-device listing identifies Oxygenate 5, product 1156380, as model KSW-5 made by Jiangsu Konsung. Philips distributes Oxygenate 5. Check the label and documentation of an individual unit, since configurations and warranty terms may differ by market."
+    },
+    {
+      "q": "How much does Oxygenate 5 cost in India?",
+      "a": "An Indian retailer listed the Oxygenate 5 for ₹45,000 on 3 November 2026. Confirm taxes, availability, delivery, setup and accessories before ordering."
+    },
+    {
+      "q": "What warranty is advertised in India?",
+      "a": "Philips India describes a three-year limited device warranty and a 10,000-hour sieve warranty. Ask for the applicable written conditions, exclusions and claim process."
+    }
+  ],
+  "description_text": "Philips Oxygenate 5 is a Chinese-made Konsung KSW-5 sold under Philips branding, with 0.5–5 L/min continuous flow. Specifications and India buying checks.",
+  "related_links": [
+    "/oxygen-concentrators/konsung-5l/",
+    "/oxygen-concentrators/philips-everflo-5-lpm/"
+  ],
+  "normalized_specs": {
+    "weight_kg": 18,
+    "flow_min_lpm": 0.5,
+    "flow_max_lpm": 5,
+    "purity_min": 90,
+    "purity_max": 96,
+    "indian_voltage": true,
+    "warranty_years": 3
+  },
+  "dateModified": "2026-11-03",
+  "evidence": [
+    {
+      "label": "Philips India Oxygenate 5 specifications",
+      "url": "https://www.philips.co.in/healthcare/product/HC1156380/oxygenate-5-stationary-oxygen-concentrator",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "label": "Philips India launch and warranty information",
+      "url": "https://www.philips.co.in/about/news-and-insights/press-release/philips-strengthens-its-sleep-and-respiratory-care-portfolio-with-the-launch-of-oxygenate-5-in-india",
+      "checked_at": "2026-11-03"
+    },
+    {
+      "label": "German medical-aid listing: Oxygenate 5 (KSW-5), product 1156380",
+      "url": "https://www.gkv-spitzenverband.de/media/dokumente/krankenversicherung_1/hilfsmittel/neue_produkte/2025_04_01/2025_04_01_Veroeffentlichung_Neuaufnahme_Hilfsmittel.pdf",
+      "checked_at": "2026-11-03",
+      "note": "Names Jiangsu Konsung as manufacturer; the record describes a German-market listing."
+    },
+    {
+      "label": "India retailer listing (indicative price)",
+      "url": "https://respbuy.com/product/philips-oxygenate-5-oxygen-concentrator/",
+      "checked_at": "2026-11-03",
+      "note": "Listed at ₹45,000; taxes, delivery and availability require confirmation."
+    },
+    {
+      "label": "Philips technical sheet: manufacturer, KSW-5 designation and China production",
+      "url": "https://www.elettromedicali.it/wp-content/plugins/ant-webcommerce/global/files/20-05-2025-14-55-34.pdf?x89244=",
+      "checked_at": "2026-11-03",
+      "note": "Philips-authored Italian-market document dated 28 April 2025; page 1 identifies country of production as China."
+    },
+    {
+      "label": "Philips brochure: Konsung manufacturer and Philips distributor",
+      "url": "https://medidyne.se/wp-content/uploads/sites/7/ENG-Philips-Oxygenate-5-Brochure.pdf",
+      "checked_at": "2026-11-03",
+      "note": "May 2025 brochure; manufacturer and distributor are identified on the final page."
+    }
+  ],
+  "manufacturer_name": "Jiangsu Konsung Bio-Medical Science & Technology Co., Ltd.",
+  "prices": {
+    "IN": {
+      "amount": 45000,
+      "currency": "INR",
+      "source_url": "https://respbuy.com/product/philips-oxygenate-5-oxygen-concentrator/",
+      "checked_at": "2026-11-03"
+    }
+  }
+}
