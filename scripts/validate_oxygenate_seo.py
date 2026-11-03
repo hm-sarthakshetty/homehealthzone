@@ -169,13 +169,20 @@ visible = ' '.join(' '.join(comparison.visible_parts).split())
 for text in ['Konsung-branded reference photograph', '₹44,100', '₹45,000–₹55,000', 'HHZ budget estimate', '27.8%']:
     assert text in visible, text
 assert 'Head-to-head scored against' not in visible
-for key in ['Warranty', 'Oxygen concentration', 'Flow control / display', 'Electrical rating (as published)', 'Model designation', 'Manufacturer']:
+for key in ['Warranty', 'Oxygen concentration', 'Flow control / display', 'Electrical rating (as published)', 'Model designation', 'Manufacturer', 'Country of production', 'Power supply', 'Outlet pressure', 'Filtration']:
     matches = [row for row in comparison.spec_rows if row[0] == key]
     assert len(matches) == 1, (key, matches)
     assert all(cell and cell != 'Not documented' for cell in matches[0][1:]), matches
 warranty = next(row for row in comparison.spec_rows if row[0] == 'Warranty')
 assert '3 years or 10,000 operating hours, whichever comes first' in warranty[1]
 assert '3-year limited warranty' in warranty[2] and '10,000-hour sieve warranty' in warranty[2]
+for key, value in {'Country of production': 'India', 'Power supply': '230 V / 50 Hz', 'Outlet pressure': '40–80 kPa', 'Filtration': 'HEPA filter'}.items():
+    assert next(row for row in comparison.spec_rows if row[0] == key)[1] == value
+hm_page = Page(hm_route)
+assert 'specification-clarifications' in hm_page.ids
+hm_schema = next(s for s in hm_page.schemas if s.get('@type') == 'Product')
+assert hm_schema['countryOfOrigin']['name'] == 'India'
+assert 'flyer does not list supply voltage or outlet pressure' in visible
 assert 'HHZ score: Not yet scored' in visible
 assert 'rubric-and-scoring-weights' in Page('/methodology/').ids
 faqs = next(s for s in comparison.schemas if s.get('@type') == 'FAQPage')['mainEntity']

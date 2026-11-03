@@ -8,7 +8,7 @@ const readProduct = async (slug) => JSON.parse(await readFile(new URL(`../src/co
 test('actual HM-KV and Oxygenate records have one complete warranty, purity, power and flow-control row', async () => {
   const [hm, oxygenate] = await Promise.all([readProduct('home-medix-5-lpm'), readProduct('philips-oxygenate-5')]);
   const rows = buildComparisonSpecRows(hm, oxygenate);
-  for (const key of ['Warranty', 'Oxygen concentration', 'Flow control / display', 'Electrical rating (as published)', 'Model designation', 'Manufacturer']) {
+  for (const key of ['Warranty', 'Oxygen concentration', 'Flow control / display', 'Electrical rating (as published)', 'Model designation', 'Manufacturer', 'Country of production', 'Power supply', 'Outlet pressure', 'Filtration']) {
     const matches = rows.filter((row) => row.key === key);
     assert.equal(matches.length, 1, key);
     assert.ok(matches[0].a && matches[0].b, key);
@@ -19,6 +19,9 @@ test('actual HM-KV and Oxygenate records have one complete warranty, purity, pow
   const power = rows.find((row) => row.key === 'Electrical rating (as published)');
   assert.match(power.a, /320 W/);
   assert.match(power.b, /360 VA/);
+  for (const [key, value] of Object.entries({ 'Country of production': 'India', 'Power supply': '230 V / 50 Hz', 'Outlet pressure': '40–80 kPa', 'Filtration': 'HEPA filter' })) {
+    assert.equal(rows.find((row) => row.key === key).a, value);
+  }
   assert.equal(new Set(rows.map((row) => row.key.toLowerCase())).size, rows.length);
 });
 

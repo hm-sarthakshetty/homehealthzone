@@ -16052,11 +16052,15 @@ For current specifications, price and buying information, visit the **[official 
 
 | Buying criterion | Home Medix HM-KV 5 LPM | Philips Oxygenate 5 |
 | --- | --- | --- |
+| Country of production | India | China, per Philips technical sheet |
 | Continuous flow | 0.5–5 L/min | 0.5–5 L/min |
 | Published oxygen concentration | 93% ±3% | 93% ±3% |
 | Nominal weight | 13 kg | 18 kg |
 | Published sound | ≤40 dB(A) | Below 40 dB(A), subject to conditions |
 | Electrical rating | 320 W, manufacturer-published | Below 360 VA, manufacturer-published apparent power |
+| Power supply | 230 V / 50 Hz, site-owner-supplied | 230 V / 50 Hz, per Philips India |
+| Outlet pressure | 40–80 kPa, site-owner-supplied | 30–80 kPa, per Philips India |
+| Filtration | HEPA filter | Nine levels of filtration, per Philips India |
 | Flow display/control | Electronic flowmeter | Digital flowmeter |
 | Nebulization | Integrated, per Home Medix | Provision not established by the reviewed catalogue; verify the exact offer. |
 | Device warranty | 3 years or 10,000 operating hours, whichever comes first | Three-year limited device warranty; separate 10,000-hour sieve warranty advertised |
@@ -16067,6 +16071,8 @@ For current specifications, price and buying information, visit the **[official 
 
 
 Sources: [current HM-KV manufacturer page](https://www.homemedix.in/shop/hm-kv), [HM-KV brochure](https://www.homemedix.in/brochures/2026-10/hm-kv-brochure.pdf), [Philips India specifications](https://www.philips.co.in/healthcare/product/HC1156380/oxygenate-5-stationary-oxygen-concentrator) and [Philips India warranty/package announcement](https://www.philips.co.in/about/news-and-insights/press-release/philips-strengthens-its-sleep-and-respiratory-care-portfolio-with-the-launch-of-oxygenate-5-in-india). The HM-KV brochure has a W/VA inconsistency; the current Home Medix page explicitly confirms 320 W. These are published ratings, not HHZ measurements.
+
+HM-KV source note: India origin and HEPA filtration were confirmed by the site owner on 3 November 2026. The supplied flyer does not list supply voltage or outlet pressure; the 230 V / 50 Hz and 40–80 kPa entries use the site owner’s supplied catalogue values. See the [HM-KV specification clarifications](/oxygen-concentrators/home-medix-5-lpm/#specification-clarifications).
 
 ## Weight: HM-KV is nominally 5 kg lighter
 

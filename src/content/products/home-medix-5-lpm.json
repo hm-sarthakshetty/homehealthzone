@@ -51,7 +51,10 @@
       "Nebulization": "Integrated",
       "SOS alert": "One-touch audible alert; not a remote clinical monitoring service",
       "Safety alarms": "Low oxygen, power failure and high temperature per current manufacturer page",
-      "Model designation": "HM-KV, per manufacturer brochure"
+      "Model designation": "HM-KV, per manufacturer brochure",
+      "Power supply": "230 V / 50 Hz",
+      "Outlet pressure": "40–80 kPa",
+      "Filtration": "HEPA filter"
     },
     "Package and warranty": {
       "Warranty": "3 years or 10,000 operating hours, whichever comes first",
@@ -63,7 +66,8 @@
     "Manufacturer and origin": {
       "Manufacturer": "Home Medix India Private Limited, named in the manufacturer brochure",
       "Manufacturer address": "Bengaluru, Karnataka, India, per manufacturer brochure; this is the listed manufacturer address",
-      "Brand / distribution role": "Home Medix brand; brochure identifies Home Medix India Private Limited as manufacturer."
+      "Brand / distribution role": "Home Medix brand; brochure identifies Home Medix India Private Limited as manufacturer.",
+      "Country of production": "India"
     }
   },
   "faqs": [
@@ -111,10 +115,17 @@
     {
       "label": "Archived manufacturer brochure (matches supplied brochure text)",
       "url": "/resources/manufacturer-brochures/home-medix-hm-kv.pdf",
-      "checked_at": "2026-10-28",
-      "note": "Manufacturer specifications; no HHZ bench test. Brochure issue date not printed."
+      "checked_at": "2026-11-03",
+      "note": "The newly supplied HM-KV-Flyer-v2.pdf matches this archive and carries a Make in India mark. The flyer does not state supply voltage or outlet pressure."
+    },
+    {
+      "label": "HM-KV catalogue specification clarification, 3 November 2026",
+      "url": "/oxygen-concentrators/home-medix-5-lpm/#specification-clarifications",
+      "checked_at": "2026-11-03",
+      "note": "India country of production and HEPA filtration supplied by the site owner. Input 230 V / 50 Hz and outlet pressure 40–80 kPa were supplied for catalogue use because these fields are absent from the flyer; they are not brochure specifications or HHZ measurements."
     }
   ],
   "manufacturer_name": "Home Medix India Private Limited",
-  "model": "HM-KV"
+  "model": "HM-KV",
+  "country_of_origin": "India"
 }
