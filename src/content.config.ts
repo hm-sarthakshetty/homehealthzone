@@ -33,7 +33,7 @@ const priceEntrySchema = z.object({
   mrp: z.number().positive().optional(),
   source_url: z.url().optional(),
   checked_at: z.string().optional(),
-  basis: z.enum(['manufacturer-published', 'dealer-quotation']).optional(),
+  basis: z.enum(['manufacturer-published', 'dealer-quotation', 'editorial-estimate']).optional(),
   tax_note: z.string().optional(),
   amount_before_tax: z.number().positive().optional(),
   configuration: z.string().optional(),
@@ -87,6 +87,7 @@ const productSchema = z.object({
         src: z.string(),
         alt: z.string(),
         original: z.string().optional(),
+        caption: z.string().optional(),
       })
     )
     .default([]),
@@ -97,6 +98,8 @@ const productSchema = z.object({
       z.object({
         q: z.string(),
         a: z.string(),
+        source: z.url().optional(),
+        sourceLabel: z.string().optional(),
       })
     )
     .default([]),
@@ -150,6 +153,8 @@ const editorialSchema = z.object({
         topic: z.string().optional(),
         q: z.string(),
         a: z.string(),
+        source: z.url().optional(),
+        sourceLabel: z.string().optional(),
       })
     )
     .default([]),

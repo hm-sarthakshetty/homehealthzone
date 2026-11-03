@@ -11,16 +11,23 @@
   "stock": "Confirm availability with seller",
   "images": [
     {
+      "src": "/images/products/philips-oxygenate-5-brochure-cover.jpg",
+      "alt": "Philips Oxygenate 5 as pictured on the supplied Philips India brochure cover",
+      "original": "User-supplied Philips India brochure, October 2026, page 1",
+      "caption": "Philips Oxygenate 5 as shown in the October 2026 India brochure."
+    },
+    {
       "src": "/images/products/philips-oxygenate-5-ksw-5.webp",
       "alt": "White oxygen concentrator with a handle, humidifier bottle and Konsung branding",
-      "original": "Image supplied by user"
+      "original": "Image supplied by user",
+      "caption": "User-supplied Konsung-branded reference photograph. The exact photographed model and configuration have not been independently verified."
     }
   ],
   "key_features": {
     "Type": "Stationary, continuous flow",
     "Continuous Flow": "0.5–5 L/min",
     "Oxygen concentration": "93% ±3%",
-    "Weight": "18 kg",
+    "Weight": "18 kg nominal, manufacturer specification; not an HHZ measurement",
     "Sound level": "<40 dB(A), manufacturer specification",
     "Electrical rating": "<360 VA; 230 V / 50 Hz",
     "Warranty": "3-year limited device warranty; 10,000-hour sieve warranty, subject to terms",
@@ -32,7 +39,7 @@
       "Model designation": "KSW-5 (Oxygenate 5, product code 1156380)",
       "Continuous Flow": "0.5–5 L/min",
       "Oxygen concentration": "93% ±3%, manufacturer specification",
-      "Weight": "18 kg",
+      "Weight": "18 kg nominal, per Philips India; verify exact supplied unit",
       "Dimensions": "41 × 26.5 × 56.6 cm ±2 cm, per Philips India",
       "Sound level": "<40 dB(A), manufacturer specification; operating conditions may affect sound",
       "Power supply": "230 V / 50 Hz",
@@ -44,7 +51,7 @@
     "Package and warranty": {
       "Warranty": "Philips India describes a 3-year limited warranty and a 10,000-hour sieve warranty. Obtain full written terms and exclusions for the unit.",
       "Filters": "Philips India says the package ships with four additional air inlet filters and one additional air filter; confirm exact box contents with the seller.",
-      "Price and service": "Indicative India price range: ₹45,000–₹55,000. Confirm taxes, delivery, installation, included accessories and local service."
+      "Price and service": "HHZ budgeting estimate: ₹45,000–₹55,000. This is not an observed range of seller offers. One retailer listing at ₹45,000 was checked on 3 November 2026; obtain a current itemised quote."
     },
     "Manufacturer and origin": {
       "Manufacturer": "Jiangsu Konsung Bio-Medical Science & Technology Co., Ltd.",
@@ -56,35 +63,49 @@
   "faqs": [
     {
       "q": "Is Philips Oxygenate 5 made in China?",
-      "a": "A Philips technical sheet identifies China as the country of production and Jiangsu Konsung as the manufacturer of Oxygenate 5, model KSW-5. Philips distributes it. Confirm the label and documents for the individual India-sold unit."
+      "a": "The Philips-authored technical sheet revision 03, dated 28 April 2025, identifies China as the Oxygenate 5 production country and Jiangsu Konsung as manufacturer, with model code KSW-5. Check the label and documents for the individual India-sold unit.",
+      "source": "https://www.elettromedicali.it/wp-content/plugins/ant-webcommerce/global/files/20-05-2025-14-55-34.pdf?x89244=#page=1",
+      "sourceLabel": "Philips technical sheet, revision 03, page 1"
     },
     {
       "q": "Is Philips Oxygenate 5 a Konsung KSW-5?",
-      "a": "A German medical-device listing identifies Oxygenate 5, product 1156380, as model KSW-5 made by Jiangsu Konsung. Philips distributes Oxygenate 5. Check the label and documentation of an individual unit, since configurations and warranty terms may differ by market."
+      "a": "Oxygenate 5 documentation identifies manufacturer model KSW-5, Konsung manufacture and Philips distribution. The manual uses KSW-5 (Oxygenate 5). This does not prove identical components, accessories or warranty across every version or market.",
+      "source": "https://www.lungenliga.ch/sites/default/files/documents/philips-oxygenate-5-bedienungsanleitung-en.pdf#page=10",
+      "sourceLabel": "User manual P/N 138040442, version 1.0"
     },
     {
       "q": "How much does Oxygenate 5 cost in India?",
-      "a": "Indicative India pricing is ₹45,000–₹55,000. Confirm taxes, availability, delivery, setup and accessories before ordering."
+      "a": "HHZ displays ₹45,000–₹55,000 as a budgeting estimate, not a verified market range. One retailer listing showed ₹45,000 when checked on 3 November 2026. The upper budget is not a verified seller quote. Confirm the exact configuration, taxes, availability, delivery and accessories.",
+      "source": "https://respbuy.com/product/philips-oxygenate-5-oxygen-concentrator/",
+      "sourceLabel": "Single retailer listing checked on 3 November 2026"
     },
     {
       "q": "What warranty is advertised in India?",
-      "a": "Philips India describes a three-year limited device warranty and a 10,000-hour sieve warranty. Ask for the applicable written conditions, exclusions and claim process."
+      "a": "Philips India describes a three-year limited device warranty and a 10,000-hour sieve warranty. Ask for the applicable written conditions, exclusions and claim process.",
+      "source": "https://www.philips.co.in/about/news-and-insights/press-release/philips-strengthens-its-sleep-and-respiratory-care-portfolio-with-the-launch-of-oxygenate-5-in-india",
+      "sourceLabel": "Philips India launch and warranty announcement"
     },
     {
       "q": "What are the Philips Oxygenate 5 specifications?",
-      "a": "Philips India publishes 0.5–5 L/min continuous flow, 93% ±3% oxygen concentration, 18 kg weight, sound below 40 dB(A) under specified conditions, and 230 V / 50 Hz input. The electrical rating is below 360 VA, not a measured wattage."
+      "a": "Philips India publishes 0.5–5 L/min continuous flow, 93% ±3% oxygen concentration, 18 kg weight, sound below 40 dB(A) under specified conditions, and 230 V / 50 Hz input. The electrical rating is below 360 VA, not a measured wattage.",
+      "source": "https://www.philips.co.in/healthcare/product/HC1156380/oxygenate-5-stationary-oxygen-concentrator",
+      "sourceLabel": "Philips India published specifications"
     },
     {
       "q": "Is Philips Oxygenate 5 the same as Philips EverFlo?",
-      "a": "Oxygenate 5 and EverFlo are different model names. Oxygenate 5 is identified as the Konsung-manufactured KSW-5. Do not assume the same components, accessories, warranty or service terms apply to an EverFlo unit; compare the exact model documents."
+      "a": "Philips Oxygenate 5 and Philips EverFlo are separate product families. Oxygenate 5 documents identify the Konsung-manufactured KSW-5; that does not establish parts, accessories or warranty compatibility with EverFlo. Compare exact model documents and regional versions.",
+      "source": "https://www.lungenliga.ch/sites/default/files/documents/philips-oxygenate-5-bedienungsanleitung-en.pdf#page=10",
+      "sourceLabel": "Oxygenate 5 manual and model designation"
     },
     {
       "q": "Is Philips Oxygenate 5 worth the price?",
-      "a": "At the indicative ₹45,000–₹55,000 India price, evaluate the exact package, prescribed requirements, applicable warranty and local support. HHZ would not pay extra for the Philips logo alone: the documented manufacturer is Konsung and the model is KSW-5. Any premium should be supported by concrete differences in the offer."
+      "a": "HHZ would not pay extra for the Philips logo alone. Assess the exact Oxygenate 5 package, prescribed requirements, applicable warranty and usable service. The ₹45,000–₹55,000 figure is an HHZ budgeting estimate; a historical premium over Konsung KSW-5 has not been verified. Any higher quote should have concrete value beyond the badge."
     },
     {
       "q": "What does Philips branding add to Oxygenate 5?",
-      "a": "Philips branding and distribution are documented. Philips India advertises a three-year limited warranty, a 10,000-hour sieve warranty and additional filters. Confirm the terms and service for the actual unit; the badge alone does not prove superior engineering or performance."
+      "a": "Philips branding and distribution are documented. Philips India advertises a three-year limited warranty, a 10,000-hour sieve warranty and additional filters. Confirm the terms and service for the actual unit; the badge alone does not prove superior engineering or performance.",
+      "source": "https://www.philips.co.in/about/news-and-insights/press-release/philips-strengthens-its-sleep-and-respiratory-care-portfolio-with-the-launch-of-oxygenate-5-in-india",
+      "sourceLabel": "Philips India launch and warranty announcement"
     },
     {
       "q": "Does Chinese manufacture mean Oxygenate 5 is poor quality?",
@@ -92,14 +113,24 @@
     },
     {
       "q": "Is Oxygenate 5 heavier than EverFlo?",
-      "a": "Philips lists Oxygenate 5 at 18 kg; its EverFlo brochure lists 14 kg. The difference is 4 kg, or about 29%. Assess lifting, door thresholds and vehicle loading before purchase, particularly where a caregiver has limited strength. Weight alone does not identify sieve chemistry."
+      "a": "Philips publishes nominal weights of 18 kg for Oxygenate 5 and 14 kg for EverFlo. The difference is 4 kg, approximately 28.6% relative to EverFlo. These are published figures, not HHZ measurements of matched units. Assess handling before purchase. Total weight does not identify sieve chemistry.",
+      "source": "https://www.documents.philips.com/doclib/enc/9801469/EverFlo_brochure.pdf#page=4",
+      "sourceLabel": "Philips EverFlo brochure, page 4"
     },
     {
       "q": "What should I check about Oxygenate 5 service near me?",
-      "a": "Get the responsible service provider, local repair or shipment arrangements, approved PCB/valve/sieve-column availability, turnaround and itemised labour and transport charges in writing. Philips branding alone does not establish model-specific service in your town."
+      "a": "The manual directs owners to Philips Respironics for service facilitation. Obtain the responsible local provider, repair/shipment arrangements, approved-parts availability, turnaround and itemised charges in writing. HHZ has not audited city-level service or parts stocks.",
+      "source": "https://www.lungenliga.ch/sites/default/files/documents/philips-oxygenate-5-bedienungsanleitung-en.pdf#page=3",
+      "sourceLabel": "Oxygenate 5 manual, service contact section"
+    },
+    {
+      "q": "Why does the Oxygenate 5 brochure exclude US sale?",
+      "a": "Philips brochure MCI 4112765 v00, dated May 2025, says the product was unavailable for US sale in that document. The brochure does not explain why or establish current US availability. The statement does not by itself prove an FDA ban or failed testing.",
+      "source": "https://medidyne.se/wp-content/uploads/sites/7/ENG-Philips-Oxygenate-5-Brochure.pdf#page=7",
+      "sourceLabel": "Philips May 2025 brochure, page 7"
     }
   ],
-  "description_text": "Philips Oxygenate 5 price in India: ₹45,000–₹55,000. See 5 LPM specs, warranty, China-made Konsung KSW-5 origin and dealer buying checks.",
+  "description_text": "Philips Oxygenate 5 India: HHZ budget estimate ₹45,000–₹55,000, published specifications, warranty and documented Konsung KSW-5 manufacture.",
   "related_links": [
     "/oxygen-concentrators/konsung-5l/",
     "/oxygen-concentrators/philips-everflo-5-lpm/"
@@ -135,19 +166,25 @@
       "label": "India retailer listing (indicative price)",
       "url": "https://respbuy.com/product/philips-oxygenate-5-oxygen-concentrator/",
       "checked_at": "2026-11-03",
-      "note": "Listed at ₹45,000; taxes, delivery and availability require confirmation."
+      "note": "Single listing at ₹45,000 checked on 3 November 2026; not evidence of a market range or historical Konsung premium. HHZ retains ₹45,000–₹55,000 only as a budgeting estimate; the upper amount is not a verified quote."
     },
     {
       "label": "Philips technical sheet: manufacturer, KSW-5 designation and China production",
       "url": "https://www.elettromedicali.it/wp-content/plugins/ant-webcommerce/global/files/20-05-2025-14-55-34.pdf?x89244=",
       "checked_at": "2026-11-03",
-      "note": "Philips-authored Italian-market document dated 28 April 2025; page 1 identifies country of production as China."
+      "note": "Philips-authored sheet hosted by a distributor; revision 03, 28 April 2025. Product table identifies 1156380, KSW-5, Konsung and China; the page header separately prints 1056380."
     },
     {
       "label": "Philips brochure: Konsung manufacturer and Philips distributor",
       "url": "https://medidyne.se/wp-content/uploads/sites/7/ENG-Philips-Oxygenate-5-Brochure.pdf",
       "checked_at": "2026-11-03",
-      "note": "May 2025 brochure; manufacturer and distributor are identified on the final page."
+      "note": "MCI 4112765 v00, May 2025: manufacturer/distributor on page 8; US-sale restriction on page 7. The document gives no reason for the restriction."
+    },
+    {
+      "label": "Oxygenate 5 user manual P/N 138040442",
+      "url": "https://www.lungenliga.ch/sites/default/files/documents/philips-oxygenate-5-bedienungsanleitung-en.pdf",
+      "checked_at": "2026-11-03",
+      "note": "Version 1.0, June 2024; uses KSW-5 (Oxygenate 5), identifies service contact and differentiates typical specifications from test-method figures. Regional applicability should be checked."
     }
   ],
   "manufacturer_name": "Jiangsu Konsung Bio-Medical Science & Technology Co., Ltd.",
@@ -157,7 +194,9 @@
       "currency": "INR",
       "source_url": "https://respbuy.com/product/philips-oxygenate-5-oxygen-concentrator/",
       "checked_at": "2026-11-03",
-      "amount_max": 55000
+      "amount_max": 55000,
+      "basis": "editorial-estimate",
+      "configuration": "HHZ budgeting range, not a verified range of seller offers. A single retailer listing at ₹45,000 was checked on 3 November 2026; the ₹55,000 upper budget is not a verified seller quote."
     }
   },
   "model": "KSW-5",
@@ -166,12 +205,12 @@
   "country_of_origin": "China",
   "social_image": {
     "src": "/images/social/oxygenate-5-price-india.jpg",
-    "alt": "Philips Oxygenate 5 India price, specifications and warranty reference; supplied Konsung-branded concentrator photo",
+    "alt": "Philips Oxygenate 5 product reference using the Philips brochure image, with specifications and warranty information",
     "width": 1200,
     "height": 630
   },
   "related_article": {
     "href": "/guides/philips-oxygenate-5-konsung-ksw-5/",
-    "label": "Oxygenate 5 vs Konsung KSW-5: manufacturer evidence"
+    "label": "Oxygenate 5 vs Konsung KSW-5: what the documents show"
   }
 }

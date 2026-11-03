@@ -68,7 +68,7 @@ def frontmatter_faqs(md: str) -> str:
     for line in block.group(1).splitlines():
         if not line.strip():
             continue
-        field = re.fullmatch(r"  (- |  )(topic|q|a): (.+)", line)
+        field = re.fullmatch(r"  (- |  )(topic|q|a|source|sourceLabel): (.+)", line)
         if not field:
             raise ValueError(f"Unsupported editorial FAQ field: {line!r}")
         if field.group(1) == "- ":
@@ -86,6 +86,8 @@ def frontmatter_faqs(md: str) -> str:
         if topic and topic != previous_topic:
             lines += [f"### {topic}", ""]
         lines += [f"**{item['q']}**", "", item["a"], ""]
+        if item.get('source'):
+            lines += [f"[{item.get('sourceLabel', 'Source document')}]({item['source']})", ""]
         previous_topic = topic
     return "\n".join(lines)
 

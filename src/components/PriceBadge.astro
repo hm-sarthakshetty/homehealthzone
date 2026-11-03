@@ -39,7 +39,7 @@ const mrpText = formatPrice(resolved, 'mrp', 'badge');
 )}
 {currentText && resolved.basis && (
   <small class="price-badge__basis">
-    {resolved.basis === 'manufacturer-published' ? 'Manufacturer-published price' : 'Dealer quotation'}
+    {resolved.basis === 'manufacturer-published' ? 'Manufacturer-published price' : resolved.basis === 'editorial-estimate' ? 'HHZ budget estimate' : 'Dealer quotation'}
     {resolved.tax_note && <> · {resolved.tax_note}</>}
     {resolved.checked_at && <> · checked <time datetime={resolved.checked_at}>{resolved.checked_at}</time></>}
   </small>

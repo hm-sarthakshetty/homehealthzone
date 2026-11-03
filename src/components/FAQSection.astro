@@ -4,6 +4,8 @@ import SchemaFAQ from './SchemaFAQ.astro';
 export interface FAQItem {
   q: string;
   a: string;
+  source?: string;
+  sourceLabel?: string;
 }
 
 export interface Props {
@@ -20,6 +22,7 @@ const { faqs, heading = 'Frequently asked questions' } = Astro.props;
       <details>
         <summary>{item.q}</summary>
         <p>{item.a}</p>
+        {item.source && <p class="faq-source"><a href={item.source}>{item.sourceLabel ?? 'Source document'}</a></p>}
       </details>
     ))}
     <SchemaFAQ faqs={faqs} />

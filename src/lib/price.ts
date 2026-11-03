@@ -33,7 +33,7 @@ export interface PriceEntry {
   mrp?: number;
   source_url?: string;
   checked_at?: string;
-  basis?: 'manufacturer-published' | 'dealer-quotation';
+  basis?: 'manufacturer-published' | 'dealer-quotation' | 'editorial-estimate';
   tax_note?: string;
   amount_before_tax?: number;
   configuration?: string;
@@ -168,6 +168,7 @@ export function formatPrice(
 
 /** schema.org Offer price + currency. Legacy IN strings keep their exact digits. */
 export function schemaOfferPrice(p: ResolvedPrice): { price: string; priceCurrency: Currency | undefined } | null {
+  if (p.basis === 'editorial-estimate') return null;
   // A range must not be emitted as a single fixed-price Offer.
   if (p.amount !== null && p.amountMax !== undefined && p.amountMax > p.amount) return null;
   const legacy = p.rawCurrent?.replace(/,/g, '').trim();

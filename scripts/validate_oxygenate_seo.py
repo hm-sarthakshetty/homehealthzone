@@ -96,7 +96,11 @@ assert schema['brand']['name'] == 'Philips'
 assert schema['manufacturer']['name'].startswith('Jiangsu Konsung')
 assert schema['countryOfOrigin']['name'] == 'China'
 assert schema['mpn'] == schema['model'] == 'KSW-5' and schema['sku'] == '1156380'
-assert schema['offers']['lowPrice'] == '45000' and schema['offers']['highPrice'] == '55000'
+assert 'offers' not in schema, 'An editorial budget estimate must not imply verified seller offers.'
+assert 'HHZ budget estimate' in ' '.join(product.visible_parts)
+assert schema['image'].endswith('/philips-oxygenate-5-brochure-cover.jpg')
+assert any(img.get('src', '').endswith('philips-oxygenate-5-ksw-5.webp') for img in product.images)
+assert 'exact photographed model' in ' '.join(product.visible_parts).lower()
 assert 'aggregateRating' not in schema and 'reviewRating' not in schema.get('review', {})
 a = next(s for s in article.schemas if s.get('@type') == 'Article')
 assert a['image'] == [article.meta['og:image']]
@@ -107,7 +111,7 @@ assert 'aria-label="On this page"' in article.html
 assert '#article-faq-heading' in article.links
 corpus = (DIST / 'llms-full.txt').read_text()
 article_corpus = corpus.split('Source: ' + ORIGIN + ARTICLE + '\n', 1)[1].split('\n---\n', 1)[0]
-for page, minimum in [(article, 23), (product, 11)]:
+for page, minimum in [(article, 24), (product, 12)]:
     faq_schemas = [s for s in page.schemas if s.get('@type') == 'FAQPage']
     assert len(faq_schemas) == 1
     questions = faq_schemas[0]['mainEntity']
@@ -121,6 +125,11 @@ for page, minimum in [(article, 23), (product, 11)]:
                 assert text in article_corpus, text
 for topic in ['Price and buying decisions', 'Manufacturer, origin and engineering', 'Weight, sieve chemistry and efficiency', 'Regulation, comparisons and support']:
     assert topic in ' '.join(article.visible_parts) and topic in article_corpus, topic
+for anchor in ['MCI 4112765 v00', '138040442', 'K223740', '28.6%', 'not a verified range of seller offers']:
+    assert anchor in ' '.join(article.visible_parts), anchor
+assert 'Brochure.pdf#page=7' in article.html
+assert 'Why does the Philips Oxygenate 5 brochure exclude US sale?' in article_corpus
+assert '[Philips brochure MCI 4112765 v00, page 7]' in article_corpus
 index = json.loads((DIST / 'search-index.json').read_text())
 assert all(any(item['h'] == route for item in index) for route in pages)
 for route in ['/oxygen-concentrators/brands/', '/oxygen-concentrators/5-lpm/', '/guides/philips-everflo-replacement-india/']:

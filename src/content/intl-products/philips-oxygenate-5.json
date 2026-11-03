@@ -23,7 +23,6 @@
   "images": [],
   "normalized_specs": {
     "weight_kg": 18,
-    "flow_max_lpm": 5,
-    "power_w": 360
+    "flow_max_lpm": 5
   }
 }

@@ -64,7 +64,7 @@ if (product.manufacturer_name || product.brand) {
 const stockLc = product.stock?.toLowerCase() ?? '';
 const resolvedPrice = resolvePrice(product, country);
 const offerPrice = schemaOfferPrice(resolvedPrice);
-if (!stockLc.includes('discontinued') && resolvedPrice.amount !== null && resolvedPrice.amountMax !== undefined && resolvedPrice.amountMax > resolvedPrice.amount) {
+if (resolvedPrice.basis !== 'editorial-estimate' && !stockLc.includes('discontinued') && resolvedPrice.amount !== null && resolvedPrice.amountMax !== undefined && resolvedPrice.amountMax > resolvedPrice.amount) {
   ld.offers = {
     '@type': 'AggregateOffer',
     lowPrice: String(resolvedPrice.amount),
