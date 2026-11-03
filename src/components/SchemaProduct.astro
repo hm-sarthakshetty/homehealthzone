@@ -58,7 +58,15 @@ if (product.manufacturer_name || product.brand) {
 const stockLc = product.stock?.toLowerCase() ?? '';
 const resolvedPrice = resolvePrice(product, country);
 const offerPrice = schemaOfferPrice(resolvedPrice);
-if (offerPrice && !stockLc.includes('discontinued')) {
+if (!stockLc.includes('discontinued') && resolvedPrice.amount !== null && resolvedPrice.amountMax !== undefined && resolvedPrice.amountMax > resolvedPrice.amount) {
+  ld.offers = {
+    '@type': 'AggregateOffer',
+    lowPrice: String(resolvedPrice.amount),
+    highPrice: String(resolvedPrice.amountMax),
+    priceCurrency: resolvedPrice.currency,
+    url: pageUrl,
+  };
+} else if (offerPrice && !stockLc.includes('discontinued')) {
   const availability = stockLc.includes('out') || stockLc.includes('sold')
     ? 'https://schema.org/OutOfStock'
     : stockLc.includes('in stock') ? 'https://schema.org/InStock' : undefined;

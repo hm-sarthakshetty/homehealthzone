@@ -28,6 +28,7 @@ const SYMBOL_CURRENCY: Record<string, Currency> = { '₹': 'INR', $: 'USD', '£'
 
 export interface PriceEntry {
   amount: number;
+  amount_max?: number;
   currency: Currency;
   mrp?: number;
   source_url?: string;
@@ -51,6 +52,7 @@ export interface ResolvedPrice {
   currency: Currency | undefined;
   symbol: string;
   amount: number | null;
+  amountMax?: number;
   mrp: number | null;
   /** Legacy display text (IN only), kept so India output does not change. */
   rawCurrent: string | null;
@@ -88,6 +90,7 @@ export function resolvePrice(data: PricedProduct, country: Country = 'IN'): Reso
       currency: entry?.currency ?? SYMBOL_CURRENCY[symbol],
       symbol,
       amount: entry?.amount ?? parsePriceText(rawCurrent),
+      amountMax: entry?.amount_max,
       mrp: entry?.mrp ?? parsePriceText(rawMrp),
       rawCurrent,
       rawMrp,
@@ -105,6 +108,7 @@ export function resolvePrice(data: PricedProduct, country: Country = 'IN'): Reso
     currency,
     symbol: CURRENCY_SYMBOL[currency],
     amount: entry?.amount ?? null,
+    amountMax: entry?.amount_max,
     mrp: entry?.mrp ?? null,
     rawCurrent: null,
     rawMrp: null,
@@ -144,6 +148,10 @@ export function formatPrice(
   field: 'current' | 'mrp' = 'current',
   style: 'badge' | 'raw' | 'bare' = 'badge'
 ): string | null {
+  if (field === 'current' && p.amount !== null && p.amountMax !== undefined && p.amountMax > p.amount && p.currency) {
+    if (style === 'bare') return `${formatAmount(p.amount, p.country)}–${formatAmount(p.amountMax, p.country)}`;
+    return `${formatMoney(p.amount, p.currency, p.country)}–${formatMoney(p.amountMax, p.currency, p.country)}`;
+  }
   const raw = field === 'current' ? p.rawCurrent : p.rawMrp;
   if (raw) {
     if (style === 'bare') return raw;
@@ -160,6 +168,8 @@ export function formatPrice(
 
 /** schema.org Offer price + currency. Legacy IN strings keep their exact digits. */
 export function schemaOfferPrice(p: ResolvedPrice): { price: string; priceCurrency: Currency | undefined } | null {
+  // A range must not be emitted as a single fixed-price Offer.
+  if (p.amount !== null && p.amountMax !== undefined && p.amountMax > p.amount) return null;
   const legacy = p.rawCurrent?.replace(/,/g, '').trim();
   if (legacy) {
     if (!/^\d+(?:\.\d+)?$/.test(legacy)) return null;

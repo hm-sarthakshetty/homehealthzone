@@ -28,6 +28,7 @@ const normalizedSpecsSchema = z
 // valid during the transition (see src/lib/price.ts).
 const priceEntrySchema = z.object({
   amount: z.number().positive(),
+  amount_max: z.number().positive().optional(),
   currency: z.enum(['INR', 'USD', 'GBP', 'SGD', 'AUD', 'CAD', 'NZD']),
   mrp: z.number().positive().optional(),
   source_url: z.url().optional(),

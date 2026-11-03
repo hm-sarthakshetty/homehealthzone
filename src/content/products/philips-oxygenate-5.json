@@ -44,7 +44,7 @@
     "Package and warranty": {
       "Warranty": "Philips India describes a 3-year limited warranty and a 10,000-hour sieve warranty. Obtain full written terms and exclusions for the unit.",
       "Filters": "Philips India says the package ships with four additional air inlet filters and one additional air filter; confirm exact box contents with the seller.",
-      "Price and service": "One India retailer listed ₹45,000 on 3 November 2026; confirm tax, delivery, installation and location-specific service."
+      "Price and service": "Indicative India price range: ₹45,000–₹55,000. Confirm taxes, delivery, installation, included accessories and local service."
     },
     "Manufacturer and origin": {
       "Manufacturer": "Jiangsu Konsung Bio-Medical Science & Technology Co., Ltd.",
@@ -64,7 +64,7 @@
     },
     {
       "q": "How much does Oxygenate 5 cost in India?",
-      "a": "An Indian retailer listed the Oxygenate 5 for ₹45,000 on 3 November 2026. Confirm taxes, availability, delivery, setup and accessories before ordering."
+      "a": "Indicative India pricing is ₹45,000–₹55,000. Confirm taxes, availability, delivery, setup and accessories before ordering."
     },
     {
       "q": "What warranty is advertised in India?",
@@ -128,7 +128,8 @@
       "amount": 45000,
       "currency": "INR",
       "source_url": "https://respbuy.com/product/philips-oxygenate-5-oxygen-concentrator/",
-      "checked_at": "2026-11-03"
+      "checked_at": "2026-11-03",
+      "amount_max": 55000
     }
   }
 }
