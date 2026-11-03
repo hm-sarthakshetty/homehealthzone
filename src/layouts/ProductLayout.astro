@@ -102,7 +102,11 @@ const topFive = topFivePillar(product.category);
   title={title}
   description={description}
   canonicalURL={canonicalURL}
-  ogImage={ogImage}
+  ogImage={product.social_image?.src ?? ogImage}
+  ogImageAlt={product.social_image?.alt ?? primaryImage?.alt}
+  ogImageWidth={product.social_image?.width}
+  ogImageHeight={product.social_image?.height}
+  lang="en-IN"
   preloadImage={primaryImage?.src}
 >
   <article class="product">
@@ -170,6 +174,9 @@ const topFive = topFivePillar(product.category);
         )}
         {!reviewFrontmatter?.verdict && product.description_text && (
           <p class="product__lead">{product.description_text}</p>
+        )}
+        {product.related_article && (
+          <p><a href={product.related_article.href}>{product.related_article.label} →</a></p>
         )}
       </aside>
     </div>

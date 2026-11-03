@@ -40,13 +40,19 @@ const ld: Record<string, unknown> = {
 if (product.evidence?.length) ld.subjectOf = product.evidence.map((source) => ({ '@type': 'CreativeWork', name: source.label, url: source.url.startsWith('/') ? `${siteOrigin}${source.url}` : source.url }));
 
 if (pageUrl) ld.url = pageUrl;
+if (pageUrl) ld['@id'] = `${pageUrl}#product`;
 if (pageUrl) ld.mainEntityOfPage = { '@type': 'WebPage', '@id': pageUrl, dateModified: product.dateModified };
 if (imageUrl) ld.image = imageUrl;
 if (product.brand) ld.brand = { '@type': 'Brand', name: product.brand };
 if (product.description_text) ld.description = product.description_text;
 if (product.category) ld.category = product.category;
-if (product.slug) ld.sku = product.slug;
-if (product.slug) ld.mpn = product.slug;
+if (product.sku ?? product.slug) ld.sku = product.sku ?? product.slug;
+if (product.mpn ?? product.slug) ld.mpn = product.mpn ?? product.slug;
+if (product.model) ld.model = product.model;
+if (product.country_of_origin) ld.countryOfOrigin = { '@type': 'Country', name: product.country_of_origin };
+if (product.related_article) {
+  ld.subjectOf = [...(ld.subjectOf as unknown[] ?? []), { '@type': 'Article', url: new URL(product.related_article.href, Astro.site).toString(), name: product.related_article.label }];
+}
 if (product.source_url?.startsWith('http')) ld.sameAs = product.source_url;
 if (product.manufacturer_name || product.brand) {
   ld.manufacturer = {

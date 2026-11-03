@@ -1448,6 +1448,8 @@ These are the brands that designed and manufactured oxygen concentrators before 
 
 Country of origin: United States (Murrysville, PA). India HQ via Philips India distribution.
 
+**Oxygenate 5 model note:** brand origin and device production origin are separate. See the [Philips Oxygenate 5 India price and specifications](/oxygen-concentrators/philips-oxygenate-5/) and the [Konsung KSW-5 manufacturer documents](/guides/philips-oxygenate-5-konsung-ksw-5/) for the documented China-made model sold with Philips branding.
+
 Service footprint: Dense in tier-1 and tier-2 cities. Authorised Philips respiratory distributors in 25+ cities. Spare parts stocked regionally; typical repair turnaround 48–96 hours in metros.
 
 Price positioning: Premium. Stationary 5 LPM ~₹43,000–₹52,000; 10 LPM ~₹90,000–₹1,20,000; SimplyGo POC ₹2,10,700.
@@ -6406,7 +6408,7 @@ Konsung's KSW-5 model family also has its own FDA record: **K223740** lists KSW-
 | Flow and concentration | Philips India lists 0.5–5 L/min and 93% ±3% oxygen concentration. | Use the exact unit's manual and specification sheet; do not copy values across versions. |
 | Weight and sound | Philips India lists 18 kg and sound below 40 dB(A) under specified conditions. | Confirm the configuration and sound test method before comparing. |
 | Electrical rating | Philips India lists 230 V / 50 Hz and less than 360 VA. | Verify the voltage, frequency and rating for the India-sold unit. |
-| Price in India | One retailer listed ₹45,000 on 3 November 2026; confirm the complete total. | A dated historical India price for a confirmed KSW-5 was not verified. |
+| Price in India | Indicative HHZ range: ₹45,000–₹55,000; confirm taxes, configuration and final total. | A dated historical India price for a confirmed KSW-5 was not verified. |
 | Warranty | Philips India advertises a three-year limited warranty and a 10,000-hour sieve warranty, subject to written terms. | Obtain the actual seller's warranty issuer, coverage and claim process. |
 | Service and package | Additional filters are advertised; confirm local repair arrangements and all inclusions. | Confirm the package, repair route, parts availability and charges in writing. |
 
@@ -6416,11 +6418,15 @@ The specifications are manufacturer-published claims, not HHZ measurements. The 
 
 ## What are you paying for beyond the Philips name?
 
-One Indian retailer listed Oxygenate 5 at **₹45,000** when checked on 3 November 2026. That is a single asking price; confirm taxes, availability, delivery, installation and accessories. A dated India price for an earlier, confirmed Konsung KSW-5 was not verified, so this article does not establish a historical price markup. The older generic HHZ Konsung 5L record cannot fill that gap because it lacks a dated source and exact model identification. [India retail listing](https://respbuy.com/product/philips-oxygenate-5-oxygen-concentrator/).
+The [Oxygenate 5 product reference](/oxygen-concentrators/philips-oxygenate-5/) lists an indicative India range of **₹45,000–₹55,000**. One Indian retailer listed **₹45,000** when checked on 3 November 2026. That is a single asking price; confirm taxes, availability, delivery, installation and accessories. A dated India price for an earlier, confirmed Konsung KSW-5 was not verified, so this article does not establish a historical price markup. The older generic HHZ Konsung 5L record cannot fill that gap because it lacks a dated source and exact model identification. [India retail listing](https://respbuy.com/product/philips-oxygenate-5-oxygen-concentrator/).
 
 Philips advertises a **three-year limited warranty**, a **10,000-hour sieve warranty** and additional filters. Those are specific parts of the offer that buyers can examine. Obtain the exclusions, claim contact, repair location, labour and transport charges, parts availability and expected turnaround in writing. A service promise has value only if it applies to your unit and location. [Philips India launch and warranty information](https://www.philips.co.in/about/news-and-insights/press-release/philips-strengthens-its-sleep-and-respiratory-care-portfolio-with-the-launch-of-oxygenate-5-in-india).
 
 Country of manufacture alone does not establish quality or performance. The reason to scrutinise this offer is the gap between what a familiar Philips name might lead a buyer to assume and what the product documents actually establish about its manufacturer and model.
+
+## Dealer and hospital procurement checks
+
+For a B2B quote, request the exact manufacturer and model label, product code, unit condition, tax-inclusive price, accessories, warranty issuer and local repair arrangements. If the offer claims Philips-specific hardware or performance, ask for model-specific documentation or a matched test rather than treating a brand name as evidence. Use the [Oxygenate 5 India price and specifications page](/oxygen-concentrators/philips-oxygenate-5/) as the product reference; this article addresses its manufacturer relationship.
 
 ## Our verdict
 

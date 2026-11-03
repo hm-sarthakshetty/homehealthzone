@@ -34,6 +34,7 @@ const {
   title: titleProp,
   description: descriptionProp,
   canonicalURL,
+  headings = [],
   market = 'IN',
 } = Astro.props;
 const isUS = market === 'US';
@@ -146,8 +147,13 @@ const description = descriptionProp ?? frontmatter.description;
 // whose frontmatter opts in via editorialSchema.
 const answer: string | undefined = (frontmatter as any).answer;
 const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
+const image = frontmatter.image ? new URL(frontmatter.image, Astro.site).toString() : undefined;
+const toc = frontmatter.showToc ? headings.filter((h) => h.depth === 2) : [];
 ---
-<BaseLayout title={title} description={description} canonicalURL={canonicalURL} lang={intl ? intl.lang : isUS ? 'en-US' : undefined}>
+<BaseLayout title={title} description={description} canonicalURL={canonicalURL} lang={locale}
+  ogType="article" ogImage={image} ogImageAlt={frontmatter.imageAlt}
+  ogImageWidth={frontmatter.imageWidth} ogImageHeight={frontmatter.imageHeight}
+  publishedTime={frontmatter.datePublished} modifiedTime={frontmatter.dateModified ?? frontmatter.lastReviewed}>
   <article class="article">
     <Breadcrumbs items={breadcrumbs} />
 
@@ -185,6 +191,13 @@ const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
       <div class="article__answer content-width" role="note">
         <p>{answer}</p>
       </div>
+    )}
+
+    {toc.length > 0 && (
+      <nav class="article__toc content-width" aria-label="On this page">
+        <h2>On this page</h2>
+        <ul>{toc.map((heading) => <li><a href={`#${heading.slug}`}>{heading.text}</a></li>)}</ul>
+      </nav>
     )}
 
     <div class="article__body content-width">
@@ -227,6 +240,9 @@ const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
     authorUrl={frontmatter.author === 'HHZ Editorial' || !frontmatter.author ? '/authors/hhz-editorial/' : undefined}
     wordCount={wordCount || undefined}
     inLanguage={locale}
+    image={image}
+    about={frontmatter.about}
+    citations={frontmatter.citations}
   />
   {faqs.length > 0 && <SchemaFAQ faqs={faqs} />}
   {isClinical && (
@@ -249,6 +265,15 @@ const faqs: Array<{ q: string; a: string }> = (frontmatter as any).faqs ?? [];
   .article__body {
     /* content-width class from global.css narrows the column */
   }
+  .article__toc { margin: 0 0 var(--space-8); padding: var(--space-4) var(--space-5); border: 1px solid var(--color-border); }
+  .article__toc h2 { margin: 0 0 var(--space-3); font-size: var(--text-base); }
+  .article__toc ul { margin: 0; padding-left: var(--space-5); }
+  .article__toc li { margin-block: var(--space-2); }
+  .article__body :global(h2[id]) { scroll-margin-top: 14rem; }
+  .article__body :global(.comparison-table-scroll table) { border-collapse: collapse; width: 100%; margin: 0; }
+  .article__body :global(.comparison-table-scroll th),
+  .article__body :global(.comparison-table-scroll td) { min-width: 12rem; padding: var(--space-3); border: 1px solid var(--color-border); text-align: left; vertical-align: top; }
+  .article__body :global(.comparison-table-scroll th) { background: var(--color-data-bg); }
   .article__answer {
     border-left: 3px solid var(--color-accent);
     background: var(--color-data-bg);

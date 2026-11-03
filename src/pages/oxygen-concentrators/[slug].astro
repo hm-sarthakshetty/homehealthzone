@@ -55,7 +55,7 @@ function compactReviewTitle(productName: string, editorialTitle?: string): strin
     .trim();
   return `${compactName || productName} Review`;
 }
-const title = compactReviewTitle(data.product_name, reviewFrontmatter?.title);
+const title = compactReviewTitle(data.product_name, reviewFrontmatter?.seoTitle ?? reviewFrontmatter?.title);
 const canonicalURL = new URL(
   `/oxygen-concentrators/${data.slug}/`,
   Astro.site

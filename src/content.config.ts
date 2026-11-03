@@ -57,6 +57,12 @@ const productSchema = z.object({
   product_name: z.string(),
   brand: z.string().default(''),
   manufacturer_name: z.string().optional(),
+  model: z.string().optional(),
+  mpn: z.string().optional(),
+  sku: z.string().optional(),
+  country_of_origin: z.string().optional(),
+  social_image: z.object({ src: z.string(), alt: z.string(), width: z.number(), height: z.number() }).optional(),
+  related_article: z.object({ href: z.string(), label: z.string() }).optional(),
   brand_href: z.string().nullable().optional(),
   category: z.string().default(''),
   price_current: z.string().nullable().optional(),
@@ -116,7 +122,15 @@ const comparisonSchema = z.object({
 
 const editorialSchema = z.object({
   title: z.string(),
+  seoTitle: z.string().optional(),
   description: z.string(),
+  image: z.string().optional(),
+  imageAlt: z.string().optional(),
+  imageWidth: z.number().optional(),
+  imageHeight: z.number().optional(),
+  showToc: z.boolean().default(false),
+  about: z.array(z.object({ name: z.string(), url: z.string() })).default([]),
+  citations: z.array(z.string()).default([]),
   datePublished: z.string().optional(),
   dateModified: z.string().optional(),
   lastReviewed: z.string().optional(),
@@ -142,6 +156,7 @@ const editorialSchema = z.object({
 
 const productReviewSchema = z.object({
   title: z.string(),
+  seoTitle: z.string().optional(),
   description: z.string().optional(),
   datePublished: z.string().optional(),
   dateModified: z.string().optional(),

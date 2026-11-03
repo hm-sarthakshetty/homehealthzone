@@ -69,9 +69,17 @@
     {
       "q": "What warranty is advertised in India?",
       "a": "Philips India describes a three-year limited device warranty and a 10,000-hour sieve warranty. Ask for the applicable written conditions, exclusions and claim process."
+    },
+    {
+      "q": "What are the Philips Oxygenate 5 specifications?",
+      "a": "Philips India publishes 0.5–5 L/min continuous flow, 93% ±3% oxygen concentration, 18 kg weight, sound below 40 dB(A) under specified conditions, and 230 V / 50 Hz input. The electrical rating is below 360 VA, not a measured wattage."
+    },
+    {
+      "q": "Is Philips Oxygenate 5 the same as Philips EverFlo?",
+      "a": "Oxygenate 5 and EverFlo are different model names. Oxygenate 5 is identified as the Konsung-manufactured KSW-5. Do not assume the same components, accessories, warranty or service terms apply to an EverFlo unit; compare the exact model documents."
     }
   ],
-  "description_text": "Philips Oxygenate 5 is a Chinese-made Konsung KSW-5 sold under Philips branding, with 0.5–5 L/min continuous flow. Specifications and India buying checks.",
+  "description_text": "Philips Oxygenate 5 price in India: ₹45,000–₹55,000. See 5 LPM specs, warranty, China-made Konsung KSW-5 origin and dealer buying checks.",
   "related_links": [
     "/oxygen-concentrators/konsung-5l/",
     "/oxygen-concentrators/philips-everflo-5-lpm/"
@@ -131,5 +139,19 @@
       "checked_at": "2026-11-03",
       "amount_max": 55000
     }
+  },
+  "model": "KSW-5",
+  "mpn": "KSW-5",
+  "sku": "1156380",
+  "country_of_origin": "China",
+  "social_image": {
+    "src": "/images/social/oxygenate-5-price-india.jpg",
+    "alt": "Philips Oxygenate 5 India price, specifications and warranty reference; supplied Konsung-branded concentrator photo",
+    "width": 1200,
+    "height": 630
+  },
+  "related_article": {
+    "href": "/guides/philips-oxygenate-5-konsung-ksw-5/",
+    "label": "Oxygenate 5 vs Konsung KSW-5: manufacturer evidence"
   }
 }

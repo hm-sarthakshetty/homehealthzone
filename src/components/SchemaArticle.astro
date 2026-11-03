@@ -10,6 +10,9 @@ export interface Props {
   url?: string;
   wordCount?: number;
   inLanguage?: string;
+  image?: string;
+  about?: Array<{ name: string; url: string }>;
+  citations?: string[];
 }
 
 const {
@@ -23,6 +26,9 @@ const {
   url,
   wordCount,
   inLanguage = 'en-IN',
+  image,
+  about = [],
+  citations = [],
 } = Astro.props;
 
 const siteOrigin = Astro.site ? Astro.site.toString().replace(/\/$/, '') : '';
@@ -31,6 +37,8 @@ const canonicalUrl = url ?? new URL(Astro.url.pathname, Astro.site ?? 'https://e
 const ld: Record<string, unknown> = {
   '@context': 'https://schema.org',
   '@type': 'Article',
+  '@id': `${canonicalUrl}#article`,
+  url: canonicalUrl,
   headline: title,
   description,
   inLanguage,
@@ -58,6 +66,10 @@ const ld: Record<string, unknown> = {
     cssSelector: ['h1', '.article__body > p:first-of-type'],
   },
 };
+
+if (image) ld.image = [image];
+if (about.length) ld.about = about.map((item) => ({ '@type': 'Product', '@id': `${new URL(item.url, Astro.site).toString()}#product`, name: item.name }));
+if (citations.length) ld.citation = citations;
 
 if (datePublished) ld.datePublished = datePublished;
 if (dateModified ?? lastReviewed) ld.dateModified = dateModified ?? lastReviewed;

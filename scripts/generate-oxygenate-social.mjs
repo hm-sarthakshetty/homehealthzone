@@ -1,0 +1,17 @@
+import sharp from 'sharp';
+import { mkdir, readFile } from 'node:fs/promises';
+
+// Compose the supplied, unaltered product photos into 1200×630 share cards.
+const root = new URL('../', import.meta.url);
+const photo = async (path, mime) => `data:${mime};base64,${(await readFile(new URL(path, root))).toString('base64')}`;
+const philips = await photo('public/images/products/philips-oxygenate-5-brochure-cover.jpg', 'image/jpeg');
+const konsung = `data:image/png;base64,${(await sharp(await readFile(new URL('public/images/products/philips-oxygenate-5-ksw-5.webp', root))).png().toBuffer()).toString('base64')}`;
+const logo = '<text x="54" y="57" font-family="Arial,sans-serif" font-weight="700" font-size="23" fill="#a63c0b">HHZ</text><text x="112" y="57" font-family="Arial,sans-serif" font-size="19" fill="#333">RESPIRATORY REVIEW</text>';
+const base = (body) => `<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#fdfcfa"/>${logo}<line x1="54" y1="85" x2="1146" y2="85" stroke="#ddd"/>${body}<text x="54" y="597" font-family="Arial,sans-serif" font-size="20" fill="#666">homehealthzone.com</text></svg>`;
+const product = base(`<text x="54" y="157" font-family="Arial,sans-serif" font-size="23" fill="#a63c0b">INDIA PRODUCT REFERENCE</text><text x="54" y="226" font-family="Arial,sans-serif" font-weight="700" font-size="54" fill="#171717">Philips Oxygenate 5</text><text x="54" y="284" font-family="Arial,sans-serif" font-size="32" fill="#333">Price, specifications &amp; warranty</text><text x="54" y="356" font-family="Arial,sans-serif" font-size="30" fill="#333">5 LPM · Model KSW-5</text><text x="54" y="415" font-family="Arial,sans-serif" font-size="27" fill="#555">Konsung manufacturer · Philips branding</text><image x="780" y="112" width="360" height="440" preserveAspectRatio="xMidYMid meet" xlink:href="${konsung}"/>`);
+const comparison = base(`<text x="54" y="146" font-family="Arial,sans-serif" font-size="23" fill="#a63c0b">MANUFACTURER DOCUMENTS &amp; COMPARISON</text><text x="54" y="211" font-family="Arial,sans-serif" font-weight="700" font-size="47" fill="#171717">Philips Oxygenate 5 vs Konsung KSW-5</text><text x="54" y="259" font-family="Arial,sans-serif" font-size="27" fill="#555">Chinese manufacture. Philips branding. What do the records show?</text><defs><clipPath id="philips"><rect x="350" y="295" width="215" height="250" rx="8"/></clipPath></defs><image x="128" y="-187" width="630" height="891" xlink:href="${philips}" clip-path="url(#philips)"/><image x="620" y="278" width="270" height="283" preserveAspectRatio="xMidYMid meet" xlink:href="${konsung}"/><text x="374" y="570" font-family="Arial,sans-serif" font-size="20" fill="#333">Philips brochure</text><text x="682" y="570" font-family="Arial,sans-serif" font-size="20" fill="#333">Konsung photo</text>`);
+await mkdir(new URL('public/images/social/', root), { recursive: true });
+for (const [name, svg] of [['oxygenate-5-price-india', product], ['oxygenate-5-konsung-comparison', comparison]]) {
+  await sharp(Buffer.from(svg)).jpeg({ quality: 88, mozjpeg: true }).toFile(new URL(`public/images/social/${name}.jpg`, root).pathname);
+}
+console.log('Generated two 1200×630 Oxygenate 5 social cards.');

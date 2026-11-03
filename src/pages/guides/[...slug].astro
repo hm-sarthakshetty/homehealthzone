@@ -28,7 +28,7 @@ function clampDescription(d: string): string {
   return `${truncated.slice(0, lastSpace > 120 ? lastSpace : 157)}…`;
 }
 
-const title = data.title;
+const title = data.seoTitle ?? data.title;
 const description = clampDescription(data.description);
 const canonicalURL = new URL(`/guides/${entry.id}/`, Astro.site).toString();
 ---

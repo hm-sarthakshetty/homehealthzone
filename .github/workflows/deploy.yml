@@ -40,6 +40,8 @@ jobs:
         run: npm run build
       - name: Validate navigation, search coverage and sitemap
         run: python3 scripts/validate_site_structure.py
+      - name: Validate Oxygenate landing-page SEO
+        run: python3 scripts/validate_oxygenate_seo.py
       - name: Validate commercial page mappings
         run: npm run semantic:validate
       - name: Upload build artifact
