@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify the two Oxygenate landing pages in the built publication artifact."""
+"""Verify Oxygenate landing pages and the HM-KV comparison in the built artifact."""
 import json
 from html.parser import HTMLParser
 from pathlib import Path
@@ -135,4 +135,28 @@ assert all(any(item['h'] == route for item in index) for route in pages)
 for route in ['/oxygen-concentrators/brands/', '/oxygen-concentrators/5-lpm/', '/guides/philips-everflo-replacement-india/']:
     source = Page(route)
     assert ARTICLE in source.links and PRODUCT in source.links, route
+comparison_route = '/compare/home-medix-5-lpm-vs-philips-oxygenate-5/'
+comparison = Page(comparison_route)
+hm_route = '/oxygen-concentrators/home-medix-5-lpm/'
+hm_official = 'https://www.homemedix.in/shop/hm-kv'
+assert comparison.h1_count == 1
+assert comparison.canonical == [ORIGIN + comparison_route]
+assert hm_official in comparison.links and PRODUCT in comparison.links and hm_route in comparison.links
+assert any(img.get('src', '').endswith('philips-oxygenate-5-ksw-5.webp') for img in comparison.images)
+visible = ' '.join(' '.join(comparison.visible_parts).split())
+for text in ['Konsung-branded reference photograph', '₹44,100', '₹45,000–₹55,000', 'HHZ budget estimate', '27.8%']:
+    assert text in visible, text
+assert 'Head-to-head scored against' not in visible
+faqs = next(s for s in comparison.schemas if s.get('@type') == 'FAQPage')['mainEntity']
+assert len(faqs) == 6 and len({q['name'] for q in faqs}) == 6
+for faq in faqs:
+    assert faq['name'] in visible and faq['acceptedAnswer']['text'] in visible
+editorial = next(s for s in comparison.schemas if s.get('@type') == 'Article')
+assert {item['name'] for item in editorial['about']} == {'Home Medix HM-KV 5 LPM', 'Philips Oxygenate 5'}
+assert hm_official in editorial['citation']
+for route in [PRODUCT, ARTICLE, hm_route, '/compare/']:
+    assert comparison_route in Page(route).links, route
+assert 'Source: ' + ORIGIN + comparison_route in corpus
+assert 'https://www.homemedix.in/shop/hm-kv' in corpus.split('Source: ' + ORIGIN + comparison_route, 1)[1].split('\n---\n', 1)[0]
 print('Verified Oxygenate SEO: metadata, entities, price range, citations, TOC, search, links and visible FAQs matching schema and text export.')
+print('Verified HM-KV comparison: requested Konsung image, official manufacturer link, price basis, Article/FAQ schema and inbound links.')

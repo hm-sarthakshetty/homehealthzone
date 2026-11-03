@@ -121,6 +121,12 @@ const comparisonSchema = z.object({
   productB_name: z.string(),
   comparison_score: z.number().default(0),
   title: z.string(),
+  description: z.string().optional(),
+  productA_url: z.url().optional(),
+  productB_url: z.url().optional(),
+  productA_image: z.object({ src: z.string(), alt: z.string(), caption: z.string().optional() }).optional(),
+  productB_image: z.object({ src: z.string(), alt: z.string(), caption: z.string().optional() }).optional(),
+  social_image: z.object({ src: z.string(), alt: z.string(), width: z.number(), height: z.number() }).optional(),
 });
 
 const editorialSchema = z.object({
@@ -190,6 +196,8 @@ const comparisonWriteupSchema = z.object({
   verdict: z.string().optional(),
   winner: z.enum(['A', 'B', 'tie']).optional(),
   tags: z.array(z.string()).default([]),
+  citations: z.array(z.url()).default([]),
+  faqs: z.array(z.object({ q: z.string(), a: z.string(), source: z.url().optional(), sourceLabel: z.string().optional() })).default([]),
 });
 
 const products = defineCollection({

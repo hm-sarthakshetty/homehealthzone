@@ -8154,6 +8154,8 @@ HHZ has no matched part numbers and comparable repair quotations establishing a 
 
 **Published nominal weight is one comparison criterion, not proof that another concentrator is safer, better engineered, cheaper or better supported.** The table below gives source-specific weights. Current matched Indian offers, regulatory suitability and service were not verified for these alternatives.
 
+For a focused comparison with another 5 LPM option, read [Home Medix HM-KV vs Philips Oxygenate 5](/compare/home-medix-5-lpm-vs-philips-oxygenate-5/). The page includes the current official HM-KV product link and distinguishes manufacturer pricing from HHZ's Oxygenate 5 budgeting estimate.
+
 
 
 | Product reference | Published nominal weight | Difference from Oxygenate 5 | What still needs checking |

@@ -1,0 +1,24 @@
+{
+  "slug": "home-medix-5-lpm-vs-philips-oxygenate-5",
+  "source_url": "",
+  "productA_slug": "home-medix-5-lpm",
+  "productA_name": "Home Medix HM-KV 5 LPM",
+  "productB_slug": "philips-oxygenate-5",
+  "productB_name": "Philips Oxygenate 5",
+  "comparison_score": 0,
+  "title": "Home Medix HM-KV 5 LPM vs Philips Oxygenate 5",
+  "description": "Compare Home Medix HM-KV and Philips Oxygenate 5 on published weight, flow, price, warranty and service. Includes the official HM-KV product link.",
+  "productA_url": "https://www.homemedix.in/shop/hm-kv",
+  "productB_url": "https://www.philips.co.in/healthcare/product/HC1156380/oxygenate-5-stationary-oxygen-concentrator",
+  "productB_image": {
+    "src": "/images/products/philips-oxygenate-5-ksw-5.webp",
+    "alt": "User-supplied white Konsung-branded oxygen concentrator, used as a manufacturer reference photograph",
+    "caption": "Konsung-branded reference photograph supplied by the user. The exact photographed model and configuration have not been independently verified; the image is not a photograph of a Philips-branded unit."
+  },
+  "social_image": {
+    "src": "/images/products/philips-oxygenate-5-ksw-5.webp",
+    "alt": "Konsung-branded reference photograph accompanying the Home Medix HM-KV versus Philips Oxygenate 5 document comparison",
+    "width": 800,
+    "height": 800
+  }
+}

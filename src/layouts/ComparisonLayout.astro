@@ -2,9 +2,11 @@
 import type { CollectionEntry } from 'astro:content';
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
-import { formatMoney, resolvePrice } from '../lib/price';
+import { formatPrice, resolvePrice } from '../lib/price';
 import ComparisonTable from '../components/ComparisonTable.astro';
 import ProductImage from '../components/ProductImage.astro';
+import FAQSection from '../components/FAQSection.astro';
+import SchemaArticle from '../components/SchemaArticle.astro';
 import { getCollection, getEntry } from 'astro:content';
 
 type ProductEntry = CollectionEntry<'products'> | CollectionEntry<'cpap-bipap'>;
@@ -23,13 +25,7 @@ export interface Props {
   canonicalURL?: string;
   currentSlug?: string;
   comparison?: CollectionEntry<'comparisons'>['data'];
-  writeupFrontmatter?: {
-    title?: string;
-    verdict?: string;
-    winner?: 'A' | 'B' | 'tie';
-    lastReviewed?: string;
-    reviewedBy?: string;
-  };
+  writeupFrontmatter?: CollectionEntry<'comparison-writeups'>['data'];
 }
 
 const {
@@ -83,10 +79,12 @@ function comparisonPrice(product: ProductEntry['data'], stock?: string | null) {
     ? 'Manufacturer-published price'
     : price.basis === 'dealer-quotation'
       ? 'Dealer quotation'
+      : price.basis === 'editorial-estimate'
+        ? 'HHZ budget estimate, not a verified range of seller offers'
       : 'Price record';
 
   return {
-    current: formatMoney(price.amount, price.currency ?? 'INR', 'IN'),
+    current: formatPrice(price),
     detail: [basis, price.tax_note, `checked ${checkedDate}`].filter(Boolean).join(' · '),
     discontinued: false,
   };
@@ -108,8 +106,9 @@ const description =
   descriptionProp ??
   `Side-by-side comparison: ${productA.product_name} vs ${productB.product_name} — specs, price, and editorial verdict.`;
 
-const imageA = productA.images && productA.images.length > 0 ? productA.images[0] : null;
-const imageB = productB.images && productB.images.length > 0 ? productB.images[0] : null;
+const imageA = comparison?.productA_image ?? productA.images?.[0] ?? null;
+const imageB = comparison?.productB_image ?? productB.images?.[0] ?? null;
+const hasEditorialMetadata = Boolean(writeupFrontmatter?.citations?.length);
 
 const effectiveSlug = comparison?.slug ?? currentSlug;
 
@@ -193,6 +192,14 @@ const topFive = topFivePillar(productA.category);
   description={description}
   canonicalURL={canonicalURL}
   preloadImage={imageA?.src}
+  lang="en-IN"
+  ogType={hasEditorialMetadata ? 'article' : 'website'}
+  ogImage={comparison?.social_image?.src}
+  ogImageAlt={comparison?.social_image?.alt}
+  ogImageWidth={comparison?.social_image?.width}
+  ogImageHeight={comparison?.social_image?.height}
+  publishedTime={writeupFrontmatter?.datePublished}
+  modifiedTime={writeupFrontmatter?.dateModified}
 >
   <article class="compare">
     <Breadcrumbs items={breadcrumbs} />
@@ -200,7 +207,9 @@ const topFive = topFivePillar(productA.category);
     <header class="compare__header">
       <h1>{productA.product_name} <span class="compare__vs">vs</span> {productB.product_name}</h1>
       <p class="meta-line">
-        Head-to-head scored against the published spec rubric.
+        {typeof productAScore === 'number' && typeof productBScore === 'number'
+          ? 'Head-to-head scored against the published spec rubric.'
+          : 'Published-specification comparison; no matched HHZ bench test.'}
         {writeupFrontmatter?.lastReviewed && (
           <span>· Reviewed <time datetime={writeupFrontmatter.lastReviewed}>{writeupFrontmatter.lastReviewed}</time></span>
         )}
@@ -232,9 +241,13 @@ const topFive = topFivePillar(productA.category);
         <h2 id="compare-a-heading" class="compare__card-title">
           <a href={hrefA}>{productA.product_name}</a>
         </h2>
+        {comparison?.productA_url && <p><a href={comparison.productA_url}>{productA.brand} product page →</a></p>}
         {imageA && (
-          <figure class="compare__image">
+          <figure class="compare__figure">
+            <div class="compare__image">
             <ProductImage src={imageA.src} alt={imageA.alt || productA.product_name} loading="lazy" />
+            </div>
+            {imageA.caption && <figcaption>{imageA.caption}</figcaption>}
           </figure>
         )}
         <dl class="compare__facts">
@@ -279,9 +292,13 @@ const topFive = topFivePillar(productA.category);
         <h2 id="compare-b-heading" class="compare__card-title">
           <a href={hrefB}>{productB.product_name}</a>
         </h2>
+        {comparison?.productB_url && <p><a href={comparison.productB_url}>{productB.brand} product page →</a></p>}
         {imageB && (
-          <figure class="compare__image">
+          <figure class="compare__figure">
+            <div class="compare__image">
             <ProductImage src={imageB.src} alt={imageB.alt || productB.product_name} loading="lazy" />
+            </div>
+            {imageB.caption && <figcaption>{imageB.caption}</figcaption>}
           </figure>
         )}
         <dl class="compare__facts">
@@ -407,6 +424,8 @@ const topFive = topFivePillar(productA.category);
       </div>
     </section>
 
+    {writeupFrontmatter?.faqs?.length > 0 && <FAQSection faqs={writeupFrontmatter.faqs} />}
+
     {related.length > 0 && (
       <section class="compare__related" aria-labelledby="related-compare-heading">
         <h2 id="related-compare-heading">Related comparisons</h2>
@@ -420,6 +439,18 @@ const topFive = topFivePillar(productA.category);
       </section>
     )}
   </article>
+  {hasEditorialMetadata && writeupFrontmatter && <SchemaArticle
+    title={writeupFrontmatter.title}
+    description={description}
+    datePublished={writeupFrontmatter.datePublished}
+    dateModified={writeupFrontmatter.dateModified}
+    lastReviewed={writeupFrontmatter.lastReviewed}
+    author={writeupFrontmatter.author}
+    authorUrl="/authors/hhz-editorial/"
+    image={comparison?.social_image ? new URL(comparison.social_image.src, Astro.site).toString() : undefined}
+    about={[{ name: productA.product_name, url: hrefA }, { name: productB.product_name, url: hrefB }]}
+    citations={writeupFrontmatter.citations}
+  />}
 </BaseLayout>
 
 <style>
@@ -642,12 +673,17 @@ const topFive = topFivePillar(productA.category);
     align-items: center;
     justify-content: center;
   }
-  .compare__image img {
+  .compare__image :global(img) {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
     padding: var(--space-3);
   }
+  .compare__figure { margin: 0; }
+  .compare__figure figcaption { padding-top: var(--space-2); font-size: var(--text-xs); color: var(--color-text-muted); line-height: 1.5; }
+  .compare__analysis :global(.comparison-table-scroll table) { border-collapse: collapse; width: 100%; }
+  .compare__analysis :global(.comparison-table-scroll th),
+  .compare__analysis :global(.comparison-table-scroll td) { min-width: 12rem; border: 1px solid var(--color-border); padding: var(--space-3); text-align: left; vertical-align: top; }
   .compare__facts {
     display: grid;
     grid-template-columns: auto 1fr;

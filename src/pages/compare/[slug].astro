@@ -68,9 +68,9 @@ const readableMatchup =
   productA && productB
     ? `${productA.data.product_name} vs ${productB.data.product_name}`
     : data.title;
-const description = bothResolved
+const description = data.description ?? (bothResolved
   ? `${readableMatchup} — full specifications side-by-side, prices in Indian rupees, HHZ rubric scores, and editorial verdict on which device fits which buyer.`
-  : `${data.title} — full comparison in progress. Here's what we know about each device from manufacturer specifications and e-commerce listings.`;
+  : `${data.title} — full comparison in progress. Here's what we know about each device from manufacturer specifications and e-commerce listings.`);
 
 const canonicalURL = new URL(`/compare/${data.slug}/`, Astro.site).toString();
 

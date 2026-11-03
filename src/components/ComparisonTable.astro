@@ -26,6 +26,11 @@ const sanitize = (v: string | null | undefined): string => {
 
 const priceA = resolvePrice(productA);
 const priceB = resolvePrice(productB);
+const priceBasisLabel = (basis: string | undefined) => basis === 'manufacturer-published'
+  ? 'Manufacturer-published price'
+  : basis === 'dealer-quotation'
+    ? 'Dealer quotation'
+    : basis === 'editorial-estimate' ? 'HHZ budget estimate; not verified seller offers' : '';
 
 const rows: Row[] = [];
 
@@ -40,7 +45,7 @@ const basicPairs: Array<[string, string, string]> = [
   ],
   // Legacy behaviour: MRP cell carries no currency symbol.
   ['MRP', priceA.checked_at ? formatPrice(priceA, 'mrp', 'bare') ?? '' : '', priceB.checked_at ? formatPrice(priceB, 'mrp', 'bare') ?? '' : ''],
-  ['Price basis / tax / checked', [priceA.basis, priceA.tax_note, priceA.checked_at].filter(Boolean).join(' · '), [priceB.basis, priceB.tax_note, priceB.checked_at].filter(Boolean).join(' · ')],
+  ['Price basis / tax / checked', [priceBasisLabel(priceA.basis), priceA.tax_note, priceA.checked_at].filter(Boolean).join(' · '), [priceBasisLabel(priceB.basis), priceB.tax_note, priceB.checked_at].filter(Boolean).join(' · ')],
   ['Stock', sanitize(productA.stock), sanitize(productB.stock)],
 ];
 

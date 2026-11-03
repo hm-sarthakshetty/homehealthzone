@@ -13,7 +13,7 @@
       "amount": 44100,
       "currency": "INR",
       "source_url": "https://www.homemedix.in/shop/hm-kv",
-      "checked_at": "2026-10-28",
+      "checked_at": "2026-11-03",
       "basis": "manufacturer-published",
       "tax_note": "Including 5% GST",
       "amount_before_tax": 42000,
@@ -88,12 +88,12 @@
     "indian_voltage": true,
     "warranty_years": 3
   },
-  "dateModified": "2026-10-28",
+  "dateModified": "2026-11-03",
   "evidence": [
     {
       "label": "Manufacturer model and purchase information",
       "url": "https://www.homemedix.in/shop/hm-kv",
-      "checked_at": "2026-10-28"
+      "checked_at": "2026-11-03"
     },
     {
       "label": "Currently published manufacturer brochure",
