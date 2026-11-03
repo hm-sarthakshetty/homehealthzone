@@ -50,6 +50,12 @@ async function resolveScore(e: ReviewEntry | undefined): Promise<number | undefi
 
 const productA = await resolveProduct(data.productA_slug);
 const productB = await resolveProduct(data.productB_slug);
+// All catalogue comparisons are Indian. Exclude sleep-therapy comparisons,
+// including partially resolved matchups; use names only when neither resolves.
+const resolvedProducts = [productA, productB].filter((product) => product !== undefined);
+const isOxygenComparison = resolvedProducts.length > 0
+  ? resolvedProducts.some((product) => product.collection === 'products') && resolvedProducts.every((product) => product.collection !== 'cpap-bipap')
+  : /oxygen|concentrator|\b[0-9]+[- ]?lpm\b/i.test(`${data.productA_name} ${data.productB_name}`) && !/cpap|bipap/i.test(`${data.productA_name} ${data.productB_name}`);
 const scoreA = await resolveScore(productA);
 const scoreB = await resolveScore(productB);
 
@@ -84,6 +90,9 @@ const crumbs = [
   <ComparisonLayout
     productA={productA.data}
     productB={productB.data}
+    productACollection={productA.collection}
+    productBCollection={productB.collection}
+    showOxygenBanner={isOxygenComparison}
     productAHref={reviewHref(productA)}
     productBHref={reviewHref(productB)}
     productAScore={scoreA}
@@ -97,7 +106,7 @@ const crumbs = [
     {WriteupContent && <WriteupContent />}
   </ComparisonLayout>
 ) : (
-  <BaseLayout title={title} description={description} canonicalURL={canonicalURL}>
+  <BaseLayout title={title} description={description} canonicalURL={canonicalURL} showOxygenBanner={isOxygenComparison}>
     <Breadcrumbs items={crumbs} />
 
     <article class="placeholder">

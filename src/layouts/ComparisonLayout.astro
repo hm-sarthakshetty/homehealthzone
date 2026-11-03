@@ -26,6 +26,7 @@ export interface Props {
   currentSlug?: string;
   comparison?: CollectionEntry<'comparisons'>['data'];
   writeupFrontmatter?: CollectionEntry<'comparison-writeups'>['data'];
+  showOxygenBanner?: boolean;
 }
 
 const {
@@ -43,6 +44,7 @@ const {
   currentSlug,
   comparison,
   writeupFrontmatter,
+  showOxygenBanner = false,
 } = Astro.props;
 
 const defaultHref = (
@@ -188,6 +190,7 @@ function topFivePillar(cat: string | undefined): { href: string; label: string }
 const topFive = topFivePillar(productA.category);
 ---
 <BaseLayout
+  showOxygenBanner={showOxygenBanner}
   title={title}
   description={description}
   canonicalURL={canonicalURL}

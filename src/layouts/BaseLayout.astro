@@ -3,8 +3,10 @@ import '../styles/global.css';
 import hreflangData from '../data/hreflang.json';
 import { LIVE_MARKETS, marketForPath } from '../data/markets';
 import ComparisonDisclosure from '../components/ComparisonDisclosure.astro';
+import HomeMedixBanner from '../components/HomeMedixBanner.astro';
 
 export interface Props {
+  showOxygenBanner?: boolean;
   title?: string;
   description?: string;
   canonicalURL?: string;
@@ -82,6 +84,7 @@ const resolvedCanonical = canonicalURL ?? new URL(Astro.url.pathname, Astro.site
 
 // Product review pages belong to India; every other country has a guides tree.
 const currentPath = Astro.url.pathname;
+const showOxygenBanner = props.showOxygenBanner ?? /^\/top-5\/(?!cpap-machines|bipap-machines)[^/]*oxygen-concentrators/.test(currentPath);
 const comparisonWavePaths = new Set([
   '/guides/5-lpm-oxygen-concentrator-spec-comparison-india/',
   '/top-5/cpap-machines/', '/top-5/bipap-machines/',
@@ -249,6 +252,7 @@ const hreflangLinks = hreflangPair
     <main id="main" class:list={['container', { 'comparison-wave': isComparisonWave }]}>
       {isComparisonWave && <ComparisonDisclosure />}
       <slot />
+      {showOxygenBanner && <HomeMedixBanner />}
     </main>
 
     <footer class="site-footer">

@@ -150,11 +150,20 @@ try {
 
 const title = titleProp ?? frontmatter.title;
 const description = descriptionProp ?? frontmatter.description;
+// Classify by topic metadata, not passing mentions. Clinical pages share a
+// global library, so include them only when their metadata identifies India.
+const oxygenTopic = /\b(oxygen|concentrators?|everflo|ltot|\d+\s*lpm)\b/i.test(
+  [entry.id, frontmatter.title, ...(frontmatter.tags ?? [])].join(' ').replace(/[-_]/g, ' ')
+);
+const isIndiaClinical = entry.collection === 'clinical' && /\b(india|indian)\b/i.test(
+  [entry.id, frontmatter.title, frontmatter.description, ...(frontmatter.tags ?? [])].join(' ').replace(/[-_]/g, ' ')
+);
+const showOxygenBanner = market === 'IN' && oxygenTopic && (entry.collection === 'guides' || isIndiaClinical);
 
 const image = frontmatter.image ? new URL(frontmatter.image, Astro.site).toString() : undefined;
 const toc = frontmatter.showToc ? headings.filter((h) => h.depth === 2) : [];
 ---
-<BaseLayout title={title} description={description} canonicalURL={canonicalURL} lang={locale}
+<BaseLayout title={title} description={description} canonicalURL={canonicalURL} lang={locale} showOxygenBanner={showOxygenBanner}
   ogType="article" ogImage={image} ogImageAlt={frontmatter.imageAlt}
   ogImageWidth={frontmatter.imageWidth} ogImageHeight={frontmatter.imageHeight}
   publishedTime={frontmatter.datePublished} modifiedTime={frontmatter.dateModified ?? frontmatter.lastReviewed}>
