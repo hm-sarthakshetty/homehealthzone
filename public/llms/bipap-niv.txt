@@ -2906,7 +2906,7 @@ DeVilbiss's IntelliPAP 2 AutoAdjust is a competent mid-tier APAP. Indian channel
 
 ### Oxymed (India-assembled; turbine imported per manufacturer brochure)
 
-Oxymed's CPAP lineup is the strongest Indian-channel value proposition in the budget-to-mid tier in 2026. The **[SleepEasy AutoCPAP](/cpap/oxymed-auto-cpap-machine/)** at ₹28,499 uses a German turbine per manufacturer brochure, claims an advanced FlowSens algorithm with central-apnea detection, offers 3-year warranty with PAN-India home service, and includes cloud connectivity via mobile app. The **[AirSmart Bi-Level Auto](/bipap/oxymed-airsmart-auto/)** at ₹33,990 extends the platform to auto-bilevel for OSA patients who do not tolerate CPAP. The **[AirSmart BPAP ST with VAPS](/cpap-bipap/oxymed-bipap-i-series-p1/)** at ₹37,490 delivers volume-assured bilevel therapy at a price point that no tier-1 brand matches.
+Oxymed's CPAP lineup is the strongest Indian-channel value proposition in the budget-to-mid tier in 2026. The **[SleepEasy AutoCPAP](/cpap/oxymed-auto-cpap-machine/)** at ₹28,499 uses a German turbine per manufacturer brochure, claims an advanced FlowSens algorithm with central-apnea detection, offers 3-year warranty with PAN-India home service, and includes cloud connectivity via mobile app. The **[AirSmart Bi-Level Auto](/bipap/oxymed-airsmart-auto/)** at ₹33,990 extends the platform to auto-bilevel for OSA patients who do not tolerate CPAP. The **[AirSmart BPAP ST with VAPS](/bipap/oxymed-bipap-i-series-p1/)** at ₹37,490 delivers volume-assured bilevel therapy at a price point that no tier-1 brand matches.
 
 The 3-year warranty with home service is genuinely differentiated and is the main reason Oxymed merits attention in the budget-to-mid bracket — most imported brands offer 2 years and require the customer to ship the unit to a service centre. For tier-2 and tier-3 city buyers whose nearest ResMed or Philips service centre is 200 km away, Oxymed's service model is pragmatically superior, even if the algorithm is not as sophisticated as AutoSet.
 
@@ -3635,7 +3635,7 @@ This is the price-leader in the Auto BiPAP S category. At ₹33,990 it is roughl
 
 The tradeoffs: standard-tier algorithm (not the ResMed VAuto benchmark), 30 dB sound level versus 25 dB on the AirCurve, 2.0 kg vs 1.24 kg. For cost-constrained patients with uncomplicated CPAP intolerance this is a legitimate buy.
 
-Note the AirSmart Bi-Level Auto is Auto BiPAP S — not Auto-ST. Patients needing Auto-ST should look at the sibling **[Oxymed AirSmart BPAP ST with VAPS](/cpap-bipap/oxymed-bipap-i-series-p1/)** at ₹37,490, which adds ST + VAPS but which is fixed ST, not Auto-ST. The Oxymed platform does not currently offer a true Auto-ST equivalent to ResMed iBR at this price point.
+Note the AirSmart Bi-Level Auto is Auto BiPAP S — not Auto-ST. Patients needing Auto-ST should look at the sibling **[Oxymed AirSmart BPAP ST with VAPS](/bipap/oxymed-bipap-i-series-p1/)** at ₹37,490, which adds ST + VAPS but which is fixed ST, not Auto-ST. The Oxymed platform does not currently offer a true Auto-ST equivalent to ResMed iBR at this price point.
 
 ### Home Medix HM-BV-30
 
@@ -3946,7 +3946,7 @@ The **[BPL LifePAP 25STA BiPAP with Auto-EPAP](/bipap/bpl-lifepap-25sta-bipap-ma
 
 ### Indian-channel: Oxymed and Deckmount
 
-The **[Oxymed AirSmart BPAP ST with VAPS](/cpap-bipap/oxymed-bipap-i-series-p1/)** at ₹37,490 (MRP ₹59,999) delivers S + S/T + CPAP + PC + T + VAT (VAPS) modes per published specs. 4–30 cmH₂O pressure range, 30 dB, 2.0 kg, German turbine per manufacturer brochure, Swiss sensor per manufacturer brochure, heated humidifier, adjustable trigger and cycle sensitivity between levels 1–3, rise time, Ti setting, pressure support setting, backup rate, leak compensation to 60 L/min, SD card + cloud connectivity, 3-year warranty with PAN-India home service. This is the sharpest price-to-feature proposition in the Indian ST-with-VAPS category — a ST-VAPS BiPAP for under ₹40,000 with 3-year home service is a position that imported brands do not match.
+The **[Oxymed AirSmart BPAP ST with VAPS](/bipap/oxymed-bipap-i-series-p1/)** at ₹37,490 (MRP ₹59,999) delivers S + S/T + CPAP + PC + T + VAT (VAPS) modes per published specs. 4–30 cmH₂O pressure range, 30 dB, 2.0 kg, German turbine per manufacturer brochure, Swiss sensor per manufacturer brochure, heated humidifier, adjustable trigger and cycle sensitivity between levels 1–3, rise time, Ti setting, pressure support setting, backup rate, leak compensation to 60 L/min, SD card + cloud connectivity, 3-year warranty with PAN-India home service. This is the sharpest price-to-feature proposition in the Indian ST-with-VAPS category — a ST-VAPS BiPAP for under ₹40,000 with 3-year home service is a position that imported brands do not match.
 
 The **[Deckmount VT200 (VAPS) BiPAP](/bipap/deckmount-vt-200/)** at ₹27,552 (MRP ₹72,000) offers CPAP + S + ST + T + PC + VAPS + Auto CPAP modes per published specs. 4–30 cmH₂O pressure range, 28 dB, 1.8 kg, Indian-made turbine per manufacturer brochure, heated humidifier, adjustable trigger and cycle sensitivity, TiControl, rise time, Ti setting, pressure support setting, central apnea detection, altitude compensation, SD-card data + QR compliance codes. A very aggressive price for VAT-capable ST therapy; Indian-manufacture service reachability is the main tradeoff.
 
@@ -3974,7 +3974,7 @@ For **CSA, complex sleep apnea, or OHS with moderate hypercapnia**, the **ResMed
 
 For **severe OHS or hypercapnic COPD on home NIV requiring higher IPAP and volume assurance**, the **[Philips DreamStation BiPAP AVAPS](/bipap/philips-dreamstation-bipap-avaps/)** at ₹77,952 (4–30 cmH₂O pressure range) or the Lumis 150 with iVAPS are the appropriate devices. See our [TVAPS guide](/bipap/tvaps/) for the volume-assurance choice.
 
-For **cost-constrained ST prescriptions** where the clinical picture is stable, the **[Oxymed AirSmart BPAP ST with VAPS](/cpap-bipap/oxymed-bipap-i-series-p1/)** at ₹37,490 delivers ST + VAPS with 3-year PAN-India home service — a genuinely differentiated price-to-feature position.
+For **cost-constrained ST prescriptions** where the clinical picture is stable, the **[Oxymed AirSmart BPAP ST with VAPS](/bipap/oxymed-bipap-i-series-p1/)** at ₹37,490 delivers ST + VAPS with 3-year PAN-India home service — a genuinely differentiated price-to-feature position.
 
 For **ST with volume assurance at the price floor**, the **[BMC G3 B30VT](/bipap/bmc-g3-b30vt-bipap-machine/)** at ₹39,744 or the **[Deckmount VT200](/bipap/deckmount-vt-200/)** at ₹27,552 are the price-aggressive options. The tradeoffs in algorithm sophistication, data platform, and service reachability are real but can be acceptable depending on the clinical picture.
 
@@ -4072,7 +4072,7 @@ The 2026 Indian TVAPS device list, by price:
 
 ### Price floor — sub-₹40,000 TVAPS
 
-The **[Oxymed AirSmart BPAP ST with VAPS](/cpap-bipap/oxymed-bipap-i-series-p1/)** at ₹37,490 (MRP ₹59,999) delivers S + S/T + CPAP + PC + T + VAT (VAPS) modes per published specs. 4–30 cmH₂O pressure range, 30 dB sound level, 2.0 kg, German turbine per manufacturer brochure, Swiss sensor per manufacturer brochure, heated humidifier, trigger/cycle sensitivity, rise time, Ti setting, pressure support, backup rate, leak compensation to 60 L/min, SD + cloud connectivity, 3-year warranty with PAN-India home service.
+The **[Oxymed AirSmart BPAP ST with VAPS](/bipap/oxymed-bipap-i-series-p1/)** at ₹37,490 (MRP ₹59,999) delivers S + S/T + CPAP + PC + T + VAT (VAPS) modes per published specs. 4–30 cmH₂O pressure range, 30 dB sound level, 2.0 kg, German turbine per manufacturer brochure, Swiss sensor per manufacturer brochure, heated humidifier, trigger/cycle sensitivity, rise time, Ti setting, pressure support, backup rate, leak compensation to 60 L/min, SD + cloud connectivity, 3-year warranty with PAN-India home service.
 
 The **[BMC G3 B30VT BiPAP](/bipap/bmc-g3-b30vt-bipap-machine/)** at ₹39,744 (MRP ₹48,000) delivers CPAP + S + T + ST modes with VAT. 4–30 cmH₂O pressure range, 26 dB, 1.7 kg, China-made turbine, heated humidifier, trigger/cycle sensitivity, TiControl, rise time, Ti setting, backup rate, central apnea detection, altitude compensation, SD + iCode, 2-year warranty.
 
@@ -4142,7 +4142,7 @@ Service reliability matters more on TVAPS than on APAP because the patient popul
 
 ## Final recommendation
 
-For **OHS with hypercapnia, early-to-mid neuromuscular disease, or stable hypercapnic COPD on home NIV, budget-constrained**: the **[Oxymed AirSmart BPAP ST with VAPS](/cpap-bipap/oxymed-bipap-i-series-p1/)** at ₹37,490 with 3-year PAN-India home service, or the **[BMC G3 B30VT](/bipap/bmc-g3-b30vt-bipap-machine/)** at ₹39,744. Either delivers functional TVAPS at the price floor. The Oxymed's 3-year home-service warranty is the differentiated feature; the BMC's marginally lower sound level and slightly better build are the counter-argument.
+For **OHS with hypercapnia, early-to-mid neuromuscular disease, or stable hypercapnic COPD on home NIV, budget-constrained**: the **[Oxymed AirSmart BPAP ST with VAPS](/bipap/oxymed-bipap-i-series-p1/)** at ₹37,490 with 3-year PAN-India home service, or the **[BMC G3 B30VT](/bipap/bmc-g3-b30vt-bipap-machine/)** at ₹39,744. Either delivers functional TVAPS at the price floor. The Oxymed's 3-year home-service warranty is the differentiated feature; the BMC's marginally lower sound level and slightly better build are the counter-argument.
 
 For **OHS or neuromuscular patients with OSA component requiring AutoEPAP overlay, Indian manufacture preferred**: the **[BPL LifePAP 25STA](/bipap/bpl-lifepap-25sta-bipap-machine-with-auto-epap/)** at ₹70,080 — eVAPS + AutoEPAP in an Indian-manufactured unit with reasonable domestic service footprint.
 
@@ -14989,7 +14989,7 @@ Second, the "low-silica" qualifier matters. The Si/Al ratio in LSX is at or near
 
 The practical consequence is a steeper breakthrough front and a smaller required bed size for the same product flow at the same purity. A 5 LPM concentrator using LiLSX can achieve 93–95% purity with a bed mass roughly 30–50% smaller than an equivalent 13X design, which translates directly to a smaller, lighter, quieter unit running a smaller compressor. Portable POC-class concentrators rely on LiLSX essentially universally, because the bed size reduction is what makes 2.5 kg portable oxygen technically possible.
 
-The trade-off is cost. LiLSX costs several times more per kilogram than 13X and is more water-sensitive — one bulk-water exposure can destroy capacity irrecoverably. See <a href="/clinical/sieve-bed-lifespan-and-degradation/">sieve-bed lifespan and degradation</a>.
+The trade-off is cost. LiLSX costs several times more per kilogram than 13X and is more water-sensitive — one bulk-water exposure can destroy capacity irrecoverably. See <a href="/clinical/sieve-bed-lifespan/">sieve-bed lifespan and degradation</a>.
 
 ## The compressor: why it matters
 
@@ -15941,14 +15941,14 @@ A cylinder still has a real role in a home-oxygen setup, just not because of its
 - **Prescribed flows above what your concentrator delivers at rated purity.**
 - **True portability** away from mains power, where a pulse-dose portable concentrator or a small cylinder is the practical choice.
 
-The full trade-off is laid out in [oxygen cylinder vs concentrator](/clinical/oxygen-cylinder-vs-concentrator/). The point is that the decision is about runtime, backup, and mobility — never about the 93-versus-99 number.
+The full trade-off is laid out in [oxygen cylinder vs concentrator](/guides/oxygen-cylinder-vs-concentrator/). The point is that the decision is about runtime, backup, and mobility — never about the 93-versus-99 number.
 
 ## The number you should actually watch
 
 The purity figure that matters is not 93 versus 99 — it is whether your concentrator still holds **93% at your prescribed flow rate.** Two things erode it:
 
 - **Higher flow.** Purity naturally falls as flow rises; a 5 L/min unit reading 93% at 2 L/min may read 86–89% at its full 5 L/min, which is normal physics, covered in [why oxygen purity drops at high flow](/clinical/why-oxygen-purity-drops-at-high-flow/).
-- **An ageing sieve bed.** Over thousands of hours the zeolite degrades and the whole flow-vs-purity curve drifts downward — the pattern explained in [sieve bed lifespan and degradation](/clinical/sieve-bed-lifespan-and-degradation/).
+- **An ageing sieve bed.** Over thousands of hours the zeolite degrades and the whole flow-vs-purity curve drifts downward — the pattern explained in [sieve bed lifespan and degradation](/clinical/sieve-bed-lifespan/).
 
 This is where a live purity readout earns its keep. The [Home Medix HM-KX](https://homemedix.in/oxygen-concentrator/) (up to 10 L/min) and the quieter [HM-KV](https://homemedix.in/oxygen-concentrator-kv/) (up to 5 L/min) both display real-time oxygen purity and flow, so you can confirm the unit is sitting inside 93% ±3% at *your* setting rather than trusting the spec sheet — and catch a degrading bed early, before purity quietly falls below 90%.
 
@@ -19148,7 +19148,7 @@ At tertiary centres (AIIMS network, major private hospitals, tier-1 city tertiar
 In much of India — smaller hospitals, rural primary care, most tier-2 and tier-3 private clinics — ABG is not available at the point of prescribing. The working compromise is SpO₂-based triage:
 
 - **SpO₂ &lt;88% at rest, room air, in a stable patient, on two occasions three weeks apart** is taken as a surrogate for PaO₂ ≤55 mmHg.
-- The correspondence is imperfect. SpO₂ 88% can correspond to PaO₂ ranging from ~52 to ~60 mmHg depending on pH, temperature, CO₂, and curve-shift factors. It is also subject to the pulse-oximeter accuracy issues covered in [understanding SpO₂ vs PaO₂ vs SaO₂](/clinical/understanding-spo2-vs-pao2-vs-sao2/) — particularly the dark-skin over-reading effect.
+- The correspondence is imperfect. SpO₂ 88% can correspond to PaO₂ ranging from ~52 to ~60 mmHg depending on pH, temperature, CO₂, and curve-shift factors. It is also subject to the pulse-oximeter accuracy issues covered in [understanding SpO₂ vs PaO₂ vs SaO₂](/clinical/spo2-vs-pao2-vs-sao2/) — particularly the dark-skin over-reading effect.
 - In borderline cases (SpO₂ 87–90%), multiple readings across different fingers, perfusion states, and oximeters give a more defensible picture.
 - When any clinical finding suggests CO₂ retention — morning headaches, daytime somnolence, plethora, cor pulmonale — the patient should be referred for ABG before or during LTOT initiation, even if that means a trip to a district or referral hospital.
 

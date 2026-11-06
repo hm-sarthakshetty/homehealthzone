@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BrowseProducts from '../../components/BrowseProducts.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CategoryNavigation from '../../components/CategoryNavigation.astro';
 import { getCollection } from 'astro:content';
 
 const [all, reviews] = await Promise.all([
@@ -39,6 +40,7 @@ const crumbs = [
     <p class="lead">
       {cpapProducts.length} CPAP machines available in India — auto-titrating, fixed-pressure, and travel-friendly models. Every device is scored against the same published rubric.
     </p>
+    <CategoryNavigation category="cpap" />
   </header>
 
   <section aria-labelledby="cpap-explained">

@@ -4,12 +4,13 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import CompareBuilder from '../../components/CompareBuilder.astro';
 import { getCollection } from 'astro:content';
 
-const [products, cpapBipap, comparisons, productReviews, cpapBipapReviews] = await Promise.all([
+const [products, cpapBipap, comparisons, productReviews, cpapBipapReviews, guides] = await Promise.all([
   getCollection('products'),
   getCollection('cpap-bipap'),
   getCollection('comparisons'),
   getCollection('product-reviews'),
   getCollection('cpap-bipap-reviews'),
+  getCollection('guides'),
 ]);
 
 const allProducts = [...products, ...cpapBipap];
@@ -28,6 +29,31 @@ const popular = comparisons
   .slice()
   .sort((a, b) => b.data.comparison_score - a.data.comparison_score)
   .slice(0, 12);
+
+// Keep every curated matchup available as a static link, grouped by device category.
+const productCategories = new Map(allProducts.map((entry) => [entry.data.slug, entry.data.category]));
+const groupedComparisons = new Map<string, typeof comparisons>();
+for (const comparison of comparisons) {
+  const a = productCategories.get(comparison.data.productA_slug);
+  const b = productCategories.get(comparison.data.productB_slug);
+  const label = a && a === b ? `${a} comparisons` : 'Other device comparisons';
+  const group = groupedComparisons.get(label) ?? [];
+  group.push(comparison);
+  groupedComparisons.set(label, group);
+}
+const comparisonGroups = [...groupedComparisons.entries()]
+  .sort(([a], [b]) => a.localeCompare(b, 'en', { numeric: true }))
+  .map(([label, entries], index) => ({
+    label,
+    id: `curated-group-${index + 1}`,
+    entries: entries.sort((a, b) => a.data.productA_name.localeCompare(b.data.productA_name, 'en') || a.data.productB_name.localeCompare(b.data.productB_name, 'en')),
+  }));
+const sleepComparisonGroups = ['cpap', 'bipap'].map((type) => ({
+  label: type === 'cpap' ? 'CPAP comparison guides' : 'BiPAP comparison guides',
+  id: `${type}-comparisons`,
+  entries: guides.filter((guide) => guide.data.tags.includes('comparison') && guide.data.tags.includes(type))
+    .sort((a, b) => a.data.title.localeCompare(b.data.title, 'en')),
+})).filter((group) => group.entries.length > 0);
 
 const pageTitle = 'Compare respiratory equipment';
 const description =
@@ -52,7 +78,15 @@ const crumbs = [
 
   <p><a href="/compare/home-medix-5-lpm-vs-philips-oxygenate-5/">Home Medix HM-KV vs Philips Oxygenate 5: weight, price, warranty and service compared →</a></p>
 
-  <CompareBuilder entries={allProducts} scoreMap={scoreMap} maxSlots={4} />
+  <nav class="comparison-jumps" aria-label="Comparison sections">
+    <a href="#comparison-builder">Build your own</a>
+    <a href="#all-curated">All {comparisons.length} curated comparisons</a>
+    {sleepComparisonGroups.map((group) => <a href={`#${group.id}`}>{group.label}</a>)}
+  </nav>
+
+  <div id="comparison-builder">
+    <CompareBuilder entries={allProducts} scoreMap={scoreMap} maxSlots={4} />
+  </div>
 
   {popular.length > 0 && (
     <section class="popular-comparisons">
@@ -71,9 +105,39 @@ const crumbs = [
       </ul>
     </section>
   )}
+  <section class="popular-comparisons" aria-labelledby="all-curated">
+    <h2 id="all-curated">All curated comparisons</h2>
+    <p>Browse all {comparisons.length} head-to-head device comparisons for India, grouped by category and sorted by model name.</p>
+    <nav class="comparison-jumps" aria-label="Curated comparison categories">
+      {comparisonGroups.map((group) => <a href={`#${group.id}`}>{group.label} ({group.entries.length})</a>)}
+    </nav>
+    {comparisonGroups.map((group) => (
+      <section aria-labelledby={group.id}>
+        <h3 id={group.id}>{group.label}</h3>
+        <ul class="popular-list">
+          {group.entries.map((c) => <li><a href={`/compare/${c.data.slug}/`}>{c.data.productA_name} vs {c.data.productB_name}</a></li>)}
+        </ul>
+      </section>
+    ))}
+  </section>
+
+  {sleepComparisonGroups.map((group) => (
+    <section class="popular-comparisons" aria-labelledby={group.id}>
+      <h2 id={group.id}>{group.label}</h2>
+      <ul class="popular-list">
+        {group.entries.map((guide) => <li><a href={`/guides/${guide.id}/`}>{guide.data.title}</a></li>)}
+      </ul>
+    </section>
+  ))}
 </BaseLayout>
 
 <style>
+  .comparison-jumps {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3) var(--space-5);
+    margin-block: var(--space-5);
+  }
   .hub-header {
     margin-bottom: var(--space-8);
   }
@@ -87,7 +151,7 @@ const crumbs = [
     padding: 0;
     margin: var(--space-4) 0 0;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
     gap: var(--space-2);
   }
   .popular-list li {

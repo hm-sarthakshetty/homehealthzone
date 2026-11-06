@@ -166,6 +166,7 @@ for (const [path, date] of Object.entries(PAGE_UPDATES)) {
 export default defineConfig({
   site: SITE_URL,
   redirects: {
+    '/clinical/sieve-bed-lifespan-and-degradation/': '/clinical/sieve-bed-lifespan/',
     '/clinical/bipap-st-mode-indications/': '/clinical/bipap-st-mode-and-indications/',
     '/clinical/epflex-epr-flex-c-flex-explained/': '/clinical/epflex-epr-flex-cflex-explained/',
     '/clinical/heated-tubing-clinical-evidence-indian-climate/': '/clinical/heated-tubing-clinical-evidence/',

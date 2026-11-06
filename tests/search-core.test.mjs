@@ -55,3 +55,19 @@ test('index load shares successful requests and permits retry after HTTP or data
   assert.equal(a[0].type, 'c');
   await assert.rejects(loadSearchIndex('/bad-test.json', async () => ({ ok: true, json: async () => [{ n: 'Unsafe', h: '//external.example', m: 'in', t: 'd' }] })));
 });
+
+
+test('comparison, shortlist, city and category filters accept wire data and preserve India scope', async () => {
+  const codes = { comparison: 'v', shortlist: 's', city: 'l', category: 'h' };
+  const index = await loadSearchIndex('/expanded-types.json', async () => ({ ok: true, json: async () => [
+    ...Object.entries(codes).map(([filter, code]) => ({ m: 'in', t: code, n: `Oxygen ${filter}`, h: `/${filter}/`, k: 'concentrator' })),
+    { m: 'in', t: 'd', n: 'Oxygen device', h: '/oxygen-concentrators/device/' },
+    { m: 'us', t: 'g', n: 'Oxygen guide', h: '/us/guides/oxygen/' },
+  ] }));
+  for (const [filter, code] of Object.entries(codes)) {
+    assert.deepEqual(rankSearch(index, 'oxygen', { resultType: filter }).map(item => item.type), [code]);
+    assert.equal(rankSearch(index, '', { market: 'us', resultType: filter }).length, 0);
+  }
+  assert.deepEqual(rankSearch(index, 'oxygen', { resultType: 'device' }).map(item => item.type), ['d']);
+  assert.deepEqual(rankSearch(index, 'oxygen', { resultType: 'guide' }).map(item => item.type), ['g']);
+});

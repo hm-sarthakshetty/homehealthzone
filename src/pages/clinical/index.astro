@@ -3,15 +3,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import ArticleCard from '../../components/ArticleCard.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
+import { groupClinicalArticles } from '../../lib/clinical-topics';
 
 const articles = await getCollection('clinical');
 
-const sorted = articles.slice().sort((a, b) => {
-  const aDate = a.data.lastReviewed ?? '';
-  const bDate = b.data.lastReviewed ?? '';
-  if (aDate && bDate && aDate !== bDate) return bDate.localeCompare(aDate);
-  return a.data.title.localeCompare(b.data.title, 'en');
-});
+const topics = groupClinicalArticles(articles);
 
 const pageTitle = 'Clinical education';
 const description =
@@ -29,15 +25,24 @@ const crumbs = [
     <h1>{pageTitle}</h1>
     <p class="lead">
       Clinical background on respiratory disease and therapy — PSA chemistry, AHI thresholds,
-      GOLD staging, and how to read the numbers that come with your equipment. Reviewed
-      periodically by clinicians and timestamped.
+      GOLD staging, and how to read the numbers that come with your equipment. Browse
+      {articles.length} articles by topic, or start with a focused decoder below.
     </p>
   </header>
+
+  <nav class="topic-nav" aria-labelledby="topics-heading" id="browse-topics">
+    <h2 id="topics-heading">Browse by topic</h2>
+    <ul>
+      {topics.map((topic) => (
+        <li><a href={`#${topic.id}`}><span>{topic.title}</span><span class="topic-count">{topic.articles.length} articles</span></a></li>
+      ))}
+    </ul>
+  </nav>
 
   <section class="decoder-section" aria-labelledby="decoder-heading">
     <div class="section-heading">
       <p class="eyebrow">Start with the number or device in front of you</p>
-      <h2 id="decoder-heading">New clinical decoders</h2>
+      <h2 id="decoder-heading">Clinical decoders</h2>
       <p>
         Short, focused explanations for the settings, report labels and oxygen interfaces that
         most often cause confusion.
@@ -67,20 +72,84 @@ const crumbs = [
     </div>
   </section>
 
-  {sorted.length === 0 ? (
-    <p class="empty">No clinical articles published yet.</p>
-  ) : (
-    <div class="article-grid">
-      {sorted.map((entry) => (
-        <ArticleCard entry={entry} href={`/clinical/${entry.id}/`} />
-      ))}
-    </div>
-  )}
+  {topics.map((topic) => (
+    <section class="topic-section" aria-labelledby={`${topic.id}-heading`} id={topic.id}>
+      <div class="topic-heading">
+        <div>
+          <h2 id={`${topic.id}-heading`}>{topic.title} <span class="topic-count">{topic.articles.length} articles</span></h2>
+          <p>{topic.description}</p>
+        </div>
+        <a class="back-to-topics" href="#browse-topics">Back to topics</a>
+      </div>
+      <div class="article-grid">
+        {topic.articles.map((entry) => (
+          <ArticleCard entry={entry} href={`/clinical/${entry.id}/`} />
+        ))}
+      </div>
+    </section>
+  ))}
 </BaseLayout>
 
 <style>
   .hub-header {
     margin-bottom: var(--space-8);
+  }
+  .topic-nav {
+    margin-bottom: var(--space-8);
+  }
+  .topic-nav ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
+    gap: var(--space-3);
+    padding: 0;
+    list-style: none;
+  }
+  .topic-nav a {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    gap: var(--space-2);
+    padding: var(--space-4);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius);
+    background: var(--color-surface);
+    font-family: var(--font-sans);
+    font-weight: 600;
+  }
+  .topic-count {
+    color: var(--color-text-muted);
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 400;
+    white-space: nowrap;
+  }
+  .topic-section {
+    margin-bottom: var(--space-10);
+  }
+  .topic-section, .topic-nav {
+    scroll-margin-top: var(--space-8);
+  }
+  .topic-heading {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: var(--space-3);
+    margin-bottom: var(--space-5);
+  }
+  .topic-heading h2 {
+    margin: 0 0 var(--space-2);
+  }
+  .topic-heading h2 .topic-count {
+    display: inline-block;
+  }
+  .topic-heading p {
+    margin: 0;
+    color: var(--color-text-muted);
+  }
+  .back-to-topics {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
   }
   .decoder-section {
     margin-bottom: var(--space-10);
@@ -133,11 +202,8 @@ const crumbs = [
   }
   .article-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 280px), 1fr));
     gap: var(--space-5);
-  }
-  .empty {
-    color: var(--color-text-muted);
   }
   @media (max-width: 720px) {
     .decoder-grid {

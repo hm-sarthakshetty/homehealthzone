@@ -3,8 +3,8 @@ export const MARKET_LABELS = {
   in: 'India', us: 'United States', uk: 'United Kingdom', sg: 'Singapore',
   au: 'Australia', ca: 'Canada', nz: 'New Zealand',
 };
-export const TYPE_LABELS = { d: 'Device review', g: 'Buying guide', c: 'Clinical article', p: 'Service partner', m: 'Manufacturer reference' };
-export const TYPE_CODES = { device: 'd', guide: 'g', clinical: 'c', partner: 'p', manufacturer: 'm' };
+export const TYPE_LABELS = { d: 'Device review', g: 'Buying guide', c: 'Clinical article', p: 'Service partner', m: 'Manufacturer reference', v: 'Comparison', s: 'Curated shortlist', l: 'City guide', h: 'Category guide' };
+export const TYPE_CODES = { device: 'd', guide: 'g', clinical: 'c', partner: 'p', manufacturer: 'm', comparison: 'v', shortlist: 's', city: 'l', category: 'h' };
 
 export function normalizeSearch(value = '') {
   return String(value).normalize('NFKD').replace(/[\u0300-\u036f]/g, '')

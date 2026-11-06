@@ -26,7 +26,7 @@ class Element {
   scrollIntoView() {}
   dispatchEvent(event) { this.lastEvent = event; }
 }
-function fixture({ remote = false, select = false, full = false, search = '' } = {}) {
+function fixture({ remote = false, select = false, full = false, search = '', extraItems = [] } = {}) {
   const box = new Element();
   const input = new Element('input'), list = new Element('ul'), status = new Element('p'), retry = new Element('button');
   const allLink = new Element('a'), data = new Element('script');
@@ -34,6 +34,7 @@ function fixture({ remote = false, select = false, full = false, search = '' } =
   data.textContent = JSON.stringify([
     { name: 'ResMed AirSense 11', brand: 'ResMed', slug: 'airsense-11', market: 'in', type: 'd', href: '/cpap/airsense-11/' },
     { name: 'AirSense guide', market: 'us', type: 'g', href: '/us/guides/airsense/' },
+    ...extraItems,
   ]);
   box.dataset = { searchId: 'test-search', minChars: '2', maxResults: '8', target: select ? 'select' : 'navigate', market: 'all', fullResults: String(full), ...(remote ? { src: '/controller-index.json' } : {}) };
   box.queries = { input, '[role="listbox"]': list, '[role="status"]': status, '.searchbox__retry': retry, '.searchbox__all': allLink,
@@ -127,5 +128,33 @@ test('load failure shows retry; retry succeeds without reopening an unfocused po
   assert.equal(list.hidden, true);
   input.focus();
   assert.equal(list.hidden, false);
+  assert.equal(list.children.length, 1);
+});
+
+
+test('expanded type filters round-trip URLs and clear active options when country changes', () => {
+  for (const [filter, code] of Object.entries({ comparison: 'v', shortlist: 's', city: 'l', category: 'h' })) {
+    const { input, list, box, type, market, status } = fixture({ full: true,
+      search: `?q=oxygen&market=in&type=${filter}`,
+      extraItems: [{ name: `Oxygen ${filter}`, market: 'in', type: code, href: `/${filter}/` }],
+    });
+    assert.equal(type.value, filter);
+    assert.equal(list.children.length, 1);
+    assert.equal(status.textContent, '1 result.');
+    assert.equal(box.currentUrl, `/search/?q=oxygen&market=in&type=${filter}`);
+    input.fire('keydown', { key: 'ArrowDown' });
+    assert.equal(input.getAttribute('aria-activedescendant'), 'test-search-option-0');
+    market.value = 'us'; market.fire('change');
+    assert.equal(input.getAttribute('aria-activedescendant'), null);
+    assert.equal(list.hidden, true);
+    assert.equal(box.currentUrl, `/search/?q=oxygen&market=us&type=${filter}`);
+  }
+});
+
+test('select mode excludes comparisons and other editorial types from device choices', () => {
+  const { input, list } = fixture({ select: true, extraItems: ['v', 's', 'l', 'h'].map(type => ({
+    name: 'AirSense comparison', type, market: 'in', href: `/editorial-${type}/`,
+  })) });
+  query(input);
   assert.equal(list.children.length, 1);
 });

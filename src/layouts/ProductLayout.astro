@@ -1,5 +1,5 @@
 ---
-import type { CollectionEntry } from 'astro:content';
+import { getCollection, type CollectionEntry } from 'astro:content';
 import BaseLayout from './BaseLayout.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import PriceBadge from '../components/PriceBadge.astro';
@@ -99,6 +99,13 @@ function topFivePillar(cat: string | undefined): { href: string; label: string }
   return null;
 }
 const topFive = topFivePillar(product.category);
+const [comparisons, guides] = await Promise.all([getCollection('comparisons'), getCollection('guides')]);
+const relevantComparisons = comparisons
+  .filter(({ data }) => data.productA_slug === product.slug || data.productB_slug === product.slug)
+  .sort((a, b) => a.data.productA_name.localeCompare(b.data.productA_name, 'en') || a.data.productB_name.localeCompare(b.data.productB_name, 'en'));
+const relevantGuides = guides
+  .filter((guide) => guide.data.tags.includes('comparison') && guide.body?.includes(`](/${category}/${product.slug}/)`))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title, 'en'));
 ---
 <BaseLayout
   title={title}
@@ -256,11 +263,17 @@ const topFive = topFivePillar(product.category);
     <RelatedProducts currentSlug={product.slug} category={product.category} />
 
     <section class="also-compared" aria-labelledby="also-compared-heading">
-      <h2 id="also-compared-heading">Also compared with</h2>
+      <h2 id="also-compared-heading">{relevantComparisons.length > 0 || relevantGuides.length > 0 ? 'Also compared with' : 'Compare this product'}</h2>
+      {(relevantComparisons.length > 0 || relevantGuides.length > 0) && (
+        <ul>
+          {relevantComparisons.map(({ data }) => (
+            <li><a href={`/compare/${data.slug}/`}>{data.productA_name} vs {data.productB_name}</a></li>
+          ))}
+          {relevantGuides.map((guide) => <li><a href={`/guides/${guide.id}/`}>{guide.data.title}</a></li>)}
+        </ul>
+      )}
       <p class="meta-line">
-        Looking for a head-to-head? Browse the
-        {' '}<a href="/compare/">full comparisons index</a> to see how the
-        {' '}{product.product_name} stacks up against competing models.
+        <a href="/compare/">Browse all comparisons or build your own side-by-side comparison</a>.
       </p>
     </section>
   </article>

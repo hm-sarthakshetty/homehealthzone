@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BrowseProducts from '../../components/BrowseProducts.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CategoryNavigation from '../../components/CategoryNavigation.astro';
 import { getCollection } from 'astro:content';
 
 const [products, reviews] = await Promise.all([
@@ -91,6 +92,7 @@ const cityLinks = [
       {products.length} oxygen concentrators sold in India, reviewed against the same published rubric.
       Search by model, narrow by brand or flow category, or cap your budget to find options in range.
     </p>
+    <CategoryNavigation category="oxygen-concentrators" />
   </header>
 
   <section class="buyer-paths" aria-labelledby="buyer-paths-heading">

@@ -279,7 +279,15 @@ const comparisonWriteups = defineCollection({
   schema: comparisonWriteupSchema,
 });
 
+// Frontmatter from static India editorial routes also feeds search. Keep routes
+// derived from entry IDs so new category pages and shortlists are included.
+const staticSearchPages = defineCollection({
+  loader: glob({ pattern: '{top-5,oxygen-concentrators,cpap,bipap}/**/*.mdx', base: './src/pages' }),
+  schema: editorialSchema,
+});
+
 export const collections = {
+  'static-search-pages': staticSearchPages,
   products,
   'cpap-bipap': cpapBipap,
   comparisons,

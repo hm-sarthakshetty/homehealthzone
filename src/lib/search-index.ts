@@ -2,18 +2,21 @@ import { getCollection } from 'astro:content';
 import { resolvePrice, formatPrice } from './price';
 import { LIVE_MARKETS } from '../data/markets';
 import { productSearchKeywords } from './search-core.mjs';
+import cityPages from '../data/oxygenConcentratorCityPages.json' with { type: 'json' };
+import { intentConfigs, cityIntents } from './oxygen-city-intents';
 import { partners, partnerPath, regions, serviceNames } from './respiratory-partners';
 
 /** Compact wire format: market, type, name, brand, href, price, keywords, discontinued. */
 export type SearchIndexItem = {
-  m: string; t: 'd' | 'g' | 'c' | 'p' | 'm'; n: string; b?: string; h: string;
+  m: string; t: 'd' | 'g' | 'c' | 'p' | 'm' | 'v' | 's' | 'l' | 'h'; n: string; b?: string; h: string;
   p?: string; k?: string; s?: boolean;
 };
 
 export async function getSearchIndex(): Promise<SearchIndexItem[]> {
-  const [products, pap, guides, clinical, usGuides, intlGuides] = await Promise.all([
+  const [products, pap, guides, clinical, usGuides, intlGuides, comparisons, staticPages] = await Promise.all([
     getCollection('products'), getCollection('cpap-bipap'), getCollection('guides'),
     getCollection('clinical'), getCollection('us-guides'), getCollection('intl-guides'),
+    getCollection('comparisons'), getCollection('static-search-pages'),
   ]);
   const items: SearchIndexItem[] = [];
   // The product directory is India-only. Every device result points to its own review.
@@ -36,6 +39,21 @@ export async function getSearchIndex(): Promise<SearchIndexItem[]> {
     const [market, ...slug] = entry.id.split('/');
     if (liveMarkets.has(market)) items.push({ m: market, t: 'g', n: entry.data.title,
       h: `/${market}/guides/${slug.join('/')}/`, k: [entry.data.description, ...entry.data.tags].join(' ') });
+  }
+  const productsBySlug = new Map([...products, ...pap].map(entry => [entry.data.slug, entry.data]));
+  for (const { data } of comparisons) {
+    const a = productsBySlug.get(data.productA_slug);
+    const b = productsBySlug.get(data.productB_slug);
+    items.push({ m: 'in', t: 'v', n: `${a?.product_name || data.productA_name} vs ${b?.product_name || data.productB_name}`,
+      h: `/compare/${data.slug}/`, k: [data.title, data.description, a?.brand, b?.brand,
+        a && productSearchKeywords(a), b && productSearchKeywords(b)].filter(Boolean).join(' ') });
+  }
+  for (const entry of staticPages) items.push({ m: 'in', t: entry.id.startsWith('top-5/') ? 's' : 'h',
+    n: entry.data.title, h: `/${entry.id}/`, k: [entry.data.description, ...entry.data.tags].join(' ') });
+  for (const city of cityPages) {
+    items.push({ m: 'in', t: 'l', n: city.title, h: `/oxygen-concentrators/5-lpm/${city.slug}/`, k: city.description });
+    for (const intent of cityIntents) items.push({ m: 'in', t: 'l', n: intentConfigs[intent].h1(city.city),
+      h: `/oxygen-concentrators/${intent}/${city.slug}/`, k: intentConfigs[intent].description(city.city) });
   }
   const serviceKeywords = ['Home Medix', 'respiratory care experts', 'oxygen concentrator', 'CPAP', 'BiPAP', 'BPAP', ...Object.values(serviceNames)].join(' ');
   items.push({ m: 'in', t: 'p', n: 'Home Medix respiratory care experts and service partners',

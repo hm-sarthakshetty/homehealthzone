@@ -1,0 +1,66 @@
+---
+interface Props {
+  category: 'oxygen-concentrators' | 'cpap' | 'bipap';
+}
+const { category } = Astro.props;
+const navigation = {
+  'oxygen-concentrators': {
+    label: 'Oxygen concentrator guides',
+    links: [
+      ['5 LPM', '/oxygen-concentrators/5-lpm/'],
+      ['10 LPM', '/oxygen-concentrators/10-lpm/'],
+      ['Portable', '/oxygen-concentrators/portable/'],
+      ['Dual flow', '/oxygen-concentrators/dual-flow/'],
+      ['Adjustable purity', '/oxygen-concentrators/adjustable-purity/'],
+      ['Brands', '/oxygen-concentrators/brands/'],
+      ['Prices in India', '/oxygen-concentrators/price-india/'],
+      ['Rental', '/oxygen-concentrators/rental/'],
+      ['Compare models', '/compare/'],
+    ],
+  },
+  cpap: {
+    label: 'CPAP buying guides',
+    links: [
+      ['Top 5 CPAP machines', '/top-5/cpap-machines/'],
+      ['Auto CPAP (APAP)', '/cpap/apap/'],
+      ['Fixed pressure', '/cpap/fixed-pressure/'],
+      ['Brands', '/cpap/brands/'],
+      ['Prices in India', '/cpap/price-india/'],
+      ['Rental', '/cpap/rental/'],
+      ['CPAP comparisons', '/compare/#cpap-comparisons'],
+      ['CPAP vs BiPAP indications', '/guides/cpap-vs-bipap-indications/'],
+    ],
+  },
+  bipap: {
+    label: 'BiPAP buying guides',
+    links: [
+      ['Top 5 BiPAP machines', '/top-5/bipap-machines/'],
+      ['ST mode', '/bipap/st/'],
+      ['Auto ST', '/bipap/auto-st/'],
+      ['TVAPS', '/bipap/tvaps/'],
+      ['Prices in India', '/bipap/price-india/'],
+      ['BiPAP comparisons', '/compare/#bipap-comparisons'],
+      ['CPAP vs BiPAP indications', '/guides/cpap-vs-bipap-indications/'],
+    ],
+  },
+}[category];
+---
+<nav class="category-navigation" aria-label={navigation.label}>
+  <ul>
+    {navigation.links.map(([label, href]) => <li><a href={href}>{label}</a></li>)}
+  </ul>
+</nav>
+<style>
+  .category-navigation { margin-block: var(--space-5); }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-3) var(--space-5);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-sans);
+    font-size: var(--text-sm);
+  }
+  li { margin: 0; }
+</style>

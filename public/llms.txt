@@ -2,7 +2,7 @@
 
 > Respiratory-equipment guides for seven countries, a product directory and device comparisons for India, and a clinical reference library.
 
-HHZ currently tracks 97 oxygen concentrator product records, 81 oxygen concentrator reviews, 26 CPAP/BiPAP product records, 26 CPAP/BiPAP reviews, 72 comparison records, and 72 written comparison pages. The guide library has 84 buyer guides, 6 city-specific 5 LPM buying pages, 30 city service/dealer/repair/price/rental pages, 17 category buyer hubs, and the clinical library has 80 educational explainers.
+HHZ currently tracks 97 oxygen concentrator product records, 81 oxygen concentrator reviews, 26 CPAP/BiPAP product records, 26 CPAP/BiPAP reviews, 72 comparison records, and 72 written comparison pages. The guide library has 84 buyer guides, 6 city-specific 5 LPM buying pages, 30 city service/dealer/repair/price/rental pages, 17 category buyer hubs, and the clinical library has 79 educational explainers.
 
 Home Medix models in the catalogue: Home Medix HM-KX 10 LPM, Home Medix HM-KV 5 LPM, Home Medix HM-BV-30 BiPAP, Home Medix HM-CV-20 Auto CPAP. They are scored in the same product and comparison framework as Philips, Oxymed, ResMed, Nidek, DeVilbiss, BMC, Yuwell, and other brands.
 

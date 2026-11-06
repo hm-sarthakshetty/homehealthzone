@@ -1,0 +1,116 @@
+[
+  {
+    "id": "oxygen-therapy",
+    "title": "Oxygen therapy and interfaces",
+    "description": "Prescriptions, oxygen delivery, disease-specific use and flow selection.",
+    "articles": [
+      "can-two-people-share-a-concentrator",
+      "can-you-use-concentrator-at-night-continuous",
+      "copd-oxygen-prescription-india",
+      "is-2-lpm-enough-flow-selection",
+      "is-93-percent-oxygen-enough",
+      "nasal-cannula-vs-oxygen-mask",
+      "nasal-cannula-vs-simple-mask-vs-non-rebreather-vs-venturi",
+      "oxygen-therapy-at-altitude-india",
+      "oxygen-therapy-for-ild-patients",
+      "pediatric-oxygen-therapy",
+      "post-covid-long-term-oxygen",
+      "simple-oxygen-mask-vs-non-rebreather",
+      "venturi-mask-colour-chart-flow-rate-fio2",
+      "venturi-mask-vs-non-rebreather-mask",
+      "when-copd-patient-needs-oxygen-gold-guidelines-india"
+    ]
+  },
+  {
+    "id": "pap-sleep",
+    "title": "PAP therapy and sleep",
+    "description": "CPAP and BiPAP settings, sleep reports, masks, side effects and adherence.",
+    "articles": [
+      "apap-algorithms-compared",
+      "bipap-backup-rate-explained",
+      "bipap-st-mode-and-indications",
+      "bipap-trigger-cycle-rise-time-ti-explained",
+      "cpap-95th-percentile-pressure-explained",
+      "cpap-compliance-adherence-outcomes",
+      "cpap-compliance-evidence",
+      "cpap-for-heart-failure-patients",
+      "cpap-for-stroke-recovery-patients",
+      "cpap-leak-types",
+      "cpap-mask-types-indian-faces",
+      "cpap-pressure-titration-explained",
+      "cpap-rainout-water-in-hose",
+      "cpap-report-oa-ca-h-fl-rera-explained",
+      "cpap-side-effects-and-management",
+      "does-cpap-lower-blood-pressure",
+      "epflex-epr-flex-cflex-explained",
+      "flow-limitation-events-explained",
+      "heated-tubing-clinical-evidence",
+      "how-ahi-is-actually-calculated",
+      "hypopnea-vs-apnea-detection-thresholds",
+      "ipap-vs-epap-vs-pressure-support",
+      "is-bipap-a-ventilator",
+      "niv-vs-cpap-vs-bipap-decision-tree",
+      "normal-cpap-leak-number",
+      "osa-vs-central-apnea-vs-complex-sleep-apnea",
+      "reading-cpap-report-airview-care-orchestrator-icode",
+      "tvaps-target-volume-assured-pressure-support",
+      "what-happens-if-you-stop-cpap",
+      "what-is-a-good-ahi-on-cpap",
+      "what-is-apap-autoset-mode",
+      "why-cpap-caused-central-apneas",
+      "why-still-tired-on-cpap-low-ahi"
+    ]
+  },
+  {
+    "id": "monitoring",
+    "title": "Oxygen monitoring",
+    "description": "Pulse oximeter technique, reading limitations and blood oxygen measurements.",
+    "articles": [
+      "how-to-read-a-pulse-oximeter",
+      "how-to-read-pulse-oximeter-correctly",
+      "spo2-vs-pao2-vs-sao2"
+    ]
+  },
+  {
+    "id": "equipment-maintenance",
+    "title": "Equipment and maintenance",
+    "description": "Concentrator chemistry, alarms, sieve beds, humidification and power supplies.",
+    "articles": [
+      "concentrator-alarms-explained",
+      "concentrator-maintenance-schedule",
+      "concentrator-night-use-considerations",
+      "does-oxygen-concentrator-heat-humidify-room",
+      "how-psa-oxygen-concentration-works",
+      "humidification-in-indian-climate",
+      "molecular-sieve-contamination",
+      "oxygen-concentrator-electricity-cost-by-state",
+      "sieve-bed-lifespan",
+      "stabilizer-ups-vs-inverter-for-concentrator",
+      "why-93-percent-is-the-ceiling",
+      "why-oxygen-purity-drops-at-high-flow",
+      "zeolite-13x-vs-lix-vs-lilsx"
+    ]
+  },
+  {
+    "id": "access-regulation",
+    "title": "Access, travel and regulation",
+    "description": "Insurance, reimbursement, device sourcing, warranties and travelling with oxygen.",
+    "articles": [
+      "cdsco-medical-device-regulations",
+      "concentrator-warranty-claim-patterns",
+      "concentrator-warranty-claims-india",
+      "counterfeit-oxygen-concentrators-india",
+      "faa-approved-pocs-for-international-travel",
+      "how-to-verify-ce-mark-imported-devices",
+      "oxygen-concentrator-insurance-coverage-india",
+      "oxygen-concentrator-rental-vs-purchase-roi",
+      "oxygen-therapy-reimbursement-cghs-esic",
+      "oxygen-therapy-reimbursement-india",
+      "refurbished-oxygen-concentrator-market",
+      "traveling-with-oxygen-indian-railways-indigo-air-india",
+      "voltage-fluctuations-and-concentrator-warranty",
+      "where-does-your-oxygen-concentrator-come-from",
+      "why-indian-homes-fail-concentrator-warranties"
+    ]
+  }
+]

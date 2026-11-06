@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import BrowseProducts from '../../components/BrowseProducts.astro';
 import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CategoryNavigation from '../../components/CategoryNavigation.astro';
 import { getCollection } from 'astro:content';
 
 const [all, reviews] = await Promise.all([
@@ -39,11 +40,8 @@ const crumbs = [
     <p class="lead">
       Browse {bipapProducts.length} BiPAP machines sold in India across S, Auto, S/T and VAPS modes. Every device is scored against the same published rubric.
     </p>
-    <nav class="hub-paths" aria-label="BiPAP buying guides">
-      <a href="/top-5/bipap-machines/">Best BiPAP machines in India</a>
-      <a href="/bipap/price-india/">BiPAP machine prices</a>
-      <a href="/guides/cpap-vs-bipap-indications/">CPAP vs BiPAP indications</a>
-    </nav>
+
+    <CategoryNavigation category="bipap" />
   </header>
 
   {bipapProducts.length === 0 ? (
@@ -60,10 +58,5 @@ const crumbs = [
   .empty {
     color: var(--color-text-muted);
   }
-  .hub-paths {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--space-3) var(--space-5);
-    margin-top: var(--space-5);
-  }
+
 </style>

@@ -8,7 +8,7 @@ export interface Props {
   entries?: ProductEntry[];
   src?: string;
   market?: string;
-  resultType?: 'all' | 'device' | 'guide' | 'clinical' | 'partner' | 'manufacturer';
+  resultType?: 'all' | 'device' | 'guide' | 'clinical' | 'partner' | 'manufacturer' | 'comparison' | 'shortlist' | 'city' | 'category';
   id?: string;
   label?: string;
   placeholder?: string;
@@ -19,7 +19,7 @@ export interface Props {
   fullResults?: boolean;
 }
 const { entries = [], src, market = 'all', resultType = 'all', id = 'search-box',
-  label = 'Search HHZ', placeholder = 'Search devices, guides and clinical articles…',
+  label = 'Search HHZ', placeholder = 'Search devices, comparisons, guides and more…',
   minChars = 2, maxResults = 8, target = 'navigate', fullResults = false } = Astro.props;
 const index = entries.map((entry) => ({
   slug: entry.data.slug, name: entry.data.product_name, brand: entry.data.brand,
@@ -50,6 +50,8 @@ const index = entries.map((entry) => ({
     <label>Content type <select class="searchbox__type">
       <option value="all">All content</option><option value="device">Device reviews · India</option>
       <option value="guide">Buying guides</option><option value="clinical">Clinical articles · India</option>
+      <option value="comparison">Comparisons · India</option><option value="shortlist">Curated shortlists · India</option>
+      <option value="city">City guides · India</option><option value="category">Category guides · India</option>
       <option value="partner">Service partners · India</option><option value="manufacturer">Manufacturers · India</option>
     </select></label>
   </div>}
